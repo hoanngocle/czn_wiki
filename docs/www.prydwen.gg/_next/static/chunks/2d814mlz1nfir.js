@@ -1,0 +1,1312 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 953760, t => {
+    "use strict";
+    var e, n = t.i(896572),
+        r = t.i(480388),
+        i = t.i(181788),
+        o = t.i(317608),
+        l = t.i(855111),
+        a = t.i(296137),
+        c = ["top", "right", "bottom", "left"],
+        u = c.reduce(function(t, e) {
+            return t.concat(e, e + "-start", e + "-end")
+        }, []),
+        f = Math.min,
+        s = Math.max,
+        d = Math.round,
+        h = Math.floor,
+        m = function(t) {
+            return {
+                x: t,
+                y: t
+            }
+        },
+        p = {
+            left: "right",
+            right: "left",
+            bottom: "top",
+            top: "bottom"
+        };
+
+    function v(t, e) {
+        return "function" == typeof t ? t(e) : t
+    }
+
+    function g(t) {
+        return t.split("-")[0]
+    }
+
+    function y(t) {
+        return t.split("-")[1]
+    }
+
+    function x(t) {
+        return "x" === t ? "y" : "x"
+    }
+
+    function w(t) {
+        return "y" === t ? "height" : "width"
+    }
+
+    function b(t) {
+        var e = t[0];
+        return "t" === e || "b" === e ? "y" : "x"
+    }
+
+    function _(t, e, n) {
+        void 0 === n && (n = !1);
+        var r = y(t),
+            i = x(b(t)),
+            o = w(i),
+            l = "x" === i ? r === (n ? "end" : "start") ? "right" : "left" : "start" === r ? "bottom" : "top";
+        return e.reference[o] > e.floating[o] && (l = D(l)), [l, D(l)]
+    }
+
+    function R(t) {
+        return t.includes("start") ? t.replace("start", "end") : t.replace("end", "start")
+    }
+    var A = ["left", "right"],
+        T = ["right", "left"],
+        L = ["top", "bottom"],
+        O = ["bottom", "top"];
+
+    function D(t) {
+        var e = g(t);
+        return p[e] + t.slice(e.length)
+    }
+
+    function E(t) {
+        return "number" != typeof t ? (0, r._)({
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0
+        }, t) : {
+            top: t,
+            right: t,
+            bottom: t,
+            left: t
+        }
+    }
+
+    function P(t) {
+        var e = t.x,
+            n = t.y,
+            r = t.width,
+            i = t.height;
+        return {
+            width: r,
+            height: i,
+            top: n,
+            left: e,
+            right: e + r,
+            bottom: n + i,
+            x: e,
+            y: n
+        }
+    }
+    var C = t.i(540151),
+        S = t.i(499092),
+        k = t.i(524906);
+
+    function F(t, e, n) {
+        var r, i = t.reference,
+            o = t.floating,
+            l = b(e),
+            a = x(b(e)),
+            c = w(a),
+            u = g(e),
+            f = "y" === l,
+            s = i.x + i.width / 2 - o.width / 2,
+            d = i.y + i.height / 2 - o.height / 2,
+            h = i[c] / 2 - o[c] / 2;
+        switch (u) {
+            case "top":
+                r = {
+                    x: s,
+                    y: i.y - o.height
+                };
+                break;
+            case "bottom":
+                r = {
+                    x: s,
+                    y: i.y + i.height
+                };
+                break;
+            case "right":
+                r = {
+                    x: i.x + i.width,
+                    y: d
+                };
+                break;
+            case "left":
+                r = {
+                    x: i.x - o.width,
+                    y: d
+                };
+                break;
+            default:
+                r = {
+                    x: i.x,
+                    y: i.y
+                }
+        }
+        switch (y(e)) {
+            case "start":
+                r[a] -= h * (n && f ? -1 : 1);
+                break;
+            case "end":
+                r[a] += h * (n && f ? -1 : 1)
+        }
+        return r
+    }
+
+    function H(t, e) {
+        return (0, n._)(function() {
+            var n, r, i, o, l, c, u, f, s, d, h, m, p, g, y, x, w, b, _, R, A, T, L, O, D, C, S, k, F, H, B;
+            return (0, a._)(this, function(a) {
+                switch (a.label) {
+                    case 0:
+                        return void 0 === e && (e = {}), r = t.x, i = t.y, o = t.platform, l = t.rects, c = t.elements, u = t.strategy, d = void 0 === (s = (f = v(e, t)).boundary) ? "clippingAncestors" : s, m = void 0 === (h = f.rootBoundary) ? "viewport" : h, g = void 0 === (p = f.elementContext) ? "floating" : p, x = void 0 !== (y = f.altBoundary) && y, b = E(void 0 === (w = f.padding) ? 0 : w), _ = "floating" === g ? "reference" : "floating", R = c[x ? _ : g], T = o.getClippingRect, L = {}, [4, null == o.isElement ? void 0 : o.isElement(R)];
+                    case 1:
+                        if (!(null == (n = a.sent()) || n)) return [3, 2];
+                        return O = R, [3, 5];
+                    case 2:
+                        if (D = R.contextElement) return [3, 4];
+                        return [4, null == o.getDocumentElement ? void 0 : o.getDocumentElement(c.floating)];
+                    case 3:
+                        D = a.sent(), a.label = 4;
+                    case 4:
+                        O = D, a.label = 5;
+                    case 5:
+                        return [4, T.apply(o, [(L.element = O, L.boundary = d, L.rootBoundary = m, L.strategy = u, L)])];
+                    case 6:
+                        return A = P.apply(void 0, [a.sent()]), C = "floating" === g ? {
+                            x: r,
+                            y: i,
+                            width: l.floating.width,
+                            height: l.floating.height
+                        } : l.reference, [4, null == o.getOffsetParent ? void 0 : o.getOffsetParent(c.floating)];
+                    case 7:
+                        return S = a.sent(), [4, null == o.isElement ? void 0 : o.isElement(S)];
+                    case 8:
+                        if (!a.sent()) return [3, 10];
+                        return [4, null == o.getScale ? void 0 : o.getScale(S)];
+                    case 9:
+                        return F = a.sent() || {
+                            x: 1,
+                            y: 1
+                        }, [3, 11];
+                    case 10:
+                        F = {
+                            x: 1,
+                            y: 1
+                        }, a.label = 11;
+                    case 11:
+                        if (k = F, !o.convertOffsetParentRelativeRectToViewportRelativeRect) return [3, 13];
+                        return [4, o.convertOffsetParentRelativeRectToViewportRelativeRect({
+                            elements: c,
+                            rect: C,
+                            offsetParent: S,
+                            strategy: u
+                        })];
+                    case 12:
+                        return B = a.sent(), [3, 14];
+                    case 13:
+                        B = C, a.label = 14;
+                    case 14:
+                        return H = P.apply(void 0, [B]), [2, {
+                            top: (A.top - H.top + b.top) / k.y,
+                            bottom: (H.bottom - A.bottom + b.bottom) / k.y,
+                            left: (A.left - H.left + b.left) / k.x,
+                            right: (H.right - A.right + b.right) / k.x
+                        }]
+                }
+            })
+        })()
+    }
+
+    function B(t, e) {
+        return {
+            top: t.top - e.height,
+            right: t.right - e.width,
+            bottom: t.bottom - e.height,
+            left: t.left - e.width
+        }
+    }
+
+    function W(t) {
+        return c.some(function(e) {
+            return t[e] >= 0
+        })
+    }
+
+    function M(t) {
+        var e = f.apply(void 0, (0, l._)(t.map(function(t) {
+                return t.left
+            }))),
+            n = f.apply(void 0, (0, l._)(t.map(function(t) {
+                return t.top
+            })));
+        return {
+            x: e,
+            y: n,
+            width: s.apply(void 0, (0, l._)(t.map(function(t) {
+                return t.right
+            }))) - e,
+            height: s.apply(void 0, (0, l._)(t.map(function(t) {
+                return t.bottom
+            }))) - n
+        }
+    }
+    var V = new Set(["left", "top"]),
+        z = t.i(511938);
+
+    function N() {
+        return "u" > typeof window
+    }
+
+    function $(t) {
+        return U(t) ? (t.nodeName || "").toLowerCase() : "#document"
+    }
+
+    function j(t) {
+        var e;
+        return (null == t || null == (e = t.ownerDocument) ? void 0 : e.defaultView) || window
+    }
+
+    function I(t) {
+        var e;
+        return null == (e = (U(t) ? t.ownerDocument : t.document) || window.document) ? void 0 : e.documentElement
+    }
+
+    function U(t) {
+        return !!N() && ((0, z._)(t, Node) || (0, z._)(t, j(t).Node))
+    }
+
+    function q(t) {
+        return !!N() && ((0, z._)(t, Element) || (0, z._)(t, j(t).Element))
+    }
+
+    function K(t) {
+        return !!N() && ((0, z._)(t, HTMLElement) || (0, z._)(t, j(t).HTMLElement))
+    }
+
+    function X(t) {
+        return !(!N() || "u" < typeof ShadowRoot) && ((0, z._)(t, ShadowRoot) || (0, z._)(t, j(t).ShadowRoot))
+    }
+
+    function Y(t) {
+        var e = tr(t),
+            n = e.overflow,
+            r = e.overflowX,
+            i = e.overflowY,
+            o = e.display;
+        return /auto|scroll|overlay|hidden|clip/.test(n + i + r) && "inline" !== o && "contents" !== o
+    }
+
+    function G(t) {
+        try {
+            if (t.matches(":popover-open")) return !0
+        } catch (t) {}
+        try {
+            return t.matches(":modal")
+        } catch (t) {
+            return !1
+        }
+    }
+    var J = /transform|translate|scale|rotate|perspective|filter/,
+        Q = /paint|layout|strict|content/,
+        Z = function(t) {
+            return !!t && "none" !== t
+        };
+
+    function tt(t) {
+        var e = q(t) ? tr(t) : t;
+        return Z(e.transform) || Z(e.translate) || Z(e.scale) || Z(e.rotate) || Z(e.perspective) || !te() && (Z(e.backdropFilter) || Z(e.filter)) || J.test(e.willChange || "") || Q.test(e.contain || "")
+    }
+
+    function te() {
+        return null == e && (e = "u" > typeof CSS && CSS.supports && CSS.supports("-webkit-backdrop-filter", "none")), e
+    }
+
+    function tn(t) {
+        return /^(html|body|#document)$/.test($(t))
+    }
+
+    function tr(t) {
+        return j(t).getComputedStyle(t)
+    }
+
+    function ti(t) {
+        return q(t) ? {
+            scrollLeft: t.scrollLeft,
+            scrollTop: t.scrollTop
+        } : {
+            scrollLeft: t.scrollX,
+            scrollTop: t.scrollY
+        }
+    }
+
+    function to(t) {
+        if ("html" === $(t)) return t;
+        var e = t.assignedSlot || t.parentNode || X(t) && t.host || I(t);
+        return X(e) ? e.host : e
+    }
+
+    function tl(t, e, n) {
+        void 0 === e && (e = []), void 0 === n && (n = !0);
+        var r, i = function t(e) {
+                var n = to(e);
+                return tn(n) ? e.ownerDocument ? e.ownerDocument.body : e.body : K(n) && Y(n) ? n : t(n)
+            }(t),
+            o = i === (null == (r = t.ownerDocument) ? void 0 : r.body),
+            l = j(i);
+        if (!o) return e.concat(i, tl(i, [], n));
+        var a = ta(l);
+        return e.concat(l, l.visualViewport || [], Y(i) ? i : [], a && n ? tl(a) : [])
+    }
+
+    function ta(t) {
+        return t.parent && Object.getPrototypeOf(t.parent) ? t.frameElement : null
+    }
+
+    function tc(t) {
+        var e = tr(t),
+            n = parseFloat(e.width) || 0,
+            r = parseFloat(e.height) || 0,
+            i = K(t),
+            o = i ? t.offsetWidth : n,
+            l = i ? t.offsetHeight : r,
+            a = d(n) !== o || d(r) !== l;
+        return a && (n = o, r = l), {
+            width: n,
+            height: r,
+            $: a
+        }
+    }
+
+    function tu(t) {
+        return q(t) ? t : t.contextElement
+    }
+
+    function tf(t) {
+        var e = tu(t);
+        if (!K(e)) return m(1);
+        var n = e.getBoundingClientRect(),
+            r = tc(e),
+            i = r.width,
+            o = r.height,
+            l = r.$,
+            a = (l ? d(n.width) : n.width) / i,
+            c = (l ? d(n.height) : n.height) / o;
+        return a && Number.isFinite(a) || (a = 1), c && Number.isFinite(c) || (c = 1), {
+            x: a,
+            y: c
+        }
+    }
+    var ts = m(0);
+
+    function td(t) {
+        var e = j(t);
+        return te() && e.visualViewport ? {
+            x: e.visualViewport.offsetLeft,
+            y: e.visualViewport.offsetTop
+        } : ts
+    }
+
+    function th(t, e, n, r) {
+        void 0 === e && (e = !1), void 0 === n && (n = !1);
+        var i, o = t.getBoundingClientRect(),
+            l = tu(t),
+            a = m(1);
+        e && (r ? q(r) && (a = tf(r)) : a = tf(t));
+        var c = (void 0 === (i = n) && (i = !1), r && (!i || r === j(l)) && i) ? td(l) : m(0),
+            u = (o.left + c.x) / a.x,
+            f = (o.top + c.y) / a.y,
+            s = o.width / a.x,
+            d = o.height / a.y;
+        if (l)
+            for (var h = j(l), p = r && q(r) ? j(r) : r, v = h, g = ta(v); g && r && p !== v;) {
+                var y = tf(g),
+                    x = g.getBoundingClientRect(),
+                    w = tr(g),
+                    b = x.left + (g.clientLeft + parseFloat(w.paddingLeft)) * y.x,
+                    _ = x.top + (g.clientTop + parseFloat(w.paddingTop)) * y.y;
+                u *= y.x, f *= y.y, s *= y.x, d *= y.y, u += b, f += _, g = ta(v = j(g))
+            }
+        return P({
+            width: s,
+            height: d,
+            x: u,
+            y: f
+        })
+    }
+
+    function tm(t, e) {
+        var n = ti(t).scrollLeft;
+        return e ? e.left + n : th(I(t)).left + n
+    }
+
+    function tp(t, e) {
+        var n = t.getBoundingClientRect();
+        return {
+            x: n.left + e.scrollLeft - tm(t, n),
+            y: n.top + e.scrollTop
+        }
+    }
+
+    function tv(t, e, n) {
+        if ("viewport" === e) r = function(t, e) {
+            var n = j(t),
+                r = I(t),
+                i = n.visualViewport,
+                o = r.clientWidth,
+                l = r.clientHeight,
+                a = 0,
+                c = 0;
+            if (i) {
+                o = i.width, l = i.height;
+                var u = te();
+                (!u || u && "fixed" === e) && (a = i.offsetLeft, c = i.offsetTop)
+            }
+            var f = tm(r);
+            if (f <= 0) {
+                var s = r.ownerDocument,
+                    d = s.body,
+                    h = getComputedStyle(d),
+                    m = "CSS1Compat" === s.compatMode && parseFloat(h.marginLeft) + parseFloat(h.marginRight) || 0,
+                    p = Math.abs(r.clientWidth - d.clientWidth - m);
+                p <= 25 && (o -= p)
+            } else f <= 25 && (o += f);
+            return {
+                width: o,
+                height: l,
+                x: a,
+                y: c
+            }
+        }(t, n);
+        else if ("document" === e) i = I(t), o = I(i), l = ti(i), a = i.ownerDocument.body, c = s(o.scrollWidth, o.clientWidth, a.scrollWidth, a.clientWidth), u = s(o.scrollHeight, o.clientHeight, a.scrollHeight, a.clientHeight), f = -l.scrollLeft + tm(i), d = -l.scrollTop, "rtl" === tr(a).direction && (f += s(o.clientWidth, a.clientWidth) - c), r = {
+            width: c,
+            height: u,
+            x: f,
+            y: d
+        };
+        else if (q(e)) p = (h = th(e, !0, "fixed" === n)).top + e.clientTop, v = h.left + e.clientLeft, g = K(e) ? tf(e) : m(1), r = {
+            width: e.clientWidth * g.x,
+            height: e.clientHeight * g.y,
+            x: v * g.x,
+            y: p * g.y
+        };
+        else {
+            var r, i, o, l, a, c, u, f, d, h, p, v, g, y = td(t);
+            r = {
+                x: e.x - y.x,
+                y: e.y - y.y,
+                width: e.width,
+                height: e.height
+            }
+        }
+        return P(r)
+    }
+
+    function tg(t, e, n) {
+        var r = K(e),
+            i = I(e),
+            o = "fixed" === n,
+            l = th(t, !0, o, e),
+            a = {
+                scrollLeft: 0,
+                scrollTop: 0
+            },
+            c = m(0);
+        if (r || !r && !o)
+            if (("body" !== $(e) || Y(i)) && (a = ti(e)), r) {
+                var u = th(e, !0, o, e);
+                c.x = u.x + e.clientLeft, c.y = u.y + e.clientTop
+            } else i && (c.x = tm(i));
+        o && !r && i && (c.x = tm(i));
+        var f = !i || r || o ? m(0) : tp(i, a);
+        return {
+            x: l.left + a.scrollLeft - c.x - f.x,
+            y: l.top + a.scrollTop - c.y - f.y,
+            width: l.width,
+            height: l.height
+        }
+    }
+
+    function ty(t) {
+        return "static" === tr(t).position
+    }
+
+    function tx(t, e) {
+        if (!K(t) || "fixed" === tr(t).position) return null;
+        if (e) return e(t);
+        var n = t.offsetParent;
+        return I(t) === n && (n = n.ownerDocument.body), n
+    }
+
+    function tw(t, e) {
+        var n, r = j(t);
+        if (G(t)) return r;
+        if (!K(t)) {
+            for (var i = to(t); i && !tn(i);) {
+                if (q(i) && !ty(i)) return i;
+                i = to(i)
+            }
+            return r
+        }
+        for (var o = tx(t, e); o && (n = o, /^(table|td|th)$/.test($(n))) && ty(o);) o = tx(o, e);
+        return o && tn(o) && ty(o) && !tt(o) ? r : o || function(t) {
+            for (var e = to(t); K(e) && !tn(e);) {
+                if (tt(e)) return e;
+                if (G(e)) break;
+                e = to(e)
+            }
+            return null
+        }(t) || r
+    }
+    var tb = {
+        convertOffsetParentRelativeRectToViewportRelativeRect: function(t) {
+            var e = t.elements,
+                n = t.rect,
+                r = t.offsetParent,
+                i = "fixed" === t.strategy,
+                o = I(r),
+                l = !!e && G(e.floating);
+            if (r === o || l && i) return n;
+            var a = {
+                    scrollLeft: 0,
+                    scrollTop: 0
+                },
+                c = m(1),
+                u = m(0),
+                f = K(r);
+            if ((f || !f && !i) && (("body" !== $(r) || Y(o)) && (a = ti(r)), f)) {
+                var s = th(r);
+                c = tf(r), u.x = s.x + r.clientLeft, u.y = s.y + r.clientTop
+            }
+            var d = !o || f || i ? m(0) : tp(o, a);
+            return {
+                width: n.width * c.x,
+                height: n.height * c.y,
+                x: n.x * c.x - a.scrollLeft * c.x + u.x + d.x,
+                y: n.y * c.y - a.scrollTop * c.y + u.y + d.y
+            }
+        },
+        getDocumentElement: I,
+        getClippingRect: function(t) {
+            for (var e = t.element, n = t.boundary, r = t.rootBoundary, i = t.strategy, o = "clippingAncestors" === n ? G(e) ? [] : function(t, e) {
+                    var n = e.get(t);
+                    if (n) return n;
+                    for (var r = tl(t, [], !1).filter(function(t) {
+                            return q(t) && "body" !== $(t)
+                        }), i = null, o = "fixed" === tr(t).position, l = o ? to(t) : t; q(l) && !tn(l);) {
+                        var a = tr(l),
+                            c = tt(l);
+                        c || "fixed" !== a.position || (i = null), (o ? c || i : !(!c && "static" === a.position && i && ("absolute" === i.position || "fixed" === i.position) || Y(l) && !c && function t(e, n) {
+                            var r = to(e);
+                            return !(r === n || !q(r) || tn(r)) && ("fixed" === tr(r).position || t(r, n))
+                        }(t, l))) ? i = a : r = r.filter(function(t) {
+                            return t !== l
+                        }), l = to(l)
+                    }
+                    return e.set(t, r), r
+                }(e, this._c) : [].concat(n), a = (0, l._)(o).concat([r]), c = tv(e, a[0], i), u = c.top, d = c.right, h = c.bottom, m = c.left, p = 1; p < a.length; p++) {
+                var v = tv(e, a[p], i);
+                u = s(v.top, u), d = f(v.right, d), h = f(v.bottom, h), m = s(v.left, m)
+            }
+            return {
+                width: d - m,
+                height: h - u,
+                x: m,
+                y: u
+            }
+        },
+        getOffsetParent: tw,
+        getElementRects: function(t) {
+            return (0, n._)(function() {
+                var e, n, r, i;
+                return (0, a._)(this, function(o) {
+                    switch (o.label) {
+                        case 0:
+                            return e = this.getOffsetParent || tw, [4, (0, this.getDimensions)(t.floating)];
+                        case 1:
+                            return n = o.sent(), r = {}, i = [t.reference], [4, e(t.floating)];
+                        case 2:
+                            return [2, (r.reference = tg.apply(void 0, i.concat([o.sent(), t.strategy])), r.floating = {
+                                x: 0,
+                                y: 0,
+                                width: n.width,
+                                height: n.height
+                            }, r)]
+                    }
+                })
+            }).call(this)
+        },
+        getClientRects: function(t) {
+            return Array.from(t.getClientRects())
+        },
+        getDimensions: function(t) {
+            var e = tc(t);
+            return {
+                width: e.width,
+                height: e.height
+            }
+        },
+        getScale: tf,
+        isElement: q,
+        isRTL: function(t) {
+            return "rtl" === tr(t).direction
+        }
+    };
+
+    function t_(t, e) {
+        return t.x === e.x && t.y === e.y && t.width === e.width && t.height === e.height
+    }
+    t.s(["arrow", 0, function(t) {
+        return {
+            name: "arrow",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, i, o, l, c, u, d, h, m, p, g, _, R, A, T, L, O, D, P, S, k, F, H, B, W, M, V, z, N, $, j, I, U, q, K, X, Y;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                if (n = e.x, i = e.y, o = e.placement, l = e.rects, c = e.platform, u = e.elements, d = e.middlewareData, m = (h = v(t, e) || {}).element, g = void 0 === (p = h.padding) ? 0 : p, null == m) return [2, {}];
+                                return _ = E(g), R = {
+                                    x: n,
+                                    y: i
+                                }, T = w(A = x(b(o))), [4, c.getDimensions(m)];
+                            case 1:
+                                return L = a.sent(), D = (O = "y" === A) ? "top" : "left", P = O ? "bottom" : "right", S = O ? "clientHeight" : "clientWidth", k = l.reference[T] + l.reference[A] - R[A] - l.floating[T], F = R[A] - l.reference[A], [4, null == c.getOffsetParent ? void 0 : c.getOffsetParent(m)];
+                            case 2:
+                                if (W = !(B = (H = a.sent()) ? H[S] : 0)) return [3, 4];
+                                return [4, null == c.isElement ? void 0 : c.isElement(H)];
+                            case 3:
+                                W = !a.sent(), a.label = 4;
+                            case 4:
+                                return W && (B = u.floating[S] || l.floating[T]), M = k / 2 - F / 2, V = B / 2 - L[T] / 2 - 1, z = f(_[D], V), N = f(_[P], V), $ = z, j = B - L[T] - N, U = s($, f(I = B / 2 - L[T] / 2 + M, j)), K = (q = !d.arrow && null != y(o) && I !== U && l.reference[T] / 2 - (I < $ ? z : N) - L[T] / 2 < 0) ? I < $ ? I - $ : I - j : 0, [2, (Y = {}, (0, C._)(Y, A, R[A] + K), (0, C._)(Y, "data", (0, r._)((X = {}, (0, C._)(X, A, U), (0, C._)(X, "centerOffset", I - U - K), X), q && {
+                                    alignmentOffset: K
+                                })), (0, C._)(Y, "reset", q), Y)]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "autoPlacement", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "autoPlacement",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, r, i, o, c, f, s, d, h, m, p, x, w, b, A, T, L, O, D, E, P, C, k, F, H, B, W, M;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                var V;
+                                return o = e.rects, c = e.middlewareData, f = e.placement, s = e.platform, d = e.elements, p = void 0 !== (m = (h = v(t, e)).crossAxis) && m, x = h.alignment, b = void 0 === (w = h.allowedPlacements) ? u : w, T = void 0 === (A = h.autoAlignment) || A, L = (0, S._)(h, ["crossAxis", "alignment", "allowedPlacements", "autoAlignment"]), O = void 0 !== x || b === u ? ((V = x || null) ? (0, l._)(b.filter(function(t) {
+                                    return y(t) === V
+                                })).concat((0, l._)(b.filter(function(t) {
+                                    return y(t) !== V
+                                }))) : b.filter(function(t) {
+                                    return g(t) === t
+                                })).filter(function(t) {
+                                    return !V || y(t) === V || !!T && R(t) !== t
+                                }) : b, [4, s.detectOverflow(e, L)];
+                            case 1:
+                                if (D = a.sent(), null == (P = O[E = (null == (n = c.autoPlacement) ? void 0 : n.index) || 0])) return [2, {}];
+                                return k = [P, o], [4, null == s.isRTL ? void 0 : s.isRTL(d.floating)];
+                            case 2:
+                                if (C = _.apply(void 0, k.concat([a.sent()])), f !== P) return [2, {
+                                    reset: {
+                                        placement: O[0]
+                                    }
+                                }];
+                                if (F = [D[g(P)], D[C[0]], D[C[1]]], H = (0, l._)((null == (r = c.autoPlacement) ? void 0 : r.overflows) || []).concat([{
+                                        placement: P,
+                                        overflows: F
+                                    }]), B = O[E + 1]) return [2, {
+                                    data: {
+                                        index: E + 1,
+                                        overflows: H
+                                    },
+                                    reset: {
+                                        placement: B
+                                    }
+                                }];
+                                if ((M = (null == (i = (W = H.map(function(t) {
+                                        var e = y(t.placement);
+                                        return [t.placement, e && p ? t.overflows.slice(0, 2).reduce(function(t, e) {
+                                            return t + e
+                                        }, 0) : t.overflows[0], t.overflows]
+                                    }).sort(function(t, e) {
+                                        return t[1] - e[1]
+                                    })).filter(function(t) {
+                                        return t[2].slice(0, y(t[0]) ? 2 : 3).every(function(t) {
+                                            return t <= 0
+                                        })
+                                    })[0]) ? void 0 : i[0]) || W[0][0]) !== f) return [2, {
+                                    data: {
+                                        index: E + 1,
+                                        overflows: H
+                                    },
+                                    reset: {
+                                        placement: M
+                                    }
+                                }];
+                                return [2, {}]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "autoUpdate", 0, function(t, e, n, a) {
+        void 0 === a && (a = {});
+        var c, u = a.ancestorScroll,
+            d = void 0 === u || u,
+            m = a.ancestorResize,
+            p = void 0 === m || m,
+            v = a.elementResize,
+            g = void 0 === v ? "function" == typeof ResizeObserver : v,
+            y = a.layoutShift,
+            x = void 0 === y ? "function" == typeof IntersectionObserver : y,
+            w = a.animationFrame,
+            b = void 0 !== w && w,
+            _ = tu(t),
+            R = d || p ? (0, l._)(_ ? tl(_) : []).concat((0, l._)(e ? tl(e) : [])) : [];
+        R.forEach(function(t) {
+            d && t.addEventListener("scroll", n, {
+                passive: !0
+            }), p && t.addEventListener("resize", n)
+        });
+        var A = _ && x ? function(t, e) {
+                var n, o = null,
+                    l = I(t);
+
+                function a() {
+                    var t;
+                    clearTimeout(n), null == (t = o) || t.disconnect(), o = null
+                }
+                return ! function c(u, d) {
+                    void 0 === u && (u = !1), void 0 === d && (d = 1), a();
+                    var m = t.getBoundingClientRect(),
+                        p = m.left,
+                        v = m.top,
+                        g = m.width,
+                        y = m.height;
+                    if (u || e(), g && y) {
+                        var x = {
+                                rootMargin: -h(v) + "px " + -h(l.clientWidth - (p + g)) + "px " + -h(l.clientHeight - (v + y)) + "px " + -h(p) + "px",
+                                threshold: s(0, f(1, d)) || 1
+                            },
+                            w = !0;
+                        try {
+                            o = new IntersectionObserver(b, (0, i._)((0, r._)({}, x), {
+                                root: l.ownerDocument
+                            }))
+                        } catch (t) {
+                            o = new IntersectionObserver(b, x)
+                        }
+                        o.observe(t)
+                    }
+
+                    function b(e) {
+                        var r = e[0].intersectionRatio;
+                        if (r !== d) {
+                            if (!w) return c();
+                            r ? c(!1, r) : n = setTimeout(function() {
+                                c(!1, 1e-7)
+                            }, 1e3)
+                        }
+                        1 !== r || t_(m, t.getBoundingClientRect()) || c(), w = !1
+                    }
+                }(!0), a
+            }(_, n) : null,
+            T = -1,
+            L = null;
+        g && (L = new ResizeObserver(function(t) {
+            var r = (0, o._)(t, 1)[0];
+            r && r.target === _ && L && e && (L.unobserve(e), cancelAnimationFrame(T), T = requestAnimationFrame(function() {
+                var t;
+                null == (t = L) || t.observe(e)
+            })), n()
+        }), _ && !b && L.observe(_), e && L.observe(e));
+        var O = b ? th(t) : null;
+        return b && function e() {
+                var r = th(t);
+                O && !t_(O, r) && n(), O = r, c = requestAnimationFrame(e)
+            }(), n(),
+            function() {
+                var t;
+                R.forEach(function(t) {
+                    d && t.removeEventListener("scroll", n), p && t.removeEventListener("resize", n)
+                }), null == A || A(), null == (t = L) || t.disconnect(), L = null, b && cancelAnimationFrame(c)
+            }
+    }, "computePosition", 0, function(t, e, o) {
+        var l, c = new Map,
+            u = (0, r._)({
+                platform: tb
+            }, o),
+            f = (0, i._)((0, r._)({}, u.platform), {
+                _c: c
+            });
+        return l = (0, i._)((0, r._)({}, u), {
+            platform: f
+        }), (0, n._)(function() {
+            var n, o, c, u, f, s, d, h, m, p, v, g, y, x, w, b, _, R, A, T, L, O, D, E, P, C;
+            return (0, a._)(this, function(a) {
+                switch (a.label) {
+                    case 0:
+                        return o = void 0 === (n = l.placement) ? "bottom" : n, u = void 0 === (c = l.strategy) ? "absolute" : c, s = void 0 === (f = l.middleware) ? [] : f, h = (d = l.platform).detectOverflow ? d : (0, i._)((0, r._)({}, d), {
+                            detectOverflow: H
+                        }), [4, null == d.isRTL ? void 0 : d.isRTL(e)];
+                    case 1:
+                        return m = a.sent(), [4, d.getElementRects({
+                            reference: t,
+                            floating: e,
+                            strategy: u
+                        })];
+                    case 2:
+                        g = (v = F(p = a.sent(), o, m)).x, y = v.y, x = o, w = 0, b = {}, _ = 0, a.label = 3;
+                    case 3:
+                        if (!(_ < s.length)) return [3, 11];
+                        if (!(R = s[_])) return [3, 10];
+                        return A = R.name, [4, (0, R.fn)({
+                            x: g,
+                            y: y,
+                            initialPlacement: o,
+                            placement: x,
+                            strategy: u,
+                            middlewareData: b,
+                            rects: p,
+                            platform: h,
+                            elements: {
+                                reference: t,
+                                floating: e
+                            }
+                        })];
+                    case 4:
+                        if (L = (T = a.sent()).x, O = T.y, D = T.data, E = T.reset, g = null != L ? L : g, y = null != O ? O : y, b[A] = (0, r._)({}, b[A], D), !(E && w < 50)) return [3, 10];
+                        if (w++, (void 0 === E ? "undefined" : (0, k._)(E)) !== "object") return [3, 9];
+                        if (E.placement && (x = E.placement), !E.rects) return [3, 8];
+                        if (!0 !== E.rects) return [3, 6];
+                        return [4, d.getElementRects({
+                            reference: t,
+                            floating: e,
+                            strategy: u
+                        })];
+                    case 5:
+                        return P = a.sent(), [3, 7];
+                    case 6:
+                        P = E.rects, a.label = 7;
+                    case 7:
+                        p = P, a.label = 8;
+                    case 8:
+                        g = (C = F(p, x, m)).x, y = C.y, a.label = 9;
+                    case 9:
+                        _ = -1, a.label = 10;
+                    case 10:
+                        return _++, [3, 3];
+                    case 11:
+                        return [2, {
+                            x: g,
+                            y: y,
+                            placement: x,
+                            strategy: u,
+                            middlewareData: b
+                        }]
+                }
+            })
+        })()
+    }, "flip", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "flip",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, r, i, o, c, u, f, s, d, h, m, p, x, w, E, P, C, k, F, H, B, W, M, V, z, N, $, j, I, U, q, K, X, Y, G, J, Q, Z, tt, te;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                if (i = e.placement, o = e.middlewareData, c = e.rects, u = e.initialPlacement, f = e.platform, s = e.elements, m = void 0 === (h = (d = v(t, e)).mainAxis) || h, x = void 0 === (p = d.crossAxis) || p, w = d.fallbackPlacements, P = void 0 === (E = d.fallbackStrategy) ? "bestFit" : E, k = void 0 === (C = d.fallbackAxisSideDirection) ? "none" : C, H = void 0 === (F = d.flipAlignment) || F, B = (0, S._)(d, ["mainAxis", "crossAxis", "fallbackPlacements", "fallbackStrategy", "fallbackAxisSideDirection", "flipAlignment"]), null != (n = o.arrow) && n.alignmentOffset) return [2, {}];
+                                return W = g(i), M = b(u), V = g(u) === u, [4, null == f.isRTL ? void 0 : f.isRTL(s.floating)];
+                            case 1:
+                                var tn, tr, ti, to, tl, ta, tc, tu;
+                                return z = a.sent(), N = w || (V || !H ? [D(u)] : (tr = D(tn = u), [R(tn), tr, R(tr)])), $ = "none" !== k, !w && $ && (j = N).push.apply(j, (0, l._)((ti = u, to = H, tl = k, ta = z, tc = y(ti), tu = function(t, e, n) {
+                                    switch (t) {
+                                        case "top":
+                                        case "bottom":
+                                            if (n) return e ? T : A;
+                                            return e ? A : T;
+                                        case "left":
+                                        case "right":
+                                            return e ? L : O;
+                                        default:
+                                            return []
+                                    }
+                                }(g(ti), "start" === tl, ta), tc && (tu = tu.map(function(t) {
+                                    return t + "-" + tc
+                                }), to && (tu = tu.concat(tu.map(R)))), tu))), I = [u].concat((0, l._)(N)), [4, f.detectOverflow(e, B)];
+                            case 2:
+                                if (U = a.sent(), q = [], K = (null == (r = o.flip) ? void 0 : r.overflows) || [], m && q.push(U[W]), x && (X = _(i, c, z), q.push(U[X[0]], U[X[1]])), K = (0, l._)(K).concat([{
+                                        placement: i,
+                                        overflows: q
+                                    }]), !q.every(function(t) {
+                                        return t <= 0
+                                    })) {
+                                    if ((Q = I[J = ((null == (Y = o.flip) ? void 0 : Y.index) || 0) + 1]) && ("alignment" !== x || M === b(Q) || K.every(function(t) {
+                                            return b(t.placement) !== M || t.overflows[0] > 0
+                                        }))) return [2, {
+                                        data: {
+                                            index: J,
+                                            overflows: K
+                                        },
+                                        reset: {
+                                            placement: Q
+                                        }
+                                    }];
+                                    if (!(Z = null == (G = K.filter(function(t) {
+                                            return t.overflows[0] <= 0
+                                        }).sort(function(t, e) {
+                                            return t.overflows[1] - e.overflows[1]
+                                        })[0]) ? void 0 : G.placement)) switch (P) {
+                                        case "bestFit":
+                                            (te = null == (tt = K.filter(function(t) {
+                                                if ($) {
+                                                    var e = b(t.placement);
+                                                    return e === M || "y" === e
+                                                }
+                                                return !0
+                                            }).map(function(t) {
+                                                return [t.placement, t.overflows.filter(function(t) {
+                                                    return t > 0
+                                                }).reduce(function(t, e) {
+                                                    return t + e
+                                                }, 0)]
+                                            }).sort(function(t, e) {
+                                                return t[1] - e[1]
+                                            })[0]) ? void 0 : tt[0]) && (Z = te);
+                                            break;
+                                        case "initialPlacement":
+                                            Z = u
+                                    }
+                                    if (i !== Z) return [2, {
+                                        reset: {
+                                            placement: Z
+                                        }
+                                    }]
+                                }
+                                return [2, {}]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "hide", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "hide",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, o, l, c, u, f, s, d;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                switch (n = e.rects, o = e.platform, u = void 0 === (c = (l = v(t, e)).strategy) ? "referenceHidden" : c, f = (0, S._)(l, ["strategy"]), u) {
+                                    case "referenceHidden":
+                                        return [3, 1];
+                                    case "escaped":
+                                        return [3, 3]
+                                }
+                                return [3, 5];
+                            case 1:
+                                return [4, o.detectOverflow(e, (0, i._)((0, r._)({}, f), {
+                                    elementContext: "reference"
+                                }))];
+                            case 2:
+                                return [2, {
+                                    data: {
+                                        referenceHiddenOffsets: s = B(a.sent(), n.reference),
+                                        referenceHidden: W(s)
+                                    }
+                                }];
+                            case 3:
+                                return [4, o.detectOverflow(e, (0, i._)((0, r._)({}, f), {
+                                    altBoundary: !0
+                                }))];
+                            case 4:
+                                return [2, {
+                                    data: {
+                                        escapedOffsets: d = B(a.sent(), n.floating),
+                                        escaped: W(d)
+                                    }
+                                }];
+                            case 5:
+                                return [2, {}];
+                            case 6:
+                                return [2]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "inline", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "inline",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, r, i, o, c, u, d, h, m, p, y, x, w, _, R, A;
+
+                    function T() {
+                        if (2 === w.length && w[0].left > w[1].right && null != m && null != p) return w.find(function(t) {
+                            return m > t.left - R.left && m < t.right + R.right && p > t.top - R.top && p < t.bottom + R.bottom
+                        }) || _;
+                        if (w.length >= 2) {
+                            if ("y" === b(n)) {
+                                var t = w[0],
+                                    e = w[w.length - 1],
+                                    r = "top" === g(n),
+                                    i = t.top,
+                                    o = e.bottom,
+                                    a = r ? t.left : e.left,
+                                    c = r ? t.right : e.right;
+                                return {
+                                    top: i,
+                                    bottom: o,
+                                    left: a,
+                                    right: c,
+                                    width: c - a,
+                                    height: o - i,
+                                    x: a,
+                                    y: i
+                                }
+                            }
+                            var u = "left" === g(n),
+                                d = s.apply(void 0, (0, l._)(w.map(function(t) {
+                                    return t.right
+                                }))),
+                                h = f.apply(void 0, (0, l._)(w.map(function(t) {
+                                    return t.left
+                                }))),
+                                v = w.filter(function(t) {
+                                    return u ? t.left === h : t.right === d
+                                }),
+                                y = v[0].top,
+                                x = v[v.length - 1].bottom;
+                            return {
+                                top: y,
+                                bottom: x,
+                                left: h,
+                                right: d,
+                                width: d - h,
+                                height: x - y,
+                                x: h,
+                                y: y
+                            }
+                        }
+                        return _
+                    }
+                    return (0, a._)(this, function(l) {
+                        switch (l.label) {
+                            case 0:
+                                return n = e.placement, r = e.elements, i = e.rects, o = e.platform, c = e.strategy, h = void 0 === (d = (u = v(t, e)).padding) ? 2 : d, m = u.x, p = u.y, x = Array.from, [4, null == o.getClientRects ? void 0 : o.getClientRects(r.reference)];
+                            case 1:
+                                return w = function(t) {
+                                    for (var e = t.slice().sort(function(t, e) {
+                                            return t.y - e.y
+                                        }), n = [], r = null, i = 0; i < e.length; i++) {
+                                        var o = e[i];
+                                        !r || o.y - r.y > r.height / 2 ? n.push([o]) : n[n.length - 1].push(o), r = o
+                                    }
+                                    return n.map(function(t) {
+                                        return P(M(t))
+                                    })
+                                }(y = x.apply(Array, [l.sent() || []])), _ = P(M(y)), R = E(h), [4, o.getElementRects({
+                                    reference: {
+                                        getBoundingClientRect: T
+                                    },
+                                    floating: r.floating,
+                                    strategy: c
+                                })];
+                            case 2:
+                                if (A = l.sent(), i.reference.x !== A.reference.x || i.reference.y !== A.reference.y || i.reference.width !== A.reference.width || i.reference.height !== A.reference.height) return [2, {
+                                    reset: {
+                                        rects: A
+                                    }
+                                }];
+                                return [2, {}]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "limitShift", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            options: t,
+            fn: function(e) {
+                var n, i = e.x,
+                    o = e.y,
+                    l = e.placement,
+                    a = e.rects,
+                    c = e.middlewareData,
+                    u = v(t, e),
+                    f = u.offset,
+                    s = u.mainAxis,
+                    d = u.crossAxis,
+                    h = {
+                        x: i,
+                        y: o
+                    },
+                    m = b(l),
+                    p = x(m),
+                    y = h[p],
+                    w = h[m],
+                    _ = v(void 0 === f ? 0 : f, e),
+                    R = "number" == typeof _ ? {
+                        mainAxis: _,
+                        crossAxis: 0
+                    } : (0, r._)({
+                        mainAxis: 0,
+                        crossAxis: 0
+                    }, _);
+                if (void 0 === s || s) {
+                    var A = "y" === p ? "height" : "width",
+                        T = a.reference[p] - a.floating[A] + R.mainAxis,
+                        L = a.reference[p] + a.reference[A] - R.mainAxis;
+                    y < T ? y = T : y > L && (y = L)
+                }
+                if (void 0 === d || d) {
+                    var O, D, E = "y" === p ? "width" : "height",
+                        P = V.has(g(l)),
+                        S = a.reference[m] - a.floating[E] + (P && (null == (O = c.offset) ? void 0 : O[m]) || 0) + (P ? 0 : R.crossAxis),
+                        k = a.reference[m] + a.reference[E] + (P ? 0 : (null == (D = c.offset) ? void 0 : D[m]) || 0) - (P ? R.crossAxis : 0);
+                    w < S ? w = S : w > k && (w = k)
+                }
+                return n = {}, (0, C._)(n, p, y), (0, C._)(n, m, w), n
+            }
+        }
+    }, "offset", 0, function(t) {
+        return void 0 === t && (t = 0), {
+            name: "offset",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var o, l, c, u, f, s, d;
+                    return (0, a._)(this, function(h) {
+                        switch (h.label) {
+                            case 0:
+                                var m;
+                                return c = e.x, u = e.y, f = e.placement, s = e.middlewareData, [4, (m = t, (0, n._)(function() {
+                                    var t, n, r, i, o, l, c, u, f, s, d, h, p, x;
+                                    return (0, a._)(this, function(a) {
+                                        switch (a.label) {
+                                            case 0:
+                                                return t = e.placement, n = e.platform, r = e.elements, [4, null == n.isRTL ? void 0 : n.isRTL(r.floating)];
+                                            case 1:
+                                                return i = a.sent(), o = g(t), l = y(t), c = "y" === b(t), u = V.has(o) ? -1 : 1, f = i && c ? -1 : 1, h = (d = "number" == typeof(s = v(m, e)) ? {
+                                                    mainAxis: s,
+                                                    crossAxis: 0,
+                                                    alignmentAxis: null
+                                                } : {
+                                                    mainAxis: s.mainAxis || 0,
+                                                    crossAxis: s.crossAxis || 0,
+                                                    alignmentAxis: s.alignmentAxis
+                                                }).mainAxis, p = d.crossAxis, x = d.alignmentAxis, l && "number" == typeof x && (p = "end" === l ? -1 * x : x), [2, c ? {
+                                                    x: p * f,
+                                                    y: h * u
+                                                } : {
+                                                    x: h * u,
+                                                    y: p * f
+                                                }]
+                                        }
+                                    })
+                                })())];
+                            case 1:
+                                if (d = h.sent(), f === (null == (o = s.offset) ? void 0 : o.placement) && null != (l = s.arrow) && l.alignmentOffset) return [2, {}];
+                                return [2, {
+                                    x: c + d.x,
+                                    y: u + d.y,
+                                    data: (0, i._)((0, r._)({}, d), {
+                                        placement: f
+                                    })
+                                }]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "shift", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "shift",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, o, l, c, u, d, h, m, p, y, w, _, R, A, T, L, O, D, E, P, k, F, H, B, W, M, V, z, N;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                return n = e.x, o = e.y, l = e.placement, c = e.platform, h = void 0 === (d = (u = v(t, e)).mainAxis) || d, p = void 0 !== (m = u.crossAxis) && m, w = void 0 === (y = u.limiter) ? {
+                                    fn: function(t) {
+                                        return {
+                                            x: t.x,
+                                            y: t.y
+                                        }
+                                    }
+                                } : y, _ = (0, S._)(u, ["mainAxis", "crossAxis", "limiter"]), R = {
+                                    x: n,
+                                    y: o
+                                }, [4, c.detectOverflow(e, _)];
+                            case 1:
+                                return A = a.sent(), O = R[L = x(T = b(g(l)))], D = R[T], h && (E = "y" === L ? "top" : "left", P = "y" === L ? "bottom" : "right", k = O + A[E], F = O - A[P], O = s(k, f(O, F))), p && (H = "y" === T ? "top" : "left", B = "y" === T ? "bottom" : "right", W = D + A[H], M = D - A[B], D = s(W, f(D, M))), z = w.fn((0, i._)((0, r._)({}, e), (V = {}, (0, C._)(V, L, O), (0, C._)(V, T, D), V))), [2, (0, i._)((0, r._)({}, z), {
+                                    data: {
+                                        x: z.x - n,
+                                        y: z.y - o,
+                                        enabled: (N = {}, (0, C._)(N, L, h), (0, C._)(N, T, p), N)
+                                    }
+                                })]
+                        }
+                    })
+                })()
+            }
+        }
+    }, "size", 0, function(t) {
+        return void 0 === t && (t = {}), {
+            name: "size",
+            options: t,
+            fn: function(e) {
+                return (0, n._)(function() {
+                    var n, o, l, c, u, d, h, m, p, x, w, _, R, A, T, L, O, D, E, P, C, k, F, H, B, W, M, V, z, N, $;
+                    return (0, a._)(this, function(a) {
+                        switch (a.label) {
+                            case 0:
+                                return l = e.placement, c = e.rects, u = e.platform, d = e.elements, p = void 0 === (m = (h = v(t, e)).apply) ? function() {} : m, x = (0, S._)(h, ["apply"]), [4, u.detectOverflow(e, x)];
+                            case 1:
+                                if (w = a.sent(), _ = g(l), R = y(l), A = "y" === b(l), L = (T = c.floating).width, O = T.height, "top" !== _ && "bottom" !== _) return [3, 3];
+                                return D = _, [4, null == u.isRTL ? void 0 : u.isRTL(d.floating)];
+                            case 2:
+                                return E = R === (a.sent() ? "start" : "end") ? "left" : "right", [3, 4];
+                            case 3:
+                                E = _, D = "end" === R ? "top" : "bottom", a.label = 4;
+                            case 4:
+                                return P = O - w.top - w.bottom, C = L - w.left - w.right, k = f(O - w[D], P), F = f(L - w[E], C), H = !e.middlewareData.shift, B = k, W = F, null != (n = e.middlewareData.shift) && n.enabled.x && (W = C), null != (o = e.middlewareData.shift) && o.enabled.y && (B = P), H && !R && (M = s(w.left, 0), V = s(w.right, 0), z = s(w.top, 0), N = s(w.bottom, 0), A ? W = L - 2 * (0 !== M || 0 !== V ? M + V : s(w.left, w.right)) : B = O - 2 * (0 !== z || 0 !== N ? z + N : s(w.top, w.bottom))), [4, p((0, i._)((0, r._)({}, e), {
+                                    availableWidth: W,
+                                    availableHeight: B
+                                }))];
+                            case 5:
+                                return a.sent(), [4, u.getDimensions(d.floating)];
+                            case 6:
+                                if ($ = a.sent(), L !== $.width || O !== $.height) return [2, {
+                                    reset: {
+                                        rects: !0
+                                    }
+                                }];
+                                return [2, {}]
+                        }
+                    })
+                })()
+            }
+        }
+    }], 953760)
+}]);

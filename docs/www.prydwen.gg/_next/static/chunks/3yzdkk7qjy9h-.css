@@ -1,0 +1,410 @@
+.avatar {
+    border-radius: var(--radius-none);
+    color: inherit;
+    background-size: contain;
+    border-bottom: 5px solid #dfdfe5
+}
+
+.avatar>img {
+    display: block
+}
+
+.avatar div div {
+    opacity: 1;
+    background-color: #0000;
+    transition: none
+}
+
+.avatar .overlay {
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.avatar.small .overlay {
+    z-index: 1;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.avatar.pw-card-version {
+    background-size: cover
+}
+
+.avatar.psychube {
+    border: 0
+}
+
+.avatar-card {
+    background-color: var(--color-brand-primary);
+    text-align: center;
+    border: 0
+}
+
+.avatar-card a {
+    color: var(--color-text-lighter);
+    text-decoration: none
+}
+
+.avatar-card .floating-bug {
+    background: var(--color-brand-secondary);
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.avatar-card .floating-bug.right-new {
+    background: var(--color-brand-tertiary);
+    left: auto;
+    right: 0
+}
+
+.avatar-card .floating-bug.left-new {
+    background: var(--color-brand-primary)
+}
+
+.avatar-card .floating-bug.left-red {
+    background: var(--color-brand-secondary)
+}
+
+.avatar-card .floating-bug svg {
+    font-size: 16px
+}
+
+.avatar-card .floating-seasonal {
+    background: var(--color-brand-secondary);
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.avatar-card .floating-seasonal.red {
+    background: var(--color-brand-tertiary);
+    color: #fff
+}
+
+.avatar-card .floating-role {
+    background: var(--color-brand-secondary);
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.avatar-card .floating-role svg {
+    font-size: 16px
+}
+
+.avatar-card .floating-element {
+    position: absolute;
+    top: 2px;
+    left: 2px
+}
+
+.avatar-card .floating-element.element img {
+    width: 22px
+}
+
+.avatar-card .floating-element.reverse {
+    top: 0;
+    left: 0
+}
+
+@media (max-width:768px) {
+    .avatar-card .floating-element.reverse img {
+        width: 20px
+    }
+}
+
+.avatar-card .floating-element.eidolon {
+    color: #000;
+    text-align: center;
+    background-color: #c9a36a;
+    width: 24px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    inset: auto 0 0 auto
+}
+
+.avatar-card .floating-element.eidolon.trail {
+    width: 24px
+}
+
+.avatar-card .floating-element.eidolon.rarity-4 {
+    color: #fff;
+    background-color: #8a5fcc;
+    width: 24px
+}
+
+.avatar-card .floating-element.eidolon.rarity-5 {
+    color: #000;
+    background-color: #c9a36a
+}
+
+.avatar-card .floating-element.hsr .element img {
+    filter: drop-shadow(0 1px 1px #000)
+}
+
+.avatar-card .floating-element.tier-list-hsr {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    top: 0;
+    left: auto;
+    right: 0
+}
+
+.avatar-card .floating-element.tier-list-hsr svg {
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: 3px
+}
+
+.avatar-card .floating-element.tier-list-hsr.up {
+    color: var(--color-text-dark);
+    background-color: #7cde97
+}
+
+.avatar-card .floating-element.tier-list-hsr.up.with-change {
+    top: 24px
+}
+
+.avatar-card .floating-element.tier-list-hsr.down {
+    background-color: #ee5757
+}
+
+.avatar-card .floating-element.tier-list-hsr.down.with-change {
+    top: 24px
+}
+
+.avatar-card .floating-element.tier-list-hsr.watchlist {
+    background-color: #3c7cdb
+}
+
+.avatar-card .floating-element.tier-list-hsr.watchlist.with-change {
+    top: 24px
+}
+
+.avatar-card .floating-element.tier-list-hsr.new {
+    background-color: var(--color-brand-tertiary);
+    width: auto;
+    padding: 0 3px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.avatar-card .emp-name {
+    color: var(--color-text-lighter);
+    overflow-wrap: anywhere;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: all .3s;
+    display: inline-block
+}
+
+.avatar-card .emp-name.tags {
+    font-size: 15px;
+    line-height: 24px
+}
+
+.avatar-card .tag {
+    border-radius: var(--radius-none);
+    margin-bottom: 5px;
+    margin-left: 7px;
+    padding: 5px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block
+}
+
+.avatar-card .tag.new {
+    background: var(--color-brand-tertiary);
+    color: var(--color-text-default)
+}
+
+.avatar-card .tag.future {
+    background: var(--color-brand-secondary);
+    color: var(--color-text-default)
+}
+
+.avatar-card .tag.euphoria {
+    color: var(--color-text-default);
+    background: #2b80ff
+}
+
+.avatar-card .tag.buffed {
+    background: var(--color-brand-primary);
+    color: var(--color-text-default)
+}
+
+.avatar-card .tag.bugged {
+    background: var(--color-brand-secondary);
+    color: var(--color-text-default)
+}
+
+.avatar-card:hover a,
+.avatar-card:hover .emp-name {
+    color: var(--color-text-default)
+}
+
+.inline-character-trickcal {
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 600;
+    transition: all .7s;
+    display: inline-flex
+}
+
+.inline-character-trickcal.Composed {
+    color: #20c9eb !important
+}
+
+.inline-character-trickcal.Composed:hover {
+    transition: all .7s;
+    color: #51e2ff !important
+}
+
+.inline-character-trickcal.Depressed {
+    color: #ab89ff !important
+}
+
+.inline-character-trickcal.Depressed:hover {
+    transition: all .7s;
+    color: #744bde !important
+}
+
+.inline-character-trickcal.Innocent {
+    color: #71f959 !important
+}
+
+.inline-character-trickcal.Innocent:hover {
+    transition: all .7s;
+    color: #51c43c !important
+}
+
+.inline-character-trickcal.Mad {
+    color: #ff6060 !important
+}
+
+.inline-character-trickcal.Mad:hover {
+    transition: all .7s;
+    color: #e04747 !important
+}
+
+.inline-character-trickcal.Vivacious {
+    color: #ffee6e !important
+}
+
+.inline-character-trickcal.Vivacious:hover {
+    transition: all .7s;
+    color: #ebda54 !important
+}
+
+.inline-character-trickcal.Resonance {
+    color: #ffc039 !important
+}
+
+.inline-character-trickcal.Resonance:hover {
+    transition: all .7s;
+    color: #d39a1e !important
+}
+
+.inline-character-trickcal .avatar {
+    border-bottom-width: 2px;
+    width: 45px;
+    height: 45px;
+    transition: all .7s;
+    display: inline-block;
+    overflow: hidden
+}
+
+.inline-character-trickcal .avatar img {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important
+}
+
+.inline-character-trickcal .inline-name {
+    padding-bottom: 0;
+    padding-left: 5px
+}
+
+.inline-character-lc {
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 600;
+    transition: all .7s;
+    display: inline-flex
+}
+
+.inline-character-lc.rarity-0 {
+    color: #dfdfe5 !important
+}
+
+.inline-character-lc.rarity-0:hover {
+    transition: all .7s;
+    color: #b2b2b3 !important
+}
+
+.inline-character-lc.rarity-00 {
+    color: #f75824 !important
+}
+
+.inline-character-lc.rarity-00:hover {
+    transition: all .7s;
+    color: #aa320b !important
+}
+
+.inline-character-lc.rarity-000 {
+    color: #ffd146 !important
+}
+
+.inline-character-lc.rarity-000:hover {
+    transition: all .7s;
+    color: #ffc000 !important
+}
+
+.inline-character-lc .avatar {
+    border-bottom-width: 2px;
+    width: 45px;
+    height: 45px;
+    transition: all .7s;
+    display: inline-block;
+    overflow: hidden
+}
+
+.inline-character-lc .avatar img {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important
+}
+
+.inline-character-lc .inline-name {
+    padding-bottom: 0;
+    padding-left: 5px
+}

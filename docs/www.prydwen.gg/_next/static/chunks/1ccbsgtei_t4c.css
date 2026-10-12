@@ -1,0 +1,238 @@
+.single-psychube .pw-accordion-button {
+    background-color: #36373d;
+    gap: 0 10px;
+    padding: 0 10px 0 0
+}
+
+.single-psychube .pw-accordion-button:focus {
+    box-shadow: none
+}
+
+.single-psychube .pw-accordion-button .avatar {
+    width: 70px;
+    border: 0 !important
+}
+
+.single-psychube .pw-accordion-button .information h2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    gap: 4px 8px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex
+}
+
+.single-psychube .pw-accordion-button .information h2 .tag {
+    border-radius: 0;
+    padding: 1px 7px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline-block
+}
+
+.single-psychube .pw-accordion-button .information h2 .tag.new {
+    color: #fff;
+    background: #ed343e
+}
+
+.single-psychube .pw-accordion-button .information h2 .tag.future {
+    color: #fff;
+    background: #c267ec
+}
+
+.single-psychube .pw-accordion-button .information .details {
+    gap: 0 8px;
+    display: flex
+}
+
+.single-psychube .pw-accordion-button .information .details p {
+    color: #ffffffe6;
+    margin: 0;
+    font-size: 14px;
+    line-height: 25px
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-1,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-1 {
+    color: #a7a7a7
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-2,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-2 {
+    color: #93f55b
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-3,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-3 {
+    color: #7b84ac
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-4,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-4 {
+    color: #a27daf
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-5,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-5 {
+    color: #d4ba73
+}
+
+.single-psychube .pw-accordion-button .information .details p span.rarity-6,
+.single-psychube .pw-accordion-button .information .details p strong.rarity-6 {
+    color: #e5a42b
+}
+
+.single-psychube .pw-accordion-body {
+    padding: 10px !important
+}
+
+.single-psychube .pw-accordion-body .character-ratings .rating-box-container {
+    margin-right: 10px
+}
+
+.single-psychube .pw-accordion-body .cones-list {
+    color: #fff;
+    border-color: #33343a;
+    line-height: 24px;
+    font-size: 14px !important
+}
+
+.single-psychube .pw-accordion-body .cones-list thead {
+    background-color: #36373d
+}
+
+.single-psychube .pw-accordion-body .cones-list thead th {
+    color: #fff;
+    background-color: #36373d;
+    border-color: #33343a
+}
+
+.single-psychube .pw-accordion-body .cones-list tr .gatsby-image-wrapper {
+    height: 30px
+}
+
+.single-psychube .pw-accordion-body .cones-list tr td.cone {
+    width: 400px
+}
+
+.single-psychube .pw-accordion-body .cones-list tr td.percent {
+    width: 150px
+}
+
+@media (max-width:768px) {
+    .single-psychube .pw-accordion-body .cones-list tr td {
+        width: 100%
+    }
+}
+
+.single-psychube .pw-accordion-body .cones-list tr .cone-name {
+    font-weight: 500
+}
+
+.single-psychube .pw-accordion-body .cones-list tr.base,
+.single-psychube .pw-accordion-body .cones-list tr.base td {
+    background-color: #59677a !important
+}
+
+.single-psychube .pw-accordion-body .no-info {
+    font-size: 15px;
+    line-height: 25px
+}
+
+.single-psychube .pw-accordion-body .pw-nav-tabs {
+    border-bottom-color: #494a50
+}
+
+@media (max-width:768px) {
+    .single-psychube .pw-accordion-body .pw-nav-item {
+        width: 100%
+    }
+}
+
+.single-psychube .pw-accordion-body .pw-nav-link {
+    text-transform: uppercase;
+    border-bottom: 3px solid #494a50;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 600 !important
+}
+
+@media (max-width:768px) {
+    .single-psychube .pw-accordion-body .pw-nav-link {
+        width: 100%
+    }
+}
+
+.single-psychube .pw-accordion-body .pw-nav-link.active {
+    border-bottom: 3px solid #009eec
+}
+
+.single-psychube .pw-accordion-body .skill-description {
+    font-size: 15px;
+    line-height: 25px
+}
+
+.single-psychube .pw-accordion-body h5 {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.single-psychube .pw-accordion-body .specialities-list {
+    flex-wrap: wrap;
+    margin-top: 5px;
+    display: flex
+}
+
+.single-psychube .pw-accordion-body .specialities-list span {
+    cursor: pointer;
+    background-color: #36373d;
+    border: 1px solid #484950;
+    margin: 0 10px 10px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.single-psychube .pw-accordion-body .cost-list {
+    flex-wrap: wrap;
+    margin-top: 5px;
+    display: flex
+}
+
+.single-psychube .pw-accordion-body .cost-list .details {
+    cursor: pointer;
+    background-color: #36373d;
+    border: 1px solid #484950;
+    margin: 0 10px 10px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.single-psychube .amp-desc {
+    font-size: 14px;
+    line-height: 25px
+}
+
+.single-psychube .amp-desc:last-child {
+    margin-top: 5px
+}
+
+.single-psychube .amp-desc p.level {
+    color: #ffffffe6;
+    margin-bottom: 3px
+}
+
+.single-psychube .amp-desc .details p {
+    margin-bottom: 5px
+}
+
+.single-psychube .amp-desc .details p:last-child {
+    margin-bottom: 0
+}

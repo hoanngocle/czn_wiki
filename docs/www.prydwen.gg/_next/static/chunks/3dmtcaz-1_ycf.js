@@ -1,0 +1,124 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 947935, e => {
+    "use strict";
+    var t = e.i(325084),
+        a = e.i(13421);
+    e.s(["YoutubeEmbed", () => t.YoutubeEmbed, "extractVideoId", () => a.extractVideoId])
+}, 325084, 13421, e => {
+    "use strict";
+    var t = e.i(317608),
+        a = e.i(843476),
+        r = e.i(271645),
+        c = e.i(174080),
+        n = "https://www.youtube-nocookie.com",
+        o = "https://i.ytimg.com";
+
+    function i(e) {
+        if (!e) return "";
+        var t = e.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/);
+        return t ? t[1] : /^[\w-]{11}$/.test(e) ? e : ""
+    }
+    e.s(["YOUTUBE_PLAYER_ORIGIN", 0, n, "YOUTUBE_THUMBNAIL_ORIGIN", 0, o, "extractVideoId", 0, i], 13421), e.s(["YoutubeEmbed", 0, function(e) {
+        var s = e.embedId,
+            u = e.eager,
+            l = e.title,
+            d = (0, t._)((0, r.useState)(!1), 2),
+            m = d[0],
+            p = d[1],
+            v = i(s),
+            b = (0, r.useCallback)(function() {
+                (0, c.preconnect)(n), (0, c.preconnect)(o)
+            }, []);
+        return s && v ? void 0 !== u && u || m ? (0, a.jsx)("div", {
+            className: "video-responsive",
+            children: (0, a.jsx)("iframe", {
+                src: "".concat(n, "/embed/").concat(v).concat(m ? "?autoplay=1" : ""),
+                frameBorder: "0",
+                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                allowFullScreen: !0,
+                title: null != l ? l : "YouTube video"
+            })
+        }) : (0, a.jsx)("div", {
+            className: "video-responsive",
+            children: (0, a.jsxs)("button", {
+                type: "button",
+                className: "yt-facade",
+                onClick: function() {
+                    return p(!0)
+                },
+                onPointerEnter: b,
+                onFocus: b,
+                "aria-label": l ? "Play ".concat(l) : "Play video",
+                children: [(0, a.jsx)("img", {
+                    src: "".concat(o, "/vi_webp/").concat(v, "/maxresdefault.webp"),
+                    onError: function(e) {
+                        var t = e.currentTarget,
+                            a = "".concat(o, "/vi/").concat(v, "/hqdefault.jpg");
+                        t.src !== a && (t.src = a)
+                    },
+                    alt: "",
+                    fetchPriority: "low",
+                    decoding: "async",
+                    className: "yt-facade-thumb"
+                }), (0, a.jsx)("span", {
+                    className: "yt-facade-play",
+                    "aria-hidden": "true"
+                })]
+            })
+        }) : null
+    }], 325084)
+}, 162665, e => {
+    "use strict";
+    var t = e.i(317608),
+        a = e.i(843476),
+        r = e.i(271645);
+    e.s(["HomepageStaticBackground", 0, function(e) {
+        var c, n = e.media,
+            o = n.join("\0"),
+            i = (0, r.useRef)(n);
+        (0, r.useEffect)(function() {
+            i.current = n
+        });
+        var s = (0, t._)((0, r.useState)(function() {
+                var e;
+                return null != (e = n[0]) ? e : null
+            }), 2),
+            u = s[0],
+            l = s[1];
+        if ((0, r.useEffect)(function() {
+                var e = i.current;
+                if (0 === e.length) return void l(null);
+                var t = Math.floor(Math.random() * e.length);
+                if (l(e[t]), !(e.length < 2)) {
+                    var a = t,
+                        r = setInterval(function() {
+                            a = (a + 1) % i.current.length, l(i.current[a])
+                        }, 5e3);
+                    return function() {
+                        return clearInterval(r)
+                    }
+                }
+            }, [o]), !u) return null;
+        var d = (c = u.split("?")[0].split("#")[0].toLowerCase()).endsWith(".webm") || c.endsWith(".mp4");
+        return (0, a.jsxs)("div", {
+            className: "homepage-background",
+            children: [d ? (0, a.jsx)("video", {
+                autoPlay: !0,
+                muted: !0,
+                loop: !0,
+                playsInline: !0,
+                className: "homepage-background-video",
+                children: (0, a.jsx)("source", {
+                    src: u,
+                    type: u.split("?")[0].split("#")[0].toLowerCase().endsWith(".mp4") ? "video/mp4" : "video/webm"
+                })
+            }, u) : (0, a.jsx)("div", {
+                className: "homepage-background-image",
+                style: {
+                    backgroundImage: "url(".concat(u, ")")
+                }
+            }), (0, a.jsx)("div", {
+                className: "homepage-background-gradient"
+            })]
+        })
+    }])
+}]);

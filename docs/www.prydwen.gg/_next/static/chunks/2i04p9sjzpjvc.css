@@ -1,0 +1,1643 @@
+.landing-page {
+    padding-top: 75px
+}
+
+.landing-page .promo-top {
+    width: 85%;
+    margin: 0 auto
+}
+
+@media (max-width:1200px) {
+    .landing-page .promo-top {
+        width: 100%
+    }
+}
+
+.landing-page .promo-top.with-margin {
+    margin-top: 35px;
+    margin-bottom: 35px
+}
+
+.landing-page .promo-top .mobile {
+    display: none
+}
+
+@media (max-width:992px) {
+    .landing-page .promo-top .mobile {
+        display: block
+    }
+}
+
+.landing-page .promo-top .mobile.text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    transition: all .7s;
+    color: #fff !important
+}
+
+.landing-page .promo-top .mobile.text:hover {
+    transition: all .7s;
+    color: #45aafd !important
+}
+
+.landing-page .promo-top .desktop {
+    transition: all .7s;
+    display: block
+}
+
+.landing-page .promo-top .desktop:hover {
+    opacity: .8;
+    transition: all .7s
+}
+
+.landing-page h2 {
+    text-align: center
+}
+
+.landing-page h2.sub-title {
+    margin-bottom: 20px;
+    font-size: 22px
+}
+
+.landing-page .hero-section {
+    height: 440px;
+    padding-top: 70px;
+    padding-bottom: 25px
+}
+
+.landing-page .hero-section.error-404 {
+    padding-top: 0
+}
+
+@media (max-width:992px) {
+    .landing-page .hero-section.error-404 {
+        padding: 40px 0
+    }
+}
+
+.landing-page .hero-section.error-404 p {
+    margin-bottom: 15px
+}
+
+@media (max-width:1200px) {
+    .landing-page .hero-section {
+        height: auto;
+        padding-top: 60px
+    }
+}
+
+.landing-page .hero-section h1 {
+    font-size: 30px;
+    font-weight: 700
+}
+
+@media (max-width:992px) {
+    .landing-page .hero-section h1 {
+        font-size: 24px
+    }
+}
+
+.landing-page .hero-section h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8em
+}
+
+.landing-page .hero-section .pw-btn {
+    margin: 6px 0 15px
+}
+
+.landing-page .hero-section p,
+.landing-page .hero-section svg {
+    color: #ffffff8c;
+    margin-bottom: 0
+}
+
+.landing-page .hero-section .choose-game {
+    margin-top: 25px
+}
+
+.landing-page .about-us {
+    flex-grow: 1;
+    margin: 40px 0 80px
+}
+
+@media (max-width:768px) {
+    .landing-page .about-us {
+        margin-bottom: 40px
+    }
+}
+
+.landing-page .about-us .pw-col-12 {
+    margin-bottom: 25px
+}
+
+@media (max-width:768px) {
+    .landing-page .about-us .pw-col-12 {
+        margin-bottom: 15px
+    }
+}
+
+.landing-page .about-us .box {
+    height: 100%
+}
+
+.landing-page .community {
+    margin-top: 40px;
+    margin-bottom: 80px
+}
+
+@media (max-width:768px) {
+    .new-homepage .upcoming-games {
+        margin-top: 45px
+    }
+}
+
+.new-homepage .pw-alert.yellow-warning p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px
+}
+
+.new-homepage .pw-alert.yellow-warning p svg,
+.new-homepage .pw-alert.yellow-warning p strong {
+    color: #e6d841
+}
+
+.new-homepage h2.popular svg {
+    color: #ed343e;
+    margin-right: 3px
+}
+
+.new-homepage h2.supported svg,
+.new-homepage h2.upcoming svg {
+    color: #fff;
+    margin-right: 3px
+}
+
+.new-homepage h2 span {
+    color: #fff
+}
+
+@media (max-width:768px) {
+    .new-homepage h2 span.hide-mobile {
+        display: none
+    }
+}
+
+.new-homepage h2 span.show-mobile {
+    display: none
+}
+
+@media (max-width:768px) {
+    .new-homepage h2 span.show-mobile {
+        display: inline
+    }
+}
+
+.new-homepage .no-results {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0
+}
+
+.new-homepage .no-results img {
+    width: 100px
+}
+
+.new-homepage .no-results p {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.new-homepage .header-center {
+    text-align: center;
+    margin-top: 25px
+}
+
+.new-homepage .pw-form-control {
+    width: 55%;
+    margin: 15px auto 45px;
+    font-size: 15px
+}
+
+@media (max-width:992px) {
+    .new-homepage .pw-form-control {
+        width: 100%
+    }
+}
+
+.new-homepage .see-more {
+    text-align: right;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.new-homepage .see-more a {
+    color: #ffffffe6
+}
+
+.new-homepage .see-more a:hover {
+    color: #fff
+}
+
+.new-homepage .hero-section {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.new-homepage .homepage-main-content {
+    grid-gap: 15px 20px;
+    grid-template-columns: 60% 36%;
+    justify-content: space-between;
+    margin-top: 75px;
+    display: grid
+}
+
+@media (max-width:992px) {
+    .new-homepage .homepage-main-content {
+        grid-template-columns: 100%
+    }
+}
+
+.new-homepage .game-switcher {
+    margin-bottom: 0
+}
+
+.new-homepage .game-switcher.popular {
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 19%)
+}
+
+.new-homepage .game-switcher.popular .game-image {
+    aspect-ratio: 347/187
+}
+
+.new-homepage .game-switcher.popular .game-name h2 {
+    text-shadow: 2px 2px 2px #1c1d21;
+    font-size: 20px;
+    line-height: 24px
+}
+
+@media (max-width:992px) {
+    .new-homepage .game-switcher.popular {
+        grid-template-columns: repeat(auto-fill, 32%)
+    }
+    .new-homepage .game-switcher.popular .game-name h2 {
+        font-size: 18px;
+        line-height: 24px
+    }
+}
+
+@media (max-width:768px) {
+    .new-homepage .game-switcher.popular {
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, 100%)
+    }
+    .new-homepage .game-switcher.popular .game-image {
+        aspect-ratio: auto;
+        height: 55px
+    }
+}
+
+.new-homepage .game-switcher.all {
+    grid-gap: 15px 10px;
+    grid-template-columns: repeat(auto-fill, 32%)
+}
+
+.new-homepage .game-switcher.all .game-image {
+    aspect-ratio: 347/187
+}
+
+@media (max-width:992px) {
+    .new-homepage .game-switcher.all {
+        grid-template-columns: repeat(auto-fill, 32%)
+    }
+    .new-homepage .game-switcher.all .game-name h2 {
+        font-size: 18px;
+        line-height: 24px
+    }
+}
+
+@media (max-width:768px) {
+    .new-homepage .game-switcher.all {
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, 100%)
+    }
+    .new-homepage .game-switcher.all .game-image {
+        aspect-ratio: auto;
+        height: 55px
+    }
+}
+
+.new-homepage .upcoming-tracker.grid {
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    display: grid
+}
+
+@media (max-width:768px) {
+    .new-homepage .upcoming-tracker {
+        margin-bottom: 15px
+    }
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item {
+    border: 0;
+    margin-bottom: 10px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.dream button {
+    background-color: #c79085;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_dream.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.dream .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #c79085 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.trav button {
+    background-color: #3686f1;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_trav.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.trav .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #3686f1 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.endfield button {
+    background-color: #f7f95f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_endfield.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.endfield .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #f7f95f 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.ananta button {
+    background-color: #fd8b8b;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_ananta.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.ananta .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #fd8b8b 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.ap button {
+    background-color: #96dbf4;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_ap.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.ap .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #96dbf4 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.chasing button {
+    background-color: #1e8ebb;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_chasing.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.chasing .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #1e8ebb 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.king button {
+    background-color: #5f3c5f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_king.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.king .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #5f3c5f 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.nte button {
+    background-color: #516d95;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_nte.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.nte .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #516d95 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.rewind button {
+    background-color: #79665f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_rewind.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.rewind .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #79665f 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.silverpal button {
+    background-color: #cca255;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_silver.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.silverpal .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #cca255 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.star button {
+    background-color: #95e1f9;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_star.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.star .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #95e1f9 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.stella button {
+    background-color: #9cd9f9;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_stella.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.stella .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #9cd9f9 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.terbis button {
+    background-color: #5ab0f7;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_terbis.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.terbis .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #5ab0f7 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.aniimo button {
+    background-color: #f2e0c5;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_aniimo.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.aniimo .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #f2e0c5 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.hna button {
+    background-color: #434478;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_hna.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.hna .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #434478 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.hok button {
+    background-color: #ccd8f6;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_hok.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.hok .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #ccd8f6 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.mongil button {
+    background-color: #cec5c1;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_mongil.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.mongil .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #cec5c1 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.neko button {
+    background-color: #e7709b;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_neko.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.neko .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #e7709b 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.utopia button {
+    background-color: #ce1b41;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_utopia.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.utopia .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #ce1b41 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.dawn button {
+    background-color: #495659;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_dawn.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.dawn .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #495659 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.wang button {
+    background-color: #4f3f79;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_wang.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.wang .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #4f3f79 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.sevends button {
+    background-color: #006b42;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_sevends.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.sevends .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #006b42 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.petit button {
+    background-color: #fae755;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_petit.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.petit .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #fae755 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.varsa button {
+    background-color: #202322;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_varsa.webp)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item.varsa .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #202322 100%)
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header {
+    opacity: 1;
+    transition: all .7s
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header:hover {
+    opacity: .9;
+    transition: all .7s
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button:focus {
+    border-color: none;
+    box-shadow: none !important
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .game-info {
+    z-index: 5
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .game-info .game-name {
+    text-shadow: 2px 2px 2px #1c1d21;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .game-info .game-tags {
+    margin-bottom: 0
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .game-info .game-tags .tag {
+    color: #191817;
+    background-color: #fff;
+    margin-right: 3px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .countdown {
+    z-index: 20;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    right: 30px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header button .countdown span.time {
+    background-color: #0003;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0 5px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header .overlay {
+    z-index: 1;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-header .overlay-prim {
+    z-index: 1;
+    opacity: .25;
+    background: #333;
+    border-radius: 4px;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body {
+    background-color: #2c2d33;
+    border: 1px solid #33343a;
+    padding: 10px 15px;
+    font-size: 15px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body hr {
+    opacity: .1
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .inner {
+    padding: 10px 15px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body h6 {
+    font-size: 18px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag {
+    color: #fff;
+    background-color: #23242a;
+    margin-right: 3px;
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.generic {
+    color: #191817;
+    background-color: #fff
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.android {
+    background-color: #28b16a
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.ios {
+    background-color: #646464
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.steam {
+    background-color: #1c1c1c
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.pc {
+    background-color: #3d9eed
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body .tag.warning {
+    color: #2a2a2a;
+    background-color: #e6d841
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body p {
+    margin-bottom: 5px;
+    line-height: 24px
+}
+
+.new-homepage .upcoming-tracker .pw-accordion-item .pw-accordion-body p span {
+    color: #ffffffbf
+}
+
+.new-homepage .upcoming-games-container {
+    grid-gap: 10px;
+    grid-template-columns: 32.8% 32.8% 32.8%;
+    display: grid
+}
+
+@media (max-width:1200px) {
+    .new-homepage .upcoming-games-container {
+        grid-template-columns: 49.5% 49.5%
+    }
+}
+
+@media (max-width:768px) {
+    .new-homepage .upcoming-games-container {
+        grid-template-columns: 100%
+    }
+}
+
+.new-homepage .upcoming-games-container .single-game {
+    background-color: #2c2d33;
+    border: 1px solid #33343a;
+    height: 100%;
+    margin-bottom: 10px
+}
+
+.new-homepage .upcoming-games-container .single-game.dream .single-game-header {
+    background-color: #c79085;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_dream.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.dream .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #c79085 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.trav .single-game-header {
+    background-color: #3686f1;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_trav.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.trav .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #3686f1 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.endfield .single-game-header {
+    background-color: #f7f95f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_endfield.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.endfield .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #f7f95f 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.ananta .single-game-header {
+    background-color: #87c1f3;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_ananta.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.ananta .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #87c1f3 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.ap .single-game-header {
+    background-color: #96dbf4;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_ap.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.ap .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #96dbf4 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.chasing .single-game-header {
+    background-color: #1e8ebb;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_chasing.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.chasing .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #1e8ebb 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.king .single-game-header {
+    background-color: #5f3c5f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_king.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.king .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #5f3c5f 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.nte .single-game-header {
+    background-color: #516d95;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_nte.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.nte .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #516d95 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.rewind .single-game-header {
+    background-color: #79665f;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_rewind.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.rewind .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #79665f 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.silverpal .single-game-header {
+    background-color: #cca255;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_silver.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.silverpal .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #cca255 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.star .single-game-header {
+    background-color: #95e1f9;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_star.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.star .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #95e1f9 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.stella .single-game-header {
+    background-color: #9cd9f9;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_stella.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.stella .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #9cd9f9 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.terbis .single-game-header {
+    background-color: #5ab0f7;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_terbis.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.terbis .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #5ab0f7 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.aniimo .single-game-header {
+    background-color: #f2e0c5;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_aniimo.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.aniimo .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #f2e0c5 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.hna .single-game-header {
+    background-color: #434478;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_hna.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.hna .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #434478 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.hok .single-game-header {
+    background-color: #ccd8f6;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_hok.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.hok .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #ccd8f6 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.mongil .single-game-header {
+    background-color: #cec5c1;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_mongil.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.mongil .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #cec5c1 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.neko .single-game-header {
+    background-color: #e7709b;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_neko.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.neko .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #e7709b 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.utopia .single-game-header {
+    background-color: #3956ac;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_utopia.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.utopia .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #3956ac 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.dawn .single-game-header {
+    background-color: #495659;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_dawn.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.dawn .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #495659 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.wang .single-game-header {
+    background-color: #4f3f79;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_wang.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.wang .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #4f3f79 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.sevends .single-game-header {
+    background-color: #006b42;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_sevends.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.sevends .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #006b42 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.petit .single-game-header {
+    background-color: #fae755;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_petit.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.petit .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #fae755 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game.varsa .single-game-header {
+    background-color: #202322;
+    background-image: url(https://cdn.prydwen.gg/images/upcoming/game_varsa.webp)
+}
+
+.new-homepage .upcoming-games-container .single-game.varsa .overlay {
+    background: linear-gradient(90deg, #fff0 0%, #202322 100%)
+}
+
+.new-homepage .upcoming-games-container .single-game .video-control {
+    cursor: pointer;
+    opacity: 1;
+    transition: all .7s
+}
+
+.new-homepage .upcoming-games-container .single-game .video-control:hover {
+    opacity: .8;
+    transition: all .7s
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header:focus {
+    border-color: none;
+    box-shadow: none !important
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .game-info {
+    z-index: 5
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .game-info .game-name {
+    text-shadow: 2px 2px 2px #1c1d21;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .game-info .game-tags {
+    margin-bottom: 0
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .game-info .game-tags .tag {
+    color: #191817;
+    background-color: #fff;
+    margin-right: 3px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .countdown {
+    z-index: 20;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    right: 5px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .countdown span.time {
+    background-color: #0003;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0 5px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .overlay {
+    z-index: 2;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-header .overlay-prim {
+    z-index: 1;
+    opacity: .25;
+    background: #333;
+    border-radius: 4px;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body {
+    padding: 10px 15px 0;
+    font-size: 15px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body p.with-limitations {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden
+}
+
+@media (max-width:992px) {
+    .new-homepage .upcoming-games-container .single-game .single-game-body p.with-limitations {
+        -webkit-line-clamp: 10;
+        line-clamp: 10
+    }
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body p.hide-mobile {
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .7s
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body p.hide-mobile:hover {
+    opacity: .8;
+    transition: all .7s
+}
+
+@media (max-width:992px) {
+    .new-homepage .upcoming-games-container .single-game .single-game-body p.hide-mobile {
+        display: none
+    }
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body hr {
+    opacity: .1
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .inner {
+    padding: 10px 15px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body h6 {
+    font-size: 18px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag {
+    color: #fff;
+    background-color: #23242a;
+    margin-right: 3px;
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.generic {
+    color: #191817;
+    background-color: #fff
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.android {
+    background-color: #28b16a
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.ios {
+    background-color: #646464
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.steam {
+    background-color: #1c1c1c
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.pc {
+    background-color: #3d9eed
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body .tag.warning {
+    color: #2a2a2a;
+    background-color: #e6d841
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body p {
+    margin-bottom: 5px;
+    line-height: 24px
+}
+
+.new-homepage .upcoming-games-container .single-game .single-game-body p span {
+    color: #ffffffbf
+}
+
+.about-us-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 40px 0 80px;
+    display: grid
+}
+
+@media (max-width:992px) {
+    .about-us-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width:768px) {
+    .about-us-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 40px
+    }
+}
+
+.numbers-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 40px 0 80px;
+    display: grid
+}
+
+@media (max-width:1200px) {
+    .numbers-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width:768px) {
+    .numbers-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 40px
+    }
+}
+
+.community-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 40px 0 80px;
+    display: grid
+}
+
+@media (max-width:1200px) {
+    .community-section {
+        grid-template-columns: 1fr
+    }
+}
+
+.community-card {
+    background: #2c2d33;
+    border: 2px solid #33343a;
+    border-radius: 0;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden
+}
+
+.community-card.with-image .pw-card-image {
+    margin: -2px -2px 0;
+    overflow: hidden
+}
+
+.community-card.with-image .pw-card-image img {
+    width: calc(100% + 4px);
+    height: auto;
+    display: block
+}
+
+.community-card .pw-card-content {
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+    display: flex
+}
+
+.community-card .pw-card-content h3 {
+    margin-bottom: 10px;
+    font-size: 24px
+}
+
+.community-card .pw-card-content h3 .highlight {
+    color: #009eec
+}
+
+.community-card .pw-card-content p {
+    color: #ffffffe6;
+    margin-bottom: 15px
+}
+
+.community-card .pw-card-content p.member-count {
+    color: #ffffff8c;
+    font-size: 14px
+}
+
+.community-card .pw-card-content .pw-btn-community {
+    color: #fff;
+    background-color: #009eec;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: auto;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color .3s;
+    display: inline-flex
+}
+
+.community-card .pw-card-content .pw-btn-community:hover {
+    color: #fff;
+    background-color: #1aadf7
+}
+
+.community-card .pw-card-content .pw-btn-community.kofi {
+    background-color: #ed343e
+}
+
+.community-card .pw-card-content .pw-btn-community.kofi:hover {
+    background-color: #f75058
+}
+
+.community-card .pw-card-content .pw-btn-community.patreon {
+    background-color: #f96854
+}
+
+.community-card .pw-card-content .pw-btn-community.patreon:hover {
+    background-color: #e04e3a
+}
+
+.community-card.gradient-blue {
+    background: linear-gradient(#009eec0d .15%, #009eec00 60%), #2c2d33
+}
+
+.community-card.gradient-blue .pw-card-content h3 .highlight {
+    color: #009eec
+}
+
+.community-card.gradient-red {
+    background: linear-gradient(#ed343e0d .15%, #ff3d3d00 60%), #2c2d33
+}
+
+.community-card.gradient-red .pw-card-content h3 .highlight {
+    color: #ed343e
+}
+
+.community-card.gradient-purple {
+    background: linear-gradient(#c267ec0d .15%, #c267ec00 60%), #2c2d33
+}
+
+.community-card.gradient-purple .pw-card-content h3 .highlight {
+    color: #c267ec
+}
+
+.upcoming-game-card {
+    background-color: #2c2d33;
+    border: 1px solid #33343a;
+    border-radius: 0;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.upcoming-game-card .game-header {
+    cursor: pointer;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden
+}
+
+.upcoming-game-card .game-header:focus {
+    border-color: none;
+    outline: none;
+    box-shadow: none !important
+}
+
+.upcoming-game-card .game-header .game-info {
+    z-index: 5
+}
+
+.upcoming-game-card .game-header .game-info .game-name {
+    text-shadow: 2px 2px 2px #1c1d21;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.upcoming-game-card .game-header .game-info .game-tags {
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-bottom: 0;
+    display: flex
+}
+
+.upcoming-game-card .game-header .game-info .game-tags .tag {
+    color: #191817;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.upcoming-game-card .game-header .countdown {
+    z-index: 20;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    right: 30px
+}
+
+.upcoming-game-card .game-header .countdown .time {
+    background-color: #0003;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0 5px
+}
+
+.upcoming-game-card .game-header .countdown .time.launched {
+    background-color: #28b16a4d
+}
+
+.upcoming-game-card .game-header .countdown .time.soon {
+    background-color: #ed343e4d
+}
+
+.upcoming-game-card .game-header .expand-arrow {
+    z-index: 20;
+    color: #fff;
+    position: absolute;
+    right: 10px
+}
+
+.upcoming-game-card .game-header .overlay {
+    z-index: 2;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.upcoming-game-card .game-header .overlay-prim {
+    z-index: 1;
+    opacity: .25;
+    background: #333;
+    border-radius: 4px;
+    width: 375px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.upcoming-game-card .game-body {
+    padding: 10px 15px;
+    font-size: 15px
+}
+
+.upcoming-game-card .game-body hr {
+    opacity: .1
+}
+
+.upcoming-game-card .game-body p {
+    margin-bottom: 5px;
+    line-height: 24px
+}
+
+.upcoming-game-card .game-body p span {
+    color: #ffffffbf
+}
+
+.upcoming-game-card .game-body p strong {
+    color: #fff
+}
+
+.upcoming-game-card .game-body .about-text span {
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 600;
+    display: block
+}
+
+.upcoming-game-card .game-body .tag {
+    color: #fff;
+    background-color: #23242a;
+    border-radius: 3px;
+    align-items: center;
+    gap: 4px;
+    margin-left: 5px;
+    padding: 3px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-flex
+}
+
+.upcoming-game-card .game-body .tag.generic {
+    color: #191817;
+    background-color: #fff
+}
+
+.upcoming-game-card .game-body .tag.android {
+    background-color: #28b16a
+}
+
+.upcoming-game-card .game-body .tag.ios {
+    background-color: #646464
+}
+
+.upcoming-game-card .game-body .tag.steam {
+    background-color: #1c1c1c
+}
+
+.upcoming-game-card .game-body .tag.pc {
+    background-color: #3d9eed
+}
+
+.upcoming-game-card .game-body .tag.warning {
+    color: #2a2a2a;
+    background-color: #e6d841
+}
+
+.upcoming-game-card .game-body .trailer-section .trailer-button {
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: background-color .3s;
+    display: inline-flex
+}
+
+.upcoming-game-card .game-body .trailer-section .trailer-button:hover {
+    background-color: #c00
+}
+
+.upcoming-game-card .game-body .trailer-section .trailer-embed {
+    height: 0;
+    margin-top: 10px;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden
+}
+
+.upcoming-game-card .game-body .trailer-section .trailer-embed iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.upcoming-game-card.detailed .game-header {
+    transition: opacity .7s
+}
+
+.upcoming-game-card.detailed .game-header:hover {
+    opacity: .9
+}
+
+.promo-banner-section {
+    width: 85%;
+    margin: 35px auto
+}
+
+@media (max-width:1200px) {
+    .promo-banner-section {
+        width: 100%
+    }
+}
+
+.promo-banner-section a {
+    transition: opacity .7s;
+    display: block
+}
+
+.promo-banner-section a:hover {
+    opacity: .8
+}
+
+.promo-banner-section img {
+    border-radius: 0;
+    width: 100%;
+    height: auto
+}
+
+.background-switcher {
+    z-index: -1;
+    pointer-events: none;
+    height: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.background-switcher .background-inner {
+    opacity: 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .5s ease-in-out;
+    position: absolute;
+    inset: 0
+}
+
+.background-switcher.resonance-solstice .background-inner.resonance-solstice,
+.background-switcher.trickcal .background-inner.trickcal,
+.background-switcher.counter-side .background-inner.counter-side,
+.background-switcher.nikke .background-inner.nikke,
+.background-switcher.limbus-company .background-inner.limbus-company,
+.background-switcher.star-rail .background-inner.star-rail,
+.background-switcher.re1999 .background-inner.re1999,
+.background-switcher.zenless .background-inner.zenless,
+.background-switcher.afk-journey .background-inner.afk-journey,
+.background-switcher.arknights-endfield .background-inner.arknights-endfield,
+.background-switcher.exilium .background-inner.exilium,
+.background-switcher.wuthering-waves .background-inner.wwuthering-waves,
+.background-switcher.solo .background-inner.solo,
+.background-switcher.etheria-restart .background-inner.etheria-restart,
+.background-switcher.persona-5x .background-inner.persona-5x,
+.background-switcher.lost-sword .background-inner.lost-sword,
+.background-switcher.chaos-zero-nightmare .background-inner.chaos-zero-nightmare,
+.background-switcher.silver-and-blood .background-inner.silver-and-blood,
+.background-switcher.neverness-to-everness .background-inner.neverness-to-everness {
+    opacity: 1
+}
+
+.homepage-background {
+    z-index: -1;
+    pointer-events: none;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden
+}
+
+.homepage-background-image {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.homepage-background-video {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.homepage-background-gradient {
+    background: linear-gradient(#23242a00 0%, #23242a 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}

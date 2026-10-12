@@ -1,0 +1,94 @@
+.lc-affinity,
+.lc-rarity {
+    color: #fff;
+    cursor: pointer;
+    opacity: .8;
+    transition: var(--lc-hover-transition);
+    background-color: #36373d;
+    border-bottom: 3px solid #009eec;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: flex;
+    height: 47px !important
+}
+
+.lc-affinity:hover,
+.lc-rarity:hover {
+    opacity: 1;
+    transition: var(--lc-hover-transition)
+}
+
+@media (max-width:1200px) {
+    .lc-affinity,
+    .lc-rarity {
+        justify-content: center
+    }
+}
+
+.lc-affinity.rarity-0,
+.lc-rarity.rarity-0 {
+    border-color: var(--lc-rarity-0)
+}
+
+.lc-affinity.rarity-00,
+.lc-rarity.rarity-00 {
+    border-color: var(--lc-rarity-00)
+}
+
+.lc-affinity.rarity-000,
+.lc-rarity.rarity-000 {
+    border-color: var(--lc-rarity-000)
+}
+
+.lc-affinity.Envy,
+.lc-rarity.Envy {
+    border-color: var(--lc-envy-border)
+}
+
+.lc-affinity.Gloom,
+.lc-rarity.Gloom {
+    border-color: var(--lc-gloom-border)
+}
+
+.lc-affinity.Gluttony,
+.lc-rarity.Gluttony {
+    border-color: var(--lc-gluttony-border)
+}
+
+.lc-affinity.Lust,
+.lc-rarity.Lust {
+    border-color: var(--lc-lust-border)
+}
+
+.lc-affinity.Pride,
+.lc-rarity.Pride {
+    border-color: var(--lc-pride-border)
+}
+
+.lc-affinity.Sloth,
+.lc-rarity.Sloth {
+    border-color: var(--lc-sloth-border)
+}
+
+.lc-affinity.Wrath,
+.lc-rarity.Wrath {
+    border-color: var(--lc-wrath-border)
+}
+
+.lc-affinity img,
+.lc-rarity img {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.lc-item {
+    display: inline
+}
+
+.lc-item img {
+    width: 34px;
+    height: 34px;
+    margin: 0 !important
+}

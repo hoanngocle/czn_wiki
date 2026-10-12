@@ -1,0 +1,1331 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 90317, (e, n, r) => {
+    "use strict";
+    var c = e.r(280274),
+        a = e.r(632357),
+        t = e.r(144073);
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    });
+    var l = {
+        bindSnapshot: function() {
+            return h
+        },
+        createAsyncLocalStorage: function() {
+            return u
+        },
+        createSnapshot: function() {
+            return m
+        }
+    };
+    for (var i in l) Object.defineProperty(r, i, {
+        enumerable: !0,
+        get: l[i]
+    });
+    var s = Object.defineProperty(Error("Invariant: AsyncLocalStorage accessed in runtime where it is not available"), "__NEXT_ERROR_CODE", {
+            value: "E504",
+            enumerable: !1,
+            configurable: !0
+        }),
+        o = function() {
+            function e() {
+                c._(this, e)
+            }
+            return a._(e, [{
+                key: "disable",
+                value: function() {
+                    throw s
+                }
+            }, {
+                key: "getStore",
+                value: function() {}
+            }, {
+                key: "run",
+                value: function() {
+                    throw s
+                }
+            }, {
+                key: "exit",
+                value: function() {
+                    throw s
+                }
+            }, {
+                key: "enterWith",
+                value: function() {
+                    throw s
+                }
+            }], [{
+                key: "bind",
+                value: function(e) {
+                    return e
+                }
+            }]), e
+        }(),
+        d = "u" > typeof globalThis && globalThis.AsyncLocalStorage;
+
+    function u() {
+        return d ? new d : new o
+    }
+
+    function h(e) {
+        return d ? d.bind(e) : o.bind(e)
+    }
+
+    function m() {
+        return d ? d.snapshot() : function(e) {
+            for (var n = arguments.length, r = Array(n > 1 ? n - 1 : 0), c = 1; c < n; c++) r[c - 1] = arguments[c];
+            return e.apply(void 0, t._(r))
+        }
+    }
+}, 242344, (e, n, r) => {
+    "use strict";
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "workAsyncStorageInstance", {
+        enumerable: !0,
+        get: function() {
+            return c
+        }
+    });
+    var c = (0, e.r(90317).createAsyncLocalStorage)()
+}, 563599, (e, n, r) => {
+    "use strict";
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "workAsyncStorage", {
+        enumerable: !0,
+        get: function() {
+            return c.workAsyncStorageInstance
+        }
+    });
+    var c = e.r(242344)
+}, 667585, (e, n, r) => {
+    "use strict";
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "BailoutToCSR", {
+        enumerable: !0,
+        get: function() {
+            return a
+        }
+    });
+    var c = e.r(132061);
+
+    function a(e) {
+        var n = e.reason,
+            r = e.children;
+        if ("u" < typeof window) throw Object.defineProperty(new c.BailoutToCSRError(n), "__NEXT_ERROR_CODE", {
+            value: "E394",
+            enumerable: !1,
+            configurable: !0
+        });
+        return r
+    }
+}, 652157, (e, n, r) => {
+    "use strict";
+    var c = e.r(144073);
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "PreloadChunks", {
+        enumerable: !0,
+        get: function() {
+            return o
+        }
+    });
+    var a = e.r(843476),
+        t = e.r(174080),
+        l = e.r(563599),
+        i = e.r(309885),
+        s = e.r(543369);
+
+    function o(e) {
+        var n = e.moduleIds;
+        if ("u" > typeof window) return null;
+        var r = l.workAsyncStorage.getStore();
+        if (void 0 === r) return null;
+        var o = [];
+        if (r.reactLoadableManifest && n) {
+            var d = r.reactLoadableManifest,
+                u = !0,
+                h = !1,
+                m = void 0;
+            try {
+                for (var f, v = n[Symbol.iterator](); !(u = (f = v.next()).done); u = !0) {
+                    var p = f.value;
+                    if (d[p]) {
+                        var x = d[p].files;
+                        o.push.apply(o, c._(x))
+                    }
+                }
+            } catch (e) {
+                h = !0, m = e
+            } finally {
+                try {
+                    u || null == v.return || v.return()
+                } finally {
+                    if (h) throw m
+                }
+            }
+        }
+        if (0 === o.length) return null;
+        var w = (0, s.getAssetTokenQuery)();
+        return (0, a.jsx)(a.Fragment, {
+            children: o.map(function(e) {
+                var n = "".concat(r.assetPrefix, "/_next/").concat((0, i.encodeURIPath)(e)).concat(w);
+                return e.endsWith(".css") ? (0, a.jsx)("link", {
+                    precedence: "dynamic",
+                    href: n,
+                    rel: "stylesheet",
+                    as: "style",
+                    nonce: r.nonce
+                }, e) : ((0, t.preload)(n, {
+                    as: "script",
+                    fetchPriority: "low",
+                    nonce: r.nonce
+                }), null)
+            })
+        })
+    }
+}, 869093, (e, n, r) => {
+    "use strict";
+    var c = e.r(743010),
+        a = e.r(762278);
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "default", {
+        enumerable: !0,
+        get: function() {
+            return u
+        }
+    });
+    var t = e.r(843476),
+        l = e.r(271645),
+        i = e.r(667585),
+        s = e.r(652157);
+
+    function o(e) {
+        return {
+            default: e && "default" in e ? e.default : e
+        }
+    }
+    var d = {
+            loader: function() {
+                return Promise.resolve(o(function() {
+                    return null
+                }))
+            },
+            loading: null,
+            ssr: !0
+        },
+        u = function(e) {
+            var n = c._({}, d, e),
+                r = (0, l.lazy)(function() {
+                    return n.loader().then(o)
+                }),
+                u = n.loading;
+
+            function h(e) {
+                var o = u ? (0, t.jsx)(u, {
+                        isLoading: !0,
+                        pastDelay: !0,
+                        error: null
+                    }) : null,
+                    d = !n.ssr || !!n.loading,
+                    h = d ? l.Suspense : l.Fragment,
+                    m = n.ssr ? (0, t.jsxs)(t.Fragment, {
+                        children: ["u" < typeof window ? (0, t.jsx)(s.PreloadChunks, {
+                            moduleIds: n.modules
+                        }) : null, (0, t.jsx)(r, c._({}, e))]
+                    }) : (0, t.jsx)(i.BailoutToCSR, {
+                        reason: "next/dynamic",
+                        children: (0, t.jsx)(r, c._({}, e))
+                    });
+                return (0, t.jsx)(h, a._(c._({}, d ? {
+                    fallback: o
+                } : {}), {
+                    children: m
+                }))
+            }
+            return h.displayName = "LoadableComponent", h
+        }
+}, 770703, (e, n, r) => {
+    "use strict";
+    var c = e.r(743010),
+        a = e.r(762278),
+        t = e.r(416659);
+    Object.defineProperty(r, "__esModule", {
+        value: !0
+    }), Object.defineProperty(r, "default", {
+        enumerable: !0,
+        get: function() {
+            return i
+        }
+    });
+    var l = e.r(563141)._(e.r(869093));
+
+    function i(e, n) {
+        var r, t = {};
+        "function" == typeof e && (t.loader = e);
+        var i = c._({}, t, n);
+        return (0, l.default)(a._(c._({}, i), {
+            modules: null == (r = i.loadableGenerated) ? void 0 : r.modules
+        }))
+    }("function" == typeof r.default || "object" === t._(r.default) && null !== r.default) && void 0 === r.default.__esModule && (Object.defineProperty(r.default, "__esModule", {
+        value: !0
+    }), Object.assign(r.default, r), n.exports = r.default)
+}, 20607, e => {
+    "use strict";
+    var n = e.i(843476),
+        r = e.i(758240),
+        c = e.i(8359),
+        a = e.i(292843);
+    e.s(["AdFooterSpot", 0, function(e) {
+        var t = e.game,
+            l = (0, r.useAdPlaceholderMode)(),
+            i = (0, c.useAdsBlocked)();
+        return (0, a.useRampReprocess)(), (0, n.jsx)("div", {
+            className: "pw-content-placeholder with-margin-bottom".concat(l ? " ad-dev-placeholder" : ""),
+            id: "pw-footer-ad-1",
+            "data-ad-slot": "pw-footer-ad-1",
+            "data-ad-type": "Footer",
+            "data-ad-size": "728×90 / responsive",
+            "data-ad-game": t || "",
+            "data-ad-blocked": i ? "true" : void 0
+        })
+    }])
+}, 404618, e => {
+    "use strict";
+    var n = e.i(843476),
+        r = e.i(758240),
+        c = e.i(8359),
+        a = e.i(292843),
+        t = e.i(72335);
+    e.s(["AdTopSpot", 0, function(e) {
+        var l = e.game;
+        e.profile, e.tier;
+        var i = (0, r.useAdPlaceholderMode)(),
+            s = (0, c.useAdsBlocked)();
+        return (0, a.useRampReprocess)(), (0, n.jsxs)(n.Fragment, {
+            children: [(0, n.jsx)("div", {
+                className: "pw-content-placeholder".concat(i ? " ad-dev-placeholder" : ""),
+                id: "pw-header-ad-1",
+                "data-ad-slot": "pw-header-ad-1",
+                "data-ad-type": "Header (Primary)",
+                "data-ad-size": "728×90 / responsive",
+                "data-ad-game": l || "",
+                "data-ad-blocked": s ? "true" : void 0
+            }), (0, n.jsx)(t.HeaderBannerSlot, {
+                location: "HEADER_1"
+            })]
+        })
+    }])
+}, 607087, e => {
+    "use strict";
+    var n = e.i(843476),
+        r = e.i(618566),
+        c = e.i(404618),
+        a = ["/", "/terms", "/privacy-policy"],
+        t = ["/news", "/upcoming-games", "/settings"];
+    e.s(["AdTopSpotPublic", 0, function() {
+        var e = (0, r.usePathname)();
+        return a.includes(e) || t.some(function(n) {
+            return e.startsWith(n)
+        }) ? null : (0, n.jsx)(c.AdTopSpot, {})
+    }])
+}, 72335, e => {
+    "use strict";
+    var n = e.i(317608),
+        r = e.i(843476),
+        c = e.i(271645),
+        a = e.i(618566),
+        t = e.i(548124),
+        l = e.i(866301),
+        i = e.i(296412),
+        s = e.i(294496),
+        o = e.i(8359);
+    e.s(["HeaderBannerSlot", 0, function(e) {
+        var d, u = e.location,
+            h = e.initialBanners,
+            m = e.initialPathKey,
+            f = (0, a.usePathname)(),
+            v = (0, s.useAdFreeHint)(),
+            p = (0, o.useShouldHideBanners)(),
+            x = (0, i.useBannerSeed)(),
+            w = "ad-free" === v || p,
+            b = null != h ? h : x ? x[u] : void 0,
+            g = null != m ? m : null == x ? void 0 : x.pathKey,
+            j = (0, n._)((0, c.useState)(null != b ? b : null), 2),
+            y = j[0],
+            z = j[1],
+            H = (0, n._)((0, c.useState)(null), 2),
+            M = H[0],
+            L = H[1],
+            k = (0, c.useRef)(void 0 !== b && null != g ? g : null);
+        (0, c.useEffect)(function() {
+            if (!w) {
+                var e = (0, t.normalizeBannerPath)(f || "/");
+                if (null !== k.current && e === k.current) {
+                    z(function(e) {
+                        var n;
+                        return null != (n = null != e ? e : b) ? n : []
+                    }), L(function(e) {
+                        if (null !== e) return e;
+                        var n = null != b ? b : [];
+                        return n.length > 0 ? Math.floor(Math.random() * n.length) : null
+                    });
+                    return
+                }
+                var n = !1;
+                return fetch("/api/banners/header-slot?location=".concat(u, "&path=").concat(encodeURIComponent(f || "/")), {
+                        credentials: "omit"
+                    }).then(function(e) {
+                        return e.ok ? e.json() : {
+                            banners: []
+                        }
+                    }).then(function(r) {
+                        if (!n) {
+                            var c, a = null != (c = null == r ? void 0 : r.banners) ? c : [];
+                            z(a), L(a.length > 0 ? Math.floor(Math.random() * a.length) : null), k.current = e
+                        }
+                    }).catch(function() {
+                        n || (z([]), L(null))
+                    }),
+                    function() {
+                        n = !0
+                    }
+            }
+        }, [u, f, w]);
+        var C = !w && y && null !== M && null != (d = y[M]) ? d : null;
+        return (0, r.jsx)("div", {
+            className: "custom-banner-header",
+            "data-banner-location": u,
+            children: C && (0, r.jsx)(l.BannerClient, {
+                banner: C
+            })
+        })
+    }])
+}, 579183, e => {
+    "use strict";
+    var n = e.i(480388),
+        r = e.i(843476),
+        c = e.i(618566),
+        a = e.i(522016),
+        t = e.i(384799),
+        l = e.i(136142);
+
+    function i(e) {
+        var n = e.label,
+            c = e.url;
+        return c.startsWith("/") ? (0, r.jsx)(a.default, {
+            href: c,
+            prefetch: !1,
+            children: n
+        }) : /^https?:\/\//i.test(c) ? (0, r.jsx)("a", {
+            href: c,
+            target: "_blank",
+            rel: "noreferrer",
+            children: n
+        }) : (0, r.jsx)("a", {
+            href: c,
+            children: n
+        })
+    }
+
+    function s(e) {
+        for (var n, c = e.logoUrl, s = e.settings, o = e.games, d = void 0 === o ? [] : o, u = e.siteEnabled, h = (0, l.useNewsLinkVariant)(void 0 !== u && u), m = Math.max(6, Math.ceil(d.length / 3)), f = [], v = 0; v < d.length; v += m) f.push(d.slice(v, v + m));
+        var p = (null != (n = null == s ? void 0 : s.quickLinks) ? n : []).map(function(e) {
+                var n, r, c, a;
+                return {
+                    label: null != (n = null == e || null == (c = e.label) ? void 0 : c.trim()) ? n : "",
+                    url: null != (r = null == e || null == (a = e.url) ? void 0 : a.trim()) ? r : ""
+                }
+            }).filter(function(e) {
+                return e.label && e.url
+            }),
+            x = (null == s ? void 0 : s.showGamesList) !== !1,
+            w = (null == s ? void 0 : s.aboutText) || "Prydwen.gg provides news, tier lists and detailed guides for Honkai: Star Rail, Counter Side, NIKKE, Limbus Company, Zenless Zone Zero, Reverse 1999 and other gacha games. Everything you need in one place!";
+        return (0, r.jsx)("div", {
+            className: "footer",
+            children: (0, r.jsxs)("div", {
+                className: "pw-container",
+                children: [(0, r.jsxs)("div", {
+                    className: "flex flex-wrap gap-6",
+                    children: [(0, r.jsxs)("div", {
+                        className: "xs:col-span-12 xs:basis-full md:col-span-6 md:basis-6/12 md:grow-0",
+                        children: [(0, r.jsx)(t.Logo, {
+                            size: "full",
+                            logoUrl: c
+                        }), (0, r.jsx)("p", {
+                            className: "about",
+                            children: w
+                        })]
+                    }), (0, r.jsxs)("div", {
+                        className: "xs:col-span-12 xs:basis-full md:col-span-2 md:basis-2/12 md:grow-0",
+                        children: [(0, r.jsx)("h5", {
+                            children: "Prydwen Institute"
+                        }), (0, r.jsxs)("ul", {
+                            children: [(0, r.jsx)("li", {
+                                children: (0, r.jsx)(a.default, {
+                                    href: "/",
+                                    prefetch: !1,
+                                    children: "Home"
+                                })
+                            }), "hidden" !== h && (0, r.jsxs)("li", {
+                                children: [(0, r.jsx)(a.default, {
+                                    href: "/news",
+                                    prefetch: !1,
+                                    children: "News"
+                                }), "pre-launch" === h && (0, r.jsx)("span", {
+                                    className: "ml-2 text-[0.6rem] uppercase tracking-wider px-1.5 py-0.5 rounded align-middle",
+                                    style: {
+                                        color: "var(--color-text-muted)",
+                                        border: "1px solid var(--color-border)"
+                                    },
+                                    title: "News is gated to the public; you see this link because your role bypasses the gate.",
+                                    children: "Pre-launch"
+                                })]
+                            }), (0, r.jsx)("li", {
+                                children: (0, r.jsx)("a", {
+                                    href: "mailto:contact@prydwen.gg",
+                                    children: "Contact us"
+                                })
+                            }), (0, r.jsx)("li", {
+                                children: (0, r.jsx)(a.default, {
+                                    href: "/support-us",
+                                    prefetch: !1,
+                                    children: "Support Us"
+                                })
+                            }), p.map(function(e, n) {
+                                return (0, r.jsx)("li", {
+                                    children: (0, r.jsx)(i, {
+                                        label: e.label,
+                                        url: e.url
+                                    })
+                                }, "".concat(n, "-").concat(e.url))
+                            })]
+                        })]
+                    }), (0, r.jsxs)("div", {
+                        className: "xs:col-span-12 xs:basis-full md:col-span-2 md:basis-2/12 md:grow-0",
+                        children: [(0, r.jsx)("h5", {
+                            children: "Social Media"
+                        }), (0, r.jsxs)("ul", {
+                            children: [((null == s ? void 0 : s.discordUrl) || !s) && (0, r.jsx)("li", {
+                                children: (0, r.jsx)("a", {
+                                    href: (null == s ? void 0 : s.discordUrl) || "https://discord.gg/prydwen",
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    children: "Discord"
+                                })
+                            }), ((null == s ? void 0 : s.twitterUrl) || !s) && (0, r.jsx)("li", {
+                                children: (0, r.jsx)("a", {
+                                    href: (null == s ? void 0 : s.twitterUrl) || "https://twitter.com/PrydwenGG",
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    children: "Twitter"
+                                })
+                            }), (null == s ? void 0 : s.youtubeUrl) && (0, r.jsx)("li", {
+                                children: (0, r.jsx)("a", {
+                                    href: s.youtubeUrl,
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    children: "YouTube"
+                                })
+                            })]
+                        })]
+                    }), (null == s ? void 0 : s.partnerLinks) && s.partnerLinks.length > 0 && (0, r.jsxs)("div", {
+                        className: "xs:col-span-12 xs:basis-full md:col-span-2 md:basis-2/12 md:grow-0",
+                        children: [(0, r.jsx)("h5", {
+                            children: "Partners"
+                        }), (0, r.jsx)("ul", {
+                            children: s.partnerLinks.map(function(e) {
+                                return (0, r.jsx)("li", {
+                                    children: (0, r.jsx)("a", {
+                                        href: e.url,
+                                        target: "_blank",
+                                        rel: "noreferrer",
+                                        children: e.label
+                                    })
+                                }, e.url)
+                            })
+                        })]
+                    })]
+                }), x && d.length > 0 && (0, r.jsx)("div", {
+                    className: "flex flex-wrap gap-6",
+                    children: f.map(function(e, n) {
+                        return (0, r.jsxs)("div", {
+                            className: "xs:col-span-12 xs:basis-full md:col-span-3 md:basis-3/12 md:grow-0",
+                            children: [(0, r.jsx)("h5", {
+                                children: 0 === n ? "Supported Games" : (0, r.jsx)(r.Fragment, {
+                                    children: " "
+                                })
+                            }), (0, r.jsx)("ul", {
+                                children: e.map(function(e) {
+                                    return (0, r.jsx)("li", {
+                                        children: (0, r.jsx)(a.default, {
+                                            href: e.basePath,
+                                            prefetch: !1,
+                                            children: e.name
+                                        })
+                                    }, e.basePath)
+                                })
+                            })]
+                        }, n)
+                    })
+                }), (0, r.jsxs)("div", {
+                    className: "footer-bottom flex flex-wrap items-center justify-between gap-2",
+                    children: [(0, r.jsx)("ul", {
+                        className: "important-links",
+                        children: (0, r.jsx)("li", {
+                            children: (0, r.jsx)(a.default, {
+                                href: "/privacy-policy",
+                                prefetch: !1,
+                                children: "Privacy Policy"
+                            })
+                        })
+                    }), (0, r.jsxs)("p", {
+                        suppressHydrationWarning: !0,
+                        children: ["Copyright © 2022 - ", new Date().getFullYear(), " Prydwen.gg"]
+                    })]
+                })]
+            })
+        })
+    }
+    e.s(["FooterSwitch", 0, function(e) {
+        return "/" === (0, c.usePathname)() ? (0, r.jsx)(s, (0, n._)({}, e)) : null
+    }], 579183)
+}, 848146, e => {
+    "use strict";
+    var n = e.i(317608),
+        r = e.i(843476),
+        c = e.i(271645),
+        a = e.i(149721),
+        t = e.i(999763),
+        l = e.i(522016),
+        i = e.i(384799),
+        s = e.i(481011),
+        o = e.i(657688),
+        d = e.i(217255),
+        u = e.i(720414);
+
+    function h() {
+        return (0, r.jsx)("span", {
+            className: "sr-only",
+            children: "(opens in new tab)"
+        })
+    }
+
+    function m(e) {
+        var a, t = e.headerLinks,
+            i = e.hasOtherGames,
+            s = (0, d.useSession)(),
+            m = s.data,
+            f = s.status,
+            v = (0, n._)((0, c.useState)(!1), 2),
+            p = v[0],
+            x = v[1],
+            w = (0, c.useRef)(null),
+            b = (0, c.useRef)(null),
+            g = (0, c.useRef)(null);
+        (0, c.useEffect)(function() {
+            p && requestAnimationFrame(function() {
+                var e;
+                null == (e = b.current) || e.focus()
+            })
+        }, [p]);
+        var j = (0, c.useCallback)(function() {
+            x(!1), requestAnimationFrame(function() {
+                var e;
+                null == (e = w.current) || e.focus()
+            })
+        }, []);
+        return (0, c.useEffect)(function() {
+            if (p) {
+                var e = function(e) {
+                    if ("Escape" === e.key) return void j();
+                    if ("Tab" === e.key && g.current) {
+                        var n = g.current.querySelectorAll('button, a, input, select, textarea, [tabindex]:not([tabindex="-1"])'),
+                            r = n[0],
+                            c = n[n.length - 1];
+                        e.shiftKey && document.activeElement === r ? (e.preventDefault(), null == c || c.focus()) : e.shiftKey || document.activeElement !== c || (e.preventDefault(), null == r || r.focus())
+                    }
+                };
+                return document.addEventListener("keydown", e),
+                    function() {
+                        return document.removeEventListener("keydown", e)
+                    }
+            }
+        }, [p, j]), (0, c.useEffect)(function() {
+            return p ? document.body.style.overflow = "hidden" : document.body.style.overflow = "",
+                function() {
+                    document.body.style.overflow = ""
+                }
+        }, [p]), (0, r.jsxs)(r.Fragment, {
+            children: [(0, r.jsx)("button", {
+                ref: w,
+                className: "flex md:hidden items-center justify-center bg-transparent border-0 mobile-nav-trigger",
+                onClick: function() {
+                    return x(!p)
+                },
+                "aria-label": p ? "Close menu" : "Open menu",
+                "aria-expanded": p,
+                "aria-controls": "mobile-nav-menu",
+                children: (0, r.jsx)(u.SvgIcon, {
+                    name: p ? "times" : "bars",
+                    width: 24,
+                    "aria-hidden": !0
+                })
+            }), p && (0, r.jsx)("div", {
+                className: "mobile-nav-backdrop",
+                onClick: j,
+                "aria-hidden": !0
+            }), (0, r.jsxs)("nav", {
+                ref: g,
+                id: "mobile-nav-menu",
+                role: "dialog",
+                "aria-modal": "true",
+                "aria-label": "Mobile navigation menu",
+                className: "mobile-nav-panel flex flex-col ".concat(p ? "is-open" : "is-closed"),
+                children: [(0, r.jsxs)("div", {
+                    className: "mobile-nav-header flex justify-between items-center border-b font-semibold",
+                    children: [(0, r.jsx)("span", {
+                        children: "Menu"
+                    }), (0, r.jsx)("button", {
+                        ref: b,
+                        className: "mobile-nav-close-btn bg-transparent border-0",
+                        onClick: j,
+                        "aria-label": "Close menu",
+                        children: (0, r.jsx)(u.SvgIcon, {
+                            name: "times",
+                            width: 20,
+                            "aria-hidden": !0
+                        })
+                    })]
+                }), (0, r.jsxs)("div", {
+                    className: "mobile-nav-body grow overflow-auto",
+                    children: [(0, r.jsx)(l.default, {
+                        href: "/",
+                        className: "mobile-nav-link",
+                        onClick: j,
+                        children: "Home"
+                    }), (0, r.jsx)(l.default, {
+                        href: "/upcoming-games",
+                        className: "mobile-nav-link",
+                        onClick: j,
+                        children: "Upcoming Games"
+                    }), void 0 !== i && i && (0, r.jsx)(l.default, {
+                        href: "/other-games",
+                        className: "mobile-nav-link",
+                        onClick: j,
+                        children: "Other Games"
+                    }), (0, r.jsx)(l.default, {
+                        href: "/news",
+                        className: "mobile-nav-link",
+                        onClick: j,
+                        children: "News"
+                    }), t.map(function(e) {
+                        return "discord" === e.buttonStyle ? (0, r.jsxs)("a", {
+                            href: e.url,
+                            target: e.isExternal ? "_blank" : void 0,
+                            rel: e.isExternal ? "noopener noreferrer" : void 0,
+                            className: "mobile-nav-btn mobile-nav-btn-discord rounded flex items-center font-medium",
+                            onClick: j,
+                            children: [(0, r.jsx)(u.SvgIcon, {
+                                name: "discord",
+                                width: 16,
+                                "aria-hidden": !0
+                            }), e.label, e.isExternal && (0, r.jsx)(h, {})]
+                        }, e.id) : "kofi" === e.buttonStyle ? (0, r.jsxs)("a", {
+                            href: e.url,
+                            target: e.isExternal ? "_blank" : void 0,
+                            rel: e.isExternal ? "noopener noreferrer" : void 0,
+                            className: "mobile-nav-btn mobile-nav-btn-kofi rounded flex items-center font-medium",
+                            onClick: j,
+                            children: [(0, r.jsx)(u.SvgIcon, {
+                                name: "heart",
+                                width: 16,
+                                "aria-hidden": !0
+                            }), e.label, e.isExternal && (0, r.jsx)(h, {})]
+                        }, e.id) : "primary" === e.buttonStyle ? (0, r.jsxs)("a", {
+                            href: e.url,
+                            target: e.isExternal ? "_blank" : void 0,
+                            rel: e.isExternal ? "noopener noreferrer" : void 0,
+                            className: "mobile-nav-btn mobile-nav-btn-primary rounded flex items-center font-medium",
+                            onClick: j,
+                            children: [e.label, e.isExternal && (0, r.jsx)(h, {})]
+                        }, e.id) : (0, r.jsxs)("a", {
+                            href: e.url,
+                            target: e.isExternal ? "_blank" : void 0,
+                            rel: e.isExternal ? "noopener noreferrer" : void 0,
+                            className: "mobile-nav-link",
+                            onClick: j,
+                            children: [e.label, e.isExternal && (0, r.jsx)(h, {})]
+                        }, e.id)
+                    }), (0, r.jsxs)("a", {
+                        href: "https://discord.gg/prydwen",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        className: "mobile-nav-btn mobile-nav-btn-discord rounded flex items-center font-medium",
+                        onClick: j,
+                        children: [(0, r.jsx)(u.SvgIcon, {
+                            name: "discord",
+                            width: 16,
+                            "aria-hidden": !0
+                        }), "Discord", (0, r.jsx)(h, {})]
+                    }), (0, r.jsxs)("a", {
+                        href: "https://ko-fi.com/prydwenofficial",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        className: "mobile-nav-btn mobile-nav-btn-kofi rounded flex items-center font-medium",
+                        onClick: j,
+                        children: [(0, r.jsx)(u.SvgIcon, {
+                            name: "heart",
+                            width: 16,
+                            "aria-hidden": !0
+                        }), "Ko-Fi", (0, r.jsx)(h, {})]
+                    })]
+                }), (0, r.jsx)("div", {
+                    className: "mobile-nav-footer border-t",
+                    children: "loading" === f ? (0, r.jsx)("span", {
+                        className: "mobile-nav-loading",
+                        children: "Loading..."
+                    }) : (null == m ? void 0 : m.user) ? (0, r.jsxs)(r.Fragment, {
+                        children: [(0, r.jsxs)("div", {
+                            className: "mobile-nav-user-info flex items-center",
+                            children: [m.user.image && (0, r.jsx)(o.default, {
+                                src: m.user.image,
+                                alt: "".concat(null != (a = m.user.name) ? a : "User", " avatar"),
+                                width: 32,
+                                height: 32,
+                                className: "rounded-full",
+                                unoptimized: !0
+                            }), (0, r.jsx)("span", {
+                                children: m.user.name
+                            })]
+                        }), m.user.isAdmin && (0, r.jsx)(l.default, {
+                            href: "/admin",
+                            className: "mobile-nav-admin-link rounded flex items-center font-medium",
+                            onClick: j,
+                            children: "Admin Panel"
+                        }), (0, r.jsx)("button", {
+                            className: "mobile-nav-signout block bg-transparent border-0 text-start",
+                            onClick: function() {
+                                j(), (0, d.signOut)({
+                                    callbackUrl: "/"
+                                })
+                            },
+                            children: "Sign Out"
+                        })]
+                    }) : (0, r.jsx)(l.default, {
+                        href: "/auth/signin",
+                        prefetch: !1,
+                        className: "mobile-nav-signin rounded flex items-center font-medium",
+                        onClick: j,
+                        children: "Sign In with Discord"
+                    })
+                })]
+            })]
+        })
+    }
+    var f = e.i(136142);
+    e.s(["TopNavBar", 0, function(e) {
+        var o = e.logoUrl,
+            d = e.logoMinUrl,
+            u = e.siteEnabled,
+            h = e.hasOtherGames,
+            v = void 0 !== h && h,
+            p = (0, f.useNewsLinkVariant)(void 0 !== u && u),
+            x = (0, n._)((0, c.useState)(""), 2),
+            w = x[0],
+            b = x[1];
+        return (0, c.useEffect)(function() {
+            var e = function() {
+                "menuscroll" !== w && window.pageYOffset >= 100 ? b("menuscroll") : "menuscroll" === w && window.pageYOffset < 100 && b("")
+            };
+            return window.addEventListener("scroll", e),
+                function() {
+                    return window.removeEventListener("scroll", e)
+                }
+        }, [w]), (0, r.jsx)("nav", {
+            className: "pw-navbar pw-navbar-dark pw-navbar-expand-lg fixed top-0 left-0 right-0 ".concat(w),
+            children: (0, r.jsxs)("div", {
+                className: "pw-navbar-content",
+                children: [(0, r.jsx)("div", {
+                    className: "pw-navbar-brand",
+                    children: (0, r.jsx)(i.Logo, {
+                        size: "full",
+                        logoUrl: o,
+                        logoMinUrl: d
+                    })
+                }), (0, r.jsxs)("nav", {
+                    className: "pw-nav desktop-menu alt",
+                    children: [(0, r.jsx)("span", {
+                        className: "pw-nav-link",
+                        children: (0, r.jsx)(l.default, {
+                            href: "/",
+                            prefetch: !1,
+                            children: "Home"
+                        })
+                    }), (0, r.jsx)("span", {
+                        className: "pw-nav-link",
+                        children: (0, r.jsx)(l.default, {
+                            href: "/upcoming-games",
+                            prefetch: !1,
+                            children: "Upcoming games"
+                        })
+                    }), v && (0, r.jsx)("span", {
+                        className: "pw-nav-link",
+                        children: (0, r.jsx)(l.default, {
+                            href: "/other-games",
+                            prefetch: !1,
+                            children: "Other games"
+                        })
+                    }), "hidden" !== p && (0, r.jsxs)("span", {
+                        className: "pw-nav-link",
+                        children: [(0, r.jsx)(l.default, {
+                            href: "/news",
+                            prefetch: !1,
+                            children: "News"
+                        }), "pre-launch" === p && (0, r.jsx)("span", {
+                            className: "ml-2 text-[0.6rem] uppercase tracking-wider px-1.5 py-0.5 rounded align-middle",
+                            style: {
+                                color: "var(--color-text-muted)",
+                                border: "1px solid var(--color-border)"
+                            },
+                            title: "News is gated to the public; you see this link because your role bypasses the gate.",
+                            children: "Pre-launch"
+                        })]
+                    }), (0, r.jsx)("a", {
+                        href: "https://discord.gg/prydwen",
+                        className: "pw-btn pw-btn-primary discord-no-login icon-only",
+                        target: "_blank",
+                        rel: "noreferrer",
+                        "aria-label": "Discord",
+                        children: (0, r.jsx)(a.FontAwesomeIcon, {
+                            icon: t.faDiscord,
+                            width: "20"
+                        })
+                    }), (0, r.jsx)(s.UserMenu, {})]
+                }), (0, r.jsx)(m, {
+                    headerLinks: [],
+                    hasOtherGames: v
+                })]
+            })
+        })
+    }], 848146)
+}, 481011, e => {
+    "use strict";
+    var n = e.i(317608),
+        r = e.i(843476),
+        c = e.i(271645),
+        a = e.i(770703),
+        t = e.i(217255),
+        l = e.i(149721),
+        i = e.i(468757),
+        s = e.i(657688),
+        o = e.i(839429);
+
+    function d() {
+        var e, a, d, u = (0, t.useSession)(),
+            h = u.data,
+            m = u.status,
+            f = (0, n._)((0, c.useState)(!1), 2),
+            v = f[0],
+            p = f[1],
+            x = (0, c.useRef)(null);
+        (0, c.useEffect)(function() {
+            if (v) {
+                var e = function(e) {
+                    x.current && !x.current.contains(e.target) && p(!1)
+                };
+                return document.addEventListener("mousedown", e),
+                    function() {
+                        return document.removeEventListener("mousedown", e)
+                    }
+            }
+        }, [v]);
+        var w = null == h || null == (e = h.user) ? void 0 : e.isAdmin;
+        return "loading" === m ? null : "authenticated" !== m ? (0, r.jsxs)(o.AppLink, {
+            href: "/auth/signin",
+            prefetch: !1,
+            className: "pw-btn pw-btn-primary discord-login signin-compact",
+            children: [(0, r.jsx)(l.FontAwesomeIcon, {
+                icon: i.faUser,
+                width: "16"
+            }), (0, r.jsx)("span", {
+                children: "Sign In"
+            })]
+        }) : (0, r.jsxs)("div", {
+            ref: x,
+            className: "pw-dropdown user-dropdown",
+            children: [(0, r.jsxs)("button", {
+                id: "user-dropdown",
+                className: "pw-btn pw-dropdown-toggle",
+                type: "button",
+                "aria-expanded": v,
+                onClick: function() {
+                    return p(function(e) {
+                        return !e
+                    })
+                },
+                children: [(null == (a = h.user) ? void 0 : a.image) ? (0, r.jsx)(s.default, {
+                    src: h.user.image,
+                    alt: h.user.name || "User",
+                    width: 32,
+                    height: 32,
+                    className: "user-avatar"
+                }) : (0, r.jsx)("div", {
+                    className: "user-avatar-placeholder"
+                }), (0, r.jsx)("span", {
+                    children: null == (d = h.user) ? void 0 : d.name
+                })]
+            }), v && (0, r.jsxs)("div", {
+                className: "pw-dropdown-menu pw-dropdown-menu-end show",
+                children: [(0, r.jsxs)(o.AppLink, {
+                    href: "/support-us",
+                    className: "pw-dropdown-item supporter",
+                    children: [(0, r.jsx)(l.FontAwesomeIcon, {
+                        icon: i.faStar,
+                        width: "14"
+                    }), " Become a Supporter"]
+                }), (0, r.jsx)("hr", {
+                    className: "pw-dropdown-divider"
+                }), (0, r.jsxs)(o.AppLink, {
+                    href: "/settings",
+                    className: "pw-dropdown-item",
+                    children: [(0, r.jsx)(l.FontAwesomeIcon, {
+                        icon: i.faCog,
+                        width: "14"
+                    }), " Settings"]
+                }), w && (0, r.jsxs)(o.AppLink, {
+                    href: "/admin",
+                    className: "pw-dropdown-item admin-link",
+                    children: [(0, r.jsx)(l.FontAwesomeIcon, {
+                        icon: i.faUnlockKeyhole,
+                        width: "14"
+                    }), " Admin Panel"]
+                }), (0, r.jsx)("hr", {
+                    className: "pw-dropdown-divider"
+                }), (0, r.jsxs)("button", {
+                    className: "pw-dropdown-item",
+                    type: "button",
+                    onClick: function() {
+                        return (0, t.signOut)({
+                            callbackUrl: "/"
+                        })
+                    },
+                    children: [(0, r.jsx)(l.FontAwesomeIcon, {
+                        icon: i.faRightFromBracket,
+                        width: "14"
+                    }), " Sign out"]
+                })]
+            })]
+        })
+    }
+    var u = (0, a.default)(function() {
+        return Promise.resolve(d)
+    }, {
+        ssr: !1
+    });
+    e.s(["UserMenu", 0, u])
+}, 839429, e => {
+    "use strict";
+    var n = e.i(480388),
+        r = e.i(181788),
+        c = e.i(499092),
+        a = e.i(317608),
+        t = e.i(430620),
+        l = e.i(843476),
+        i = e.i(271645),
+        s = e.i(522016),
+        o = e.i(618566),
+        d = (0, i.forwardRef)(function(e, d) {
+            var u = (0, t._)([e, d]),
+                h = u[0],
+                m = u.slice(1),
+                f = h.href,
+                v = h.prefetch,
+                p = h.intentPrefetch,
+                x = h.onPointerEnter,
+                w = h.onFocus,
+                b = h.children,
+                g = (0, c._)(h, ["href", "prefetch", "intentPrefetch", "onPointerEnter", "onFocus", "children"]),
+                j = (0, a._)(m, 1)[0],
+                y = (0, o.useRouter)(),
+                z = (0, i.useRef)(!1),
+                H = "string" != typeof f || !/^([a-z]+:)?\/\//i.test(f) && !/^(mailto:|tel:)/i.test(f),
+                M = H ? null != v && v : v,
+                L = H && void 0 !== p && p && !1 === M,
+                k = (0, i.useCallback)(function() {
+                    L && !z.current && "string" == typeof f && (z.current = !0, y.prefetch(f))
+                }, [L, f, y]),
+                C = (0, i.useCallback)(function(e) {
+                    k(), null == x || x(e)
+                }, [k, x]),
+                N = (0, i.useCallback)(function(e) {
+                    k(), null == w || w(e)
+                }, [k, w]);
+            return (0, l.jsx)(s.default, (0, r._)((0, n._)({}, g), {
+                ref: j,
+                href: f,
+                prefetch: M,
+                onPointerEnter: L ? C : x,
+                onFocus: L ? N : w,
+                children: b
+            }))
+        });
+    e.s(["AppLink", 0, d, "default", 0, d])
+}, 384799, e => {
+    "use strict";
+    var n = e.i(843476),
+        r = e.i(522016),
+        c = e.i(657688);
+    e.s(["Logo", 0, function(e) {
+        var a = e.size,
+            t = e.logoUrl,
+            l = e.logoMinUrl;
+        return (0, n.jsxs)(r.default, {
+            href: "/",
+            children: ["full" === a && (0, n.jsx)(c.default, {
+                src: t || "https://cdn.prydwen.gg/images/generic/prydwen_logo.webp",
+                alt: "Prydwen",
+                width: 150,
+                height: 40,
+                className: "logo-full",
+                priority: !0
+            }), "minimal" === a && (0, n.jsx)(c.default, {
+                src: l || "https://cdn.prydwen.gg/images/generic/prydwen_logo_min.webp",
+                alt: "Prydwen",
+                width: 40,
+                height: 40,
+                className: "logo-minimal",
+                priority: !0
+            })]
+        })
+    }])
+}, 720414, e => {
+    "use strict";
+    var n = e.i(843476),
+        r = e.i(271645),
+        c = e.i(778497),
+        a = {
+            discord: {
+                viewBox: "0 0 640 512",
+                path: "M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"
+            },
+            twitter: {
+                viewBox: "0 0 512 512",
+                path: "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+            },
+            youtube: {
+                viewBox: "0 0 576 512",
+                path: "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+            },
+            patreon: {
+                viewBox: "0 0 512 512",
+                path: "M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"
+            },
+            android: {
+                viewBox: "0 0 576 512",
+                path: "M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"
+            },
+            apple: {
+                viewBox: "0 0 384 512",
+                path: "M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.5-91.9zM239.1 34.3C263.4 4.5 301.9 0 320 0c2.6 27.2-6.7 55.4-24.6 76.5-18.9 22.5-50 40.2-79.4 38-3.3-28.2 6.6-54.7 23.1-80.2z"
+            },
+            steam: {
+                viewBox: "0 0 496 512",
+                path: "M496 256c0 137-111.2 248-248.4 248-113.8 0-209.6-76.3-239-180.4l95.2 39.3c6.4 32.1 34.9 56.4 68.9 56.4 39.2 0 71.9-32.4 70.2-73.5l84.5-60.2c52.1 1.3 95.8-40.9 95.8-93.5 0-51.6-42-93.5-93.7-93.5s-93.7 42-93.7 93.5v2.1L123.6 239c-32.5.5-61.1 23.1-70.4 55.6L0 273.4C19.6 128.3 139.1 8 280.4 8 426.2 8 496 128.5 496 256z"
+            },
+            windows: {
+                viewBox: "0 0 448 512",
+                path: "M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"
+            },
+            heart: {
+                viewBox: "0 0 512 512",
+                path: "M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            },
+            bars: {
+                viewBox: "0 0 448 512",
+                path: "M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            },
+            times: {
+                viewBox: "0 0 384 512",
+                path: "M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            },
+            "chevron-down": {
+                viewBox: "0 0 512 512",
+                path: "M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            },
+            "chevron-up": {
+                viewBox: "0 0 512 512",
+                path: "M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"
+            },
+            "triangle-exclamation": {
+                viewBox: "0 0 512 512",
+                path: "M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
+            },
+            play: {
+                viewBox: "0 0 384 512",
+                path: "M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.8 23-24.3 23-41s-8.7-32.2-23-41L73 39z"
+            },
+            "magnifying-glass": {
+                viewBox: "0 0 512 512",
+                path: "M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            },
+            "fire-alt": {
+                viewBox: "0 0 448 512",
+                path: "M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C99.8 512 0 404.2 0 276.6c0-38.2 11.3-78.2 30.6-118.3c19-39.4 46.1-79.3 78.2-112.4c8.5 15.9 17.7 33.3 27 51.8c12.8-21.8 26.3-44.5 41.7-65.5c-5.1-8.5-10.5-16.6-18.2-27.8z"
+            },
+            dove: {
+                viewBox: "0 0 512 512",
+                path: "M160.8 96.5c14 17 31 30.9 49.5 42.2c25.9 15.8 53.7 25.9 77.7 31.6V138.8C265.8 108.5 250 71.5 248.6 28c-.4-11.3-7.5-21.5-18.4-24.4c-7.6-2-15.8-.2-21 5.8c-13.3 15.4-32.7 44.6-48.4 87.2zM320 144v30.6l0 0v1.3l0 0 0 32.1c-60.8-5.1-185-43.8-219.3-157.2C97.4 40 87.9 32 76.6 32c-7.9 0-15.3 3.9-18.8 11C46.8 65.9 32 112.1 32 176c0 116.9 80.1 180.5 118.4 202.8L11.8 416.6C4.3 421.2 0 429.3 0 438c0 6.2 2.6 12.1 7.2 16.4C54 497.7 107.8 512 160 512c90.4 0 166.2-60.5 193.1-143.4c7.6-23.5 1.9-49.2-13.9-67.8c-8.6-10.1-19.3-17.5-30.9-22.5V256c0 0 0 0 0 0c0-21.2 0-38 0-64.5l19.4 22.2c19.2 21.9 46.4 35.5 75.7 36.2c31.2 .8 63.5-15.3 81.3-49.2c3.6-6.8 3.6-14.9 .1-21.7c-3.6-6.9-10.3-11.6-18.1-12.7l-39.9-5.9 16.3-36.8c3.3-7.5 2.5-16.2-2.2-22.9s-12.4-10.5-20.5-10c-33.4 2.1-74.8 18.4-106.2 54.7z"
+            },
+            book: {
+                viewBox: "0 0 448 512",
+                path: "M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+            },
+            "calendar-days": {
+                viewBox: "0 0 448 512",
+                path: "M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+            },
+            "arrow-right-long": {
+                viewBox: "0 0 512 512",
+                path: "M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+            },
+            "book-open": {
+                viewBox: "0 0 576 512",
+                path: "M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"
+            },
+            "user-group": {
+                viewBox: "0 0 640 512",
+                path: "M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM609.3 512H471.4c5.4-9.4 8.6-20.3 8.6-32v-8c0-60.7-27.1-115.2-69.8-151.8c2.4-.1 4.7-.2 7.1-.2h61.4C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z"
+            },
+            "ranking-star": {
+                viewBox: "0 0 640 512",
+                path: "M353.8 54.1L330.2 6.3c-3.9-8.3-16.1-8.6-20.4 0L286.2 54.1l-52.3 7.5c-9.3 1.4-13.3 12.9-6.4 19.8l38 37-9 52.1c-1.4 9.3 8.2 16.5 16.8 12.2l46.9-24.8 46.6 24.4c8.6 4.3 18.3-2.9 16.8-12.2l-9-52.1 38-37c6.8-6.8 2.9-18.3-6.4-19.8l-52.3-7.5zM256 256c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H384c17.7 0 32-14.3 32-32V288c0-17.7-14.3-32-32-32H256zM32 320c-17.7 0-32 14.3-32 32V480c0 17.7 14.3 32 32 32H160c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H32zm416 96v64c0 17.7 14.3 32 32 32H608c17.7 0 32-14.3 32-32V416c0-17.7-14.3-32-32-32H480c-17.7 0-32 14.3-32 32z"
+            },
+            newspaper: {
+                viewBox: "0 0 512 512",
+                path: "M96 96c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H80c-44.2 0-80-35.8-80-80V128c0-17.7 14.3-32 32-32s32 14.3 32 32V400c0 8.8 7.2 16 16 16s16-7.2 16-16V96zm64 24v80c0 13.3 10.7 24 24 24H296c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16h48c8.8 0 16-7.2 16-16s-7.2-16-16-16H384c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16H432c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"
+            },
+            "list-ol": {
+                viewBox: "0 0 512 512",
+                path: "M24 56c0-13.3 10.7-24 24-24H80c13.3 0 24 10.7 24 24V176h16c13.3 0 24 10.7 24 24s-10.7 24-24 24H40c-13.3 0-24-10.7-24-24s10.7-24 24-24H56V80H48C34.7 80 24 69.3 24 56zM86.7 341.2c-6.5-7.4-18.3-6.9-24 1.2L51.5 357.9c-7.7 10.8-22.7 13.3-33.5 5.6s-13.3-22.7-5.6-33.5l11.1-15.6c23.7-33.2 72.3-35.6 99.2-4.9c21.3 24.4 20.8 60.9-1.1 84.7L86.8 432H120c13.3 0 24 10.7 24 24s-10.7 24-24 24H32c-9.5 0-18.2-5.6-22-14.4s-2.1-18.9 4.3-25.9l72-78c5.3-5.8 5.4-14.6 .3-20.5zM224 64H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 160H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 160H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+            },
+            calculator: {
+                viewBox: "0 0 384 512",
+                path: "M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM96 64H288c17.7 0 32 14.3 32 32v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V96c0-17.7 14.3-32 32-32zm32 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM96 352a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM64 416c0-17.7 14.3-32 32-32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM192 256a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm64-64a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 448a32 32 0 1 1 0-64 32 32 0 1 1 0 64z"
+            },
+            users: {
+                viewBox: "0 0 640 512",
+                path: "M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"
+            },
+            rotate: {
+                viewBox: "0 0 512 512",
+                path: "M142.9 142.9c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5c0 0 0 0 0 0H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM16 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H48.4h-.7H40c-13.3 0-24 10.7-24 24z"
+            },
+            gamepad: {
+                viewBox: "0 0 640 512",
+                path: "M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"
+            },
+            question: {
+                viewBox: "0 0 320 512",
+                path: "M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
+            },
+            asterisk: {
+                viewBox: "0 0 384 512",
+                path: "M192 32c17.7 0 32 14.3 32 32V199.5l111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V312.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5V64c0-17.7 14.3-32 32-32z"
+            },
+            "rotate-left": {
+                viewBox: "0 0 512 512",
+                path: "M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c24.4 24.4 42.1 53.1 52.9 83.7c5.9 16.7-2.9 34.9-19.5 40.8s-34.9-2.9-40.8-19.5c-7.7-21.8-20.2-42.3-37.8-59.8c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z"
+            },
+            envelope: {
+                viewBox: "0 0 512 512",
+                path: "M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+            },
+            "x-twitter": {
+                viewBox: "0 0 512 512",
+                path: "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+            },
+            "chevron-left": {
+                viewBox: "0 0 320 512",
+                path: "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+            },
+            "chevron-right": {
+                viewBox: "0 0 320 512",
+                path: "M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+            },
+            "external-link": {
+                viewBox: "0 0 512 512",
+                path: "M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+            },
+            star: {
+                viewBox: "0 0 576 512",
+                path: "M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L172.8 443l107.3-57.3c7-3.8 15.4-3.8 22.4 0L410 443l-18.9-119c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L365.6 200.5c-8-1.2-14.7-6.1-18.1-13.3L287.9 79z"
+            },
+            "star-filled": {
+                viewBox: "0 0 576 512",
+                path: "M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329l-24.6 145.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            },
+            x: {
+                viewBox: "0 0 384 512",
+                path: "M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            },
+            logout: {
+                viewBox: "0 0 512 512",
+                path: "M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"
+            },
+            home: {
+                viewBox: "0 0 576 512",
+                path: "M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+            },
+            grid: {
+                viewBox: "0 0 448 512",
+                path: "M0 72C0 49.9 17.9 32 40 32H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V72zM0 232c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V232zM128 392v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V72zM288 232v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392zM448 72v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V232zM448 392v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40z"
+            },
+            gear: {
+                viewBox: "0 0 512 512",
+                path: "M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"
+            }
+        },
+        t = (0, r.memo)(function(e) {
+            var r = e.name,
+                t = e.className,
+                l = e.width,
+                i = void 0 === l ? 16 : l,
+                s = e.height,
+                o = e.style,
+                d = e["aria-hidden"],
+                u = void 0 === d || d,
+                h = a[r];
+            if (!h) return c.logger.warn({
+                icon: r
+            }, "SvgIcon: Unknown icon"), null;
+            var m = null != s ? s : i;
+            return (0, n.jsx)("svg", {
+                xmlns: "http://www.w3.org/2000/svg",
+                viewBox: h.viewBox,
+                width: i,
+                height: m,
+                fill: "currentColor",
+                className: void 0 === t ? "" : t,
+                style: o,
+                "aria-hidden": u,
+                role: u ? void 0 : "img",
+                children: (0, n.jsx)("path", {
+                    d: h.path
+                })
+            })
+        });
+    e.s(["SvgIcon", 0, t])
+}, 136142, e => {
+    "use strict";
+    var n = e.i(217255),
+        r = new Set(["OWNER", "GLOBAL_ADMIN", "NEWS_WRITER"]);
+    e.s(["useNewsLinkVariant", 0, function(e) {
+        var c, a, t = (0, n.useSession)().data;
+        if (e) return "visible";
+        var l = null != (c = null == t || null == (a = t.user) ? void 0 : a.adminRole) ? c : null;
+        return l && r.has(l) ? "pre-launch" : "hidden"
+    }])
+}]);

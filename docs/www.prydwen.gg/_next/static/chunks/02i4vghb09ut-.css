@@ -1,0 +1,1397 @@
+.tippy-box[data-animation=fade][data-state=hidden] {
+    opacity: 0
+}
+
+[data-tippy-root] {
+    max-width: calc(100vw - 10px)
+}
+
+.tippy-box {
+    color: #fff;
+    white-space: normal;
+    background-color: #333;
+    border-radius: 4px;
+    outline: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    transition-property: transform, visibility, opacity;
+    position: relative
+}
+
+.tippy-box[data-placement^=top]>.tippy-arrow {
+    bottom: 0
+}
+
+.tippy-box[data-placement^=top]>.tippy-arrow:before {
+    border-width: 8px 8px 0;
+    border-top-color: initial;
+    transform-origin: top;
+    bottom: -7px;
+    left: 0
+}
+
+.tippy-box[data-placement^=bottom]>.tippy-arrow {
+    top: 0
+}
+
+.tippy-box[data-placement^=bottom]>.tippy-arrow:before {
+    border-width: 0 8px 8px;
+    border-bottom-color: initial;
+    transform-origin: bottom;
+    top: -7px;
+    left: 0
+}
+
+.tippy-box[data-placement^=left]>.tippy-arrow {
+    right: 0
+}
+
+.tippy-box[data-placement^=left]>.tippy-arrow:before {
+    border-width: 8px 0 8px 8px;
+    border-left-color: initial;
+    transform-origin: 0;
+    right: -7px
+}
+
+.tippy-box[data-placement^=right]>.tippy-arrow {
+    left: 0
+}
+
+.tippy-box[data-placement^=right]>.tippy-arrow:before {
+    border-width: 8px 8px 8px 0;
+    border-right-color: initial;
+    transform-origin: 100%;
+    left: -7px
+}
+
+.tippy-box[data-inertia][data-state=visible] {
+    transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
+}
+
+.tippy-arrow {
+    color: #333;
+    width: 16px;
+    height: 16px
+}
+
+.tippy-arrow:before {
+    content: "";
+    border-style: solid;
+    border-color: #0000;
+    position: absolute
+}
+
+.tippy-content {
+    z-index: 1;
+    padding: 5px 9px;
+    position: relative
+}
+
+.tippy-tooltip[data-out-of-boundaries] {
+    opacity: 0
+}
+
+.avatar {
+    background-size: contain;
+    border-bottom: 5px solid #dfdfe5;
+    border-radius: 0
+}
+
+.avatar.limbus.rarity-0 {
+    border-color: #dfdfe5
+}
+
+.avatar.limbus.rarity-00 {
+    border-color: #aa320b
+}
+
+.avatar.limbus.rarity-000 {
+    border-color: #ffc000
+}
+
+.avatar.limbus.Envy {
+    border-color: #744888
+}
+
+.avatar.limbus.Gloom {
+    border-color: #2c5d68
+}
+
+.avatar.limbus.Gluttony {
+    border-color: #5e7d28
+}
+
+.avatar.limbus.Lust {
+    border-color: #bb521f
+}
+
+.avatar.limbus.Pride {
+    border-color: #15497b
+}
+
+.avatar.limbus.Sloth {
+    border-color: #dc8401
+}
+
+.avatar.limbus.Wrath {
+    border-color: #a0392b
+}
+
+.tippy-box.simple {
+    background-color: #36373d
+}
+
+.tippy-box.character-hover-box {
+    background: #23242a;
+    border: 1px solid #33343a;
+    width: 390px;
+    overflow: visible;
+    box-shadow: 0 8px 25px -3px #00000080;
+    max-width: 100vw !important
+}
+
+.tippy-box.character-hover-box .tippy-arrow {
+    color: #33343a
+}
+
+.tippy-box.character-hover-box .tippy-content {
+    padding: 10px
+}
+
+.tippy-box.character-hover-box .tippy-content .top .avatar {
+    border-bottom-width: 3px;
+    width: 75px;
+    margin: auto
+}
+
+.tippy-box.character-hover-box .tippy-content .top p {
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top p.name {
+    text-align: center;
+    margin: 0 0 5px;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box .tippy-content .top .type-class {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.full .rating-box-container {
+    width: 100%
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom .rating-box-container {
+    width: 31%
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom .rating-box-container .rating-box {
+    padding: 0;
+    font-size: 20px;
+    transition: none
+}
+
+.tippy-box.character-hover-box .tippy-content .pw-alert {
+    margin-bottom: 0;
+    padding: 7px 10px;
+    font-size: 14px
+}
+
+.tippy-box.character-hover-box .tippy-content .popover-view-details {
+    display: none
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details {
+    text-align: center
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details p.name,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details p.name {
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details p.name .emp-name,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details p.name .emp-name {
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details .bp-item-content,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details .bp-item-content {
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details .bp-item-content .skill-with-coloring b,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details .bp-item-content .skill-with-coloring b {
+    color: #ffd780
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details .bp-item-content .skill-with-coloring u,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details .bp-item-content .skill-with-coloring u {
+    color: #50adf8;
+    font-weight: 500;
+    text-decoration: none
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details .bp-item-content .skill-with-coloring i,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details .bp-item-content .skill-with-coloring i {
+    color: #e74949;
+    font-style: normal;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box.bp-skill .tippy-content .character-popover .details .bp-item-content .skill-with-coloring s,
+.tippy-box.character-hover-box.bp-imagine .tippy-content .character-popover .details .bp-item-content .skill-with-coloring s {
+    color: #cdc2c2;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box.bp-skill .emp-name.frost-mage,
+.tippy-box.character-hover-box.bp-skill .emp-name.marksman,
+.tippy-box.character-hover-box.bp-skill .emp-name.stormblade,
+.tippy-box.character-hover-box.bp-skill .emp-name.wind-knight {
+    color: #c34343
+}
+
+.tippy-box.character-hover-box.bp-skill .emp-name.verdant-oracle,
+.tippy-box.character-hover-box.bp-skill .emp-name.beat-performer {
+    color: #239e65
+}
+
+.tippy-box.character-hover-box.bp-skill .emp-name.shield-knight,
+.tippy-box.character-hover-box.bp-skill .emp-name.heavy-guardian {
+    color: #3878c1
+}
+
+.tippy-box.character-hover-box.bp-imagine .emp-name.Epic {
+    color: #ffbefd
+}
+
+.tippy-box.character-hover-box.bp-imagine .emp-name.Legendary {
+    color: #eae287
+}
+
+.tippy-box.character-hover-box.etheria-matrix .tippy-content .character-popover .details {
+    text-align: center
+}
+
+.tippy-box.character-hover-box.etheria-matrix .tippy-content .character-popover .details p.name {
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name.type-ATK {
+    color: #fc6868
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name.type-SPD {
+    color: #72b4f7
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name.type-HP {
+    color: #d3ff8f
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name.type-DEF {
+    color: #ffee8f
+}
+
+.tippy-box.character-hover-box.etheria-matrix .emp-name.type-Special {
+    color: #e763f1
+}
+
+.tippy-box.character-hover-box.etheria-matrix .details p.source {
+    color: #ffffff8c;
+    text-transform: none;
+    margin-bottom: 0;
+    font-size: 15px
+}
+
+.tippy-box.character-hover-box.etheria-matrix .etheria-matrix-content {
+    margin-bottom: 7px
+}
+
+.tippy-box.character-hover-box.etheria-matrix .etheria-matrix-content p {
+    margin-bottom: 5px
+}
+
+.tippy-box.character-hover-box.etheria-matrix .etheria-matrix-content p:last-child {
+    margin-bottom: 0
+}
+
+@media (hover:none) and (pointer:coarse) {
+    .tippy-box.character-hover-box {
+        width: min(400px, 100vw - 20px) !important
+    }
+    .tippy-box .tippy-content .popover-view-details {
+        text-align: center;
+        border-top: 1px solid #ffffff26;
+        margin-top: 8px;
+        padding: 8px 0 4px;
+        display: block
+    }
+    .tippy-box .tippy-content .popover-view-details a {
+        color: #40b6f5;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none
+    }
+    .tippy-box .tippy-content .popover-view-details a:hover {
+        text-decoration: underline
+    }
+}
+
+.tippy-box.character-hover-box .teal {
+    color: #4fb9bd
+}
+
+.tippy-box.character-hover-box .uma-apti {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.tippy-box.character-hover-box .uma-apti p {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box .uma-apti p.header {
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .9;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .uma-apti .inside {
+    grid-gap: 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: grid
+}
+
+.tippy-box.character-hover-box .uma-apti .inside.two {
+    grid-template-columns: 49% 49%
+}
+
+.tippy-box.character-hover-box .uma-apti .inside.four {
+    grid-template-columns: 24% 24% 24% 24%
+}
+
+.tippy-box.character-hover-box .uma-apti .pill {
+    color: #fff;
+    background-color: #36373d;
+    border-bottom: 2px solid #6b6b6b;
+    justify-content: space-between;
+    padding: 3px 8px;
+    display: flex
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-A {
+    border-bottom-color: #f99658
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-A p.right {
+    color: #f99658
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-B {
+    border-bottom-color: #f39fbb
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-B p.right {
+    color: #f39fbb
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-C {
+    border-bottom-color: #9be981
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-C p.right {
+    color: #9be981
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-D {
+    border-bottom-color: #84d0f8
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-D p.right {
+    color: #84d0f8
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-E {
+    border-bottom-color: #ea94ff
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-E p.right {
+    color: #ea94ff
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-F {
+    border-bottom-color: #b1ade5
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-F p.right {
+    color: #b1ade5
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-G {
+    border-bottom-color: #cacdcc
+}
+
+.tippy-box.character-hover-box .uma-apti .pill.score-G p.right {
+    color: #cacdcc
+}
+
+.tippy-box.character-hover-box .uma-apti .pill p {
+    font-size: 12px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box .uma-apti .pill p.right {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .rev-note {
+    background-color: #2c2d33;
+    border: 1px solid #484950;
+    padding: 8px 5px;
+    font-size: 12px
+}
+
+.tippy-box.character-hover-box .tippy-content .top p.name .tag {
+    color: #fff;
+    background: #f75058;
+    border-radius: 0;
+    margin-left: 5px;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box .tippy-content .top p.name .tag.buffed {
+    background: #009eec
+}
+
+.tippy-box.character-hover-box .tippy-content .top .type-class.ship img {
+    width: 25px
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.margin {
+    margin-top: 5px
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom .rating-box-container.kr-character {
+    width: 48%
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.full .rating-box-container {
+    width: 100%
+}
+
+.avatar.lost {
+    background: #444445;
+    position: relative
+}
+
+.avatar.lost.rarity-3 {
+    background: linear-gradient(#343659 0%, #4172b9 53%);
+    border-bottom-color: #4273ba
+}
+
+.avatar.lost.rarity-4 {
+    background: linear-gradient(#343659 0%, #8a5fcc 53%);
+    border-bottom-color: #8a5fcc
+}
+
+.avatar.lost.rarity-5 {
+    background: linear-gradient(#885550 0%, #c9a36a 53%);
+    border-bottom-color: #c9a36a
+}
+
+.tippy-box.character-hover-box.lost .emp-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.lost-card h5 {
+    font-size: 18px
+}
+
+.tippy-box.character-hover-box.lost-card h5.rarity-3 {
+    color: #618be8
+}
+
+.tippy-box.character-hover-box.lost-card h5.rarity-4 {
+    color: #9c6ee1
+}
+
+.tippy-box.character-hover-box.lost-card h5.rarity-5 {
+    color: #c9a36a
+}
+
+.tippy-box.character-hover-box.lost-card hr {
+    opacity: .2;
+    margin: 7px 0
+}
+
+.tippy-box.character-hover-box.lost-card .skill-with-coloring {
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box.lost-card .skill-with-coloring p {
+    margin-bottom: 5px
+}
+
+.tippy-box.character-hover-box.lost-card .skill-with-coloring p:last-child {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box.lost-card .skill-with-coloring b,
+.tippy-box.character-hover-box.lost-card .skill-with-coloring strong {
+    color: #ffd780
+}
+
+.tippy-box.character-hover-box.lost-card .skill-with-coloring u {
+    font-weight: 600;
+    text-decoration: none !important
+}
+
+.tippy-box.character-hover-box .role-lost {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .role-lost strong {
+    text-transform: uppercase
+}
+
+.tippy-box.character-hover-box .role-lost strong.DPS {
+    color: #d14251
+}
+
+.tippy-box.character-hover-box .role-lost strong.Support {
+    color: #f75bb9
+}
+
+.tippy-box.character-hover-box .role-lost strong.Healer {
+    color: #4fd671
+}
+
+.tippy-box.character-hover-box .role-lost strong.Tank {
+    color: #e7d153
+}
+
+.tippy-box.character-hover-box .lost-role {
+    text-align: center;
+    background-color: #2c2d33;
+    border: 1px solid #33343a;
+    margin-bottom: 5px;
+    padding: 8px 5px;
+    font-size: 12px
+}
+
+.tippy-box.character-hover-box .lost-role p {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost .avatar {
+    border-bottom-width: 3px;
+    width: 100px;
+    margin: 0 !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost .details {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost .avatar img {
+    width: 100%;
+    height: auto
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost p.name {
+    margin: 0 !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.lost .type-class {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.lost-top p {
+    font-size: 13px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.lost-top .rating-box-container {
+    width: 49%
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.lost-top {
+    margin-bottom: 5px
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.lost-bottom p {
+    font-size: 13px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.lost-bottom .rating-box-container {
+    width: 49%
+}
+
+.avatar.trickcal {
+    background: #444445;
+    position: relative
+}
+
+.avatar.trickcal.Composed {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#138fa8 0%, #20c9eb 100%)
+}
+
+.avatar.trickcal.Depressed {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#744bde 0%, #966ff7 100%)
+}
+
+.avatar.trickcal.Innocent {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#51c43c 0%, #6be655 100%)
+}
+
+.avatar.trickcal.Mad {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#e04747 0%, #fc6565 100%)
+}
+
+.avatar.trickcal.Vivacious {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#ad9d23 0%, #ffef78 100%)
+}
+
+.avatar.trickcal.Resonance {
+    border-bottom-color: var(--color-border-default);
+    background: radial-gradient(circle, #d93f44 0%, #fa9c43 50%, #cc6eff 100%)
+}
+
+.tippy-box.character-hover-box.trickcal .emp-name {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .avatar {
+    border-bottom-width: 3px;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .avatar img {
+    width: 100%;
+    height: auto
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .details {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .details .name {
+    font-size: 18px;
+    margin: 0 0 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .details .name .emp-name {
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .tippy-content .top.trickcal .details .type-class {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 10px;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .avatar {
+    border-bottom-width: 3px;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .avatar img,
+.tippy-box.character-hover-box .tippy-content .top.silver .avatar object {
+    max-width: 100%;
+    height: auto
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .details {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .details .name {
+    font-size: 18px;
+    margin: 0 0 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .details .name .emp-name {
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .tippy-content .top.silver .details .type-class {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 10px;
+    display: flex
+}
+
+.avatar.rarity-R,
+.avatar.rarity-r {
+    border-bottom-color: #4273ba
+}
+
+.avatar.rarity-SR,
+.avatar.rarity-sr {
+    border-bottom-color: #8a5fcc
+}
+
+.avatar.rarity-SSR,
+.avatar.rarity-ssr {
+    border-bottom-color: #c9a36a
+}
+
+.avatar.has-treasure {
+    border-bottom-color: #34b6c1
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar {
+    background: #444445;
+    border-bottom-width: 3px;
+    border-radius: 0;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-R,
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-r {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#343659 0%, #4172b9 53%)
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-SR,
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-sr {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#343659 0%, #8a5fcc 53%)
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-SSR,
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.rarity-ssr {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#885550 0%, #c9a36a 53%)
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .avatar.has-treasure {
+    border-bottom-color: var(--color-border-default);
+    background: linear-gradient(#2a7f86 0%, #34b6c1 53%)
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .name {
+    font-size: 18px;
+    margin: 0 0 10px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .name .emp-name {
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .name .tag.new {
+    color: #fff;
+    background: #f75058;
+    border-radius: 0;
+    margin-left: 5px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 10px;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class img {
+    width: 22px;
+    height: 22px
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .pw-badge {
+    padding: 3px 6px;
+    font-size: 12px
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-element,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-weapon,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-type,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-manu {
+    border-bottom-width: 2px;
+    min-height: 32px;
+    margin: 1px;
+    padding: 4px 8px;
+    font-size: 14px
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-element img,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-weapon img,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-type img,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-manu img {
+    width: 22px;
+    height: 22px
+}
+
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-element .with-cooldown,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-weapon .with-cooldown,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-type .with-cooldown,
+.tippy-box.character-hover-box .tippy-content .top.nikke .details .type-class .nikke-manu .with-cooldown {
+    margin-left: 2px;
+    font-size: 14px
+}
+
+.character-popover .bottom.nikke {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 4px;
+    display: flex
+}
+
+.character-popover .bottom.nikke .rating-box-container {
+    flex: 32%;
+    width: 32%
+}
+
+.character-popover .bottom.nikke .rating-box-container p {
+    font-size: 12px
+}
+
+.character-popover .bottom.nikke .rating-box {
+    padding: 6px 4px;
+    font-size: 18px
+}
+
+.tippy-box.character-hover-box.chaos-card-pop {
+    box-shadow: none;
+    background-color: #0000 !important;
+    border: 0 !important;
+    width: 300px !important;
+    max-width: 300px !important;
+    padding: 0 !important
+}
+
+.tippy-box.character-hover-box.chaos-card-pop .tippy-arrow {
+    display: none
+}
+
+.tippy-box.character-hover-box.chaos-card-pop .tippy-content {
+    padding: 0
+}
+
+.tippy-box.character-hover-box.chaos-card-pop .chaos-card-special {
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 8px 25px -3px #00000080
+}
+
+.custom-popover.character-hover-box.chaos-card-pop {
+    box-shadow: none;
+    background-color: #0000 !important;
+    border: 0 !important;
+    width: 300px !important;
+    max-width: 300px !important;
+    padding: 0 !important
+}
+
+.custom-popover.character-hover-box.chaos-card-pop .chaos-card-special {
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 8px 25px -3px #00000080
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar {
+    border-bottom: none;
+    border-radius: 4px;
+    width: 60px;
+    min-width: 60px;
+    overflow: hidden
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-common,
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-white {
+    border: 2px solid #c1c1c1
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-rare,
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-blue {
+    border: 2px solid #68b0e0
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-epic,
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-purple {
+    border: 2px solid #d589f8
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-legendary,
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-gold {
+    border: 2px solid #ffe66a
+}
+
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-mythic,
+.tippy-box.character-hover-box.czn .tippy-content .character-popover.czn .top .avatar.pw-card-avatar.rarity-orange {
+    border: 2px solid #ffc343
+}
+
+.tippy-box.character-hover-box.czn .pw-card-type-badge {
+    background: #ffffff1a;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.czn .pw-card-type-badge.attack {
+    color: #e62d5e
+}
+
+.tippy-box.character-hover-box.czn .pw-card-type-badge.skill {
+    color: #187ab0
+}
+
+.tippy-box.character-hover-box.czn .pw-card-type-badge.upgrade {
+    color: #33a47a
+}
+
+.tippy-box.character-hover-box.czn .pw-card-cost-badge {
+    background: #ffffff1a;
+    border-radius: 4px;
+    margin-left: 4px;
+    padding: 2px 6px;
+    font-size: 11px
+}
+
+.tippy-box.character-hover-box.czn .bottom.full .skill-with-coloring {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.tippy-box.character-hover-box.czn .bottom.full .skill-with-coloring b {
+    color: #ffe1a8
+}
+
+.tippy-box.character-hover-box.czn .bottom.full .skill-with-coloring u {
+    color: #b2f0ff;
+    font-weight: 500;
+    text-decoration: none
+}
+
+.tippy-box.character-hover-box.czn .type-class {
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+    display: flex
+}
+
+.custom-popover.character-hover-box.czn {
+    width: 390px;
+    max-width: calc(100vw - 20px)
+}
+
+.custom-popover.character-hover-box.czn .character-popover.czn .top .avatar.pw-card-avatar {
+    border-bottom: none;
+    border-radius: 4px;
+    width: 60px;
+    min-width: 60px;
+    overflow: hidden
+}
+
+.custom-popover.character-hover-box.czn .pw-card-type-badge {
+    background: #ffffff1a;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: 600
+}
+
+.custom-popover.character-hover-box.czn .pw-card-type-badge.attack {
+    color: #e62d5e
+}
+
+.custom-popover.character-hover-box.czn .pw-card-type-badge.skill {
+    color: #187ab0
+}
+
+.custom-popover.character-hover-box.czn .pw-card-type-badge.upgrade {
+    color: #33a47a
+}
+
+.custom-popover.character-hover-box.czn .pw-card-cost-badge {
+    background: #ffffff1a;
+    border-radius: 4px;
+    margin-left: 4px;
+    padding: 2px 6px;
+    font-size: 11px
+}
+
+.custom-popover.character-hover-box.czn .type-class {
+    align-items: center;
+    gap: 4px;
+    margin-top: 4px;
+    display: flex
+}
+
+.custom-popover.character-hover-box.czn .bottom.full .skill-with-coloring {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.custom-popover.character-hover-box.czn .bottom.full .skill-with-coloring b {
+    color: #ffe1a8
+}
+
+.custom-popover.character-hover-box.czn .bottom.full .skill-with-coloring u {
+    color: #b2f0ff;
+    font-weight: 500;
+    text-decoration: none
+}
+
+.tippy-box.character-hover-box.endfield-gear {
+    text-align: center;
+    width: 390px !important
+}
+
+.tippy-box.character-hover-box.endfield-gear p {
+    margin-bottom: 5px
+}
+
+.tippy-box.character-hover-box.endfield-gear .emp-name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.endfield-gear .emp-name.rarity-4 {
+    color: #ffc978 !important
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content {
+    padding: 5px
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content h6 {
+    text-transform: uppercase;
+    font-size: 15px
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group {
+    margin-bottom: 15px
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal {
+    grid-gap: 0;
+    background-color: #36373d;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    align-items: center;
+    display: grid
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.alt {
+    background-color: #2c2d33
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.spec p.left {
+    color: #fff
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.spec p.right strong {
+    color: #ffca58
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.Heat p.left {
+    color: #ff5c48
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.Nature p.left {
+    color: #aad531
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.Physical p.left {
+    color: #ddc081
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.Cryo p.left {
+    color: #30c0cd
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal.Electric p.left {
+    color: #f9c000
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal p {
+    margin: 0;
+    padding: 5px 10px
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal p.left {
+    color: #ffffff8c;
+    text-align: left;
+    font-weight: 500
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .stat-group .normal p.right {
+    text-align: right;
+    font-weight: 600
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill {
+    opacity: 1;
+    background-color: #009eec;
+    margin-bottom: 0;
+    padding: 2px 5px;
+    font-weight: 600;
+    display: inline-block
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Aethertech {
+    color: #000;
+    background-color: #adadad
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Bonekrusha {
+    color: #fff;
+    background-color: #424242
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Eternal {
+    color: #3f573b;
+    background-color: #88bc7f
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Frontiers {
+    color: #fff;
+    background-color: #c8a44a
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Hot {
+    color: #fff;
+    background-color: #d24e52
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.LYNX {
+    color: #fff;
+    background-color: #1e5673
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Security {
+    color: #fff;
+    background-color: #6b629a
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Pulser {
+    color: #fff;
+    background-color: #c1bd40
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Swordmancer {
+    color: #fff;
+    background-color: #2b6b59
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Tide {
+    color: #fff;
+    background-color: #90a9a5
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Type {
+    color: #fff;
+    background-color: #63520f
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Xiranflow {
+    color: #fff;
+    background-color: #7b2d8e
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content .set-pill.Qingbo {
+    color: #fff;
+    background-color: #4a8f63
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content p {
+    margin-bottom: 7px
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content p strong {
+    color: #ffd780
+}
+
+.tippy-box.character-hover-box.endfield-gear .endfield-content p:last-child {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box .tippy-content .top.afk {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.afk .avatar {
+    border-bottom-width: 3px;
+    width: 100px;
+    margin: 0 !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.afk .details {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex
+}
+
+.tippy-box.character-hover-box .tippy-content .top.afk p.name {
+    margin: 0 !important
+}
+
+.tippy-box.character-hover-box .tippy-content .top.afk .type-class {
+    margin-bottom: 0
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.afk {
+    font-size: 14px
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.afk .rating-box-container p,
+.tippy-box.character-hover-box .tippy-content .bottom.afk p {
+    font-size: 14px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.afk-top {
+    margin-bottom: 5px
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.afk-top p,
+.tippy-box.character-hover-box .tippy-content .bottom.afk-bottom p {
+    font-size: 15px !important
+}
+
+.tippy-box.character-hover-box .tippy-content .bottom.afk-top .rating-box-container,
+.tippy-box.character-hover-box .tippy-content .bottom.afk-bottom .rating-box-container {
+    width: 49%
+}
+
+.tippy-box.character-hover-box.genshin {
+    width: 460px
+}
+
+@media (hover:none) and (pointer:coarse) {
+    .tippy-box.character-hover-box.genshin {
+        width: min(460px, 100vw - 20px) !important
+    }
+}

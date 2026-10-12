@@ -1,0 +1,53 @@
+.rte-icon {
+    vertical-align: middle;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    margin: 0 2px;
+    font-size: 12px;
+    line-height: 22px;
+    display: inline-flex
+}
+
+.rte-icon-limited {
+    color: #fff;
+    background-color: #1b1b1b
+}
+
+.rte-icon-new {
+    color: #fff;
+    background-color: #ed343e;
+    width: auto;
+    padding: 0 6px;
+    font-weight: 600
+}
+
+.rte-icon-new .rte-icon-text {
+    letter-spacing: .4px;
+    font-size: 11px
+}
+
+.rte-icon-up {
+    color: #303030;
+    background-color: #7cde97
+}
+
+.rte-icon-down {
+    color: #fff;
+    background-color: #ee5757
+}
+
+.rte-fa-icon {
+    vertical-align: -.125em;
+    justify-content: center;
+    align-items: center;
+    min-width: 1em;
+    display: inline-flex
+}
+
+.rte-fa-icon svg {
+    width: auto;
+    height: 1em
+}

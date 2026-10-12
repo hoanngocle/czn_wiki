@@ -1,0 +1,217 @@
+.nikke-element,
+.nikke-weapon,
+.nikke-type {
+    color: #fff;
+    cursor: pointer;
+    opacity: .8;
+    background-color: #36373d;
+    border-bottom: 3px solid #009eec;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: opacity .7s;
+    display: flex
+}
+
+.nikke-element.ship .gatsby-image-wrapper-constrained,
+.nikke-weapon.ship .gatsby-image-wrapper-constrained,
+.nikke-type.ship .gatsby-image-wrapper-constrained {
+    width: 35px;
+    margin-right: 5px;
+    display: block
+}
+
+.nikke-element .with-cooldown,
+.nikke-weapon .with-cooldown,
+.nikke-type .with-cooldown {
+    margin-left: 3px
+}
+
+.nikke-element:hover,
+.nikke-weapon:hover,
+.nikke-type:hover {
+    opacity: 1;
+    transition: opacity .7s
+}
+
+@media (max-width:1200px) {
+    .nikke-element,
+    .nikke-weapon,
+    .nikke-type {
+        justify-content: center
+    }
+}
+
+.nikke-element.type-1,
+.nikke-weapon.type-1,
+.nikke-type.type-1 {
+    border-color: #8dfb21
+}
+
+.nikke-element.type-2,
+.nikke-weapon.type-2,
+.nikke-type.type-2 {
+    border-color: #ffb017
+}
+
+.nikke-element.type-3,
+.nikke-weapon.type-3,
+.nikke-type.type-3 {
+    border-color: #ff2017
+}
+
+.nikke-element.Electric,
+.nikke-weapon.Electric,
+.nikke-type.Electric {
+    border-color: #f0f
+}
+
+.nikke-element.Fire,
+.nikke-weapon.Fire,
+.nikke-type.Fire {
+    border-color: #ff0008
+}
+
+.nikke-element.Iron,
+.nikke-weapon.Iron,
+.nikke-type.Iron {
+    border-color: #ff9200
+}
+
+.nikke-element.Water,
+.nikke-weapon.Water,
+.nikke-type.Water {
+    border-color: #007dff
+}
+
+.nikke-element.Wind,
+.nikke-weapon.Wind,
+.nikke-type.Wind {
+    border-color: #00ff54
+}
+
+.nikke-element.Assault,
+.nikke-weapon.Assault,
+.nikke-type.Assault {
+    border-color: #c267ec
+}
+
+.nikke-element.Minigun,
+.nikke-weapon.Minigun,
+.nikke-type.Minigun {
+    border-color: #009eec
+}
+
+.nikke-element.Rocket,
+.nikke-weapon.Rocket,
+.nikke-type.Rocket {
+    border-color: #ffc000
+}
+
+.nikke-element.Shotgun,
+.nikke-weapon.Shotgun,
+.nikke-type.Shotgun {
+    border-color: #ffff7f
+}
+
+.nikke-element.SMG,
+.nikke-weapon.SMG,
+.nikke-type.SMG {
+    border-color: #009eec
+}
+
+.nikke-element.Sniper,
+.nikke-weapon.Sniper,
+.nikke-type.Sniper {
+    border-color: #c267ec
+}
+
+.nikke-element .gatsby-image-wrapper-constrained,
+.nikke-weapon .gatsby-image-wrapper-constrained,
+.nikke-type .gatsby-image-wrapper-constrained {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.nikke-element-inline {
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+    align-items: center;
+    font-size: 16px;
+    display: inline-flex
+}
+
+@media (max-width:1200px) {
+    .nikke-element-inline {
+        justify-content: center
+    }
+}
+
+.nikke-element-inline.Electric {
+    color: #f0f;
+    border-color: #f0f
+}
+
+.nikke-element-inline.Fire {
+    color: #ff0008;
+    border-color: #ff0008
+}
+
+.nikke-element-inline.Iron {
+    color: #ff9200;
+    border-color: #ff9200
+}
+
+.nikke-element-inline.Water {
+    color: #007dff;
+    border-color: #007dff
+}
+
+.nikke-element-inline.Wind {
+    color: #00ff54;
+    border-color: #00ff54
+}
+
+.nikke-element-inline .gatsby-image-wrapper-constrained {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0 !important
+}
+
+.nikke-manu {
+    color: #fff;
+    cursor: pointer;
+    opacity: .8;
+    background-color: #36373d;
+    border-bottom: 3px solid #009eec;
+    align-items: center;
+    margin: 5px;
+    padding: 4px 10px;
+    font-size: 16px;
+    transition: opacity .7s;
+    display: flex
+}
+
+.nikke-manu svg {
+    margin-right: 4px
+}
+
+.nikke-manu .gatsby-image-wrapper-constrained {
+    vertical-align: middle;
+    width: 26px
+}
+
+.nikke-manu.type-Tetra {
+    border-color: #00ff54
+}
+
+.nikke-manu.type-Missilis {
+    border-color: #f0f
+}
+
+.nikke-manu.type-Pilgrim {
+    border-color: #ffb017
+}

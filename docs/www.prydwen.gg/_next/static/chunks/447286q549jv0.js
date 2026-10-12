@@ -1,0 +1,679 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 327427, t => {
+    "use strict";
+    var e = t.i(480388),
+        a = t.i(181788),
+        n = t.i(499092),
+        o = t.i(544821),
+        r = t.i(486453),
+        l = t.i(347015),
+        i = ["prydwen.gg", "staging.quantumneko.com"];
+
+    function s(t, e) {
+        return t === e || t.endsWith(".".concat(e))
+    }
+
+    function d(t) {
+        if (!t.startsWith("http")) return !0;
+        try {
+            e = new URL(t).hostname.toLowerCase()
+        } catch (t) {
+            return !1
+        }
+        if (i.some(function(t) {
+                return s(e, t)
+            })) return !0;
+        try {
+            var e, a = new URL(l.clientEnv.NEXT_PUBLIC_APP_URL).hostname.toLowerCase();
+            return s(e, a)
+        } catch (t) {
+            return !1
+        }
+    }
+    var c = /^data:image\/(png|jpeg|gif|webp);base64,/i,
+        u = /^(#[0-9a-fA-F]{3,8}|rgba?\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*(,\s*(0|1|0?\.\d+))?\s*\)|hsla?\(\s*\d{1,3}\s*,\s*\d{1,3}%\s*,\s*\d{1,3}%\s*(,\s*(0|1|0?\.\d+))?\s*\)|transparent|currentcolor|inherit|black|white|red|green|blue|yellow|orange|purple|pink|gray|grey|brown|cyan|magenta|navy|teal)$/i,
+        g = /^(\d+(\.\d+)?(px|em|rem|%|vh|vw|pt|cm|mm|in)?|auto|0)$/,
+        m = {
+            allowedTags: ["p", "br", "hr", "strong", "b", "em", "i", "u", "s", "strike", "del", "ins", "mark", "sub", "sup", "small", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "dl", "dt", "dd", "a", "img", "picture", "source", "video", "audio", "figure", "figcaption", "table", "thead", "tbody", "tfoot", "tr", "th", "td", "caption", "colgroup", "col", "div", "span", "article", "section", "aside", "header", "footer", "nav", "main", "pre", "code", "kbd", "samp", "var", "blockquote", "q", "cite", "abbr", "details", "summary", "button", "iframe"],
+            allowedAttributes: {
+                "*": ["class", "id", "title", "lang", "dir", "data-inline-element", "data-id", "data-type", "data-slug", "data-name", "data-icon", "data-color", "data-rarity", "data-game-code", "data-link-url", "data-tooltip", "data-display-mode", "data-callout", "data-callout-type", "data-callout-title", "data-spoiler-block", "data-spoiler-label", "data-spoiler-open", "data-spoiler-inline", "data-video-embed", "data-video-provider", "data-video-id", "data-aspect-ratio", "data-caption", "data-alignment", "data-tweet-embed", "data-tweet-id", "data-tweet-url", "data-section-divider", "data-section-divider-title", "data-tabs", "data-tab-list", "data-tab", "data-tab-panel", "data-tab-panels", "data-active-tab", "data-label", "data-tab-index", "data-accordion", "data-accordion-item", "data-title", "data-open", "data-variant", "data-accordion-collapse", "data-columns", "data-column", "data-column-count", "data-guide-card", "data-guide-url", "data-guide-title", "data-guide-description", "data-guide-icon", "data-rte-icon", "data-fa-icon", "role", "aria-selected", "aria-expanded", "aria-controls", "aria-labelledby"],
+                a: ["href", "target", "rel"],
+                img: ["src", "alt", "width", "height", "loading", "decoding"],
+                video: ["controls", "autoplay", "muted", "loop", "playsinline", "poster", "src", "width", "height"],
+                audio: ["controls", "autoplay", "muted", "loop", "src"],
+                source: ["src", "type"],
+                span: ["style"],
+                div: ["style"],
+                p: ["style"],
+                th: ["colspan", "rowspan", "scope", "headers", "style"],
+                td: ["colspan", "rowspan", "headers", "style"],
+                col: ["span", "style"],
+                colgroup: ["span", "style"],
+                iframe: ["src", "width", "height", "frameborder", "allowfullscreen", "allow"],
+                button: ["type", "disabled"],
+                details: ["open"],
+                time: ["datetime"],
+                blockquote: ["cite"],
+                q: ["cite"],
+                abbr: ["title"]
+            },
+            allowedStyles: {
+                "*": {
+                    color: [u],
+                    "background-color": [u],
+                    background: [u],
+                    "border-color": [u],
+                    border: [/^(\d+(\.\d+)?(px|em|rem)?\s+)?(solid|dashed|dotted|double|none)\s+#[0-9a-fA-F]{3,8}$/i],
+                    "border-b": [/^(\d+(\.\d+)?(px|em|rem)?\s+)?(solid|dashed|dotted|double|none)\s+#[0-9a-fA-F]{3,8}$/i],
+                    "border-t": [/^(\d+(\.\d+)?(px|em|rem)?\s+)?(solid|dashed|dotted|double|none)\s+#[0-9a-fA-F]{3,8}$/i],
+                    "border-left": [/^(\d+(\.\d+)?(px|em|rem)?\s+)?(solid|dashed|dotted|double|none)\s+#[0-9a-fA-F]{3,8}$/i],
+                    "border-right": [/^(\d+(\.\d+)?(px|em|rem)?\s+)?(solid|dashed|dotted|double|none)\s+#[0-9a-fA-F]{3,8}$/i],
+                    "text-align": [/^(left|right|center|justify)$/],
+                    "vertical-align": [/^(top|middle|bottom|baseline)$/],
+                    "font-weight": [/^(normal|bold|bolder|lighter|\d{3})$/],
+                    "font-style": [/^(normal|italic|oblique)$/],
+                    "font-size": [g],
+                    "line-height": [/^(\d+(\.\d+)?(px|em|rem|%)?|normal)$/],
+                    width: [g],
+                    height: [g],
+                    "max-width": [g],
+                    "max-height": [g],
+                    "min-width": [g],
+                    "min-height": [g],
+                    margin: [/^(-?\d+(\.\d+)?(px|em|rem|%|auto)\s*){1,4}$/],
+                    "margin-top": [g],
+                    "margin-right": [g],
+                    "margin-bottom": [g],
+                    "margin-left": [g],
+                    padding: [/^(\d+(\.\d+)?(px|em|rem|%)\s*){1,4}$/],
+                    "padding-top": [g],
+                    "padding-right": [g],
+                    "padding-bottom": [g],
+                    "padding-left": [g],
+                    display: [/^(block|inline|inline-block|flex|inline-flex|grid|none)$/],
+                    "text-decoration": [/^(none|underline|overline|line-through)$/],
+                    opacity: [/^(0|1|0?\.\d+)$/],
+                    "border-radius": [/^(\d+(\.\d+)?(px|em|rem|%)\s*){1,4}$/]
+                }
+            },
+            allowedSchemes: ["http", "https", "mailto", "tel"],
+            allowedSchemesByTag: {
+                img: ["http", "https", "data"],
+                iframe: ["https"]
+            },
+            allowedSchemesAppliedToAttributes: ["href", "src", "cite", "data-link-url"],
+            allowedIframeHostnames: ["www.youtube.com", "youtube.com", "www.youtube-nocookie.com", "player.twitch.tv", "clips.twitch.tv", "www.twitch.tv", "player.vimeo.com"],
+            allowedIframeDomains: [],
+            transformTags: {
+                a: function(t, n) {
+                    var o = n.href || "";
+                    return o.startsWith("http") && !d(o) ? {
+                        tagName: t,
+                        attribs: (0, a._)((0, e._)({}, n), {
+                            target: "_blank",
+                            rel: "noopener noreferrer"
+                        })
+                    } : {
+                        tagName: t,
+                        attribs: n
+                    }
+                },
+                img: function(t, o) {
+                    var r = o.src || "";
+                    if (r.startsWith("data:") && !c.test(r)) {
+                        o.src;
+                        var l = (0, n._)(o, ["src"]);
+                        return {
+                            tagName: t,
+                            attribs: (0, a._)((0, e._)({}, l), {
+                                alt: o.alt || "",
+                                loading: o.loading || "lazy"
+                            })
+                        }
+                    }
+                    return o.loading ? {
+                        tagName: t,
+                        attribs: o
+                    } : {
+                        tagName: t,
+                        attribs: (0, a._)((0, e._)({}, o), {
+                            loading: "lazy"
+                        })
+                    }
+                },
+                iframe: function(t, n) {
+                    return {
+                        tagName: t,
+                        attribs: (0, a._)((0, e._)({}, n), {
+                            sandbox: n.sandbox || "allow-scripts allow-same-origin allow-presentation",
+                            referrerpolicy: n.referrerpolicy || "no-referrer",
+                            loading: n.loading || "lazy"
+                        })
+                    }
+                }
+            }
+        };
+
+    function p(t) {
+        return t && "string" == typeof t ? (0, o.default)(t, m) : ""
+    }
+    r.escapeHtml, t.s(["isInternalHref", 0, d, "sanitizeHtml", 0, p, "sanitizeHtmlContent", 0, p])
+}, 486453, t => {
+    "use strict";
+    var e = t.i(50270),
+        a = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+    function n(t) {
+        if ("string" != typeof t) return "";
+        var e = t.trim(),
+            a = e.match(/^!?\[[^\]]*\]\(\s*<?([^)\s>]+)[^)]*\)$/);
+        return a && (e = a[1].trim()), e.startsWith("<") && e.endsWith(">") && (e = e.slice(1, -1).trim()), (e.startsWith('"') && e.endsWith('"') || e.startsWith("'") && e.endsWith("'")) && (e = e.slice(1, -1).trim()), e
+    }
+
+    function o(t) {
+        if (!t || "string" != typeof t || t.includes("..") || t.includes("\0") || t.includes("%2e") || t.includes("%2E")) return !1;
+        if (t.startsWith("/") && !t.startsWith("//")) {
+            var e = t.toLowerCase();
+            return !![".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".ico"].some(function(t) {
+                return e.endsWith(t)
+            })
+        }
+        var a = t.startsWith("https://"),
+            n = t.startsWith("http://localhost");
+        if (!a && !n) return !1;
+        try {
+            s = new URL(t)
+        } catch (t) {
+            return console.warn("isValidImagePath: URL parse failed:", t), !1
+        }
+        var o = s.hostname.toLowerCase(),
+            r = !0,
+            l = !1,
+            i = void 0;
+        try {
+            for (var s, d, c = ["127.0.0.1", "0.0.0.0", "::1", "169.254.", "10.", "172.16.", "192.168."][Symbol.iterator](); !(r = (d = c.next()).done); r = !0) {
+                var u = d.value;
+                if (o.includes(u) || o.startsWith(u)) return !1
+            }
+        } catch (t) {
+            l = !0, i = t
+        } finally {
+            try {
+                r || null == c.return || c.return()
+            } finally {
+                if (l) throw i
+            }
+        }
+        return !!n || "prydwen.gg" === o || o.endsWith(".prydwen.gg")
+    }
+    var r = ["local", "localhost", "internal", "intranet", "corp", "home", "lan", "arpa", "example", "test", "invalid"],
+        l = ["metadata.google.internal", "metadata.aws.internal", "metadata.azure.internal", "metadata"];
+
+    function i(t) {
+        if (!t || "string" != typeof t) return !1;
+        try {
+            e = new URL(t)
+        } catch (t) {
+            return !1
+        }
+        if (!["http:", "https:"].includes(e.protocol)) return !1;
+        var e, a = e.hostname.toLowerCase();
+        if (!a || function(t) {
+                if (!t) return !1;
+                var e = t.startsWith("[") && t.endsWith("]") ? t.slice(1, -1) : t;
+                return !!(e.includes(":") || /^\d+$/.test(e) || /^0x[\da-f]+$/i.test(e) || /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(e) || /^\d{1,3}(\.\d{1,3}){1,3}$/.test(e) || /^(0x[\da-f]+|0[0-7]*|\d+)(\.(0x[\da-f]+|0[0-7]*|\d+)){1,3}$/i.test(e))
+            }(a) || l.includes(a)) return !1;
+        var n = a.split("."),
+            o = n[n.length - 1];
+        return !(o && r.includes(o) || n.length < 2 || n.some(function(t) {
+            return 0 === t.length
+        }))
+    }
+    var s = /^(https?:\/\/|\/(?![/\\])|[#?])/i;
+
+    function d(t) {
+        return "string" == typeof t && t.length > 0 && s.test(t)
+    }
+
+    function c(t) {
+        return t && "string" == typeof t ? t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;").replace(/`/g, "&#x60;").replace(/\//g, "&#x2F;") : ""
+    }
+    e.z.string().min(1, "Link is required").max(500, "Link too long").refine(d, "Link must be a full https:// URL or an internal path starting with /").refine(function(t) {
+        return !/^https?:\/\//i.test(t)
+    }, "Link must be an internal path — external URLs are not editable through this surface");
+    var u = e.z.string().min(1, "Slug is required").max(100, "Slug too long").regex(a, "Invalid slug format (lowercase letters, numbers, hyphens only)").refine(function(t) {
+            return !t.includes("..")
+        }, "Invalid characters in slug").refine(function(t) {
+            return !t.includes("%")
+        }, "URL encoding not allowed"),
+        g = e.z.string().url("Invalid URL format").max(2e3, "URL too long").refine(i, "URL must be http or https and not internal"),
+        m = e.z.string().url("Invalid URL format").max(2e3, "URL too long").refine(i, "URL must be http or https and not internal").optional().nullable().or(e.z.literal("")),
+        p = e.z.string().max(500, "Path too long").transform(n).refine(o, "Invalid image path"),
+        b = e.z.string().max(500, "Path too long").transform(n).refine(function(t) {
+            return !t || o(t)
+        }, "Invalid image path").optional().nullable().or(e.z.literal("")),
+        h = e.z.string().max(200, "Path too long").refine(function(t) {
+            return !(!t || "string" != typeof t || !t.startsWith("/") || t.includes("..") || t.includes("//") || t.includes("\0") || t.includes("%"))
+        }, "Invalid path format"),
+        f = e.z.string().regex(/^#[0-9A-Fa-f]{6}$/, "Invalid hex color").optional().nullable().or(e.z.literal(""));
+    e.z.string().max(1e4, "Text too long").transform(function(t) {
+        return t && "string" == typeof t ? (!t || "string" != typeof t ? "" : t.replace(/<[^>]*>/g, "")).trim() : ""
+    }), e.z.string().max(1e4, "Text too long").transform(c), e.z.object({
+        code: u,
+        name: e.z.string().min(1, "Name required").max(200, "Name too long"),
+        shortName: e.z.string().max(50, "Short name too long").optional().nullable(),
+        basePath: h,
+        coverImage: p,
+        switcherBgImage: b,
+        websiteBgImage: b,
+        websiteBgImages: e.z.array(p).max(20, "Maximum 20 background images").default([]),
+        iconImage: b,
+        isActive: e.z.boolean().default(!0),
+        isNew: e.z.boolean().default(!1),
+        isPreLaunch: e.z.boolean().default(!1),
+        isClosed: e.z.boolean().default(!1),
+        newsEnabled: e.z.boolean().default(!1),
+        bannersEnabled: e.z.boolean().default(!1),
+        globalOrder: e.z.number().int().min(0).max(1e4).default(0),
+        description: e.z.string().max(5e3, "Description too long").optional().nullable(),
+        publisher: e.z.string().max(200, "Publisher too long").optional().nullable(),
+        developer: e.z.string().max(200, "Developer too long").optional().nullable(),
+        releaseDate: e.z.string().datetime().optional().nullable(),
+        website: m
+    }).partial().refine(function(t) {
+        return Object.keys(t).length > 0
+    }, "At least one field must be provided"), e.z.object({
+        code: u,
+        name: e.z.string().min(1, "Name required").max(200, "Name too long"),
+        genre: e.z.string().max(100, "Genre too long").optional().nullable(),
+        region: e.z.string().max(50, "Region too long").optional().nullable(),
+        publisher: e.z.string().max(200, "Publisher too long").optional().nullable(),
+        developer: e.z.string().max(200, "Developer too long").optional().nullable(),
+        releaseDate: e.z.string().max(100, "Release date too long").optional().nullable(),
+        releaseDateUnix: e.z.number().int().min(0).max(0xf4865700).optional().nullable(),
+        isDateConfirmed: e.z.boolean().default(!1),
+        about: e.z.string().max(5e3, "About too long").optional().nullable(),
+        website: m,
+        videoUrl: m,
+        hasPlatformAndroid: e.z.boolean().default(!1),
+        hasPlatformApple: e.z.boolean().default(!1),
+        hasPlatformPC: e.z.boolean().default(!1),
+        hasPlatformSteam: e.z.boolean().default(!1),
+        hasPlatformConsole: e.z.boolean().default(!1),
+        coverImage: b,
+        logoImage: b,
+        headerBgImage: b,
+        headerBgColorLeft: f,
+        headerBgColorRight: f,
+        isFeatured: e.z.boolean().default(!1),
+        isVisible: e.z.boolean().default(!0),
+        order: e.z.number().int().min(0).max(1e4).default(0)
+    }).partial(), e.z.object({
+        section: e.z.enum(["ABOUT_US", "NUMBERS"]),
+        icon: e.z.string().max(100, "Icon name too long").optional().nullable(),
+        title: e.z.string().max(200, "Title too long").optional().nullable(),
+        description: e.z.string().max(2e3, "Description too long").optional().nullable(),
+        statValue: e.z.string().max(50, "Stat value too long").optional().nullable(),
+        statLabel: e.z.string().max(100, "Stat label too long").optional().nullable(),
+        gradientColor: e.z.string().max(100, "Color too long").optional().nullable(),
+        order: e.z.number().int().min(0).max(1e3).default(0),
+        isVisible: e.z.boolean().default(!0)
+    }).superRefine(function(t, a) {
+        var n, o, r, l;
+        "NUMBERS" === t.section ? ((null == (n = t.statValue) ? void 0 : n.trim()) || a.addIssue({
+            code: e.z.ZodIssueCode.custom,
+            path: ["statValue"],
+            message: "Stat value required"
+        }), (null == (o = t.statLabel) ? void 0 : o.trim()) || a.addIssue({
+            code: e.z.ZodIssueCode.custom,
+            path: ["statLabel"],
+            message: "Stat label required"
+        })) : ((null == (r = t.title) ? void 0 : r.trim()) || a.addIssue({
+            code: e.z.ZodIssueCode.custom,
+            path: ["title"],
+            message: "Title required"
+        }), (null == (l = t.description) ? void 0 : l.trim()) || a.addIssue({
+            code: e.z.ZodIssueCode.custom,
+            path: ["description"],
+            message: "Description required"
+        }))
+    }), e.z.object({
+        type: e.z.string().min(1, "Type required").max(50, "Type too long"),
+        title: e.z.string().min(1, "Title required").max(200, "Title too long"),
+        highlightText: e.z.string().max(100, "Highlight too long").optional().nullable(),
+        description: e.z.string().max(2e3, "Description too long").optional().nullable(),
+        buttonText: e.z.string().max(100, "Button text too long").optional().nullable(),
+        buttonUrl: g,
+        memberCount: e.z.number().int().min(0).max(1e9).optional().nullable(),
+        iconImage: b,
+        backgroundImage: b,
+        gradientColor: e.z.string().max(100, "Color too long").optional().nullable(),
+        showWhenLoggedIn: e.z.boolean().default(!0),
+        showWhenLoggedOut: e.z.boolean().default(!0),
+        order: e.z.number().int().min(0).max(1e3).default(0),
+        isVisible: e.z.boolean().default(!0)
+    }), e.z.object({
+        title: e.z.string().min(1, "Title required").max(500, "Title too long"),
+        subtitle: e.z.string().max(2e3, "Subtitle too long").optional().nullable(),
+        ctaText: e.z.string().max(100, "CTA text too long").optional().nullable(),
+        ctaLink: m,
+        backgroundImage: b,
+        isActive: e.z.boolean().default(!0)
+    }), e.z.object({
+        sectionKey: u,
+        title: e.z.string().min(1, "Title required").max(200, "Title too long"),
+        subtitle: e.z.string().max(500, "Subtitle too long").optional().nullable(),
+        isVisible: e.z.boolean().default(!0)
+    }), e.z.object({
+        discordId: e.z.string().regex(/^[0-9]{17,19}$/, "Invalid Discord ID format (must be 17-19 digits)").refine(function(t) {
+            return BigInt(t) >= BigInt("21154535154122752")
+        }, "Invalid Discord ID (too old or invalid snowflake)"),
+        gameId: e.z.string().uuid("Invalid game ID format")
+    }), e.z.object({
+        isAdFree: e.z.boolean().optional(),
+        adFreeUntil: e.z.string().datetime().optional().nullable(),
+        adFreeSource: e.z.enum(["ADMIN", "KOFI", "PATREON", "OTHER"]).optional().nullable(),
+        adFreeLeaseUntil: e.z.string().datetime().optional().nullable(),
+        kofiEmail: e.z.string().max(254).optional().nullable().transform(function(t) {
+            if ("string" != typeof t) return null;
+            var e = t.normalize("NFKC").trim().toLowerCase();
+            return 0 === e.length || e.length > 254 || !e.includes("@") ? null : e
+        })
+    }), e.z.object({
+        label: e.z.string().min(1, "Label required").max(100, "Label too long"),
+        url: e.z.string().min(1, "URL required").max(500, "URL too long"),
+        isExternal: e.z.boolean().default(!1),
+        icon: e.z.string().max(100, "Icon name too long").optional().nullable(),
+        iconImage: b,
+        buttonStyle: e.z.string().max(50, "Button style too long").optional().nullable(),
+        position: e.z.enum(["header", "footer", "both"]).default("header"),
+        order: e.z.number().int().min(0).max(1e3).default(0),
+        isVisible: e.z.boolean().default(!0)
+    }), e.z.object({
+        aboutText: e.z.string().min(1, "About text required").max(5e3, "About text too long"),
+        showGamesList: e.z.boolean().default(!0),
+        discordUrl: m,
+        twitterUrl: m,
+        youtubeUrl: m,
+        quickLinks: e.z.array(e.z.object({
+            label: e.z.string().min(1).max(100),
+            url: e.z.string().min(1).max(500)
+        })).optional().nullable(),
+        partnerLinks: e.z.array(e.z.object({
+            label: e.z.string().min(1).max(100),
+            url: e.z.string().min(1).max(500)
+        })).optional().nullable()
+    }), e.z.object({
+        newsUrl: m,
+        googleAnalyticsId: e.z.string().max(50, "GA ID too long").optional().nullable(),
+        adSensePublisherId: e.z.string().max(50, "AdSense ID too long").optional().nullable(),
+        defaultMetaTitle: e.z.string().max(200, "Meta title too long").optional().nullable(),
+        defaultMetaDescription: e.z.string().max(500, "Meta description too long").optional().nullable(),
+        socialShareImage: b,
+        siteName: e.z.string().min(1, "Site name required").max(100, "Site name too long").default("Prydwen Institute"),
+        siteTagline: e.z.string().max(200, "Tagline too long").optional().nullable(),
+        logoUrl: b,
+        logoMinUrl: b,
+        faviconUrl: b,
+        homepageBgImages: e.z.array(e.z.string().max(500, "URL too long")).optional(),
+        newsHeroTitle: e.z.string().max(200, "News hero title too long").optional().nullable(),
+        newsHeroSubtitle: e.z.string().max(300, "News hero subtitle too long").optional().nullable(),
+        newsHeroImage: b,
+        newsPageEnabled: e.z.boolean().optional(),
+        kofiToastEnabled: e.z.boolean().optional()
+    }), e.z.object({
+        title: e.z.string().min(1, "Title required").max(200, "Title too long"),
+        imageUrl: b,
+        imageUrlMobile: b,
+        linkUrl: g,
+        altText: e.z.string().max(200, "Alt text too long").optional().nullable(),
+        location: e.z.enum(["TOP", "SIDEBAR", "HEADER_1", "HEADER_2"]).default("TOP"),
+        startDate: e.z.string().datetime().optional().nullable(),
+        endDate: e.z.string().datetime().optional().nullable(),
+        showOnPaths: e.z.array(e.z.string().max(200)).default([]),
+        isReverseTargeting: e.z.boolean().default(!1),
+        hideOnHomepage: e.z.boolean().default(!1),
+        isActive: e.z.boolean().default(!0),
+        order: e.z.number().int().min(0).max(1e3).default(0)
+    }), e.z.object({
+        question: e.z.string().min(1, "Question required").max(300, "Question too long"),
+        answer: e.z.string().min(1, "Answer required").max(5e3, "Answer too long"),
+        order: e.z.number().int().min(0).max(1e3).default(0),
+        isVisible: e.z.boolean().default(!0)
+    }), e.z.object({
+        slug: e.z.string().min(1).max(100).regex(/^[a-z0-9-]+$/),
+        title: e.z.string().min(1).max(255),
+        content: e.z.string().min(1),
+        order: e.z.number().int().min(0).default(0),
+        isVisible: e.z.boolean().default(!0)
+    }), e.z.object({
+        slug: e.z.string().min(1).max(100).regex(/^[a-z0-9-]+$/),
+        title: e.z.string().min(1).max(255),
+        content: e.z.string().min(1),
+        order: e.z.number().int().min(0),
+        isVisible: e.z.boolean()
+    }), t.s(["escapeHtml", 0, c, "isValidLinkHref", 0, d, "isValidSlug", 0, function(t) {
+        return !(!t || "string" != typeof t || t.length < 1 || t.length > 100 || t.includes("..") || t.includes("/") || t.includes("\\") || t.includes("\0") || t.includes("%")) && a.test(t)
+    }, "sanitizeCssColor", 0, function(t) {
+        if (!t || "string" != typeof t) return null;
+        var e = t.trim().toLowerCase();
+        return e.includes("expression") || e.includes("url(") || e.includes("javascript:") || e.includes("\\") || e.includes(";") || e.includes("}") || e.includes("{") ? null : /^#[0-9a-f]{3,8}$/.test(e) || new Set(["transparent", "currentcolor", "inherit", "black", "white", "red", "green", "blue", "yellow", "orange", "purple", "pink", "gray", "grey", "brown", "cyan", "magenta", "lime", "navy", "teal", "olive", "maroon", "silver", "aqua", "fuchsia", "gold", "coral", "crimson", "indigo", "violet", "salmon", "turquoise", "tan", "plum", "orchid", "khaki", "ivory"]).has(e) || /^rgba?\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*(,\s*(0|1|0?\.\d+))?\s*\)$/.test(e) || /^hsla?\(\s*\d{1,3}\s*,\s*\d{1,3}%\s*,\s*\d{1,3}%\s*(,\s*(0|1|0?\.\d+))?\s*\)$/.test(e) ? e : null
+    }], 486453)
+}, 237157, 480588, t => {
+    "use strict";
+    var e = t.i(524906),
+        a = t.i(327427),
+        n = t.i(486453);
+
+    function o(t) {
+        if (!t) return "";
+        switch (t.nodeType) {
+            case "paragraph":
+                var e = r(t.content);
+                return e ? "<p>".concat(e, "</p>") : "<p></p>";
+            case "heading-1":
+                return "<h1>".concat(r(t.content), "</h1>");
+            case "heading-2":
+                return "<h2>".concat(r(t.content), "</h2>");
+            case "heading-3":
+                return "<h3>".concat(r(t.content), "</h3>");
+            case "heading-4":
+                return "<h4>".concat(r(t.content), "</h4>");
+            case "heading-5":
+                return "<h5>".concat(r(t.content), "</h5>");
+            case "heading-6":
+                return "<h6>".concat(r(t.content), "</h6>");
+            case "unordered-list":
+                return "<ul>".concat(r(t.content), "</ul>");
+            case "ordered-list":
+                return "<ol>".concat(r(t.content), "</ol>");
+            case "list-item":
+                return "<li>".concat(r(t.content), "</li>");
+            case "blockquote":
+                return "<blockquote>".concat(r(t.content), "</blockquote>");
+            case "hr":
+                return "<hr />";
+            case "text":
+                return function(t, e) {
+                    if (!e || 0 === e.length) return (0, n.escapeHtml)(t);
+                    var a = (0, n.escapeHtml)(t),
+                        o = !0,
+                        r = !1,
+                        l = void 0;
+                    try {
+                        for (var i, s = e[Symbol.iterator](); !(o = (i = s.next()).done); o = !0) switch (i.value.type) {
+                            case "bold":
+                                a = "<b>".concat(a, "</b>");
+                                break;
+                            case "italic":
+                                a = "<em>".concat(a, "</em>");
+                                break;
+                            case "underline":
+                                a = "<u>".concat(a, "</u>");
+                                break;
+                            case "code":
+                                a = "<code>".concat(a, "</code>")
+                        }
+                    } catch (t) {
+                        r = !0, l = t
+                    } finally {
+                        try {
+                            o || null == s.return || s.return()
+                        } finally {
+                            if (r) throw l
+                        }
+                    }
+                    return a
+                }(t.value || "", t.marks);
+            case "hyperlink":
+                var a, o = String((null == (a = t.data) ? void 0 : a.uri) || "#"),
+                    l = /^(https?:\/\/|\/[^/]|mailto:|tel:|#)/.test(o) ? (0, n.escapeHtml)(o) : "#";
+                return '<a href="'.concat(l, '" target="_blank" rel="noopener noreferrer">').concat(r(t.content), "</a>");
+            case "table":
+                return "<table>".concat(r(t.content), "</table>");
+            case "table-row":
+                return "<tr>".concat(r(t.content), "</tr>");
+            case "table-cell":
+                return "<td>".concat(r(t.content), "</td>");
+            case "table-header-cell":
+                return "<th>".concat(r(t.content), "</th>");
+            case "embedded-asset-block":
+                var i, s = null == (i = t.data) ? void 0 : i.target,
+                    d = null == s ? void 0 : s.fields,
+                    c = null == d ? void 0 : d.file,
+                    u = null == c ? void 0 : c.url,
+                    g = (null == d ? void 0 : d.title) || "";
+                if (u) {
+                    var m = u.startsWith("//") ? "https:".concat(u) : u;
+                    return '<img src="'.concat((0, n.escapeHtml)(m), '" alt="').concat((0, n.escapeHtml)(g), '" />')
+                }
+                return "";
+            default:
+                return r(t.content)
+        }
+    }
+
+    function r(t) {
+        return t && Array.isArray(t) ? t.map(o).join("") : ""
+    }
+
+    function l(t) {
+        if (!t) return "";
+        switch (t.type) {
+            case "paragraph":
+                var e = i(t.content);
+                return e ? "<p>".concat(e, "</p>") : "<p></p>";
+            case "heading":
+                var a, o = Math.min(Math.max((null == (a = t.attrs) ? void 0 : a.level) || 1, 1), 6);
+                return "<h".concat(o, ">").concat(i(t.content), "</h").concat(o, ">");
+            case "bulletList":
+                return "<ul>".concat(i(t.content), "</ul>");
+            case "orderedList":
+                return "<ol>".concat(i(t.content), "</ol>");
+            case "listItem":
+                return "<li>".concat(i(t.content), "</li>");
+            case "blockquote":
+                return "<blockquote>".concat(i(t.content), "</blockquote>");
+            case "codeBlock":
+                var r, l = (null == (r = t.attrs) ? void 0 : r.language) || "";
+                return '<pre><code class="language-'.concat(l, '">').concat(i(t.content), "</code></pre>");
+            case "horizontalRule":
+                return "<hr />";
+            case "hardBreak":
+                return "<br />";
+            case "text":
+                return function(t, e) {
+                    if (!e || 0 === e.length) return (0, n.escapeHtml)(t);
+                    var a = (0, n.escapeHtml)(t),
+                        o = !0,
+                        r = !1,
+                        l = void 0;
+                    try {
+                        for (var i, s = e[Symbol.iterator](); !(o = (i = s.next()).done); o = !0) {
+                            var d = i.value;
+                            switch (d.type) {
+                                case "bold":
+                                case "strong":
+                                    a = "<strong>".concat(a, "</strong>");
+                                    break;
+                                case "italic":
+                                case "em":
+                                    a = "<em>".concat(a, "</em>");
+                                    break;
+                                case "underline":
+                                    a = "<u>".concat(a, "</u>");
+                                    break;
+                                case "strike":
+                                    a = "<s>".concat(a, "</s>");
+                                    break;
+                                case "code":
+                                    a = "<code>".concat(a, "</code>");
+                                    break;
+                                case "link":
+                                    var c, u, g = String((null == (c = d.attrs) ? void 0 : c.href) || "#"),
+                                        m = /^(https?:\/\/|\/[^/]|mailto:|tel:|#)/.test(g) ? (0, n.escapeHtml)(g) : "#",
+                                        p = (null == (u = d.attrs) ? void 0 : u.target) || "_blank",
+                                        b = "_blank" === p ? ' rel="noopener noreferrer"' : "";
+                                    a = '<a href="'.concat(m, '" target="').concat((0, n.escapeHtml)(String(p)), '"').concat(b, ">").concat(a, "</a>");
+                                    break;
+                                case "textStyle":
+                                    var h, f = null == (h = d.attrs) ? void 0 : h.color;
+                                    f && /^(#[0-9a-fA-F]{3,8}|rgba?\([0-9,.\s]+\)|[a-zA-Z]+)$/.test(String(f)) && (a = '<span style="color: '.concat((0, n.escapeHtml)(String(f)), '">').concat(a, "</span>"));
+                                    break;
+                                case "highlight":
+                                    var z, x = String((null == (z = d.attrs) ? void 0 : z.color) || "yellow");
+                                    a = /^(#[0-9a-fA-F]{3,8}|rgba?\([0-9,.\s]+\)|[a-zA-Z]+)$/.test(x) ? '<mark style="background-color: '.concat((0, n.escapeHtml)(x), '">').concat(a, "</mark>") : "<mark>".concat(a, "</mark>")
+                            }
+                        }
+                    } catch (t) {
+                        r = !0, l = t
+                    } finally {
+                        try {
+                            o || null == s.return || s.return()
+                        } finally {
+                            if (r) throw l
+                        }
+                    }
+                    return a
+                }(t.text || "", t.marks);
+            case "image":
+                var s, d, c, u = String((null == (s = t.attrs) ? void 0 : s.src) || ""),
+                    g = (0, n.escapeHtml)(String((null == (d = t.attrs) ? void 0 : d.alt) || "")),
+                    m = (0, n.escapeHtml)(String((null == (c = t.attrs) ? void 0 : c.title) || ""));
+                if (! function(t) {
+                        if (!t) return !1;
+                        try {
+                            var e = new URL(t);
+                            if (!["http:", "https:"].includes(e.protocol)) return !1;
+                            return ["cdn.prydwen.gg", "prydwen.gg", "images.ctfassets.net"].some(function(t) {
+                                return e.hostname.endsWith(t)
+                            })
+                        } catch (t) {
+                            return console.warn("isValidImageUrl: URL parse failed:", t), !1
+                        }
+                    }(u)) return "";
+                return '<img src="'.concat((0, n.escapeHtml)(u), '" alt="').concat(g, '" title="').concat(m, '" />');
+            default:
+                return i(t.content)
+        }
+    }
+
+    function i(t) {
+        return t && Array.isArray(t) ? t.map(l).join("") : ""
+    }
+    t.s(["richTextToHtml", 0, function(t) {
+        if (!t) return "";
+        if ("string" == typeof t) return (0, a.sanitizeHtmlContent)(t);
+        if ((void 0 === t ? "undefined" : (0, e._)(t)) === "object" && null !== t) {
+            var n, r;
+            if ("doc" === t.type && Array.isArray(t.content)) {
+                return (n = t).content ? n.content.map(l).join("") : ""
+            }
+            if ("document" === t.nodeType && Array.isArray(t.content)) {
+                return (r = t).content ? r.content.map(o).join("") : ""
+            }
+            if ("raw" in t && "string" == typeof t.raw) return (0, a.sanitizeHtmlContent)(t.raw);
+            if ("description" in t && "string" == typeof t.description) return (0, a.sanitizeHtmlContent)(t.description)
+        }
+        return ""
+    }], 480588), t.s([], 237157)
+}]);
