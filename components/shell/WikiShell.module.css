@@ -1,0 +1,27 @@
+.shell { min-height: 100vh; display: flex; background: var(--bg-primary); }
+.nav { width: 70px; flex: 0 0 70px; background: var(--bg-secondary); border-right: 1px solid var(--border-primary); height: 100vh; position: sticky; top: 0; display: flex; flex-direction: column; z-index: 50; }
+.brand { height: 90px; border-bottom: 1px solid var(--border-primary); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 11px; }
+.brand img { width: 42px; height: 42px; object-fit: contain; }
+.group { height: 34px; border-bottom: 1px solid var(--border-primary); display: flex; align-items: center; justify-content: center; gap: 11px; font-size: 11px; font-weight: 700; }
+.group span { color: var(--text-tertiary); font-size: 8px; }
+.navItems { overflow: auto; flex: 1; padding-top: 10px; scrollbar-width: none; }
+.navItem { min-height: 74px; padding: 9px 2px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; font-size: 12px; line-height: 1.2; font-weight: 600; color: var(--text-secondary); }
+.navItem img { width: 27px; height: 27px; object-fit: contain; }
+.navItem:hover, .active { background: var(--bg-tertiary); color: var(--text-primary); }
+.active { border-left: 3px solid var(--ltblue); }
+.disabled { cursor: default; opacity: .72; }
+.fallbackIcon { font-size: 27px; line-height: 27px; }
+.bottom { border-top: 1px solid var(--border-primary); padding: 16px 0; display: grid; justify-content: center; gap: 8px; }
+.utility { color: var(--text-primary); display: grid; place-items: center; width: 30px; height: 30px; background: transparent; border: 1px solid var(--border-primary); border-radius: 4px; font-size: 12px; }
+.main { min-width: 0; flex: 1; }
+.mobileHeader, .scrim { display: none; }
+@media (max-width: 767px) {
+  .shell { display: block; }
+  .mobileHeader { height: 49px; border-bottom: 1px solid var(--border-primary); display: flex; justify-content: space-between; align-items: center; padding: 0 20px; position: sticky; top: 0; background: var(--bg-primary); z-index: 40; }
+  .mobileHeader button { border: 0; background: transparent; color: var(--text-primary); font-size: 22px; }
+  .mobileBrand { display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 700; }
+  .mobileBrand img { width: 30px; height: 30px; object-fit: contain; }
+  .nav { position: fixed; left: 0; top: 0; transform: translateX(-105%); visibility: hidden; pointer-events: none; transition: transform .2s ease; }
+  .nav.open { transform: none; visibility: visible; pointer-events: auto; }
+  .scrim { display: block; position: fixed; inset: 0; z-index: 45; border: 0; background: rgba(0,0,0,.65); width: 100%; }
+}

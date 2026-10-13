@@ -1,0 +1,7 @@
+.backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 16px; background: #000b; }
+.panel { width: min(720px, 100%); max-height: calc(100dvh - 32px); overflow: auto; border: 1px solid #535366; border-radius: 9px; background: var(--bg-primary); color: var(--text-primary); box-shadow: 0 20px 60px #000a; }
+.header { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid var(--border-primary); background: var(--bg-primary); }
+.header h2 { margin: 0; font-size: 18px; }.header button { background: transparent; border: 0; color: var(--text-primary); font-size: 26px; cursor: pointer; }
+.immersiveBackdrop { background: #08080cbd; backdrop-filter: blur(8px); }
+.immersivePanel { position: relative; width: min(1180px, 100%); max-height: calc(100dvh - 16px); border: 0; box-shadow: none; background: transparent; overflow: auto; }
+.immersiveHeader { position: sticky; top: 0; z-index: 4; height: 38px; padding: 0 7px; border: 0; justify-content: flex-end; background: transparent; }.immersiveHeader h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }.immersiveHeader button { border-radius: 50%; background: #171821e8; color: white; width: 34px; height: 34px; }

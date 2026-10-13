@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "docs/wiki.e7bot.top/**",
+    "docs/www.prydwen.gg/**",
+    ".codegraph/**",
+    "playwright-report/**",
+    "test-results/**",
   ]),
 ]);
 
