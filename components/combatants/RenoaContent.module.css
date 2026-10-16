@@ -1,13 +1,43 @@
+.egoGrid, .potentialGrid, .upgrades { --description-emphasis: #ff8c00; --description-keyword: #ff8c00; --description-muted: var(--text-tertiary); }
 .sectionTitle { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin: 10px 0 26px; padding: 0 0 12px; border-bottom: 2px solid var(--ltblue); }
 .sectionTitle h2, .heading { font-size: 17px; margin: 0; font-weight: 650; }.heading { margin: 48px 0 18px; }
 .panel:nth-of-type(n+3) > .heading { padding-bottom: 10px; border-bottom: 2px solid var(--ltblue); }
 .options { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; font-size: 13px; font-weight: 600; }.options label { white-space: nowrap; }.options input { vertical-align: middle; width: 17px; height: 17px; accent-color: #bedce5; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, 172px); gap: 12px; align-items: start; padding-left: 14px; }
+/* Reference cards use a 468 x 680 canvas and fill the available grid columns. */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)); gap: 16px; align-items: start; padding: 10px; }
 .egoGrid, .potentialGrid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
 .egoLevel, .potentialNode { display: block; min-height: 162px; padding: 16px; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: 7px; }
 .egoLevel strong, .potentialNode strong { font-size: 16px; }.egoLevel p, .potentialNode p { margin: 12px 0 0; font-size: 14px; line-height: 1.55; }
-.egoHeading { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }.levelNumber, .nodeNumber { display: inline-block; padding: 4px 8px; background: #254457; border: 1px solid #5daac7; color: #92c4ff; border-radius: 4px; font-size: 12px; white-space: nowrap; }
+.egoHeading { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }.levelNumber, .nodeNumber { display: inline-block; padding: 4px 8px; background: var(--bg-accent); border: 1px solid var(--ltblue); color: var(--text-accent); border-radius: 4px; font-size: 12px; white-space: nowrap; }
 .potentialNode { color: var(--text-primary); text-align: left; font: inherit; cursor: pointer; }.potentialNode:hover { border-color: var(--ltblue); }.potentialHeading { display: flex; align-items: start; justify-content: space-between; gap: 8px; }.potentialNode em { display: block; margin-top: 12px; color: var(--text-secondary); font-size: 14px; }
 .upgrades { padding: 20px; }.upgrades > div { padding: 9px 0; border-bottom: 1px solid var(--border-primary); }.upgrades p { font-size: 14px; line-height: 1.5; }
 .tabs { display: none; }
-@media(max-width: 767px) { .tabs { position: sticky; top: 49px; z-index: 20; display: grid; grid-template-columns: repeat(3,1fr); margin: 10px 0 0; padding: 3px; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: 7px; }.tabs button { border: 0; border-radius: 4px; padding: 8px 4px; color: var(--text-secondary); background: transparent; font-size: 13px; }.tabs button[aria-selected="true"] { color: #93c5fd; background: #284958; font-weight: 700; }.panel[data-mobile-active="false"] { display: none; }.sectionTitle { margin-top: 28px; flex-wrap: nowrap; align-items: center; }.sectionTitle h2 { flex: 0 0 57px; line-height: 1.5; }.options { min-width: 0; flex-wrap: nowrap; gap: 9px; overflow-x: auto; scrollbar-width: none; }.grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; padding-left: 16px; justify-items: center; }.egoGrid, .potentialGrid { grid-template-columns: 1fr; }.egoLevel, .potentialNode { min-height: 0; padding: 13px; } .panel > .heading { margin: 22px 0 12px; } }
+.guideToolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 10px 0 20px; border-bottom: 2px solid var(--ltblue); }
+.guideTabs { display: flex; align-self: stretch; gap: 4px; }
+.guideTabs button { position: relative; padding: 13px 22px; border: 0; background: transparent; color: var(--text-secondary); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.guideTabs button[aria-selected="true"] { background: var(--bg-accent); color: var(--text-accent); }
+.guideTabs button[aria-selected="true"]::after { content: ""; position: absolute; height: 3px; background: var(--ltblue); inset: auto 0 -2px; }
+.guideTabs button:hover { color: var(--text-accent); background: var(--bg-secondary); }
+.guideTabs button:focus-visible, .guidePanel:focus-visible { outline: 2px solid var(--ltblue); outline-offset: -2px; }
+.guidePanel[hidden] { display: none; }
+.guideToolbar .options { padding: 8px 0; }
+.guidePanel .sectionTitle { border-bottom: 0; margin-top: 0; margin-bottom: 12px; padding-bottom: 0; }
+.potentialNode { cursor: default; }
+.potentialHeading > strong { min-width: 0; }
+.levelControl { display: grid; gap: 2px; flex: 0 0 112px; color: var(--text-secondary); font-size: 12px; text-align: right; }
+.levelControl input { width: 100%; height: 24px; margin: 0; accent-color: var(--ltblue); cursor: pointer; }
+.levelControl input:disabled { cursor: default; opacity: .45; }
+.levelControl input:focus-visible { outline: 2px solid var(--ltblue); outline-offset: 2px; border-radius: 4px; }
+.potentialDetails { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.potentialDetails:focus-visible { outline: 2px solid var(--ltblue); outline-offset: 4px; border-radius: 4px; }
+@media(max-width: 767px) { .tabs { position: sticky; top: 49px; z-index: 20; display: grid; grid-template-columns: repeat(3,1fr); margin: 10px 0 0; padding: 3px; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: 7px; }.tabs button { border: 0; border-radius: 4px; padding: 8px 4px; color: var(--text-secondary); background: transparent; font-size: 13px; }.tabs button[aria-selected="true"] { color: #93c5fd; background: #284958; font-weight: 700; }.panel[data-mobile-active="false"] { display: none; }.sectionTitle { margin-top: 28px; flex-wrap: nowrap; align-items: center; }.sectionTitle h2 { flex: 0 0 57px; line-height: 1.5; }.options { min-width: 0; flex-wrap: nowrap; gap: 9px; overflow-x: auto; scrollbar-width: none; }.grid { grid-template-columns: repeat(2,minmax(0,1fr)); }.egoGrid, .potentialGrid { grid-template-columns: 1fr; }.egoLevel, .potentialNode { min-height: 0; padding: 13px; } .panel > .heading { margin: 22px 0 12px; } }
+@media (max-width: 767px) { .grid { gap: 12px; } }
+@media (max-width: 767px) {
+  .guideToolbar { flex-wrap: wrap; gap: 0; margin-bottom: 12px; }
+  .guideTabs { width: 100%; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .guideTabs button { padding: 12px 6px; font-size: 14px; }
+  .guideTabs button[aria-selected="true"]::after { bottom: 0; }
+  .guideToolbar .options { width: 100%; justify-content: flex-end; gap: 16px; padding: 12px 2px; }
+  .guidePanel .sectionTitle { margin-top: 22px; }
+  .guidePanel .sectionTitle h2 { flex-basis: auto; }
+}

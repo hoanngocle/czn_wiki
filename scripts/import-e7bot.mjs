@@ -1,8 +1,9 @@
 import { createDecipheriv, createHash } from "node:crypto";
-import { copyFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { inspectAsset, walkFiles } from "./audit-reference-assets.mjs";
+import { assetUrl, copyAsset, createAssetResolver } from "./asset-paths.mjs";
 
 const KEY = "2egkWEkLvR9idARLvjqfJdWKfR24HJgY"; // E7BOT bundle, offline import only.
 
@@ -31,7 +32,7 @@ export function normalizeCharacters(records) {
       id: String(record.id), name: record.name, names: record.names ?? {},
       kind: record.char_type === "CHAR_COMBATANT" ? "combatant" : "supporter",
       job: record.job ?? "", ego: record.ego ?? "", rarity: Number(record.rarity),
-      portrait: `/reference/e7bot/api/assets/file/czn/data/face/character/portrait_character_crop_half_${record.model || record.id}.webp`,
+      portrait: assetUrl(`api/assets/file/czn/data/face/character/portrait_character_crop_half_${record.model || record.id}.webp`, record.char_type === "CHAR_COMBATANT" ? "combatant" : "supporter"),
       color: record.color ?? "", ...source(record.id, "api/czn/characters/list.html"),
     };
   });
@@ -44,7 +45,7 @@ function normalizeCard(card, nested = false) {
   if (!Number.isFinite(Number(card.cost)) || card.cost === undefined || Number(card.cost) < 0) throw new Error(`Invalid cost for card ${card.id}`);
   if (typeof card.desc_display !== "string" || typeof card.card_category !== "string" || typeof card.rarity !== "string") throw new Error(`Invalid card description/category/rarity for ${card.id}`);
   if ((!nested && !Array.isArray(card.r_spark_cards)) || (card.r_spark_cards !== undefined && !Array.isArray(card.r_spark_cards)) || (card.talent !== undefined && !Array.isArray(card.talent)) || (card.tooltips !== undefined && !Array.isArray(card.tooltips))) throw new Error(`Invalid card variants/talent/tooltips for ${card.id}`);
-  const art = card.sct_name ? `/reference/e7bot/api/assets/file/czn/data/card_illustration/${card.sct_name}.webp` : null;
+  const art = card.sct_name ? assetUrl(`api/assets/file/czn/data/card_illustration/${card.sct_name}.webp`) : null;
   const video = card.sct_name?.startsWith("unique_") ? art.replace(/\.webp$/, ".webm") : null;
   return {
     id: String(card.id), name: card.name, cost: Number(card.cost), description: card.desc_display,
@@ -98,6 +99,7 @@ export function importSnapshot(sourceRoot, outputRoot, publicRoot) {
     return { path, sha256: sha256(bytes), value: decodeSnapshot(bytes.toString("utf8"), KEY) };
   });
   const characters = normalizeCharacters(decoded[0].value.data);
+  const resolveAssetUrl = createAssetResolver(characters);
   const detail = normalizeDetail(decoded[1].value.data);
   const files = [
     ...walkFiles(join(sourceRoot, "api/assets/file/czn/data")),
@@ -105,12 +107,11 @@ export function importSnapshot(sourceRoot, outputRoot, publicRoot) {
   ].sort();
   const assets = files.map((file) => {
     const sourcePath = relative(sourceRoot, file).replaceAll("\\", "/");
-    const localUrl = `/reference/e7bot/${sourcePath}`;
+    const localUrl = resolveAssetUrl(sourcePath);
     const bytes = readFileSync(file);
     const inspection = inspectAsset(bytes, extname(file));
     if (inspection.status === "available") {
-      const target = join(publicRoot, sourcePath);
-      mkdirSync(dirname(target), { recursive: true }); copyFileSync(file, target);
+      copyAsset(file, publicRoot, localUrl);
     }
     return { sourcePath, localUrl, ...inspection, sha256: sha256(bytes) };
   });
@@ -124,7 +125,7 @@ export function importSnapshot(sourceRoot, outputRoot, publicRoot) {
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {
   try {
-    const result = importSnapshot(resolve(process.argv[2] ?? "docs/wiki.e7bot.top"), resolve(process.argv[3] ?? "data/wiki"), resolve(process.argv[4] ?? "public/reference/e7bot"));
+    const result = importSnapshot(resolve(process.argv[2] ?? "docs/wiki.e7bot.top"), resolve(process.argv[3] ?? "data/wiki"), resolve(process.argv[4] ?? "public"));
     console.log(JSON.stringify(result));
   } catch (error) { console.error(error); process.exitCode = 1; }
 }

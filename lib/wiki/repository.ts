@@ -4,6 +4,7 @@ import detail from "../../data/wiki/characters/1041.json";
 import manifest from "../../data/wiki/source-manifest.json";
 import assets from "../../data/wiki/assets.json";
 import type { CharacterDetail, CharacterSummary } from "./types";
+import { combatantSlug } from "./urls";
 
 const summaries = characters as CharacterSummary[];
 
@@ -13,6 +14,10 @@ export function getCombatants(): CharacterSummary[] {
 
 export function getCharacter(id: string): CharacterSummary | undefined {
   return summaries.find((character) => character.id === id);
+}
+
+export function getCombatantBySlug(slug: string): CharacterSummary | undefined {
+  return getCombatants().find((character) => combatantSlug(character) === slug);
 }
 
 export function getCharacterDetail(id: string): CharacterDetail | undefined {

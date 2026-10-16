@@ -1,0 +1,28 @@
+import { expect, test } from "@playwright/test";
+
+for (const entry of [
+  { term: "Destroy", character: "Anika", card: "Rampage Trigger", explanation: "Tenacity" },
+  { term: "Attunement", character: "Selena", card: "Target Spotted", explanation: "đầu lượt" },
+]) {
+  test(`${entry.term} can be searched and is explained on card hover`, async ({ page }) => {
+    await page.goto("/terminology");
+    await page.getByRole("searchbox", { name: "Tìm thuật ngữ" }).fill(entry.term);
+    const glossary = page.getByRole("region", { name: "Danh sách thuật ngữ" });
+    await expect(glossary.locator("dt")).toHaveText([entry.term]);
+    await expect(glossary.locator("dd")).toContainText(entry.explanation);
+    const explanation = await glossary.locator("dd").innerText();
+
+    await page.goto("/deck-builder");
+    await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
+    await page.getByRole("searchbox").fill(entry.character);
+    await page.getByRole("button", { name: `Select ${entry.character}`, exact: true }).click();
+    const card = page.getByRole("button", { name: `${entry.card} card`, exact: true });
+    await card.hover();
+    const tooltip = page.getByRole("tooltip");
+    await expect(tooltip.getByText(entry.term, { exact: true })).toHaveCount(1);
+    await expect(tooltip).toContainText(explanation, { useInnerText: true });
+    await expect(card).toHaveAttribute("aria-describedby", await tooltip.getAttribute("id") ?? "missing");
+    await page.keyboard.press("Escape");
+    await expect(tooltip).toHaveCount(0);
+  });
+}

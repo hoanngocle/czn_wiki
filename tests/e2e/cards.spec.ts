@@ -2,6 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test("Renoa cards, potential target, Ego levels and variant dialog use source data", async ({ page }) => {
   await page.goto("/combatant/1041");
+  await page.getByRole("checkbox", { name: "Tiếng Việt" }).uncheck();
   await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
   const dirge = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
   await expect(dirge).toBeVisible();
@@ -33,14 +34,15 @@ test("Renoa cards, potential target, Ego levels and variant dialog use source da
 });
 
 test("animation preference and reduced motion stop card video", async ({ page }) => {
+  await page.setViewportSize({ width: 1700, height: 1100 });
   await page.goto("/combatant/1041");
   const animation = page.getByRole("checkbox", { name: "Animation" });
   await animation.check();
   await page.getByRole("button", { name: /Echo of Sorrow/ }).first().click();
   const video = page.getByRole("dialog").locator("video");
-  await expect(video).toHaveCount(1);
+  await expect(video).toHaveCount(6);
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await expect.poll(() => video.evaluate((element: HTMLVideoElement) => element.paused)).toBe(true);
+  await expect.poll(() => video.evaluateAll(elements => elements.every(element => (element as HTMLVideoElement).paused))).toBe(true);
   await page.keyboard.press("Escape");
   await animation.uncheck();
   await page.reload();

@@ -1,9 +1,9 @@
 import { expect, it } from "vitest";
-import { getCharacterDetail } from "../../lib/wiki/repository";
+import renoaSource from "../../data/wiki/characters/1041.json";
 import { parseDescription } from "../../lib/wiki/description";
 
 it("parses Renoa source emphasis and line breaks into safe nodes", () => {
-  const real = getCharacterDetail("1041")!.startCards[0].description;
+  const real = renoaSource.startCards[0].description;
   expect(parseDescription(real)).toEqual([{ kind: "emphasis", children: [{ kind: "text", text: "100%" }] }, { kind: "text", text: " Damage" }]);
   expect(parseDescription("First<br>Second").map((node) => node.kind)).toEqual(["text", "break", "text"]);
 });

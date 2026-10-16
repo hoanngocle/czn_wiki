@@ -29,7 +29,7 @@ export function auditDirectory(root) {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  const root = process.argv[2] ?? "public/reference/e7bot";
+  const root = process.argv[2] ?? "public/assets";
   const report = auditDirectory(root);
   const invalid = report.filter((item) => item.status !== "available");
   console.log(`Audited ${report.length} assets; invalid: ${invalid.length}`);

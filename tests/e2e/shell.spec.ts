@@ -43,6 +43,6 @@ test("legacy CZN combatant URL redirects to the unprefixed route", async ({ page
   expect(legacy.status()).toBe(308);
   expect(legacy.headers().location).toBe("/combatant/1041");
   await page.goto("/czn/combatant/1041");
-  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/1041");
+  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/renoa");
   await expect(page.getByRole("heading", { level: 1, name: /Renoa/ })).toBeVisible();
 });

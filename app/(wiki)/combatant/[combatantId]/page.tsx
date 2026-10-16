@@ -1,12 +1,14 @@
-import { notFound } from "next/navigation";
-import { getCharacter, getCharacterDetail, getCombatants } from "../../../../lib/wiki/repository";
+import { notFound, permanentRedirect } from "next/navigation";
+import { getCharacter, getCharacterDetail, getCombatants, getCombatantBySlug } from "../../../../lib/wiki/repository";
+import { combatantSlug, combatantUrl } from "../../../../lib/wiki/urls";
 import { CombatantDetail } from "../../../../components/combatants/CombatantDetail";
 
-export function generateStaticParams() { return getCombatants().map(({ id }) => ({ combatantId: id })); }
+export function generateStaticParams() { return getCombatants().map((character) => ({ combatantId: combatantSlug(character) })); }
 
 export default async function CombatantPage({ params }: { params: Promise<{ combatantId: string }> }) {
-  const { combatantId } = await params;
-  const character = getCharacter(combatantId);
+  const { combatantId: slug } = await params;
+  const character = getCombatantBySlug(slug) ?? getCharacter(slug);
   if (!character || character.kind !== "combatant") notFound();
-  return <CombatantDetail summary={character} detail={getCharacterDetail(combatantId)} />;
+  if (slug !== combatantSlug(character)) permanentRedirect(combatantUrl(character));
+  return <CombatantDetail summary={character} detail={getCharacterDetail(character.id)} />;
 }

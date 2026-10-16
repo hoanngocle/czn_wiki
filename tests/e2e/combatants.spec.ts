@@ -6,7 +6,7 @@ test("picker searches only 38 combatants and keeps filters during route changes"
   await page.getByRole("textbox", { name: "Search combatants" }).fill(" RENOa ");
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(1);
   await page.getByRole("link", { name: /Renoa/ }).last().click();
-  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/1041");
+  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/renoa");
   await expect(page.getByRole("heading", { level: 1, name: /Renoa/ })).toBeVisible();
   await expect(page.getByRole("link", { name: "Renoa" }).last()).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("textbox", { name: "Search combatants" })).toHaveValue(" RENOa ");
@@ -18,7 +18,7 @@ test("picker searches only 38 combatants and keeps filters during route changes"
   await fiveStar.click();
   await expect(fiveStar).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("link", { name: "Renoa" }).last().click();
-  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/1041");
+  await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant/renoa");
   await expect(fiveStar).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("link", { name: "Olga" }).click();
   await expect(page.getByRole("heading", { level: 1, name: /Olga/ })).toBeVisible();
@@ -31,13 +31,26 @@ test("picker searches only 38 combatants and keeps filters during route changes"
 });
 
 test("known summary lacks detail; supporter and unknown IDs return HTTP 404", async ({ page, request }) => {
-  await page.goto("/combatant/1003");
+  await page.goto("/combatant/nia");
   await expect(page.getByRole("heading", { name: "Nia" })).toBeVisible();
   await expect(page.getByText(/detail.*not available/i)).toBeVisible();
   await expect(page.getByText("Annihilation Shot")).toHaveCount(0);
   expect((await request.get("/combatant/nope")).status()).toBe(404);
   expect((await request.get("/combatant/0001041")).status()).toBe(404);
   expect((await request.get("/combatant/20001")).status()).toBe(404);
+});
+
+test("name URLs support direct visits, spaced names, reloads and old bookmarks", async ({ page }) => {
+  await page.goto("/combatant/renoa");
+  await expect(page.getByRole("heading", { name: "Renoa", exact: true })).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole("heading", { name: "Renoa", exact: true })).toBeVisible();
+  await page.getByRole("link", { name: "Mei Lin", exact: true }).click();
+  await expect(page).toHaveURL(/\/combatant\/mei-lin$/);
+  await expect(page.getByRole("heading", { name: "Mei Lin", exact: true })).toBeVisible();
+  await page.goto("/combatant/1041");
+  await expect(page).toHaveURL(/\/combatant\/renoa$/);
+  await expect(page.getByRole("heading", { name: "Renoa", exact: true })).toBeVisible();
 });
 
 test("mobile picker moves focus to search and traps it until Escape", async ({ page }) => {
