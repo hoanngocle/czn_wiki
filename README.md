@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CZN Wiki
 
-## Getting Started
+An offline CZN combatant wiki built with Next.js 16. The visual reference is the saved E7BOT snapshot under `docs/wiki.e7bot.top`; the app never requests its backend at runtime.
 
-First, run the development server:
+## Run
 
-```bash
+```powershell
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000/combatant` to browse the 38 combatants, or `/combatant/1041` for Renoa's complete saved kit. Existing `/czn/combatant` links redirect to the new URL. The remaining 37 combatants have honest summary pages because their detail responses were not captured. The 49 supporter records are not part of this Combatant picker.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data and checks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```powershell
+npm run import:wiki       # offline AES decode and local asset copy
+npm run audit:assets      # validate copied asset signatures
+npm run lint
+npm run typecheck          # Next typegen, then TypeScript
+npm run test:unit
+npm run build
+npm run test:e2e          # production build must exist; uses Chromium
+```
 
-## Learn More
+The importer reads immutable saved responses and produces typed static JSON in `data/wiki` plus valid assets in `public/assets`. Images live directly in `combatant`, `partner`, and `item`; card artwork, videos, and frames live in `card`, and shared UI images live in `common`. There are no nested asset directories. Both importers use `scripts/asset-paths.mjs` and reject conflicting file names instead of overwriting assets. The optional third output argument of `import-e7bot.mjs` is the public root (default `public`). The asset manifest records original source paths and unusable files. Regeneration is deterministic by content. The reference QA server can be run with `npm run reference:serve`; it is separate from the product and only serves the saved source on localhost.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Source/product screenshots, capture metadata, visual comparison, and test evidence are in [`docs/reference-baselines`](docs/reference-baselines). The full implementation scope and known limitations are in the [plan](docs/superpowers/plans/2026-10-13-czn-wiki-clone.md) and [implementation log](docs/reference-baselines/implementation-log.md).

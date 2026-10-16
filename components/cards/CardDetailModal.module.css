@@ -1,0 +1,8 @@
+.grid { display: grid; grid-auto-flow: column; grid-auto-columns: clamp(180px, 12vw, 234px); grid-template-rows: auto auto auto; justify-content: safe center; gap: 10px 16px; overflow-x: auto; padding: 12px 16px 16px; }
+.variant { display: grid; grid-row: span 3; grid-template-rows: subgrid; justify-items: center; }.card { width: 100%; aspect-ratio: 468 / 680; }.card > span { display: block; }
+.label { min-width: 72px; padding: 6px 10px; background: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--border-primary); border-radius: 4px; font-size: 11px; font-weight: 700; cursor: pointer; }.label[aria-pressed="true"] { border-color: var(--ltblue); background: var(--bg-accent); color: var(--text-accent); }
+.review { width: 100%; padding: 10px; border: 1px solid var(--border-primary); border-radius: 5px; background: var(--bg-primary); font-size: 12px; line-height: 1.6; color: var(--text-secondary); }
+.review p { margin: 6px 0 0; overflow-wrap: anywhere; }
+.rating { display: block; color: #b77a14; font-size: 19px; letter-spacing: 2px; text-align: center; }
+.emptyStars { color: #757986; }
+@media(max-width: 767px) { .grid { column-gap: 12px; padding: 12px 12px 16px; } }
