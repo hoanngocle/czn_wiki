@@ -1,0 +1,2673 @@
+{
+  "id": "1055",
+  "name": "Adelheid",
+  "names": {
+    "en": "Adelheid",
+    "zhs": "阿黛海特",
+    "zht": "阿黛海特"
+  },
+  "job": "vanguard",
+  "ego": "creed",
+  "rarity": 5,
+  "color": "#8390ba",
+  "info": {
+    "background_text": "<color_darkgray>The girl who manifests fairy tales.</><br>Rescued from a pirate ship by Amir of the Terrascion SID, Adelheid has the ability to manifest fairy tales. She can create and attack with beings from fairy tales using light. She often uses fairy tale metaphors and descriptions in her conversations.",
+    "birth_day": "ui_label_day_5th",
+    "birth_month": "ui_label_month_may",
+    "cv_en": "Not included",
+    "cv_ja": "Misaki Kuno",
+    "cv_ko": "Soonmi Kim",
+    "cv_zhs": "Cai Shujin",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "1055_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@1055_info",
+    "id": "1055_info",
+    "link_combatant_face_group": "1055_face",
+    "link_combatant_voice_group": "1055_voice",
+    "link_live_event_id": "live_event_1055",
+    "link_story_content_counseling_key": "story_counseling_1055",
+    "link_town_normal_visit_group": "normal_visit_1055",
+    "link_town_policy_reaction_id": "1055",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "1055_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[1055_small_talk_01,1055_small_talk_02,1055_small_talk_03,1055_small_talk_04]",
+    "specialty": "combatant_info@specialty@1055_info",
+    "stage_success_link_combatant_voice_id": "1055_stage_success_01",
+    "touch_link_combatant_voice_id": "[1055_touch_01,1055_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_1055_srt1",
+      "name": "Gather Around",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1055_01.webp",
+      "video": null,
+      "artKey": "start_1055_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_srt1_pot",
+          "name": "Gather Around",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1055_01.webp",
+          "video": null,
+          "artKey": "start_1055_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt1_pot"
+        }
+      ],
+      "sourceId": "c_1055_srt1"
+    },
+    {
+      "id": "c_1055_srt2",
+      "name": "Fairy's Protection",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1055_02.webp",
+      "video": null,
+      "artKey": "start_1055_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_srt2_pot",
+          "name": "Fairy's Protection",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1055_02.webp",
+          "video": null,
+          "artKey": "start_1055_02",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt2_pot"
+        }
+      ],
+      "sourceId": "c_1055_srt2"
+    },
+    {
+      "id": "c_1055_srt3",
+      "name": "Fairy's Protection",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1055_02.webp",
+      "video": null,
+      "artKey": "start_1055_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_srt3_pot",
+          "name": "Fairy's Protection",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1055_02.webp",
+          "video": null,
+          "artKey": "start_1055_02",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt3_pot"
+        }
+      ],
+      "sourceId": "c_1055_srt3"
+    },
+    {
+      "id": "c_1055_srt4",
+      "name": "Once Upon A Time",
+      "cost": 1,
+      "description": "Apply <color_orange><u>Blessing</u></> to <color_orange>2</> random card(s) in <color_orange><u>Draw Pile</u></>, then <color_orange><u>Draw</u></> <color_orange>1</> of those cards",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1055_01.webp",
+      "video": "/assets/card/unique_1055_01.webm",
+      "artKey": "unique_1055_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_EXHAUST_N",
+          "title": "Exhaust 2",
+          "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_FAIRY",
+          "title": "Blessing",
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+        },
+        {
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile",
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+        },
+        {
+          "id": "CARD_DRAW",
+          "title": "Draw",
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_srt4_rsp1",
+          "name": "Once Upon A Time",
+          "cost": 1,
+          "description": "Apply <color_orange><u>Blessing</u></> to <color_orange>3</> random card(s) in <color_orange><u>Draw Pile</u></>, then <color_orange><u>Draw</u></> <color_orange>1</> of those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_01.webp",
+          "video": "/assets/card/unique_1055_01.webm",
+          "artKey": "unique_1055_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST_N",
+              "title": "Exhaust 2",
+              "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt4_rsp1"
+        },
+        {
+          "id": "c_1055_srt4_rsp2",
+          "name": "Once Upon A Time",
+          "cost": 0,
+          "description": "Select and <color_orange><u>Draw</u></> <color_orange>1</> from <color_orange><u>Draw Pile</u></>, then apply <color_orange><u>Blessing</u></> to those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_01.webp",
+          "video": "/assets/card/unique_1055_01.webm",
+          "artKey": "unique_1055_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST_N",
+              "title": "Exhaust 2",
+              "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt4_rsp2"
+        },
+        {
+          "id": "c_1055_srt4_rsp3",
+          "name": "Once Upon A Time",
+          "cost": 0,
+          "description": "<color_orange><u>Discard</u></> <color_orange>1</><br>Apply <color_orange><u>Blessing</u></> to <color_orange>3</> random card(s) of the Combatant who owns the Discarded card",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_01.webp",
+          "video": "/assets/card/unique_1055_01.webm",
+          "artKey": "unique_1055_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST_N",
+              "title": "Exhaust 2",
+              "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt4_rsp3"
+        },
+        {
+          "id": "c_1055_srt4_rsp4",
+          "name": "Once Upon A Time",
+          "cost": -1,
+          "description": "Draw equal to <cc><color_orange><u>X</u></></>, then apply <color_orange><u>Blessing</u></> to those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_01.webp",
+          "video": "/assets/card/unique_1055_01.webm",
+          "artKey": "unique_1055_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_EXHAUST_N",
+              "title": "Exhaust 2",
+              "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_COST_X",
+              "title": "X",
+              "desc": "Consume all remaining <color_orange><u>Action Points</u></> and activate effects equal to that number"
+            },
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt4_rsp4"
+        },
+        {
+          "id": "c_1055_srt4_rsp5",
+          "name": "Once Upon A Time",
+          "cost": 1,
+          "description": "When a card is created, apply <color_orange><u>Blessing</u></> (<cc>5</> times per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_01.webp",
+          "video": "/assets/card/unique_1055_01.webm",
+          "artKey": "unique_1055_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_1055_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_1055_uni1",
+      "name": "Protect Us",
+      "cost": 1,
+      "description": "For the next <color_orange>2</> <color_orange><u>Blessing</u></> cards <color_orange><u>activate</u></>d, <color_orange><u>Draw</u></> <cc>1</> <color_orange><u>Blessing</u></> card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1055_02.webp",
+      "video": "/assets/card/unique_1055_02.webm",
+      "artKey": "unique_1055_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_FAIRY",
+          "title": "Blessing",
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_FAIRY",
+          "title": "Blessing",
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        },
+        {
+          "id": "CARD_DRAW",
+          "title": "Draw",
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_uni1_rsp1",
+          "name": "Protect Us",
+          "cost": 1,
+          "description": "For the next <color_orange>3</> <color_orange><u>Blessing</u></> cards <color_orange><u>activate</u></>d, <color_orange><u>Draw</u></> <cc>1</> <color_orange><u>Blessing</u></> card",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_02.webp",
+          "video": "/assets/card/unique_1055_02.webm",
+          "artKey": "unique_1055_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni1_rsp1"
+        },
+        {
+          "id": "c_1055_uni1_rsp2",
+          "name": "Protect Us",
+          "cost": 1,
+          "description": "The next <color_orange>2</> times <cc>0</> cards are in hand, <color_orange><u>Draw</u></> <cc>1</> <color_orange><u>Blessing</u></> card",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_02.webp",
+          "video": "/assets/card/unique_1055_02.webm",
+          "artKey": "unique_1055_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni1_rsp2"
+        },
+        {
+          "id": "c_1055_uni1_rsp3",
+          "name": "Protect Us",
+          "cost": 1,
+          "description": "<color_orange><u>Draw</u></> <color_orange>3</><br>Change Cost of those cards to <cc>0</>-<cc>2</> for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_02.webp",
+          "video": "/assets/card/unique_1055_02.webm",
+          "artKey": "unique_1055_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni1_rsp3"
+        },
+        {
+          "id": "c_1055_uni1_rsp4",
+          "name": "Protect Us",
+          "cost": 0,
+          "description": "<color_orange><u>Draw</u></> <color_orange>1</><br>If that card is a <color_orange><u>Blessing</u></> card, add <cc>1</> <color_orange><u>Draw</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_02.webp",
+          "video": "/assets/card/unique_1055_02.webm",
+          "artKey": "unique_1055_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni1_rsp4"
+        },
+        {
+          "id": "c_1055_uni1_rsp5",
+          "name": "Protect Us",
+          "cost": 1,
+          "description": "<color_orange><u>Draw</u></> <color_orange>2</> <color_orange><u>Blessing</u></> card(s) of this unit<br>Increase Damage and <color_orange><u>Shield</u></> Gain Amount of those cards by <color_orange>60</>% for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_02.webp",
+          "video": "/assets/card/unique_1055_02.webm",
+          "artKey": "unique_1055_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_1055_uni1"
+    },
+    {
+      "id": "c_1055_uni2",
+      "name": "Friends from Fairy Tales",
+      "cost": 1,
+      "description": "Select and create <color_orange>1</> of either <cc><u>Doggie</u></> or <cc><u>Teddy</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1055_03.webp",
+      "video": "/assets/card/unique_1055_03.webm",
+      "artKey": "unique_1055_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_1055_uni2_rsp1",
+          "name": "Friends from Fairy Tales",
+          "cost": 1,
+          "description": "Create <color_orange>1</> <cc><u>Doggie</u></><br>+<cc>20</>% Damage Amount to <cc><u>Doggie</u></> for each <color_orange><u>Blessing</u></> card in All Piles (max <cc>15</> cards)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_03.webp",
+          "video": "/assets/card/unique_1055_03.webm",
+          "artKey": "unique_1055_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni2_rsp1"
+        },
+        {
+          "id": "c_1055_uni2_rsp2",
+          "name": "Friends from Fairy Tales",
+          "cost": 1,
+          "description": "Create <color_orange>1</> <cc><u>Teddy</u></><br>When Damage is taken, move <cc><u>Teddy</u></> to hand (<cc>1</> time per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_03.webp",
+          "video": "/assets/card/unique_1055_03.webm",
+          "artKey": "unique_1055_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_1055_uni2_rsp2"
+        },
+        {
+          "id": "c_1055_uni2_rsp3",
+          "name": "Friends from Fairy Tales",
+          "cost": 1,
+          "description": "Create <color_orange>4</> <cc><u>Doggie (Pack)</u></> in <color_orange><u>Draw Pile</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_03.webp",
+          "video": "/assets/card/unique_1055_03.webm",
+          "artKey": "unique_1055_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni2_rsp3"
+        },
+        {
+          "id": "c_1055_uni2_rsp4",
+          "name": "Friends from Fairy Tales",
+          "cost": 1,
+          "description": "Create <color_orange>1</> <cc><u>Teddy</u></><br>When <cc><u>Teddy</u></> is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Counterattack</u></>, and for <cc>1</> turn, <color_orange><u>Retain Counterattack</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_03.webp",
+          "video": "/assets/card/unique_1055_03.webm",
+          "artKey": "unique_1055_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "T_CS01_1105",
+              "title": "Retain Counterattack",
+              "desc": "When the <color_orange><u>Counterattack</u></> effect is activated, retain <color_orange><u>Counterattack</u></><br>At the end of the turn, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni2_rsp4"
+        },
+        {
+          "id": "c_1055_uni2_rsp5",
+          "name": "Friends from Fairy Tales",
+          "cost": 1,
+          "description": "Create <color_orange>1</> <cc><u>Doggie (Morphed)</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1055_03.webp",
+          "video": "/assets/card/unique_1055_03.webm",
+          "artKey": "unique_1055_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_1055_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_1055_uni2"
+    },
+    {
+      "id": "c_1055_uni3",
+      "name": "Truth Behind A Story",
+      "cost": 1,
+      "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></><br>+<color_orange>100</>% Damage Amount taken by the target for <cc>1</> turn",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_1055_04.webp",
+      "video": "/assets/card/unique_1055_04.webm",
+      "artKey": "unique_1055_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste",
+          "desc": "This card does not reduce the enemy’s Action Count"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_uni3_rsp1",
+          "name": "Truth Behind A Story",
+          "cost": 1,
+          "description": "<color_orange>300</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>2</> <color_orange><u>Weaken</u></><br>+<color_orange>100</>% Damage Amount taken by the target for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1055_04.webp",
+          "video": "/assets/card/unique_1055_04.webm",
+          "artKey": "unique_1055_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS00_0003",
+              "title": "Weaken",
+              "desc": "Decrease Damage Amount by <cc><color_orange>25</></>% <br>When the effect is activated, decrease Weaken by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni3_rsp1"
+        },
+        {
+          "id": "c_1055_uni3_rsp2",
+          "name": "Truth Behind A Story",
+          "cost": 1,
+          "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></><br>Move <color_orange>2</> <color_orange><u>Blessing</u></> card(s) from <color_orange><u>Discard Pile</u></> to hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1055_04.webp",
+          "video": "/assets/card/unique_1055_04.webm",
+          "artKey": "unique_1055_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_PLACE_DISCARD_2",
+              "title": "Discard Pile",
+              "desc": "The pile where Discarded Cards move to (max <cc>200</>)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni3_rsp2"
+        },
+        {
+          "id": "c_1055_uni3_rsp3",
+          "name": "Truth Behind A Story",
+          "cost": 1,
+          "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage and <color_orange><u>Shield</u></> Gain Amounts of <cc><u>Doggie</></> and <cc><u>Teddy</></> by <color_orange>100</>% for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1055_04.webp",
+          "video": "/assets/card/unique_1055_04.webm",
+          "artKey": "unique_1055_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni3_rsp3"
+        },
+        {
+          "id": "c_1055_uni3_rsp4",
+          "name": "Truth Behind A Story",
+          "cost": 2,
+          "description": "<color_orange>400%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <cc>30</>% for each <color_orange><u>Blessing</u></> card in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1055_04.webp",
+          "video": "/assets/card/unique_1055_04.webm",
+          "artKey": "unique_1055_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_FAIRY",
+              "title": "Blessing",
+              "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni3_rsp4"
+        },
+        {
+          "id": "c_1055_uni3_rsp5",
+          "name": "Truth Behind A Story",
+          "cost": 1,
+          "description": "<color_orange>300</>% <color_orange><u>Defense-Based Damage</u></><br>Increase <color_orange><u>Action Count</u></> by <color_orange>4</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1055_04.webp",
+          "video": "/assets/card/unique_1055_04.webm",
+          "artKey": "unique_1055_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_TURN_COUNT",
+              "title": "Action Count",
+              "desc": "The number of card uses remaining until the monster acts<br>When a card is used, decrease by <cc>1</><br>When it reaches <cc>0</>, the monster takes action"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_1055_uni3"
+    },
+    {
+      "id": "c_1055_uni4",
+      "name": "Garden of Secrets",
+      "cost": 1,
+      "description": "<color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>25</>% <color_orange><u>Shield Retention</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_1055_05.webp",
+      "video": "/assets/card/unique_1055_05.webm",
+      "artKey": "unique_1055_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD_RETAIN",
+          "title": "Shield Retention",
+          "desc": "At the end of the turn, Retain <color_orange><u>Shield</u></> equal to the current amount<br>When multiple instances exist, only the highest value is applied"
+        },
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1055_uni4_lbk",
+          "name": "Garden of Secrets",
+          "cost": 0,
+          "description": "<color_orange>300%</> <color_orange><u>Shield</u></><br><color_orange>25</>% <color_orange><u>Shield Retention</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_1055_05.webp",
+          "video": "/assets/card/unique_1055_05.webm",
+          "artKey": "unique_1055_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_SHIELD_RETAIN",
+              "title": "Shield Retention",
+              "desc": "At the end of the turn, Retain <color_orange><u>Shield</u></> equal to the current amount<br>When multiple instances exist, only the highest value is applied"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1055_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_1055_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_1055_eps",
+    "name": "Happy Ending",
+    "cost": 6,
+    "description": "<color_orange>300%</> <color_orange><u>Shield</u></><br><color_orange><u>Fixed Heal</u></> equal to <color_orange><u>Shield</u></> in possession<br>(cannot exceed <cc>30</>% of max HP)",
+    "category": "CARD_SKILL",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_1055_01.webp",
+    "video": null,
+    "artKey": "collapse_1055_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "CARD_FIXEDCURE",
+        "title": "Fixed Healing",
+        "desc": "Healing that ignores persistent effects"
+      },
+      {
+        "id": "CARD_SHIELD",
+        "title": "Shield",
+        "desc": "Decrease Damage Amount taken until the next turn"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_1055_eps_lbk",
+        "name": "Happy Ending",
+        "cost": 6,
+        "description": "<color_orange>500%</> <color_orange><u>Shield</u></><br><color_orange><u>Fixed Heal</u></> equal to <color_orange><u>Shield</u></> in possession<br>(cannot exceed <cc>50</>% of max HP)",
+        "category": "CARD_SKILL",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_1055_01.webp",
+        "video": null,
+        "artKey": "collapse_1055_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "CARD_FIXEDCURE",
+            "title": "Fixed Healing",
+            "desc": "Healing that ignores persistent effects"
+          },
+          {
+            "id": "CARD_SHIELD",
+            "title": "Shield",
+            "desc": "Decrease Damage Amount taken until the next turn"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_1055_eps_lbk"
+      }
+    ],
+    "sourceId": "c_1055_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_1055_col",
+      "name": "Escapism",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_1055_02.webp",
+      "video": null,
+      "artKey": "collapse_1055_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1055_col"
+    },
+    {
+      "id": "c_1055_col2",
+      "name": "Escapism",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_1055_02.webp",
+      "video": null,
+      "artKey": "collapse_2_1055_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1055_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "creed",
+          "id": "1055",
+          "job": "vanguard",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1055_col",
+        "name": "Escapism",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_1055_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "creed",
+          "id": "1055",
+          "job": "vanguard",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1055_col2",
+        "name": "Escapism",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_1055_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "escapism",
+    "collapse_illustration": "collapse/collapse_illustration/escapism",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "creed",
+        "id": "1055",
+        "job": "vanguard",
+        "rarity": 5
+      },
+      "card_category": "CARD_SKILL",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 6,
+      "desc_display": "<color_orange>300%</> <color_orange><u>Shield</u></><br><color_orange><u>Fixed Heal</u></> equal to <color_orange><u>Shield</u></> in possession<br>(cannot exceed <cc>30</>% of max HP)",
+      "ego_type": "EGO_OWNER",
+      "id": "c_1055_eps",
+      "name": "Happy Ending",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_SKILL",
+          "cost": 6,
+          "desc_display": "<color_orange>500%</> <color_orange><u>Shield</u></><br><color_orange><u>Fixed Heal</u></> equal to <color_orange><u>Shield</u></> in possession<br>(cannot exceed <cc>50</>% of max HP)",
+          "ego_type": "EGO_OWNER",
+          "id": "c_1055_eps_lbk",
+          "name": "Happy Ending",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_1055_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_1055_eps_lbk_01",
+            "c_1055_eps_lbk_02"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "Healing that ignores persistent effects",
+              "id": "CARD_FIXEDCURE",
+              "title": "Fixed Healing"
+            },
+            {
+              "desc": "Decrease Damage Amount taken until the next turn",
+              "id": "CARD_SHIELD",
+              "title": "Shield"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_1055_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_1055_eps_01",
+        "c_1055_eps_02"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Healing that ignores persistent effects",
+          "id": "CARD_FIXEDCURE",
+          "title": "Fixed Healing"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_escapism",
+    "desc": "Every turn, there is a <cc>10%</> chance that all cards of this character cannot be played for 1 turn.",
+    "id": "collapse_1055",
+    "link_psychosis_id": "psychosis_1010_3",
+    "name": "Escapism"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "For the <color_orange><u>Garden of Secrets</u></> card, decrease Cost by <color_orange>1</> and add +<color_orange>100</>% Shield Gain Amount.",
+      "group": "limit_1055",
+      "id": "limit_1055_1",
+      "illust": "unique_1055_05",
+      "link_card_id": "[c_1055_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "Gains the <color_orange><u>Bliss of Dreams</u></> effect for each Blessing Adelheid applies or creates.<br>At the start of battle, gain the <color_orange><u>Bliss of Dreams</></> effect for each Blessing card in Deck.<br><color_orange><u>Bliss of Dreams</></>: Increase Damage Amount of allies by <color_orange>3</>% (max <color_orange>10</> stacks).",
+      "group": "limit_1055",
+      "id": "limit_1055_2",
+      "illust": "unique_1055_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0171]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>200</>% Shield Gain Amount to <color_orange><u>Happy Ending</u></>.<br>Changes the restrictions of the Fixed Heal equal to Shield in possession effect to (cannot exceed <color_orange>50</>% of max HP).",
+      "group": "limit_1055",
+      "id": "limit_1055_3",
+      "illust": "collapse_1055_01",
+      "link_card_id": "[c_1055_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of battle, apply <color_orange>Blessing</> to any number of cards in hand.<br>When a <color_orange>Blessing</> Upgrade Card is $activate$d, apply <color_orange>Blessing</> to <color_orange>1</> random card in Draw Pile.",
+      "group": "limit_1055",
+      "id": "limit_1055_4",
+      "illust": "unique_1055_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0170]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1055",
+      "id": "limit_1055_5",
+      "illust": "unique_1055_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD_OVERWRITE",
+      "break_value": "[1,1,1]",
+      "desc": "For <color_orange><u>Bliss of Dreams</></>, decrease max stacks by <color_orange>5</> and change the increased Damage Amount effect to <color_orange>8</>%.<br>At the start of the turn, if <color_orange><u>Bliss of Dreams</></> is <color_orange>5</>, Draw <color_orange>1</> <color_orange>Blessing</> card.",
+      "group": "limit_1055",
+      "id": "limit_1055_6",
+      "illust": "unique_1055_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0173,cs_1055_08,cs_1055_10]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "10551001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "10552001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "10552002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "10552003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "10552004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "10552005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "10552006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "10552007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "10552008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "10552009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "10552010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "10552011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "10552012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "10552013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "10552014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "10552015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "10552016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "10553001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "10553002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "10553003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "10553004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "10553005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "10553006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "10553007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "10553008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "10553009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "10553010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "10553011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "10553012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "10553013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "10553014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "10553015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "10553016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Add <color_orange>Blessing</> to <color_orange><u>Gather Around</u></> and <color_orange><u>Fairy’s Protection</u></> cards.",
+      "id": "10553101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "10554001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "10554002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "10554003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "10554004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "10554005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "10554006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "10554007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "10554008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "10554009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "10554010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "10554011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "10554012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "10554013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "10554014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "10554015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "10554016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Health by <color_orange>1.6</>%",
+      "id": "10555001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_con",
+        "id": "N_ADD_S_HP_INC_RATE_OUT",
+        "link_stat_list_id": "S_HP_INC_RATE_OUT",
+        "main_title": "Stats",
+        "sub_title": "Health Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Health by <color_orange>3.2</>%",
+          "id": "10555002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>4.8</>%",
+          "id": "10555003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>6.4</>%",
+          "id": "10555004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>8</>%",
+          "id": "10555005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Shield Gain Amount to Adelheid’s <color_orange><u>Fairy’s Protection</u></><br>If Adelheid’s Defense is <color_orange>250</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "10555101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "10555201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Defense by <color_orange>1.6</>%",
+      "id": "10556001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_defense",
+        "id": "N_ADD_S_DEF_INC_RATE_OUT",
+        "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+        "main_title": "Stats",
+        "sub_title": "Defense Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Defense by <color_orange>3.2</>%",
+          "id": "10556002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>4.8</>%",
+          "id": "10556003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>6.4</>%",
+          "id": "10556004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>8</>%",
+          "id": "10556005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Adelheid’s Defense is <color_orange>300</> or higher, +<color_orange>5</>% Void-Attribute Damage Amount, and for every <color_orange>10</> Defense exceeding 300, add an additional <color_orange>2</>% to the modifier<br>(additional +<color_orange>10</>% max)",
+      "id": "10557001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "1055",
+  "sourceFile": "docs/combatant/current/api/czn/characters/1055.html"
+}

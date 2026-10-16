@@ -1,0 +1,967 @@
+{
+  "characterId": "1040",
+  "name": "Beryl",
+  "identity": [
+    "Justice",
+    "Ranger"
+  ],
+  "subtitle": {
+    "en": "Retain lets Beryl bank attacks and strengthen them before spending AP on a chosen turn.",
+    "vi": "Giữ lại giúp Beryl tích trữ bài tấn công và tăng sức mạnh trước khi dồn Điểm hành động vào lượt thích hợp."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1040.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/beryl",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/beryl.json",
+      "docs/combatant/current/api/czn/characters/1040.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Beryl": {
+      "src": "/assets/combatant/portrait_character_crop_half_1040.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Battlefield Evolution": {
+      "src": "/assets/item/guide-984c89d7e85a.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Second Method": {
+      "src": "/assets/item/relic_1168.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutagenic Wave Amplifier": {
+      "src": "/assets/item/relic_0106.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Kayron": {
+      "src": "/assets/combatant/portrait_character_crop_half_1064.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nine": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rei": {
+      "src": "/assets/combatant/portrait_character_crop_half_1056.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Beryl artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1040.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Justice": {
+      "src": "/assets/common/icon_type_ego_narcissism.png",
+      "width": 44,
+      "height": 44
+    },
+    "Ranger": {
+      "src": "/assets/common/icon_type_job_ranger.png",
+      "width": 44,
+      "height": 44
+    },
+    "Sylvia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "card_ds02_00007",
+      "name": "Spore Harvester",
+      "cost": 0,
+      "description": "<color_orange>Incinerate:</> Create <color_orange>2</> <cc><u>Contaminated Spore</u></><br><color_orange>Retain:</> Create <color_orange>1</> <cc><u>Contaminated Spore</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00496",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00496.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "card_ds02_00007",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00043",
+      "name": "Negotiate​",
+      "cost": 1,
+      "description": "<color_orange>2</> <color_orange><u>Morale</u></><br><color_orange>2</> <color_orange><u>Morale</u></> to all enemies",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00003",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00003.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+          "id": "T_CS00_0001",
+          "title": "Morale"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00043",
+      "ownerId": null,
+      "jobs": [
+        "ranger",
+        "hunter"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Retain lets Beryl bank attacks and strengthen them before spending AP on a chosen turn.",
+      "vi": "Giữ lại giúp Beryl tích trữ bài tấn công và tăng sức mạnh trước khi dồn Điểm hành động vào lượt thích hợp."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Strong single-target options and flexible draw-focused Epiphanies.",
+        "vi": "Có lựa chọn đơn mục tiêu mạnh và Thức tỉnh bài linh hoạt thiên về rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage may need several turns to mature; costly attacks and scarce AoE limit flexibility.",
+        "vi": "Sát thương có thể cần nhiều lượt tích lũy; bài có chi phí cao và ít khả năng đánh diện rộng làm giảm tính linh hoạt."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Charged Shot",
+        "body": {
+          "en": "270% Damage; Retain: +135% Damage Amount",
+          "vi": "Gây 270% sát thương; Giữ lại: tăng 135% lượng sát thương"
+        },
+        "cardId": "c_1040_uni1"
+      },
+      {
+        "title": "Guilty Pleasure",
+        "body": {
+          "en": "Draw 3",
+          "vi": "Rút bài 3"
+        },
+        "cardId": "c_1040_uni2"
+      },
+      {
+        "title": "Unlimited Firepower",
+        "body": {
+          "en": "100% Shield; +80% Damage Amount to the next Attack Card of this unit activated",
+          "vi": "100% Lá chắn; Tăng 80% lượng sát thương của bài Tấn công tiếp theo thuộc nhân vật này được Kích hoạt"
+        },
+        "cardId": "c_1040_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1040_srt4",
+      "ratings": [
+        1,
+        1,
+        3,
+        1,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V converts retained Beryl cards into repeated Extra Attacks. III is the direct-attack alternative, but usually needs more support.",
+        "vi": "V biến bài Beryl được Giữ lại thành nhiều Đòn đánh thêm. III là hướng đánh trực tiếp nhưng thường cần hỗ trợ nhiều hơn."
+      },
+      "divine": {
+        "en": "Consider Weakness Attack, cost reduction, or Morale/Resolve on V; neutrals are low priority.",
+        "vi": "Cân nhắc Tấn công điểm yếu, giảm chi phí hoặc Sĩ khí/Quyết tâm cho V; ít ưu tiên trung lập."
+      }
+    },
+    {
+      "cardId": "c_1040_uni1",
+      "ratings": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "preferred": "I / II / III / IV / V",
+      "note": {
+        "en": "This card is usually removed or retained only to fuel Beryl's other effects. I–V offer little reason to spend resources playing it.",
+        "vi": "Lá này thường bị loại hoặc chỉ Giữ lại để hỗ trợ hiệu ứng khác của Beryl. I–V ít khi đáng đầu tư tài nguyên để sử dụng."
+      },
+      "divine": {
+        "en": "Do not prioritize divines; keep only a variant that fits the retention plan.",
+        "vi": "Không ưu tiên hiệu ứng thần thánh; chỉ giữ biến thể phù hợp kế hoạch Giữ lại bài."
+      }
+    },
+    {
+      "cardId": "c_1040_uni2",
+      "ratings": [
+        5,
+        5,
+        5,
+        4,
+        5
+      ],
+      "preferred": "I / II / III / V",
+      "note": {
+        "en": "I adds lasting Morale; II reduces a random Beryl card's cost. The other variants also have useful support applications.",
+        "vi": "I thêm Sĩ khí lâu dài; II giảm chi phí một lá Beryl ngẫu nhiên. Các biến thể khác cũng có ứng dụng hỗ trợ hữu ích."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale matches I's addition; 1 AP is the main divine target.",
+        "vi": "1 Sĩ khí trung lập tương đương phần bổ sung của I; ưu tiên thần thánh 1 Điểm hành động."
+      }
+    },
+    {
+      "cardId": "c_1040_uni3",
+      "ratings": [
+        2,
+        3,
+        3,
+        3,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V leaves the deck after its Upgrade setup. III supplies the strongest direct-attack buff; II suits attacking every turn.",
+        "vi": "V rời vòng bài sau khi thiết lập Nâng cấp. III tăng mạnh nhất cho đòn đánh trực tiếp; II phù hợp lối tấn công mỗi lượt."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; draw or cost-reduction divines are alternatives.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; thần thánh rút bài hoặc giảm chi phí là lựa chọn khác."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Sylvia E4",
+      "score": "133.58%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Solia E4",
+      "score": "118.55%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Sylvia E0",
+      "score": "118.34%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Rosaria E4",
+      "score": "114.16%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Nakia E4",
+      "score": "100.00%",
+      "note": {
+        "en": "Nakia is a free stopgap when none of the stronger listed damage partners are available.",
+        "vi": "Nakia là giải pháp miễn phí tạm thời khi chưa có các Đối tác sát thương mạnh hơn trong danh sách."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Executioner's Tool (2) + Black Wing (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A reliable and accessible damage combination that works broadly and stays close to the best alternative.",
+        "vi": "Tổ hợp sát thương dễ kiếm, ổn định với nhiều cách chơi và không thua xa lựa chọn mạnh nhất khác."
+      }
+    },
+    {
+      "name": "Battlefield Evolution (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Battlefield Evolution needs at least two set conditions active to compete with 2/2/2.",
+        "vi": "Battlefield Evolution cần kích hoạt ít nhất hai điều kiện của bộ để cạnh tranh với 2/2/2."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "Justice DMG% > ATK%",
+        "vi": "Sát thương Công lý% > Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "Extra ATK DMG% > CRIT Rate% = CRIT DMG% > ATK > ATK%",
+        "vi": "Sát thương đòn đánh thêm% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
+    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+  },
+  "potentialIntro": {
+    "en": "Beryl’s Signature Potentials are all completely damage-focused, making them a high priority to unlock.3-1: Increases the multipliers of both the Launcherand Charge Launcher Basic Attacks by +20%.5-1: Further increases Launcherand Charge Launcher damage multipliers by +5% with an additional +5% bonus granted if Crit DMG exceeds 160%.7: Boosts Opening Found Damage after unlocking, but also boosts Charged Shot damage as well if Crit DMG exceeds 230%.",
+    "vi": "Các tiềm năng đặc trưng đều tăng sát thương nên ưu tiên mở: 3-1 tăng hệ số Launcher và Charge Launcher thêm 20%, còn 5-1 tăng thêm 5% và thêm 5% nữa khi sát thương chí mạng >160%. Tiềm năng 7 tăng sát thương Opening Found, đồng thời tăng Charged Shot nếu sát thương chí mạng >230%."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "+20% damage of Launcher and Charge Launcher Cards.",
+        "vi": "Tăng 20% sát thương của các bài Launcher và Charge Launcher."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Beryl’s Launcher and Charge Launcher; If Beryl’s Critical Damage is 160% or higher, add an additional 5% to the modifier.",
+        "vi": "Tăng 5% lượng sát thương của Launcher và Charge Launcher của Beryl; Nếu Sát thương chí mạng của Beryl từ 160% trở lên, tăng thêm 5% cho chỉ số này."
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "+10% Damage Amount to Beryl’s Opening Found; If Beryl’s Critical Damage is 230% or higher, +10% Damage Amount to Charged Shot",
+        "vi": "Tăng 10% lượng sát thương của Opening Found của Beryl; Nếu Sát thương chí mạng của Beryl từ 230% trở lên, tăng 10% lượng sát thương của Charged Shot"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "Second Method",
+        "Sword Reflected in the Lake"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery",
+        "vi": "Mùa 4: Kaleidoscope Hatchery"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "Second Method",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Mutagenic Wave Amplifier",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Sword Reflected in the Lake",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Corrupted Gauntlet",
+        "Second Method",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.!’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +Damage",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Beryl’s E1 reduces the cost of “Heavy Weapons Specialist” by 1. This is a great first Ego point that further alleviates the AP demand for Beryl.",
+        "vi": "Heavy Weapons Specialist giảm 1 chi phí, giúp giảm nhu cầu điểm hành động rõ rệt."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Her 2nd Ego point grants a 20% damage buff to her cards that have the [Retain] tag. A decent 2nd node that provides a decent damage increase.",
+        "vi": "Các lá có Giữ lại tăng 20% sát thương; một mức cải thiện khá tốt."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides a small increase in damage.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp bài cơ bản, đặc trưng và chung, tăng nhẹ sát thương."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "The fourth Ego node provides a damage buff to her Ego skill, increasing the damage by an additional +50%. Nothing major in terms of gameplay changes, but helps Beryl slightly in the AoE category.",
+        "vi": "Kỹ năng Ego tăng thêm 50% sát thương, giúp gây sát thương diện rộng tốt hơn nhưng không đổi lối chơi."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "This node again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides another small increase to damage.",
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa cho các tiềm năng nâng cấp ba nhóm bài, tăng nhẹ sát thương."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Beryl’s E6 is a passive effect that grants her stacks of “Condense”. Condense is a buff that can stack up to 3 times and is gained whenever she Retains a card in her hand. Condense is spent whenever she activates an Attack Card, which will cause her to do an additional 50% Fixed Damage for each stack of Condense she had at the time and then removes all stacks. This is a decent final Ego node for Beryl that further boosts her damage.",
+        "vi": "Mỗi lần giữ một lá trên tay nhận Condense, tối đa 3 cộng dồn. Khi kích hoạt bài tấn công, tiêu hao toàn bộ và gây thêm 50% sát thương cố định cho mỗi cộng dồn; tăng sát thương khá tốt."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Opening Found",
+        "vi": "Đánh thêm cuối lượt với Opening Found"
+      },
+      "role": {
+        "en": "Retain-based extra attacker",
+        "vi": "Đánh thêm nhờ giữ bài"
+      },
+      "partner": "Sylvia",
+      "cards": [
+        {
+          "cardId": "c_1040_srt4_rsp5",
+          "count": 4
+        },
+        {
+          "cardId": "c_1040_uni2_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1040_uni3_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "card_ds02_00007",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "card_ne_00043",
+          "count": 2,
+          "effects": {
+            "en": "Draw 2",
+            "vi": "Rút 2 lá"
+          }
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "code": "v6l7OxZ2pd9G6cOGsRzXPZ-7QcZiX5JV04GWAQG12WazgGSPqh_Lc9AH3PCyzFvv__yuSADonRLJYAKxM8NUJCm99cgwpMdVdR8reQvnBUDV",
+      "note": {
+        "en": "Four Opening Found V copies produce four extra attacks per retained Beryl card at turn end. Burning Life's Contaminated Spore and Forgotten Grave accelerate setup; other zones ramp much more slowly. Damage is easy to establish but capped, and this unusual multi-hit pattern avoids Elasticity's usual penalty.",
+        "vi": "Bốn bản Opening Found V tạo bốn đòn đánh thêm cho mỗi lá của Beryl có Giữ lại còn trên tay khi hết lượt. Contaminated Spore và Forgotten Grave tại Burning Life giúp dựng bộ bài nhanh; thu thập bộ bài ở khu khác sẽ mất nhiều lượt tích lũy hơn. Lối chơi dễ triển khai nhưng trần sát thương hạn chế; kiểu nhiều nhịp đánh này có lợi thế tránh được ảnh hưởng thông thường của Đàn hồi."
+      }
+    },
+    {
+      "name": {
+        "en": "Initiator (T1 Set-Up)",
+        "vi": "Chuẩn bị ngay lượt đầu"
+      },
+      "role": {
+        "en": "Opening draw and passive Morale",
+        "vi": "Rút bài đầu trận và tăng Sĩ khí thụ động"
+      },
+      "partner": "Rosaria",
+      "cards": [
+        {
+          "cardId": "c_1040_srt4_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_1040_uni2_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "Apply Initiation to this card",
+            "vi": "Áp dụng Khởi đầu cho lá này"
+          }
+        },
+        {
+          "cardId": "c_1040_uni2_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1040_uni3_rsp5",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "code": "v6l7OxZzpd9G6cOG9RHXPeG4wMIiUpJVrYIXBQZ2lYlEoOaNUtLAUhDLbNIzGuvNcv6uFQjqvhTKtwsA6st-xpOYHD47XzA",
+      "note": {
+        "en": "Front-load draw on turn 1 and gain passive Morale from Guilty Pleasure I. The Initiation Divine is important when reliable opening access is the reason for bringing Beryl. This support deck fits many carries without a specialized damage rotation.",
+        "vi": "Tập trung rút nhiều bài ở lượt đầu và nhận Sĩ khí thụ động từ Guilty Pleasure I. Thức tỉnh thần thánh Khởi đầu rất quan trọng nếu chọn Beryl để bảo đảm triển khai ổn định ngay đầu trận. Bộ bài hỗ trợ này dùng được với nhiều chủ lực, không cần xây vòng sát thương riêng cho Beryl."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Orlea",
+      "note": {
+        "en": "Both activate many Retain effects, making them natural partners for Contaminated Spore teams.",
+        "vi": "Cả hai kích hoạt nhiều hiệu ứng Giữ lại, nên phối hợp tốt trong đội Contaminated Spore."
+      }
+    },
+    {
+      "name": "Kayron",
+      "note": {
+        "en": "Kayron's fewer, heavier hits benefit from Contaminated Spore support.",
+        "vi": "Các đòn ít lần nhưng mạnh của Kayron tận dụng tốt hỗ trợ Contaminated Spore."
+      }
+    },
+    {
+      "name": "Nine",
+      "note": {
+        "en": "Nine's fewer, heavier hits benefit from Contaminated Spore support.",
+        "vi": "Các đòn ít lần nhưng mạnh của Nine tận dụng tốt hỗ trợ Contaminated Spore."
+      }
+    },
+    {
+      "name": "Rei",
+      "note": {
+        "en": "Permanent Morale supports damage-focused Beryl, while support builds overlap in opening draw and buff roles.",
+        "vi": "Sĩ khí duy trì lâu hỗ trợ Beryl gây sát thương; nếu cả hai cùng hỗ trợ thì trùng vai trò Rút bài đầu trận và tăng sức mạnh."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "OF in Bio",
+        "vi": "Đội Opening Found"
+      },
+      "members": [
+        "Beryl",
+        "Rei",
+        "Orlea"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

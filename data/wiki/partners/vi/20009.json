@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Một lính đánh thuê thuộc đội sát thủ.</><br>Zeta chỉ đơn giản thực hiện những nhiệm vụ được thuê; lý do cô làm công việc này và những gì cô nhận được vẫn là bí ẩn. Điều chắc chắn là không mục tiêu nào cô gặp trong một “phi vụ” từng sống sót.",
+  "infoValues": [
+    "Người cải tạo cơ thể",
+    "Ngày 26 tháng 1",
+    "Độc",
+    "Maya Enoyoshi",
+    "Jia Ryu"
+  ],
+  "cardDescription": "<color_orange>200%</> <color_orange><u>Sát thương theo Phòng thủ</u></><br><color_orange><u>Rút</u></> <color_orange>1</> lá có chi phí cao nhất",
+  "terms": {
+    "CARD_DEFDAMAGE": {
+      "title": "Sát thương theo Phòng thủ",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá bài từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Kịch độc",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>16</>%.<br>Tăng lượng Sát thương theo Phòng thủ của các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp thêm <cc>15</>%.",
+        "+<cc>25</>% lượng Sát thương theo Phòng thủ và lượng Lá chắn nhận được cho các lá Celestial của Nhân vật được ghép cặp"
+      ]
+    },
+    "2": {
+      "name": "Kịch độc",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>18</>%.<br>Tăng lượng Sát thương theo Phòng thủ của các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp thêm <cc>19</>%.",
+        "+<cc>32</>% lượng Sát thương theo Phòng thủ và lượng Lá chắn nhận được cho các lá Celestial của Nhân vật được ghép cặp"
+      ]
+    },
+    "3": {
+      "name": "Kịch độc",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>20</>%.<br>Tăng lượng Sát thương theo Phòng thủ của các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp thêm <cc>23</>%.",
+        "+<cc>38</>% lượng Sát thương theo Phòng thủ và lượng Lá chắn nhận được cho các lá Celestial của Nhân vật được ghép cặp"
+      ]
+    },
+    "4": {
+      "name": "Kịch độc",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>22</>%.<br>Tăng lượng Sát thương theo Phòng thủ của các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp thêm <cc>27</>%.",
+        "+<cc>44</>% lượng Sát thương theo Phòng thủ và lượng Lá chắn nhận được cho các lá Celestial của Nhân vật được ghép cặp"
+      ]
+    },
+    "5": {
+      "name": "Kịch độc",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>24</>%.<br>Tăng lượng Sát thương theo Phòng thủ của các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp thêm <cc>30</>%.",
+        "+<cc>50</>% lượng Sát thương theo Phòng thủ và lượng Lá chắn nhận được cho các lá Celestial của Nhân vật được ghép cặp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Giọng nữ cao thiên tài của dàn hợp xướng Benedict.</><br>Một giọng nữ cao xuất chúng đã gia nhập dàn hợp xướng Benedict của Holy Crusaders ở độ tuổi trẻ nhất từng được ghi nhận, nay dẫn dắt các thành viên với tư cách trưởng bè trẻ nhất lịch sử. Vì tính cách rụt rè, cô thường dùng loa phóng thanh để khuếch đại giọng nói, nhưng khi cất tiếng hát, không ai tự tin hơn cô.",
+  "infoValues": [
+    "Con người",
+    "25 tháng Ba",
+    "Ban phước",
+    "Riku Shino",
+    "Kim Yul"
+  ],
+  "cardDescription": "<color_orange><u>Hồi máu</u></> <color_orange>100%</><br>Kích hoạt hiệu ứng <color_orange><u>Giữ lại</u></> của tất cả các lá trên tay thuộc Nhân vật được ghép cặp",
+  "terms": {
+    "TRIGGER_RETAIN": {
+      "title": "Giữ lại:",
+      "desc": "Khi lá này được Giữ lại, kích hoạt hiệu ứng"
+    },
+    "CARD_CURE": {
+      "title": "Hồi máu",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên dựa trên lượng Máu tăng"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Thánh ca ban phước",
+      "descriptions": [
+        "Tăng <cc>16</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>15</>% lượng sát thương, Lá chắn nhận được và Hồi máu của các lá Giữ lại thuộc Nhân vật được ghép cặp.",
+        "Vào cuối lượt, gây Sát thương cố định lên tất cả kẻ địch bằng <cc>15</>% cho mỗi lá được Giữ lại của Nhân vật được ghép cặp. +<cc>5</>% sát thương lên kẻ địch có thuộc tính <color_ego_instinct>Bản năng</>."
+      ]
+    },
+    "2": {
+      "name": "Thánh ca ban phước",
+      "descriptions": [
+        "Tăng <cc>18</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>19</>% lượng sát thương, Lá chắn nhận được và Hồi máu của các lá Giữ lại thuộc Nhân vật được ghép cặp.",
+        "Vào cuối lượt, gây Sát thương cố định lên tất cả kẻ địch bằng <cc>19</>% cho mỗi lá được Giữ lại của Nhân vật được ghép cặp. +<cc>5</>% sát thương lên kẻ địch có thuộc tính <color_ego_instinct>Bản năng</>."
+      ]
+    },
+    "3": {
+      "name": "Thánh ca ban phước",
+      "descriptions": [
+        "Tăng <cc>20</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>23</>% lượng sát thương, Lá chắn nhận được và Hồi máu của các lá Giữ lại thuộc Nhân vật được ghép cặp.",
+        "Vào cuối lượt, gây Sát thương cố định lên tất cả kẻ địch bằng <cc>23</>% cho mỗi lá được Giữ lại của Nhân vật được ghép cặp. +<cc>5</>% sát thương lên kẻ địch có thuộc tính <color_ego_instinct>Bản năng</>."
+      ]
+    },
+    "4": {
+      "name": "Thánh ca ban phước",
+      "descriptions": [
+        "Tăng <cc>22</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>27</>% lượng sát thương, Lá chắn nhận được và Hồi máu của các lá Giữ lại thuộc Nhân vật được ghép cặp.",
+        "Vào cuối lượt, gây Sát thương cố định lên tất cả kẻ địch bằng <cc>27</>% cho mỗi lá được Giữ lại của Nhân vật được ghép cặp. +<cc>5</>% sát thương lên kẻ địch có thuộc tính <color_ego_instinct>Bản năng</>."
+      ]
+    },
+    "5": {
+      "name": "Thánh ca ban phước",
+      "descriptions": [
+        "Tăng <cc>24</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>30</>% lượng sát thương, Lá chắn nhận được và Hồi máu của các lá Giữ lại thuộc Nhân vật được ghép cặp.",
+        "Vào cuối lượt, gây Sát thương cố định lên tất cả kẻ địch bằng <cc>30</>% cho mỗi lá được Giữ lại của Nhân vật được ghép cặp. +<cc>5</>% sát thương lên kẻ địch có thuộc tính <color_ego_instinct>Bản năng</>."
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "characterId": "1003",
+  "terms": [
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "englishTitle": "Healing",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng",
+      "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+    },
+    {
+      "id": "T_CS01_0476",
+      "title": "Đàn hồi",
+      "englishTitle": "Elasticity",
+      "desc": "Khi đồng minh gây Đòn đánh thêm, Hồi máu <cc>50</>% với mỗi Đàn hồi<br>Khi kích hoạt, loại bỏ Đàn hồi (tối đa <color_orange>5</> cộng dồn)",
+      "englishDesc": "On ally Extra Attack, Heal <cc>50</>% for each Elasticity<br>On activation, remove Elasticity (max <color_orange>5</> stack(s))"
+    },
+    {
+      "id": "T_CS00_0252",
+      "title": "Đề-xi-ben",
+      "englishTitle": "Decibel",
+      "desc": "Khi Xáo bài, đồng minh gây <color_orange><u>Đòn đánh thêm</u></> <color_orange>50</>% lên một kẻ địch ngẫu nhiên; khi kích hoạt, loại bỏ Đề-xi-ben<br>Hồi máu <color_orange>50</>% × số Đề-xi-ben, đồng thời tăng <color_orange>50</>% lượng sát thương × số Đề-xi-ben cho <color_orange><u>Đòn đánh thêm</u></> (tối đa <color_orange>5</> cộng dồn)",
+      "englishDesc": "On Shuffle, <color_orange>50</>% <color_orange><u>Extra Attack</u></> by allies to a random enemy, and on activation, remove Decibel<br>Heal <color_orange>50</>% × Decibel count, and +<color_orange>50</>% Damage Amount × Decibel count to <color_orange><u>Extra Attack</u></>s (max <color_orange>5</> stacks)"
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng.",
+      "englishDesc": "Activating a card through an effect"
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>"
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "englishTitle": "Extra Attack",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung.",
+      "englishDesc": "Damage affected by Critical Chance and Extra Damage"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+    }
+  ]
+}

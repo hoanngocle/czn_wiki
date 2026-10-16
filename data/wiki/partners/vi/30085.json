@@ -1,0 +1,62 @@
+{
+  "profile": "<color_darkgray>Một nguyên soái Đế quốc hỗ trợ đồng đội từ trong bóng tối.</><br>Một nguyên soái trực thuộc Đế quốc. Là chuyên gia hỗ trợ hậu phương, cô âm thầm xử lý nhiều công việc cho chị gái. Trái với Tiphera, cô điềm tĩnh và ít nói, khiến sự hiện diện của mình luôn kín đáo.",
+  "infoValues": [
+    "Con người",
+    "3 tháng Bảy",
+    "Sáng tạo",
+    "Honoka Kamada",
+    "Hae-Na Kang"
+  ],
+  "cardDescription": "<color_orange><u>Rút</u></> <color_orange>1</> lá <color_orange><u>Kiệt sức</u></><br>Trong <color_orange>2</> lần dùng Kỹ năng Ego tiếp theo, Rút <color_orange>1</> lá Kiệt sức mỗi lần<br>Giảm <color_orange>1</> Chi phí của <color_orange><u>Kỹ năng Ego</u></> tiếp theo được sử dụng",
+  "terms": {
+    "CARD_EGO_SKILL": {
+      "title": "Kỹ năng Ego",
+      "desc": "Chỉ Kỹ năng Thức tỉnh của Nhân vật và Kỹ năng của Đối tác."
+    },
+    "TALENT_EXHAUST": {
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>kiệt sức</u></>"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Ngôi sao trong bóng tối",
+      "descriptions": [
+        "Tăng <cc>16</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo <cc>3</> lá Kiệt sức, tăng <cc>15</>% lượng sát thương của lá Tấn công tiếp theo được Kích hoạt của đồng minh (tối đa <cc>2</> cộng dồn).",
+        "Khi Nhân vật được ghép cặp đã Kích hoạt cả nhận Lá chắn và Hồi máu thông qua các lá thuộc tính <color_ego_norms>Trật tự</>, +<cc>6</>% Tỷ lệ chí mạng cho đồng minh trong <cc>1</> lượt (không cộng dồn)."
+      ]
+    },
+    "2": {
+      "name": "Ngôi sao trong bóng tối",
+      "descriptions": [
+        "Tăng <cc>18</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo <cc>3</> lá Kiệt sức, tăng <cc>19</>% lượng sát thương của lá Tấn công tiếp theo được Kích hoạt của đồng minh (tối đa <cc>2</> cộng dồn).",
+        "Khi Nhân vật được ghép cặp đã Kích hoạt cả nhận Lá chắn và Hồi máu thông qua các lá thuộc tính <color_ego_norms>Trật tự</>, +<cc>8</>% Tỷ lệ chí mạng cho đồng minh trong <cc>1</> lượt (không cộng dồn)."
+      ]
+    },
+    "3": {
+      "name": "Ngôi sao trong bóng tối",
+      "descriptions": [
+        "Tăng <cc>20</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo <cc>3</> lá Kiệt sức, tăng <cc>23</>% lượng sát thương của lá Tấn công tiếp theo được Kích hoạt của đồng minh (tối đa <cc>2</> cộng dồn).",
+        "Khi Nhân vật được ghép cặp đã Kích hoạt cả nhận Lá chắn và Hồi máu thông qua các lá thuộc tính <color_ego_norms>Trật tự</>, +<cc>9</>% Tỷ lệ chí mạng cho đồng minh trong <cc>1</> lượt (không cộng dồn)."
+      ]
+    },
+    "4": {
+      "name": "Ngôi sao trong bóng tối",
+      "descriptions": [
+        "Tăng <cc>22</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo <cc>3</> lá Kiệt sức, tăng <cc>27</>% lượng sát thương của lá Tấn công tiếp theo được Kích hoạt của đồng minh (tối đa <cc>2</> cộng dồn).",
+        "Khi Nhân vật được ghép cặp đã Kích hoạt cả nhận Lá chắn và Hồi máu thông qua các lá thuộc tính <color_ego_norms>Trật tự</>, +<cc>11</>% Tỷ lệ chí mạng cho đồng minh trong <cc>1</> lượt (không cộng dồn)."
+      ]
+    },
+    "5": {
+      "name": "Ngôi sao trong bóng tối",
+      "descriptions": [
+        "Tăng <cc>24</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo <cc>3</> lá Kiệt sức, tăng <cc>30</>% lượng sát thương của lá Tấn công tiếp theo được Kích hoạt của đồng minh (tối đa <cc>2</> cộng dồn).",
+        "Khi Nhân vật được ghép cặp đã Kích hoạt cả nhận Lá chắn và Hồi máu thông qua các lá thuộc tính <color_ego_norms>Trật tự</>, +<cc>12</>% Tỷ lệ chí mạng cho đồng minh trong <cc>1</> lượt (không cộng dồn)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "characterId": "1052",
+  "name": "Narja",
+  "identity": [
+    "Instinct",
+    "Controller"
+  ],
+  "subtitle": {
+    "en": "Narja connects healing and attack damage through Voracity. Attack-card hits trigger its Fixed Heal, while having at least 50% Health also enables its damage bonus. Predation adds a further attack-card bonus while Voracity is active. Her cards supply these stacks, reward spending them, and deal Defense-Based Damage. This overview explains those interactions from the kit; it does not assign a performance ranking.",
+    "vi": "Narja kết nối hồi máu và sát thương tấn công thông qua Háu ăn. Đánh trúng bằng lá Tấn công kích hoạt Hồi máu cố định của hiệu ứng này; khi có ít nhất 50% Máu, hiệu ứng còn tăng sát thương. Săn mồi bổ sung sát thương cho lá Tấn công khi đang có Háu ăn. Bộ bài cung cấp các cộng dồn này, tạo lợi ích khi tiêu hao chúng và gây Sát thương theo Phòng thủ. Phần này giải thích tương tác từ bộ kỹ năng, không đưa ra xếp hạng sức mạnh."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1052.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/narja",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/narja.json",
+      "docs/narja/api/czn/characters/1052.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Controller": {
+      "src": "/assets/common/icon_type_job_controller.png",
+      "width": 44,
+      "height": 44
+    },
+    "Nyx": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Gaya": {
+      "src": "/assets/partner/portrait_character_crop_half_20002.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Healer's Journey": {
+      "src": "/assets/item/guide-9a0cb5c9e3e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Crimson Sword": {
+      "src": "/assets/item/relic_1170.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Star-Lit Cloak": {
+      "src": "/assets/item/relic_1189.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Clover of the Forest": {
+      "src": "/assets/item/relic_1232.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harp of Conflict": {
+      "src": "/assets/item/relic_5035.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pale Eternal Flame": {
+      "src": "/assets/item/relic_5018.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Chains of Obsession": {
+      "src": "/assets/item/relic_1152_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Haru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1062.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Amir": {
+      "src": "/assets/combatant/portrait_character_crop_half_1017.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1018.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Kayron": {
+      "src": "/assets/combatant/portrait_character_crop_half_1064.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Gaya E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20002.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "card_ne_00026",
+      "name": "Gear Bag",
+      "cost": 1,
+      "description": "<color_orange><u>Draw</u></> <color_orange>2</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00326",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00326.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "When a card of a different Combatant is used, <color_orange><u>proc</u></> this card",
+          "id": "TALENT_COOP",
+          "title": "Combo"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00026",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ta_00007",
+      "name": "Forbidden: Eternal Hunger",
+      "cost": 0,
+      "description": "<color_orange>Attunement:</> <color_orange><u>Draw</u></> <cc>1</> and gain <cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_TABOO",
+      "artKey": "taboo_00007",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/taboo_00007.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ta_00007",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "taboo"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ds01_00007",
+      "name": "Confiscation",
+      "cost": 0,
+      "description": "<color_orange><u>Draw</u></> <color_orange>1</><br>Move <color_orange>1</> random Forbidden Card(s) from <color_orange><u>Draw Pile</u></> or <color_orange><u>Discard Pile</u></> to hand",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00476",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00476.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "The pile where Discarded Cards move to (max <cc>200</>)",
+          "id": "CARD_PLACE_DISCARD_2",
+          "title": "Discard Pile"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ds01_00007",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Narja connects healing and attack damage through Voracity. Attack-card hits trigger its Fixed Heal, while having at least 50% Health also enables its damage bonus. Predation adds a further attack-card bonus while Voracity is active. Her cards supply these stacks, reward spending them, and deal Defense-Based Damage. This overview explains those interactions from the kit; it does not assign a performance ranking.",
+      "vi": "Narja kết nối hồi máu và sát thương tấn công thông qua Háu ăn. Đánh trúng bằng lá Tấn công kích hoạt Hồi máu cố định của hiệu ứng này; khi có ít nhất 50% Máu, hiệu ứng còn tăng sát thương. Săn mồi bổ sung sát thương cho lá Tấn công khi đang có Háu ăn. Bộ bài cung cấp các cộng dồn này, tạo lợi ích khi tiêu hao chúng và gây Sát thương theo Phòng thủ. Phần này giải thích tương tác từ bộ kỹ năng, không đưa ra xếp hạng sức mạnh."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Voracity links attack-card hits to healing; Mealtime also combines an all-enemy attack, healing, and Predation in one card.",
+        "vi": "Háu ăn giúp các lần đánh trúng bằng lá Tấn công hồi máu; Mealtime kết hợp đánh toàn bộ kẻ địch, hồi máu và cấp Săn mồi trong một lá."
+      },
+      {
+        "en": "Shackles of Hunger supplies Voracity through Attunement, and Voluntary Control can supply either Voracity or Predation depending on current stacks.",
+        "vi": "Shackles of Hunger cấp Háu ăn qua Điều hòa; Voluntary Control cấp Háu ăn hoặc Săn mồi tùy số cộng dồn hiện có."
+      },
+      {
+        "en": "Bottomless Hunger turns upcoming Voracity activations into temporary cost reductions. Domain of Voracity increases the Tenacity Damage enemies take until their next Ravage.",
+        "vi": "Bottomless Hunger biến những lần kích hoạt Háu ăn tiếp theo thành giảm Chi phí tạm thời. Domain of Voracity tăng Sát thương sức bền mà kẻ địch nhận vào cho đến lần Suy yếu tiếp theo."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Predation requires Voracity to provide its damage bonus, and both effects lose stacks when activated. Keeping their supply available matters.",
+        "vi": "Săn mồi cần Háu ăn để tăng sát thương, và cả hai hiệu ứng đều mất cộng dồn khi kích hoạt. Cần chú ý duy trì nguồn cộng dồn."
+      },
+      {
+        "en": "Voracity’s attack damage bonus requires at least 50% Health. Its healing trigger and its damage condition are separate parts of the effect.",
+        "vi": "Phần tăng sát thương tấn công của Háu ăn yêu cầu ít nhất 50% Máu. Điều kiện hồi máu và điều kiện tăng sát thương là hai phần riêng của hiệu ứng."
+      },
+      {
+        "en": "Base Bottomless Hunger discounts a random card in hand. Mealtime’s cost reduction needs Voracity to decrease before Mealtime is activated.",
+        "vi": "Bottomless Hunger cơ bản giảm Chi phí cho lá ngẫu nhiên trên tay. Muốn giảm Chi phí của Mealtime, cần làm giảm Háu ăn trước khi Kích hoạt Mealtime."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Bottomless Hunger",
+        "body": {
+          "en": "The next 2 times Voracity is activated, decrease Cost of 1 random card in hand by 1 for 1 turn",
+          "vi": "Trong 2 lần kích hoạt Háu ăn tiếp theo, giảm 1 Chi phí của 1 lá ngẫu nhiên trên tay trong 1 lượt"
+        },
+        "cardId": "c_1052_uni1"
+      },
+      {
+        "title": "Voluntary Control",
+        "body": {
+          "en": "If Voracity is fewer than 6 stacks, gain 6 Voracity; If 6 or more stacks, gain 2 Predation",
+          "vi": "Nếu Háu ăn có ít hơn 6 cộng dồn, nhận 6 Háu ăn; Nếu có ít nhất 6 cộng dồn, nhận 2 Săn mồi"
+        },
+        "cardId": "c_1052_uni2"
+      },
+      {
+        "title": "Domain of Voracity",
+        "body": {
+          "en": "100% Defense-Based Damage to all enemies; Increase Tenacity Damage taken of the target by 100% until their next Ravage",
+          "vi": "Gây 100% Sát thương theo Phòng thủ lên toàn bộ kẻ địch; Tăng 100% Sát thương sức bền mục tiêu nhận vào cho đến lần Suy yếu tiếp theo của chúng"
+        },
+        "cardId": "c_1052_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1052_srt4",
+      "ratings": [
+        3,
+        5,
+        3,
+        3,
+        3
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II returns at turn start with zero cost, easing cycling but losing normal Voracity gain. I favors greater Voracity when draw is sufficient.",
+        "vi": "II trở lại đầu lượt với chi phí 0, dễ luân chuyển nhưng mất khả năng tạo Háu ăn thông thường. I ưu tiên thêm Háu ăn khi đã đủ rút bài."
+      },
+      "divine": {
+        "en": "Consider 2 Vulnerable or cost reduction; neutrals can fill resource gaps.",
+        "vi": "Cân nhắc 2 Dễ tổn thương hoặc giảm chi phí; trung lập có thể bù thiếu hụt tài nguyên."
+      }
+    },
+    {
+      "cardId": "c_1052_uni1",
+      "ratings": [
+        5,
+        5,
+        2,
+        3,
+        3
+      ],
+      "preferred": "I / II",
+      "note": {
+        "en": "I supplies the Voracity needed by its own effect for hit-heavy teams. II removes the hit requirement and fits a wider range of teams.",
+        "vi": "I tự cung cấp Háu ăn cần thiết cho hiệu ứng trong đội nhiều lần đánh. II bỏ điều kiện số lần đánh, phù hợp nhiều đội hơn."
+      },
+      "divine": {
+        "en": "Draw 1 is valuable; neutral Morale works when Voracity comes from elsewhere.",
+        "vi": "Rút 1 có giá trị; Sĩ khí trung lập phù hợp khi có nguồn Háu ăn khác."
+      }
+    },
+    {
+      "cardId": "c_1052_uni2",
+      "ratings": [
+        3,
+        2,
+        2,
+        5,
+        4
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV gives initial Voracity and removes itself after setup, supporting suitable carries. V specializes in allies who retain Basic Attacks.",
+        "vi": "IV cho Háu ăn ban đầu và tự rời vòng bài sau thiết lập, hỗ trợ chủ lực phù hợp. V chuyên cho đồng đội giữ Bài tấn công cơ bản."
+      },
+      "divine": {
+        "en": "Neutral draw or divine draw/cost reduction eases cycling.",
+        "vi": "Rút bài trung lập hoặc thần thánh rút bài/giảm chi phí giúp luân chuyển."
+      }
+    },
+    {
+      "cardId": "c_1052_uni3",
+      "ratings": [
+        1,
+        3,
+        1,
+        2,
+        3
+      ],
+      "preferred": "II / V",
+      "note": {
+        "en": "II buffs Defense-based multihits for two turns, but duplicate buffs do not stack. V mainly removes the card from later draws.",
+        "vi": "II tăng đòn đánh nhiều lần dựa trên Phòng thủ trong hai lượt, nhưng hiệu ứng trùng không cộng dồn. V chủ yếu loại lá khỏi các lượt rút sau."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 helps justify keeping it; 2 Vulnerable is the divine option.",
+        "vi": "Rút 1 trung lập giúp lá này đáng giữ hơn; 2 Dễ tổn thương là lựa chọn thần thánh."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Nyx E0",
+      "score": "—",
+      "note": {
+        "en": "A flexible support choice: her Ego draws and discards cards, while her stats and team buff remain useful at every Ego level.",
+        "vi": "Lựa chọn hỗ trợ linh hoạt: kỹ năng Ego giúp rút và bỏ bài; chỉ số cùng hiệu ứng tăng sức mạnh cả đội vẫn hữu ích ở mọi cấp Ego."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Her passive does not activate on a Controller, but her Ego still draws 2 cards for 2 EP. An accessible alternative to Nyx when draw matters most.",
+        "vi": "Nội tại không hoạt động với hệ Điều khiển, nhưng kỹ năng Ego vẫn rút 2 lá với 2 Điểm Ego. Phương án dễ tiếp cận thay Nyx khi ưu tiên khả năng rút bài."
+      }
+    },
+    {
+      "name": "Gaya E0",
+      "score": "—",
+      "note": {
+        "en": "Narja's signature favors her personal damage in Chaos and Sortie. Nyx or Yuri usually provide more useful support in Save Data teams.",
+        "vi": "Đối tác đặc trưng giúp Narja tăng sát thương cá nhân trong Chaos và Xuất kích. Với đội hình dùng dữ liệu lưu, khả năng hỗ trợ của Nyx hoặc Yuri thường hữu ích hơn."
+      }
+    },
+    {
+      "name": "Alyssa E4",
+      "score": "—",
+      "note": {
+        "en": "A strong damage option below Gaya; use a different partner when Narja's role is primarily support.",
+        "vi": "Lựa chọn tăng sát thương tốt sau Gaya; nên chọn đối tác khác nếu Narja chủ yếu làm nhiệm vụ hỗ trợ."
+      }
+    },
+    {
+      "name": "Yvonne E4",
+      "score": "—",
+      "note": {
+        "en": "An accessible stat-oriented alternative to Yuri, trading the draw Ego for passive stats.",
+        "vi": "Phương án dễ tiếp cận thay Yuri khi cần chỉ số nội tại hơn kỹ năng Ego rút bài."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Tetra's Authority (2) + Healer's Journey (2) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "The 2/2/2 combination is the consistent general support choice across modes. Change it only for a dedicated damage build or a setup that reliably benefits from Glory's Reign.",
+        "vi": "Kết hợp 2/2/2 là lựa chọn hỗ trợ ổn định cho nhiều chế độ. Chỉ đổi khi xây dựng sát thương riêng hoặc có bộ bài tận dụng được Glory's Reign thường xuyên."
+      }
+    },
+    {
+      "name": "Glory's Reign (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Popular Narja decks rely on neutral cards for Exhaust, so this set is conditional and often better assigned to another teammate.",
+        "vi": "Các bộ bài Narja phổ biến phải nhờ bài trung lập để kích hoạt Kiệt sức, nên bộ này có điều kiện và thường phù hợp với đồng đội khác hơn."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Narja Stats — Support · Ideal",
+        "vi": "Hỗ trợ · Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — Support · Desire",
+        "vi": "Hỗ trợ · Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — Support · Imagination",
+        "vi": "Hỗ trợ · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — Support · Substats",
+        "vi": "Hỗ trợ · Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% > HP > HP% > EGO Regen",
+        "vi": "Phòng thủ > Phòng thủ% > Máu > Máu% > Hồi năng lượng Ego"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — DPS-Lite · Ideal",
+        "vi": "Sát thương phụ · Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — DPS-Lite · Desire",
+        "vi": "Sát thương phụ · Khao khát"
+      },
+      "value": {
+        "en": "Instinct DMG",
+        "vi": "Sát thương Bản năng"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — DPS-Lite · Imagination",
+        "vi": "Sát thương phụ · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Stats — DPS-Lite · Substats",
+        "vi": "Sát thương phụ · Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ% >>> Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "When playing Narja, getting her Defense to 301+ in the character screen is a must for maxing out the effect of her Potential 7 to boost the damage bonus of Predation. Prioritize stacking Defense on sub stats where you can to ensure you hit this breakpoint.",
+    "vi": "Cả hướng hỗ trợ và gây sát thương phụ đều nên đạt 301+ phòng thủ trên màn hình nhân vật để tối đa hóa tăng cường Săn mồi từ tiềm năng 7. Ưu tiên phòng thủ ở chỉ số phụ để chạm mốc."
+  },
+  "potentialIntro": {
+    "en": "Crit Rate% > Defense% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%2 out of 3 of Narja’s signature Potentials are incredibly impactful to her core gameplay, each dramatically improving her performance as both a support and a damage dealer, making them highly recommended unlocks.3-1: Causes Narja’s basic heal, NA: Defense Response to now grant 2 Voracityper use, boosting Narja’s Voracityaccessibility early on in Chaos runs and when you get undesirable Epiphany options substantially. Less useful in Save Data modes where basics are likely removed, but still worth getting for Chaos.5-1: An optional Potential you can either choose to unlock or skip, which boosts the base healing of Narja’s Basic Heal by +5% initially and another +5% while her DEF is greater than 250. Ok for Chaos, but not needed when focusing on Save Data game modes.7: The main must have Potential for Narja. Boosts Voracity’sbuff from +30% (additive) to +40% and while Narja’s defense is 300 or higher, raises Predation’sbuff from +80% (additive) to +100%. Both of these help Narja’s own personal damage and supportive capabilities.",
+    "vi": "Ưu tiên tỷ lệ chí mạng > % phòng thủ ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp NA: Defense Response tạo 2 Háu ăn, rất hữu ích đầu Chaos hoặc khi thức tỉnh không thuận lợi, còn 5-1 tăng hồi máu cơ bản 5% và thêm 5% khi phòng thủ >250, có thể bỏ qua nếu chỉ tập trung dữ liệu lưu. Tiềm năng 7 là nút bắt buộc: tăng hiệu ứng Háu ăn từ 30% lên 40% theo phép cộng, và khi phòng thủ ≥300 nâng Săn mồi từ 80% lên 100%, có ích cho cả sát thương cá nhân lẫn hỗ trợ."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds 2 Voracity to NA: Defense Response.",
+        "vi": "Thêm 2 Háu ăn cho NA: Defense Response."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Heal Amount to Narja's NA: Defense Response; If Narja's Defense is 250 or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng hồi máu của NA: Defense Response của Narja.; Nếu Phòng thủ của Narja đạt ít nhất 250, tăng thêm 5% vào hệ số."
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "+10% Damage Amount to Voracity; If Narja's Defense is 300 or higher, +20% Damage Amount to Predation",
+        "vi": "Tăng 10% lượng sát thương của Háu ăn.; Nếu Phòng thủ của Narja đạt ít nhất 300, tăng 20% lượng sát thương của Săn mồi."
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Support",
+        "vi": "Hỗ trợ"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Wings of Light",
+        "Star-Lit Cloak"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Sphere of Randomness",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "Swamp is typically the go-to choice for any support that can trigger ‘Recover’ through a Card, which is all Controllers and some Psionics, because of the access to ‘Clover of the Forest’ at fairly high odds (+10% ATK% for all allies on Recover from Card).",
+        "vi": "Đầm lầy thường là lựa chọn đầu tiên cho hỗ trợ có bài hồi phục, gồm mọi nhân vật Điều khiển và một số Ngoại cảm, vì dễ lấy Clover of the Forest. Trang bị này tăng 10% tấn công cho toàn đội khi hồi phục bằng bài."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Harp of Conflict",
+        "Pale Eternal Flame",
+        "Crimson Sword"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Plant Doll",
+        "Golden Bell"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Nightmare Hairpin",
+        "Torture Toolbox",
+        "Wings of Light",
+        "Chains of Obsession"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Sphere of Randomness",
+        "Stele of Heresy",
+        "Bloody Pendant"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] and/or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, và/hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Increase the Predation stacks Mealtime grants from 4 to 6, improving the total amount of Predation Narja can access each turn by a nice amount. Not a game changer, but definitely a welcome upgrade to a card that sees regular and impactful play in almost every Narja deck.",
+        "vi": "Mealtime cho 6 Săn mồi thay vì 4. Không đổi cơ chế nhưng cải thiện tốt một lá quan trọng trong gần như mọi bộ Narja."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "After unlocking this Ego, whenever Narja’s Voracity stacks are consumed, she has a 25% chance to immediately regain the stack. In Narja builds that use Voracity as fuel for other effects or teams that churn through stacks fast, this Ego Skill can make a substantial difference in ensuring Narja can continue operating at maximum potential.",
+        "vi": "Mỗi lần Háu ăn bị tiêu hao có 25% cơ hội nhận lại ngay cộng dồn đó. Có thể rất mạnh ở đội tiêu thụ cộng dồn nhanh hoặc dùng Háu ăn làm nguyên liệu cho hiệu ứng khác."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Upgrades the number of stacks Narja’s Ego skill grants from 5 to 8. Given that Ego skills can only be used once per battle and Narja has other methods to consistently gain Predation, this bonus isn’t particularly impactful in the grand scheme of things.",
+        "vi": "Kỹ năng Ego cho 8 cộng dồn thay vì 5. Tác động tổng thể thấp vì chỉ dùng một lần và Narja có nhiều cách tạo Săn mồi ổn định khác."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Boosts Narja’s Predation damage boost from +100% (additive) with Potentials unlocked to 130%, improving Narja’s total damage and buffing potential by a nice amount. Doesn’t mechanically transform Narja in any way, taking her to the next level, but it is just a nice, decent power increase.",
+        "vi": "Mức tăng sát thương Săn mồi từ 100% khi đã mở tiềm năng lên 130% theo phép cộng. Tăng sức mạnh khá tốt nhưng không thay đổi cơ chế."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Boosts the base damage increase of Narja’s Potentials from 20% to 26%. A small damage increase, but nothing major.",
+        "vi": "Mức tăng sát thương cơ bản từ tiềm năng tăng từ 20% lên 26%; cải thiện nhỏ."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Causes Narja to deal 50% Defense Based damage and Heal 1% of the team's HP at the end of the turn per Predation stack that was consumed in that turn. Assuming Mealtime and a single copy of Voluntary Control I (Predation effect) is used per turn and all Predation stacks can be consumed, this Ego can deal 450% damage and 9% healing. Even in damage-focused Narja builds, this kind of additional damage isn’t game-changing, but is simply a nice addition. If you can consume more Predation than is assumed in this example, though, the Ego can get better, but the opposite can also be true, especially in early Chaos runs.",
+        "vi": "Cuối lượt, mỗi Săn mồi đã tiêu hao gây 50% sát thương theo phòng thủ và hồi 1% máu toàn đội. Ví dụ dùng Mealtime cùng 1 Voluntary Control I rồi tiêu hết 9 cộng dồn sẽ gây 450% sát thương và hồi 9% máu; kết quả thực tế phụ thuộc lượng tiêu hao, thường thấp hơn đầu Chaos."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Generic Battery",
+        "vi": "Nguồn Điểm hành động đa dụng"
+      },
+      "role": {
+        "en": "Broadly compatible AP support",
+        "vi": "Hỗ trợ Điểm hành động dễ ghép đội"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1052_srt2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1052_uni1_rsp2",
+          "count": 4,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1052_uni2_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00026",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Tetra's Authority",
+        "Healer's Journey"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Use Bottomless Hunger without Voracity consumption for a general-purpose setup, since not every carry can exploit the Voracity version. Swamp is recommended; keep a basic heal to activate Clover of the Forest if no teammate has a healing skill.",
+        "vi": "Chọn Bottomless Hunger không tiêu thụ Háu ăn nếu muốn bộ bài dùng được với nhiều chủ lực, vì không phải ai cũng tận dụng tốt bản Háu ăn. Nên thu thập bộ bài tại Đầm lầy; giữ một lá hồi máu cơ bản để kích hoạt Clover of the Forest nếu đội không có kỹ năng hồi máu khác."
+      }
+    },
+    {
+      "name": {
+        "en": "Voracity Variant",
+        "vi": "Biến thể tiêu thụ Háu ăn"
+      },
+      "role": {
+        "en": "AP support for low-cost multi-hit carries",
+        "vi": "Cấp Điểm hành động cho chủ lực nhiều nhịp đánh giá rẻ"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1052_srt2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1052_uni1_rsp1",
+          "count": 4,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1052_uni2_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00026",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Tetra's Authority",
+        "Healer's Journey"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Keep the generic battery's plan but choose the Voracity-consuming option. It works best when the carry delivers multiple hits, ideally with low-cost attacks that efficiently exploit the effect.",
+        "vi": "Giữ cách vận hành của bản cấp Điểm hành động đa dụng nhưng chọn nhánh tiêu thụ Háu ăn. Phù hợp nhất với chủ lực có nhiều nhịp đánh, đặc biệt là các đòn nhiều nhịp có chi phí thấp để khai thác hiệu ứng hiệu quả."
+      }
+    },
+    {
+      "name": {
+        "en": "Metal Amir Support",
+        "vi": "Hỗ trợ Amir Kim loại hóa"
+      },
+      "role": {
+        "en": "Shield trigger and Hunger-loop support",
+        "vi": "Kích hoạt lá chắn và lặp Forbidden: Eternal Hunger"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1052_srt4_rsp5",
+          "count": 3
+        },
+        {
+          "cardId": "c_1052_uni1_rsp4",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1052_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1052_uni3_rsp2",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1 card(s) of this unit",
+            "vi": "Rút 1 lá của nhân vật này"
+          }
+        },
+        {
+          "cardId": "card_ta_00007",
+          "count": 1
+        },
+        {
+          "cardId": "card_ds01_00007",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "card_ds01_00007",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1<br>Apply Initiation to this card",
+            "vi": "Nhận 1 Sĩ khí<br>Áp dụng Khởi đầu cho lá này"
+          }
+        }
+      ],
+      "gear": [
+        "Rocket-Adorned Cape",
+        "Sphere of Randomness"
+      ],
+      "fragments": [
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0
+      ],
+      "note": {
+        "en": "Pair with Metal Amir and Nia's Double Funger. Carry one Forbidden: Eternal Hunger so Nia does not need the difficult double-Forbidden setup. Save all three Shackles of Hunger until late in the turn, after buffs, to trigger Amir's Metallicization attacks at full strength. Farm Lab-0 unless both Hungers are already on Nia.",
+        "vi": "Đi cùng Amir Kim loại hóa và Nia theo bản lặp hai Forbidden: Eternal Hunger. Narja mang một Forbidden: Eternal Hunger để Nia không phải tự sở hữu hai bản lá Cấm kỵ rất khó kiếm. Giữ cả ba Shackles of Hunger đến cuối lượt, sau khi hoàn tất hiệu ứng tăng sức mạnh, để các nhịp đánh Kim loại hóa của Amir nhận đủ tăng sát thương. Cần thu thập bộ bài tại Lab-0 trừ khi Nia đã có cả hai Forbidden: Eternal Hunger."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Haru",
+      "note": {
+        "en": "Bottomless Hunger can discount Anchor Shot for the full turn. Voluntary Control lets each movement benefit from Predation, while Haru's repeated attacks make good use of Voracity.",
+        "vi": "Bottomless Hunger có thể giảm Chi phí của Anchor Shot trong cả lượt. Voluntary Control giúp mỗi lần di chuyển tận dụng Săn mồi, còn chuỗi đòn đánh của Haru khai thác tốt Háu ăn."
+      }
+    },
+    {
+      "name": "Amir",
+      "note": {
+        "en": "Amir's repeated Defense-based attacks benefit strongly from Narja's niche buff. Shackles accelerates Metallization and Bottomless Hunger reduces the cost of duplicated Full-Metal Hurricane cards.",
+        "vi": "Các đòn đánh nhiều lần dựa trên Phòng thủ của Amir tận dụng tốt hiệu ứng tăng sát thương chuyên biệt của Narja. Shackles đẩy nhanh Kim loại hóa; Bottomless Hunger giảm Chi phí của các bản sao Full-Metal Hurricane."
+      }
+    },
+    {
+      "name": "Rin",
+      "note": {
+        "en": "A turn-long discount on Rin's key card has a high ceiling, but Narja's lack of draw makes the setup harder to assemble than an AP-focused alternative.",
+        "vi": "Giảm Chi phí cả lượt cho lá chủ lực của Rin có tiềm năng lớn, nhưng Narja thiếu rút bài nên khó chuẩn bị hơn phương án dùng hiệu ứng tăng Điểm hành động."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Anchor God",
+        "vi": "Đội Anchor Shot chủ lực"
+      },
+      "members": [
+        "Haru",
+        "Narja",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole",
+        "vi": "Đội khai thác Rạn nứt"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rin Persona Loop",
+        "vi": "Rin với vòng lặp bài Nhân cách"
+      },
+      "members": [
+        "Rin",
+        "Veronica",
+        "Narja"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Metal Amir (ST)",
+        "vi": "Amir Kim loại hóa — đơn mục tiêu"
+      },
+      "members": [
+        "Amir",
+        "Narja",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Narja Hyper (Season-3)",
+        "vi": "Narja chủ lực — Mùa 3"
+      },
+      "members": [
+        "Narja",
+        "Cassius",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ex-Brand OTK - Persona Loop",
+        "vi": "Kayron dồn sát thương trong một lượt — vòng lặp bài Nhân cách"
+      },
+      "members": [
+        "Kayron",
+        "Narja",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (AOE)",
+        "vi": "Đội khai thác Rạn nứt — diện rộng"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Metal Amir (AOE)",
+        "vi": "Amir Kim loại hóa — diện rộng"
+      },
+      "members": [
+        "Amir",
+        "Narja",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

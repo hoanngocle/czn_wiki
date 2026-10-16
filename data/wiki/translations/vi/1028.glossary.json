@@ -1,0 +1,96 @@
+{
+  "characterId": "1028",
+  "terms": [
+    {
+      "id": "CARD_DEFDAMAGE",
+      "title": "Sát thương theo Phòng thủ",
+      "englishTitle": "Defense-Based Damage",
+      "englishDesc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "T_CS00_0157",
+      "title": "Phản công",
+      "englishTitle": "Counterattack",
+      "englishDesc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)",
+      "desc": "Khi nhận sát thương, gây <color_orange>150%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Nếu đòn đánh bị <color_orange><u>Lá chắn</u></> chặn hoàn toàn, gây <color_orange>300%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Khi hiệu ứng kích hoạt, giảm <color_orange><u>Phản công</u></> đi <cc>1</><br>(Tối đa <cc>10</>)"
+    },
+    {
+      "id": "TALENT_SHIELD_DESTRUCT",
+      "title": "Nghiền nát",
+      "englishTitle": "Pulverize",
+      "englishDesc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%",
+      "desc": "Khi đánh trúng mục tiêu có <color_orange><u>Lá chắn</u></>, tăng <cc>20</>% sát thương"
+    },
+    {
+      "id": "CARD_LEECHSHIELD",
+      "title": "Lá chắn theo sát thương",
+      "englishTitle": "DMG-Based Shield",
+      "englishDesc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP",
+      "desc": "Nhận <color_orange><u>Lá chắn cố định</u></> theo hệ số sát thương<br>Không vượt quá <cc>20</>% Máu tối đa"
+    },
+    {
+      "id": "T_CS00_0010",
+      "title": "Kết tinh",
+      "englishTitle": "Crystallization",
+      "englishDesc": "At the end of the turn, gain <color_orange>20%</> <color_orange><u>Fixed Shield</u></> for each <color_orange><u>Crystallization</u></>",
+      "desc": "Cuối lượt, nhận <color_orange>20%</> <color_orange><u>Lá chắn cố định</u></> cho mỗi <color_orange><u>Kết tinh</u></>"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>."
+    },
+    {
+      "id": "CARD_FIXEDSHIELD",
+      "title": "Lá chắn cố định",
+      "englishTitle": "Fixed Shield",
+      "englishDesc": "A shield that ignores persistent effects",
+      "desc": "Lá chắn bỏ qua các hiệu ứng duy trì"
+    },
+    {
+      "id": "T_CS00_0008",
+      "title": "Quyết tâm",
+      "englishTitle": "Resolve",
+      "englishDesc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack",
+      "desc": "+<color_orange>20</>% lượng <color_orange><u>Lá chắn</u></> nhận được cho mỗi cộng dồn <color_orange><u>Quyết tâm</u></>"
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ"
+    },
+    {
+      "id": "T_CS00_0003",
+      "title": "Suy nhược",
+      "englishTitle": "Weaken",
+      "englishDesc": "Decrease Damage Amount by <cc><color_orange>25</></>% <br>When the effect is activated, decrease Weaken by <cc>1</>",
+      "desc": "Giảm <cc><color_orange>25</></>% sát thương<br>Khi hiệu ứng kích hoạt, giảm Suy nhược đi <cc>1</>"
+    },
+    {
+      "id": "CARD_FIXEDDAMAGE",
+      "title": "Sát thương cố định",
+      "englishTitle": "Fixed Damage",
+      "englishDesc": "A damage that ignores persistent effects",
+      "desc": "Sát thương bỏ qua các hiệu ứng duy trì"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    }
+  ]
+}

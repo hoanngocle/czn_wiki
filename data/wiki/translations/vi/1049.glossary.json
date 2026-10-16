@@ -1,0 +1,145 @@
+{
+  "characterId": "1049",
+  "terms": [
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "englishTitle": "Healing",
+      "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    {
+      "id": "CARD_1049_QUEST",
+      "title": "Nhiệm vụ",
+      "englishTitle": "Mission",
+      "englishDesc": "During battle, when conditions are met, create a Quest card as a reward and Fixed Heal <cc>80</>% (<cc>3</> times per turn)<br>However, <color_orange><u>Quest card</u></> is excluded from the criteria",
+      "desc": "Trong trận, khi đủ điều kiện, tạo bài Phần thưởng nhiệm vụ và Hồi máu cố định <cc>80</>% (<cc>3</> lần mỗi lượt)<br>Tuy nhiên, <color_orange><u>Bài Phần thưởng nhiệm vụ</u></> không được tính vào điều kiện"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>."
+    },
+    {
+      "id": "CARD_1049_QUESTCARD",
+      "title": "Bài Phần thưởng nhiệm vụ",
+      "englishTitle": "Quest Card",
+      "englishDesc": "<cc><u>Triple 0</u></>, <cc><u>Triple 1</u></>, <cc><u>Straight</u></>, <cc><u>Full House</u></><br>Obtainable upon completing Cassius Quests",
+      "desc": "<cc><u>Triple 0</u></>, <cc><u>Triple 1</u></>, <cc><u>Straight</u></>, <cc><u>Full House</u></><br>Nhận được sau khi hoàn thành Nhiệm vụ của Cassius"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "TALENT_ETHEREAL",
+      "title": "Phù du",
+      "englishTitle": "Ephemeral",
+      "englishDesc": "If this card is in hand at the end of the turn, Exhaust it",
+      "desc": "Nếu lá này còn trên tay vào cuối lượt, khiến nó Kiệt sức."
+    },
+    {
+      "id": "TALENT_RECALL_N",
+      "title": "Thu hồi 3",
+      "englishTitle": "Retrieve 3",
+      "englishDesc": "When this card moves to the <color_orange><u>Graveyard</u></>, return it to hand (up to <color_orange>3</> times)<br>Upon activation, Retrieve decreases by <cc>1</>",
+      "desc": "Khi lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay (tối đa <color_orange>3</> lần).<br>Khi Kích hoạt, giảm Thu hồi đi <cc>1</>."
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>."
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "englishTitle": "Exhaust 2",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>."
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "englishTitle": "Discard Pile",
+      "englishDesc": "The pile where Discarded Cards move to (max <cc>200</>)",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá)."
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>."
+    },
+    {
+      "id": "T_CS00_0226",
+      "title": "Sĩ khí",
+      "englishTitle": "Morale",
+      "englishDesc": "-<color_orange>20</>% Damage amount per Morale",
+      "desc": "Giảm <color_orange>20</>% lượng sát thương với mỗi Sĩ khí"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "CARD_FIXEDDAMAGE",
+      "title": "Sát thương cố định",
+      "englishTitle": "Fixed Damage",
+      "englishDesc": "A damage that ignores persistent effects",
+      "desc": "Sát thương bỏ qua các hiệu ứng duy trì"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "T_CS00_0008",
+      "title": "Quyết tâm",
+      "englishTitle": "Resolve",
+      "englishDesc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack",
+      "desc": "Tăng <color_orange>20</>% lượng <color_orange><u>Lá chắn</u></> nhận được với mỗi cộng dồn <color_orange><u>Quyết tâm</u></>"
+    },
+    {
+      "id": "T_CS00_0012",
+      "title": "Kiên cường",
+      "englishTitle": "Fortitude",
+      "englishDesc": "-<color_orange>-20</>% Damage Amount for each <color_orange><u>Fortitude</u></>",
+      "desc": "Lượng sát thương thay đổi <color_orange>-20</>% với mỗi <color_orange><u>Kiên cường</u></>"
+    },
+    {
+      "id": "T_CS00_0001",
+      "title": "Sĩ khí",
+      "englishTitle": "Morale",
+      "englishDesc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi <color_orange><u>Sĩ khí</u></>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.page { max-width: 1500px; margin: 0 auto; padding: 32px; }
+.header { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.eyebrow { font-size: 10px; font-weight: 700; letter-spacing: .16em; color: var(--text-tertiary); }
+.header h1 { font-size: 32px; margin: 6px 0; letter-spacing: -.03em; }
+.header p { color: var(--text-secondary); margin: 0; }
+.total { display: grid; text-align: right; white-space: nowrap; color: var(--text-tertiary); font-size: 12px; }
+.total strong { color: var(--text-primary); font-size: 30px; line-height: 1.3; }
+.toolbar { padding: 20px; border: 1px solid var(--border-primary); border-radius: 12px; background: var(--bg-secondary); }
+.types { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.types button { padding: 8px 20px; border: 1px solid transparent; border-radius: 6px; background: transparent; color: var(--text-secondary); font-weight: 600; }
+.types button[aria-pressed="true"] { background: var(--bg-accent); border-color: var(--accent-primary); color: var(--text-primary); }
+.types button:hover { background: var(--bg-tertiary); }
+.filters { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(140px, 200px) minmax(180px, 240px); gap: 14px; }
+.filters label { display: grid; gap: 6px; font-size: 12px; font-weight: 600; color: var(--text-secondary); min-width: 0; }
+.filters input, .filters select { width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid var(--border-primary); border-radius: 6px; color: var(--text-primary); background: var(--bg-primary); font-size: 14px; }
+.results { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0; color: var(--text-tertiary); font-size: 12px; }
+.results button { border: 0; background: none; color: var(--text-accent); font-size: 12px; padding: 10px 0; }
+.results button:disabled { color: var(--text-tertiary); opacity: .5; cursor: default; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card, .detail { --rarity-color: #9296a1; --rarity-badge: var(--bg-tertiary); --rarity-badge-text: var(--text-secondary); --rarity-background: url("/assets/common/bg_equipment_rarity_common.webp"); }
+.card[data-rarity="RARITY_LEGEND"], .detail[data-rarity="RARITY_LEGEND"] { --rarity-color: #ff9600; --rarity-badge: #ff9800; --rarity-badge-text: #fff; --rarity-background: url("/assets/common/bg_equipment_rarity_legend.webp"); }
+.card[data-rarity="RARITY_UNIQUE"], .detail[data-rarity="RARITY_UNIQUE"] { --rarity-color: #a360ff; --rarity-badge: #9c27b0; --rarity-badge-text: #fff; --rarity-background: url("/assets/common/bg_equipment_rarity_unique.webp"); }
+.card[data-rarity="RARITY_RARE"], .detail[data-rarity="RARITY_RARE"] { --rarity-color: #33a0f3; --rarity-badge: #4caf50; --rarity-badge-text: #fff; --rarity-background: url("/assets/common/bg_equipment_rarity_rare.webp"); }
+.card { display: flex; flex-direction: column; text-align: left; border: 1px solid var(--border-primary); border-top: 2px solid var(--rarity-color); border-radius: 10px; background: var(--bg-secondary); color: var(--text-primary); padding: 18px; min-width: 0; transition: border-color .15s, transform .15s; }
+.card:hover { border-color: var(--rarity-color); transform: translateY(-2px); }
+.cardHeader { display: flex; align-items: center; gap: 14px; min-height: 98px; width: 100%; }
+.artwork { display: grid; place-items: center; flex-shrink: 0; width: 84px; aspect-ratio: 152 / 232; background: var(--rarity-background) center / 100% 100% no-repeat; }
+.artwork img { width: 80%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.identity { display: grid; gap: 5px; min-width: 0; }
+.rarity { display: inline-flex; align-items: center; justify-self: start; width: fit-content; padding: 3px 8px; border-radius: 4px; background: var(--rarity-badge); color: var(--rarity-badge-text); font-size: 10px; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
+.name { font-size: 15px; line-height: 1.5; font-weight: 700; overflow-wrap: anywhere; color: var(--rarity-color); }
+.type { font-size: 11px; color: var(--text-tertiary); }
+.description { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 13px; line-height: 1.65; color: var(--text-secondary); margin: 16px 0 20px; }
+.description span, .effect span { color: var(--text-accent); }
+.cardFooter { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; margin-top: auto; border-top: 1px solid var(--border-primary); padding-top: 12px; font-size: 10px; color: var(--text-tertiary); }
+.cardFooter > span { font-size: 16px; }
+.more { display: block; margin: 28px auto 0; padding: 10px 28px; border: 1px solid var(--border-primary); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); }
+.more:hover { background: var(--bg-tertiary); }
+.empty { text-align: center; padding: 50px 16px; color: var(--text-secondary); }
+.empty h2 { font-size: 18px; }
+.detail { padding: 24px; }
+.detailHeader { display: flex; align-items: center; gap: 20px; }
+.detailHeader .artwork { width: 112px; }
+.detailHeader p { margin: 5px 0; color: var(--text-secondary); font-size: 13px; }
+.detail h3 { font-size: 14px; margin: 24px 0 10px; }
+.effect { border-top: 1px solid var(--border-primary); padding-top: 16px; font-size: 15px; line-height: 1.9; overflow-wrap: anywhere; }
+@media (max-width: 1000px) { .page { padding: 24px; } .filters { grid-template-columns: 1fr 1fr; } .search { grid-column: 1 / -1; } }
+@media (max-width: 767px) { .page { padding: 24px 12px; } .header { gap: 12px; align-items: flex-start; margin-bottom: 20px; } .header h1 { font-size: 28px; } .header p { font-size: 13px; } .total { padding-top: 18px; } .total strong { font-size: 24px; } .toolbar { padding: 14px; } .types { gap: 4px; } .types button { padding: 8px 12px; font-size: 13px; } .filters { gap: 10px; } .grid { grid-template-columns: 1fr; gap: 12px; } .card { padding: 16px; } .detail { padding: 18px; } .detailHeader { gap: 12px; } }

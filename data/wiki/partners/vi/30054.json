@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Nữ cảnh sát giao thông vũ trụ tràn đầy endorphin.</><br>Là nhân viên điều phối giao thông của Bộ Tư lệnh Phòng thủ Hàng không Vũ trụ, cô giám sát giao thông không gian phía trên Terrascion, từ các vụ va chạm giữa tàu cho đến việc bắt giữ phương tiện chưa đăng ký. Tính cách sôi nổi khiến đồng nghiệp đặt cho cô biệt danh “nguồn năng lượng sống của vũ trụ”. Cô dồn năng lượng ấy vào việc truy đuổi không ngừng những tên tội phạm bỏ chạy bằng tàu tuần tra trang bị pháo tia. Cô ghét gì? Tội phạm. Cô thích gì? Một cuộc rượt đuổi ra trò.",
+  "infoValues": [
+    "Con người",
+    "13 tháng Mười",
+    "Emi Sasaki",
+    "Park Ri-na"
+  ],
+  "cardDescription": "Gây <color_orange>200%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên tất cả kẻ địch<br><color_orange>1</> <color_orange><u>Phản công</u></><br>Nếu Hành động dự kiến của bất kỳ kẻ địch nào là tấn công, nhận <color_orange>1</> <color_orange><u>Phản công</u></>",
+  "terms": {
+    "CARD_DEFDAMAGE": {
+      "title": "Sát thương theo Phòng thủ",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    "T_CS00_0157": {
+      "title": "Phản công",
+      "desc": "Khi nhận sát thương, gây <color_orange>150%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Nếu đòn tấn công bị <color_orange><u>Lá chắn</u></> chặn hoàn toàn, gây <color_orange>300%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Khi hiệu ứng được kích hoạt, giảm <cc>1</> <color_orange><u>Phản công</u></><br>(Tối đa <cc>10</>)"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Cấm chạy quá tốc độ!",
+      "descriptions": [
+        "Tăng <cc>16</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>15</>% lượng sát thương Phản công của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt lá Kỹ năng hoặc Cường hóa, có <cc>50</>% xác suất nhận Phản công."
+      ]
+    },
+    "2": {
+      "name": "Cấm chạy quá tốc độ!",
+      "descriptions": [
+        "Tăng <cc>18</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>19</>% lượng sát thương Phản công của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt lá Kỹ năng hoặc Cường hóa, có <cc>63</>% xác suất nhận Phản công."
+      ]
+    },
+    "3": {
+      "name": "Cấm chạy quá tốc độ!",
+      "descriptions": [
+        "Tăng <cc>20</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>23</>% lượng sát thương Phản công của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt lá Kỹ năng hoặc Cường hóa, có <cc>75</>% xác suất nhận Phản công."
+      ]
+    },
+    "4": {
+      "name": "Cấm chạy quá tốc độ!",
+      "descriptions": [
+        "Tăng <cc>22</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>27</>% lượng sát thương Phản công của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt lá Kỹ năng hoặc Cường hóa, có <cc>88</>% xác suất nhận Phản công."
+      ]
+    },
+    "5": {
+      "name": "Cấm chạy quá tốc độ!",
+      "descriptions": [
+        "Tăng <cc>24</>% Phòng thủ của Nhân vật được ghép cặp.<br>Tăng <cc>30</>% lượng sát thương Phản công của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt lá Kỹ năng hoặc Cường hóa, có <cc>100</>% xác suất nhận Phản công."
+      ]
+    }
+  }
+}

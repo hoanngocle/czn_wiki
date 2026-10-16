@@ -1,0 +1,2531 @@
+{
+  "id": "1017",
+  "name": "Amir",
+  "names": {
+    "en": "Amir",
+    "zhs": "艾美",
+    "zht": "艾美"
+  },
+  "job": "vanguard",
+  "ego": "norms",
+  "rarity": 4,
+  "color": "#2b2023",
+  "info": {
+    "background_text": "<color_darkgray>Investigator of the Special Investigations Department.</><br>Known as the SID, the department is responsible for investigating and handling various incidents within Terrascion. She values rules, regulations, and principles, and is always dedicated about carrying out orders meticulously. She has a slight tendency toward perfectionism.",
+    "birth_day": "ui_label_day_20th",
+    "birth_month": "ui_label_month_april",
+    "cv_en": "Not included",
+    "cv_ja": "Yoko Hikasa",
+    "cv_ko": "Yuyeong",
+    "cv_zhs": "Xiao Gan",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "1017_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@1017_info",
+    "id": "1017_info",
+    "link_combatant_face_group": "1017_face",
+    "link_combatant_voice_group": "1017_voice",
+    "link_live_event_id": "live_event_1017",
+    "link_story_content_counseling_key": "story_counseling_1017",
+    "link_town_normal_visit_group": "normal_visit_1017",
+    "link_town_policy_reaction_id": "1017",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "1017_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[1017_small_talk_01,1017_small_talk_02,1017_small_talk_03,1017_small_talk_04]",
+    "specialty": "combatant_info@specialty@1017_info",
+    "stage_success_link_combatant_voice_id": "1017_stage_success_01",
+    "touch_link_combatant_voice_id": "[1017_touch_01,1017_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_1017_srt1",
+      "name": "Rapier",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1017_01.webp",
+      "video": null,
+      "artKey": "start_1017_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1017_srt1"
+    },
+    {
+      "id": "c_1017_srt2",
+      "name": "Rapier",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1017_01.webp",
+      "video": null,
+      "artKey": "start_1017_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1017_srt2"
+    },
+    {
+      "id": "c_1017_srt3",
+      "name": "Steel Barrier",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1017_02.webp",
+      "video": null,
+      "artKey": "start_1017_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_srt3_pot",
+          "name": "Steel Barrier",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Shield</u></><br><cc>1</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1017_02.webp",
+          "video": null,
+          "artKey": "start_1017_02",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt3_pot"
+        }
+      ],
+      "sourceId": "c_1017_srt3"
+    },
+    {
+      "id": "c_1017_srt4",
+      "name": "Hovering Metal",
+      "cost": 1,
+      "description": "<color_orange>3</> <color_orange><u>Damage Reduction</u></><br><color_orange>2</> <color_orange><u>Metallization</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1017_05.webp",
+      "video": "/assets/card/unique_1017_05.webm",
+      "artKey": "unique_1017_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS01_0591",
+          "title": "Metallization",
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+        },
+        {
+          "id": "T_CS00_0062",
+          "title": "Damage Reduction",
+          "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_srt4_rsp1",
+          "name": "Hovering Metal",
+          "cost": 1,
+          "description": "<color_orange>3</> <color_orange><u>Damage Reduction</u></><br><color_orange>4</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_05.webp",
+          "video": "/assets/card/unique_1017_05.webm",
+          "artKey": "unique_1017_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0062",
+              "title": "Damage Reduction",
+              "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt4_rsp1"
+        },
+        {
+          "id": "c_1017_srt4_rsp2",
+          "name": "Hovering Metal",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Damage Reduction</u></><br><color_orange>2</> <color_orange><u>Metallization</u></><br><color_orange>2</> <color_orange><u>Counterattack</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_05.webp",
+          "video": "/assets/card/unique_1017_05.webm",
+          "artKey": "unique_1017_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0062",
+              "title": "Damage Reduction",
+              "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt4_rsp2"
+        },
+        {
+          "id": "c_1017_srt4_rsp3",
+          "name": "Hovering Metal",
+          "cost": 2,
+          "description": "<color_orange>3</> <color_orange><u>Damage Reduction</u></><br><color_orange>3</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_05.webp",
+          "video": "/assets/card/unique_1017_05.webm",
+          "artKey": "unique_1017_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CELESTIAL",
+              "title": "Celestial",
+              "desc": "When a <cc>2</>-Cost or higher card is used, <color_orange><u>proc</u></> this card"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0062",
+              "title": "Damage Reduction",
+              "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt4_rsp3"
+        },
+        {
+          "id": "c_1017_srt4_rsp4",
+          "name": "Hovering Metal",
+          "cost": 1,
+          "description": "<color_orange>3</> <color_orange><u>Damage Reduction</u></><br><color_orange>5</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_05.webp",
+          "video": "/assets/card/unique_1017_05.webm",
+          "artKey": "unique_1017_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0062",
+              "title": "Damage Reduction",
+              "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt4_rsp4"
+        },
+        {
+          "id": "c_1017_srt4_rsp5",
+          "name": "Hovering Metal",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Metallization</u></><br>At the start of the turn, <cc>1</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_05.webp",
+          "video": "/assets/card/unique_1017_05.webm",
+          "artKey": "unique_1017_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_1017_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_1017_uni1",
+      "name": "Metal Pierce",
+      "cost": 1,
+      "description": "<color_orange>90%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</> <br>If in <color_orange><u>Metallization</u></> state, decrease <color_orange><u>Metallization</u></> by <cc>1</> and inflict <cc>2</> <color_orange><u>Vulnerable</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1017_01.webp",
+      "video": "/assets/card/unique_1017_01.webm",
+      "artKey": "unique_1017_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "T_CS01_0591",
+          "title": "Metallization",
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+        },
+        {
+          "id": "T_CS00_0002",
+          "title": "Vulnerable",
+          "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_uni1_rsp1",
+          "name": "Metal Pierce",
+          "cost": 1,
+          "description": "<color_orange>110</>% <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</><br>If in a <color_orange><u>Metallization</u></> state, decrease <color_orange><u>Metallization</u></> by <cc>1</>, add <cc>1</> Hit, inflict <color_orange>2</> <color_orange><u>Vulnerable</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_01.webp",
+          "video": "/assets/card/unique_1017_01.webm",
+          "artKey": "unique_1017_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0002",
+              "title": "Vulnerable",
+              "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni1_rsp1"
+        },
+        {
+          "id": "c_1017_uni1_rsp2",
+          "name": "Metal Pierce",
+          "cost": 1,
+          "description": "<color_orange>200</>% <color_orange><u>Defense-Based Damage</u></><br>Decrease <color_orange><u>Metallization</u></> by up to <cc>2</><br>+<cc>150</>% Damage Amount for each",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_01.webp",
+          "video": "/assets/card/unique_1017_01.webm",
+          "artKey": "unique_1017_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni1_rsp2"
+        },
+        {
+          "id": "c_1017_uni1_rsp3",
+          "name": "Metal Pierce",
+          "cost": 1,
+          "description": "<color_orange>90%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</><br><color_orange>1</> <color_orange><u>Vulnerable</u></><br><color_orange>2</> <color_orange><u>Metallization</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_01.webp",
+          "video": "/assets/card/unique_1017_01.webm",
+          "artKey": "unique_1017_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0002",
+              "title": "Vulnerable",
+              "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni1_rsp3"
+        },
+        {
+          "id": "c_1017_uni1_rsp4",
+          "name": "Metal Pierce",
+          "cost": 2,
+          "description": "<color_orange>110</>% <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</><br><color_orange>1</> <color_orange><u>Vulnerable</u></><br>On <color_orange><u>Recover</u></>, decrease Cost by <cc>1</> for <cc>1</> turn until <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_01.webp",
+          "video": "/assets/card/unique_1017_01.webm",
+          "artKey": "unique_1017_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_HEAL",
+              "title": "Recover",
+              "desc": "Increase current HP"
+            },
+            {
+              "id": "T_CS00_0002",
+              "title": "Vulnerable",
+              "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni1_rsp4"
+        },
+        {
+          "id": "c_1017_uni1_rsp5",
+          "name": "Metal Pierce",
+          "cost": 1,
+          "description": "<color_orange>110</>% <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</><br>If in a <color_orange><u>Metallization</u></> state, decrease <color_orange><u>Metallization</u></> by <cc>1</>, and inflict <color_orange>2</> <color_orange><u>Vulnerable</u></>, <color_orange>2</> <color_orange><u>Weaken</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_01.webp",
+          "video": "/assets/card/unique_1017_01.webm",
+          "artKey": "unique_1017_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS00_0003",
+              "title": "Weaken",
+              "desc": "Decrease Damage Amount by <cc><color_orange>25</></>% <br>When the effect is activated, decrease Weaken by <cc>1</>"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "T_CS00_0002",
+              "title": "Vulnerable",
+              "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_1017_uni1"
+    },
+    {
+      "id": "c_1017_uni2",
+      "name": "Metal Extraction",
+      "cost": 1,
+      "description": "<color_orange>2</> <color_orange><u>Metallization</u></><br>For <cc>1</> turn, <color_orange>2</> <color_orange><u>Resolve</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1017_03.webp",
+      "video": "/assets/card/unique_1017_03.webm",
+      "artKey": "unique_1017_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS00_0008",
+          "title": "Resolve",
+          "desc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack"
+        },
+        {
+          "id": "T_CS01_0591",
+          "title": "Metallization",
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_uni2_rsp1",
+          "name": "Metal Extraction",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Metallization</u></><br>Increase <color_orange><u>Shield</u></> Gain Amount of Skill Cards by <color_orange>30</>% for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_03.webp",
+          "video": "/assets/card/unique_1017_03.webm",
+          "artKey": "unique_1017_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni2_rsp1"
+        },
+        {
+          "id": "c_1017_uni2_rsp2",
+          "name": "Metal Extraction",
+          "cost": 1,
+          "description": "<color_orange>3</> <color_orange><u>Metallization</u></><br>For <cc>1</> turn, <color_orange>3</> <color_orange><u>Resolve</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_03.webp",
+          "video": "/assets/card/unique_1017_03.webm",
+          "artKey": "unique_1017_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0008",
+              "title": "Resolve",
+              "desc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni2_rsp2"
+        },
+        {
+          "id": "c_1017_uni2_rsp3",
+          "name": "Metal Extraction",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Metallization</u></><br>For <cc>1</> turn, when a Skill Card is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Metallization</u></> (max <cc>2</> times)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_03.webp",
+          "video": "/assets/card/unique_1017_03.webm",
+          "artKey": "unique_1017_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni2_rsp3"
+        },
+        {
+          "id": "c_1017_uni2_rsp4",
+          "name": "Metal Extraction",
+          "cost": 2,
+          "description": "<color_orange>2</> <color_orange><u>Metallization</u></><br>For <cc>1</> turn, <color_orange>3</> <color_orange><u>Resolve</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_03.webp",
+          "video": "/assets/card/unique_1017_03.webm",
+          "artKey": "unique_1017_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CELESTIAL",
+              "title": "Celestial",
+              "desc": "When a <cc>2</>-Cost or higher card is used, <color_orange><u>proc</u></> this card"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0008",
+              "title": "Resolve",
+              "desc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni2_rsp4"
+        },
+        {
+          "id": "c_1017_uni2_rsp5",
+          "name": "Metal Extraction",
+          "cost": 1,
+          "description": "<color_orange>3</> <color_orange><u>Metallization</u></><br>For <cc>1</> turn, +<color_orange>30</>% <color_orange><u>Metallization</u></> Damage Amount",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1017_03.webp",
+          "video": "/assets/card/unique_1017_03.webm",
+          "artKey": "unique_1017_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_1017_uni2"
+    },
+    {
+      "id": "c_1017_uni3",
+      "name": "Full Metal Hurricane",
+      "cost": 2,
+      "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>For <cc>1</> turn, <color_orange><u>Metallization</u></> targets all enemies and +<color_orange>20</>% Damage Amount",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_1017_02.webp",
+      "video": "/assets/card/unique_1017_02.webm",
+      "artKey": "unique_1017_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "T_CS01_0591",
+          "title": "Metallization",
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_uni3_rsp1",
+          "name": "Full Metal Hurricane",
+          "cost": 2,
+          "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>For <cc>1</> turn, <color_orange><u>Metallization</u></> targets all enemies and +<color_orange>60</>% Damage Amount",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1017_02.webp",
+          "video": "/assets/card/unique_1017_02.webm",
+          "artKey": "unique_1017_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni3_rsp1"
+        },
+        {
+          "id": "c_1017_uni3_rsp2",
+          "name": "Full Metal Hurricane",
+          "cost": 2,
+          "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>For <cc>1</> turn, add <cc>1</> Hit and +<color_orange>50</>% Damage Amount to <color_orange><u>Metallization</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1017_02.webp",
+          "video": "/assets/card/unique_1017_02.webm",
+          "artKey": "unique_1017_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni3_rsp2"
+        },
+        {
+          "id": "c_1017_uni3_rsp3",
+          "name": "Full Metal Hurricane",
+          "cost": 2,
+          "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>At the end of the turn, decrease <color_orange><u>Metallization</u></> by up to <cc>2</><br><cc>120</>% <color_orange><u>Defense-based Damage</u></> to all enemies for each",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1017_02.webp",
+          "video": "/assets/card/unique_1017_02.webm",
+          "artKey": "unique_1017_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni3_rsp3"
+        },
+        {
+          "id": "c_1017_uni3_rsp4",
+          "name": "Full Metal Hurricane",
+          "cost": 2,
+          "description": "<color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>4</> to all enemies<br>For <cc>1</> turn, <color_orange><u>Metallization</u></> targets all enemies and +<color_orange>20</>% Damage Amount",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1017_02.webp",
+          "video": "/assets/card/unique_1017_02.webm",
+          "artKey": "unique_1017_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni3_rsp4"
+        },
+        {
+          "id": "c_1017_uni3_rsp5",
+          "name": "Full Metal Hurricane",
+          "cost": 2,
+          "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>3</> to all enemies<br>Decrease <color_orange><u>Metallization</u></> by up to <cc>2</><br>Add <cc>1</> Hit for each",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1017_02.webp",
+          "video": "/assets/card/unique_1017_02.webm",
+          "artKey": "unique_1017_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_1017_uni3"
+    },
+    {
+      "id": "c_1017_uni4",
+      "name": "Iron Skin",
+      "cost": 1,
+      "description": "Decrease Damage Taken by <cc>20</>% for <cc>1</> turn<br>Decrease up to <cc>4</> <color_orange><u>Metallization</u></><br>Additionally decrease Damage Taken by <cc>20</>% for each",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_1017_04.webp",
+      "video": "/assets/card/unique_1017_04.webm",
+      "artKey": "unique_1017_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        },
+        {
+          "id": "TALENT_TERMINATION",
+          "title": "Finale",
+          "desc": "When this card is <color_orange><u>activate</u></>d, end turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0591",
+          "title": "Metallization",
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1017_uni4_lbk",
+          "name": "Iron Skin",
+          "cost": 1,
+          "description": "Decrease Damage Taken by <cc>40</>% for <cc>1</> turn<br>Decrease up to <cc>3</> <color_orange><u>Metallization</u></><br>Additionally decrease Damage Taken by <cc>20</>% for each",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_1017_04.webp",
+          "video": "/assets/card/unique_1017_04.webm",
+          "artKey": "unique_1017_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0591",
+              "title": "Metallization",
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1017_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_1017_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_1017_eps",
+    "name": "Steel Resolve",
+    "cost": 4,
+    "description": "<color_orange>120</>% <color_orange><u>Shield</u></> for each <color_orange><u>Metallization</u></><br>Remove <color_orange><u>Metallization</u></><br>At the start of the next turn, <cc><color_orange>3</></> <color_orange><u>Metallization</u></>",
+    "category": "CARD_SKILL",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_1017_01.webp",
+    "video": null,
+    "artKey": "collapse_1017_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "T_CS01_0591",
+        "title": "Metallization",
+        "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+      },
+      {
+        "id": "CARD_SHIELD",
+        "title": "Shield",
+        "desc": "Decrease Damage Amount taken until the next turn"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_1017_eps_lbk",
+        "name": "Steel Resolve",
+        "cost": 4,
+        "description": "<color_orange>150</>% <color_orange><u>Shield</u></> for each <color_orange><u>Metallization</u></><br>Remove <color_orange><u>Metallization</u></><br>At the start of the next turn, <cc><color_orange>5</></> Metallization",
+        "category": "CARD_SKILL",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_1017_01.webp",
+        "video": null,
+        "artKey": "collapse_1017_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "T_CS01_0591",
+            "title": "Metallization",
+            "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>"
+          },
+          {
+            "id": "CARD_SHIELD",
+            "title": "Shield",
+            "desc": "Decrease Damage Amount taken until the next turn"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_1017_eps_lbk"
+      }
+    ],
+    "sourceId": "c_1017_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_1017_col",
+      "name": "Daze",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_1017_02.webp",
+      "video": null,
+      "artKey": "collapse_1017_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1017_col"
+    },
+    {
+      "id": "c_1017_col2",
+      "name": "Daze",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_1017_02.webp",
+      "video": null,
+      "artKey": "collapse_2_1017_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1017_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "1017",
+          "job": "vanguard",
+          "rarity": 4
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1017_col",
+        "name": "Daze",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_1017_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "1017",
+          "job": "vanguard",
+          "rarity": 4
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1017_col2",
+        "name": "Daze",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_1017_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "vacant",
+    "collapse_illustration": "collapse/collapse_illustration/vacant",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "norms",
+        "id": "1017",
+        "job": "vanguard",
+        "rarity": 4
+      },
+      "card_category": "CARD_SKILL",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 4,
+      "desc_display": "<color_orange>120</>% <color_orange><u>Shield</u></> for each <color_orange><u>Metallization</u></><br>Remove <color_orange><u>Metallization</u></><br>At the start of the next turn, <cc><color_orange>3</></> <color_orange><u>Metallization</u></>",
+      "ego_type": "EGO_OWNER",
+      "id": "c_1017_eps",
+      "name": "Steel Resolve",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_SKILL",
+          "cost": 4,
+          "desc_display": "<color_orange>150</>% <color_orange><u>Shield</u></> for each <color_orange><u>Metallization</u></><br>Remove <color_orange><u>Metallization</u></><br>At the start of the next turn, <cc><color_orange>5</></> Metallization",
+          "ego_type": "EGO_OWNER",
+          "id": "c_1017_eps_lbk",
+          "name": "Steel Resolve",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_1017_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_1017_eps_lbk_01",
+            "c_1017_eps_lbk_02",
+            "c_1017_eps_lbk_03",
+            "c_1017_eps_lbk_04",
+            "c_1017_eps_lbk_05"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>",
+              "id": "T_CS01_0591",
+              "title": "Metallization"
+            },
+            {
+              "desc": "Decrease Damage Amount taken until the next turn",
+              "id": "CARD_SHIELD",
+              "title": "Shield"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_1017_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_1017_eps_01",
+        "c_1017_eps_02",
+        "c_1017_eps_03",
+        "c_1017_eps_04",
+        "c_1017_eps_05"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>80%</> <color_orange><u>Defense-Based Damage</u></> to a random enemy, <color_orange>80%</> <color_orange><u>Shield</u></>, and decrease Metallization by <cc>1</>",
+          "id": "T_CS01_0591",
+          "title": "Metallization"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_vacant",
+    "desc": "When this character's Card is Drawn, has a <cc>50%</> chance to apply Ephemeral to the Card.",
+    "id": "collapse_1017",
+    "link_psychosis_id": "psychosis_1005_2",
+    "name": "Daze"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "The <color_orange><u>Iron Skin</u></> card has <color_orange>Finale</> removed, its damage reduction increased by <color_orange>20</>%, and it now consumes up to a maximum of <color_orange>3</> <color_orange>Metallization</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_1",
+      "illust": "unique_1017_04",
+      "link_card_id": "[c_1017_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of battle, gain <color_orange>2</> <color_orange>Metallization</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_2",
+      "illust": "unique_1017_05",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0043]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_3",
+      "illust": "unique_1017_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Changes <color_orange><u>Steel Resolve</u></>'s Shield gain effect to <color_orange>150</>% per <color_orange>1</> <color_orange>Metallization</> removed, and increases the <color_orange>Metallization</> gain effect at the start of the next turn by <color_orange>2</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_4",
+      "illust": "collapse_1017_01",
+      "link_card_id": "[c_1017_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_5",
+      "illust": "unique_1017_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of the turn, gain <color_orange>1</> <color_orange>Metallization</>.",
+      "group": "limit_1017",
+      "id": "limit_1017_6",
+      "illust": "unique_1017_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0044]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "10171001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "10172001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "10172002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "10172003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "10172004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "10172005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "10172006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "10172007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "10172008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "10172009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "10172010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "10172011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "10172012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "10172013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "10172014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "10172015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "10172016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "10173001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "10173002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "10173003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "10173004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "10173005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "10173006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "10173007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "10173008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "10173009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "10173010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "10173011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "10173012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "10173013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "10173014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "10173015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "10173016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Add the following effect to the <color_orange><u>Steel Barrier</u></> card: <color_orange>1</> <color_orange>Metallization</>",
+      "id": "10173101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "10174001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "10174002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "10174003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "10174004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "10174005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "10174006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "10174007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "10174008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "10174009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "10174010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "10174011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "10174012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "10174013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "10174014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "10174015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "10174016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "10175001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "10175002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "10175003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "10175004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "10175005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Amir's <color_orange><u>Rapier</u></><br>If Amir's Defense is <color_orange>250</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "10175101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "10175201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Health by <color_orange>1.6</>%",
+      "id": "10176001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_con",
+        "id": "N_ADD_S_HP_INC_RATE_OUT",
+        "link_stat_list_id": "S_HP_INC_RATE_OUT",
+        "main_title": "Stats",
+        "sub_title": "Health Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Health by <color_orange>3.2</>%",
+          "id": "10176002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>4.8</>%",
+          "id": "10176003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>6.4</>%",
+          "id": "10176004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Health by <color_orange>8</>%",
+          "id": "10176005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_con",
+            "id": "N_ADD_S_HP_INC_RATE_OUT",
+            "link_stat_list_id": "S_HP_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Health Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>10</>% Damage Amount to Metallization<br>If Amir’s Defense is <color_orange>300</> or higher, add an additional +<color_orange>10</>% to the modifier",
+      "id": "10177001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "1017",
+  "sourceFile": "docs/combatant/current/api/czn/characters/1017.html"
+}

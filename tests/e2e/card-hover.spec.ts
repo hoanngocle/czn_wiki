@@ -9,7 +9,7 @@ async function hoverAt(page: Page, card: Locator, x: number, y: number) {
 
 test("stationary pointer keeps the same tilt after the card rotates", async ({ page }) => {
   await page.goto("/combatant/renoa");
-  await page.getByRole("checkbox", { name: "Animation" }).check();
+  await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   const card = page.getByRole("button", { name: "Black Veil card", exact: true });
   await card.scrollIntoViewIfNeeded();
   const box = (await card.locator("..").boundingBox())!;
@@ -30,7 +30,7 @@ test("stationary pointer keeps the same tilt after the card rotates", async ({ p
 test("card hover stays enabled when artwork animation is off", async ({ page }, testInfo) => {
   await page.goto("/combatant/renoa");
   const card = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
-  const animation = page.getByRole("checkbox", { name: "Animation" });
+  const animation = page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ });
   await animation.check();
   const rotation = () => card.evaluate(element => {
     const matrix = new DOMMatrixReadOnly(getComputedStyle(element).transform);
@@ -65,8 +65,11 @@ test("card hover stays enabled when artwork animation is off", async ({ page }, 
   await expect(page.locator("video")).toHaveCount(0);
   await page.reload();
   await expect(animation).not.toBeChecked();
-  await hoverAt(page, card, .8, .8);
-  await expect.poll(async () => (await rotation()).x).toBeLessThan(-.05);
+  // The server-rendered checkbox can be visible before pointer listeners hydrate.
+  await expect.poll(async () => {
+    await hoverAt(page, card, .8, .8);
+    return (await rotation()).x;
+  }).toBeLessThan(-.05);
   await expect.poll(async () => (await rotation()).y).toBeLessThan(-.05);
   await page.emulateMedia({ reducedMotion: "reduce" });
   await hoverAt(page, card, .8, .8);
@@ -75,7 +78,7 @@ test("card hover stays enabled when artwork animation is off", async ({ page }, 
 
 test("enlarged detail cards retain pointer tilt instead of a CSS lift", async ({ page }, testInfo) => {
   await page.goto("/combatant/renoa");
-  await page.getByRole("checkbox", { name: "Animation" }).uncheck();
+  await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   await page.getByRole("button", { name: "Dirge Bullet card", exact: true }).click();
   const card = page.getByRole("dialog").locator('button[data-animation="false"]').first();
   await expect(page.getByRole("dialog").locator("video")).toHaveCount(0);

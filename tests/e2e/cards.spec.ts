@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 test("Renoa cards, potential target, Ego levels and variant dialog use source data", async ({ page }) => {
   await page.goto("/combatant/1041");
   await page.getByRole("checkbox", { name: "Tiếng Việt" }).uncheck();
-  await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^(Start Cards|Bài khởi đầu)$/ })).toBeVisible();
   const dirge = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
   await expect(dirge).toBeVisible();
   await expect(dirge).toContainText("Bullet");
@@ -12,8 +12,8 @@ test("Renoa cards, potential target, Ego levels and variant dialog use source da
   const opener = page.getByRole("button", { name: /Echo of Sorrow/ }).first();
   await opener.click();
   await expect(page.getByRole("dialog", { name: /Echo of Sorrow/ })).toBeVisible();
-  await expect(page.getByRole("dialog").getByRole("button", { name: "Epiphany 1" })).toBeVisible();
-  await page.getByRole("dialog").getByRole("button", { name: "Epiphany 1" }).click();
+  await expect(page.getByRole("dialog").getByRole("button", { name: /^(Epiphany 1|Thức tỉnh bài 1)$/ })).toBeVisible();
+  await page.getByRole("dialog").getByRole("button", { name: /^(Epiphany 1|Thức tỉnh bài 1)$/ }).click();
   await expect(page.getByRole("dialog").getByRole("button", { name: "Base" })).toBeVisible();
   await page.getByRole("dialog").getByRole("button", { name: "Base" }).click();
   await page.keyboard.press("Escape");
@@ -22,21 +22,21 @@ test("Renoa cards, potential target, Ego levels and variant dialog use source da
   await expect(page.locator("body")).not.toHaveCSS("overflow", "hidden");
   await dirge.click();
   await expect(page.getByRole("dialog", { name: /Dirge Bullet/ })).toBeVisible();
-  await page.getByRole("dialog").getByRole("button", { name: "Potential", exact: true }).click();
-  await expect(page.getByRole("dialog").getByRole("button", { name: "Potential", exact: true })).toHaveAttribute("aria-pressed", "true");
+  await page.getByRole("dialog").getByRole("button", { name: /^(Potential|Tiềm năng)$/, exact: true }).click();
+  await expect(page.getByRole("dialog").getByRole("button", { name: /^(Potential|Tiềm năng)$/, exact: true })).toHaveAttribute("aria-pressed", "true");
   await page.keyboard.press("Escape");
   await expect(dirge).toBeFocused();
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.getByRole("tab", { name: "Manifest Ego" }).click();
+  await page.getByRole("tab", { name: /^(Manifest Ego|Thức tỉnh Ego)$/ }).click();
   await expect(page.getByTestId("manifest-level")).toHaveCount(6);
-  await page.getByRole("tab", { name: "Potential" }).click();
+  await page.getByRole("tab", { name: /^(Potential|Tiềm năng)$/ }).click();
   await expect(page.getByTestId("potential-node")).toHaveCount(10);
 });
 
 test("animation preference and reduced motion stop card video", async ({ page }) => {
   await page.setViewportSize({ width: 1700, height: 1100 });
   await page.goto("/combatant/1041");
-  const animation = page.getByRole("checkbox", { name: "Animation" });
+  const animation = page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ });
   await animation.check();
   await page.getByRole("button", { name: /Echo of Sorrow/ }).first().click();
   const video = page.getByRole("dialog").locator("video");
@@ -46,14 +46,14 @@ test("animation preference and reduced motion stop card video", async ({ page })
   await page.keyboard.press("Escape");
   await animation.uncheck();
   await page.reload();
-  await expect(page.getByRole("checkbox", { name: "Animation" })).not.toBeChecked();
+  await expect(page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ })).not.toBeChecked();
 });
 
 test("failed card video falls back to local artwork", async ({ page }) => {
   let failedVideos = 0;
   await page.route("**/*.webm", async (route) => { failedVideos++; await route.abort(); });
   await page.goto("/combatant/1041");
-  await page.getByRole("checkbox", { name: "Animation" }).check();
+  await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   await page.getByRole("button", { name: /Echo of Sorrow/ }).first().click();
   const dialog = page.getByRole("dialog", { name: /Echo of Sorrow/ });
   await expect.poll(() => failedVideos).toBeGreaterThan(0);

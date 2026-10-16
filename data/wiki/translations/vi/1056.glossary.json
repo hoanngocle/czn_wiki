@@ -1,0 +1,117 @@
+{
+  "characterId": "1056",
+  "terms": [
+    {
+      "id": "CARD_LEECHHP",
+      "title": "Hồi phục theo sát thương",
+      "englishTitle": "DMG-Based Recovery",
+      "englishDesc": "<color_orange><u>Fixed Recovery</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP",
+      "desc": "<color_orange><u>Hồi phục cố định</u></> dựa trên hệ số sát thương<br>Không thể vượt quá <cc>20</>% Máu tối đa"
+    },
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "englishTitle": "Healing",
+      "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ"
+    },
+    {
+      "id": "CARD_BASIC_CARD",
+      "title": "Bài cơ bản",
+      "englishTitle": "Basic Card",
+      "englishDesc": "Cards with only Damage, Shield, or Heal functions among Combatant's Starting Cards",
+      "desc": "Các bài chỉ có chức năng gây sát thương, tạo Lá chắn hoặc hồi máu trong nhóm bài Khởi đầu của nhân vật"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "englishDesc": "Activating a card through an effect",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng."
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "englishTitle": "Exhaust 2",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>."
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>."
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "T_CS00_0001",
+      "title": "Sĩ khí",
+      "englishTitle": "Morale",
+      "englishDesc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi <color_orange><u>Sĩ khí</u></>"
+    },
+    {
+      "id": "CARD_ENERGY",
+      "title": "Điểm hành động",
+      "englishTitle": "AP",
+      "englishDesc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+      "desc": "Tài nguyên tiêu hao khi các lá được <color_orange><u>dùng</u></>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import {readFileSync as read,writeFileSync as write,existsSync} from 'node:fs';
+import {decodeSnapshot} from '../../../../scripts/import-e7bot.mjs';
+const ids=['1039','1040','1043','1049','1050','1055','1056','1057','1060','1061','1062'];
+const readJson=p=>JSON.parse(read(p,'utf8'));
+const load=id=>decodeSnapshot(read(`docs/combatant/current/api/czn/characters/${id}.html`,'utf8'),'2egkWEkLvR9idARLvjqfJdWKfR24HJgY').data;
+const catalog=readJson('data/deck-builder/catalog.json').cards;
+function kit(raw){let c=raw.combatant;let cards=[];const visit=c=>{cards.push(c);(c.r_spark_cards??[]).forEach(visit)};[...c.start_cards,...c.spark_cards,...c.collapse_passive.collapse_cards,...c.potential_target_cards,c.collapse_skill_card].filter(Boolean).forEach(visit);for(const extra of catalog.filter(c=>c.ownerId===String(raw.id)&&!cards.some(x=>x.id===c.id)))cards.push({...extra,desc_display:extra.description});let terms=[...new Map(cards.flatMap(c=>[...(c.talent??[]),...(c.tooltips??[])]).map(t=>[t.id+'|'+t.desc,t])).values()];let nodes=[];const node=n=>{nodes.push(n);(n.upgrade_nodes??[]).forEach(node)};raw.potential_nodes.forEach(node);return {cards,terms,ego:c.combatant_limit_breaks,nodes};}
+const dict=new Map();
+for(const [id,name] of [['1041','renoa'],['1052','narja'],['1033','veronica'],['30075','sereniel']]){
+ const detail=readJson(`data/wiki/characters/${id}.json`),sourceCards=[];const visit=card=>{sourceCards.push({...card,desc_display:card.description});card.variants.forEach(visit)};[...detail.startCards,...detail.sparkCards,...detail.collapseCards,...detail.potentialTargetCards,detail.collapseSkillCard].filter(Boolean).forEach(visit);const nodes=[];const walk=n=>{nodes.push(n);(n.upgrade_nodes??[]).forEach(walk)};detail.potentialNodes.forEach(walk);const k={cards:sourceCards,terms:sourceCards.flatMap(c=>[...c.talent,...c.tooltips]),ego:detail.manifestEgo,nodes},cards=readJson(`data/wiki/translations/vi/${name}.cards.json`),gl=readJson(`data/wiki/translations/vi/${name}.glossary.json`),p=readJson(`data/wiki/translations/vi/${name}.progression.json`);
+ for(const c of k.cards)if(cards[c.id])dict.set(c.desc_display,cards[c.id]);
+ for(const t of k.terms){const g=gl.terms.find(g=>g.id===t.id);if(g){dict.set(t.title,g.title);dict.set(t.desc,g.desc);}}
+ for(const n of k.ego)if(p.manifestEgo[n.id])dict.set(n.desc,p.manifestEgo[n.id]);
+ for(const n of k.nodes)if(p.potentialNodes[n.id])dict.set(n.desc,p.potentialNodes[n.id]);
+}
+const numeric=s=>s.replace(/\d+(?:\.\d+)?/g,'#');
+const templates=new Map([...dict].filter(([a,b])=>JSON.stringify(a.match(/\d+(?:\.\d+)?/g))===JSON.stringify(b.match(/\d+(?:\.\d+)?/g))).map(([a,b])=>[numeric(a),b]));
+const authored=existsSync('docs/combatant/work/vi-b/dictionary.json')?readJson('docs/combatant/work/vi-b/dictionary.json'):{};
+const rules=existsSync('docs/combatant/work/vi-b/rules.json')?readJson('docs/combatant/work/vi-b/rules.json'):{};
+const words=existsSync('docs/combatant/work/vi-b/words.json')?readJson('docs/combatant/work/vi-b/words.json'):{};
+const names=[...new Set(ids.flatMap(id=>{let r=load(id);return [r.name,...kit(r).cards.map(c=>c.name)]}))].sort((a,b)=>b.length-a.length);
+const unknownRules=new Map(),unknownWords=new Set();
+function word(s){if(!/[a-z]/i.test(s)||names.includes(s))return s;if(words[s])return words[s];if(dict.has(s))return dict.get(s);unknownWords.add(s);return s;}
+function group(s){return s.replace(/[^<>]+(?=<|$)/g,(text,offset)=>offset&&s[offset-1]==='<'?text:word(text));}
+function segment(s){let slots=[],pattern='',start=0,depth=0,begin=0;const matches=[...s.matchAll(/<[^>]+>/g)];for(const m of matches){if(m[0][1]!=='/'){if(depth===0){pattern+=s.slice(start,m.index);begin=m.index;}depth++;}else{depth--;if(depth===0){pattern+=`{${slots.length}}`;slots.push(group(s.slice(begin,m.index+m[0].length)));start=m.index+m[0].length;}}}pattern+=s.slice(start);for(const name of names){pattern=pattern.split(name).join(`{${slots.length}}`);slots.push(name === "Cards" ? "bài" : name);}pattern=pattern.replace(/(?<!\{)\b\d+(?:\.\d+)?\b(?!\})/g,m=>{const i=slots.length;slots.push(m);return `{${i}}`;});let remap=[],canonical=pattern.replace(/\{(\d+)\}/g,(_,i)=>{remap.push(slots[+i]);return `{${remap.length-1}}`;});let target=rules[canonical];if(!target){if(!/[a-z]/i.test(canonical))target=canonical;else unknownRules.set(canonical,s);}return (target??canonical).replace(/\{(\d+)\}/g,(_,i)=>remap[+i]);}
+const pending=new Map();
+function translate(s){if(!s)return s;if(authored[s])return authored[s];if(dict.has(s))return dict.get(s);if(templates.has(numeric(s))){let ns=s.match(/\d+(?:\.\d+)?/g)??[],i=0;return templates.get(numeric(s)).replace(/\d+(?:\.\d+)?/g,()=>ns[i++]);}pending.set(s,s);return s.split('<br>').map(segment).join('<br>').replace(/nhận ((?:<[^>]+>)*Rút)/g,'$1').replace(/gây ((?:<[^>]+>)*Phục hồi)/g,'$1');}
+let stats=[];
+for(const id of ids){const raw=load(id),k=kit(raw);let cards=Object.fromEntries(k.cards.map(c=>[c.id,translate(c.desc_display)]));let glossary={characterId:id,terms:k.terms.map(t=>({id:t.id,title:translate(t.title),englishTitle:t.title,englishDesc:t.desc,desc:translate(t.desc)}))};let progression={manifestEgo:Object.fromEntries(k.ego.map(n=>[n.id,translate(n.desc)])),potentialNodes:Object.fromEntries(k.nodes.map(n=>[n.id,translate(n.desc)]))};stats.push({id,name:raw.name,cards:k.cards.length,terms:k.terms.length,ego:k.ego.length,potential:k.nodes.length});if(process.argv.includes('--write')){for(const [type,value]of Object.entries({cards,glossary,progression}))write(`data/wiki/translations/vi/${id}.${type}.json`,JSON.stringify(value,null,2)+'\n');}}
+write('docs/combatant/work/vi-b/pending.json',JSON.stringify([...pending.keys()],null,2)+'\n');console.log(JSON.stringify(stats));console.log('Unknown strings:',pending.size);
+write('docs/combatant/work/vi-b/unknown-rules.json',JSON.stringify([...unknownRules],null,2));write('docs/combatant/work/vi-b/unknown-words.json',JSON.stringify([...unknownWords],null,2));console.log('rules',unknownRules.size,'words',unknownWords.size);
+

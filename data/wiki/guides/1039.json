@@ -1,0 +1,911 @@
+{
+  "characterId": "1039",
+  "name": "Mika",
+  "identity": [
+    "Justice",
+    "Controller"
+  ],
+  "subtitle": {
+    "en": "Wave stacks convert into AP, allowing Mika to fuel expensive teammates while healing.",
+    "vi": "Cộng dồn Sóng chuyển thành Điểm hành động, giúp Mika cấp tài nguyên cho đồng đội có bài chi phí cao đồng thời hồi máu."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1039.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/mika",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/mika.json",
+      "docs/combatant/current/api/czn/characters/1039.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Mika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Healer's Journey": {
+      "src": "/assets/item/guide-9a0cb5c9e3e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Crimson Sword": {
+      "src": "/assets/item/relic_1170.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Star-Lit Cloak": {
+      "src": "/assets/item/relic_1189.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Clover of the Forest": {
+      "src": "/assets/item/relic_1232.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Closed-Circuit Terminal": {
+      "src": "/assets/item/relic_5071.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cycle of Circulation": {
+      "src": "/assets/item/relic_5074.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pale Eternal Flame": {
+      "src": "/assets/item/relic_5018.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harp of Conflict": {
+      "src": "/assets/item/relic_5035.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Combat Drum": {
+      "src": "/assets/item/relic_5034.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nine": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mei Lin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rita": {
+      "src": "/assets/combatant/portrait_character_crop_half_30097.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mika artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Justice": {
+      "src": "/assets/common/icon_type_ego_narcissism.png",
+      "width": 44,
+      "height": 44
+    },
+    "Controller": {
+      "src": "/assets/common/icon_type_job_controller.png",
+      "width": 44,
+      "height": 44
+    },
+    "Nyx E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Wave stacks convert into AP, allowing Mika to fuel expensive teammates while healing.",
+      "vi": "Cộng dồn Sóng chuyển thành Điểm hành động, giúp Mika cấp tài nguyên cho đồng đội có bài chi phí cao đồng thời hồi máu."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Cheap cards provide dependable healing and substantial AP generation.",
+        "vi": "Bài ít tốn Điểm hành động cung cấp hồi máu ổn định và tạo nhiều Điểm hành động."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Offers little damage and no inherent draw or team damage buffs.",
+        "vi": "Ít sát thương và không có sẵn khả năng rút bài hoặc hiệu ứng tăng cường sát thương toàn đội."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Blessing of Waves",
+        "body": {
+          "en": "Heal 100%; Increase Heal Amount by 30% for each AP",
+          "vi": "Hồi máu 100%; Tăng 30% lượng Hồi máu với mỗi Điểm hành động"
+        },
+        "cardId": "c_1039_uni1"
+      },
+      {
+        "title": "Tactical Analysis",
+        "body": {
+          "en": "1 Wave; +50% Heal Amount for 1 turn",
+          "vi": "1 Sóng; Tăng 50% lượng Hồi máu trong 1 lượt"
+        },
+        "cardId": "c_1039_uni2"
+      },
+      {
+        "title": "Whirlpool",
+        "body": {
+          "en": "200% Damage to all enemies; Heal 50% for each target hit",
+          "vi": "Gây 200% sát thương lên tất cả kẻ địch; Hồi máu 50% với mỗi mục tiêu trúng đòn"
+        },
+        "cardId": "c_1039_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1039_srt4",
+      "ratings": [
+        4,
+        5,
+        2,
+        1,
+        2
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II becomes a zero-cost source of two AP after recovery. I can compete when additional Wave generation is valuable.",
+        "vi": "II trở thành nguồn hai Điểm hành động với chi phí 0 sau khi phục hồi. I có thể cạnh tranh khi cần tạo thêm Sóng."
+      },
+      "divine": {
+        "en": "Draw 1 or cost reduction keeps the AP engine accessible.",
+        "vi": "Rút 1 hoặc giảm chi phí giúp tiếp cận cơ chế tạo Điểm hành động thuận lợi."
+      }
+    },
+    {
+      "cardId": "c_1039_uni1",
+      "ratings": [
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I converts healing into substantial shielding. II may offset its cost through Wave but offers less defensive value.",
+        "vi": "I chuyển hồi máu thành Lá chắn lớn. II có thể bù chi phí nhờ Sóng nhưng đóng góp phòng thủ ít hơn."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; draw or cost reduction are useful divines.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; rút bài hoặc giảm chi phí là thần thánh hữu ích."
+      }
+    },
+    {
+      "cardId": "c_1039_uni2",
+      "ratings": [
+        3,
+        2,
+        2,
+        3,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V gives a lasting healing buff and leaves the draw cycle after setup. I is situational for effects needing another healing trigger.",
+        "vi": "V tăng hồi máu lâu dài và rời vòng rút sau khi thiết lập. I tùy tình huống cần thêm một lần kích hoạt hồi máu."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale adds support; use Draw 1 or Morale/Resolve on V.",
+        "vi": "1 Sĩ khí trung lập thêm hỗ trợ; dùng Rút 1 hoặc Sĩ khí/Quyết tâm cho V."
+      }
+    },
+    {
+      "cardId": "c_1039_uni3",
+      "ratings": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "preferred": "I / II / V",
+      "note": {
+        "en": "I offers healing that scales with enemy count; II becomes free against several enemies. Mika's low attack investment limits the damage route.",
+        "vi": "I hồi máu theo số kẻ địch; II miễn phí khi đối đầu nhiều địch. Việc Mika ít đầu tư Tấn công hạn chế hướng gây sát thương."
+      },
+      "divine": {
+        "en": "Neutral 3 Morale is useful if affordable; 2 Vulnerable adds team damage support.",
+        "vi": "3 Sĩ khí trung lập hữu ích nếu đủ tài nguyên; 2 Dễ tổn thương hỗ trợ sát thương đội."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Nyx E0",
+      "score": "—",
+      "note": {
+        "en": "Nyx combines draw/discard utility, supportive stats and a small team buff at any Ego level.",
+        "vi": "Nyx kết hợp Rút/Bỏ bài, chỉ số hỗ trợ và tăng sức mạnh nhẹ toàn đội ở mọi cấp Ego."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Off-class passives are inactive, but Yuri's inexpensive draw Ego remains a strong free alternative.",
+        "vi": "Nội tại không hoạt động do khác lớp, nhưng Ego Rút bài ít tốn năng lượng của Yuri vẫn là lựa chọn miễn phí tốt."
+      }
+    },
+    {
+      "name": "Arwen E4",
+      "score": "—",
+      "note": {
+        "en": "Passive damage reduction improves survival when utility can be sacrificed.",
+        "vi": "Nội tại giảm sát thương giúp sống sót tốt hơn khi có thể đánh đổi tiện ích."
+      }
+    },
+    {
+      "name": "Alyssa E4",
+      "score": "—",
+      "note": {
+        "en": "Defense and passive healing offer an alternative when defense scaling matters or Arwen is unavailable.",
+        "vi": "Phòng thủ và hồi máu nội tại là phương án khác khi cần chỉ số Phòng thủ hoặc chưa có Arwen."
+      }
+    },
+    {
+      "name": "Yvonne E4",
+      "score": "—",
+      "note": {
+        "en": "Choose Yvonne when free stat bonuses matter more than Yuri's draw skill.",
+        "vi": "Chọn Yvonne khi thưởng chỉ số miễn phí quan trọng hơn kỹ năng Rút bài của Yuri."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Healer's Journey (2) + Tetra's Authority (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A dependable accessible support setup unless the deck requires a specialized alternative.",
+        "vi": "Bộ hỗ trợ dễ kiếm đáng tin cậy, trừ khi cách xây dựng cần lựa chọn chuyên biệt."
+      }
+    },
+    {
+      "name": "Glory's Reign (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Usable but inefficient because Mika's usual decks have few Exhaust cards outside her expensive Ego skill.",
+        "vi": "Dùng được nhưng kém hiệu quả vì bộ Mika thông thường ít bài Kiệt sức ngoài kỹ năng Ego đắt."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF% = EGO Regen >= HP%",
+        "vi": "Phòng thủ% = Hồi năng lượng Ego >= Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% => EGO Regen = HP > HP%",
+        "vi": "Phòng thủ > Phòng thủ% => Hồi năng lượng Ego = Máu > Máu%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "If you care about raising the healing multipliers of Mika's Source of Water and to a lesser extent, Water Barrier, you can optionally aim to reach 41 or higher Ego Recovery to amplify their effects. However, this isn't mandatory to do and it can be more productive to instead focus on maximizing DEF and HP, both of which boost survivability as well. We only recommend going for this stat goal if you were already going to build Ego Regen.",
+    "vi": "Có thể nhắm 41+ hồi phục Ego để tăng hồi máu Source of Water và phần nào Water Barrier, nhưng không bắt buộc. Chỉ nên theo mốc này nếu vốn định xây hồi phục Ego; tăng phòng thủ và máu thường thiết thực hơn cho sinh tồn."
+  },
+  "potentialIntro": {
+    "en": "Mika’s Signature Potentials all primarily boost her healing, making them optional if that’s not something you need more of.3-1: Offers a large healing multiplier increase to Water Barrier.5-1: More healing for Water Barrier with an additional multiplier after reaching 30 Ego Recovery.7: A 10% healing multiplier boost for Source of Water if her Ego recovery is greater than 40, further increasing by 2% for every 5 Ego Recovery past 40, up to an additional maximum of 20% for a grand total of +30%.",
+    "vi": "Các tiềm năng đặc trưng chủ yếu tăng hồi máu nên tùy chọn khi đội chưa cần thêm: 3-1 tăng mạnh hồi phục Water Barrier, còn 5-1 tăng tiếp và có hệ số thêm ở 30 hồi phục Ego. Tiềm năng 7 tăng Source of Water 10% hệ số hồi máu khi hồi phục Ego >40, thêm 2% mỗi 5 điểm vượt 40, tối đa thêm 20%, tổng 30%."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "+30% Heal Amount to Water Barrier cards.",
+        "vi": "Tăng 30% lượng hồi máu của các lá Water Barrier."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Heal Amount to Mika's Water Barrier; If Mika's Ego Recovery is 30 or higher, add an additional +5% to that value",
+        "vi": "Tăng 5% lượng hồi máu của Water Barrier của Mika; Nếu Hồi phục Ego của Mika đạt ít nhất 30, tăng thêm 5% vào giá trị đó"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Mika’s Ego Recovery is 40 or higher, +10% Recover Amount to Source of Water; For every 5 Ego Recovery exceeding 40, add an additional +2% to the modifier; (additional +20% max)",
+        "vi": "Nếu Hồi phục Ego của Mika từ 40 trở lên, tăng 10% lượng hồi phục của Source of Water; Với mỗi 5 Hồi phục Ego vượt 40, tăng thêm 2% cho chỉ số này; (tăng thêm tối đa 20%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Star-Lit Cloak"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Contaminated Drone Lens",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Closed-Circuit Terminal",
+        "Cycle of Circulation"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Pale Eternal Flame",
+        "Harp of Conflict",
+        "Flashbang"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Combat Drum",
+        "Plant Doll",
+        "Golden Bell"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Nightmare Hairpin",
+        "Torture Toolbox"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Sphere of Randomness",
+        "Stele of Heresy",
+        "Bloody Pendant"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Mika’s first Ego node to be unlocked adds the [Initiation] tag to her “Deluge” card, allowing it to start generating Wave every turn off the bat. A decent first node that helps with kickstarting her AP generation.",
+        "vi": "Deluge có Khởi đầu, giúp bắt đầu tạo Sóng mỗi lượt ngay từ đầu và tăng tốc nguồn điểm hành động."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Her second Ego node grants a passive ability that triggers once a turn whenever Mika’s stress increases. When triggered, Mika will heal for 200%. A solid second point that further increases Mika’s healing capabilities.",
+        "vi": "Một lần mỗi lượt, khi căng thẳng của Mika tăng thì hồi máu 200%. Tăng khả năng hồi phục khá tốt."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides a small increase to damage and shielding - but most importantly, their healing. This node is quite valuable to Mika as they further increase her main use case of healing.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; tăng nhẹ sát thương/lá chắn và đặc biệt hữu ích cho hồi máu."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "E4 boosts her already strong Ego skill, giving the created “Source of Water” cards the [Retain] tag. Allowing her to hold onto cards generated until they’re required if you didn’t happen to need both initially.",
+        "vi": "Source of Water do kỹ năng Ego tạo ra có Giữ lại, giúp để dành đến khi cần thay vì buộc dùng cả hai ngay."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Another Ego node that increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Another node to further boost Mika’s healing capabilities.",
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, tiếp tục cải thiện hồi phục."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Her final Ego node now grants Mika 2 stacks of Wave to start every battle. A really powerful node to help start Mika’s consistent source of AP generation for her team.",
+        "vi": "Đầu trận nhận 2 Sóng, là nâng cấp mạnh để khởi động nguồn điểm hành động ổn định cho đội."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Generic Mika",
+        "vi": "Mika đa dụng"
+      },
+      "role": {
+        "en": "AP support with draw compensation",
+        "vi": "Cấp Điểm hành động và bù lượng rút bài"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1039_srt4_rsp2",
+          "count": 4,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1039_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_1039_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Tetra's Authority",
+        "Healer's Journey"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Provide AP while using Divines to offset Mika's natural draw deficit. The deck's value is a straightforward resource supply that does not force a complex rotation on the carry.",
+        "vi": "Cung cấp Điểm hành động và dùng Thức tỉnh thần thánh để bù nhược điểm tiêu tốn lượt rút bài của Mika. Bộ bài tập trung cấp tài nguyên đơn giản, giúp chủ lực có thêm Điểm hành động mà không phải xây dựng vòng đánh phức tạp quanh Mika."
+      }
+    },
+    {
+      "name": {
+        "en": "Morale Mika",
+        "vi": "Mika tăng Sĩ khí"
+      },
+      "role": {
+        "en": "AP and additive damage support",
+        "vi": "Cấp Điểm hành động và tăng sát thương cộng dồn"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1039_srt4",
+          "count": 4,
+          "draw": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "c_1039_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_1039_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Tetra's Authority",
+        "Healer's Journey"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Add a neutral Morale Epiphany to the standard AP-support setup so Mika also buffs damage. Multi-hit carries such as Renoa and Diana can make particularly good use of the added Morale.",
+        "vi": "Thêm Thức tỉnh bài trung lập tăng Sĩ khí vào bộ bài cấp Điểm hành động tiêu chuẩn để Mika đồng thời hỗ trợ sát thương. Những chủ lực đánh nhiều lần như Renoa và Diana tận dụng lượng Sĩ khí bổ sung này đặc biệt tốt."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Nine",
+      "note": {
+        "en": "Direct AP generation preserves Nine's card costs, and Blessing's Shield ratio benefits from her Shield buffs.",
+        "vi": "Tạo Điểm hành động trực tiếp giữ nguyên Chi phí bài Nine; hệ số Lá chắn của Phước lành hưởng lợi từ tăng Lá chắn của cô."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "High draw and abundant AP create comfortable turns for a damage dealer, at the expense of stronger buffing.",
+        "vi": "Rút nhiều và dồi dào Điểm hành động giúp nhân vật sát thương vận hành dễ dàng, đổi lại ít tăng sức mạnh hơn."
+      }
+    },
+    {
+      "name": "Mei Lin",
+      "note": {
+        "en": "Mika funds repeated Spire uses without lowering the costs required by Line of Justice.",
+        "vi": "Mika chi trả nhiều lần dùng Spire mà không giảm Chi phí cần để tận dụng Line of Công lý."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Spire Fire",
+        "vi": "Đội Dragon Spire"
+      },
+      "members": [
+        "Mei Lin",
+        "Veronica",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Foe Feline",
+        "vi": "Rita tấn công liên hoàn"
+      },
+      "members": [
+        "Rita",
+        "Tiphera",
+        "Mika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rita Filter",
+        "vi": "Rita lọc bài"
+      },
+      "members": [
+        "Rita",
+        "Tiphera",
+        "Mika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

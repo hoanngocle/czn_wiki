@@ -1,0 +1,26 @@
+body {}
+
+/*970px is the min width that screen size must be for backgrounds to show*/
+@media only screen and (min-width: 970px) {
+	/*FLEX SKINS START*/
+	body.flex-skin-active,
+	body.flex-skin-docked {
+		/*Make body transparent*/
+		background-color: rgba(0, 0, 0, 0) !important;
+	}
+
+	/*Set content width to 1100px*/
+	
+	#pw-oop-flex {
+		z-index: 1000 !important;
+	}
+}
+
+/*Breakpoint for smaller breakpoints with different nav*/
+@media only screen and (max-width: 969px) {
+}
+/*Example Breakpoint for mobile breakpoint (may fall into the above)*/
+@media only screen and (max-width: 600px) {
+	
+}
+/*FLEX SKINS END*/

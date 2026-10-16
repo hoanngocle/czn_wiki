@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Nữ thư ký đã trả hết nợ.</><br>Sau khi mất khoảng nửa cơ thể trong một tai nạn, cô làm thư ký theo hợp đồng nô lệ để trả khoản nợ chi phí phẫu thuật. Đến khi trả hết nợ, cô đã quên mất những cách sống khác. Giờ đây, cô làm thư ký cho Kayron, người đã cứu mạng mình.",
+  "infoValues": [
+    "Người cải tạo cơ thể",
+    "Ngày 1 tháng 3",
+    "Dòng chảy hắc ám",
+    "Eri Yukimura",
+    "Mina"
+  ],
+  "cardDescription": "Làm <color_orange><u>Kiệt sức</u></> toàn bộ lá Trạng thái bất lợi (kể cả các lá vốn là Trạng thái bất lợi) và lá Nguyền rủa trong <color_orange><u>Chồng bài bỏ</u></><br>Với mỗi lá bị Kiệt sức, tăng <color_orange>10</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt",
+  "terms": {
+    "CARD_PLACE_DISCARD_2": {
+      "title": "Chồng bài bỏ",
+      "desc": "Nơi chứa các lá đã bị Bỏ (tối đa <cc>200</> lá)"
+    },
+    "TALENT_EXHAUST": {
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Kiểm tra chỉ thị",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo một lá bài, nhận Báo cáo yếu tố rủi ro<br>Báo cáo yếu tố rủi ro: Tăng <cc>10</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt (tối đa <cc>3</> cộng dồn)",
+        "Khi Nhân vật được ghép cặp tạo lá Trạng thái bất lợi lần đầu (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), +<cc>25</>% lượng sát thương cho các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "2": {
+      "name": "Kiểm tra chỉ thị",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo một lá bài, nhận Báo cáo yếu tố rủi ro<br>Báo cáo yếu tố rủi ro: Tăng <cc>13</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt (tối đa <cc>3</> cộng dồn)",
+        "Khi Nhân vật được ghép cặp tạo lá Trạng thái bất lợi lần đầu (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), +<cc>32</>% lượng sát thương cho các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "3": {
+      "name": "Kiểm tra chỉ thị",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo một lá bài, nhận Báo cáo yếu tố rủi ro<br>Báo cáo yếu tố rủi ro: Tăng <cc>15</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt (tối đa <cc>3</> cộng dồn)",
+        "Khi Nhân vật được ghép cặp tạo lá Trạng thái bất lợi lần đầu (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), +<cc>38</>% lượng sát thương cho các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "4": {
+      "name": "Kiểm tra chỉ thị",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo một lá bài, nhận Báo cáo yếu tố rủi ro<br>Báo cáo yếu tố rủi ro: Tăng <cc>18</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt (tối đa <cc>3</> cộng dồn)",
+        "Khi Nhân vật được ghép cặp tạo lá Trạng thái bất lợi lần đầu (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), +<cc>44</>% lượng sát thương cho các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "5": {
+      "name": "Kiểm tra chỉ thị",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Nhân vật được ghép cặp tạo một lá bài, nhận Báo cáo yếu tố rủi ro<br>Báo cáo yếu tố rủi ro: Tăng <cc>20</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp trong <cc>1</> lượt (tối đa <cc>3</> cộng dồn)",
+        "Khi Nhân vật được ghép cặp tạo lá Trạng thái bất lợi lần đầu (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), +<cc>50</>% lượng sát thương cho các lá Tấn công trong <cc>1</> lượt."
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Thiên tài mang trí tuệ của ánh sao.</><br>Thiên tài trẻ tuổi nhất hiện nay tại Terrascion. Dù chưa hẳn là người giỏi nhất, cô chắc chắn là người trẻ nhất. Cô thường khăng khăng rằng mình phải bảo vệ Seraphim và Ponopoko với tư cách mẹ của họ. Điều thú vị là Seraphim và Ponopoko dường như cũng muốn bảo vệ Arwen, cho thấy mối quan hệ luôn nâng đỡ lẫn nhau.",
+  "infoValues": [
+    "Con người",
+    "Ngày 16 tháng 3",
+    "Yuka Amemiya",
+    "Sunyoung Son"
+  ],
+  "cardDescription": "<color_orange><u>Hồi máu</u></> <color_orange>200%</><br><color_orange>1</> <color_orange><u>Giảm sát thương</u></>",
+  "terms": {
+    "T_CS00_0062": {
+      "title": "Giảm sát thương",
+      "desc": "Giảm <cc><color_orange>15</></>% Sát thương nhận vào<br>Khi hiệu ứng được kích hoạt, giảm <color_orange><u>Giảm sát thương</u></> đi <cc>1</>"
+    },
+    "CARD_CURE": {
+      "title": "Hồi máu",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Trí tuệ ánh sao",
+      "descriptions": [
+        "Tăng Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>8</>%.",
+        "Đầu lượt, nhận [Lời cổ vũ của Ponopoko] cho mỗi kẻ địch có Hành động dự kiến ở trạng thái <cc>Tấn công</>.<br>[Lời cổ vũ của Ponopoko]: -<cc>10</>% lượng Sát thương nhận vào<br>Khi hiệu ứng kích hoạt, xóa Lời cổ vũ của Ponopoko (tối đa <cc>3</> cộng dồn)"
+      ]
+    },
+    "2": {
+      "name": "Trí tuệ ánh sao",
+      "descriptions": [
+        "Tăng Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>9</>%.",
+        "Đầu lượt, nhận [Lời cổ vũ của Ponopoko] cho mỗi kẻ địch có Hành động dự kiến ở trạng thái <cc>Tấn công</>.<br>[Lời cổ vũ của Ponopoko]: -<cc>13</>% lượng Sát thương nhận vào<br>Khi hiệu ứng kích hoạt, xóa Lời cổ vũ của Ponopoko (tối đa <cc>3</> cộng dồn)"
+      ]
+    },
+    "3": {
+      "name": "Trí tuệ ánh sao",
+      "descriptions": [
+        "Tăng Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>10</>%.",
+        "Đầu lượt, nhận [Lời cổ vũ của Ponopoko] cho mỗi kẻ địch có Hành động dự kiến ở trạng thái <cc>Tấn công</>.<br>[Lời cổ vũ của Ponopoko]: -<cc>15</>% lượng Sát thương nhận vào<br>Khi hiệu ứng kích hoạt, xóa Lời cổ vũ của Ponopoko (tối đa <cc>3</> cộng dồn)"
+      ]
+    },
+    "4": {
+      "name": "Trí tuệ ánh sao",
+      "descriptions": [
+        "Tăng Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>11</>%.",
+        "Đầu lượt, nhận [Lời cổ vũ của Ponopoko] cho mỗi kẻ địch có Hành động dự kiến ở trạng thái <cc>Tấn công</>.<br>[Lời cổ vũ của Ponopoko]: -<cc>18</>% lượng Sát thương nhận vào<br>Khi hiệu ứng kích hoạt, xóa Lời cổ vũ của Ponopoko (tối đa <cc>3</> cộng dồn)"
+      ]
+    },
+    "5": {
+      "name": "Trí tuệ ánh sao",
+      "descriptions": [
+        "Tăng Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>12</>%.",
+        "Đầu lượt, nhận [Lời cổ vũ của Ponopoko] cho mỗi kẻ địch có Hành động dự kiến ở trạng thái <cc>Tấn công</>.<br>[Lời cổ vũ của Ponopoko]: -<cc>20</>% lượng Sát thương nhận vào<br>Khi hiệu ứng kích hoạt, xóa Lời cổ vũ của Ponopoko (tối đa <cc>3</> cộng dồn)"
+      ]
+    }
+  }
+}

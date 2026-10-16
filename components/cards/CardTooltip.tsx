@@ -6,21 +6,23 @@ import type { Card } from "../../lib/wiki/types";
 import { getCardTerms } from "../../lib/wiki/card-terms";
 import { Description } from "./Description";
 import styles from "./CardTooltip.module.css";
+import { label } from "../../lib/wiki/labels";
 
 const rarityNames: Record<string, string> = {
   RARITY_COMMON: "Common", RARITY_RARE: "Rare", RARITY_LEGEND: "Legendary", RARITY_UNIQUE: "Unique",
 };
 
-export function CardTooltip({ card, id, anchor, open, replaced, onClose }: {
+export function CardTooltip({ card, id, anchor, open, replaced, vietnamese = false, onClose }: {
   card: Card;
   id: string;
   anchor: RefObject<HTMLElement | null>;
   onClose: () => void;
   open: boolean;
   replaced: boolean;
+  vietnamese?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const terms = getCardTerms(card);
+  const terms = getCardTerms(card, vietnamese);
 
   useLayoutEffect(() => {
     if (!open) return;
@@ -51,7 +53,7 @@ export function CardTooltip({ card, id, anchor, open, replaced, onClose }: {
   }, [anchor, onClose, open]);
 
   return createPortal(<div ref={ref} id={id} role="tooltip" aria-hidden={!open} data-open={open} data-replaced={replaced} className={styles.tooltip}>
-    <div className={styles.item}><div className={styles.title}>Rarity</div><div>{rarityNames[card.rarity] ?? card.rarity}</div></div>
+    <div className={styles.item}><div className={styles.title}>{label("Rarity", vietnamese)}</div><div>{label(rarityNames[card.rarity] ?? card.rarity, vietnamese)}</div></div>
     {terms.map(term => <div className={styles.item} key={term.id}>
       <div className={styles.title}>{term.title}</div>
       <div><Description text={term.desc} /></div>

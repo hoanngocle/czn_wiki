@@ -1,11 +1,15 @@
-.egoGrid, .potentialGrid, .upgrades { --description-emphasis: #ff8c00; --description-keyword: #ff8c00; --description-muted: var(--text-tertiary); }
+.egoGrid, .potentialGrid, .upgrades { --description-emphasis: #a35000; --description-keyword: #a35000; --description-muted: var(--text-tertiary); }
+:global(html[data-theme="dark"]) :is(.egoGrid, .potentialGrid, .upgrades) { --description-emphasis: #ff8c00; --description-keyword: #ff8c00; }
+@media (prefers-color-scheme: dark) {
+  :global(html:not([data-theme])) :is(.egoGrid, .potentialGrid, .upgrades) { --description-emphasis: #ff8c00; --description-keyword: #ff8c00; }
+}
 .sectionTitle { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin: 10px 0 26px; padding: 0 0 12px; border-bottom: 2px solid var(--ltblue); }
 .sectionTitle h2, .heading { font-size: 17px; margin: 0; font-weight: 650; }.heading { margin: 48px 0 18px; }
 .panel:nth-of-type(n+3) > .heading { padding-bottom: 10px; border-bottom: 2px solid var(--ltblue); }
 .options { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; font-size: 13px; font-weight: 600; }.options label { white-space: nowrap; }.options input { vertical-align: middle; width: 17px; height: 17px; accent-color: #bedce5; }
 /* Reference cards use a 468 x 680 canvas and fill the available grid columns. */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr)); gap: 16px; align-items: start; padding: 10px; }
-.egoGrid, .potentialGrid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.egoGrid, .potentialGrid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,240px),1fr)); gap: 12px; }
 .egoLevel, .potentialNode { display: block; min-height: 162px; padding: 16px; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: 7px; }
 .egoLevel strong, .potentialNode strong { font-size: 16px; }.egoLevel p, .potentialNode p { margin: 12px 0 0; font-size: 14px; line-height: 1.55; }
 .egoHeading { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }.levelNumber, .nodeNumber { display: inline-block; padding: 4px 8px; background: var(--bg-accent); border: 1px solid var(--ltblue); color: var(--text-accent); border-radius: 4px; font-size: 12px; white-space: nowrap; }
@@ -40,4 +44,12 @@
   .guideToolbar .options { width: 100%; justify-content: flex-end; gap: 16px; padding: 12px 2px; }
   .guidePanel .sectionTitle { margin-top: 22px; }
   .guidePanel .sectionTitle h2 { flex-basis: auto; }
+}
+
+@container combatant-detail (max-width: 760px) {
+  .guideToolbar { flex-wrap: wrap; gap: 0; }
+  .guideTabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: 100%; }
+  .guideTabs button { padding: 12px 6px; font-size: 14px; }
+  .guideTabs button[aria-selected="true"]::after { bottom: 0; }
+  .guideToolbar .options { width: 100%; justify-content: flex-end; padding-block: 12px; }
 }

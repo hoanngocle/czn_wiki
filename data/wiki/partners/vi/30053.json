@@ -1,0 +1,62 @@
+{
+  "profile": "<color_darkgray>Thiên thần nhỏ theo đuổi những ngôi sao tỏa sáng.</><br>Người hâm mộ tận tụy nhất kiêm quản lý của Diana, thần tượng và gương mặt đại diện của Holy Crusaders. Dù thường rất nghiêm khắc và cứng rắn, Sophia hoàn toàn tan chảy mỗi khi “Diana đáng yêu và dễ mến” xuất hiện gần mình.",
+  "infoValues": [
+    "Con người",
+    "21 tháng Tư",
+    "Hợp xướng Ngân Hà",
+    "Arisa Aihara",
+    "Ji-eun Eom"
+  ],
+  "cardDescription": "<color_orange>3</> <color_orange><u>Người hâm mộ cuồng nhiệt</u></><br><color_orange><u>Rút</u></> <color_orange>1</><br><color_orange><u>Bỏ</u></> tối đa <color_orange>2</> lá",
+  "terms": {
+    "T_CS03_0241": {
+      "title": "Người hâm mộ cuồng nhiệt",
+      "desc": "+<color_orange>40</>% lượng sát thương <color_orange><u>Đòn đánh thêm</u></> của Nhân vật được ghép cặp<br>Vào cuối lượt, giảm <cc>1</> <color_orange><u>Người hâm mộ cuồng nhiệt</u></>"
+    },
+    "CARD_DISCARD": {
+      "title": "Bỏ bài",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Hợp xướng Ngân Hà",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Quietus thuộc tính <color_ego_love_light>Đam mê</> của Nhân vật được ghép cặp bị Bỏ, +<cc>5</>% Sát thương chí mạng (tối đa <cc>4</> cộng dồn).",
+        "Khi <cc>3</> lá Đạn bị Bỏ, Nhân vật được ghép cặp thực hiện Đòn đánh thêm <cc>200</>% lên một kẻ địch ngẫu nhiên (<cc>2</> lần mỗi lượt)."
+      ]
+    },
+    "2": {
+      "name": "Hợp xướng Ngân Hà",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Quietus thuộc tính <color_ego_love_light>Đam mê</> của Nhân vật được ghép cặp bị Bỏ, +<cc>7</>% Sát thương chí mạng (tối đa <cc>4</> cộng dồn).",
+        "Khi <cc>3</> lá Đạn bị Bỏ, Nhân vật được ghép cặp thực hiện Đòn đánh thêm <cc>250</>% lên một kẻ địch ngẫu nhiên (<cc>2</> lần mỗi lượt)."
+      ]
+    },
+    "3": {
+      "name": "Hợp xướng Ngân Hà",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Quietus thuộc tính <color_ego_love_light>Đam mê</> của Nhân vật được ghép cặp bị Bỏ, +<cc>8</>% Sát thương chí mạng (tối đa <cc>4</> cộng dồn).",
+        "Khi <cc>3</> lá Đạn bị Bỏ, Nhân vật được ghép cặp thực hiện Đòn đánh thêm <cc>300</>% lên một kẻ địch ngẫu nhiên (<cc>2</> lần mỗi lượt)."
+      ]
+    },
+    "4": {
+      "name": "Hợp xướng Ngân Hà",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Quietus thuộc tính <color_ego_love_light>Đam mê</> của Nhân vật được ghép cặp bị Bỏ, +<cc>9</>% Sát thương chí mạng (tối đa <cc>4</> cộng dồn).",
+        "Khi <cc>3</> lá Đạn bị Bỏ, Nhân vật được ghép cặp thực hiện Đòn đánh thêm <cc>350</>% lên một kẻ địch ngẫu nhiên (<cc>2</> lần mỗi lượt)."
+      ]
+    },
+    "5": {
+      "name": "Hợp xướng Ngân Hà",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Quietus thuộc tính <color_ego_love_light>Đam mê</> của Nhân vật được ghép cặp bị Bỏ, +<cc>10</>% Sát thương chí mạng (tối đa <cc>4</> cộng dồn).",
+        "Khi <cc>3</> lá Đạn bị Bỏ, Nhân vật được ghép cặp thực hiện Đòn đánh thêm <cc>400</>% lên một kẻ địch ngẫu nhiên (<cc>2</> lần mỗi lượt)."
+      ]
+    }
+  }
+}

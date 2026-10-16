@@ -14,3 +14,9 @@ it("ignores executable markup and preserves known keyword formatting", () => {
   expect(JSON.stringify(nodes)).toContain("Dirge Bullet");
   expect(parseDescription("<mystery>Safe</mystery>")).toEqual([{ kind: "text", text: "Safe" }]);
 });
+
+it("renders saved keyword placeholders and duplicated percent formatting cleanly", () => {
+  expect(parseDescription("$activate$d / $proc$ / $Kích hoạt qua hiệu ứng$")).toEqual([{ kind: "text", text: "activated / proc / Kích hoạt qua hiệu ứng" }]);
+  expect(parseDescription("<color_orange>50%</>% chance")).toEqual([{ kind: "emphasis", children: [{ kind: "text", text: "50%" }] }, { kind: "text", text: " chance" }]);
+  expect(parseDescription("$50")).toEqual([{ kind: "text", text: "$50" }]);
+});

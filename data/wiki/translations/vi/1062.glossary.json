@@ -1,0 +1,89 @@
+{
+  "characterId": "1062",
+  "terms": [
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "TALENT_SHIELD_DESTRUCT",
+      "title": "Nghiền nát",
+      "englishTitle": "Pulverize",
+      "englishDesc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%",
+      "desc": "Khi đánh trúng mục tiêu có <color_orange><u>Lá chắn</u></>, tăng <cc>20</>% lượng sát thương"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>."
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>."
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "englishTitle": "Graveyard",
+      "englishDesc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>",
+      "desc": "Gồm các lá đã được <color_orange><u>Kích hoạt</u></> trong lượt này hoặc đang ở <color_orange><u>Chồng bài bỏ</u></>"
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "englishTitle": "Retrieve",
+      "englishDesc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve",
+      "desc": "Nếu lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay.<br>Khi Kích hoạt, loại bỏ Thu hồi."
+    },
+    {
+      "id": "TALENT_WEAKPOINT",
+      "title": "Đánh điểm yếu",
+      "englishTitle": "Weakness Attack",
+      "englishDesc": "This card's attack is applied as Weakness",
+      "desc": "Đòn tấn công của lá này được tính là đánh trúng Điểm yếu."
+    },
+    {
+      "id": "CARD_EGO_DAMAGE",
+      "title": "Sát thương sức bền",
+      "englishTitle": "Tenacity Damage",
+      "englishDesc": "Damage dealt to a monster's Tenacity",
+      "desc": "Sát thương gây lên Sức bền của quái vật"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    }
+  ]
+}

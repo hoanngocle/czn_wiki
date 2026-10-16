@@ -14,9 +14,11 @@ function decodeEntities(value: string): string {
 }
 
 export function parseDescription(input: string): DescriptionNode[] {
+  // Saved game text can retain localization delimiters and duplicate percent suffixes.
+  const display = input.replace(/\$([\p{L}][\p{L} ]*)\$/gu, "$1").replace(/%((?:<\/[^>]*>)*)%/g, "%$1");
   const root: Container = { children: [] };
   const stack: Container[] = [root];
-  const tokens = input.match(/<[^>]*>|\r\n|\n|[^<\r\n]+/g) ?? [];
+  const tokens = display.match(/<[^>]*>|\r\n|\n|[^<\r\n]+/g) ?? [];
   let unsafe = "";
   for (const token of tokens) {
     if (token.startsWith("<")) {

@@ -1,0 +1,1344 @@
+{
+  "characterId": "30075",
+  "name": "Sereniel",
+  "identity": [
+    "Instinct",
+    "Hunter"
+  ],
+  "subtitle": {
+    "en": "Sereniel chains attacks by breaking enemy Tenacity and returning Homing Lasers to hand. Her permanent Homing Laser and generated Homing Laser L combine inexpensive attacks, Afterglow and repeated Ravages. She has several workable Epiphanies in Chaos, but her strongest loops depend on enemies that can be Ravaged repeatedly.",
+    "vi": "Sereniel nối chuỗi tấn công bằng cách phá Sức bền của kẻ địch rồi đưa Homing Laser trở lại tay. Homing Laser trong bộ bài và Homing Laser L được tạo ra kết hợp các đòn đánh ít tốn Điểm hành động, Dư quang và nhiều lần gây Suy yếu. Cô có nhiều Thức tỉnh bài dùng được trong Chaos, nhưng chuỗi mạnh nhất cần kẻ địch có thể bị Suy yếu nhiều lần."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30075.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/sereniel",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/serienial/Sereniel Best Build Guide _ Chaos Zero Nightmare.html",
+      "docs/serienial/api/czn/characters/30075.html",
+      "data/deck-builder/catalog.json",
+      "docs/combatant/prydwen/sereniel.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Sereniel artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30075.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sereniel": {
+      "src": "/assets/combatant/portrait_character_crop_half_30075.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Hunter": {
+      "src": "/assets/common/icon_type_job_hunter.png",
+      "width": 44,
+      "height": 44
+    },
+    "Peko E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30076.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Peko E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30076.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Serithea E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20014.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Janet E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20004.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "W-52 Dopamine Injector": {
+      "src": "/assets/item/relic_0107.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Selena": {
+      "src": "/assets/combatant/portrait_character_crop_half_1005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Anika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1012.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Peko": {
+      "src": "/assets/partner/portrait_character_crop_half_30076.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Cursed Corpse": {
+      "src": "/assets/item/guide-cc5dd35d3446.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Instinctual Growth": {
+      "src": "/assets/item/guide-d4ff535a4a44.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Battlefield Evolution": {
+      "src": "/assets/item/guide-984c89d7e85a.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Judgment's Flames": {
+      "src": "/assets/item/guide-8260e2931d08.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Serithea": {
+      "src": "/assets/partner/portrait_character_crop_half_20014.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Janet": {
+      "src": "/assets/partner/portrait_character_crop_half_20004.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_30075_srt4_mut",
+      "name": "Homing Laser L",
+      "cost": 0,
+      "description": "<color_orange>60%</> Damage<br><color_orange>1</> <color_orange><u>Afterglow</u></><br>On <color_orange><u>Ravage</u></>, move from Graveyard to hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30075_04",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30075_04.webp",
+      "video": "/assets/card/unique_30075_04.webm",
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST_N",
+          "title": "Exhaust 2"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "+<color_orange>1</> to <color_orange><u>Tenacity</u></> Damage of Attack Cards, and +<color_orange>100</>% Damage Amount against enemies in a <color_orange><u>Ravage</u></> state and enemies without <color_orange><u>Tenacity</u></><br>On effect activation, decrease Afterglow by <cc>1</>",
+          "id": "T_CS01_0764",
+          "title": "Afterglow"
+        },
+        {
+          "desc": "When the monster’s <color_orange><u>Tenacity</u></> is fully reduced, activate effect<br>On Ravage, gain <cc>1</> Action Point",
+          "id": "CARD_EGO_BREAK_2",
+          "title": "Ravage:"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30075_srt4_mut"
+    },
+    {
+      "id": "card_ne_00004",
+      "name": "Shock",
+      "cost": 2,
+      "description": "<color_orange>200%</> Damage to all enemies<br><color_orange>2</> <color_orange><u>Vulnerable</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00268",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00268.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+          "id": "T_CS00_0002",
+          "title": "Vulnerable"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00004"
+    },
+    {
+      "id": "guide_sereniel_negotiate",
+      "sourceId": "prydwen:card-687",
+      "name": "Negotiate",
+      "cost": 1,
+      "description": "<color_orange>2</> Morale<br><color_orange>2</> Morale to all enemies<br>Ranger, Hunter only",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "egoType": "EGO_OWNER",
+      "artKey": "prydwen-card_687",
+      "artwork": "/assets/card/prydwen-card_687.webp",
+      "video": null,
+      "talent": [
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        },
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is activated, move to Exhaust Pile"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS00_0001",
+          "title": "Morale",
+          "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "id": "card_ne_00043",
+      "name": "Negotiate​",
+      "cost": 1,
+      "description": "<color_orange>2</> <color_orange><u>Morale</u></><br><color_orange>2</> <color_orange><u>Morale</u></> to all enemies",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00003",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00003.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+          "id": "T_CS00_0001",
+          "title": "Morale"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00043",
+      "ownerId": null,
+      "jobs": [
+        "ranger",
+        "hunter"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_30075_srt4_mut"
+  ],
+  "epiphanyReviews": {
+    "c_30075_srt4_rsp1": {
+      "rating": 3,
+      "review": {
+        "en": "Adds a Destroy hit but loses Afterglow. Strong against Ravaged targets, yet must be drawn again each turn.",
+        "vi": "Thêm lần đánh Phá vỡ nhưng mất Dư quang. Mạnh khi đánh mục tiêu Suy yếu, nhưng vẫn cần rút lại mỗi lượt."
+      }
+    },
+    "c_30075_srt4_rsp2": {
+      "rating": 2,
+      "review": {
+        "en": "More damage and three Afterglow charges; the charges do not increase the effect per hit. Lacks IV’s start-of-turn return.",
+        "vi": "Tăng sát thương và có ba lần dùng Dư quang; cộng dồn không tăng hiệu ứng trên mỗi đòn. Thiếu khả năng trở lại tay đầu lượt của IV."
+      }
+    },
+    "c_30075_srt4_rsp3": {
+      "rating": 2,
+      "review": {
+        "en": "Costs 1 and creates two Homing Laser L in the Discard Pile, but loses its own return effect. Pale Shooting Star can activate it to generate more lasers.",
+        "vi": "Tốn 1 và tạo hai Homing Laser L trong Chồng bài bỏ, nhưng mất hiệu ứng tự trở lại tay. Pale Shooting Star có thể kích hoạt lá này để tạo thêm laser."
+      }
+    },
+    "c_30075_srt4_rsp4": {
+      "rating": 5,
+      "review": {
+        "en": "The preferred consistency option: moves to hand at turn start and on Ravage. Its lower damage and one Afterglow charge are usually acceptable tradeoffs.",
+        "vi": "Lựa chọn ưu tiên để ổn định: chuyển lên tay đầu lượt và khi gây Suy yếu. Sát thương thấp hơn và chỉ một Dư quang thường là đánh đổi chấp nhận được."
+      }
+    },
+    "c_30075_srt4_rsp5": {
+      "rating": 2,
+      "review": {
+        "en": "Returns all generated lasers from the Graveyard. Useful in generation-heavy decks, but does not replace IV’s reliable start-of-turn access.",
+        "vi": "Đưa toàn bộ laser được tạo từ Mộ bài lên tay. Hữu ích trong bộ bài tập trung tạo laser, nhưng không thay thế khả năng có bài đầu lượt ổn định của IV."
+      }
+    },
+    "c_30075_uni1_rsp1": {
+      "rating": 1,
+      "review": {
+        "en": "Improves Tenacity damage, which Sereniel already supplies abundantly through Afterglow. Usually lower priority than utility.",
+        "vi": "Tăng Sát thương sức bền, vốn đã dồi dào nhờ Dư quang. Thường kém ưu tiên hơn các hiệu ứng hỗ trợ."
+      }
+    },
+    "c_30075_uni1_rsp2": {
+      "rating": 1,
+      "review": {
+        "en": "Scales with lost Tenacity but loses the extra activation. Supporting the laser chain usually offers more than this direct damage.",
+        "vi": "Tăng sát thương theo Sức bền đã mất nhưng mất lần kích hoạt thêm. Hỗ trợ chuỗi laser thường có giá trị hơn sát thương trực tiếp này."
+      }
+    },
+    "c_30075_uni1_rsp3": {
+      "rating": 5,
+      "review": {
+        "en": "Preferred when enemies are not already Instinct-weak: applies the weakness and increases laser damage for one turn.",
+        "vi": "Ưu tiên khi kẻ địch chưa có điểm yếu Bản năng: vừa gắn điểm yếu vừa tăng sát thương laser trong một lượt."
+      }
+    },
+    "c_30075_uni1_rsp4": {
+      "rating": 2,
+      "review": {
+        "en": "Creates three lasers in the Draw Pile. Needs draw or Pale Shooting Star to access them; III often provides more useful support.",
+        "vi": "Tạo ba laser trong Chồng bài rút. Cần rút bài hoặc Pale Shooting Star để dùng chúng; III thường hỗ trợ hữu ích hơn."
+      }
+    },
+    "c_30075_uni1_rsp5": {
+      "rating": 3,
+      "review": {
+        "en": "End-of-turn damage scales with lasers moved to hand. The source considers its damage small, but the Upgrade leaves the draw cycle after use.",
+        "vi": "Sát thương cuối lượt tăng theo số laser chuyển lên tay. Nguồn đánh giá sát thương nhỏ, nhưng lá Cường hóa rời vòng rút bài sau khi dùng."
+      }
+    },
+    "c_30075_uni2_rsp1": {
+      "rating": 2,
+      "review": {
+        "en": "Creates three lasers immediately, but usually produces fewer over a battle than III.",
+        "vi": "Tạo ngay ba laser, nhưng thường tạo ít hơn III trong cả trận."
+      }
+    },
+    "c_30075_uni2_rsp2": {
+      "rating": 2,
+      "review": {
+        "en": "Creates two lasers with their Exhaust count increased by two. They can be used more times, making this an alternative to repeated creation.",
+        "vi": "Tạo hai laser với chỉ số Kiệt sức tăng thêm hai. Chúng dùng được nhiều lần hơn, là phương án thay thế việc liên tục tạo bài mới."
+      }
+    },
+    "c_30075_uni2_rsp3": {
+      "rating": 5,
+      "review": {
+        "en": "Preferred for Ravage chains: generates two lasers immediately and two after each Ravage. Especially useful with Tenacity-restoring support.",
+        "vi": "Ưu tiên cho chuỗi Suy yếu: tạo ngay hai laser và thêm hai sau mỗi lần gây Suy yếu. Đặc biệt hữu ích cùng hỗ trợ khôi phục Sức bền."
+      }
+    },
+    "c_30075_uni2_rsp4": {
+      "rating": 1,
+      "review": {
+        "en": "Spends all remaining AP to create X+1 Haste lasers. Hand space and the AP needed before the first Ravage make it awkward to use consistently.",
+        "vi": "Dùng toàn bộ Điểm hành động còn lại để tạo X+1 laser có Nhanh nhẹn. Chỗ trống trên tay và nhu cầu Điểm hành động trước lần Suy yếu đầu khiến lá này khó dùng ổn định."
+      }
+    },
+    "c_30075_uni2_rsp5": {
+      "rating": 3,
+      "review": {
+        "en": "Creates a chosen Homing Laser with its own Epiphany. Can help reach a precise hit count for a particular enemy, but is situational.",
+        "vi": "Tạo Homing Laser có Thức tỉnh do bạn chọn. Có thể giúp đủ số lần đánh để phá Sức bền một mục tiêu cụ thể, nhưng phụ thuộc tình huống."
+      }
+    },
+    "c_30075_uni3_rsp1": {
+      "rating": 4,
+      "review": {
+        "en": "Reduces its cost when it causes Ravage. A flexible option when the deck does not generate AP from Homing Laser.",
+        "vi": "Giảm chi phí khi chính lá này gây Suy yếu. Lựa chọn linh hoạt khi bộ bài không tạo Điểm hành động từ Homing Laser."
+      }
+    },
+    "c_30075_uni3_rsp2": {
+      "rating": 1,
+      "review": {
+        "en": "Retain adds hits over time, but the source would usually remove an expensive card that cannot be played reliably each turn.",
+        "vi": "Giữ lại thêm lần đánh theo thời gian, nhưng nguồn thường khuyên bỏ lá đắt tiền nếu không thể dùng đều mỗi lượt."
+      }
+    },
+    "c_30075_uni3_rsp3": {
+      "rating": 2,
+      "review": {
+        "en": "Creates a laser for each target hit. Generation depends on multiple enemies and random targeting, while other cards provide it more efficiently.",
+        "vi": "Tạo một laser với mỗi mục tiêu trúng đòn. Lượng bài tạo phụ thuộc số địch và mục tiêu ngẫu nhiên, trong khi các lá khác làm việc này hiệu quả hơn."
+      }
+    },
+    "c_30075_uni3_rsp4": {
+      "rating": 3,
+      "review": {
+        "en": "A 1-cost multi-hit option scaling with lasers in hand. Can reach six or seven hits with setup, but filling the hand takes preparation.",
+        "vi": "Lựa chọn nhiều lần đánh chi phí 1, tăng theo số laser trên tay. Có thể đạt sáu hoặc bảy lần đánh khi chuẩn bị tốt, nhưng cần tích bài."
+      }
+    },
+    "c_30075_uni3_rsp5": {
+      "rating": 4,
+      "review": {
+        "en": "Has Weakness Attack and activates again if it causes Ravage. The preferred signature option in AP-generating builds, after Neutral Draw 2.",
+        "vi": "Có Đánh điểm yếu và kích hoạt lại nếu chính lá này gây Suy yếu. Là Thức tỉnh đặc trưng được ưu tiên trong bộ bài tạo Điểm hành động, sau Trung lập Rút 2."
+      }
+    }
+  },
+  "review": {
+    "intro": {
+      "en": "Sereniel chains attacks by breaking enemy Tenacity and returning Homing Lasers to hand. Her permanent Homing Laser and generated Homing Laser L combine inexpensive attacks, Afterglow and repeated Ravages. She has several workable Epiphanies in Chaos, but her strongest loops depend on enemies that can be Ravaged repeatedly.",
+      "vi": "Sereniel nối chuỗi tấn công bằng cách phá Sức bền của kẻ địch rồi đưa Homing Laser trở lại tay. Homing Laser trong bộ bài và Homing Laser L được tạo ra kết hợp các đòn đánh ít tốn Điểm hành động, Dư quang và nhiều lần gây Suy yếu. Cô có nhiều Thức tỉnh bài dùng được trong Chaos, nhưng chuỗi mạnh nhất cần kẻ địch có thể bị Suy yếu nhiều lần."
+    },
+    "profile": [
+      {
+        "label": {
+          "en": "Single-target damage",
+          "vi": "Sát thương đơn mục tiêu"
+        },
+        "score": 5
+      },
+      {
+        "label": {
+          "en": "AoE damage",
+          "vi": "Sát thương diện rộng"
+        },
+        "score": 5
+      },
+      {
+        "label": {
+          "en": "AP efficiency",
+          "vi": "Hiệu quả Điểm hành động"
+        },
+        "score": 5
+      },
+      {
+        "label": {
+          "en": "Draw efficiency",
+          "vi": "Hiệu quả rút bài"
+        },
+        "score": 4
+      }
+    ],
+    "pros": [
+      {
+        "en": "High single-target damage and substantial Tenacity damage.",
+        "vi": "Sát thương đơn mục tiêu cao và gây nhiều Sát thương sức bền."
+      },
+      {
+        "en": "Creates many 0-cost attacks and reuses Homing Laser Divine effects when the cards return to hand.",
+        "vi": "Tạo nhiều lá Tấn công chi phí 0 và tái sử dụng hiệu ứng Thức tỉnh thần thánh của Homing Laser khi bài trở lại tay."
+      },
+      {
+        "en": "More enemies available to Ravage can mean more laser cycles and higher damage.",
+        "vi": "Có thêm mục tiêu để gây Suy yếu đồng nghĩa với thêm chuỗi laser và tiềm năng sát thương cao hơn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage falls sharply against enemies without Tenacity or when she cannot Ravage each turn.",
+        "vi": "Sát thương giảm mạnh khi gặp kẻ địch không có Sức bền hoặc không thể gây Suy yếu mỗi lượt."
+      },
+      {
+        "en": "Death Halo is her only attack that directly hits all enemies.",
+        "vi": "Death Halo là đòn đánh duy nhất của cô trực tiếp đánh toàn bộ kẻ địch."
+      },
+      {
+        "en": "Hand size limits laser generation and the maximum damage sequence.",
+        "vi": "Giới hạn số lá trên tay hạn chế lượng laser tạo ra và chuỗi sát thương tối đa."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Homing Laser",
+        "cardId": "c_30075_srt4",
+        "body": {
+          "en": "Play lasers, Ravage an enemy, then use the lasers that return from the Graveyard. Homing Laser IV also moves to hand at the start of each turn; other Epiphanies can change or remove the return effect. Generated Homing Laser L has Exhaust 2, so it cannot be reused indefinitely.",
+          "vi": "Đánh các lá laser, gây Suy yếu một kẻ địch rồi tiếp tục dùng những lá trở lại từ Mộ bài. Homing Laser IV còn chuyển lên tay đầu mỗi lượt; các Thức tỉnh khác có thể đổi hoặc bỏ hiệu ứng trở lại tay. Homing Laser L được tạo có Kiệt sức 2 nên không thể dùng vô hạn."
+        }
+      },
+      {
+        "title": {
+          "en": "Afterglow",
+          "vi": "Dư quang"
+        },
+        "cardId": "c_30075_srt4_rsp2",
+        "body": {
+          "en": "Afterglow supplies +1 Tenacity damage to attack hits, or +100% damage against Ravaged enemies and enemies without Tenacity. Stacks are charges, not a larger bonus: each hit consumes one charge. A four-hit attack needs four stacks to enhance every hit.",
+          "vi": "Dư quang cung cấp +1 Sát thương sức bền cho đòn đánh, hoặc +100% sát thương lên kẻ địch đang Suy yếu và kẻ địch không có Sức bền. Cộng dồn là số lần dùng hiệu ứng, không tăng độ lớn hiệu ứng: mỗi lần đánh tiêu thụ một tầng. Đòn đánh bốn lần cần bốn tầng để cường hóa cả bốn."
+        }
+      },
+      {
+        "title": "Plasma Missile III",
+        "cardId": "c_30075_uni1_rsp3",
+        "body": {
+          "en": "Applies Instinct Weakness and boosts Homing Laser damage for one turn. The source favors it when the enemy is not already weak to Instinct; its weakness support also helps Instinct allies.",
+          "vi": "Gắn Điểm yếu Bản năng và tăng sát thương Homing Laser trong một lượt. Nguồn ưu tiên biến thể này khi kẻ địch chưa yếu với Bản năng; hiệu ứng điểm yếu cũng hỗ trợ đồng đội hệ Bản năng."
+        }
+      },
+      {
+        "title": "Shining Core III",
+        "cardId": "c_30075_uni2_rsp3",
+        "body": {
+          "en": "Creates two Homing Laser L on play and two more on each Ravage. This supports repeated laser cycles, especially with Selena restoring enemy Tenacity. Keep room in hand before generating more cards.",
+          "vi": "Tạo hai Homing Laser L khi dùng và thêm hai lá mỗi lần gây Suy yếu. Hiệu ứng duy trì các chuỗi laser, đặc biệt khi Selena khôi phục Sức bền của kẻ địch. Chừa chỗ trên tay trước khi tạo thêm bài."
+        }
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30075_srt4",
+      "ratings": [
+        3,
+        2,
+        2,
+        5,
+        2
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV returns to hand every turn and removes draw pressure from the main loop. I favors extra hits against already Ravaged targets but still needs drawing.",
+        "vi": "IV trở lại tay mỗi lượt, bỏ áp lực rút của vòng lặp chính. I thêm lần đánh lên mục tiêu Suy yếu nhưng vẫn cần rút được."
+      },
+      "divine": {
+        "en": "Prioritize 1 AP or 2 Vulnerable; Mark/Agony neutrals require specialized builds.",
+        "vi": "Ưu tiên 1 Điểm hành động hoặc 2 Dễ tổn thương; Dấu ấn/Thống khổ trung lập cần bộ bài chuyên biệt."
+      }
+    },
+    {
+      "cardId": "c_30075_uni1",
+      "ratings": [
+        1,
+        1,
+        5,
+        2,
+        3
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III provides Instinct weakness and strengthens Homing Laser. V mainly clears the card when that weakness is already available.",
+        "vi": "III cung cấp điểm yếu Bản năng và tăng Homing Laser. V chủ yếu loại lá khỏi vòng bài khi đã có điểm yếu đó."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 triggers twice on reactivation; still prioritize III when Instinct weakness is missing.",
+        "vi": "Rút 1 trung lập kích hoạt hai lần khi tái kích hoạt; vẫn ưu tiên III nếu thiếu điểm yếu Bản năng."
+      }
+    },
+    {
+      "cardId": "c_30075_uni2",
+      "ratings": [
+        2,
+        2,
+        5,
+        1,
+        3
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III generates enough Homing Laser L for repeated Ravage loops. V is a specialized choice when exact hit thresholds avoid needing extra lasers.",
+        "vi": "III tạo đủ Homing Laser L cho nhiều vòng Suy yếu. V là lựa chọn chuyên biệt khi ngưỡng lần đánh chính xác giúp không cần thêm laser."
+      },
+      "divine": {
+        "en": "Consider draw, cost reduction or Morale/Resolve on III.",
+        "vi": "Cân nhắc rút bài, giảm chi phí hoặc Sĩ khí/Quyết tâm cho III."
+      }
+    },
+    {
+      "cardId": "c_30075_uni3",
+      "ratings": [
+        4,
+        1,
+        2,
+        3,
+        4
+      ],
+      "preferred": "I / V",
+      "note": {
+        "en": "I reduces its cost on Ravage for general use. V adds Weakness Attack and reactivation, fitting AP-generating Sereniel setups.",
+        "vi": "I giảm chi phí khi Suy yếu, dễ dùng rộng rãi. V thêm Tấn công điểm yếu và tái kích hoạt, hợp bộ bài Sereniel tạo Điểm hành động."
+      },
+      "divine": {
+        "en": "Neutral Draw 2 is a leading option when the team can support the original cost; divines are secondary.",
+        "vi": "Rút 2 trung lập là lựa chọn hàng đầu khi đội chịu được chi phí gốc; thần thánh đứng sau."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Peko E4",
+      "score": "139.43%",
+      "note": {
+        "en": "The source lists a performance comparison without a separate explanation.",
+        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+      }
+    },
+    {
+      "name": "Peko E0",
+      "score": "125.45%",
+      "note": {
+        "en": "The source lists a performance comparison without a separate explanation.",
+        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+      }
+    },
+    {
+      "name": "Serithea E4",
+      "score": "125.01%",
+      "note": {
+        "en": "Crit Rate and Crit Damage make this Battle Pass partner a strong general alternative to low-Ego signatures.",
+        "vi": "Tỷ lệ và Sát thương chí mạng giúp đối tác Vé chiến đấu này cạnh tranh tốt với đối tác đặc trưng ở cấp Ego thấp."
+      }
+    },
+    {
+      "name": "Janet E0",
+      "score": "109.75%",
+      "note": {
+        "en": "The source lists a performance comparison without a separate explanation.",
+        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "100.00%",
+      "note": {
+        "en": "An accessible starting option with useful utility; she can move to a support character after a stronger partner becomes available.",
+        "vi": "Lựa chọn khởi đầu dễ tiếp cận, có tiện ích hỗ trợ; có thể chuyển sang nhân vật hỗ trợ sau khi bạn có đối tác mạnh hơn."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Battlefield Evolution (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Reaches 35% Crit Damage in some decks, but typically supplies only 10–20%; evaluate it against the actual setup.",
+        "vi": "Một số bộ bài đạt 35% Sát thương chí mạng, nhưng phần lớn chỉ nhận 10–20%; cần chọn theo cấu hình thực tế."
+      }
+    },
+    {
+      "name": "Judgment's Flames (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Can beat 2/2/2 when card-damage buffs are scarce and much of Sereniel’s damage hits Ravaged enemies.",
+        "vi": "Có thể vượt 2/2/2 khi thiếu hiệu ứng tăng sát thương bài và phần lớn sát thương của Sereniel đánh vào kẻ địch đang bị Phá vỡ."
+      }
+    },
+    {
+      "name": "Executioner's Tool (2) + Black Wing (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "The consistent default for most builds and modes; specialized sets can win under their specific conditions.",
+        "vi": "Lựa chọn mặc định ổn định cho nhiều bộ bài và chế độ; các bộ chuyên biệt có thể vượt trội khi đáp ứng đúng điều kiện."
+      }
+    },
+    {
+      "name": "Instinctual Growth (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Usually behind 2/2/2 in standard Save Data teams, but useful in Chaos or teams with few card-damage buffs.",
+        "vi": "Thường thua 2/2/2 trong đội hình dữ liệu lưu phổ biến, nhưng dùng được ở Chaos hoặc đội ít hiệu ứng tăng sát thương bài."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG = ATK%",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng = Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "ATK% >= Instinct DMG%",
+        "vi": "Tấn công% >= Sát thương Bản năng%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "To fully activate Sereniel's Potential 7, she needs 40% Crit Rate in the character screen. This is an easily achievable goal with good memory fragments and recommended priority.",
+    "vi": "Ưu tiên đạt 40% tỷ lệ chí mạng trên màn hình nhân vật để kích hoạt đầy đủ tiềm năng 7; dễ đạt với mảnh ký ức tốt."
+  },
+  "potentialIntro": {
+    "en": "Crit Rate% > Crit DMG% > Unique Card DMG% > Common Card DMG% >= Basic Card DMG%Sereniel’s Signature Potentials offer some extra damage for her main damage card, Homing Laser, which is essential and also includes some improvements to her early chaos Potential, smoothing out the start of runs.3-1: Adds a 50% chance to create a Homing Laser L card to the Pulse Fire card, helping with Laser generation. A useful bonus in early chaos runs and is cheap enough to unlock, so no reason not to.5-1: Increases the base damage of Sereniel’s Basic Attack Pulse Fire by 5%, with an additional 5% if Sereniel’s Crit Chance is above 20%. A low-impact unlock, which only sees noticeable benefit in Chaos, making it an optional investment.7: Increases Sereniel's Instinct DMG% by effectively 15% which makes it so ATK% is generally stronger to build on her.",
+    "vi": "Ưu tiên tỷ lệ chí mạng > sát thương chí mạng > sát thương bài đặc trưng > bài chung ≥ bài cơ bản; 3-1 cho Pulse Fire 50% cơ hội tạo Homing Laser L, rẻ và hữu ích đầu Chaos, còn 5-1 tăng Pulse Fire 5% và thêm 5% khi chí mạng >20%, có thể đầu tư sau. Tiềm năng 7 tăng hiệu quả sát thương Bản năng tổng cộng 15%, rất quan trọng và thường khiến % tấn công trở thành lựa chọn xây dựng mạnh hơn."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add a 50% chance to create 1 Homing Laser L to Pulse Fire.",
+        "vi": "Thêm 50% xác suất tạo 1 lá Homing Laser L cho Pulse Fire."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Sereniel’s Pulse Fire; If Sereniel’s Critical Chance is 20% or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng sát thương của Pulse Fire của Sereniel.; Nếu Tỷ lệ chí mạng của Sereniel đạt 20% trở lên, tăng thêm 5% vào hệ số."
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Sereniel’s Critical Chance is 20% or higher, +10% Instinct Attribute Damage Amount; If Critical Chance is 40% or higher, add an additional +5% to the modifier",
+        "vi": "Nếu Tỷ lệ chí mạng của Sereniel đạt 20% trở lên, tăng 10% lượng sát thương thuộc tính Bản năng.; Nếu Tỷ lệ chí mạng đạt 40% trở lên, tăng thêm 5% vào hệ số."
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "RFS-17"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "Tentacles is recommended over Criticism because Sereniel is typically played with Selena who does a much larger percentage of the team damage. However, Criticism will be preferred when not used as a Driver.",
+        "vi": "Ưu tiên Tentacles hơn Criticism khi Sereniel đi cùng Selena, vì Selena thường gây phần lớn sát thương đội. Nếu Sereniel tự đảm nhiệm sát thương thay vì kích hoạt đòn cho đồng đội, ưu tiên Criticism."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "RFS-17"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Contaminated Drone Lens",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "Tentacles is recommended over Criticism because Sereniel is typically played with Selena who does a much larger percentage of the team damage. However, Criticism will be preferred when not used as a Driver.",
+        "vi": "Ưu tiên Tentacles hơn Criticism khi Sereniel đi cùng Selena, vì Selena thường gây phần lớn sát thương đội. Nếu Sereniel tự đảm nhiệm sát thương thay vì kích hoạt đòn cho đồng đội, ưu tiên Criticism."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "RFS-17",
+        "W-52 Dopamine Injector"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "RFS-17",
+        "Harpoon Case of Broken Resolve"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "Corrupted Gauntlet",
+        "RFS-17"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.Many Sereniel builds will take [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] as well.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.Sometimes Sereniel might take the Equipment Engraving [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)] when using Mark effects or ways of doing Extra Attacks, as she is able to easily activate it.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được. Nhiều bộ Sereniel còn chọn khi đồng đội tăng số hành động địch thì bài tấn công đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt). Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Khi dùng Dấu ấn hoặc các nguồn đánh thêm, có thể chọn khắc ấn tăng 30% sát thương đòn đánh thêm sau khi đồng đội tạo ≥5 lá bằng kỹ năng (1 lần mỗi lượt), vì Sereniel dễ kích hoạt điều kiện."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Rather substantial upgrade in QoL, moreso because it can prevent bricking by hitting more Homing Laser-L's and/or generate more AP/status from activating normal Homing Lasers.",
+        "vi": "Cải thiện đáng kể độ thuận tiện: giảm nguy cơ kẹt vòng bài nhờ thêm Homing Laser L và/hoặc tạo thêm điểm hành động, hiệu ứng từ Homing Laser thường."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Post-buffs, now a more significant improvement in performance especially in Sortie/Chaos. However, it still has the issue of potentially losing Turn-1 Draw with other effects that Move or make something Start-of-Turn.",
+        "vi": "Sau tăng sức mạnh, cải thiện rõ hơn trong Xuất kích/Chaos. Tuy nhiên vẫn có thể mất lượt rút đầu trận do tương tác với hiệu ứng đưa bài lên tay hoặc hiệu ứng đầu lượt."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "No source commentary provided for this level.",
+        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "No source commentary provided for this level.",
+        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "No source commentary provided for this level.",
+        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Was always an incredibly strong epiphany, but now even stronger post-buffs. Effectively an additional 1.16x multiplier to all damage on-top of its Ravage effect in Save Data and a 1.45x multiplier versus bosses in Sortie/Chaos.",
+        "vi": "Rất mạnh và còn tốt hơn sau tăng sức mạnh: ngoài hiệu ứng phá sức bền, tương đương thêm hệ số 1,16 lần cho toàn bộ sát thương trong dữ liệu lưu và 1,45 lần khi đánh trùm trong Xuất kích/Chaos."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Sereniel: Generic",
+        "vi": "Sereniel đa dụng"
+      },
+      "role": {
+        "en": "Ravage-loop AP and attack engine",
+        "vi": "Lặp Suy yếu để tạo Điểm hành động và chuỗi tấn công"
+      },
+      "partner": "Peko",
+      "cards": [
+        {
+          "cardId": "c_30075_srt4_rsp4",
+          "count": 4,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_30075_uni1_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30075_uni2_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30075_uni3",
+          "count": 1,
+          "effects": {
+            "en": "Draw 2",
+            "vi": "Rút 2 lá"
+          }
+        },
+        {
+          "cardId": "c_30075_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Put AP Divines on Homing Lasers and use encounters or allies such as Selena that allow repeated Ravages. Each loop supplies AP while generating many attack-card activations for coordinated attacks. The listed Ravager teams illustrate the setup rather than exhaust its options.",
+        "vi": "Gắn Thức tỉnh thần thánh cấp Điểm hành động lên Homing Laser, kết hợp cơ chế trận đấu hoặc đồng đội như Selena để gây Suy yếu nhiều lần. Mỗi vòng vừa tạo Điểm hành động vừa kích hoạt nhiều lá tấn công, tận dụng các đòn phối hợp của Selena. Các đội lặp Suy yếu được liệt kê chỉ là ví dụ, không phải giới hạn lựa chọn đồng đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Straight Quest Variant",
+        "vi": "Biến thể nhiệm vụ Straight"
+      },
+      "role": {
+        "en": "Cassius quest-compatible attacker",
+        "vi": "Chuỗi tấn công phục vụ nhiệm vụ Cassius"
+      },
+      "partner": "Peko",
+      "cards": [
+        {
+          "cardId": "c_30075_srt4_rsp4",
+          "count": 3,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_30075_uni1_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30075_uni2_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30075_uni3",
+          "count": 1,
+          "effects": {
+            "en": "Draw 2",
+            "vi": "Rút 2 lá"
+          }
+        },
+        {
+          "cardId": "c_30075_uni4",
+          "count": 2
+        },
+        {
+          "cardId": "card_ne_00004",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Black Wing",
+        "Executioner's Tool",
+        "Cursed Corpse"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Adjust the generic deck to complete Cassius's Straight quest, making it easier to reach the Morale cap each turn and include strong 2-cost cards. It can work with Anika or other variants, but the specific changes are primarily justified by Cassius.",
+        "vi": "Điều chỉnh bản đa dụng để hoàn thành nhiệm vụ Straight của Cassius, giúp đạt trần Sĩ khí mỗi lượt dễ hơn và dùng các lá 2 Điểm hành động mạnh. Vẫn có thể ghép Anika hoặc đội khác, nhưng các thay đổi này chủ yếu được thiết kế cho Cassius nên không phải lựa chọn ưu tiên ngoài đội đó."
+      }
+    },
+    {
+      "name": {
+        "en": "Sereniel: Generic - Anika/E2",
+        "vi": "Sereniel đa dụng: Đi cùng Anika hoặc có E2"
+      },
+      "role": {
+        "en": "Reduced-Laser variant for opening consistency",
+        "vi": "Giảm số Homing Laser để ổn định bài đầu lượt"
+      },
+      "partner": "Peko",
+      "cards": [
+        {
+          "cardId": "c_30075_srt4_rsp4",
+          "count": 3,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_30075_uni1_rsp3",
+          "count": 1,
+          "effects": {
+            "en": "Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30075_uni2_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30075_uni3",
+          "count": 1,
+          "effects": {
+            "en": "Draw 2<br>Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Rút 2 lá<br>Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30075_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00043",
+          "count": 1,
+          "effects": {
+            "en": "Draw 2",
+            "vi": "Rút 2 lá"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use three Homing Lasers instead of four to accommodate Anika's two start-of-turn draws or Sereniel E2+'s two cards created at battle start. Preserve the normal Ravage/AP loop. The source's final sentence is incomplete, so no additional use case is inferred from it.",
+        "vi": "Dùng ba Homing Laser thay vì bốn để thích ứng với hai lượt rút đầu lượt của Anika hoặc hai lá được tạo khi bắt đầu trận ở Sereniel E2 trở lên. Giữ vòng Suy yếu và tạo Điểm hành động như bản đa dụng. Câu cuối trong nguồn bị thiếu nên chưa thể xác nhận thêm trường hợp sử dụng ngoài hai lý do này."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Selena",
+      "note": {
+        "en": "More Ravages mean more Homing Laser cycles. Playing Selena’s coordinated attacks first can add two attacks per Sereniel hit.",
+        "vi": "Nhiều lần Phá vỡ hơn tạo thêm chu kỳ Homing Laser. Dùng các lá phối hợp của Selena trước có thể thêm hai đòn đánh cho mỗi lần Sereniel đánh trúng."
+      }
+    },
+    {
+      "name": "Cassius",
+      "note": {
+        "en": "Morale supplies cheap damage buffs. Sereniel’s AP divines ease setup costs, and her Instinct weakness imprint helps Cassius contribute to Ravages and Selena’s extra attacks.",
+        "vi": "Sĩ khí tăng sát thương với chi phí thấp. Hiệu ứng thần thánh tạo Điểm hành động của Sereniel hỗ trợ chi phí chuẩn bị; dấu điểm yếu Bản năng giúp Cassius góp phần Phá vỡ và kích hoạt đòn đánh thêm của Selena."
+      }
+    },
+    {
+      "name": "Anika",
+      "note": {
+        "en": "Sereniel can cover the AP needed for Anika’s strongest buffs, while Anika improves Ravage and Tenacity damage.",
+        "vi": "Sereniel có thể cung cấp Điểm hành động để Anika dùng các hiệu ứng mạnh nhất; Anika đồng thời hỗ trợ sát thương Phá vỡ và sát thương Kiên cường."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Ravager",
+        "vi": "Đội khai thác Suy yếu"
+      },
+      "members": [
+        "Sereniel",
+        "Cassius",
+        "Selena"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ravager (Anika Variant)",
+        "vi": "Đội khai thác Suy yếu — biến thể Anika"
+      },
+      "members": [
+        "Sereniel",
+        "Selena",
+        "Anika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

@@ -2,14 +2,14 @@ import { expect, test } from "@playwright/test";
 
 test("card hover shows rarity and keyword explanations independently of animation", async ({ page }, testInfo) => {
   await page.goto("/combatant/renoa");
-  await page.getByRole("checkbox", { name: "Animation" }).uncheck();
+  await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   const card = page.getByRole("button", { name: "Black Veil card", exact: true });
   await card.hover();
   const tooltip = page.getByRole("tooltip");
-  await expect(tooltip).toContainText("Rarity");
-  await expect(tooltip).toContainText("Common");
-  await expect(tooltip).toContainText("Shield");
-  await expect(tooltip).toContainText(/Decrease Damage Amount taken until the next turn|Giảm lượng sát thương nhận vào cho đến lượt tiếp theo/);
+  await expect(tooltip).toContainText("Độ hiếm");
+  await expect(tooltip).toContainText("Thường");
+  await expect(tooltip).toContainText("Lá chắn");
+  await expect(tooltip).toContainText(/Decrease Damage Amount taken until the next turn|Giảm lượng sát thương phải nhận cho đến lượt tiếp theo/);
   await expect(card).toHaveAttribute("aria-describedby", await tooltip.getAttribute("id") ?? "missing");
   const cardBox = (await card.boundingBox())!;
   const tipBox = (await tooltip.boundingBox())!;
@@ -29,7 +29,7 @@ test("card tooltip supports keyboard focus and Escape without blocking the detai
   await card.focus();
   await page.keyboard.press("Tab");
   await page.keyboard.press("Shift+Tab");
-  await expect(page.getByRole("tooltip")).toContainText("Exhaust");
+  await expect(page.getByRole("tooltip")).toContainText("Kiệt sức");
   await page.keyboard.press("Escape");
   await expect(page.getByRole("tooltip")).toHaveCount(0);
   await expect(card).toBeFocused();
@@ -44,15 +44,15 @@ test("card tooltip supports keyboard focus and Escape without blocking the detai
 
 test("moving between adjacent cards replaces the tooltip without trapping the pointer", async ({ page }) => {
   await page.goto("/combatant/renoa");
-  await page.getByRole("checkbox", { name: "Animation" }).uncheck();
+  await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   const first = page.getByRole("button", { name: "Black Veil card", exact: true });
   const second = page.getByRole("button", { name: "Echo of Sorrow card", exact: true });
   await first.hover();
-  await expect(page.getByRole("tooltip")).toContainText("Shield");
+  await expect(page.getByRole("tooltip")).toContainText("Lá chắn");
   const bounds = (await second.boundingBox())!;
   await page.mouse.move(bounds.x + bounds.width / 2, bounds.y + 20);
   await expect(page.getByRole("tooltip")).toHaveCount(1);
-  await expect(page.getByRole("tooltip")).toContainText("Rare");
+  await expect(page.getByRole("tooltip")).toContainText("Hiếm");
   await page.mouse.move(0, 0);
   await expect(page.getByRole("tooltip")).toHaveCount(0);
 });

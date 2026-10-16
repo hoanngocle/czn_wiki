@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Nhà phân tích chiến lược của Azure.</><br>Một cựu Chiến binh hiện thuộc đội an ninh của Caravan Ark. Yêu thích rèn luyện cơ bắp từ thời còn là Chiến binh, anh thường khuyến khích người khác tập luyện. Từ khi trở thành nhà phân tích chiến lược, anh khẳng định vận động là điều thiết yếu để giữ đầu óc minh mẫn, dù chưa rõ điều này có đúng hay không.",
+  "infoValues": [
+    "Azure",
+    "Ngày 30 tháng 9",
+    "Phân tích tình huống",
+    "Kaito Muroi",
+    "Hyeonsu Choi"
+  ],
+  "cardDescription": "<color_orange>100%</> <color_orange><u>Lá chắn</u></><br><color_orange>1</> <color_orange><u>Phản công</u></>",
+  "terms": {
+    "T_CS00_0157": {
+      "title": "Phản công",
+      "desc": "Khi nhận Sát thương, gây <color_orange>150%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Nếu đòn đánh bị <color_orange><u>Lá chắn</u></> chặn hoàn toàn, gây <color_orange>300%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Khi hiệu ứng được kích hoạt, giảm <color_orange><u>Phản công</u></> đi <cc>1</><br>(Tối đa <cc>10</>)"
+    },
+    "CARD_SHIELD": {
+      "title": "Lá chắn",
+      "desc": "Giảm lượng Sát thương nhận vào cho đến lượt tiếp theo"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Phân tích chiến lược",
+      "descriptions": [
+        "Tăng Máu của Nhân vật được ghép cặp thêm <cc>8</>%.",
+        "Nếu Nhân vật được ghép cặp đang ở trạng thái Phản công, tăng lượng Sát thương theo Phòng thủ thêm <cc>8</>%."
+      ]
+    },
+    "2": {
+      "name": "Phân tích chiến lược",
+      "descriptions": [
+        "Tăng Máu của Nhân vật được ghép cặp thêm <cc>10</>%.",
+        "Nếu Nhân vật được ghép cặp đang ở trạng thái Phản công, tăng lượng Sát thương theo Phòng thủ thêm <cc>10</>%."
+      ]
+    },
+    "3": {
+      "name": "Phân tích chiến lược",
+      "descriptions": [
+        "Tăng Máu của Nhân vật được ghép cặp thêm <cc>12</>%.",
+        "Nếu Nhân vật được ghép cặp đang ở trạng thái Phản công, tăng lượng Sát thương theo Phòng thủ thêm <cc>12</>%."
+      ]
+    },
+    "4": {
+      "name": "Phân tích chiến lược",
+      "descriptions": [
+        "Tăng Máu của Nhân vật được ghép cặp thêm <cc>14</>%.",
+        "Nếu Nhân vật được ghép cặp đang ở trạng thái Phản công, tăng lượng Sát thương theo Phòng thủ thêm <cc>14</>%."
+      ]
+    },
+    "5": {
+      "name": "Phân tích chiến lược",
+      "descriptions": [
+        "Tăng Máu của Nhân vật được ghép cặp thêm <cc>16</>%.",
+        "Nếu Nhân vật được ghép cặp đang ở trạng thái Phản công, tăng lượng Sát thương theo Phòng thủ thêm <cc>16</>%."
+      ]
+    }
+  }
+}

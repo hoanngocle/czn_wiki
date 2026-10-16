@@ -1,0 +1,2581 @@
+{
+  "id": "30093",
+  "name": "Heidemarie",
+  "names": {
+    "en": "Heidemarie",
+    "zhs": "海德瑪麗",
+    "zht": "海德瑪麗"
+  },
+  "job": "ranger",
+  "ego": "love",
+  "rarity": 5,
+  "color": "#f25477",
+  "info": {
+    "background_text": "<color_darkgray>A hero of the past and an icon of the public.</><br>The hero who played a major role during the tragedy of the SS Edenity known as the Ellinad Incident. After retiring as an agent due to her injuries, she continued to receive overwhelming public support. She became mayor, pushed by expectations that she embody the overcoming of tragedy itself and lead the way forward.",
+    "birth_day": "ui_label_day_4th",
+    "birth_month": "ui_label_month_february",
+    "cv_en": "Not included",
+    "cv_ja": "Momoko Seto",
+    "cv_ko": "Hari Choi",
+    "cv_zhs": "cv_zhs_0070",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "30093_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@30093_info",
+    "id": "30093_info",
+    "link_combatant_face_group": "30093_face",
+    "link_combatant_voice_group": "30093_voice",
+    "link_live_event_id": "live_event_30093",
+    "link_story_content_counseling_key": "story_counseling_30093",
+    "link_town_normal_visit_group": "normal_visit_30093",
+    "link_town_policy_reaction_id": "30093",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "30093_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[30093_small_talk_01,30093_small_talk_02,30093_small_talk_03,30093_small_talk_04]",
+    "specialty": "combatant_info@specialty@30093_info",
+    "stage_success_link_combatant_voice_id": "30093_stage_success_01",
+    "touch_link_combatant_voice_id": "[30093_touch_01,30093_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_30093_srt1",
+      "name": "Sword Flash",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30093_01.webp",
+      "video": null,
+      "artKey": "start_30093_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30093_srt1_pot",
+          "name": "Sword Flash",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br>+<color_orange>30</>% Damage Amount to <cc>Effulgent Blade</> for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30093_01.webp",
+          "video": null,
+          "artKey": "start_30093_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_srt1_pot"
+        }
+      ],
+      "sourceId": "c_30093_srt1"
+    },
+    {
+      "id": "c_30093_srt2",
+      "name": "Sword Flash",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30093_01.webp",
+      "video": null,
+      "artKey": "start_30093_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30093_srt2_pot",
+          "name": "Sword Flash",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br>+<color_orange>30</>% Damage Amount to <cc>Effulgent Blade</> for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30093_01.webp",
+          "video": null,
+          "artKey": "start_30093_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_srt2_pot"
+        }
+      ],
+      "sourceId": "c_30093_srt2"
+    },
+    {
+      "id": "c_30093_srt3",
+      "name": "Sword Barrier",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30093_02.webp",
+      "video": null,
+      "artKey": "start_30093_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30093_srt3"
+    },
+    {
+      "id": "c_30093_srt4",
+      "name": "Sword Rain",
+      "cost": 1,
+      "description": "<color_orange>80%</> Damage × <color_orange>2</><br><color_orange>Attunement:</> Create <color_orange>1</> <cc>Effulgent Blade</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30093_01.webp",
+      "video": "/assets/card/unique_30093_01.webm",
+      "artKey": "unique_30093_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_CONNECT",
+          "title": "Linked",
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30093_srt4_rsp1",
+          "name": "Sword Rain",
+          "cost": 1,
+          "description": "<color_orange>80%</> Damage × <color_orange>2</><br><color_orange>Attunement:</> Create <color_orange>2</> <cc>Effulgent Blade</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_01.webp",
+          "video": "/assets/card/unique_30093_01.webm",
+          "artKey": "unique_30093_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_srt4_rsp1"
+        },
+        {
+          "id": "c_30093_srt4_rsp2",
+          "name": "Sword Rain",
+          "cost": 2,
+          "description": "<color_orange>180</>% Damage<br>Add <cc>1</> Hit for each<color_orange></> <cc>Effulgent Blade</> in hand before <color_orange><u>activation</u></><br><color_orange>Attunement:</> Create <color_orange>1</> <cc>Effulgent Blade</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_01.webp",
+          "video": "/assets/card/unique_30093_01.webm",
+          "artKey": "unique_30093_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_srt4_rsp2"
+        },
+        {
+          "id": "c_30093_srt4_rsp3",
+          "name": "Sword Rain",
+          "cost": 1,
+          "description": "<color_orange><u>Proc</u></> <color_orange>5</><color_orange></> <cc>Effulgent Blade</> in <color_orange><u>Graveyard</u></> against the target as an <color_orange><u>Extra Attack</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_01.webp",
+          "video": "/assets/card/unique_30093_01.webm",
+          "artKey": "unique_30093_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "CARD_ADDITIONAL_ATTACK",
+              "title": "Extra Attack",
+              "desc": "Damage affected by Critical Chance and Extra Damage"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_srt4_rsp3"
+        },
+        {
+          "id": "c_30093_srt4_rsp4",
+          "name": "Sword Rain",
+          "cost": 1,
+          "description": "Create <color_orange>2</> <cc>Effulgent Blade</>, then apply <color_orange><u>Retrieve</u></> to those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_01.webp",
+          "video": "/assets/card/unique_30093_01.webm",
+          "artKey": "unique_30093_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_srt4_rsp4"
+        },
+        {
+          "id": "c_30093_srt4_rsp5",
+          "name": "Sword Rain",
+          "cost": 3,
+          "description": "<color_orange>500</>% Damage to all enemies<br>If <cc>Effulgent Release</> is in hand, <color_orange><u>Exhaust</u></> it, and +<color_orange>100</>% Damage Amount to this card for each<color_orange></> <cc>Effulgent Blade</> in <color_orange><u>Graveyard</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_01.webp",
+          "video": "/assets/card/unique_30093_01.webm",
+          "artKey": "unique_30093_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_TERMINATION",
+              "title": "Finale",
+              "desc": "When this card is <color_orange><u>activate</u></>d, end turn"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_30093_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_30093_uni1",
+      "name": "Hero to All",
+      "cost": 1,
+      "description": "<color_orange><u>Draw</u></> <color_orange>3</><br>Apply <color_orange><u>Link</u></>ed to those cards for this turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30093_02.webp",
+      "video": "/assets/card/unique_30093_02.webm",
+      "artKey": "unique_30093_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_TESTAMENT",
+          "title": "Quietus",
+          "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_CONNECT",
+          "title": "Linked",
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+        },
+        {
+          "id": "CARD_DRAW",
+          "title": "Draw",
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30093_uni1_rsp1",
+          "name": "Hero to All",
+          "cost": 1,
+          "description": "<color_orange><u>Draw</u></> <color_orange>3</><br>Apply <color_orange><u>Link</u></>ed to those cards for this turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_02.webp",
+          "video": "/assets/card/unique_30093_02.webm",
+          "artKey": "unique_30093_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni1_rsp1"
+        },
+        {
+          "id": "c_30093_uni1_rsp2",
+          "name": "Hero to All",
+          "cost": 1,
+          "description": "<color_orange><u>Draw</u></> <color_orange>3</><br>Apply <color_orange><u>Linked</u></> to <cc>1</>-Cost or lower cards in hand for this turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_02.webp",
+          "video": "/assets/card/unique_30093_02.webm",
+          "artKey": "unique_30093_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni1_rsp2"
+        },
+        {
+          "id": "c_30093_uni1_rsp3",
+          "name": "Hero to All",
+          "cost": 0,
+          "description": "<color_orange><u>Draw</u></> <color_orange>1</><br>Apply <color_orange><u>Linked</u></> to <color_orange><u>Quietus</u></> cards in hand for this turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_02.webp",
+          "video": "/assets/card/unique_30093_02.webm",
+          "artKey": "unique_30093_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            },
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni1_rsp3"
+        },
+        {
+          "id": "c_30093_uni1_rsp4",
+          "name": "Hero to All",
+          "cost": 0,
+          "description": "Select <cc>1</> card from either <color_orange><u>Draw Pile</u></> or <color_orange><u>Discard Pile</u></>, then apply <color_orange><u>Linked</u></> to that card and move to hand",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_02.webp",
+          "video": "/assets/card/unique_30093_02.webm",
+          "artKey": "unique_30093_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_EXHAUST_N",
+              "title": "Exhaust 2",
+              "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_PLACE_DISCARD_2",
+              "title": "Discard Pile",
+              "desc": "The pile where Discarded Cards move to (max <cc>200</>)"
+            },
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni1_rsp4"
+        },
+        {
+          "id": "c_30093_uni1_rsp5",
+          "name": "Hero to All",
+          "cost": 1,
+          "description": "<color_orange><u>Draw</u></> <color_orange>2</> Attack Cards of this unit<br>Apply <color_orange><u>Linked</u></> to all Attack Cards in hand for this turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_02.webp",
+          "video": "/assets/card/unique_30093_02.webm",
+          "artKey": "unique_30093_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_30093_uni1"
+    },
+    {
+      "id": "c_30093_uni2",
+      "name": "Thread of Light",
+      "cost": 1,
+      "description": "<color_orange>120%</> Damage<br>+<color_orange>120</>% Damage Amount for each <color_orange><u>Linked</u></> card in hand before <color_orange><u>activation</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30093_03.webp",
+      "video": "/assets/card/unique_30093_03.webm",
+      "artKey": "unique_30093_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_CONNECT",
+          "title": "Linked",
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_CONNECT",
+          "title": "Linked",
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30093_uni2_rsp1",
+          "name": "Thread of Light",
+          "cost": 1,
+          "description": "<color_orange>180%</> Damage<br>+<color_orange>180</>% Damage Amount for each <color_orange><u>Linked</u></> card in hand before <color_orange><u>activation</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_03.webp",
+          "video": "/assets/card/unique_30093_03.webm",
+          "artKey": "unique_30093_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni2_rsp1"
+        },
+        {
+          "id": "c_30093_uni2_rsp2",
+          "name": "Thread of Light",
+          "cost": 2,
+          "description": "<color_orange>300</>% Damage<br>If <cc>3</> or more <color_orange><u>Linked</u></> cards are in hand before <color_orange><u>activation</u></>, <cc>3</>x the Damage",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_03.webp",
+          "video": "/assets/card/unique_30093_03.webm",
+          "artKey": "unique_30093_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni2_rsp2"
+        },
+        {
+          "id": "c_30093_uni2_rsp3",
+          "name": "Thread of Light",
+          "cost": 1,
+          "description": "<color_orange>100</>% Damage<br>If this card is in hand or <color_orange><u>Graveyard</u></>, +<color_orange>80</>% Damage Amount to <color_orange><u>Linked</u></> cards",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_03.webp",
+          "video": "/assets/card/unique_30093_03.webm",
+          "artKey": "unique_30093_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni2_rsp3"
+        },
+        {
+          "id": "c_30093_uni2_rsp4",
+          "name": "Thread of Light",
+          "cost": 3,
+          "description": "<color_orange><u>Proc</u></> all <color_orange><u>Linked</u></> cards in hand without Discarding them",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_03.webp",
+          "video": "/assets/card/unique_30093_03.webm",
+          "artKey": "unique_30093_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni2_rsp4"
+        },
+        {
+          "id": "c_30093_uni2_rsp5",
+          "name": "Thread of Light",
+          "cost": 2,
+          "description": "When <color_orange><u>use</u></>d, <color_orange>350</>% Damage × <color_orange>2</><br>When this card is Discarded, <color_orange>300%</> Damage to all enemies",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30093_03.webp",
+          "video": "/assets/card/unique_30093_03.webm",
+          "artKey": "unique_30093_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_THROW",
+              "title": "Use",
+              "desc": "Using a card manually"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_30093_uni2"
+    },
+    {
+      "id": "c_30093_uni3",
+      "name": "Effulgent Expansion",
+      "cost": 2,
+      "description": "Create <color_orange>2</> <cc>Effulgent Blade</><br>+<color_orange>50</>% Damage Amount to <cc>Effulgent Blade</> for <cc>1</> turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_30093_04.webp",
+      "video": "/assets/card/unique_30093_04.webm",
+      "artKey": "unique_30093_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_TESTAMENT",
+          "title": "Quietus",
+          "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30093_uni3_rsp1",
+          "name": "Effulgent Expansion",
+          "cost": 2,
+          "description": "Create <color_orange>2</> <cc>Effulgent Blade</><br>+<color_orange>70</>% Damage Amount to <cc>Effulgent Blade</> for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30093_04.webp",
+          "video": "/assets/card/unique_30093_04.webm",
+          "artKey": "unique_30093_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_uni3_rsp1"
+        },
+        {
+          "id": "c_30093_uni3_rsp2",
+          "name": "Effulgent Expansion",
+          "cost": 2,
+          "description": "Create <color_orange>2</> <cc>Effulgent Blade</><br>+<color_orange>200</>% Damage Amount to the next <color_orange>2</> <cc>Effulgent Blade</>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30093_04.webp",
+          "video": "/assets/card/unique_30093_04.webm",
+          "artKey": "unique_30093_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_uni3_rsp2"
+        },
+        {
+          "id": "c_30093_uni3_rsp3",
+          "name": "Effulgent Expansion",
+          "cost": 2,
+          "description": "Create <cc>Effulgent Blade</> for each<color_orange></> <color_orange><u>Linked</u></> card in hand",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30093_04.webp",
+          "video": "/assets/card/unique_30093_04.webm",
+          "artKey": "unique_30093_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni3_rsp3"
+        },
+        {
+          "id": "c_30093_uni3_rsp4",
+          "name": "Effulgent Expansion",
+          "cost": 2,
+          "description": "Create <color_orange>6</> <cc>Effulgent Blade</> in <color_orange><u>Discard Pile</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30093_04.webp",
+          "video": "/assets/card/unique_30093_04.webm",
+          "artKey": "unique_30093_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_PLACE_DISCARD_2",
+              "title": "Discard Pile",
+              "desc": "The pile where Discarded Cards move to (max <cc>200</>)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni3_rsp4"
+        },
+        {
+          "id": "c_30093_uni3_rsp5",
+          "name": "Effulgent Expansion",
+          "cost": 2,
+          "description": "At the start of the turn, create <color_orange>2</> <cc>Effulgent Blade</><br>+<color_orange>50</>% Damage Amount to <cc>Effulgent Blade</>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30093_04.webp",
+          "video": "/assets/card/unique_30093_04.webm",
+          "artKey": "unique_30093_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_TESTAMENT",
+              "title": "Quietus",
+              "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30093_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_30093_uni3"
+    },
+    {
+      "id": "c_30093_uni4",
+      "name": "Effulgent Compression",
+      "cost": 0,
+      "description": "When moved to <color_orange><u>Graveyard</u></>, <color_orange>1</> <color_orange><u>Effulgent Light</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_30093_05.webp",
+      "video": "/assets/card/unique_30093_05.webm",
+      "artKey": "unique_30093_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_UNPLAYABLE",
+          "title": "Unactivatable",
+          "desc": "This card cannot be activated"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_CONNECT",
+          "title": "Linked",
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+        },
+        {
+          "id": "TALENT_RECALL_N",
+          "title": "Retrieve 3",
+          "desc": "When this card moves to the <color_orange><u>Graveyard</u></>, return it to hand (up to <color_orange>3</> times)<br>Upon activation, Retrieve decreases by <cc>1</>"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_1059",
+          "title": "Effulgent Light",
+          "desc": "When Effulgent Light stacks to <cc>3</>, change <cc>Effulgent Compression</> into <cc>Effulgent Release</><br>On effect activation, remove Effulgent Light"
+        },
+        {
+          "id": "CARD_TOMB",
+          "title": "Graveyard",
+          "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30093_uni4_lbk",
+          "name": "Effulgent Compression",
+          "cost": 0,
+          "description": "When moved to <color_orange><u>Graveyard</u></>, <color_orange>1</> <color_orange><u>Effulgent Light</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_30093_05.webp",
+          "video": "/assets/card/unique_30093_05.webm",
+          "artKey": "unique_30093_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_UNPLAYABLE",
+              "title": "Unactivatable",
+              "desc": "This card cannot be activated"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_CONNECT",
+              "title": "Linked",
+              "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+            },
+            {
+              "id": "TALENT_RECALL_N",
+              "title": "Retrieve 3",
+              "desc": "When this card moves to the <color_orange><u>Graveyard</u></>, return it to hand (up to <color_orange>3</> times)<br>Upon activation, Retrieve decreases by <cc>1</>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "T_CS01_1060",
+              "title": "Effulgent Light",
+              "desc": "When Effulgent Light stacks to <cc>3</>, change <cc>Effulgent Compression</> into <cc>Effulgent Release</><br>On effect activation, remove Effulgent Light"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30093_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_30093_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_30093_eps",
+    "name": "Elysium of Blades",
+    "cost": 5,
+    "description": "<color_orange>400%</> Damage<br>+<color_orange>80</>% Damage Amount for each card Discarded this battle (max <color_orange>20</> cards)",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_30093_01.webp",
+    "video": null,
+    "artKey": "collapse_30093_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [],
+    "variants": [
+      {
+        "id": "c_30093_eps_lbk",
+        "name": "Elysium of Blades",
+        "cost": 5,
+        "description": "<color_orange>600%</> Damage<br>+<color_orange>100</>% Damage Amount for each card Discarded this battle (max <color_orange>30</> cards)",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_30093_01.webp",
+        "video": null,
+        "artKey": "collapse_30093_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [],
+        "variants": [],
+        "sourceId": "c_30093_eps_lbk"
+      }
+    ],
+    "sourceId": "c_30093_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_30093_col",
+      "name": "Guilt",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_30093_02.webp",
+      "video": null,
+      "artKey": "collapse_30093_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30093_col"
+    },
+    {
+      "id": "c_30093_col2",
+      "name": "Guilt",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_30093_02.webp",
+      "video": null,
+      "artKey": "collapse_2_30093_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30093_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "love",
+          "id": "30093",
+          "job": "ranger",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30093_col",
+        "name": "Guilt",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_30093_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "love",
+          "id": "30093",
+          "job": "ranger",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30093_col2",
+        "name": "Guilt",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_30093_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "guilty_conscience",
+    "collapse_illustration": "collapse/collapse_illustration/guilty_conscience",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "love",
+        "id": "30093",
+        "job": "ranger",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 5,
+      "desc_display": "<color_orange>400%</> Damage<br>+<color_orange>80</>% Damage Amount for each card Discarded this battle (max <color_orange>20</> cards)",
+      "ego_type": "EGO_OWNER",
+      "id": "c_30093_eps",
+      "name": "Elysium of Blades",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 5,
+          "desc_display": "<color_orange>600%</> Damage<br>+<color_orange>100</>% Damage Amount for each card Discarded this battle (max <color_orange>30</> cards)",
+          "ego_type": "EGO_OWNER",
+          "id": "c_30093_eps_lbk",
+          "name": "Elysium of Blades",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_30093_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_30093_eps_lbk_01",
+            "c_30093_eps_lbk_02",
+            "c_30093_eps_lbk_03"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": []
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_30093_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_30093_eps_01",
+        "c_30093_eps_02",
+        "c_30093_eps_03"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": []
+    },
+    "collapse_text": "collapse_text/collapse_text_guilty_conscience",
+    "desc": "Every time this character enters battle, their stress increases by <cc>10</>.",
+    "id": "collapse_30093",
+    "link_psychosis_id": "psychosis_1008_3",
+    "name": "Guilt"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>200</>% Damage Amount to the <color_orange><u>Effulgent Release</></> card, and the added Damage Amount for each <color_orange><u>Effulgent Blade</></> in Graveyard becomes +<color_orange>120</>%.",
+      "group": "limit_30093",
+      "id": "limit_30093_1",
+      "illust": "unique_30093_01",
+      "link_card_id": "[c_30093_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of battle, move the <color_orange><u>Effulgent Compression</></> card to hand.<br>At the start of the turn, gain <color_orange>5</> <color_orange>Crimson Blade</>.<br><color_orange>Crimson Blade</>: When a Linked card is $use$d or Discarded, <color_orange>120</>% Extra Attack to the enemy with the highest HP, and when $use$d or Discarded, decrease <color_orange>Crimson Blade</> by <color_orange>1</> (max <color_orange>8</> stacks).",
+      "group": "limit_30093",
+      "id": "limit_30093_2",
+      "illust": "unique_30093_02",
+      "link_card_id": "[c_30093_uni4]",
+      "link_cs_id": "[cs06_0163]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>200</>% Damage Amount to <color_orange><u>Elysium of Blades</></>, and change the +<color_orange>80</>% Damage Amount (max <color_orange>20</> cards) effect to +<color_orange>100</>% (max <color_orange>30</> cards) Damage Amount for each card Discarded this battle.",
+      "group": "limit_30093",
+      "id": "limit_30093_3",
+      "illust": "collapse_30093_01",
+      "link_card_id": "[c_30093_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "When Heidemarie’s Linked cards are $use$d or Discarded, gain <color_orange>1</> <color_orange>Effulgent Chain</>.<br><color_orange>Effulgent Chain</>: +<color_orange>5</>% Damage Amount to Heidemarie (max <color_orange>10</> stacks)",
+      "group": "limit_30093",
+      "id": "limit_30093_4",
+      "illust": "unique_30093_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0164]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_30093",
+      "id": "limit_30093_5",
+      "illust": "unique_30093_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD_OVERWRITE",
+      "break_value": "[1]",
+      "desc": "Change created <color_orange><u>Effulgent Blade</></> cards to <color_orange>All Attribute</> Cards.<br>Each time <color_orange>Crimson Blade</> is $activate$d, +<color_orange>40</>% Damage Amount to <color_orange>Crimson Blade</> (max +<color_orange>480</>%).",
+      "group": "limit_30093",
+      "id": "limit_30093_6",
+      "illust": "unique_30093_05",
+      "link_card_id": "[c_30093_cre1_mut1]",
+      "link_cs_id": "[cs06_0166]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "300931001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "300932001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "300932002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "300932003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "300932004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "300932005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "300932006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "300932007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "300932008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "300932009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "300932010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "300932011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "300932012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "300932013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "300932014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "300932015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "300932016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "300933001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "300933002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "300933003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "300933004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "300933005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "300933006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "300933007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "300933008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "300933009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "300933010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "300933011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "300933012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "300933013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "300933014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "300933015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "300933016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Add the following effect to the <color_orange><u>Sword Flash</></> card: +<color_orange>30</>% Damage Amount to <color_orange><u>Effulgent Blade</></> for <color_orange>1</> turn.",
+      "id": "300933101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "300934001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "300934002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "300934003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "300934004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "300934005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "300934006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "300934007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "300934008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "300934009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "300934010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "300934011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "300934012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "300934013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "300934014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "300934015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "300934016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "300935001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "300935002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "300935003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "300935004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "300935005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Heidemarie’s <color_orange><u>Sword Flash</></>, and if Heidemarie’s Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier.",
+      "id": "300935101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "300935201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "300936001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "300936002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "300936003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "300936004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "300936005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Heidemarie’s Attack is <color_orange>600</> or higher, +<color_orange>5</>% Passion Attribute Damage Amount, and for every <color_orange>20</> Attack exceeding 600, add an additional +<color_orange>2</>%<br>(additional +<color_orange>10</>% max)",
+      "id": "300937001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "30093",
+  "sourceFile": "docs/combatant/current/api/czn/characters/30093.html"
+}

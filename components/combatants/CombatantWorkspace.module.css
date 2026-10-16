@@ -32,9 +32,9 @@
 .newBadge { position: absolute; top: 6px; right: -18px; transform: rotate(45deg); width: 70px; padding: 1px 0; text-align: center; color: #fff; background: #f3667d; font-size: 10px; font-weight: 700; }
 .empty { grid-column: 1 / -1; text-align: center; color: var(--text-secondary); padding: 24px; }
 .detail { min-width: 0; }
-.combatantDetail { padding: 14px 16px; }
+.combatantDetail { padding: 14px 16px; container: combatant-detail / inline-size; }
 .detailHeader { display: flex; align-items: center; gap: 16px; min-height: 120px; padding-left: 16px; }
-.identity { min-width: 0; }
+.identity { min-width: 0; flex: 1; }
 .actions { display: flex; gap: 8px; margin-left: auto; align-self: flex-start; color: var(--detail-action-text); }
 .combatantDetail { --detail-action-text: #0000ff; --detail-action-bg: #e5f3f7; }
 :global(html[data-theme="dark"]) .combatantDetail { --detail-action-text: #94c8ff; --detail-action-bg: #254457; }
@@ -44,13 +44,13 @@
 .face { width: 120px; height: 120px; position: relative; display: flex; align-items: center; justify-content: center; flex: 0 0 120px; }
 .facePortrait { width: 86%; height: 86%; border-radius: 50%; object-fit: cover; object-position: top center; background: var(--bg-tertiary); box-shadow: 0 0 0 3px #333, 0 2px 5px #0009; }
 .faceFrame { object-fit: contain; pointer-events: none; }
-.meta { display: flex; align-items: center; gap: 24px; text-transform: capitalize; color: var(--text-primary); font-size: 16px; }
+.meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 24px; text-transform: capitalize; color: var(--text-primary); font-size: 16px; }
 .meta > span { display: flex; align-items: center; gap: 4px; }.meta img { object-fit: contain; }
 .jobFallback { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: #333; color: white; font-size: 14px; }
 .nameRow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .detailHeader h1 { margin: 0; font-size: 28px; line-height: 1.4; }
 .rarityStars { display: flex; align-items: center; gap: 1px; }
-.detailHeader p { margin: 4px 0 0; color: var(--text-tertiary); font-size: 14px; }
+.detailHeader p { margin: 4px 0 0; color: var(--text-secondary); font-size: 14px; line-height: 1.65; }
 .missing { margin-top: 30px; padding: 24px; border: 1px solid var(--border-primary); border-radius: 8px; background: var(--bg-secondary); }
 .mobileOpen, .scrim { display: none; }
 @media (max-width: 767px) {
@@ -70,4 +70,10 @@
   .rarityStars img { width: 16px; height: 16px; }
   .actions { flex: 0 0 100%; min-width: 0; box-sizing: border-box; margin: 0; padding-left: 16px; gap: 7px; }.actions span { padding: 4px 8px; font-size: 21px; }.actions b { display: none; }
   .detailHeader h1 { font-size: 21px; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .workspace { grid-template-columns: 280px minmax(0, 1fr); }
+  .detailHeader { padding-left: 0; flex-wrap: wrap; }
+  .actions { flex-basis: 100%; justify-content: flex-end; }
 }

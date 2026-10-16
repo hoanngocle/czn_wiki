@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Tổng giám đốc Tập đoàn Astron.</><br>Là tổng giám đốc Astron Corp, công ty chuyên bán tàu vận tải cỡ nhỏ, cô tài trợ cho nhiều chiến binh. Dù thiếu kiến thức chiến đấu, mong muốn chân thành được hỗ trợ và tài trợ cho các chiến binh của cô là điều không thể phủ nhận.",
+  "infoValues": [
+    "Con người",
+    "Ngày 25 tháng 10",
+    "Ru Thing",
+    "Ahrong Kim"
+  ],
+  "cardDescription": "<color_orange><u>Rút</u></> <color_orange>1</> lá Cường hóa<br>Nếu không có lá Cường hóa trong <color_orange><u>Chồng bài rút</u></>, <color_orange><u>Rút</u></> <color_orange>1</> lá",
+  "terms": {
+    "CARD_DECK_2": {
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Hỗ trợ tài chính",
+      "descriptions": [
+        "Tăng <cc>8</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>10</>% lượng sát thương Đòn đánh thêm của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt một lá Cường hóa hoặc Kỹ năng, có <cc>25</>% cơ hội nhận <cc>1</> Sĩ khí trong <cc>1</> lượt."
+      ]
+    },
+    "2": {
+      "name": "Hỗ trợ tài chính",
+      "descriptions": [
+        "Tăng <cc>10</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>13</>% lượng sát thương Đòn đánh thêm của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt một lá Cường hóa hoặc Kỹ năng, có <cc>32</>% cơ hội nhận <cc>1</> Sĩ khí trong <cc>1</> lượt."
+      ]
+    },
+    "3": {
+      "name": "Hỗ trợ tài chính",
+      "descriptions": [
+        "Tăng <cc>12</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>15</>% lượng sát thương Đòn đánh thêm của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt một lá Cường hóa hoặc Kỹ năng, có <cc>38</>% cơ hội nhận <cc>1</> Sĩ khí trong <cc>1</> lượt."
+      ]
+    },
+    "4": {
+      "name": "Hỗ trợ tài chính",
+      "descriptions": [
+        "Tăng <cc>14</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>18</>% lượng sát thương Đòn đánh thêm của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt một lá Cường hóa hoặc Kỹ năng, có <cc>44</>% cơ hội nhận <cc>1</> Sĩ khí trong <cc>1</> lượt."
+      ]
+    },
+    "5": {
+      "name": "Hỗ trợ tài chính",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>20</>% lượng sát thương Đòn đánh thêm của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp Kích hoạt một lá Cường hóa hoặc Kỹ năng, có <cc>50</>% cơ hội nhận <cc>1</> Sĩ khí trong <cc>1</> lượt."
+      ]
+    }
+  }
+}

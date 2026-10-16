@@ -14,6 +14,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     "docs/wiki.e7bot.top/**",
     "docs/www.prydwen.gg/**",
+    // Saved third-party pages contain bundled JavaScript, not application source.
+    "docs/**/js/**",
     ".codegraph/**",
     "playwright-report/**",
     "test-results/**",

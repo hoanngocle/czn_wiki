@@ -1,0 +1,914 @@
+{
+  "id": "20011",
+  "name": "Daisy",
+  "sourceUrl": "https://wiki.e7bot.top/#/czn/partner/20011",
+  "profile": "Wolf Platoon reconnaissance scout.\nA versatile support agent active in communications, maintenance, and scouting. Her diligent execution of tasks despite her small stature has earned her the admiration of her squad, though she personally has a low self-assessment.",
+  "info": [
+    {
+      "label": "Race Type",
+      "value": "Human"
+    },
+    {
+      "label": "Birthday",
+      "value": "May 27th"
+    },
+    {
+      "label": "Specialty",
+      "value": "Dowsing"
+    },
+    {
+      "label": "CV",
+      "value": "中: Qin Wenjing / 日: Yuumi Narusawa"
+    }
+  ],
+  "card": {
+    "cost": 2,
+    "description": "180% Shield\n1 Morale for 1 turn",
+    "image": "/api/assets/file/czn/data/card_illustration/support_20011_01.webp",
+    "name": "Commencing Detection!"
+  },
+  "passives": [
+    {
+      "descriptions": [
+        "Increase the assigned Combatant’s Attack by 8%.\nIncrease Damage Amount of the assigned Combatant’s Extra Attacks by 10%.",
+        "When the assigned Combatant Draws for the first time each turn using an ability, has a 20% chance to gain 1 Morale for 1 turn."
+      ],
+      "level": 1,
+      "name": "Dowsing"
+    },
+    {
+      "descriptions": [
+        "Increase the assigned Combatant’s Attack by 10%.\nIncrease Damage Amount of the assigned Combatant’s Extra Attacks by 13%.",
+        "When the assigned Combatant Draws for the first time each turn using an ability, has a 25% chance to gain 1 Morale for 1 turn."
+      ],
+      "level": 2,
+      "name": "Dowsing"
+    },
+    {
+      "descriptions": [
+        "Increase the assigned Combatant’s Attack by 12%.\nIncrease Damage Amount of the assigned Combatant’s Extra Attacks by 15%.",
+        "When the assigned Combatant Draws for the first time each turn using an ability, has a 30% chance to gain 1 Morale for 1 turn."
+      ],
+      "level": 3,
+      "name": "Dowsing"
+    },
+    {
+      "descriptions": [
+        "Increase the assigned Combatant’s Attack by 14%.\nIncrease Damage Amount of the assigned Combatant’s Extra Attacks by 18%.",
+        "When the assigned Combatant Draws for the first time each turn using an ability, has a 35% chance to gain 1 Morale for 1 turn."
+      ],
+      "level": 4,
+      "name": "Dowsing"
+    },
+    {
+      "descriptions": [
+        "Increase the assigned Combatant’s Attack by 16%.\nIncrease Damage Amount of the assigned Combatant’s Extra Attacks by 20%.",
+        "When the assigned Combatant Draws for the first time each turn using an ability, has a 40% chance to gain 1 Morale for 1 turn."
+      ],
+      "level": 5,
+      "name": "Dowsing"
+    }
+  ],
+  "stats": [
+    {
+      "attack": 16,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 0,
+      "level": 1
+    },
+    {
+      "attack": 17,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 1,
+      "level": 2
+    },
+    {
+      "attack": 18,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 2,
+      "level": 3
+    },
+    {
+      "attack": 20,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 3,
+      "level": 4
+    },
+    {
+      "attack": 21,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 4,
+      "level": 5
+    },
+    {
+      "attack": 22,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 5,
+      "level": 6
+    },
+    {
+      "attack": 23,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 6,
+      "level": 7
+    },
+    {
+      "attack": 25,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 7,
+      "level": 8
+    },
+    {
+      "attack": 26,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 8,
+      "level": 9
+    },
+    {
+      "attack": 28,
+      "breakthrough": false,
+      "defense": 0,
+      "hp": 10,
+      "level": 10
+    },
+    {
+      "attack": 30,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 16,
+      "level": 11
+    },
+    {
+      "attack": 32,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 17,
+      "level": 12
+    },
+    {
+      "attack": 33,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 18,
+      "level": 13
+    },
+    {
+      "attack": 34,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 19,
+      "level": 14
+    },
+    {
+      "attack": 35,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 21,
+      "level": 15
+    },
+    {
+      "attack": 37,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 22,
+      "level": 16
+    },
+    {
+      "attack": 38,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 23,
+      "level": 17
+    },
+    {
+      "attack": 40,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 24,
+      "level": 18
+    },
+    {
+      "attack": 41,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 25,
+      "level": 19
+    },
+    {
+      "attack": 43,
+      "breakthrough": false,
+      "defense": 1,
+      "hp": 27,
+      "level": 20
+    },
+    {
+      "attack": 45,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 33,
+      "level": 21
+    },
+    {
+      "attack": 46,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 34,
+      "level": 22
+    },
+    {
+      "attack": 47,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 35,
+      "level": 23
+    },
+    {
+      "attack": 49,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 36,
+      "level": 24
+    },
+    {
+      "attack": 50,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 38,
+      "level": 25
+    },
+    {
+      "attack": 52,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 39,
+      "level": 26
+    },
+    {
+      "attack": 53,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 40,
+      "level": 27
+    },
+    {
+      "attack": 55,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 41,
+      "level": 28
+    },
+    {
+      "attack": 56,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 42,
+      "level": 29
+    },
+    {
+      "attack": 57,
+      "breakthrough": false,
+      "defense": 2,
+      "hp": 44,
+      "level": 30
+    },
+    {
+      "attack": 59,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 50,
+      "level": 31
+    },
+    {
+      "attack": 61,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 51,
+      "level": 32
+    },
+    {
+      "attack": 62,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 52,
+      "level": 33
+    },
+    {
+      "attack": 64,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 53,
+      "level": 34
+    },
+    {
+      "attack": 65,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 55,
+      "level": 35
+    },
+    {
+      "attack": 67,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 56,
+      "level": 36
+    },
+    {
+      "attack": 68,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 57,
+      "level": 37
+    },
+    {
+      "attack": 69,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 58,
+      "level": 38
+    },
+    {
+      "attack": 70,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 59,
+      "level": 39
+    },
+    {
+      "attack": 72,
+      "breakthrough": false,
+      "defense": 3,
+      "hp": 61,
+      "level": 40
+    },
+    {
+      "attack": 74,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 67,
+      "level": 41
+    },
+    {
+      "attack": 76,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 68,
+      "level": 42
+    },
+    {
+      "attack": 77,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 69,
+      "level": 43
+    },
+    {
+      "attack": 79,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 70,
+      "level": 44
+    },
+    {
+      "attack": 80,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 72,
+      "level": 45
+    },
+    {
+      "attack": 81,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 73,
+      "level": 46
+    },
+    {
+      "attack": 82,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 74,
+      "level": 47
+    },
+    {
+      "attack": 84,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 75,
+      "level": 48
+    },
+    {
+      "attack": 85,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 76,
+      "level": 49
+    },
+    {
+      "attack": 87,
+      "breakthrough": false,
+      "defense": 4,
+      "hp": 78,
+      "level": 50
+    },
+    {
+      "attack": 89,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 84,
+      "level": 51
+    },
+    {
+      "attack": 91,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 85,
+      "level": 52
+    },
+    {
+      "attack": 92,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 86,
+      "level": 53
+    },
+    {
+      "attack": 93,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 87,
+      "level": 54
+    },
+    {
+      "attack": 94,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 89,
+      "level": 55
+    },
+    {
+      "attack": 96,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 90,
+      "level": 56
+    },
+    {
+      "attack": 97,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 91,
+      "level": 57
+    },
+    {
+      "attack": 98,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 92,
+      "level": 58
+    },
+    {
+      "attack": 99,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 93,
+      "level": 59
+    },
+    {
+      "attack": 101,
+      "breakthrough": false,
+      "defense": 5,
+      "hp": 95,
+      "level": 60
+    },
+    {
+      "attack": 16,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 0,
+      "level": 1
+    },
+    {
+      "attack": 17,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 1,
+      "level": 2
+    },
+    {
+      "attack": 18,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 2,
+      "level": 3
+    },
+    {
+      "attack": 20,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 3,
+      "level": 4
+    },
+    {
+      "attack": 21,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 4,
+      "level": 5
+    },
+    {
+      "attack": 22,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 5,
+      "level": 6
+    },
+    {
+      "attack": 23,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 6,
+      "level": 7
+    },
+    {
+      "attack": 25,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 7,
+      "level": 8
+    },
+    {
+      "attack": 26,
+      "breakthrough": true,
+      "defense": 0,
+      "hp": 8,
+      "level": 9
+    },
+    {
+      "attack": 29,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 15,
+      "level": 10
+    },
+    {
+      "attack": 30,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 16,
+      "level": 11
+    },
+    {
+      "attack": 32,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 17,
+      "level": 12
+    },
+    {
+      "attack": 33,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 18,
+      "level": 13
+    },
+    {
+      "attack": 34,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 19,
+      "level": 14
+    },
+    {
+      "attack": 35,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 21,
+      "level": 15
+    },
+    {
+      "attack": 37,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 22,
+      "level": 16
+    },
+    {
+      "attack": 38,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 23,
+      "level": 17
+    },
+    {
+      "attack": 40,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 24,
+      "level": 18
+    },
+    {
+      "attack": 41,
+      "breakthrough": true,
+      "defense": 1,
+      "hp": 25,
+      "level": 19
+    },
+    {
+      "attack": 44,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 32,
+      "level": 20
+    },
+    {
+      "attack": 45,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 33,
+      "level": 21
+    },
+    {
+      "attack": 46,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 34,
+      "level": 22
+    },
+    {
+      "attack": 47,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 35,
+      "level": 23
+    },
+    {
+      "attack": 49,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 36,
+      "level": 24
+    },
+    {
+      "attack": 50,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 38,
+      "level": 25
+    },
+    {
+      "attack": 52,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 39,
+      "level": 26
+    },
+    {
+      "attack": 53,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 40,
+      "level": 27
+    },
+    {
+      "attack": 55,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 41,
+      "level": 28
+    },
+    {
+      "attack": 56,
+      "breakthrough": true,
+      "defense": 2,
+      "hp": 42,
+      "level": 29
+    },
+    {
+      "attack": 58,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 49,
+      "level": 30
+    },
+    {
+      "attack": 59,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 50,
+      "level": 31
+    },
+    {
+      "attack": 61,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 51,
+      "level": 32
+    },
+    {
+      "attack": 62,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 52,
+      "level": 33
+    },
+    {
+      "attack": 64,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 53,
+      "level": 34
+    },
+    {
+      "attack": 65,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 55,
+      "level": 35
+    },
+    {
+      "attack": 67,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 56,
+      "level": 36
+    },
+    {
+      "attack": 68,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 57,
+      "level": 37
+    },
+    {
+      "attack": 69,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 58,
+      "level": 38
+    },
+    {
+      "attack": 70,
+      "breakthrough": true,
+      "defense": 3,
+      "hp": 59,
+      "level": 39
+    },
+    {
+      "attack": 73,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 66,
+      "level": 40
+    },
+    {
+      "attack": 74,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 67,
+      "level": 41
+    },
+    {
+      "attack": 76,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 68,
+      "level": 42
+    },
+    {
+      "attack": 77,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 69,
+      "level": 43
+    },
+    {
+      "attack": 79,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 70,
+      "level": 44
+    },
+    {
+      "attack": 80,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 72,
+      "level": 45
+    },
+    {
+      "attack": 81,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 73,
+      "level": 46
+    },
+    {
+      "attack": 82,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 74,
+      "level": 47
+    },
+    {
+      "attack": 84,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 75,
+      "level": 48
+    },
+    {
+      "attack": 85,
+      "breakthrough": true,
+      "defense": 4,
+      "hp": 76,
+      "level": 49
+    },
+    {
+      "attack": 88,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 83,
+      "level": 50
+    },
+    {
+      "attack": 89,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 84,
+      "level": 51
+    },
+    {
+      "attack": 91,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 85,
+      "level": 52
+    },
+    {
+      "attack": 92,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 86,
+      "level": 53
+    },
+    {
+      "attack": 93,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 87,
+      "level": 54
+    },
+    {
+      "attack": 94,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 89,
+      "level": 55
+    },
+    {
+      "attack": 96,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 90,
+      "level": 56
+    },
+    {
+      "attack": 97,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 91,
+      "level": 57
+    },
+    {
+      "attack": 98,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 92,
+      "level": 58
+    },
+    {
+      "attack": 99,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 93,
+      "level": 59
+    },
+    {
+      "attack": 101,
+      "breakthrough": true,
+      "defense": 5,
+      "hp": 95,
+      "level": 60
+    }
+  ]
+}

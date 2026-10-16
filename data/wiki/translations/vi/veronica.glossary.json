@@ -1,0 +1,233 @@
+{
+  "characterId": "1033",
+  "terms": [
+    {
+      "id": "CARD_1033_BALLISTA",
+      "title": "Lá Ballista",
+      "desc": "Ballista, Piercing Ballista, Enhanced Ballista, Giant Ballista, Shelling Ballista, Micro Ballista<br><i>Đây là các loại Ballista.</>",
+      "englishTitle": "Ballista Card"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishTitle": "Shield"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "desc": "Chỉ có thể đưa 1 bản sao của mỗi lá <cc>Độc nhất</> vào bộ bài.",
+      "englishTitle": "Unique"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishTitle": "Initiation"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishTitle": "Draw"
+    },
+    {
+      "id": "T_CS01_0466",
+      "title": "Nạp đạn",
+      "desc": "Tăng <color_orange>50</>% lượng sát thương của các <color_orange><u>lá Ballista</u></>.<br>Cuối lượt, loại bỏ Nạp đạn (tối đa <color_orange>3</> cộng dồn).",
+      "englishTitle": "Reload"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishTitle": "Activate"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Discard"
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>.",
+      "englishTitle": "Exhaust 2"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishTitle": "Retain"
+    },
+    {
+      "id": "TALENT_RECALL_N",
+      "title": "Thu hồi 4",
+      "desc": "Khi lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay (tối đa <color_orange>4</> lần).<br>Khi Kích hoạt, giảm Thu hồi đi <cc>1</>.",
+      "englishTitle": "Retrieve 4"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được Kích hoạt, chuyển nó vào Chồng bài kiệt sức.",
+      "englishTitle": "Exhaust"
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng.",
+      "englishTitle": "Proc"
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung.",
+      "englishTitle": "Extra Attack"
+    },
+    {
+      "id": "TALENT_UNPLAYABLE",
+      "title": "Không thể kích hoạt",
+      "desc": "Không thể Kích hoạt lá này.",
+      "englishTitle": "Unactivatable"
+    },
+    {
+      "id": "TALENT_ETHEREAL",
+      "title": "Phù du",
+      "desc": "Nếu lá này còn trên tay vào cuối lượt, khiến nó Kiệt sức.",
+      "englishTitle": "Ephemeral"
+    },
+    {
+      "id": "TALENT_VALLISTA",
+      "title": "Ballista",
+      "desc": "Lá này có thể được kích hoạt qua hiệu ứng dù có Không thể kích hoạt.",
+      "englishTitle": "Ballista"
+    },
+    {
+      "id": "CARD_PENETRATIONDAMAGE",
+      "title": "Sát thương xuyên",
+      "desc": "Sát thương bỏ qua Lá chắn.",
+      "englishTitle": "Piercing Damage"
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishTitle": "Draw Pile"
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá).",
+      "englishTitle": "Discard Pile"
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "desc": "Gồm các lá đã được Kích hoạt trong lượt này hoặc đang ở <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Graveyard"
+    },
+    {
+      "id": "CARD_ATK",
+      "title": "Tấn công",
+      "desc": "Loại lá bài tấn công.",
+      "englishTitle": "Attack"
+    },
+    {
+      "id": "CARD_SKILL",
+      "title": "Kỹ năng",
+      "desc": "Loại lá bài kỹ năng.",
+      "englishTitle": "Skill"
+    },
+    {
+      "id": "CARD_POWER",
+      "title": "Cường hóa",
+      "desc": "Loại lá bài nâng cấp.",
+      "englishTitle": "Upgrade"
+    },
+    {
+      "id": "TERM_COST",
+      "title": "Chi phí",
+      "desc": "Chi phí sử dụng lá bài.",
+      "englishTitle": "Cost"
+    },
+    {
+      "id": "TERM_COMBATANT",
+      "title": "Nhân vật",
+      "desc": "Nhân vật tham chiến; lá của Nhân vật khác là lá thuộc nhân vật khác.",
+      "englishTitle": "Combatant"
+    },
+    {
+      "id": "TERM_CRITICAL_CHANCE",
+      "title": "Tỷ lệ chí mạng",
+      "desc": "Tỷ lệ chí mạng.",
+      "englishTitle": "Critical Chance"
+    },
+    {
+      "id": "TERM_CRITICAL_DAMAGE",
+      "title": "Sát thương chí mạng",
+      "desc": "Sát thương chí mạng.",
+      "englishTitle": "Critical Damage"
+    },
+    {
+      "id": "TERM_EXTRA_DAMAGE",
+      "title": "Sát thương bổ sung",
+      "desc": "Chỉ số ảnh hưởng đến sát thương của Đòn đánh thêm.",
+      "englishTitle": "Extra Damage"
+    },
+    {
+      "id": "TERM_TENACITY_DAMAGE",
+      "title": "Sát thương sức bền",
+      "desc": "Sát thương lên thanh Sức bền.",
+      "englishTitle": "Tenacity Damage"
+    },
+    {
+      "id": "TERM_EXHAUST_PILE",
+      "title": "Chồng bài kiệt sức",
+      "desc": "Nơi chứa các lá đã bị Kiệt sức.",
+      "englishTitle": "Exhaust Pile"
+    },
+    {
+      "id": "T_CS00_0025",
+      "title": "Dấu ấn",
+      "desc": "Khi một lá Tấn công được Kích hoạt, gây <color_orange>100%</> <color_orange><u>Đòn đánh thêm</u></> và <color_orange><u>Sát thương sức bền</u></> tương ứng với chi phí <cc>0</>, đồng thời giảm <cc>1</> <color_orange><u>Dấu ấn</u></>.",
+      "englishTitle": "Mark"
+    },
+    {
+      "id": "TERM_EPIPHANY",
+      "title": "Thức tỉnh bài",
+      "desc": "Cơ chế thức tỉnh của lá bài.",
+      "englishTitle": "Epiphany"
+    },
+    {
+      "id": "TERM_DIVINE_EPIPHANY",
+      "title": "Thức tỉnh thần thánh",
+      "desc": "Một dạng Thức tỉnh bài đặc biệt; Tiềm năng Thích ứng thức tỉnh thần thánh tăng xác suất xuất hiện dạng này.",
+      "englishTitle": "Divine Epiphany"
+    },
+    {
+      "id": "TERM_RARE_CARD",
+      "title": "Bài hiếm",
+      "desc": "Lá bài có độ hiếm Hiếm.",
+      "englishTitle": "Rare Card"
+    },
+    {
+      "id": "TERM_CHAOS",
+      "title": "Chaos",
+      "desc": "Tên chế độ được nhắc đến trong hiệu ứng Thưởng thức tỉnh bài; giữ nguyên tên trong bản dịch.",
+      "englishTitle": "Chaos"
+    },
+    {
+      "id": "VERONICA_FLORAL_SCENT",
+      "title": "Hương hoa",
+      "englishTitle": "Floral Scent",
+      "desc": "Hiệu ứng từ Thức tỉnh Ego cấp 2 của Veronica: mục tiêu nhận thêm 20% lượng sát thương từ Ballista và trở thành mục tiêu Kích hoạt qua hiệu ứng của Ballista. Không cộng dồn; khi áp dụng lên mục tiêu khác, Hương hoa trên mục tiêu cũ bị loại bỏ."
+    },
+    {
+      "id": "TERM_ATTACK_STAT",
+      "title": "Tấn công",
+      "englishTitle": "Attack",
+      "desc": "Chỉ số Tấn công của nhân vật; khác với loại bài Tấn công."
+    }
+  ]
+}

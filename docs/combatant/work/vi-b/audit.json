@@ -1,0 +1,115 @@
+{
+  "compared": 1334,
+  "failures": [],
+  "nameFailures": [],
+  "english": [
+    {
+      "id": "1049",
+      "key": "10493101",
+      "src": "Add a <color_orange>30</>% chance to draw <color_orange>1</> card to <color_orange><u>Card</u></> and <color_orange><u>Wild Card</u></>.",
+      "dst": "Thêm <color_orange>30</>% xác suất rút <color_orange>1</> lá cho <color_orange><u>Card</u></> và <color_orange><u>Wild Card</u></>."
+    },
+    {
+      "id": "1049",
+      "key": "10495101",
+      "src": "+<color_orange>5</>% Damage Amount to Cassius's <color_orange><u>Cards</u></> and <color_orange><u>Wild Card</u></><br>If Cassius's Health is <color_orange>600</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "dst": "Tăng <color_orange>5</>% lượng sát thương của <color_orange><u>Cards</u></> và <color_orange><u>Wild Card</u></> của Cassius<br>Nếu Máu của Cassius từ <color_orange>600</> trở lên, tăng thêm <color_orange>5</>% cho chỉ số này"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_srt4_rsp4",
+      "src": "<color_orange>1</> <color_orange><u>Cursed Shackles</u></><br>Create <color_orange>1</> <cc><u>Shadow of the Moon</u></>",
+      "dst": "<color_orange>1</> <color_orange><u>Xiềng xích nguyền rủa</u></><br>Tạo <color_orange>1</> <cc><u>Shadow of the Moon</u></>"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_uni1_rsp3",
+      "src": "Add <color_orange>2</> Hit(s) to the next <cc><u>Shadow of the Moon</u></>, <cc><u>Shadow of the Moon+</u></> <color_orange><u>activate</u></>d",
+      "dst": "Thêm <color_orange>2</> lần đánh cho <cc><u>Shadow of the Moon</u></>, <cc><u>Shadow of the Moon+</u></> tiếp theo được <color_orange><u>Kích hoạt</u></>"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_uni2_rsp2",
+      "src": "At the start of the turn, gain <color_orange><u>Inhibit</u></><br>When <cc><u>Shadow of the Moon+</u></> is <color_orange><u>activate</u></>d, decrease Cost of the next <color_orange>1</> card(s) <color_orange><u>activate</u></>d by <color_orange>1</> until <color_orange><u>activate</u></>d",
+      "dst": "Đầu lượt, nhận <color_orange><u>Ức chế</u></><br>Khi <cc><u>Shadow of the Moon+</u></> được <color_orange><u>Kích hoạt</u></>, giảm <color_orange>1</> chi phí của <color_orange>1</> lá tiếp theo được <color_orange><u>Kích hoạt</u></> cho đến khi được <color_orange><u>Kích hoạt</u></>"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_uni3_rsp3",
+      "src": "<color_orange>120</>% Damage<br>Other than <cc><u>Shadow of the Moon</u></>, if there are no other Attack Cards in hand, add <color_orange>2</> Hit(s)",
+      "dst": "Gây <color_orange>120</>% sát thương<br>Ngoài <cc><u>Shadow of the Moon</u></>, nếu không có bài Tấn công nào khác trên tay, thêm <color_orange>2</> lần đánh"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_uni3_rsp5",
+      "src": "<color_orange>80</>% Damage Amount to <cc><u>Shadow of the Moon+</u></><br>At the start of the turn, <color_orange>4</> <color_orange><u>Will-O’-Wisp</u></>'",
+      "dst": "Tăng <color_orange>80</>% lượng sát thương của <cc><u>Shadow of the Moon+</u></><br>Đầu lượt, nhận <color_orange>4</> <color_orange><u>Ma trơi</u></>"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_eps",
+      "src": "<color_orange>500%</> Damage<br>+<color_orange>100</>% Damage Amount for each <cc><u>Shadow of the Moon</u></> created (max <cc><color_orange>10</></>)",
+      "dst": "Gây <color_orange>500%</> sát thương<br>Tăng <color_orange>100</>% lượng sát thương với mỗi <cc><u>Shadow of the Moon</u></> được tạo (tối đa <cc><color_orange>10</></>)"
+    },
+    {
+      "id": "1060",
+      "key": "c_1060_eps_lbk",
+      "src": "<color_orange>700%</> Damage<br>+<color_orange>150</>% Damage Amount for each <cc><u>Shadow of the Moon</u></> created (max <cc><color_orange>10</></>)",
+      "dst": "Gây <color_orange>700%</> sát thương<br>Tăng <color_orange>150</>% lượng sát thương với mỗi <cc><u>Shadow of the Moon</u></> được tạo (tối đa <cc><color_orange>10</></>)"
+    },
+    {
+      "id": "1060",
+      "key": "T_CS01_0730",
+      "src": "When <cc>5</> <color_orange><u>Will-O-Wisp</u></> are gained, create <cc>1</> <cc><u>Shadow of the Moon</u></><br>When the effect is activated, decrease <color_orange><u>Will-O-Wisp</u></> by <cc>5</>",
+      "dst": "Khi nhận <cc>5</> <color_orange><u>Ma trơi</u></>, tạo <cc>1</> <cc><u>Shadow of the Moon</u></><br>Khi hiệu ứng kích hoạt, giảm <color_orange><u>Ma trơi</u></> đi <cc>5</>"
+    },
+    {
+      "id": "1060",
+      "key": "T_CS00_0281",
+      "src": "Cannot be influenced by <color_orange><u>AP</u></> gain or loss effects (except for what is given through cards and continuous effects of this unit, at the start of the turn or on <color_orange><u>Ravage</u></>)<br> add <cc>1</> Hit to <cc><u>Shadow of the Moon</u></> and <cc><u>Shadow of the Moon+</u></>",
+      "dst": "Không chịu ảnh hưởng của hiệu ứng tăng hoặc giảm <color_orange><u>Điểm hành động</u></> (ngoại trừ từ bài và hiệu ứng duy trì của nhân vật này, khi bắt đầu lượt hoặc khi <color_orange><u>Suy yếu</u></>)<br> thêm <cc>1</> lần đánh cho <cc><u>Shadow of the Moon</u></> và <cc><u>Shadow of the Moon+</u></>"
+    },
+    {
+      "id": "1060",
+      "key": "TALENT_BIND_BOX_LINK",
+      "src": "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card<br>If Bind is <cc>3</> or higher, change into <cc><u>Shadow of the Moon+</u></><br>When a Bind card is <color_orange><u>activate</u></>d, reset stacks<br>Max <cc>5</> stacks",
+      "dst": "Khi bài Ràng buộc của cùng nhân vật ở trong cùng Chồng bài hoặc trên tay, gộp thành <cc>1</> lá<br>Nếu Ràng buộc từ <cc>3</> trở lên, đổi thành <cc><u>Shadow of the Moon+</u></><br>Khi bài Ràng buộc được <color_orange><u>Kích hoạt</u></>, đặt lại cộng dồn<br>Tối đa <cc>5</> cộng dồn"
+    },
+    {
+      "id": "1060",
+      "key": "TALENT_BIND_N",
+      "src": "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card<br>If Bind is <cc>3</> or higher, change into <cc><u>Shadow of the Moon+</u></><br>When a Bind card is <color_orange><u>activate</u></>d, reset stacks<br>Max <cc>5</> stacks",
+      "dst": "Khi bài Ràng buộc của cùng nhân vật ở trong cùng Chồng bài hoặc trên tay, gộp thành <cc>1</> lá<br>Nếu Ràng buộc từ <cc>3</> trở lên, đổi thành <cc><u>Shadow of the Moon+</u></><br>Khi bài Ràng buộc được <color_orange><u>Kích hoạt</u></>, đặt lại cộng dồn<br>Tối đa <cc>5</> cộng dồn"
+    },
+    {
+      "id": "1060",
+      "key": "limit_1060_1",
+      "src": "+<color_orange>20</>% Damage Amount to <color_orange><u>Shadow of the Moon+</u></>, +<color_orange>3</>% to Recover Amount of Max HP.",
+      "dst": "Tăng <color_orange>20</>% lượng sát thương của <color_orange><u>Shadow of the Moon+</u></>, tăng <color_orange>3</>% lượng hồi phục theo Máu tối đa."
+    },
+    {
+      "id": "1060",
+      "key": "limit_1060_2",
+      "src": "When a <color_orange><u>Shadow of the Moon+</u></> card is $activate$d, create <color_orange>1</> <color_orange><u>Shadow of the Moon</u></> card.",
+      "dst": "Khi bài <color_orange><u>Shadow of the Moon+</u></> được $Kích hoạt$, tạo <color_orange>1</> lá <color_orange><u>Shadow of the Moon</u></>."
+    },
+    {
+      "id": "1060",
+      "key": "limit_1060_3",
+      "src": "+<color_orange>200</>% Damage Amount to <color_orange><u>Moonlight of High Tide</u></>, and change the +<color_orange>100</>% Damage Amount for each Shadow of the Moon created to +<color_orange>150</>%.",
+      "dst": "Tăng <color_orange>200</>% lượng sát thương của <color_orange><u>Moonlight of High Tide</u></>; đổi hiệu ứng tăng <color_orange>100</>% lượng sát thương với mỗi Shadow of the Moon được tạo thành <color_orange>150</>%."
+    },
+    {
+      "id": "1060",
+      "key": "limit_1060_4",
+      "src": "When <color_orange><u>Shadow of the Moon</u></> is created, gain <color_orange>1 Lunarshard</>.<br><color_orange>Lunarshard</>: +<color_orange>10</>% Damage Amount to Chizuru’s Attack Cards (max <color_orange>3</> stacks)",
+      "dst": "Khi <color_orange><u>Shadow of the Moon</u></> được tạo, nhận <color_orange>1 Mảnh trăng</>.<br><color_orange>Mảnh trăng</>: Tăng <color_orange>10</>% lượng sát thương của bài Tấn công thuộc Chizuru (tối đa <color_orange>3</> cộng dồn)"
+    },
+    {
+      "id": "1060",
+      "key": "limit_1060_6",
+      "src": "When <color_orange>Lunarshard</> stacks to <color_orange>3</>, increases Hit Count of <color_orange><u>Shadow of the Moon+</u></> by <color_orange>1</>.",
+      "dst": "Khi <color_orange>Mảnh trăng</> đạt <color_orange>3</> cộng dồn, tăng số lần đánh của <color_orange><u>Shadow of the Moon+</u></> thêm <color_orange>1</>."
+    }
+  ]
+}

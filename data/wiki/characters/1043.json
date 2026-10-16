@@ -1,0 +1,2526 @@
+{
+  "id": "1043",
+  "name": "Hugo",
+  "names": {
+    "en": "Hugo",
+    "zhs": "雨果",
+    "zht": "雨果"
+  },
+  "job": "ranger",
+  "ego": "norms",
+  "rarity": 5,
+  "color": "#7d4eaf",
+  "info": {
+    "background_text": "<color_darkgray>Problem solver of the Azure Merchant Guild.</><br>Runs Hugo's Solutions aboard the Caravan Ark, handling everything from troublesome monsters and collecting debts to finding people. He takes on both trivial and dangerous tasks. When not working, he often appears lethargic and lazy.",
+    "birth_day": "ui_label_day_6th",
+    "birth_month": "ui_label_month_may",
+    "cv_en": "Not included",
+    "cv_ja": "Yuichi Nakamura",
+    "cv_ko": "Euijoo Lim",
+    "cv_zhs": "Fan Zhihao",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "1043_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@1043_info",
+    "id": "1043_info",
+    "link_combatant_face_group": "1043_face",
+    "link_combatant_voice_group": "1043_voice",
+    "link_live_event_id": "live_event_1043",
+    "link_story_content_counseling_key": "story_counseling_1043",
+    "link_town_normal_visit_group": "normal_visit_1043",
+    "link_town_policy_reaction_id": "1043",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "1043_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_7",
+    "small_talk_link_combatant_voice_id": "[1043_small_talk_01,1043_small_talk_02,1043_small_talk_03,1043_small_talk_04]",
+    "specialty": "combatant_info@specialty@1043_info",
+    "stage_success_link_combatant_voice_id": "1043_stage_success_01",
+    "touch_link_combatant_voice_id": "[1043_touch_01,1043_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_1043_srt1",
+      "name": "Knife Toss",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1043_01.webp",
+      "video": null,
+      "artKey": "start_1043_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_1043_srt1_pot",
+          "name": "Knife Toss",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br><cc>50</>% Chance for <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1043_01.webp",
+          "video": null,
+          "artKey": "start_1043_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt1_pot"
+        }
+      ],
+      "sourceId": "c_1043_srt1"
+    },
+    {
+      "id": "c_1043_srt2",
+      "name": "Knife Toss",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1043_01.webp",
+      "video": null,
+      "artKey": "start_1043_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_1043_srt2_pot",
+          "name": "Knife Toss",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br><cc>50</>% Chance for <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1043_01.webp",
+          "video": null,
+          "artKey": "start_1043_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt2_pot"
+        }
+      ],
+      "sourceId": "c_1043_srt2"
+    },
+    {
+      "id": "c_1043_srt3",
+      "name": "Defense System",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1043_02.webp",
+      "video": null,
+      "artKey": "start_1043_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1043_srt3"
+    },
+    {
+      "id": "c_1043_srt4",
+      "name": "Hunting Instincts",
+      "cost": 1,
+      "description": "When an Upgrade or Skill Card of a different Combatant is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1043_05.webp",
+      "video": "/assets/card/unique_1043_05.webm",
+      "artKey": "unique_1043_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_INNATE",
+          "title": "Initiation",
+          "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt",
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1043_srt4_rsp1",
+          "name": "Hunting Instincts",
+          "cost": 0,
+          "description": "When an Upgrade or Skill Card of a different Combatant is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_05.webp",
+          "video": "/assets/card/unique_1043_05.webm",
+          "artKey": "unique_1043_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt4_rsp1"
+        },
+        {
+          "id": "c_1043_srt4_rsp2",
+          "name": "Hunting Instincts",
+          "cost": 1,
+          "description": "When an Upgrade or Skill Card of a different Combatant is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></><br><color_orange>50%</> chance of an additional <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_05.webp",
+          "video": "/assets/card/unique_1043_05.webm",
+          "artKey": "unique_1043_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt4_rsp2"
+        },
+        {
+          "id": "c_1043_srt4_rsp3",
+          "name": "Hunting Instincts",
+          "cost": 1,
+          "description": "When an Upgrade or Skill Card of a different Combatant is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></><br>If <color_orange><u>Commence the Hunt</u></> is activated, <color_orange>50</>% <color_orange><u>Coordinated Attack</u></> to the target",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_05.webp",
+          "video": "/assets/card/unique_1043_05.webm",
+          "artKey": "unique_1043_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_COOP",
+              "title": "Coordinated Attack",
+              "desc": "Damage that applies <color_orange><u>Extra Attack</u></> Damage Amount"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt4_rsp3"
+        },
+        {
+          "id": "c_1043_srt4_rsp4",
+          "name": "Hunting Instincts",
+          "cost": 0,
+          "description": "<color_orange><u>Commence the Hunt</u></> for each Skill Card in hand",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_05.webp",
+          "video": "/assets/card/unique_1043_05.webm",
+          "artKey": "unique_1043_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt4_rsp4"
+        },
+        {
+          "id": "c_1043_srt4_rsp5",
+          "name": "Hunting Instincts",
+          "cost": 1,
+          "description": "When an Upgrade or Skill Card is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_05.webp",
+          "video": "/assets/card/unique_1043_05.webm",
+          "artKey": "unique_1043_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_1043_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_1043_uni1",
+      "name": "Fan of Daggers",
+      "cost": 1,
+      "description": "<color_orange>60</>% × <color_orange>3</> Damage to random enemies<br><color_orange><u>Commence the Hunt</u></> for each target hit",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1043_04.webp",
+      "video": "/assets/card/unique_1043_04.webm",
+      "artKey": "unique_1043_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste",
+          "desc": "This card does not reduce the enemy’s Action Count"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt",
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1043_uni1_rsp1",
+          "name": "Fan of Daggers",
+          "cost": 1,
+          "description": "<color_orange>90</>% × <color_orange>3</> Damage to random enemies<br><color_orange><u>Commence the Hunt</u></> for each target hit",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_04.webp",
+          "video": "/assets/card/unique_1043_04.webm",
+          "artKey": "unique_1043_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni1_rsp1"
+        },
+        {
+          "id": "c_1043_uni1_rsp2",
+          "name": "Fan of Daggers",
+          "cost": 1,
+          "description": "<color_orange>90%</> × <color_orange>3</> Damage<br><color_orange>2</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_04.webp",
+          "video": "/assets/card/unique_1043_04.webm",
+          "artKey": "unique_1043_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni1_rsp2"
+        },
+        {
+          "id": "c_1043_uni1_rsp3",
+          "name": "Fan of Daggers",
+          "cost": 1,
+          "description": "<color_orange>250%</> Damage<br>When Damage is dealt, <cc>100</>% chance of a random ally performing a <color_orange><u>Coordinated Attack</u></> on the target",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_04.webp",
+          "video": "/assets/card/unique_1043_04.webm",
+          "artKey": "unique_1043_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_COOP",
+              "title": "Coordinated Attack",
+              "desc": "Damage that applies <color_orange><u>Extra Attack</u></> Damage Amount"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni1_rsp3"
+        },
+        {
+          "id": "c_1043_uni1_rsp4",
+          "name": "Fan of Daggers",
+          "cost": 1,
+          "description": "<color_orange>90</>% Damage × <color_orange>3</> to random enemies<br>If in a <color_orange><u>Commence the Hunt</u></> state, increase Damage Amount by <color_orange>100</>%",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_04.webp",
+          "video": "/assets/card/unique_1043_04.webm",
+          "artKey": "unique_1043_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni1_rsp4"
+        },
+        {
+          "id": "c_1043_uni1_rsp5",
+          "name": "Fan of Daggers",
+          "cost": 2,
+          "description": "At the start of the turn, <color_orange>60</>% Damage × <color_orange>2</> to random enemies<br><color_orange><u>Commence the Hunt</u></> equal to the number of targets hit",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_04.webp",
+          "video": "/assets/card/unique_1043_04.webm",
+          "artKey": "unique_1043_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_1043_uni1"
+    },
+    {
+      "id": "c_1043_uni2",
+      "name": "Quick Fix",
+      "cost": 1,
+      "description": "<color_orange>80%</> Damage × <color_orange>2</><br>If in a <color_orange><u>Commence the Hunt</u></> state, <color_orange><u>Draw</u></> <color_orange>1</> Attack Card(s)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1043_01.webp",
+      "video": "/assets/card/unique_1043_01.webm",
+      "artKey": "unique_1043_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste",
+          "desc": "This card does not reduce the enemy’s Action Count"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt",
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+        },
+        {
+          "id": "CARD_DRAW",
+          "title": "Draw",
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1043_uni2_rsp1",
+          "name": "Quick Fix",
+          "cost": 1,
+          "description": "<color_orange>120%</> Damage × <color_orange>2</><br>If in a <color_orange><u>Commence the Hunt</u></> state, <color_orange><u>Draw</u></> <color_orange>1</> Attack Card(s)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_01.webp",
+          "video": "/assets/card/unique_1043_01.webm",
+          "artKey": "unique_1043_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni2_rsp1"
+        },
+        {
+          "id": "c_1043_uni2_rsp2",
+          "name": "Quick Fix",
+          "cost": 1,
+          "description": "<color_orange>80%</> Damage × <color_orange>2</><br>If in a <color_orange><u>Commence the Hunt</u></> state,<br>add <color_orange>1</> Hit(s)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_01.webp",
+          "video": "/assets/card/unique_1043_01.webm",
+          "artKey": "unique_1043_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni2_rsp2"
+        },
+        {
+          "id": "c_1043_uni2_rsp3",
+          "name": "Quick Fix",
+          "cost": 1,
+          "description": "<color_orange>100</>% Damage × <color_orange>2</><br>If in a <color_orange><u>Commence the Hunt</u></> state, <color_orange><u>Draw</u></> <color_orange>2</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_01.webp",
+          "video": "/assets/card/unique_1043_01.webm",
+          "artKey": "unique_1043_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni2_rsp3"
+        },
+        {
+          "id": "c_1043_uni2_rsp4",
+          "name": "Quick Fix",
+          "cost": 1,
+          "description": "<color_orange>100</>% Damage × <color_orange>3</><br>If in a <color_orange><u>Commence the Hunt</u></> state,<br>increase <color_orange><u>Action Count</u></> of all enemies by <color_orange>2</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_01.webp",
+          "video": "/assets/card/unique_1043_01.webm",
+          "artKey": "unique_1043_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_TURN_COUNT",
+              "title": "Action Count",
+              "desc": "The number of card uses remaining until the monster acts<br>When a card is used, decrease by <cc>1</><br>When it reaches <cc>0</>, the monster takes action"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni2_rsp4"
+        },
+        {
+          "id": "c_1043_uni2_rsp5",
+          "name": "Quick Fix",
+          "cost": 1,
+          "description": "<color_orange>120</>% Damage<br>Add <color_orange>1</> Hit(s) for each<color_orange>0</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1043_01.webp",
+          "video": "/assets/card/unique_1043_01.webm",
+          "artKey": "unique_1043_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_1043_uni2"
+    },
+    {
+      "id": "c_1043_uni3",
+      "name": "Dingo Howling",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></><br><color_orange>2</> <color_orange><u>Commence the Hunt</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_1043_02.webp",
+      "video": "/assets/card/unique_1043_02.webm",
+      "artKey": "unique_1043_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt",
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+        },
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1043_uni3_rsp1",
+          "name": "Dingo Howling",
+          "cost": 1,
+          "description": "<color_orange>150%</> <color_orange><u>Shield</u></><br><color_orange>3</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1043_02.webp",
+          "video": "/assets/card/unique_1043_02.webm",
+          "artKey": "unique_1043_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni3_rsp1"
+        },
+        {
+          "id": "c_1043_uni3_rsp2",
+          "name": "Dingo Howling",
+          "cost": 1,
+          "description": "<color_orange>150</>% <color_orange><u>Shield</u></><br>If under <color_orange><u>Commence the Hunt</u></><br>+<color_orange>50</>% <color_orange><u>Shield</u></><br><color_orange>2</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1043_02.webp",
+          "video": "/assets/card/unique_1043_02.webm",
+          "artKey": "unique_1043_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni3_rsp2"
+        },
+        {
+          "id": "c_1043_uni3_rsp3",
+          "name": "Dingo Howling",
+          "cost": 1,
+          "description": "Upon gaining <color_orange><u>Commence the Hunt</u></>, <color_orange><u>Draw</u></> <color_orange>1</> Attack card(s) (<cc>1</> per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1043_02.webp",
+          "video": "/assets/card/unique_1043_02.webm",
+          "artKey": "unique_1043_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni3_rsp3"
+        },
+        {
+          "id": "c_1043_uni3_rsp4",
+          "name": "Dingo Howling",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Commence the Hunt</u></><br><color_orange>Streak:</> Add <color_orange>2</> <color_orange><u>Commence the Hunt</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1043_02.webp",
+          "video": "/assets/card/unique_1043_02.webm",
+          "artKey": "unique_1043_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni3_rsp4"
+        },
+        {
+          "id": "c_1043_uni3_rsp5",
+          "name": "Dingo Howling",
+          "cost": 1,
+          "description": "<color_orange>2</> <color_orange><u>Commence the Hunt</u></><br><color_orange><u>Draw</u></> <color_orange>2</> attack card(s)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1043_02.webp",
+          "video": "/assets/card/unique_1043_02.webm",
+          "artKey": "unique_1043_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_1043_uni3"
+    },
+    {
+      "id": "c_1043_uni4",
+      "name": "Fixer's Approach",
+      "cost": 1,
+      "description": "Increase Damage Amount of <color_orange><u>Commence the Hunt</u></>'s <color_orange><u>Extra Attack</u></>s by <color_orange>40</>%",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_1043_03.webp",
+      "video": "/assets/card/unique_1043_03.webm",
+      "artKey": "unique_1043_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt",
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+        },
+        {
+          "id": "CARD_ADDITIONAL_ATTACK",
+          "title": "Extra Attack",
+          "desc": "Damage affected by Critical Chance and Extra Damage"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1043_uni4_lbk",
+          "name": "Fixer's Approach",
+          "cost": 1,
+          "description": "Increase Damage Amount of <color_orange><u>Commence the Hunt</u></>'s <color_orange><u>Extra Attack</u></>s by <color_orange>50</>%",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_1043_03.webp",
+          "video": "/assets/card/unique_1043_03.webm",
+          "artKey": "unique_1043_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt",
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+            },
+            {
+              "id": "CARD_ADDITIONAL_ATTACK",
+              "title": "Extra Attack",
+              "desc": "Damage affected by Critical Chance and Extra Damage"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1043_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_1043_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_1043_eps",
+    "name": "Last Resort",
+    "cost": 6,
+    "description": "<color_orange>250%</> Damage to all enemies<br>Increase Damage of <color_orange><u>Commence the Hunt</u></> by <color_orange>30</>%",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_1043_01.webp",
+    "video": null,
+    "artKey": "collapse_1043_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "T_CS01_0508",
+        "title": "Commence the Hunt",
+        "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_1043_eps_lbk",
+        "name": "Last Resort",
+        "cost": 6,
+        "description": "<color_orange>250%</> Damage to all enemies<br>Increase Damage of <color_orange><u>Commence the Hunt</u></> by <color_orange>30</>%<br>Increase max stack of <color_orange><u>Commence the Hunt</u></> by <cc>1</>",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_1043_01.webp",
+        "video": null,
+        "artKey": "collapse_1043_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "T_CS01_0508",
+            "title": "Commence the Hunt",
+            "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_1043_eps_lbk"
+      }
+    ],
+    "sourceId": "c_1043_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_1043_col",
+      "name": "Impulse",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_1043_02.webp",
+      "video": null,
+      "artKey": "collapse_1043_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1043_col"
+    },
+    {
+      "id": "c_1043_col2",
+      "name": "Impulse",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_1043_02.webp",
+      "video": null,
+      "artKey": "collapse_2_1043_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1043_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "1043",
+          "job": "ranger",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1043_col",
+        "name": "Impulse",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_1043_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "1043",
+          "job": "ranger",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1043_col2",
+        "name": "Impulse",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_1043_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "impulse",
+    "collapse_illustration": "collapse/collapse_illustration/impulse",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "norms",
+        "id": "1043",
+        "job": "ranger",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 6,
+      "desc_display": "<color_orange>250%</> Damage to all enemies<br>Increase Damage of <color_orange><u>Commence the Hunt</u></> by <color_orange>30</>%",
+      "ego_type": "EGO_OWNER",
+      "id": "c_1043_eps",
+      "name": "Last Resort",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 6,
+          "desc_display": "<color_orange>250%</> Damage to all enemies<br>Increase Damage of <color_orange><u>Commence the Hunt</u></> by <color_orange>30</>%<br>Increase max stack of <color_orange><u>Commence the Hunt</u></> by <cc>1</>",
+          "ego_type": "EGO_OWNER",
+          "id": "c_1043_eps_lbk",
+          "name": "Last Resort",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_1043_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_1043_eps_lbk_01",
+            "c_1043_eps_lbk_02"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)",
+              "id": "T_CS01_0508",
+              "title": "Commence the Hunt"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_1043_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_1043_eps_01",
+        "c_1043_eps_02"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</><br>+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)",
+          "id": "T_CS01_0508",
+          "title": "Commence the Hunt"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_impulse",
+    "desc": "At the start of the turn, forcibly $proc$ one random card of this character that has been drawn to hand (consumes Cost).",
+    "id": "collapse_1043",
+    "link_psychosis_id": "psychosis_1003_3",
+    "name": "Impulse"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>10</>% to the Damage Amount Increase effect of <color_orange>Commence the Hunt</> for the <color_orange><u>Fixer's Approach</u></> Card.",
+      "group": "limit_1043",
+      "id": "limit_1043_1",
+      "illust": "unique_1043_03",
+      "link_card_id": "[c_1043_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "Every <color_orange>2</> times <color_orange>Commence the Hunt</> is $activate$d, inflict <color_orange>40</>% Extra Attack × <color_orange>2</> on random enemies, and if the same target is attacked, gain <color_orange>1</> <color_orange>Commence the Hunt</>. This effect $activate$s <color_orange>once per turn</>.",
+      "group": "limit_1043",
+      "id": "limit_1043_2",
+      "illust": "unique_1043_05",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0093]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "When <color_orange><u>Last Resort</u></> is used, increase max stack of <color_orange>Commence the Hunt</> by <color_orange>1</>.",
+      "group": "limit_1043",
+      "id": "limit_1043_3",
+      "illust": "collapse_1043_01",
+      "link_card_id": "[c_1043_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "Each time <color_orange>Commence the Hunt</> is activated, gain <color_orange>1 Fixer's Wrath</>.<br><color_orange>Fixer's Wrath</>: +<color_orange>10</>% Damage Amount to Hugo (max <color_orange>4</> stacks)",
+      "group": "limit_1043",
+      "id": "limit_1043_4",
+      "illust": "unique_1043_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0094]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1043",
+      "id": "limit_1043_5",
+      "illust": "unique_1043_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of the turn, apply <color_orange>1</> <color_orange>Hunting Mark</> to a random enemy.<br><color_orange>Hunting Mark</>: On Hit through the effect of <color_orange>Commence the Hunt</>, <color_orange>2</> <color_orange>Morale</> for <color_orange>1</> turn (cannot stack)<br>On effect activation or if <color_orange>Hunting Mark</> is applied to a different target, remove effect",
+      "group": "limit_1043",
+      "id": "limit_1043_6",
+      "illust": "unique_1043_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0095]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "10431001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "10432001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "10432002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "10432003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "10432004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "10432005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "10432006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "10432007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "10432008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "10432009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "10432010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "10432011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "10432012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "10432013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "10432014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "10432015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "10432016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "10433001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "10433002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "10433003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "10433004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "10433005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "10433006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "10433007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "10433008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "10433009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "10433010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "10433011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "10433012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "10433013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "10433014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "10433015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "10433016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Add the following effect to the <color_orange><u>Knife Toss</u></> card: <color_orange>50</>% chance for <color_orange>1</> Commence the Hunt",
+      "id": "10433101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "10434001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "10434002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "10434003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "10434004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "10434005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "10434006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "10434007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "10434008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "10434009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "10434010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "10434011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "10434012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "10434013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "10434014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "10434015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "10434016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "10435001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "10435002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "10435003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "10435004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "10435005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Hugo's <color_orange><u>Knife Toss</u></><br>If Hugo's Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "10435101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "10435201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "10436001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "10436002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "10436003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "10436004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "10436005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Hugo’s Attack is <color_orange>700</> or higher, +<color_orange>4</>% Extra Damage Amount<br>For every <color_orange>50</> Attack exceeding 700, add an additional +<color_orange>1</>% to the modifier<br>(additional +<color_orange>8</>% max)",
+      "id": "10437001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "1043",
+  "sourceFile": "docs/combatant/current/api/czn/characters/1043.html"
+}

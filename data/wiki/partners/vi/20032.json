@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Kẻ háu ăn tự nhận và được mọi người công nhận.</><br>Cô trở thành sĩ quan hậu cần vì tình yêu dành cho đồ ăn và niềm tin rằng không đồng đội nào nên phải chịu đói. Chẳng ai ghét đồ ăn ngon, nên các binh sĩ đều thấy may mắn khi có cô trong đội và luôn dang tay chào đón cô.",
+  "infoValues": [
+    "Con người",
+    "Ngày 4 tháng 6",
+    "Ageha Harusaka",
+    "Hagyeong Bae"
+  ],
+  "cardDescription": "Nhận <color_orange>100%</> <color_orange><u>Lá chắn</u></><br><color_orange><u>Rút</u></> <color_orange>1</> lá",
+  "terms": {
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    },
+    "CARD_SHIELD": {
+      "title": "Lá chắn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Bổ sung năng lượng",
+      "descriptions": [
+        "Tăng <cc>10</>% lượng Lá chắn nhận được từ các lá Kỹ năng của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp nhận Lá chắn, có <cc>20</>% cơ hội nhận <cc>1</> Phản công."
+      ]
+    },
+    "2": {
+      "name": "Bổ sung năng lượng",
+      "descriptions": [
+        "Tăng <cc>13</>% lượng Lá chắn nhận được từ các lá Kỹ năng của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp nhận Lá chắn, có <cc>25</>% cơ hội nhận <cc>1</> Phản công."
+      ]
+    },
+    "3": {
+      "name": "Bổ sung năng lượng",
+      "descriptions": [
+        "Tăng <cc>15</>% lượng Lá chắn nhận được từ các lá Kỹ năng của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp nhận Lá chắn, có <cc>30</>% cơ hội nhận <cc>1</> Phản công."
+      ]
+    },
+    "4": {
+      "name": "Bổ sung năng lượng",
+      "descriptions": [
+        "Tăng <cc>18</>% lượng Lá chắn nhận được từ các lá Kỹ năng của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp nhận Lá chắn, có <cc>35</>% cơ hội nhận <cc>1</> Phản công."
+      ]
+    },
+    "5": {
+      "name": "Bổ sung năng lượng",
+      "descriptions": [
+        "Tăng <cc>20</>% lượng Lá chắn nhận được từ các lá Kỹ năng của Nhân vật được ghép cặp.",
+        "Khi Nhân vật được ghép cặp nhận Lá chắn, có <cc>40</>% cơ hội nhận <cc>1</> Phản công."
+      ]
+    }
+  }
+}

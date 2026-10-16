@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+});
+
 test("build, modify, save, reload and share a deck", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
@@ -91,7 +95,7 @@ test("equipment, fragments, card variants and JSON backups survive loading", asy
   const path = await download.path();
   expect(path).not.toBeNull();
   await page.getByLabel("Import deck backup").setInputFiles(path!);
-  await expect(page.getByRole("dialog").getByRole("status")).toContainText("0 deck(s) imported");
+  await expect(page.getByRole("dialog").getByRole("status")).toContainText("0 decks imported");
   await page.getByLabel("Import deck backup").setInputFiles({ name: "invalid.json", mimeType: "application/json", buffer: Buffer.from('{}') });
   await expect(page.getByRole("dialog").getByRole("status")).toContainText("JSON array");
   await page.getByRole("button", { name: "Load Mei Lin Deck", exact: true }).click();

@@ -1,11 +1,15 @@
 .glossary { min-width: 0; padding: 18px; border: 1px solid var(--border-primary); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); }
-.search { display: block; width: 100%; margin-bottom: 20px; padding: 12px 14px; border: 1px solid var(--border-primary); border-radius: 6px; background: var(--bg-primary); color: var(--text-primary); font: inherit; }
+.search { display: block; width: 100%; margin-bottom: 10px; padding: 12px 14px; border: 1px solid var(--border-primary); border-radius: 6px; background: var(--bg-primary); color: var(--text-primary); font: inherit; }
 .search::placeholder { color: var(--text-secondary); }
 .search:focus-visible { outline: 2px solid var(--ltblue); outline-offset: 2px; }
 .empty { margin: 20px 0; color: var(--text-secondary); font-size: 14px; }
 .glossary dl { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 32px; margin: 0; }
 .glossary dl > div { border-top: 1px solid var(--border-primary); padding: 16px 0; }
-.glossary dt { color: var(--text-primary); font-size: 13px; font-weight: 700; }
-.glossary dd { margin: 5px 0 0; font-size: 13px; line-height: 1.6; }
+.glossary dt { display: flex; flex-direction: column; gap: 4px; color: var(--text-primary); font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
+.glossary dt .englishTitle { color: var(--text-secondary); font-size: 13px; font-weight: 400; }
+.summary { margin: 0 0 16px; color: var(--text-secondary); font-size: 12px; }
+.glossary dd { margin: 8px 0 0; font-size: 14px; line-height: 1.7; overflow-wrap: anywhere; }
 .glossary dd span { color: inherit; }
+.definition + .definition { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border-primary); }
+.glossary dd .context { display: block; margin-bottom: 4px; color: var(--text-secondary); font-size: 12px; font-weight: 600; }
 @media (max-width: 767px) { .glossary dl { grid-template-columns: minmax(0,1fr); } }

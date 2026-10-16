@@ -1,0 +1,138 @@
+{
+  "characterId": "30047",
+  "terms": [
+    {
+      "id": "CARD_DEFDAMAGE",
+      "title": "Sát thương theo Phòng thủ",
+      "englishTitle": "Defense-Based Damage",
+      "englishDesc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>."
+    },
+    {
+      "id": "TALENT_ETHEREAL",
+      "title": "Phù du",
+      "englishTitle": "Ephemeral",
+      "englishDesc": "If this card is in hand at the end of the turn, Exhaust it",
+      "desc": "Nếu lá này còn trên tay vào cuối lượt, khiến nó Kiệt sức."
+    },
+    {
+      "id": "TALENT_IGNITE",
+      "title": "Bắt lửa",
+      "englishTitle": "Ignition",
+      "englishDesc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d",
+      "desc": "Khi lá này trên tay, nếu một lá bị <color_orange><u>Kiệt sức</u></>, giảm chi phí lá này đi <cc>1</> cho đến khi được <color_orange><u>kích hoạt</u></>"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "englishDesc": "Activating a card through an effect",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng."
+    },
+    {
+      "id": "T_CS00_0157",
+      "title": "Phản công",
+      "englishTitle": "Counterattack",
+      "englishDesc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)",
+      "desc": "Khi nhận sát thương, gây <color_orange>150%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Nếu đòn đánh bị <color_orange><u>Lá chắn</u></> chặn hoàn toàn, gây <color_orange>300%</> <color_orange><u>Sát thương theo Phòng thủ</u></> lên kẻ tấn công<br>Khi hiệu ứng kích hoạt, giảm <color_orange><u>Phản công</u></> đi <cc>1</><br>(Tối đa <cc>10</>)"
+    },
+    {
+      "id": "CARD_LEECHSHIELD",
+      "title": "Lá chắn theo sát thương",
+      "englishTitle": "DMG-Based Shield",
+      "englishDesc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP",
+      "desc": "Nhận <color_orange><u>Lá chắn cố định</u></> theo hệ số sát thương<br>Không vượt quá <cc>20</>% Máu tối đa"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "T_CS01_0821",
+      "title": "Lưỡi kiếm sắc bén",
+      "englishTitle": "Honed Edge",
+      "englishDesc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))",
+      "desc": "Tăng <color_orange>20</>% lượng <color_orange><u>Sát thương theo Phòng thủ</u></> của Bài tấn công trong <cc>1</> lượt (tối đa <color_orange>3</> cộng dồn)"
+    },
+    {
+      "id": "T_CS01_0850",
+      "title": "Lưỡi kiếm sắc bén+",
+      "englishTitle": "Honed Edge+",
+      "englishDesc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards of allies by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))",
+      "desc": "Tăng <color_orange>20</>% lượng <color_orange><u>Sát thương theo Phòng thủ</u></> của Bài tấn công đồng đội trong <cc>1</> lượt (tối đa <color_orange>3</> cộng dồn)"
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "englishDesc": "This card does not reduce the enemy’s Action Count",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch."
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "englishTitle": "Exhaust 2",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>."
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "englishTitle": "Retrieve",
+      "englishDesc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve",
+      "desc": "Nếu lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay.<br>Khi Kích hoạt, loại bỏ Thu hồi."
+    },
+    {
+      "id": "CARD_EGO_FIELD",
+      "title": "Sức bền",
+      "englishTitle": "Tenacity",
+      "englishDesc": "An attribute the monster has<br>When attacking with the same attribute card, trigger <color_orange><u>Weakness Attack</u></>",
+      "desc": "Thuộc tính mà quái vật sở hữu.<br>Khi tấn công bằng lá bài cùng thuộc tính, kích hoạt <color_orange><u>Đánh điểm yếu</u></>."
+    },
+    {
+      "id": "T_CS00_0002",
+      "title": "Dễ tổn thương",
+      "englishTitle": "Vulnerable",
+      "englishDesc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+      "desc": "Tăng <color_orange>50</>% sát thương nhận vào<br>Khi kích hoạt, giảm <color_orange><u>Dễ tổn thương</u></> đi <cc>1</>"
+    }
+  ]
+}

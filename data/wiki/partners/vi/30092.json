@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Cô gái người máy tự nhận là người giám hộ của Fei.</><br>Một cô gái người máy hoạt bát và duyên dáng. Ruixiang có tài ăn nói xuất sắc đến mức người đối thoại tự nhiên muốn mở lòng với cô. Dù bề ngoài là một thiếu nữ, bên trong cô là một tâm hồn từng trải, thích che giấu bản chất thật và trêu chọc người khác.",
+  "infoValues": [
+    "Người máy",
+    "Không rõ",
+    "Rina Hidaka",
+    "Saehae Kim"
+  ],
+  "cardDescription": "<color_orange><u>Rút</u></> <color_orange>1</> lá Tấn công của Nhân vật được ghép cặp<br>Nếu Chi phí của lá đó là <cc>0</> hoặc <cc><color_orange><u>X</u></></>, Rút <color_orange>2</>",
+  "terms": {
+    "CARD_COST_X": {
+      "title": "X",
+      "desc": "Tiêu hao toàn bộ <color_orange><u>Điểm hành động</u></> còn lại và kích hoạt hiệu ứng tương ứng với số đó"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Hương thơm vương vấn",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Mỗi khi Nhân vật được ghép cặp tạo một lá Tấn công thuộc tính <color_ego_creed_light>Hư vô</> trong Chồng bài rút, nhận <cc>1</> Hương dịu nhẹ.",
+        "Khi Hương dịu nhẹ đạt <cc>5</> cộng dồn, +<cc>20</>% Sát thương chí mạng cho Nhân vật được ghép cặp.<br>Hương dịu nhẹ: +<cc>5</>% lượng sát thương cho Nhân vật được ghép cặp (tối đa <cc>5</> cộng dồn)"
+      ]
+    },
+    "2": {
+      "name": "Hương thơm vương vấn",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Mỗi khi Nhân vật được ghép cặp tạo một lá Tấn công thuộc tính <color_ego_creed_light>Hư vô</> trong Chồng bài rút, nhận <cc>1</> Hương dịu nhẹ.",
+        "Khi Hương dịu nhẹ đạt <cc>5</> cộng dồn, +<cc>25</>% Sát thương chí mạng cho Nhân vật được ghép cặp.<br>Hương dịu nhẹ: +<cc>7</>% lượng sát thương cho Nhân vật được ghép cặp (tối đa <cc>5</> cộng dồn)"
+      ]
+    },
+    "3": {
+      "name": "Hương thơm vương vấn",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Mỗi khi Nhân vật được ghép cặp tạo một lá Tấn công thuộc tính <color_ego_creed_light>Hư vô</> trong Chồng bài rút, nhận <cc>1</> Hương dịu nhẹ.",
+        "Khi Hương dịu nhẹ đạt <cc>5</> cộng dồn, +<cc>30</>% Sát thương chí mạng cho Nhân vật được ghép cặp.<br>Hương dịu nhẹ: +<cc>8</>% lượng sát thương cho Nhân vật được ghép cặp (tối đa <cc>5</> cộng dồn)"
+      ]
+    },
+    "4": {
+      "name": "Hương thơm vương vấn",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Mỗi khi Nhân vật được ghép cặp tạo một lá Tấn công thuộc tính <color_ego_creed_light>Hư vô</> trong Chồng bài rút, nhận <cc>1</> Hương dịu nhẹ.",
+        "Khi Hương dịu nhẹ đạt <cc>5</> cộng dồn, +<cc>35</>% Sát thương chí mạng cho Nhân vật được ghép cặp.<br>Hương dịu nhẹ: +<cc>9</>% lượng sát thương cho Nhân vật được ghép cặp (tối đa <cc>5</> cộng dồn)"
+      ]
+    },
+    "5": {
+      "name": "Hương thơm vương vấn",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Mỗi khi Nhân vật được ghép cặp tạo một lá Tấn công thuộc tính <color_ego_creed_light>Hư vô</> trong Chồng bài rút, nhận <cc>1</> Hương dịu nhẹ.",
+        "Khi Hương dịu nhẹ đạt <cc>5</> cộng dồn, +<cc>40</>% Sát thương chí mạng cho Nhân vật được ghép cặp.<br>Hương dịu nhẹ: +<cc>10</>% lượng sát thương cho Nhân vật được ghép cặp (tối đa <cc>5</> cộng dồn)"
+      ]
+    }
+  }
+}

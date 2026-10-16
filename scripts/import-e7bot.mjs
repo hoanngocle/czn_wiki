@@ -42,11 +42,11 @@ export function normalizeCharacters(records) {
 
 function normalizeCard(card, nested = false) {
   if (!card?.id || !card?.name) throw new Error("Invalid card record");
-  if (!Number.isFinite(Number(card.cost)) || card.cost === undefined || Number(card.cost) < 0) throw new Error(`Invalid cost for card ${card.id}`);
+  if (!Number.isInteger(Number(card.cost)) || card.cost === undefined || Number(card.cost) < -1) throw new Error(`Invalid cost for card ${card.id}`);
   if (typeof card.desc_display !== "string" || typeof card.card_category !== "string" || typeof card.rarity !== "string") throw new Error(`Invalid card description/category/rarity for ${card.id}`);
   if ((!nested && !Array.isArray(card.r_spark_cards)) || (card.r_spark_cards !== undefined && !Array.isArray(card.r_spark_cards)) || (card.talent !== undefined && !Array.isArray(card.talent)) || (card.tooltips !== undefined && !Array.isArray(card.tooltips))) throw new Error(`Invalid card variants/talent/tooltips for ${card.id}`);
   const art = card.sct_name ? assetUrl(`api/assets/file/czn/data/card_illustration/${card.sct_name}.webp`) : null;
-  const video = card.sct_name?.startsWith("unique_") ? art.replace(/\.webp$/, ".webm") : null;
+  const video = card.animation && art ? art.replace(/\.webp$/, ".webm") : null;
   return {
     id: String(card.id), name: card.name, cost: Number(card.cost), description: card.desc_display,
     category: card.card_category, rarity: card.rarity, artwork: art, video,
@@ -59,7 +59,7 @@ function normalizeCard(card, nested = false) {
 }
 
 export function normalizeDetail(record) {
-  if (String(record?.id) !== "1041" || !record.combatant) throw new Error("Unsupported detail schema");
+  if (!/^\d+$/.test(String(record?.id)) || !record.name || !record.combatant) throw new Error("Unsupported detail schema");
   const combatant = record.combatant;
   for (const key of ["start_cards", "spark_cards", "combatant_limit_breaks", "potential_target_cards"]) if (!Array.isArray(combatant[key])) throw new Error(`Missing or invalid combatant.${key}`);
   if (!Array.isArray(record.potential_nodes)) throw new Error("Missing or invalid potential_nodes");
@@ -79,13 +79,15 @@ export function normalizeDetail(record) {
     potentialNodes: record.potential_nodes ?? [],
     potentialTargetCards: combatant.potential_target_cards.map((card) => normalizeCard(card)),
     potentialTargetLinkCardId: combatant.potential_target_link_card_id ?? null,
-    ...source(record.id, "api/czn/characters/1041.html"),
+    potentialTargetLinkCardIds: [...new Set((combatant.potential_target_link_card_id ?? "").replace(/^\[|\]$/g, "").split(",").map(id => id.trim()).filter(Boolean))],
+    ...source(record.id, `api/czn/characters/${record.id}.html`),
   };
   const ids = new Set();
   function visit(card) { if (ids.has(card.id)) throw new Error(`Duplicate card ID ${card.id}`); ids.add(card.id); card.variants.forEach(visit); }
   [...result.startCards, ...result.sparkCards, ...result.potentialTargetCards, ...result.collapseCards, ...(result.collapseSkillCard ? [result.collapseSkillCard] : [])].forEach(visit);
-  const linkedId = result.potentialTargetLinkCardId?.replace(/^\[|\]$/g, "");
-  if (linkedId && !result.potentialTargetCards.some((card) => card.id === linkedId)) throw new Error(`Broken potential target card reference ${linkedId}`);
+  for (const linkedId of result.potentialTargetLinkCardIds) {
+    if (!result.potentialTargetCards.some((card) => card.id === linkedId)) throw new Error(`Broken potential target card reference ${linkedId}`);
+  }
   return result;
 }
 

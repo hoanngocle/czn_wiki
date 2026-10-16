@@ -1,0 +1,124 @@
+{
+  "characterId": "1069",
+  "terms": [
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "englishTitle": "Healing",
+      "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_OPENING",
+      "title": "Mở màn",
+      "englishTitle": "Opener",
+      "englishDesc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>",
+      "desc": "Đầu trận, <color_orange><u>kích hoạt qua hiệu ứng</u></> lá này bằng cách tiêu hao <color_orange><u>Điểm hành động</u></><br>Nếu không đủ <color_orange><u>Điểm hành động</u></>, không <color_orange><u>kích hoạt qua hiệu ứng</u></>"
+    },
+    {
+      "id": "TALENT_RHYTHM",
+      "title": "Bài Nhịp điệu",
+      "englishTitle": "Rhythm Cards",
+      "englishDesc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+      "desc": "Bài đặc trưng do Tenebria tạo ra<br>Loại sát thương thay đổi theo vai trò của nhân vật sở hữu lá bài<br>Mỗi khi một lá Nhịp điệu được <color_orange><u>kích hoạt</u></>, nhận <cc>1</> <color_orange><u>Kiệt quệ sân khấu</u></>"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "englishDesc": "This card does not reduce the enemy’s Action Count",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch."
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>."
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "englishDesc": "Activating a card through an effect",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng."
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "englishTitle": "Graveyard",
+      "englishDesc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>",
+      "desc": "Các lá được <color_orange><u>kích hoạt</u></> trong lượt này hoặc ở <color_orange><u>Chồng bài bỏ</u></>"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "T_CS_1069_08",
+      "title": "Sức nóng sân khấu",
+      "englishTitle": "Performance Buzz",
+      "englishDesc": "At the end of the turn, <color_orange>100%</> Damage × Performance Buzz count to random enemies<br>At the end of the turn, remove Performance Buzz (max <color_orange>10</> stacks)",
+      "desc": "Cuối lượt, gây <color_orange>100%</> sát thương × số Sức nóng sân khấu lên kẻ địch ngẫu nhiên<br>Cuối lượt, xóa Sức nóng sân khấu (tối đa <color_orange>10</> cộng dồn)"
+    },
+    {
+      "id": "T_CS_1069_09",
+      "title": "Sức nóng sân khấu",
+      "englishTitle": "Performance Buzz",
+      "englishDesc": "At the end of the turn, <color_orange>150%</> Damage × Performance Buzz count to random enemies<br>At the end of the turn, remove Performance Buzz (max <color_orange>10</> stack(s))",
+      "desc": "Cuối lượt, gây <color_orange>150%</> sát thương × số Sức nóng sân khấu lên kẻ địch ngẫu nhiên<br>Cuối lượt, xóa Sức nóng sân khấu (tối đa <color_orange>10</> cộng dồn)"
+    },
+    {
+      "id": "TALENT_CONNECT",
+      "title": "Liên kết",
+      "englishTitle": "Linked",
+      "englishDesc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+      "desc": "Khi lá này được <color_orange><u>sử dụng</u></>, bỏ tất cả lá <color_orange><u>Liên kết</u></> khác trên tay"
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "englishTitle": "Discard Pile",
+      "englishDesc": "The pile where Discarded Cards move to (max <cc>200</>)",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá)."
+    },
+    {
+      "id": "CARD_TACTIC_GAUGE",
+      "title": "Điểm Ego",
+      "englishTitle": "Ego Points",
+      "englishDesc": "Resource consumed when using Awakening Skills or Partner Skills",
+      "desc": "Tài nguyên tiêu hao khi dùng Kỹ năng Thức tỉnh hoặc Kỹ năng Đối tác"
+    }
+  ]
+}

@@ -1,0 +1,1750 @@
+{
+  "Adelheid": [
+    {
+      "sourceName": "Once Upon A Time",
+      "note": {
+        "en": "II selects an opening card at zero cost; use it to organize the first turn and spread Blessing.",
+        "vi": "II chọn bài mở đầu với chi phí 0; dùng để sắp xếp lượt đầu và lan Phước lành."
+      },
+      "divine": {
+        "en": "Prefer AP, cost reduction or draw; Common Draw supports specific II combos.",
+        "vi": "Ưu tiên Điểm hành động, giảm chi phí hoặc rút bài; Rút Bài chung hỗ trợ một số tổ hợp với II."
+      }
+    },
+    {
+      "sourceName": "Protect Us",
+      "note": {
+        "en": "I provides three staggered Blessing draws; IV trades certainty for zero cost and improves with Ego 4.",
+        "vi": "I rút ba lá Phước lành theo từng lần; IV đổi độ ổn định lấy chi phí 0 và mạnh hơn khi có Ego 4."
+      },
+      "divine": {
+        "en": "Draw or cost reduction; AP fits IV. Neutral options are low priority.",
+        "vi": "Chọn rút bài hoặc giảm chi phí; Điểm hành động phù hợp IV. Thức tỉnh trung lập ít được ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Friends from Fairy Tales",
+      "note": {
+        "en": "II repeatedly returns Teddy after damage; III serves a dedicated Doggie damage build, while V offers flexible forms.",
+        "vi": "II liên tục đưa Teddy trở lại sau khi nhận sát thương; III dành cho lối gây sát thương bằng Doggie, còn V linh hoạt đổi dạng."
+      },
+      "divine": {
+        "en": "Prefer draw or cost reduction; neutral options rarely justify replacing these variants.",
+        "vi": "Ưu tiên rút bài hoặc giảm chi phí; lựa chọn trung lập hiếm khi đáng đổi các biến thể này."
+      }
+    },
+    {
+      "sourceName": "Truth Behind A Story",
+      "note": {
+        "en": "I preserves the buff and adds Weaken; III strengthens Teddy's shield. Duplicate buffs extend duration rather than increase strength.",
+        "vi": "I giữ hiệu ứng tăng sức mạnh và thêm Suy nhược; III tăng Lá chắn của Teddy. Bản sao chỉ kéo dài thời gian hiệu lực, không tăng độ mạnh."
+      },
+      "divine": {
+        "en": "Common-card draw, own-card draw or cost reduction suit the retained support role.",
+        "vi": "Rút Bài chung, rút bài của bản thân hoặc giảm chi phí phù hợp vai trò hỗ trợ."
+      }
+    }
+  ],
+  "Amir": [
+    {
+      "sourceName": "Hovering Metal",
+      "note": {
+        "en": "I supplies more immediate Metallization; V supplies a predictable amount each turn for exact-threshold builds.",
+        "vi": "I cung cấp nhiều Kim loại hóa ngay lập tức; V tạo lượng ổn định mỗi lượt cho bộ bài cần đạt ngưỡng chính xác."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction or draw; neutral upgrades are weak here.",
+        "vi": "Ưu tiên giảm chi phí hoặc rút bài; thức tỉnh trung lập ít giá trị ở đây."
+      }
+    },
+    {
+      "sourceName": "Metal Pierce",
+      "note": {
+        "en": "III generates Metallization and Vulnerable without consuming stacks. I is a damage alternative only when spare stacks are plentiful.",
+        "vi": "III tạo Kim loại hóa và Dễ tổn thương mà không tiêu hao cộng dồn. I chỉ đáng cân nhắc để gây sát thương khi dư nhiều cộng dồn."
+      },
+      "divine": {
+        "en": "Neutral draw or AP eases resource pressure but sacrifices stack generation; consider cost reduction.",
+        "vi": "Rút bài hoặc Điểm hành động trung lập giảm áp lực tài nguyên nhưng mất khả năng tạo cộng dồn; cân nhắc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Metal Extraction",
+      "note": {
+        "en": "III maximizes Metallization generation for most builds. V offers a smaller stack supply with an additive damage bonus.",
+        "vi": "III tối đa lượng Kim loại hóa cho phần lớn bộ bài. V tạo ít cộng dồn hơn nhưng thêm hệ số sát thương cộng dồn."
+      },
+      "divine": {
+        "en": "Prefer cost reduction or draw over neutral upgrades.",
+        "vi": "Ưu tiên giảm chi phí hoặc rút bài hơn thức tỉnh trung lập."
+      }
+    },
+    {
+      "sourceName": "Full Metal Hurricane",
+      "note": {
+        "en": "II adds hits to Metallization and scales with repeated casts, but needs AP support. I can supplement it when area damage matters.",
+        "vi": "II thêm lần đánh cho Kim loại hóa và mạnh hơn khi dùng lặp lại, nhưng cần hỗ trợ Điểm hành động. I bổ sung khi cần sát thương diện rộng."
+      },
+      "divine": {
+        "en": "Cost reduction is the main target; neutral effects lose essential build mechanics.",
+        "vi": "Giảm chi phí là ưu tiên chính; hiệu ứng trung lập làm mất cơ chế thiết yếu của bộ bài."
+      }
+    }
+  ],
+  "Anika": [
+    {
+      "sourceName": "Ignition Slash",
+      "note": {
+        "en": "Keep the base card for a Morale neutral build; V is a niche partner for allies repeatedly using Basic Attacks.",
+        "vi": "Giữ bản gốc trong bộ bài dùng Sĩ khí trung lập; V phù hợp khi đồng đội liên tục dùng Bài tấn công cơ bản."
+      },
+      "divine": {
+        "en": "Target 3 Morale; usual AP, cost reduction, draw or Vulnerable divines remain options.",
+        "vi": "Nhắm đến 3 Sĩ khí; có thể bổ sung Điểm hành động, giảm chi phí, rút bài hoặc Dễ tổn thương."
+      }
+    },
+    {
+      "sourceName": "Reloading",
+      "note": {
+        "en": "The base Finale sets up next-turn Lead draws; I broadens the selection when teammates also supply Lead cards.",
+        "vi": "Kết màn của bản gốc chuẩn bị rút bài Dẫn đầu ở lượt sau; I mở rộng lựa chọn khi đồng đội cũng có bài Dẫn đầu."
+      },
+      "divine": {
+        "en": "Use standard resource divines to fit the team; no unique divine is singled out.",
+        "vi": "Chọn hiệu ứng tài nguyên phù hợp đội; nguồn không đề xuất hiệu ứng thần thánh đặc biệt."
+      }
+    },
+    {
+      "sourceName": "Shock Gun",
+      "note": {
+        "en": "The base version with neutral Morale is preferred; cost reduction enables its additional Tenacity pressure.",
+        "vi": "Ưu tiên bản gốc kèm Sĩ khí trung lập; giảm chi phí giúp kích hoạt thêm áp lực lên Sức bền."
+      },
+      "divine": {
+        "en": "Target 2 Morale, then consider cost reduction, AP or draw.",
+        "vi": "Nhắm đến 2 Sĩ khí, sau đó cân nhắc giảm chi phí, Điểm hành động hoặc rút bài."
+      }
+    },
+    {
+      "sourceName": "Warming Up",
+      "note": {
+        "en": "Base supports cost reduction and Lead draw; II instead supports Anika carrying with an expensive attack.",
+        "vi": "Bản gốc hỗ trợ giảm chi phí và rút bài Dẫn đầu; II phù hợp khi Anika chủ lực dùng đòn đánh tốn nhiều chi phí."
+      },
+      "divine": {
+        "en": "Target 2 Morale and cost reduction for the support route.",
+        "vi": "Nhắm đến 2 Sĩ khí và giảm chi phí cho hướng hỗ trợ."
+      }
+    }
+  ],
+  "Arabella": [
+    {
+      "sourceName": "Scream For Me",
+      "note": {
+        "en": "I builds single-target Fracture quickly; IV improves self-draw. III is an alternative for spreading Fracture across enemies.",
+        "vi": "I tích Rạn nứt nhanh lên một mục tiêu; IV cải thiện tự rút bài. III phù hợp để lan Rạn nứt lên nhiều kẻ địch."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale becomes competitive once other cards can reach the Fracture cap.",
+        "vi": "2 Sĩ khí trung lập đáng cân nhắc khi các lá khác đã đủ đạt giới hạn Rạn nứt."
+      }
+    },
+    {
+      "sourceName": "Observer’s Pleasure",
+      "note": {
+        "en": "V resets Fracture Amplification each turn and supports single-target stacking; area-focused alternatives depend on the encounter.",
+        "vi": "V đặt lại Khuếch đại Rạn nứt mỗi lượt và hỗ trợ tích cộng dồn lên một mục tiêu; hướng diện rộng tùy trận đấu."
+      },
+      "divine": {
+        "en": "Prefer draw, Common/own-card draw or AP; neutral Morale or Vulnerable gives less value.",
+        "vi": "Ưu tiên rút bài, rút Bài chung/bài bản thân hoặc Điểm hành động; Sĩ khí hay Dễ tổn thương trung lập ít giá trị hơn."
+      }
+    },
+    {
+      "sourceName": "Hollow Verdict",
+      "note": {
+        "en": "II triggers Fracture twice on the amplified target; III serves area fights. V helps when stack generation remains insufficient.",
+        "vi": "II kích hoạt Rạn nứt hai lần trên mục tiêu được khuếch đại; III dùng cho trận nhiều mục tiêu. V hữu ích khi còn thiếu khả năng tạo cộng dồn."
+      },
+      "divine": {
+        "en": "Prefer cost reduction or targeted draw; neutral effects replace important mechanics.",
+        "vi": "Ưu tiên giảm chi phí hoặc rút bài có chọn lọc; hiệu ứng trung lập làm mất cơ chế quan trọng."
+      }
+    },
+    {
+      "sourceName": "Sadistic Restraint",
+      "note": {
+        "en": "II combines four hits with frequent Fracture triggers; pair V with it to maximize an Attack Card build's hit count.",
+        "vi": "II kết hợp bốn lần đánh với nhiều lần kích hoạt Rạn nứt; phối hợp V để tối đa số lần đánh của bộ bài Tấn công."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction or 2 Vulnerable; neutral Morale/Vulnerable is situational.",
+        "vi": "Ưu tiên giảm chi phí hoặc 2 Dễ tổn thương; Sĩ khí/Dễ tổn thương trung lập tùy nhu cầu."
+      }
+    }
+  ],
+  "Beryl": [
+    {
+      "sourceName": "Opening Found",
+      "note": {
+        "en": "V converts retained Beryl cards into repeated Extra Attacks. III is the direct-attack alternative, but usually needs more support.",
+        "vi": "V biến bài Beryl được Giữ lại thành nhiều Đòn đánh thêm. III là hướng đánh trực tiếp nhưng thường cần hỗ trợ nhiều hơn."
+      },
+      "divine": {
+        "en": "Consider Weakness Attack, cost reduction, or Morale/Resolve on V; neutrals are low priority.",
+        "vi": "Cân nhắc Tấn công điểm yếu, giảm chi phí hoặc Sĩ khí/Quyết tâm cho V; ít ưu tiên trung lập."
+      }
+    },
+    {
+      "sourceName": "Charged Shot",
+      "note": {
+        "en": "This card is usually removed or retained only to fuel Beryl's other effects. I–V offer little reason to spend resources playing it.",
+        "vi": "Lá này thường bị loại hoặc chỉ Giữ lại để hỗ trợ hiệu ứng khác của Beryl. I–V ít khi đáng đầu tư tài nguyên để sử dụng."
+      },
+      "divine": {
+        "en": "Do not prioritize divines; keep only a variant that fits the retention plan.",
+        "vi": "Không ưu tiên hiệu ứng thần thánh; chỉ giữ biến thể phù hợp kế hoạch Giữ lại bài."
+      }
+    },
+    {
+      "sourceName": "Guilty Pleasure",
+      "note": {
+        "en": "I adds lasting Morale; II reduces a random Beryl card's cost. The other variants also have useful support applications.",
+        "vi": "I thêm Sĩ khí lâu dài; II giảm chi phí một lá Beryl ngẫu nhiên. Các biến thể khác cũng có ứng dụng hỗ trợ hữu ích."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale matches I's addition; 1 AP is the main divine target.",
+        "vi": "1 Sĩ khí trung lập tương đương phần bổ sung của I; ưu tiên thần thánh 1 Điểm hành động."
+      }
+    },
+    {
+      "sourceName": "Unlimited Firepower",
+      "note": {
+        "en": "V leaves the deck after its Upgrade setup. III supplies the strongest direct-attack buff; II suits attacking every turn.",
+        "vi": "V rời vòng bài sau khi thiết lập Nâng cấp. III tăng mạnh nhất cho đòn đánh trực tiếp; II phù hợp lối tấn công mỗi lượt."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; draw or cost-reduction divines are alternatives.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; thần thánh rút bài hoặc giảm chi phí là lựa chọn khác."
+      }
+    }
+  ],
+  "Cassius": [
+    {
+      "sourceName": "Pop Eyed Popper",
+      "note": {
+        "en": "IV lets you select a Quest and avoids repeated resets. I is reasonable only when restarting for favorable outcomes is easy.",
+        "vi": "IV cho chọn Nhiệm vụ, giảm nhu cầu khởi động lại. I hợp lý khi có thể dễ dàng chơi lại để tìm kết quả thuận lợi."
+      },
+      "divine": {
+        "en": "Prefer Morale/Resolve; neutral bonuses generally do not compensate for lost consistency.",
+        "vi": "Ưu tiên Sĩ khí/Quyết tâm; phần thưởng trung lập thường không bù được độ ổn định bị mất."
+      }
+    },
+    {
+      "sourceName": "Devil Dice",
+      "note": {
+        "en": "V works immediately at zero cost; II concentrates repeated draws into one turn. III improves when several targets are present.",
+        "vi": "V dùng ngay với chi phí 0; II tập trung nhiều lần rút trong một lượt. III mạnh hơn khi có nhiều mục tiêu."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale is strong; cost reduction, AP or Vulnerable depend on the chosen variant.",
+        "vi": "2 Sĩ khí trung lập mạnh; giảm chi phí, Điểm hành động hoặc Dễ tổn thương tùy biến thể đã chọn."
+      }
+    },
+    {
+      "sourceName": "Shuffle",
+      "note": {
+        "en": "III refills five cards after the hand is spent and reshuffles the deck. II preserves selected cards; IV helps when AP is limited.",
+        "vi": "III rút bù năm lá sau khi dùng hết bài trên tay và xáo lại bộ bài. II giữ lá được chọn; IV phù hợp khi thiếu Điểm hành động."
+      },
+      "divine": {
+        "en": "Neutral 1 AP saves Faint Memory; cost reduction or 2 Vulnerable are useful divines.",
+        "vi": "1 Điểm hành động trung lập tiết kiệm Ký ức phai nhạt nhạt; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh hữu ích."
+      }
+    },
+    {
+      "sourceName": "Dice Trick",
+      "note": {
+        "en": "V adds draw when a Quest reward draws; III improves first-turn affordability when cost reductions have not started.",
+        "vi": "V thêm rút bài khi phần thưởng Nhiệm vụ có rút bài; III dễ dùng ở lượt đầu khi chưa bắt đầu giảm chi phí."
+      },
+      "divine": {
+        "en": "Neutral AP, Draw 1 or 3 Morale exploits the original cost pool; 2 Vulnerable is a useful divine.",
+        "vi": "Điểm hành động, Rút 1 hoặc 3 Sĩ khí trung lập tận dụng nhóm chi phí gốc; 2 Dễ tổn thương là thần thánh hữu ích."
+      }
+    }
+  ],
+  "Chizuru": [
+    {
+      "sourceName": "Karmic Flames",
+      "note": {
+        "en": "V is a zero-cost Exhaust option that can return after enemy deaths; I's extra hit needs Cursed Shackles setup.",
+        "vi": "V là lựa chọn Kiệt sức chi phí 0, có thể tạo lại khi kẻ địch chết; lần đánh thêm của I cần thiết lập Xiềng xích nguyền rủa."
+      },
+      "divine": {
+        "en": "Neutral 1 AP is strong; consider cost reduction or Draw 1 on IV.",
+        "vi": "1 Điểm hành động trung lập mạnh; cân nhắc giảm chi phí hoặc Rút 1 cho IV."
+      }
+    },
+    {
+      "sourceName": "Tsukuyomi",
+      "note": {
+        "en": "V supplies reliable Wisps and clears itself from the deck. III instead supports accumulating Shadow of the Moon hits across skipped turns.",
+        "vi": "V cung cấp Ma trơi ổn định và tự rời vòng bài. III hỗ trợ tích số lần đánh của Shadow of the Moon qua các lượt bỏ qua."
+      },
+      "divine": {
+        "en": "III favors draw or AP; V favors Morale/Resolve. Neutral effects lose the key specialization.",
+        "vi": "III hợp rút bài hoặc Điểm hành động; V hợp Sĩ khí/Quyết tâm. Trung lập làm mất cơ chế chuyên biệt."
+      }
+    },
+    {
+      "sourceName": "Bound At Dusk",
+      "note": {
+        "en": "I's zero cost eases turn-one setup. II can outperform it with several Shadow of the Moon creations, but needs reliable sequencing.",
+        "vi": "Chi phí 0 của I giúp thiết lập lượt đầu. II có thể vượt hơn khi tạo nhiều Shadow of the Moon, nhưng cần thứ tự dùng bài ổn định."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale or Morale/Resolve divines provide lasting multihit support.",
+        "vi": "1 Sĩ khí trung lập hoặc thần thánh Sĩ khí/Quyết tâm hỗ trợ lâu dài cho nhiều lần đánh."
+      }
+    },
+    {
+      "sourceName": "Oni Hunt",
+      "note": {
+        "en": "IV suits consistent Moonslash/basic-attack damage. V fits hit-stacking setups and avoids consuming next-attack buffs with unwanted attacks.",
+        "vi": "IV hợp sát thương ổn định bằng Moonslash/Bài tấn công cơ bản. V hợp tích lần đánh và tránh tiêu hao hiệu ứng tăng đòn kế tiếp bằng đòn không mong muốn."
+      },
+      "divine": {
+        "en": "Neutral AP, draw or cost reduction address resources; V can use Morale/Resolve.",
+        "vi": "Điểm hành động trung lập, rút bài hoặc giảm chi phí giải quyết tài nguyên; V có thể dùng Sĩ khí/Quyết tâm."
+      }
+    }
+  ],
+  "Diana": [
+    {
+      "sourceName": "With All My Heart!",
+      "note": {
+        "en": "I produces three Heart Breaker cards. IV adds Quietus to bullets for stronger discard turns, but demands timing and hand space.",
+        "vi": "I tạo ba lá Heart Breaker. IV thêm Tịch diệt cho bài Đạn để tăng sức mạnh lượt bỏ bài, nhưng cần đúng thời điểm và đủ chỗ trên tay."
+      },
+      "divine": {
+        "en": "Draw 1 is useful as either a neutral or divine effect.",
+        "vi": "Rút 1 hữu ích ở cả thức tỉnh trung lập lẫn thần thánh."
+      }
+    },
+    {
+      "sourceName": "C'mere、Milk & Pong!",
+      "note": {
+        "en": "IV creates both bullet types with little setup. I supports another combatant's Extra Attacks; V needs hand space for sustained generation.",
+        "vi": "IV tạo cả hai loại đạn mà ít cần chuẩn bị. I hỗ trợ Đòn đánh thêm của đồng đội; V cần chỗ trên tay để tạo bài lâu dài."
+      },
+      "divine": {
+        "en": "Neutral draw is efficient; consider draw, cost reduction, or AP on III.",
+        "vi": "Rút bài trung lập hiệu quả; cân nhắc rút bài, giảm chi phí hoặc Điểm hành động cho III."
+      }
+    },
+    {
+      "sourceName": "Pistol of Purification",
+      "note": {
+        "en": "I supplies Resonance and triggers it six times when discarded. II suits frequent Haste attacks but does not consume the stacks itself.",
+        "vi": "I tạo Cộng hưởng và kích hoạt sáu lần khi bị bỏ. II hợp nhiều đòn Nhanh nhẹn nhưng không tự tiêu thụ cộng dồn."
+      },
+      "divine": {
+        "en": "Neutral draw eases cycling; 2 Vulnerable or Weakness Attack improves damage.",
+        "vi": "Rút bài trung lập hỗ trợ luân chuyển; 2 Dễ tổn thương hoặc Tấn công điểm yếu tăng sát thương."
+      }
+    },
+    {
+      "sourceName": "Blooming Love",
+      "note": {
+        "en": "IV converts discarded bullets into Extra Attacks but competes for bullets with other effects. V offers easier passive Quietus draw.",
+        "vi": "IV đổi các lá Đạn bị bỏ thành Đòn đánh thêm nhưng cạnh tranh nguồn đạn với hiệu ứng khác. V cung cấp rút bài Tịch diệt thụ động dễ dùng hơn."
+      },
+      "divine": {
+        "en": "Prefer draw, or Morale/Resolve on V; neutral choices miss valuable variant effects.",
+        "vi": "Ưu tiên rút bài, hoặc Sĩ khí/Quyết tâm cho V; trung lập bỏ lỡ hiệu ứng biến thể quan trọng."
+      }
+    }
+  ],
+  "Fei": [
+    {
+      "sourceName": "Exorcist's Formation",
+      "note": {
+        "en": "IV adds an Extra Attack to Flame Arts for more hits. V supports Descent builds, especially with higher Ego; II prioritizes draw consistency.",
+        "vi": "IV thêm Đòn đánh thêm cho Hỏa thuật để tăng số lần đánh. V hỗ trợ Giáng lâm, nhất là khi Ego cao; II ưu tiên rút bài ổn định."
+      },
+      "divine": {
+        "en": "Look for next-turn Draw 2, Ego-skill cost reduction, or Morale/Resolve; neutrals are weak.",
+        "vi": "Tìm Rút 2 đầu lượt, giảm chi phí kỹ năng Ego hoặc Sĩ khí/Quyết tâm; trung lập ít giá trị."
+      }
+    },
+    {
+      "sourceName": "Soliloquy",
+      "note": {
+        "en": "I works in mostly zero-cost or discard teams. II reliably finds Fei's zero-cost cards; III supports Descent at a higher cost.",
+        "vi": "I hợp đội gần như toàn bài chi phí 0 hoặc đội bỏ bài. II tìm bài Fei chi phí 0 ổn định; III hỗ trợ Giáng lâm nhưng tốn chi phí hơn."
+      },
+      "divine": {
+        "en": "Prioritize draw or AP; neutral options offer little to this draw card.",
+        "vi": "Ưu tiên rút bài hoặc Điểm hành động; trung lập ít đóng góp cho lá rút bài này."
+      }
+    },
+    {
+      "sourceName": "Night Rain",
+      "note": {
+        "en": "II efficiently increases Flame Arts activations; IV returns at turn start for reliable cycling. V specifically supports X-cost builds.",
+        "vi": "II tăng số lần kích hoạt Hỏa thuật hiệu quả; IV trở lại đầu lượt để luân chuyển ổn định. V chuyên hỗ trợ bộ bài chi phí X."
+      },
+      "divine": {
+        "en": "Draw or AP are useful; III benefits from cost reduction.",
+        "vi": "Rút bài hoặc Điểm hành động hữu ích; III hưởng lợi từ giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Soulfire Dance",
+      "note": {
+        "en": "V permanently adds a hit to Flame Arts but is Unique. Pair IV with it for additional attacks and Heavensfall generation.",
+        "vi": "V thêm lâu dài một lần đánh cho Hỏa thuật nhưng mang Độc nhất. Phối hợp IV để tăng đòn đánh và tạo Heavensfall."
+      },
+      "divine": {
+        "en": "Prefer draw, Common-card draw or own-card draw; base/neutral remains a situational utility option.",
+        "vi": "Ưu tiên rút bài, rút Bài chung hoặc bài bản thân; bản gốc/trung lập vẫn có ích tùy tình huống."
+      }
+    }
+  ],
+  "Haru": [
+    {
+      "sourceName": "Anchor Shot",
+      "note": {
+        "en": "IV creates copies that retain additional effects and enables the strongest setups. I rewards longer fights rather than immediate burst.",
+        "vi": "IV tạo bản sao giữ hiệu ứng bổ sung và mở lối thiết lập mạnh nhất. I có lợi trong trận dài hơn thay vì dồn sát thương ngay."
+      },
+      "divine": {
+        "en": "Prioritize 2 Vulnerable; neutral 1 Vulnerable is a strong fallback.",
+        "vi": "Ưu tiên 2 Dễ tổn thương; 1 Dễ tổn thương trung lập là phương án thay thế tốt."
+      }
+    },
+    {
+      "sourceName": "Anchor Pointer",
+      "note": {
+        "en": "III enables repeated use for first-turn burst. V stabilizes critical hits, while I pairs well with Anchor Shot IV.",
+        "vi": "III cho dùng lặp lại để dồn sát thương lượt đầu. V ổn định chí mạng, còn I phối hợp tốt với Anchor Shot IV."
+      },
+      "divine": {
+        "en": "Prefer Draw 1; neutral Morale usually offers less than the specialized variants.",
+        "vi": "Ưu tiên Rút 1; Sĩ khí trung lập thường kém giá trị hơn biến thể chuyên dụng."
+      }
+    },
+    {
+      "sourceName": "Power Charge",
+      "note": {
+        "en": "V reduces cost through Combo; the card mainly supplies another hit and a card in hand for Charge Energy IV.",
+        "vi": "V giảm chi phí nhờ Liên kích; vai trò chính là thêm một lần đánh và một lá trên tay cho Charge Energy IV."
+      },
+      "divine": {
+        "en": "Neutral 1 Vulnerable improves uptime; 2 Vulnerable or cost reduction are useful divines.",
+        "vi": "1 Dễ tổn thương trung lập duy trì hiệu ứng; 2 Dễ tổn thương hoặc giảm chi phí là thần thánh hữu ích."
+      }
+    },
+    {
+      "sourceName": "Charge Energy",
+      "note": {
+        "en": "IV scales its buff with Haru cards in hand and is the defining choice. The other variants generally offer much less damage.",
+        "vi": "IV tăng hiệu ứng theo số lá Haru trên tay và là lựa chọn cốt lõi. Các biến thể khác thường tăng sát thương ít hơn đáng kể."
+      },
+      "divine": {
+        "en": "Prefer Draw 1 or cost reduction; avoid sacrificing IV for neutral effects.",
+        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tránh đổi IV lấy hiệu ứng trung lập."
+      }
+    }
+  ],
+  "Heidemarie": [
+    {
+      "sourceName": "Sword Rain",
+      "note": {
+        "en": "I uses Quietus to create two Effulgent Blade cards but needs hand space. III offers five Extra Attacks after sufficient blade setup.",
+        "vi": "I dùng Tịch diệt để tạo hai lá Effulgent Blade nhưng cần chỗ trên tay. III tạo năm Đòn đánh thêm khi đã chuẩn bị đủ kiếm."
+      },
+      "divine": {
+        "en": "Neutral removes Quietus for looping; consider Weakness Attack, Common draw, or cost reduction on III/IV.",
+        "vi": "Trung lập bỏ Tịch diệt để dùng lặp; cân nhắc Tấn công điểm yếu, rút Bài chung hoặc giảm chi phí cho III/IV."
+      }
+    },
+    {
+      "sourceName": "Hero to All",
+      "note": {
+        "en": "I combines search with a Quietus discard engine. IV gives lasting Link and targeted retrieval but expires after its limited uses.",
+        "vi": "I kết hợp tìm bài với cơ chế bỏ bài Tịch diệt. IV gắn Liên kết lâu dài và lấy bài chọn trước nhưng hết tác dụng sau số lần dùng giới hạn."
+      },
+      "divine": {
+        "en": "Neutral 1 AP is efficient; the card works well without spending on divines.",
+        "vi": "1 Điểm hành động trung lập hiệu quả; lá này hoạt động tốt mà không cần đầu tư thần thánh."
+      }
+    },
+    {
+      "sourceName": "Thread of Light",
+      "note": {
+        "en": "III supplies a passive buff from hand or graveyard plus Quietus damage. II instead requires a dedicated burst setup.",
+        "vi": "III tăng sức mạnh thụ động từ tay hoặc Mộ bài và thêm sát thương Tịch diệt. II cần bộ bài chuyên dồn sát thương."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; specialized variants matter more than divines.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; biến thể phù hợp quan trọng hơn thần thánh."
+      }
+    },
+    {
+      "sourceName": "Effulgent Expansion",
+      "note": {
+        "en": "V generates two Effulgent Blade cards each turn and keeps its buff permanently. Reserve hand space; I's buff needs repeated use.",
+        "vi": "V tạo hai Effulgent Blade mỗi lượt và duy trì hiệu ứng tăng sức mạnh lâu dài. Cần chừa chỗ trên tay; I phải dùng lại để duy trì hiệu ứng."
+      },
+      "divine": {
+        "en": "Neutral or divine Draw 1 is useful for cycling.",
+        "vi": "Rút 1 trung lập hoặc thần thánh hữu ích để luân chuyển."
+      }
+    }
+  ],
+  "Hilde": [
+    {
+      "sourceName": "Quiver Reload",
+      "note": {
+        "en": "I creates four Homing Arrow cards and draws immediately; II emphasizes Fracture. III trades quantity for a stronger single arrow.",
+        "vi": "I tạo bốn Homing Arrow và rút ngay; II tập trung Rạn nứt. III đổi số lượng lấy một mũi tên mạnh hơn."
+      },
+      "divine": {
+        "en": "Neutral draw or Mark is useful; consider cost reduction or targeted draw, with ordinary draw except on I.",
+        "vi": "Rút bài hoặc Dấu ấn trung lập hữu ích; cân nhắc giảm chi phí hay rút có chọn lọc, còn rút thông thường dành cho biến thể ngoài I."
+      }
+    },
+    {
+      "sourceName": "Plasma Rain",
+      "note": {
+        "en": "I increases Ionization through Attunement. II drops minor direct damage to strengthen the effect and add draw.",
+        "vi": "I tăng Ion hóa qua Điều hòa. II bỏ phần sát thương trực tiếp nhỏ để tăng hiệu ứng và thêm rút bài."
+      },
+      "divine": {
+        "en": "Neutral draw or Mark can compete; Common-card or own-card draw are divine targets.",
+        "vi": "Rút bài hoặc Dấu ấn trung lập đáng cân nhắc; thần thánh ưu tiên rút Bài chung hoặc bài bản thân."
+      }
+    },
+    {
+      "sourceName": "Draw & Release",
+      "note": {
+        "en": "II adds Fracture through subsequent Extra Attacks; I is a modest damage buff mainly for specific neutral multihit builds.",
+        "vi": "II thêm Rạn nứt qua các Đòn đánh thêm tiếp theo; I tăng sát thương vừa phải, chủ yếu cho bộ bài nhiều lần đánh bằng bài trung lập."
+      },
+      "divine": {
+        "en": "Neutral Mark often beats I's small buff; consider cost reduction or targeted draw.",
+        "vi": "Dấu ấn trung lập thường hơn phần tăng nhỏ của I; cân nhắc giảm chi phí hoặc rút có chọn lọc."
+      }
+    },
+    {
+      "sourceName": "Big Game Ranger",
+      "note": {
+        "en": "II combines zero cost, Initiation and Draw 2 for easy setup. I adds stacks only when the team cannot already reach the cap.",
+        "vi": "II kết hợp chi phí 0, Khởi đầu và Rút 2 để thiết lập dễ dàng. I chỉ cần khi đội chưa tự đạt giới hạn cộng dồn."
+      },
+      "divine": {
+        "en": "Use Morale/Resolve; start-turn Agony neutral is specific to debuff or damage-over-time teams.",
+        "vi": "Dùng Sĩ khí/Quyết tâm; Thống khổ đầu lượt trung lập dành riêng cho đội hiệu ứng bất lợi hoặc sát thương theo thời gian."
+      }
+    }
+  ],
+  "Hugo": [
+    {
+      "sourceName": "Hunting Instincts",
+      "note": {
+        "en": "III adds another Extra Attack to each hunt trigger; the additional hit does not receive the hunt's buff. II can supplement stack generation.",
+        "vi": "III thêm một Đòn đánh thêm mỗi lần kích hoạt cuộc săn; đòn bổ sung không nhận hiệu ứng tăng của cuộc săn. II có thể bổ sung khả năng tạo cộng dồn."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction; neutral damage-over-time utility rarely beats III's extra attack.",
+        "vi": "Ưu tiên giảm chi phí; tiện ích sát thương theo thời gian trung lập hiếm khi hơn đòn bổ sung của III."
+      }
+    },
+    {
+      "sourceName": "Fan of Daggers",
+      "note": {
+        "en": "II targets an enemy, generates two hunt stacks and triggers the hunt itself. III is more specialized for another Extra Attack ally.",
+        "vi": "II chọn mục tiêu, tạo hai cộng dồn cuộc săn và tự kích hoạt cuộc săn. III chuyên phối hợp với đồng đội có Đòn đánh thêm."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 is efficient; specialized effects matter more than investing in divines.",
+        "vi": "Rút 1 trung lập hiệu quả; hiệu ứng chuyên dụng quan trọng hơn đầu tư thần thánh."
+      }
+    },
+    {
+      "sourceName": "Quick Fix",
+      "note": {
+        "en": "III supplies Draw 2 while attacking, letting Hugo fill a support role. V favors carry damage when draw is already sufficient.",
+        "vi": "III vừa tấn công vừa Rút 2, giúp Hugo hỗ trợ đội. V nghiêng về sát thương chủ lực khi đã đủ khả năng rút bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 is competitive; cost reduction is the main divine target.",
+        "vi": "Rút 1 trung lập đáng cân nhắc; giảm chi phí là thần thánh ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Dingo Howling",
+      "note": {
+        "en": "III passively draws an Attack Card on the first hunt trigger each turn. V draws more immediately but requires repeated spending.",
+        "vi": "III thụ động rút Bài tấn công ở lần kích hoạt cuộc săn đầu mỗi lượt. V rút ngay nhiều hơn nhưng phải chi tài nguyên lặp lại."
+      },
+      "divine": {
+        "en": "Use cost reduction or Draw 1; a draw neutral generally trails V.",
+        "vi": "Dùng giảm chi phí hoặc Rút 1; trung lập rút bài thường kém V."
+      }
+    }
+  ],
+  "Kayron": [
+    {
+      "sourceName": "Echo of Futility",
+      "note": {
+        "en": "V starts cheaply and scales with Futility generation. I provides stronger immediate damage and faster Black Hole setup in short fights.",
+        "vi": "V khởi đầu ít tốn chi phí và tăng theo lượng Futility được tạo. I mạnh ngay hơn và chuẩn bị Black Hole nhanh hơn trong trận ngắn."
+      },
+      "divine": {
+        "en": "Consider cost reduction or 2 Vulnerable; V can take 1 AP.",
+        "vi": "Cân nhắc giảm chi phí hoặc 2 Dễ tổn thương; V có thể lấy 1 Điểm hành động."
+      }
+    },
+    {
+      "sourceName": "Brand of Annihilation",
+      "note": {
+        "en": "I is the easier choice before Ego 1. III permanently lowers its high cost through exhausted Futility and improves with Ego 1.",
+        "vi": "I dễ dùng hơn trước Ego 1. III giảm lâu dài chi phí cao nhờ Futility bị Kiệt sức và mạnh hơn khi có Ego 1."
+      },
+      "divine": {
+        "en": "Target Weakness Attack, 2 Vulnerable or a damage increase.",
+        "vi": "Nhắm đến Tấn công điểm yếu, 2 Dễ tổn thương hoặc tăng sát thương."
+      }
+    },
+    {
+      "sourceName": "Black Hole",
+      "note": {
+        "en": "II preserves and strengthens scaling from exhausted Futility. V is mainly a way to clear the card in builds that cannot afford it.",
+        "vi": "II giữ và tăng khả năng tích sát thương từ Futility bị Kiệt sức. V chủ yếu giúp loại lá này khỏi vòng bài khi không đủ tài nguyên sử dụng."
+      },
+      "divine": {
+        "en": "Weakness Attack, 2 Vulnerable or a damage increase support the damage route.",
+        "vi": "Tấn công điểm yếu, 2 Dễ tổn thương hoặc tăng sát thương hỗ trợ hướng gây sát thương."
+      }
+    },
+    {
+      "sourceName": "Oath of Vanity",
+      "note": {
+        "en": "IV cheaply exhausts many unwanted cards and draws replacements. I supports reliable attack-Futility setup; II prioritizes healing.",
+        "vi": "IV giúp Kiệt sức nhiều lá không cần và rút bù với chi phí thấp. I thiết lập ổn định hướng tấn công bằng Futility; II ưu tiên hồi máu."
+      },
+      "divine": {
+        "en": "Choose the right variant first; divines add relatively little.",
+        "vi": "Chọn đúng biến thể trước; thần thánh bổ sung khá ít giá trị."
+      }
+    }
+  ],
+  "Khalipe": [
+    {
+      "sourceName": "Vulture Ejection",
+      "note": {
+        "en": "II removes damage to emphasize shielding and enables Draw 1. I instead maximizes direct damage at the cost of its shield.",
+        "vi": "II bỏ sát thương để tăng Lá chắn và mở lựa chọn Rút 1. I tăng sát thương trực tiếp nhưng mất Lá chắn."
+      },
+      "divine": {
+        "en": "Draw 1 on II or 2 Vulnerable are priorities; neutral resource effects can support Celestial triggers.",
+        "vi": "Ưu tiên Rút 1 cho II hoặc 2 Dễ tổn thương; hiệu ứng tài nguyên trung lập có thể hỗ trợ kích hoạt Thiên thể."
+      }
+    },
+    {
+      "sourceName": "Greatsword Aquila",
+      "note": {
+        "en": "III adds Silver Veil for the main damage engine. IV occupies hand space for a small retained buff and is harder to justify.",
+        "vi": "III thêm Màn bạc cho cơ chế sát thương chính. IV chiếm chỗ trên tay để tạo hiệu ứng Giữ lại nhỏ nên khó đáng giá hơn."
+      },
+      "divine": {
+        "en": "Do not prioritize divines or neutral effects on this low-priority card.",
+        "vi": "Không ưu tiên thần thánh hoặc trung lập trên lá có mức ưu tiên thấp này."
+      }
+    },
+    {
+      "sourceName": "Overpower",
+      "note": {
+        "en": "IV scales its shield with hand size and is the preferred version when retained in the deck. The other effects struggle to justify the cost.",
+        "vi": "IV tăng Lá chắn theo số bài trên tay, là bản ưu tiên nếu giữ trong bộ bài. Các hiệu ứng khác khó bù được chi phí."
+      },
+      "divine": {
+        "en": "Consider cost reduction or 2 Vulnerable; neutral versions retain the expensive base effect.",
+        "vi": "Cân nhắc giảm chi phí hoặc 2 Dễ tổn thương; bản trung lập vẫn giữ hiệu ứng gốc tốn kém."
+      }
+    },
+    {
+      "sourceName": "Rally",
+      "note": {
+        "en": "III gains Celestial and Silver Veil, making it efficient with expensive allied cards. Other versions depend on the desired draw target.",
+        "vi": "III có Thiên thể và Màn bạc, hiệu quả khi đồng đội dùng bài đắt. Các bản khác tùy loại bài muốn rút."
+      },
+      "divine": {
+        "en": "Select the draw behavior that fits the team; divines and neutrals are secondary.",
+        "vi": "Chọn cách rút bài phù hợp đội; thần thánh và trung lập là ưu tiên sau."
+      }
+    }
+  ],
+  "Lucas": [
+    {
+      "sourceName": "Extended Magazine",
+      "note": {
+        "en": "IV turns copies into a probabilistic start-turn draw engine. III's occasional free bullets do not reliably solve Lucas's low damage efficiency.",
+        "vi": "IV biến các bản sao thành cơ chế rút đầu lượt theo xác suất. Đạn miễn phí đôi lúc của III không giải quyết ổn định hiệu suất sát thương thấp của Lucas."
+      },
+      "divine": {
+        "en": "Consider cost reduction or Morale/Resolve; no neutral effect is central to the build.",
+        "vi": "Cân nhắc giảm chi phí hoặc Sĩ khí/Quyết tâm; không có trung lập cốt lõi cho bộ bài."
+      }
+    },
+    {
+      "sourceName": "S.S.S",
+      "note": {
+        "en": "II becomes a skill with a two-turn buff and access to Draw 1, improving support consistency. Direct-damage variants add little.",
+        "vi": "II thành kỹ năng tăng sức mạnh trong hai lượt và có thể lấy Rút 1, giúp hỗ trợ ổn định hơn. Các bản tăng sát thương trực tiếp đóng góp ít."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction or Draw 1 on II.",
+        "vi": "Ưu tiên giảm chi phí hoặc Rút 1 cho II."
+      }
+    },
+    {
+      "sourceName": "Flame Thrower",
+      "note": {
+        "en": "II is useful when the draw/discard cycle matters. I adds more discard but also produces bullets that consume valuable hand space.",
+        "vi": "II hữu ích khi cần chu trình rút/bỏ bài. I tăng bỏ bài nhưng đồng thời tạo đạn chiếm chỗ quý giá trên tay."
+      },
+      "divine": {
+        "en": "Cost reduction is the useful divine; neutral/base remains reasonable for cycling.",
+        "vi": "Giảm chi phí là thần thánh hữu ích; bản trung lập/gốc vẫn hợp để luân chuyển."
+      }
+    },
+    {
+      "sourceName": "Flashbang",
+      "note": {
+        "en": "III supplies retained Passion weakness support. V mainly removes itself from the draw cycle when further card removal is unavailable.",
+        "vi": "III hỗ trợ điểm yếu Đam mê bằng Giữ lại. V chủ yếu tự rời vòng rút khi không thể loại thêm bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves usability; 2 Vulnerable is the damage-support divine.",
+        "vi": "Rút 1 trung lập giúp dễ dùng; 2 Dễ tổn thương là thần thánh hỗ trợ sát thương."
+      }
+    }
+  ],
+  "Luke": [
+    {
+      "sourceName": "Rapid Fire (Luke)",
+      "note": {
+        "en": "II's three hits provide reliable bullet generation and damage. I uses Retrieve for stronger first-turn output but loses that advantage afterward.",
+        "vi": "Ba lần đánh của II tạo đạn và gây sát thương ổn định. I dùng Thu hồi để mạnh ở lượt đầu nhưng sau đó mất lợi thế."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction; neutral utility sacrifices valuable bullet generation.",
+        "vi": "Ưu tiên giảm chi phí; tiện ích trung lập đánh đổi khả năng tạo đạn quan trọng."
+      }
+    },
+    {
+      "sourceName": "Stealth Reload",
+      "note": {
+        "en": "II produces three bullets immediately; III sacrifices first-turn output for more bullets on later turns. Both fit Hugo-assisted teams.",
+        "vi": "II tạo ngay ba viên đạn; III giảm hiệu quả lượt đầu để có nhiều đạn hơn ở lượt sau. Cả hai phù hợp đội có Hugo hỗ trợ."
+      },
+      "divine": {
+        "en": "Cost reduction or Draw 1 keeps the bullet engine efficient.",
+        "vi": "Giảm chi phí hoặc Rút 1 giúp cơ chế tạo đạn hiệu quả."
+      }
+    },
+    {
+      "sourceName": "Seize the Opportunity",
+      "note": {
+        "en": "IV complements Dance of the Demon. III is safer when enemy Elasticity limits long multihit attacks.",
+        "vi": "IV phối hợp với Dance of the Demon. III an toàn hơn khi Đàn hồi của địch hạn chế chuỗi nhiều lần đánh."
+      },
+      "divine": {
+        "en": "Neutral draw/AP is usable for support; consider cost reduction or Draw 1.",
+        "vi": "Rút bài/Điểm hành động trung lập có thể hỗ trợ; cân nhắc giảm chi phí hoặc Rút 1."
+      }
+    },
+    {
+      "sourceName": "Dance of the Demon",
+      "note": {
+        "en": "II scales with all attacks, including allies, rather than only bullets. It is the main choice unless the encounter punishes long hit chains.",
+        "vi": "II tăng theo mọi đòn đánh, kể cả đồng đội, thay vì chỉ đạn. Đây là lựa chọn chính trừ khi trận đấu trừng phạt chuỗi đánh dài."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction; neutral versions lose II's broader scaling.",
+        "vi": "Ưu tiên giảm chi phí; bản trung lập mất khả năng tích sát thương rộng của II."
+      }
+    }
+  ],
+  "Magna": [
+    {
+      "sourceName": "Ice Fragment",
+      "note": {
+        "en": "III supports Counterattack damage with Initiation. II supplies recurring Counterattack; I instead emphasizes passive shielding.",
+        "vi": "III hỗ trợ sát thương Phản công với Khởi đầu. II cung cấp Phản công định kỳ; I nghiêng về Lá chắn thụ động."
+      },
+      "divine": {
+        "en": "Cost reduction or Morale/Resolve are useful; V can use Draw 1.",
+        "vi": "Giảm chi phí hoặc Sĩ khí/Quyết tâm hữu ích; V có thể dùng Rút 1."
+      }
+    },
+    {
+      "sourceName": "Glacial Iron Fist",
+      "note": {
+        "en": "I improves the attack ratio, while II supplies three Vulnerable. Both remain expensive compared with cheaper shielding or debuff options.",
+        "vi": "I tăng hệ số đòn đánh, còn II tạo ba Dễ tổn thương. Cả hai vẫn tốn kém so với lựa chọn Lá chắn hoặc hiệu ứng bất lợi rẻ hơn."
+      },
+      "divine": {
+        "en": "Consider 2 Vulnerable or cost reduction; no neutral effect is a priority.",
+        "vi": "Cân nhắc 2 Dễ tổn thương hoặc giảm chi phí; không ưu tiên trung lập cụ thể."
+      }
+    },
+    {
+      "sourceName": "Ice Wall",
+      "note": {
+        "en": "III permanently makes Counterattacks hit all enemies. IV instead converts held shield into area damage and can complement Maribell.",
+        "vi": "III giúp Phản công đánh toàn bộ kẻ địch lâu dài. IV đổi lượng Lá chắn đang có thành sát thương diện rộng và có thể phối hợp Maribell."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction, or Morale/Resolve on III; base neutral is difficult to justify.",
+        "vi": "Ưu tiên giảm chi phí, hoặc Sĩ khí/Quyết tâm cho III; bản trung lập gốc khó đáng giá."
+      }
+    },
+    {
+      "sourceName": "Frost Charge",
+      "note": {
+        "en": "III applies Vulnerable through Counterattacks and supplies passive shielding. I's large shield depends on how many enemies are present.",
+        "vi": "III gây Dễ tổn thương qua Phản công và cung cấp Lá chắn thụ động. Lá chắn lớn của I phụ thuộc số kẻ địch hiện có."
+      },
+      "divine": {
+        "en": "Draw 1 or cost reduction are the main targets; neutral options are weak.",
+        "vi": "Rút 1 hoặc giảm chi phí là ưu tiên chính; trung lập ít giá trị."
+      }
+    }
+  ],
+  "Maribell": [
+    {
+      "sourceName": "Resolute Blitz",
+      "note": {
+        "en": "IV converts held shield into additional damage and complements Shelter Strike. I/II instead support less common Counterattack builds.",
+        "vi": "IV chuyển Lá chắn đang có thành sát thương bổ sung và phối hợp Shelter Strike. I/II dành cho hướng Phản công ít phổ biến hơn."
+      },
+      "divine": {
+        "en": "Consider cost reduction, damage increase or Weakness Attack.",
+        "vi": "Cân nhắc giảm chi phí, tăng sát thương hoặc Tấn công điểm yếu."
+      }
+    },
+    {
+      "sourceName": "Maribell Shelter MK.II",
+      "note": {
+        "en": "V's zero cost supports shield generation efficiently; I's area damage is less valuable once the shield cap is easy to reach.",
+        "vi": "Chi phí 0 của V giúp tạo Lá chắn hiệu quả; sát thương diện rộng của I ít giá trị khi đã dễ đạt trần Lá chắn."
+      },
+      "divine": {
+        "en": "Cost reduction helps other variants; V can take 1 AP.",
+        "vi": "Giảm chi phí giúp các biến thể khác; V có thể lấy 1 Điểm hành động."
+      }
+    },
+    {
+      "sourceName": "Wolves' Dome",
+      "note": {
+        "en": "II adds free start-turn shielding for shield-based damage. I offers Initiation while retaining Crystallization.",
+        "vi": "II thêm Lá chắn miễn phí đầu lượt cho sát thương dựa vào Lá chắn. I có Khởi đầu và giữ Kết tinh."
+      },
+      "divine": {
+        "en": "Consider cost reduction or Draw 1 on II; base neutral can preserve passive shielding.",
+        "vi": "Cân nhắc giảm chi phí hoặc Rút 1 cho II; bản trung lập gốc có thể giữ Lá chắn thụ động."
+      }
+    },
+    {
+      "sourceName": "Oh... I see.",
+      "note": {
+        "en": "IV passively deals damage based on shield and suits most Maribell builds. V instead adds shield from Counterattack stacks.",
+        "vi": "IV thụ động gây sát thương theo Lá chắn, phù hợp phần lớn bộ bài Maribell. V thay vào đó thêm Lá chắn theo cộng dồn Phản công."
+      },
+      "divine": {
+        "en": "Cost reduction is the useful divine; neutral base is low priority.",
+        "vi": "Giảm chi phí là thần thánh hữu ích; bản gốc trung lập ít ưu tiên."
+      }
+    }
+  ],
+  "Mei Lin": [
+    {
+      "sourceName": "Flame Dragon's Jewel",
+      "note": {
+        "en": "I and III retain the essential Passion weakness effect. III also builds Embers from attacks; prioritize other cards if neither appears.",
+        "vi": "I và III giữ hiệu ứng điểm yếu Đam mê thiết yếu. III còn tích Tàn lửa qua đòn đánh; nếu không gặp hai bản này, ưu tiên hoàn thiện lá khác."
+      },
+      "divine": {
+        "en": "Morale/Resolve is useful; a neutral retaining Passion weakness is acceptable.",
+        "vi": "Sĩ khí/Quyết tâm hữu ích; bản trung lập giữ điểm yếu Đam mê vẫn chấp nhận được."
+      }
+    },
+    {
+      "sourceName": "Rising Dragon Spire",
+      "note": {
+        "en": "V gains hits from every preceding Passion card, including allies. Enemy Elasticity can sharply limit the payoff from long hit chains.",
+        "vi": "V thêm lần đánh theo mọi lá Đam mê đã dùng trước đó, kể cả đồng đội. Đàn hồi của địch có thể hạn chế mạnh hiệu quả chuỗi đánh dài."
+      },
+      "divine": {
+        "en": "Prioritize damage multiplication; cost reduction is useful when not using Line Memory Fragment.",
+        "vi": "Ưu tiên nhân sát thương; giảm chi phí hữu ích khi không dùng Mảnh ký ức Line."
+      }
+    },
+    {
+      "sourceName": "Unity of Attack and Defense",
+      "note": {
+        "en": "II lets Basic Attacks be played again and feeds both Spirit of the Aromata and Rising Dragon Spire V. III's extra setup and cost are much harder to justify.",
+        "vi": "II cho dùng lại Bài tấn công cơ bản, đồng thời hỗ trợ Spirit of the Aromata và Rising Dragon Spire V. Việc chuẩn bị và chi phí thêm của III khó đáng giá hơn."
+      },
+      "divine": {
+        "en": "1 AP is the main divine recommendation.",
+        "vi": "1 Điểm hành động là thần thánh ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Spirit of the Aromata",
+      "note": {
+        "en": "I scales with allied Passion cards as well as Mei Lin's. II is mainly preferable when she is the team's only Passion character.",
+        "vi": "I tăng theo bài Đam mê của cả đồng đội lẫn Mei Lin. II chủ yếu tốt hơn khi cô là nhân vật Đam mê duy nhất trong đội."
+      },
+      "divine": {
+        "en": "Prefer Draw 1 or cost reduction; neutral utility usually gives up stronger scaling.",
+        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tiện ích trung lập thường đánh đổi khả năng tích sức mạnh tốt hơn."
+      }
+    }
+  ],
+  "Mika": [
+    {
+      "sourceName": "Source of Water",
+      "note": {
+        "en": "II becomes a zero-cost source of two AP after recovery. I can compete when additional Wave generation is valuable.",
+        "vi": "II trở thành nguồn hai Điểm hành động với chi phí 0 sau khi phục hồi. I có thể cạnh tranh khi cần tạo thêm Sóng."
+      },
+      "divine": {
+        "en": "Draw 1 or cost reduction keeps the AP engine accessible.",
+        "vi": "Rút 1 hoặc giảm chi phí giúp tiếp cận cơ chế tạo Điểm hành động thuận lợi."
+      }
+    },
+    {
+      "sourceName": "Blessing of Waves",
+      "note": {
+        "en": "I converts healing into substantial shielding. II may offset its cost through Wave but offers less defensive value.",
+        "vi": "I chuyển hồi máu thành Lá chắn lớn. II có thể bù chi phí nhờ Sóng nhưng đóng góp phòng thủ ít hơn."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; draw or cost reduction are useful divines.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; rút bài hoặc giảm chi phí là thần thánh hữu ích."
+      }
+    },
+    {
+      "sourceName": "Tactical Analysis",
+      "note": {
+        "en": "V gives a lasting healing buff and leaves the draw cycle after setup. I is situational for effects needing another healing trigger.",
+        "vi": "V tăng hồi máu lâu dài và rời vòng rút sau khi thiết lập. I tùy tình huống cần thêm một lần kích hoạt hồi máu."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale adds support; use Draw 1 or Morale/Resolve on V.",
+        "vi": "1 Sĩ khí trung lập thêm hỗ trợ; dùng Rút 1 hoặc Sĩ khí/Quyết tâm cho V."
+      }
+    },
+    {
+      "sourceName": "Whirlpool",
+      "note": {
+        "en": "I offers healing that scales with enemy count; II becomes free against several enemies. Mika's low attack investment limits the damage route.",
+        "vi": "I hồi máu theo số kẻ địch; II miễn phí khi đối đầu nhiều địch. Việc Mika ít đầu tư Tấn công hạn chế hướng gây sát thương."
+      },
+      "divine": {
+        "en": "Neutral 3 Morale is useful if affordable; 2 Vulnerable adds team damage support.",
+        "vi": "3 Sĩ khí trung lập hữu ích nếu đủ tài nguyên; 2 Dễ tổn thương hỗ trợ sát thương đội."
+      }
+    }
+  ],
+  "Narja": [
+    {
+      "sourceName": "Shackles of Hunger",
+      "note": {
+        "en": "II returns at turn start with zero cost, easing cycling but losing normal Voracity gain. I favors greater Voracity when draw is sufficient.",
+        "vi": "II trở lại đầu lượt với chi phí 0, dễ luân chuyển nhưng mất khả năng tạo Háu ăn thông thường. I ưu tiên thêm Háu ăn khi đã đủ rút bài."
+      },
+      "divine": {
+        "en": "Consider 2 Vulnerable or cost reduction; neutrals can fill resource gaps.",
+        "vi": "Cân nhắc 2 Dễ tổn thương hoặc giảm chi phí; trung lập có thể bù thiếu hụt tài nguyên."
+      }
+    },
+    {
+      "sourceName": "Bottomless Hunger",
+      "note": {
+        "en": "I supplies the Voracity needed by its own effect for hit-heavy teams. II removes the hit requirement and fits a wider range of teams.",
+        "vi": "I tự cung cấp Háu ăn cần thiết cho hiệu ứng trong đội nhiều lần đánh. II bỏ điều kiện số lần đánh, phù hợp nhiều đội hơn."
+      },
+      "divine": {
+        "en": "Draw 1 is valuable; neutral Morale works when Voracity comes from elsewhere.",
+        "vi": "Rút 1 có giá trị; Sĩ khí trung lập phù hợp khi có nguồn Háu ăn khác."
+      }
+    },
+    {
+      "sourceName": "Voluntary Control",
+      "note": {
+        "en": "IV gives initial Voracity and removes itself after setup, supporting suitable carries. V specializes in allies who retain Basic Attacks.",
+        "vi": "IV cho Háu ăn ban đầu và tự rời vòng bài sau thiết lập, hỗ trợ chủ lực phù hợp. V chuyên cho đồng đội giữ Bài tấn công cơ bản."
+      },
+      "divine": {
+        "en": "Neutral draw or divine draw/cost reduction eases cycling.",
+        "vi": "Rút bài trung lập hoặc thần thánh rút bài/giảm chi phí giúp luân chuyển."
+      }
+    },
+    {
+      "sourceName": "Domain of Voracity",
+      "note": {
+        "en": "II buffs Defense-based multihits for two turns, but duplicate buffs do not stack. V mainly removes the card from later draws.",
+        "vi": "II tăng đòn đánh nhiều lần dựa trên Phòng thủ trong hai lượt, nhưng hiệu ứng trùng không cộng dồn. V chủ yếu loại lá khỏi các lượt rút sau."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 helps justify keeping it; 2 Vulnerable is the divine option.",
+        "vi": "Rút 1 trung lập giúp lá này đáng giữ hơn; 2 Dễ tổn thương là lựa chọn thần thánh."
+      }
+    }
+  ],
+  "Nia": [
+    {
+      "sourceName": "G Chord",
+      "note": {
+        "en": "I–III remain close to the useful base effect. IV supports heavier discard plans but adds randomness and setup demands.",
+        "vi": "I–III gần với hiệu ứng gốc vốn hữu ích. IV hỗ trợ kế hoạch bỏ nhiều bài nhưng tăng tính ngẫu nhiên và yêu cầu thiết lập."
+      },
+      "divine": {
+        "en": "Neutral resource support or 2 Morale is competitive; draw and cost reduction remain useful.",
+        "vi": "Tài nguyên trung lập hoặc 2 Sĩ khí đáng cân nhắc; rút bài và giảm chi phí vẫn hữu ích."
+      }
+    },
+    {
+      "sourceName": "Mute Accent",
+      "note": {
+        "en": "III can enable expensive cards through a difficult lowest-cost condition. V supports discard/Extra Attack combos but can empty too much of the hand.",
+        "vi": "III có thể giúp dùng bài đắt qua điều kiện chi phí thấp nhất khó đáp ứng. V hỗ trợ tổ hợp bỏ bài/Đòn đánh thêm nhưng có thể làm cạn tay bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 reduces draw loss; consider draw or cost reduction divines.",
+        "vi": "Rút 1 trung lập giảm hao hụt bài; cân nhắc thần thánh rút bài hoặc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Soul Rip",
+      "note": {
+        "en": "V passively builds Decibel and leaves the draw cycle. II specializes in healing; III supports discard-driven Extra Attack allies.",
+        "vi": "V thụ động tạo Đề-xi-ben và rời vòng rút. II chuyên hồi máu; III hỗ trợ đồng đội Đòn đánh thêm thông qua bỏ bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 or 2 Morale is useful; draw/cost reduction are common divine choices.",
+        "vi": "Rút 1 hoặc 2 Sĩ khí trung lập hữu ích; thần thánh thường chọn rút bài/giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Adagio",
+      "note": {
+        "en": "V improves draw while clearing selected allied cards. I manipulates the top of the deck for G Chord or Attunement interactions.",
+        "vi": "V cải thiện rút bài đồng thời loại các lá đồng đội được chọn. I sắp xếp đầu bộ bài để phối hợp G Chord hoặc Điều hòa."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale adds a buff; 1 AP is the main divine target.",
+        "vi": "1 Sĩ khí trung lập thêm tăng sức mạnh; 1 Điểm hành động là thần thánh ưu tiên."
+      }
+    }
+  ],
+  "Nine": [
+    {
+      "sourceName": "Hew",
+      "note": {
+        "en": "Extreme maximizes damage when all levels can be played each turn. Ironclad shifts toward shielding; Massacre is the area-oriented alternative.",
+        "vi": "Extreme tối đa sát thương khi dùng được mọi cấp mỗi lượt. Ironclad chuyển sang Lá chắn; Massacre là lựa chọn thiên về diện rộng."
+      },
+      "divine": {
+        "en": "Neutral/divine effects only apply to the starting form; 2 Vulnerable is optional with spare Faint Memory.",
+        "vi": "Trung lập/thần thánh chỉ áp dụng dạng ban đầu; 2 Dễ tổn thương là lựa chọn thêm khi dư Ký ức phai nhạt nhạt."
+      }
+    },
+    {
+      "sourceName": "Experienced Strike",
+      "note": {
+        "en": "I modestly improves damage; III instead supports shield-focused allies. A useful neutral often contributes more than signature variants.",
+        "vi": "I tăng sát thương vừa phải; III hỗ trợ đồng đội tập trung Lá chắn. Trung lập hữu ích thường đóng góp hơn các biến thể riêng."
+      },
+      "divine": {
+        "en": "Prefer neutral 1 Vulnerable; cost reduction or 2 Vulnerable are optional divines.",
+        "vi": "Ưu tiên 1 Dễ tổn thương trung lập; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh tùy chọn."
+      }
+    },
+    {
+      "sourceName": "Fatal Strike",
+      "note": {
+        "en": "I is a modest general improvement. III shortcuts Hew to its final level for burst setups, but is less flexible for playing every level.",
+        "vi": "I cải thiện vừa phải cho sử dụng chung. III đưa Hew nhanh lên cấp cuối để dồn sát thương, nhưng kém linh hoạt khi muốn dùng mọi cấp."
+      },
+      "divine": {
+        "en": "Neutral 1 Vulnerable is often best; consider cost reduction or 2 Vulnerable.",
+        "vi": "1 Dễ tổn thương trung lập thường tốt nhất; cân nhắc giảm chi phí hoặc 2 Dễ tổn thương."
+      }
+    },
+    {
+      "sourceName": "Counterblade",
+      "note": {
+        "en": "I reliably generates Honed Edge through repeated exhaustion. III guarantees opening access but needs consistent shielding to maintain stacks.",
+        "vi": "I tạo Lưỡi kiếm sắc bén ổn định qua nhiều lần Kiệt sức. III đảm bảo có ở tay mở đầu nhưng cần Lá chắn đều để duy trì cộng dồn."
+      },
+      "divine": {
+        "en": "Prioritize the variant's engine; neutral and divine effects add little.",
+        "vi": "Ưu tiên cơ chế của biến thể; trung lập và thần thánh bổ sung ít giá trị."
+      }
+    }
+  ],
+  "Olga": [
+    {
+      "sourceName": "Rift of Severance",
+      "note": {
+        "en": "This repeatedly applies and triggers Olga's Fracture when returned by Brand effects. Neutral support routes are meaningful alternatives to signature upgrades.",
+        "vi": "Lá này liên tục gây và kích hoạt Rạn nứt của Olga khi được dấu ấn đưa trở lại. Hướng hỗ trợ trung lập là lựa chọn đáng cân nhắc ngoài biến thể riêng."
+      },
+      "divine": {
+        "en": "Choose neutral 1 Morale or 1 Vulnerable; support builds can use Fortitude reduction on Weakness Attack.",
+        "vi": "Chọn 1 Sĩ khí hoặc 1 Dễ tổn thương trung lập; hướng hỗ trợ có thể dùng giảm Kiên cường khi Tấn công điểm yếu."
+      }
+    },
+    {
+      "sourceName": "Dispersed Desire",
+      "note": {
+        "en": "It applies and activates Agony similarly to Rift of Severance. IV additionally triggers Scorched for teams using that effect.",
+        "vi": "Lá này gây và kích hoạt Thống khổ tương tự Rift of Severance. IV còn kích hoạt Thiêu đốt cho đội sử dụng hiệu ứng đó."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale/Vulnerable is viable; Fortitude reduction on Weakness Attack supports allies.",
+        "vi": "1 Sĩ khí/Dễ tổn thương trung lập hữu ích; giảm Kiên cường khi Tấn công điểm yếu hỗ trợ đồng đội."
+      }
+    },
+    {
+      "sourceName": "Break Apart & Renew",
+      "note": {
+        "en": "Its Brands return Olga's attack cards for repeated use. IV's movement does not reduce cost, and the Unique skill and Upgrade cannot coexist.",
+        "vi": "Các dấu ấn đưa bài tấn công của Olga trở lại để dùng nhiều lần. Di chuyển của IV không giảm chi phí; kỹ năng và Nâng cấp Độc nhất không thể cùng tồn tại."
+      },
+      "divine": {
+        "en": "Use ordinary AP, draw or cost-reduction effects according to the rotation.",
+        "vi": "Chọn Điểm hành động, rút bài hoặc giảm chi phí thông thường theo chu trình sử dụng."
+      }
+    },
+    {
+      "sourceName": "Insatiable Cravings",
+      "note": {
+        "en": "This Upgrade adds Agony and Fracture after targeted activations, not area attacks. Most variants retain this core role.",
+        "vi": "Nâng cấp này thêm Thống khổ và Rạn nứt sau kích hoạt chọn mục tiêu, không áp dụng đòn diện rộng. Phần lớn biến thể giữ vai trò chính này."
+      },
+      "divine": {
+        "en": "Start-turn Draw 2 is the specific divine recommendation.",
+        "vi": "Rút 2 đầu lượt là thần thánh được đề xuất cụ thể."
+      }
+    }
+  ],
+  "Orlea": [
+    {
+      "sourceName": "Sacred Censer",
+      "note": {
+        "en": "II becomes a recurring creation engine after one expensive setup. III more reliably creates Softie but needs repeated use.",
+        "vi": "II thành cơ chế tạo vật định kỳ sau một lần thiết lập tốn chi phí. III tạo Softie ổn định hơn nhưng cần dùng lặp lại."
+      },
+      "divine": {
+        "en": "Consider draw or cost reduction; neutral efficiency usually loses useful creation effects.",
+        "vi": "Cân nhắc rút bài hoặc giảm chi phí; hiệu suất trung lập thường đánh đổi hiệu ứng tạo vật hữu ích."
+      }
+    },
+    {
+      "sourceName": "Growth Acceleration",
+      "note": {
+        "en": "I costs zero and triggers allied Retain effects. II immediately advances a creation for specialized burst plans but costs more and exhausts.",
+        "vi": "I có chi phí 0 và kích hoạt Giữ lại của đồng đội. II nâng tạo vật ngay cho kế hoạch dồn sát thương chuyên biệt nhưng tốn hơn và Kiệt sức."
+      },
+      "divine": {
+        "en": "Draw or cost reduction are useful; neutral draw can help when drawing is the main constraint.",
+        "vi": "Rút bài hoặc giảm chi phí hữu ích; rút trung lập phù hợp khi thiếu khả năng rút là trở ngại chính."
+      }
+    },
+    {
+      "sourceName": "Annoying",
+      "note": {
+        "en": "IV generates more creations against several targets, though removal is still common. I is a cheap healing option for teams needing sustain.",
+        "vi": "IV tạo thêm tạo vật khi có nhiều mục tiêu, dù lá này vẫn thường bị loại. I là lựa chọn hồi máu rẻ cho đội cần duy trì."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is usable; spend Faint Memory elsewhere rather than chasing divines.",
+        "vi": "1 Sĩ khí trung lập dùng được; nên dành Ký ức phai nhạt nhạt cho lá khác thay vì tìm thần thánh."
+      }
+    },
+    {
+      "sourceName": "Growing Creature",
+      "note": {
+        "en": "III guarantees a three-star Softie and applies Vulnerable. V instead guarantees Sturdie for healing and shielding; IV favors damage.",
+        "vi": "III đảm bảo Softie ba sao và gây Dễ tổn thương. V đảm bảo Sturdie để hồi máu/Lá chắn; IV thiên về sát thương."
+      },
+      "divine": {
+        "en": "Do not invest in neutral or divine effects: the Retain transformation removes them.",
+        "vi": "Không đầu tư trung lập hoặc thần thánh: biến đổi qua Giữ lại sẽ xóa chúng."
+      }
+    }
+  ],
+  "Owen": [
+    {
+      "sourceName": "Wind Charge",
+      "note": {
+        "en": "IV doubles a strong skill's effect once per battle and anchors support Owen. II adds hits to single-hit attacks but is weaker on existing multihits.",
+        "vi": "IV nhân đôi hiệu ứng kỹ năng mạnh một lần mỗi trận, là cốt lõi Owen hỗ trợ. II thêm lần đánh cho đòn đơn nhưng kém hơn với đòn vốn nhiều lần."
+      },
+      "divine": {
+        "en": "Prefer draw or cost reduction; base/neutral mainly serves a less recommended damage route.",
+        "vi": "Ưu tiên rút bài hoặc giảm chi phí; bản gốc/trung lập chủ yếu phục vụ hướng sát thương ít được khuyến nghị."
+      }
+    },
+    {
+      "sourceName": "Wind Slash",
+      "note": {
+        "en": "I is cheaper to play, but its damage contribution is small. Most support builds remove this card rather than invest in II's multihits.",
+        "vi": "I rẻ hơn để dùng nhưng đóng góp sát thương nhỏ. Phần lớn hướng hỗ trợ loại lá này thay vì đầu tư nhiều lần đánh của II."
+      },
+      "divine": {
+        "en": "Only if keeping it, consider 2 Vulnerable or cost reduction.",
+        "vi": "Chỉ khi giữ lá này, cân nhắc 2 Dễ tổn thương hoặc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Break Armor",
+      "note": {
+        "en": "I's Fortitude reduction strongly supports multihit allies. II is the simpler low-cost option when resource efficiency matters more.",
+        "vi": "Giảm Kiên cường của I hỗ trợ mạnh đồng đội nhiều lần đánh. II là lựa chọn chi phí thấp đơn giản hơn khi cần hiệu suất tài nguyên."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale is efficient; II can use AP, while cost reduction or Vulnerable also helps.",
+        "vi": "2 Sĩ khí trung lập hiệu quả; II có thể dùng Điểm hành động, còn giảm chi phí hoặc Dễ tổn thương cũng hữu ích."
+      }
+    },
+    {
+      "sourceName": "Wind Riding",
+      "note": {
+        "en": "II becomes an Upgrade and stops burdening later draws. IV provides stronger immediate protection against heavy hits.",
+        "vi": "II thành Nâng cấp, không gây vướng các lượt rút sau. IV bảo vệ tức thời tốt hơn trước đòn mạnh."
+      },
+      "divine": {
+        "en": "II can use Morale/Resolve; draw or cost reduction suits other needs.",
+        "vi": "II có thể dùng Sĩ khí/Quyết tâm; rút bài hoặc giảm chi phí tùy nhu cầu khác."
+      }
+    }
+  ],
+  "Rei": [
+    {
+      "sourceName": "Strike of Darkness",
+      "note": {
+        "en": "IV makes the buff permanent and clears the starting card from the draw cycle. V uses Retain to achieve a similar deck-thinning role.",
+        "vi": "IV giữ hiệu ứng tăng sức mạnh lâu dài và loại bài khởi đầu khỏi vòng rút. V dùng Giữ lại để giảm số bài phải rút theo cách tương tự."
+      },
+      "divine": {
+        "en": "Neutral draw helps repeated use; IV can take Morale/Resolve, otherwise consider cost reduction.",
+        "vi": "Rút trung lập hỗ trợ dùng lặp; IV có thể lấy Sĩ khí/Quyết tâm, ngoài ra cân nhắc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Resonating Darkness",
+      "note": {
+        "en": "IV broadens the buff beyond exactly one-cost cards. I is stronger when the carry consistently stays at one cost.",
+        "vi": "IV mở rộng hiệu ứng ngoài nhóm bài đúng một chi phí. I mạnh hơn khi chủ lực luôn duy trì chi phí một."
+      },
+      "divine": {
+        "en": "Morale/Resolve adds general support; V can take Draw 1.",
+        "vi": "Sĩ khí/Quyết tâm bổ sung hỗ trợ chung; V có thể lấy Rút 1."
+      }
+    },
+    {
+      "sourceName": "Snack Time",
+      "note": {
+        "en": "II removes the requirement to exhaust a target. III is stronger when two unwanted cards can be exhausted for its extra draw.",
+        "vi": "II bỏ yêu cầu phải làm một lá Kiệt sức. III mạnh hơn khi có thể làm hai lá không cần Kiệt sức để nhận thêm rút bài."
+      },
+      "divine": {
+        "en": "AP is a strong divine; useful AP or lasting Morale neutrals can justify an exhausting copy.",
+        "vi": "Điểm hành động là thần thánh mạnh; trung lập Điểm hành động hoặc Sĩ khí lâu dài có thể khiến bản Kiệt sức đáng dùng."
+      }
+    },
+    {
+      "sourceName": "Dark Condensation",
+      "note": {
+        "en": "V permanently buffs one card and leaves the deck cycle. I offers greater immediate buffing but still needs AP and repeated draw.",
+        "vi": "V tăng sức mạnh lâu dài cho một lá và rời vòng bài. I tăng ngay mạnh hơn nhưng vẫn cần Điểm hành động và rút lại."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 helps cycling; draw or cost reduction are the main divines.",
+        "vi": "Rút 1 trung lập giúp luân chuyển; rút bài hoặc giảm chi phí là thần thánh chính."
+      }
+    }
+  ],
+  "Renoa": [
+    {
+      "sourceName": "Echo of Sorrow",
+      "note": {
+        "en": "IV creates three Dirge Bullet cards for the standard carry engine. II has a high attack-based ceiling but needs access to bullets placed in discard.",
+        "vi": "IV tạo ba Dirge Bullet cho cơ chế chủ lực thông thường. II có tiềm năng cao theo hướng tấn công nhưng cần lấy được đạn đặt ở Chồng bài bỏ."
+      },
+      "divine": {
+        "en": "Draw 1 on IV or cost reduction is useful; neutral utility sacrifices bullet output.",
+        "vi": "Rút 1 cho IV hoặc giảm chi phí hữu ích; tiện ích trung lập đánh đổi lượng đạn."
+      }
+    },
+    {
+      "sourceName": "Instant Judgment",
+      "note": {
+        "en": "V gives passive Extra Attacks and clears itself after setup. IV instead supports repeated discard loops with cards such as Adagio.",
+        "vi": "V tạo Đòn đánh thêm thụ động và tự rời vòng bài sau thiết lập. IV hỗ trợ vòng bỏ bài lặp với các lá như Adagio."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 is competitive; use cost reduction or Morale/Resolve on V.",
+        "vi": "Rút 1 trung lập đáng cân nhắc; dùng giảm chi phí hoặc Sĩ khí/Quyết tâm cho V."
+      }
+    },
+    {
+      "sourceName": "Ballad of Pitch Black",
+      "note": {
+        "en": "V exhausts graveyard bullets to control overflow in sustained loops. III or IV serves specialized burst plans where overflow matters less.",
+        "vi": "V làm đạn trong Mộ bài Kiệt sức để kiểm soát dư thừa trong vòng lặp dài. III hoặc IV dành cho dồn sát thương khi ít lo tràn bài."
+      },
+      "divine": {
+        "en": "Choose the variant for the rotation; neutral and divine effects are low priority.",
+        "vi": "Chọn biến thể theo chu trình; trung lập và thần thánh ít ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Flower of Devoured Fate",
+      "note": {
+        "en": "I discards and replaces more bullets for the carry route. IV provides strong conditional Draw 3 and enables a support role.",
+        "vi": "I bỏ và tạo lại nhiều đạn hơn cho hướng chủ lực. IV cung cấp Rút 3 mạnh theo điều kiện và mở vai trò hỗ trợ."
+      },
+      "divine": {
+        "en": "Draw or AP is useful; II/IV can benefit from cost reduction. Avoid losing the core variant to neutral effects.",
+        "vi": "Rút bài hoặc Điểm hành động hữu ích; II/IV hưởng lợi từ giảm chi phí. Tránh đổi cơ chế chính lấy trung lập."
+      }
+    }
+  ],
+  "Rin": [
+    {
+      "sourceName": "Drawing Slash",
+      "note": {
+        "en": "II adds a hit in Dark Mist Stance and scales well with allied buffs. Neutral Morale can instead improve Rin's more important attacks.",
+        "vi": "II thêm lần đánh trong Tư thế sương đen và phối hợp tốt hiệu ứng đồng đội. Sĩ khí trung lập có thể tăng các đòn quan trọng hơn của Rin."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is viable; prioritize 2 Vulnerable or 1 AP divines.",
+        "vi": "1 Sĩ khí trung lập hữu ích; ưu tiên thần thánh 2 Dễ tổn thương hoặc 1 Điểm hành động."
+      }
+    },
+    {
+      "sourceName": "Dark Mist Secret Art: Destruction",
+      "note": {
+        "en": "IV returns Annihilation and Black Dance for repeated attacks and is central to the recommended builds. Other variants do not replace that loop.",
+        "vi": "IV đưa Annihilation và Black Dance trở lại để đánh nhiều lần, là cốt lõi các bộ bài đề xuất. Biến thể khác không thay được vòng lặp này."
+      },
+      "divine": {
+        "en": "1 AP is the main divine target; avoid neutral replacements.",
+        "vi": "1 Điểm hành động là thần thánh ưu tiên; tránh thay bằng trung lập."
+      }
+    },
+    {
+      "sourceName": "Dark Mist Secret Art: Annihilation",
+      "note": {
+        "en": "II's four hits maximize buffed damage but increase AP demands. V reduces the cost of other Rin attacks and is easier to sustain.",
+        "vi": "Bốn lần đánh của II tối đa sát thương có tăng sức mạnh nhưng cần nhiều Điểm hành động. V giảm chi phí đòn Rin khác, dễ duy trì hơn."
+      },
+      "divine": {
+        "en": "Consider 2 Vulnerable or Weakness Attack.",
+        "vi": "Cân nhắc 2 Dễ tổn thương hoặc Tấn công điểm yếu."
+      }
+    },
+    {
+      "sourceName": "Dark Mist Inner Art",
+      "note": {
+        "en": "II draws two Rin cards while preserving Dark Mist. V offers a permanent buff with simpler ordering and removes itself from later draws.",
+        "vi": "II rút hai lá Rin trong khi giữ Sương đen. V tăng sức mạnh lâu dài, dễ sắp thứ tự hơn và tự rời các lượt rút sau."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is acceptable; choose the variant before spending on divines.",
+        "vi": "1 Sĩ khí trung lập chấp nhận được; ưu tiên đúng biến thể trước khi đầu tư thần thánh."
+      }
+    }
+  ],
+  "Rita": [
+    {
+      "sourceName": "Chrono Archon",
+      "note": {
+        "en": "I reliably restores Chronicle when Chronal Ascension ends. V can work with allied Retain triggers, but cannot generate Chronicle while Ascension remains active.",
+        "vi": "I khôi phục Biên niên ổn định khi Thăng hoa thời gian kết thúc. V có thể phối hợp kích hoạt Giữ lại của đồng đội nhưng không tạo Biên niên khi Thăng hoa còn hiệu lực."
+      },
+      "divine": {
+        "en": "Prioritize the appropriate variant; neutral/divine effects add little.",
+        "vi": "Ưu tiên biến thể phù hợp; trung lập/thần thánh thêm ít giá trị."
+      }
+    },
+    {
+      "sourceName": "Time Axis Collapse",
+      "note": {
+        "en": "I is the direct-damage centerpiece. IV activates freely with Ascension and adds Vulnerable, but its three-cost identity misses Chrono Circle V's condition.",
+        "vi": "I là trung tâm hướng sát thương trực tiếp. IV kích hoạt miễn phí cùng Thăng hoa và thêm Dễ tổn thương, nhưng chi phí gốc ba không hợp điều kiện Chrono Circle V."
+      },
+      "divine": {
+        "en": "Consider Vulnerable, Weakness Attack or cost reduction; III can take Draw 1.",
+        "vi": "Cân nhắc Dễ tổn thương, Tấn công điểm yếu hoặc giảm chi phí; III có thể lấy Rút 1."
+      }
+    },
+    {
+      "sourceName": "Future Decreed",
+      "note": {
+        "en": "II supports three-cost attackers such as Nine at zero cost. IV plays two two-cost cards and fits Time Axis Collapse setups.",
+        "vi": "II hỗ trợ người dùng đòn chi phí ba như Nine với chi phí 0. IV dùng hai lá chi phí hai, phù hợp bộ bài Time Axis Collapse."
+      },
+      "divine": {
+        "en": "Draw 1 is the main divine target; neutral options are lower priority.",
+        "vi": "Rút 1 là thần thánh ưu tiên; trung lập ít được ưu tiên hơn."
+      }
+    },
+    {
+      "sourceName": "Chrono Circle",
+      "note": {
+        "en": "I maximizes immediate Fate Imprint creation. II scales with repeated allied Retain triggers; V instead specializes in two-cost cycling.",
+        "vi": "I tối đa lượng Fate Imprint tạo ngay. II tăng theo nhiều lần kích hoạt Giữ lại từ đồng đội; V chuyên luân chuyển bài chi phí hai."
+      },
+      "divine": {
+        "en": "Prefer Draw 1; neutral effects usually lose useful specialized mechanics.",
+        "vi": "Ưu tiên Rút 1; trung lập thường làm mất cơ chế chuyên dụng hữu ích."
+      }
+    }
+  ],
+  "Selena": [
+    {
+      "sourceName": "High-Power Scope",
+      "note": {
+        "en": "IV follows allied attacks with Extra Attacks; duplicate casts extend duration, not damage. II mainly supports a dedicated Selena carry.",
+        "vi": "IV dùng Đòn đánh thêm theo đòn đồng đội; dùng bản sao chỉ tăng thời gian, không tăng sát thương. II chủ yếu hỗ trợ Selena làm chủ lực."
+      },
+      "divine": {
+        "en": "Consider draw or cost reduction; neutral draw is usable but loses IV's core damage effect.",
+        "vi": "Cân nhắc rút bài hoặc giảm chi phí; rút trung lập dùng được nhưng mất sát thương cốt lõi của IV."
+      }
+    },
+    {
+      "sourceName": "Target Spotted",
+      "note": {
+        "en": "V supplies passive Extra Attacks on Ravage and clears itself from the cycle. IV can support an Attunement draw engine with more setup.",
+        "vi": "V tạo Đòn đánh thêm thụ động khi Suy yếu và tự rời vòng bài. IV hỗ trợ cơ chế rút Điều hòa nhưng cần chuẩn bị hơn."
+      },
+      "divine": {
+        "en": "Draw or cost reduction is useful; V can take Morale/Resolve, while neutral draw is a fallback.",
+        "vi": "Rút bài hoặc giảm chi phí hữu ích; V có thể lấy Sĩ khí/Quyết tâm, còn rút trung lập là phương án dự phòng."
+      }
+    },
+    {
+      "sourceName": "Drone Bombing",
+      "note": {
+        "en": "IV follows allied Weakness Attacks and combines with High-Power Scope IV. I supplies Passion weakness when the team lacks another source.",
+        "vi": "IV đánh theo Tấn công điểm yếu của đồng đội và phối hợp High-Power Scope IV. I cung cấp điểm yếu Đam mê khi đội thiếu nguồn khác."
+      },
+      "divine": {
+        "en": "Draw 1 is the main divine target.",
+        "vi": "Rút 1 là thần thánh ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Tactical Maneuver",
+      "note": {
+        "en": "IV restores enemy Tenacity at zero cost, enabling another planned Ravage. If this utility is not needed, removal is usually preferable.",
+        "vi": "IV khôi phục Sức bền địch với chi phí 0, giúp gây Suy yếu tiếp theo đúng kế hoạch. Nếu không cần tiện ích này, thường nên loại lá."
+      },
+      "divine": {
+        "en": "Prefer Draw 1; base/neutral Tenacity damage can disrupt planned Ravage timing.",
+        "vi": "Ưu tiên Rút 1; sát thương Sức bền bản gốc/trung lập có thể làm lệch thời điểm Suy yếu."
+      }
+    }
+  ],
+  "Sereniel": [
+    {
+      "sourceName": "Homing Laser",
+      "note": {
+        "en": "IV returns to hand every turn and removes draw pressure from the main loop. I favors extra hits against already Ravaged targets but still needs drawing.",
+        "vi": "IV trở lại tay mỗi lượt, bỏ áp lực rút của vòng lặp chính. I thêm lần đánh lên mục tiêu Suy yếu nhưng vẫn cần rút được."
+      },
+      "divine": {
+        "en": "Prioritize 1 AP or 2 Vulnerable; Mark/Agony neutrals require specialized builds.",
+        "vi": "Ưu tiên 1 Điểm hành động hoặc 2 Dễ tổn thương; Dấu ấn/Thống khổ trung lập cần bộ bài chuyên biệt."
+      }
+    },
+    {
+      "sourceName": "Plasma Missile",
+      "note": {
+        "en": "III provides Instinct weakness and strengthens Homing Laser. V mainly clears the card when that weakness is already available.",
+        "vi": "III cung cấp điểm yếu Bản năng và tăng Homing Laser. V chủ yếu loại lá khỏi vòng bài khi đã có điểm yếu đó."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 triggers twice on reactivation; still prioritize III when Instinct weakness is missing.",
+        "vi": "Rút 1 trung lập kích hoạt hai lần khi tái kích hoạt; vẫn ưu tiên III nếu thiếu điểm yếu Bản năng."
+      }
+    },
+    {
+      "sourceName": "Shining Core",
+      "note": {
+        "en": "III generates enough Homing Laser L for repeated Ravage loops. V is a specialized choice when exact hit thresholds avoid needing extra lasers.",
+        "vi": "III tạo đủ Homing Laser L cho nhiều vòng Suy yếu. V là lựa chọn chuyên biệt khi ngưỡng lần đánh chính xác giúp không cần thêm laser."
+      },
+      "divine": {
+        "en": "Consider draw, cost reduction or Morale/Resolve on III.",
+        "vi": "Cân nhắc rút bài, giảm chi phí hoặc Sĩ khí/Quyết tâm cho III."
+      }
+    },
+    {
+      "sourceName": "Cobalt Light",
+      "note": {
+        "en": "I reduces its cost on Ravage for general use. V adds Weakness Attack and reactivation, fitting AP-generating Sereniel setups.",
+        "vi": "I giảm chi phí khi Suy yếu, dễ dùng rộng rãi. V thêm Tấn công điểm yếu và tái kích hoạt, hợp bộ bài Sereniel tạo Điểm hành động."
+      },
+      "divine": {
+        "en": "Neutral Draw 2 is a leading option when the team can support the original cost; divines are secondary.",
+        "vi": "Rút 2 trung lập là lựa chọn hàng đầu khi đội chịu được chi phí gốc; thần thánh đứng sau."
+      }
+    }
+  ],
+  "Tenebria": [
+    {
+      "sourceName": "Music, Start!",
+      "note": {
+        "en": "V creates the flexible Arpeggio set, combining a scaling expensive attack with cheaper utility. IV offers controlled conversion and recurring Rhythm draw.",
+        "vi": "V tạo bộ Arpeggio linh hoạt, kết hợp đòn đắt có thể giảm chi phí với tiện ích rẻ. IV cho đổi dạng có kiểm soát và rút bài Nhịp điệu định kỳ."
+      },
+      "divine": {
+        "en": "Morale neutral can preserve a useful base route; target Morale/Resolve or start-turn Draw 2 divines.",
+        "vi": "Sĩ khí trung lập có thể giữ hướng bản gốc hữu ích; thần thánh nhắm Sĩ khí/Quyết tâm hoặc Rút 2 đầu lượt."
+      }
+    },
+    {
+      "sourceName": "Spotlight",
+      "note": {
+        "en": "IV arranges three Rhythm cards at the top of the deck for consistent setup. III automatically activates moved cards but needs more AP upfront.",
+        "vi": "IV xếp ba lá Nhịp điệu lên đầu bộ bài để thiết lập ổn định. III tự kích hoạt bài đã di chuyển nhưng cần thêm Điểm hành động ban đầu."
+      },
+      "divine": {
+        "en": "IV/V can take AP; consider targeted draw, Common conversion/draw, or Vulnerable as needed.",
+        "vi": "IV/V có thể lấy Điểm hành động; cân nhắc rút chọn lọc, chuyển thành Bài chung/rút bài hoặc Dễ tổn thương theo nhu cầu."
+      }
+    },
+    {
+      "sourceName": "Call & Response",
+      "note": {
+        "en": "III draws Rhythm cards while activating from the draw pile. I provides strong Attunement draw but needs more free hand space.",
+        "vi": "III rút bài Nhịp điệu khi kích hoạt từ Chồng bài rút. I rút mạnh qua Điều hòa nhưng cần nhiều chỗ trống trên tay hơn."
+      },
+      "divine": {
+        "en": "Consider draw on III, targeted/Common draw, or cost reduction.",
+        "vi": "Cân nhắc rút bài cho III, rút có chọn lọc/Bài chung hoặc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Encore",
+      "note": {
+        "en": "I repeats the last Rhythm twice but does not trigger Call & Response's in-hand Rhythm condition. III reduces upcoming Rhythm costs and adds a hit.",
+        "vi": "I lặp lá Nhịp điệu cuối hai lần nhưng không kích hoạt điều kiện Nhịp điệu trên tay của Call & Response. III giảm chi phí Nhịp điệu sắp dùng và thêm lần đánh."
+      },
+      "divine": {
+        "en": "Targeted/Common draw and cost reduction are useful; III/IV can use ordinary draw, with Vulnerable for damage support.",
+        "vi": "Rút có chọn lọc/Bài chung và giảm chi phí hữu ích; III/IV có thể dùng rút thông thường, thêm Dễ tổn thương để hỗ trợ sát thương."
+      }
+    }
+  ],
+  "Tiphera": [
+    {
+      "sourceName": "Quantum Seed",
+      "note": {
+        "en": "II chooses the creation type for consistent setups. III adds draw and a prediction gamble with greater creation rewards when correct.",
+        "vi": "II chọn loại tạo vật để thiết lập ổn định. III thêm rút bài và dự đoán có thưởng nhiều tạo vật hơn khi đúng."
+      },
+      "divine": {
+        "en": "Consider Draw 1 or AP; IV can use cost reduction. Neutral Morale is a situational multihit option.",
+        "vi": "Cân nhắc Rút 1 hoặc Điểm hành động; IV dùng được giảm chi phí. Sĩ khí trung lập tùy đội nhiều lần đánh."
+      }
+    },
+    {
+      "sourceName": "Form Convergence",
+      "note": {
+        "en": "I draws three while preserving the doubling effect. III supports a specialized retained-Archetype setup with Quantum Seed IV.",
+        "vi": "I rút ba lá và giữ hiệu ứng nhân đôi. III hỗ trợ bộ bài Giữ lại Archetype chuyên biệt với Quantum Seed IV."
+      },
+      "divine": {
+        "en": "Neutral 1 AP can effectively remove the cost; cost reduction is the divine target.",
+        "vi": "1 Điểm hành động trung lập có thể bù toàn bộ chi phí; giảm chi phí là thần thánh ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Creation and Destruction",
+      "note": {
+        "en": "IV gives recurring free damage, shielding and healing. II favors a secondary-damage role, while III is slower and occupies hand space.",
+        "vi": "IV cung cấp sát thương, Lá chắn và hồi máu miễn phí định kỳ. II thiên về sát thương phụ, còn III chậm hơn và chiếm chỗ trên tay."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 or AP improves efficiency; specialized effects matter more than divines.",
+        "vi": "Rút 1 hoặc Điểm hành động trung lập tăng hiệu suất; hiệu ứng chuyên dụng quan trọng hơn thần thánh."
+      }
+    },
+    {
+      "sourceName": "Dual Creation",
+      "note": {
+        "en": "II creates directly in hand after three creations, improving consistency. V duplicates moved Archetypes but each copy loses one effect.",
+        "vi": "II tạo trực tiếp trên tay sau ba lần tạo, giúp ổn định hơn. V nhân bản Archetype được đưa lên tay nhưng mỗi bản mất một hiệu ứng."
+      },
+      "divine": {
+        "en": "Prioritize the creation pattern; neutral/divine investment is low priority.",
+        "vi": "Ưu tiên cách tạo bài phù hợp; đầu tư trung lập/thần thánh ít cần thiết."
+      }
+    }
+  ],
+  "Tressa": [
+    {
+      "sourceName": "Unsheathe Dagger",
+      "note": {
+        "en": "II generates three Shadow Dagger cards for attack-driven allies such as Hugo. I trades one part of that output for zero-cost convenience.",
+        "vi": "II tạo ba Shadow Dagger cho đồng đội hưởng lợi từ đòn đánh như Hugo. I đổi bớt lượng tạo bài lấy sự tiện lợi của chi phí 0."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale adds support; consider draw or cost reduction.",
+        "vi": "2 Sĩ khí trung lập thêm hỗ trợ; cân nhắc rút bài hoặc giảm chi phí."
+      }
+    },
+    {
+      "sourceName": "Curse",
+      "note": {
+        "en": "IV passively establishes Agony for Vital Attack IV at low setup cost. V also builds stacks reliably but requires more upfront AP.",
+        "vi": "IV thụ động tạo Thống khổ cho Vital Attack IV với chi phí thiết lập thấp. V cũng tích cộng dồn ổn định nhưng cần nhiều Điểm hành động ban đầu hơn."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is usable; draw or Morale/Resolve on IV/V are divine targets.",
+        "vi": "1 Sĩ khí trung lập dùng được; thần thánh nhắm rút bài hoặc Sĩ khí/Quyết tâm cho IV/V."
+      }
+    },
+    {
+      "sourceName": "Shadow Reload",
+      "note": {
+        "en": "III converts spare AP into more daggers. IV upgrades existing Shadow Dagger cards even outside hand, but requires careful setup.",
+        "vi": "III đổi Điểm hành động dư thành thêm dao găm. IV nâng Shadow Dagger kể cả ngoài tay nhưng cần chuẩn bị kỹ."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale supports allies; Draw 1 improves cycling.",
+        "vi": "2 Sĩ khí trung lập hỗ trợ đồng đội; Rút 1 cải thiện luân chuyển."
+      }
+    },
+    {
+      "sourceName": "Vital Attack",
+      "note": {
+        "en": "IV reactivates its two-hit attack against sufficient Agony, repeating attached use effects as well. III is cheaper but loses that synergy.",
+        "vi": "IV tái kích hoạt đòn hai lần đánh khi đủ Thống khổ, đồng thời lặp hiệu ứng gắn với sử dụng. III rẻ hơn nhưng mất sự phối hợp đó."
+      },
+      "divine": {
+        "en": "Neutral 3 Morale supports a buffing role; 2 Vulnerable benefits from IV's reactivation.",
+        "vi": "3 Sĩ khí trung lập hỗ trợ hướng tăng sức mạnh; 2 Dễ tổn thương hưởng lợi từ tái kích hoạt của IV."
+      }
+    }
+  ],
+  "Veronica": [
+    {
+      "sourceName": "Firing Preparation",
+      "note": {
+        "en": "Choose by the desired Ballista: I increases creation chances but demands hand space, II bypasses shields, and III favors damage with fewer external buffs.",
+        "vi": "Chọn theo Ballista cần dùng: I tăng xác suất tạo nhưng cần chỗ trên tay, II xuyên Lá chắn, còn III thiên về sát thương khi ít tăng sức mạnh bên ngoài."
+      },
+      "divine": {
+        "en": "Morale/Resolve is useful; no single neutral choice is universally preferred.",
+        "vi": "Sĩ khí/Quyết tâm hữu ích; không có trung lập nào luôn được ưu tiên."
+      }
+    },
+    {
+      "sourceName": "Repose",
+      "note": {
+        "en": "I trades shielding for zero cost and AP-divine access. III reduces drawn-card costs and can supply similar resource value with setup.",
+        "vi": "I đổi Lá chắn lấy chi phí 0 và khả năng nhận thần thánh Điểm hành động. III giảm chi phí bài được rút, có thể tạo giá trị tài nguyên tương tự khi chuẩn bị tốt."
+      },
+      "divine": {
+        "en": "Consider draw, AP on I, or cost reduction; shield-focused teams can consider Resolve.",
+        "vi": "Cân nhắc rút bài, Điểm hành động cho I hoặc giảm chi phí; đội Lá chắn có thể cân nhắc Quyết tâm."
+      }
+    },
+    {
+      "sourceName": "Pendant of Resolution",
+      "note": {
+        "en": "I generates Reload from Veronica's own cards and suits support builds. IV adds chance-based stacks, often redundant once the cap is easy to reach.",
+        "vi": "I tạo Nạp đạn từ bài của Veronica, phù hợp hỗ trợ. IV thêm cộng dồn theo xác suất, thường thừa khi đã dễ đạt giới hạn."
+      },
+      "divine": {
+        "en": "Morale/Resolve is useful; base/neutral can suffice when Reload generation is already adequate.",
+        "vi": "Sĩ khí/Quyết tâm hữu ích; bản gốc/trung lập có thể đủ khi đã tạo Nạp đạn tốt."
+      }
+    },
+    {
+      "sourceName": "Sir Kowalski",
+      "note": {
+        "en": "I offers Draw 2 without extra hand clutter. III adds Ballista generation when drawing skills, suitable only when there is room for the creations.",
+        "vi": "I cung cấp Rút 2 mà không làm chật tay thêm. III tạo Ballista khi rút kỹ năng, chỉ phù hợp khi còn chỗ cho bài tạo ra."
+      },
+      "divine": {
+        "en": "Consider cost reduction or 2 Vulnerable; base/neutral loses valuable draw.",
+        "vi": "Cân nhắc giảm chi phí hoặc 2 Dễ tổn thương; bản gốc/trung lập mất lượng rút quan trọng."
+      }
+    }
+  ],
+  "Yuki": [
+    {
+      "sourceName": "Prepare to Subdue",
+      "note": {
+        "en": "IV combines Draw 2, a damage buff and Inspiration, feeding Yuki's core hit engine. II lacks Inspiration and fits narrower area-attack plans.",
+        "vi": "IV kết hợp Rút 2, tăng sát thương và Cảm hứng, hỗ trợ cơ chế đánh chính của Yuki. II thiếu Cảm hứng, hợp kế hoạch diện rộng chuyên biệt hơn."
+      },
+      "divine": {
+        "en": "1 AP is the main divine target; neutral Morale sacrifices Inspiration synergy.",
+        "vi": "1 Điểm hành động là thần thánh ưu tiên; Sĩ khí trung lập đánh đổi phối hợp Cảm hứng."
+      }
+    },
+    {
+      "sourceName": "Flash Slash",
+      "note": {
+        "en": "III favors area damage with strong external buffs. II is easier to play at zero cost when Inspiration is active.",
+        "vi": "III thiên về sát thương diện rộng khi có tăng sức mạnh bên ngoài mạnh. II dễ dùng với chi phí 0 khi Cảm hứng hoạt động."
+      },
+      "divine": {
+        "en": "Neutral 3 Morale is the general support choice; consider cost reduction or 2 Vulnerable.",
+        "vi": "3 Sĩ khí trung lập là lựa chọn hỗ trợ chung; cân nhắc giảm chi phí hoặc 2 Dễ tổn thương."
+      }
+    },
+    {
+      "sourceName": "Trickery Strike",
+      "note": {
+        "en": "III activates hand Inspiration and adds a hit to each qualifying play; duplicate buffs do not stack. V is an area-oriented alternative with fewer total triggers.",
+        "vi": "III kích hoạt Cảm hứng trên tay và thêm lần đánh cho mỗi lần dùng hợp lệ; hiệu ứng trùng không cộng dồn. V thiên diện rộng nhưng có ít lần kích hoạt tổng hơn."
+      },
+      "divine": {
+        "en": "Prioritize III over neutral effects; cost reduction or 2 Vulnerable are useful divines.",
+        "vi": "Ưu tiên III hơn trung lập; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh hữu ích."
+      }
+    },
+    {
+      "sourceName": "Freezing Blade",
+      "note": {
+        "en": "III turns each activated Inspiration into two single-target hits. I preserves stronger area damage; II instead guarantees cheap opening setup.",
+        "vi": "III biến mỗi Cảm hứng được kích hoạt thành hai lần đánh đơn mục tiêu. I giữ sát thương diện rộng mạnh hơn; II đảm bảo thiết lập mở đầu rẻ."
+      },
+      "divine": {
+        "en": "Morale/Resolve is recommended; neutral utility usually gives up too much damage.",
+        "vi": "Khuyến nghị Sĩ khí/Quyết tâm; tiện ích trung lập thường đánh đổi quá nhiều sát thương."
+      }
+    }
+  ]
+}

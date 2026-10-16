@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Phó chỉ huy của Black Spica.</><br>Licinia là phó chỉ huy trung thành của Black Spica, quản lý và giữ cho cả đội gắn kết. Cô và Arabella từng là bạn, nhưng giờ họ chỉ duy trì quan hệ cấp trên và cấp dưới nghiêm ngặt, gần như không có giao tiếp riêng tư. Bị tội lỗi trong quá khứ ám ảnh, cô gặp ác mộng mỗi đêm và run rẩy trong sợ hãi.",
+  "infoValues": [
+    "Stella Familia",
+    "28 tháng Mười Một",
+    "Pha chế độc dược",
+    "Mai Sakurakawa",
+    "Kyumi Kwak"
+  ],
+  "cardDescription": "Nhận <color_orange>1</> <color_orange><u>Điểm hành động</u></><br>Gây <color_orange>3</> <color_orange><u>Độc tê liệt</u></> lên tất cả kẻ địch",
+  "terms": {
+    "T_CS03_0312": {
+      "title": "Độc tê liệt",
+      "desc": "Khi bị lá bài của Nhân vật được ghép cặp tấn công, nhận <color_orange>1</> <color_orange><u>Phân rã</u></><br>Vào cuối lượt, giảm <cc>1</> <color_orange><u>Độc tê liệt</u></>"
+    },
+    "CARD_ENERGY": {
+      "title": "Điểm hành động",
+      "desc": "Tài nguyên tiêu hao khi <color_orange><u>Sử dụng</u></> lá bài"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Chuộc tội bằng độc dược",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Phân rã được áp dụng thông qua năng lực của Nhân vật được ghép cặp, +<cc>10</>% Tỷ lệ chí mạng (không cộng dồn).",
+        "Khi Phân rã được Kích hoạt thông qua năng lực của Nhân vật được ghép cặp, gây <cc>1</> Độc virus lên mục tiêu.<br>Độc virus: Tăng <cc>4</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp (tối đa <cc>4</> cộng dồn)"
+      ]
+    },
+    "2": {
+      "name": "Chuộc tội bằng độc dược",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Phân rã được áp dụng thông qua năng lực của Nhân vật được ghép cặp, +<cc>13</>% Tỷ lệ chí mạng (không cộng dồn).",
+        "Khi Phân rã được Kích hoạt thông qua năng lực của Nhân vật được ghép cặp, gây <cc>1</> Độc virus lên mục tiêu.<br>Độc virus: Tăng <cc>5</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp (tối đa <cc>4</> cộng dồn)"
+      ]
+    },
+    "3": {
+      "name": "Chuộc tội bằng độc dược",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Phân rã được áp dụng thông qua năng lực của Nhân vật được ghép cặp, +<cc>15</>% Tỷ lệ chí mạng (không cộng dồn).",
+        "Khi Phân rã được Kích hoạt thông qua năng lực của Nhân vật được ghép cặp, gây <cc>1</> Độc virus lên mục tiêu.<br>Độc virus: Tăng <cc>6</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp (tối đa <cc>4</> cộng dồn)"
+      ]
+    },
+    "4": {
+      "name": "Chuộc tội bằng độc dược",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Phân rã được áp dụng thông qua năng lực của Nhân vật được ghép cặp, +<cc>18</>% Tỷ lệ chí mạng (không cộng dồn).",
+        "Khi Phân rã được Kích hoạt thông qua năng lực của Nhân vật được ghép cặp, gây <cc>1</> Độc virus lên mục tiêu.<br>Độc virus: Tăng <cc>7</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp (tối đa <cc>4</> cộng dồn)"
+      ]
+    },
+    "5": {
+      "name": "Chuộc tội bằng độc dược",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Khi Phân rã được áp dụng thông qua năng lực của Nhân vật được ghép cặp, +<cc>20</>% Tỷ lệ chí mạng (không cộng dồn).",
+        "Khi Phân rã được Kích hoạt thông qua năng lực của Nhân vật được ghép cặp, gây <cc>1</> Độc virus lên mục tiêu.<br>Độc virus: Tăng <cc>8</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp (tối đa <cc>4</> cộng dồn)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2704 @@
+{
+  "id": "30047",
+  "name": "Nine",
+  "names": {
+    "en": "Nine",
+    "zhs": "奈音",
+    "zht": "奈音"
+  },
+  "job": "vanguard",
+  "ego": "norms",
+  "rarity": 5,
+  "color": "#ED8312",
+  "info": {
+    "background_text": "<color_darkgray>A mercenary who stands firm and fearless on the battlefield.</><br>A legendary figure who once held the #1 spot on the galactic mercenary ranking board, having achieved a 100% survival rate while exclusively taking on assignments with 100% mortality rates. Currently searching for a huge energy source for undisclosed reasons.",
+    "birth_day": "ui_label_day_3rd",
+    "birth_month": "ui_label_month_september",
+    "cv_en": "Not included",
+    "cv_ja": "Noriko Shibasaki",
+    "cv_ko": "Hee-Ra Jang",
+    "cv_zhs": "cv_zhs_0057",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "30047_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@30047_info",
+    "id": "30047_info",
+    "link_combatant_face_group": "30047_face",
+    "link_combatant_voice_group": "30047_voice",
+    "link_live_event_id": "live_event_30047",
+    "link_story_content_counseling_key": "story_counseling_30047",
+    "link_town_normal_visit_group": "normal_visit_30047",
+    "link_town_policy_reaction_id": "30047",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "30047_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[30047_small_talk_01,30047_small_talk_02,30047_small_talk_03,30047_small_talk_04]",
+    "specialty": "combatant_info@specialty@30047_info",
+    "stage_success_link_combatant_voice_id": "30047_stage_success_01",
+    "touch_link_combatant_voice_id": "[30047_touch_01,30047_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_30047_srt1",
+      "name": "Slash",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30047_01.webp",
+      "video": null,
+      "artKey": "start_30047_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_srt1_pot",
+          "name": "Slash",
+          "cost": 1,
+          "description": "<color_orange>130%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount of <color_orange><u>Exhaust</u></> cards by <color_orange>15</>% for <cc>1</> turn<br>(max <color_orange>2</> stacks)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30047_01.webp",
+          "video": null,
+          "artKey": "start_30047_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt1_pot"
+        }
+      ],
+      "sourceId": "c_30047_srt1"
+    },
+    {
+      "id": "c_30047_srt2",
+      "name": "Slash",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30047_01.webp",
+      "video": null,
+      "artKey": "start_30047_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_srt2_pot",
+          "name": "Slash",
+          "cost": 1,
+          "description": "<color_orange>130%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount of <color_orange><u>Exhaust</u></> cards by <color_orange>15</>% for <cc>1</> turn<br>(max <color_orange>2</> stacks)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30047_01.webp",
+          "video": null,
+          "artKey": "start_30047_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt2_pot"
+        }
+      ],
+      "sourceId": "c_30047_srt2"
+    },
+    {
+      "id": "c_30047_srt3",
+      "name": "Back-Edge Parry",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30047_02.webp",
+      "video": null,
+      "artKey": "start_30047_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt3"
+    },
+    {
+      "id": "c_30047_srt4",
+      "name": "Hew",
+      "cost": 3,
+      "description": "<color_orange>350%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew Lv. 1</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "artKey": "unique_30047_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_INNATE",
+          "title": "Initiation",
+          "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+        },
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        },
+        {
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral",
+          "desc": "If this card is in hand at the end of the turn, Exhaust it"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_srt4_rsp1",
+          "name": "Hew (Ironclad)",
+          "cost": 3,
+          "description": "<color_orange>400</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ironclad) Lv. 1</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_01.webp",
+          "video": "/assets/card/unique_30047_01.webm",
+          "artKey": "unique_30047_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_ETHEREAL",
+              "title": "Ephemeral",
+              "desc": "If this card is in hand at the end of the turn, Exhaust it"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt4_rsp1"
+        },
+        {
+          "id": "c_30047_srt4_rsp2",
+          "name": "Hew (Extreme)",
+          "cost": 3,
+          "description": "<color_orange>300</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Extreme) Lv. 1</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_01.webp",
+          "video": "/assets/card/unique_30047_01.webm",
+          "artKey": "unique_30047_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_ETHEREAL",
+              "title": "Ephemeral",
+              "desc": "If this card is in hand at the end of the turn, Exhaust it"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt4_rsp2"
+        },
+        {
+          "id": "c_30047_srt4_rsp3",
+          "name": "Hew (Flash)",
+          "cost": 3,
+          "description": "<color_orange>400</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Flash) Lv. 1</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_01.webp",
+          "video": "/assets/card/unique_30047_01.webm",
+          "artKey": "unique_30047_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_IGNITE",
+              "title": "Ignition",
+              "desc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt4_rsp3"
+        },
+        {
+          "id": "c_30047_srt4_rsp4",
+          "name": "Hew (Massacre)",
+          "cost": 3,
+          "description": "<color_orange>400</>% <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Decrease Damage Amount by <color_orange>10</>% for each<color_orange></> target<br><color_orange>Incinerate:</> Create<color_orange>1</> <cc><u>Hew (Massacre) Lv. 1</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_01.webp",
+          "video": "/assets/card/unique_30047_01.webm",
+          "artKey": "unique_30047_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_ETHEREAL",
+              "title": "Ephemeral",
+              "desc": "If this card is in hand at the end of the turn, Exhaust it"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt4_rsp4"
+        },
+        {
+          "id": "c_30047_srt4_rsp5",
+          "name": "Hew (Ambush)",
+          "cost": 3,
+          "description": "<color_orange>400</>% <color_orange><u>Defense-Based Damage</u></><br>On ally <color_orange><u>Counterattack</u></>, <color_orange><u>proc</u></> this card<br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ambush) Lv. 1</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_01.webp",
+          "video": "/assets/card/unique_30047_01.webm",
+          "artKey": "unique_30047_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_30047_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_30047_uni1",
+      "name": "Experienced Strike",
+      "cost": 1,
+      "description": "<color_orange>140%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>Increase Damage Amount of <color_orange><u>Exhaust</u></> cards by <color_orange>20</>% for <cc>1</> turn",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30047_02.webp",
+      "video": "/assets/card/unique_30047_02.webm",
+      "artKey": "unique_30047_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        },
+        {
+          "id": "CARD_LEECHSHIELD",
+          "title": "DMG-Based Shield",
+          "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_uni1_rsp1",
+          "name": "Experienced Strike",
+          "cost": 1,
+          "description": "<color_orange>210%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>Increase Damage Amount of <color_orange><u>Exhaust</u></> cards by <color_orange>30</>% for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_02.webp",
+          "video": "/assets/card/unique_30047_02.webm",
+          "artKey": "unique_30047_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni1_rsp1"
+        },
+        {
+          "id": "c_30047_uni1_rsp2",
+          "name": "Experienced Strike",
+          "cost": 1,
+          "description": "<color_orange>210</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>If a card was <color_orange><u>Exhaust</u></>ed this turn, increase Damage Amount of this card by <color_orange>30</>% for <cc>1</> turn until <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_02.webp",
+          "video": "/assets/card/unique_30047_02.webm",
+          "artKey": "unique_30047_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni1_rsp2"
+        },
+        {
+          "id": "c_30047_uni1_rsp3",
+          "name": "Experienced Strike",
+          "cost": 1,
+          "description": "<color_orange>210</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>Increase <color_orange><u>Shield</u></> Gain Amount of Skill Cards by <color_orange>30</>% for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_02.webp",
+          "video": "/assets/card/unique_30047_02.webm",
+          "artKey": "unique_30047_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            },
+            {
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni1_rsp3"
+        },
+        {
+          "id": "c_30047_uni1_rsp4",
+          "name": "Experienced Strike",
+          "cost": 1,
+          "description": "<color_orange>140%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>+<color_orange>60</>% Damage Amount for each<color_orange></> <color_orange><u>Exhaust</u></> card in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_02.webp",
+          "video": "/assets/card/unique_30047_02.webm",
+          "artKey": "unique_30047_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni1_rsp4"
+        },
+        {
+          "id": "c_30047_uni1_rsp5",
+          "name": "Experienced Strike",
+          "cost": 1,
+          "description": "<color_orange>210</>% <color_orange><u>Defense-Based Damage</u></><br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>For <cc>1</> turn, when an <color_orange><u>Exhaust</u></> card is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Counterattack</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_02.webp",
+          "video": "/assets/card/unique_30047_02.webm",
+          "artKey": "unique_30047_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
+            },
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_30047_uni1"
+    },
+    {
+      "id": "c_30047_uni2",
+      "name": "Fatal Strike",
+      "cost": 1,
+      "description": "<color_orange>140%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <color_orange>20</>% for each<color_orange></> Cost of the highest-Cost <color_orange><u>Exhaust</u></> card in hand, then <color_orange><u>Exhaust</u></> that card",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30047_03.webp",
+      "video": "/assets/card/unique_30047_03.webm",
+      "artKey": "unique_30047_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_uni2_rsp1",
+          "name": "Fatal Strike",
+          "cost": 1,
+          "description": "<color_orange>210%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <color_orange>30</>% for each<color_orange></> Cost of the highest-Cost <color_orange><u>Exhaust</u></> card in hand, then <color_orange><u>Exhaust</u></> that card",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_03.webp",
+          "video": "/assets/card/unique_30047_03.webm",
+          "artKey": "unique_30047_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni2_rsp1"
+        },
+        {
+          "id": "c_30047_uni2_rsp2",
+          "name": "Fatal Strike",
+          "cost": 2,
+          "description": "<color_orange>260</>% <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <color_orange>20</>% for each<color_orange></> Cost of the highest-Cost card in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_03.webp",
+          "video": "/assets/card/unique_30047_03.webm",
+          "artKey": "unique_30047_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni2_rsp2"
+        },
+        {
+          "id": "c_30047_uni2_rsp3",
+          "name": "Fatal Strike",
+          "cost": 5,
+          "description": "Change <cc><u>Hew</u></> in hand to its final level",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_03.webp",
+          "video": "/assets/card/unique_30047_03.webm",
+          "artKey": "unique_30047_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_IGNITE",
+              "title": "Ignition",
+              "desc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30047_uni2_rsp3"
+        },
+        {
+          "id": "c_30047_uni2_rsp4",
+          "name": "Fatal Strike",
+          "cost": 1,
+          "description": "<color_orange><u>Exhaust</u></> <color_orange>2</> random <color_orange><u>Exhaust</u></> cards of other Combatants in hand<br>For each card Exhausted through this ability, increase Damage Amount of the next <color_orange><u>activate</u></>d Attack Card of this unit by <color_orange>30</>% until <color_orange><u>activate</u></>d",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_03.webp",
+          "video": "/assets/card/unique_30047_03.webm",
+          "artKey": "unique_30047_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni2_rsp4"
+        },
+        {
+          "id": "c_30047_uni2_rsp5",
+          "name": "Fatal Strike",
+          "cost": 1,
+          "description": "<color_orange>210</>% <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <color_orange>80</>% for each<color_orange></> ally owning <color_orange><u>Counterattack</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30047_03.webp",
+          "video": "/assets/card/unique_30047_03.webm",
+          "artKey": "unique_30047_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_30047_uni2"
+    },
+    {
+      "id": "c_30047_uni3",
+      "name": "Counterblade",
+      "cost": 0,
+      "description": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>1</> <color_orange><u>Honed Edge</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_30047_04.webp",
+      "video": "/assets/card/unique_30047_04.webm",
+      "artKey": "unique_30047_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS01_0821",
+          "title": "Honed Edge",
+          "desc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))"
+        },
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_uni3_rsp1",
+          "name": "Counterblade",
+          "cost": 0,
+          "description": "When a card is <color_orange><u>Exhaust</u></>ed, <color_orange>1</> <color_orange><u>Honed Edge</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30047_04.webp",
+          "video": "/assets/card/unique_30047_04.webm",
+          "artKey": "unique_30047_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "T_CS01_0821",
+              "title": "Honed Edge",
+              "desc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni3_rsp1"
+        },
+        {
+          "id": "c_30047_uni3_rsp2",
+          "name": "Counterblade",
+          "cost": 0,
+          "description": "Increase <color_orange><u>Shield</u></> Gain Amount by <color_orange>15</>%, and when <color_orange><u>Shield</u></> is gained through an ability, <color_orange>1</> <color_orange><u>Honed Edge</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30047_04.webp",
+          "video": "/assets/card/unique_30047_04.webm",
+          "artKey": "unique_30047_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0821",
+              "title": "Honed Edge",
+              "desc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni3_rsp2"
+        },
+        {
+          "id": "c_30047_uni3_rsp3",
+          "name": "Counterblade",
+          "cost": 0,
+          "description": "When <color_orange><u>Shield</u></> is gained through an ability, <color_orange>1</> <color_orange><u>Honed Edge</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30047_04.webp",
+          "video": "/assets/card/unique_30047_04.webm",
+          "artKey": "unique_30047_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0821",
+              "title": "Honed Edge",
+              "desc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni3_rsp3"
+        },
+        {
+          "id": "c_30047_uni3_rsp4",
+          "name": "Counterblade",
+          "cost": 0,
+          "description": "When <color_orange><u>Counterattack</u></> is gained, <color_orange>1</> <color_orange><u>Honed Edge+</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30047_04.webp",
+          "video": "/assets/card/unique_30047_04.webm",
+          "artKey": "unique_30047_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0157",
+              "title": "Counterattack",
+              "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)"
+            },
+            {
+              "id": "T_CS01_0850",
+              "title": "Honed Edge+",
+              "desc": "Increase <color_orange><u>Defense-Based Damage</u></> Amount of Attack Cards of allies by <color_orange>20</>% for <cc>1</> turn (max <color_orange>3</> stack(s))"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni3_rsp4"
+        },
+        {
+          "id": "c_30047_uni3_rsp5",
+          "name": "Counterblade",
+          "cost": 1,
+          "description": "At the start of the turn, <color_orange><u>proc</u></> the <cc><u>Hew</u></> card in hand <color_orange>1</> times",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30047_04.webp",
+          "video": "/assets/card/unique_30047_04.webm",
+          "artKey": "unique_30047_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_30047_uni3"
+    },
+    {
+      "id": "c_30047_uni4",
+      "name": "Fighting Spirit",
+      "cost": 1,
+      "description": "<color_orange><u>Proc</u></> <color_orange>1</> highest-Cost Attack Card(s) of this unit in hand, then <color_orange><u>Exhaust</u></> those cards",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_30047_05.webp",
+      "video": "/assets/card/unique_30047_05.webm",
+      "artKey": "unique_30047_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        },
+        {
+          "id": "CARD_USE",
+          "title": "Proc",
+          "desc": "Activating a card through an effect"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30047_uni4_lbk",
+          "name": "Fighting Spirit",
+          "cost": 1,
+          "description": "<color_orange><u>Proc</u></> <color_orange>1</> highest-Cost Attack Card(s) of this unit in hand on the target, then <color_orange><u>Exhaust</u></> those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_30047_05.webp",
+          "video": "/assets/card/unique_30047_05.webm",
+          "artKey": "unique_30047_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30047_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_30047_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_30047_eps",
+    "name": "Reflection: Zero",
+    "cost": 6,
+    "description": "<color_orange>250%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>+<color_orange>50</>% Damage Amount for each point of the combined<color_orange></> Cost of the <color_orange>2</> highest-Cost cards, then <color_orange><u>Exhaust</u></> those cards",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_30047_01.webp",
+    "video": null,
+    "artKey": "collapse_30047_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "CARD_DEFDAMAGE",
+        "title": "Defense-Based Damage",
+        "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+      },
+      {
+        "id": "TALENT_EXHAUST",
+        "title": "Exhaust",
+        "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_30047_eps_lbk",
+        "name": "Reflection: Zero",
+        "cost": 6,
+        "description": "<color_orange>400%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>+<color_orange>100</>% Damage Amount for each point of the combined<color_orange></> Cost of the <color_orange>2</> highest-Cost cards, then <color_orange><u>Exhaust</u></> those cards",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_30047_01.webp",
+        "video": null,
+        "artKey": "collapse_30047_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "CARD_DEFDAMAGE",
+            "title": "Defense-Based Damage",
+            "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+          },
+          {
+            "id": "TALENT_EXHAUST",
+            "title": "Exhaust",
+            "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_30047_eps_lbk"
+      }
+    ],
+    "sourceId": "c_30047_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_30047_col",
+      "name": "Impulse",
+      "cost": 1,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_30047_02.webp",
+      "video": null,
+      "artKey": "collapse_30047_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30047_col"
+    },
+    {
+      "id": "c_30047_col2",
+      "name": "Impulse",
+      "cost": 1,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_30047_02.webp",
+      "video": null,
+      "artKey": "collapse_2_30047_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30047_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "30047",
+          "job": "vanguard",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30047_col",
+        "name": "Impulse",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_30047_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "norms",
+          "id": "30047",
+          "job": "vanguard",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30047_col2",
+        "name": "Impulse",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_30047_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "impulse",
+    "collapse_illustration": "collapse/collapse_illustration/impulse",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "norms",
+        "id": "30047",
+        "job": "vanguard",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 6,
+      "desc_display": "<color_orange>250%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>+<color_orange>50</>% Damage Amount for each point of the combined<color_orange></> Cost of the <color_orange>2</> highest-Cost cards, then <color_orange><u>Exhaust</u></> those cards",
+      "ego_type": "EGO_OWNER",
+      "id": "c_30047_eps",
+      "name": "Reflection: Zero",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 6,
+          "desc_display": "<color_orange>400%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>+<color_orange>100</>% Damage Amount for each point of the combined<color_orange></> Cost of the <color_orange>2</> highest-Cost cards, then <color_orange><u>Exhaust</u></> those cards",
+          "ego_type": "EGO_OWNER",
+          "id": "c_30047_eps_lbk",
+          "name": "Reflection: Zero",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_30047_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_30047_eps_lbk_01",
+            "c_30047_eps_lbk_02",
+            "c_30047_eps_lbk_03"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage"
+            },
+            {
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_30047_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_30047_eps_01",
+        "c_30047_eps_02",
+        "c_30047_eps_03"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_impulse",
+    "desc": "Every time this character enters battle, their stress increases by <cc>10</>.",
+    "id": "collapse_30047",
+    "link_psychosis_id": "psychosis_1003_3",
+    "name": "Impulse"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Targets may be selected for attack with the <color_orange><u>Fighting Spirit</u></> card.",
+      "group": "limit_30047",
+      "id": "limit_30047_1",
+      "illust": "unique_30047_01",
+      "link_card_id": "[c_30047_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of battle, create <color_orange>1</> <color_orange><u>Exploit Opening</u></> card.<br><color_orange>Exploit Opening</>: <color_orange>1</> Vulnerable, <color_orange>1</> Tenacity Damage",
+      "group": "limit_30047",
+      "id": "limit_30047_2",
+      "illust": "unique_30047_02",
+      "link_card_id": "[c_30047_bhc1]",
+      "link_cs_id": "[cs06_0135]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>150</> Damage Amount to <color_orange><u>Reflection: Zero</u></>, and +<color_orange>50</>% Damage Amount to the modifier for the combined Cost of the <color_orange>2</> highest-Cost cards effect.",
+      "group": "limit_30047",
+      "id": "limit_30047_3",
+      "illust": "collapse_30047_01",
+      "link_card_id": "[c_30047_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "When Nine’s cards are Exhausted, gain <color_orange>1 Improvisation</> for each Cost of that card.<br><color_orange>Improvisation</>: +<color_orange>50</>% Defense-Based Damage Amount to Nine’s Attack Cards (max <color_orange>3</> stacks)",
+      "group": "limit_30047",
+      "id": "limit_30047_4",
+      "illust": "unique_30047_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0137]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_30047",
+      "id": "limit_30047_5",
+      "illust": "unique_30047_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "When <color_orange><u>Hew</u></> cards are $activate$d, inflict Fixed Damage equal to <color_orange>25</>% of the Damage dealt to the target (this Damage cannot inflict a Critical Hit).",
+      "group": "limit_30047",
+      "id": "limit_30047_6",
+      "illust": "unique_30047_05",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0136]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "300471001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "300472001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "300472002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "300472003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "300472004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "300472005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "300472006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "300472007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "300472008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "300472009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "300472010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "300472011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "300472012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "300472013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "300472014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "300472015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "300472016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "300473001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "300473002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "300473003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "300473004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "300473005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "300473006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "300473007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "300473008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "300473009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "300473010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "300473011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "300473012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "300473013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "300473014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "300473015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "300473016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>30</>% Damage Amount to <color_orange><u>Slash</u></> cards, and adds the following effect: increase Damage Amount of Exhaust cards by <color_orange>15</>% for <color_orange>1</> turn (max <color_orange>2</> stacks)",
+      "id": "300473101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "300474001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "300474002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "300474003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "300474004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "300474005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "300474006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "300474007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "300474008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "300474009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "300474010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "300474011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "300474012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "300474013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "300474014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "300474015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "300474016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "300475001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "300475002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "300475003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "300475004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "300475005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Nine's <color_orange><u>Slash</u></>, and if Nine's Defense is <color_orange>250</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "300475101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "300475201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "300476001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "300476002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "300476003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "300476004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "300476005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Nine's Defense is <color_orange>300</> or higher, +<color_orange>5</>% Order Attribute Damage Amount, and for every <color_orange>10</> Defense exceeding 300, add an additional +<color_orange>2</>% to the modifier<br>(additional +<color_orange>10</>% max)",
+      "id": "300477001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "30047",
+  "sourceFile": "docs/combatant/current/api/czn/characters/30047.html"
+}

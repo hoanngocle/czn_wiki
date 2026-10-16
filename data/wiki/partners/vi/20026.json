@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Nữ tư tế sùng đạo của Sanctuary Sisters.</><br>Vốn nhân hậu và đầy đức tin, cô nhiệt thành truyền giảng lời của vị thần mình tôn thờ, mong cứu rỗi được càng nhiều linh hồn càng tốt. Nổi tiếng với những bài giảng dài và đầy nhiệt huyết, cô luôn tận tâm với công việc truyền đạo.",
+  "infoValues": [
+    "Con người",
+    "Ngày 6 tháng 4",
+    "Ban phước",
+    "Yuri Usui",
+    "Yujeong Jeong"
+  ],
+  "cardDescription": "<color_orange><u>Hồi máu</u></> <color_orange>100%</><br>Nhận <color_orange>1</> <color_orange><u>Kiên cường</u></> trong <cc>1</> lượt",
+  "terms": {
+    "CARD_CURE": {
+      "title": "Hồi máu",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    "T_CS00_0012": {
+      "title": "Kiên cường",
+      "desc": "-<color_orange>-20</>% lượng sát thương với mỗi <color_orange><u>Kiên cường</u></>"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Ban phước",
+      "descriptions": [
+        "Tăng <cc>8</>% Phòng thủ của Nhân vật được ghép cặp.",
+        "Nếu Nhân vật được ghép cặp không Kích hoạt lá Tấn công nào tính đến cuối lượt, Hồi máu <cc>30</>% để phục hồi Máu vào đầu lượt tiếp theo."
+      ]
+    },
+    "2": {
+      "name": "Ban phước",
+      "descriptions": [
+        "Tăng <cc>10</>% Phòng thủ của Nhân vật được ghép cặp.",
+        "Nếu Nhân vật được ghép cặp không Kích hoạt lá Tấn công nào tính đến cuối lượt, Hồi máu <cc>38</>% để phục hồi Máu vào đầu lượt tiếp theo."
+      ]
+    },
+    "3": {
+      "name": "Ban phước",
+      "descriptions": [
+        "Tăng <cc>12</>% Phòng thủ của Nhân vật được ghép cặp.",
+        "Nếu Nhân vật được ghép cặp không Kích hoạt lá Tấn công nào tính đến cuối lượt, Hồi máu <cc>45</>% để phục hồi Máu vào đầu lượt tiếp theo."
+      ]
+    },
+    "4": {
+      "name": "Ban phước",
+      "descriptions": [
+        "Tăng <cc>14</>% Phòng thủ của Nhân vật được ghép cặp.",
+        "Nếu Nhân vật được ghép cặp không Kích hoạt lá Tấn công nào tính đến cuối lượt, Hồi máu <cc>53</>% để phục hồi Máu vào đầu lượt tiếp theo."
+      ]
+    },
+    "5": {
+      "name": "Ban phước",
+      "descriptions": [
+        "Tăng <cc>16</>% Phòng thủ của Nhân vật được ghép cặp.",
+        "Nếu Nhân vật được ghép cặp không Kích hoạt lá Tấn công nào tính đến cuối lượt, Hồi máu <cc>60</>% để phục hồi Máu vào đầu lượt tiếp theo."
+      ]
+    }
+  }
+}

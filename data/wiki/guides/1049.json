@@ -1,0 +1,2055 @@
+{
+  "characterId": "1049",
+  "name": "Cassius",
+  "identity": [
+    "Instinct",
+    "Controller"
+  ],
+  "subtitle": {
+    "en": "Quest generation combines additive damage buffs, draw and defensive effects in one support package.",
+    "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, rút bài và hiệu ứng phòng thủ trong một bộ hỗ trợ."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1049.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/cassius",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/cassius.json",
+      "docs/combatant/current/api/czn/characters/1049.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Healer's Journey": {
+      "src": "/assets/item/guide-9a0cb5c9e3e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Crimson Sword": {
+      "src": "/assets/item/relic_1170.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Clover of the Forest": {
+      "src": "/assets/item/relic_1232.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sneering Dagger": {
+      "src": "/assets/item/relic_1154.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Closed-Circuit Terminal": {
+      "src": "/assets/item/relic_5071.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cycle of Circulation": {
+      "src": "/assets/item/relic_5074.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Chains of Obsession": {
+      "src": "/assets/item/relic_1152_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Combat Drum": {
+      "src": "/assets/item/relic_5034.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sereniel": {
+      "src": "/assets/combatant/portrait_character_crop_half_30075.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hugo": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Selena": {
+      "src": "/assets/combatant/portrait_character_crop_half_1005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Heidemarie": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Diana": {
+      "src": "/assets/combatant/portrait_character_crop_half_1061.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hilde": {
+      "src": "/assets/combatant/portrait_character_crop_half_30113.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Luke": {
+      "src": "/assets/combatant/portrait_character_crop_half_1004.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Adelheid": {
+      "src": "/assets/combatant/portrait_character_crop_half_1055.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Haru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1062.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tressa": {
+      "src": "/assets/combatant/portrait_character_crop_half_1009.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mei Lin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Fei": {
+      "src": "/assets/combatant/portrait_character_crop_half_30048.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Chizuru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1060.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuki": {
+      "src": "/assets/combatant/portrait_character_crop_half_1057.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lucas": {
+      "src": "/assets/combatant/portrait_character_crop_half_1021.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Controller": {
+      "src": "/assets/common/icon_type_job_controller.png",
+      "width": 44,
+      "height": 44
+    },
+    "Nyx E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_1049_cre5",
+      "name": "Quest: Triple 0",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>0</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Triple 0</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_09.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre5",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre6",
+      "name": "Quest: Triple 1",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>1</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Triple 1</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_08.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre6",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre7",
+      "name": "Quest: Straight",
+      "cost": 0,
+      "description": "When 1 of each <cc>0</>-Cost, <cc>1</>-Cost, and <cc>2</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Straight</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_07.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre7",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre8",
+      "name": "Quest: Full House",
+      "cost": 0,
+      "description": "When a card of each Combatant has been <color_orange><u>activate</u></>d, create <cc><u>Full House</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_06.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre8",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre9",
+      "name": "Quest: Triple 0",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>0</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Triple 1</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_09.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre9",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre10",
+      "name": "Quest: Triple 1",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>1</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Triple 1</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_08.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre10",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre11",
+      "name": "Quest: Straight",
+      "cost": 0,
+      "description": "When 1 of each <cc>0</>-Cost, <cc>1</>-Cost, and <cc>2</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Straight</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_07.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre11",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre12",
+      "name": "Quest: Full House",
+      "cost": 0,
+      "description": "When <cc>1</> card of each Combatant has been <color_orange><u>activate</u></>d, create <cc><u>Full House</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_06.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre12",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre13",
+      "name": "Triple 0",
+      "cost": 0,
+      "description": "<color_orange>250%</> Damage<br>+<color_orange>50</>% base Damage Amount for each<color_orange></> Attack Card <color_orange><u>activate</u></>d this turn<br>(max <cc>4</> times)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_09.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre13",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre14",
+      "name": "Triple 1",
+      "cost": 0,
+      "description": "<color_orange><u>Draw</u></> <color_orange>1</><br><color_orange>200%</> Damage<br><color_orange><u>Heal</u></> <color_orange>200%</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre14",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre15",
+      "name": "Straight",
+      "cost": 0,
+      "description": "<color_orange><u>Draw</u></> <color_orange>1</><br><color_orange>3</> <color_orange><u>Morale</u></>, <color_orange><u>Resolve</u></>, and <color_orange><u>Fortitude</u></> for <cc>1</> turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack",
+          "id": "T_CS00_0008",
+          "title": "Resolve"
+        },
+        {
+          "desc": "-<color_orange>-20</>% Damage Amount for each <color_orange><u>Fortitude</u></>",
+          "id": "T_CS00_0012",
+          "title": "Fortitude"
+        },
+        {
+          "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+          "id": "T_CS00_0001",
+          "title": "Morale"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre15",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre16",
+      "name": "Full House",
+      "cost": 0,
+      "description": "<color_orange><u>Draw</u></> <color_orange>1</><br>Decrease Stress of a random ally by <color_orange>3</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre16",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre17",
+      "name": "Quest: Triple 0",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>0</>-Cost cards are <color_orange><u>activate</u></>d, create an empowered <cc><u>Triple 0</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_09.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre17",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre18",
+      "name": "Quest: Triple 1",
+      "cost": 0,
+      "description": "When <cc>3</> <cc>1</>-Cost cards are <color_orange><u>activate</u></>d, create an empowered <cc><u>Triple 1</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_08.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre18",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre19",
+      "name": "Quest: Straight",
+      "cost": 0,
+      "description": "When 1 of each <cc>0</>-Cost, <cc>1</>-Cost, and <cc>2</>-Cost cards are <color_orange><u>activate</u></>d, create an empowered <cc><u>Straight</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_07.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre19",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1049_cre20",
+      "name": "Quest: Full House",
+      "cost": 0,
+      "description": "When a card of each Combatant has been <color_orange><u>activate</u></>d, create an empowered <cc><u>Full House</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1049_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1049_06.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1049_cre20",
+      "ownerId": "1049",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "guide_1049_persona",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique]<br>250% Defense-Based Damage. Action Count 2.<br>Controller only",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1099.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/cassius#decks"
+    },
+    {
+      "id": "card_ne_00036",
+      "name": "Reorganize",
+      "cost": 1,
+      "description": "<color_orange><u>Draw</u></> <color_orange>3</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00068",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00068.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00036",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00026",
+      "name": "Gear Bag",
+      "cost": 1,
+      "description": "<color_orange><u>Draw</u></> <color_orange>2</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00326",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00326.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "When a card of a different Combatant is used, <color_orange><u>proc</u></> this card",
+          "id": "TALENT_COOP",
+          "title": "Combo"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00026",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00050",
+      "name": "First Aid Kit​",
+      "cost": 2,
+      "description": "<color_orange><u>Heal</u></> <color_orange>250%</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "potion_00044",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/potion_00044.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When a <cc>2</>-Cost or higher card is used, <color_orange><u>proc</u></> this card",
+          "id": "TALENT_CELESTIAL",
+          "title": "Celestial"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00050",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_enc_00055",
+      "name": "Faceless Woman",
+      "cost": 1,
+      "description": "When a <color_orange><u>Linked</u></> card is <color_orange><u>activate</u></>d, <color_orange><u>Draw</u></> <color_orange>1</> (<cc>1</> time per turn)",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_ETC",
+      "artKey": "job_00518",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00518.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_enc_00055",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [],
+      "chaos": "Theater of Illusions",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_1049_cre5",
+    "c_1049_cre6",
+    "c_1049_cre7",
+    "c_1049_cre8",
+    "c_1049_cre9",
+    "c_1049_cre10",
+    "c_1049_cre11",
+    "c_1049_cre12",
+    "c_1049_cre13",
+    "c_1049_cre14",
+    "c_1049_cre15",
+    "c_1049_cre16",
+    "c_1049_cre17",
+    "c_1049_cre18",
+    "c_1049_cre19",
+    "c_1049_cre20"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Quest generation combines additive damage buffs, draw and defensive effects in one support package.",
+      "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, rút bài và hiệu ứng phòng thủ trong một bộ hỗ trợ."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Exhaust Quests quickly enable Glory's Reign; common Epiphanies ease deck editing.",
+        "vi": "Bài phần thưởng nhiệm vụ có Kiệt sức giúp kích hoạt Glory’s Reign nhanh; nhiều Thức tỉnh bài hữu dụng giúp điều chỉnh bộ bài dễ hơn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Pop-Eyed Piper makes players choose between Initiation and selecting a Quest, weakening opening consistency.",
+        "vi": "Pop-Eyed Piper buộc chọn giữa Khởi đầu và khả năng chọn phần thưởng nhiệm vụ, khiến lượt đầu kém ổn định."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Devil Dice",
+        "body": {
+          "en": "160% Damage; Draw 1",
+          "vi": "Gây 160% sát thương; Rút bài 1"
+        },
+        "cardId": "c_1049_uni1"
+      },
+      {
+        "title": "Shuffle",
+        "body": {
+          "en": "Discard all cards in hand; Draw for each Discarded",
+          "vi": "Bỏ bài toàn bộ bài trên tay; Rút bài với mỗi lá đã bỏ"
+        },
+        "cardId": "c_1049_uni2"
+      },
+      {
+        "title": "Dice Trick",
+        "body": {
+          "en": "240% Damage; Decrease Morale by 1 for 1 turn; Decrease Cost by the number of completed Quests",
+          "vi": "Gây 240% sát thương; Giảm Sĩ khí đi 1 trong 1 lượt; Giảm chi phí bằng số Nhiệm vụ đã hoàn thành"
+        },
+        "cardId": "c_1049_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1049_srt4",
+      "ratings": [
+        4,
+        2,
+        3,
+        5,
+        1
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV lets you select a Quest and avoids repeated resets. I is reasonable only when restarting for favorable outcomes is easy.",
+        "vi": "IV cho chọn Nhiệm vụ, giảm nhu cầu khởi động lại. I hợp lý khi có thể dễ dàng chơi lại để tìm kết quả thuận lợi."
+      },
+      "divine": {
+        "en": "Prefer Morale/Resolve; neutral bonuses generally do not compensate for lost consistency.",
+        "vi": "Ưu tiên Sĩ khí/Quyết tâm; phần thưởng trung lập thường không bù được độ ổn định bị mất."
+      }
+    },
+    {
+      "cardId": "c_1049_uni1",
+      "ratings": [
+        1,
+        3,
+        2,
+        2,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V works immediately at zero cost; II concentrates repeated draws into one turn. III improves when several targets are present.",
+        "vi": "V dùng ngay với chi phí 0; II tập trung nhiều lần rút trong một lượt. III mạnh hơn khi có nhiều mục tiêu."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale is strong; cost reduction, AP or Vulnerable depend on the chosen variant.",
+        "vi": "2 Sĩ khí trung lập mạnh; giảm chi phí, Điểm hành động hoặc Dễ tổn thương tùy biến thể đã chọn."
+      }
+    },
+    {
+      "cardId": "c_1049_uni2",
+      "ratings": [
+        3,
+        4,
+        5,
+        3,
+        2
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III refills five cards after the hand is spent and reshuffles the deck. II preserves selected cards; IV helps when AP is limited.",
+        "vi": "III rút bù năm lá sau khi dùng hết bài trên tay và xáo lại bộ bài. II giữ lá được chọn; IV phù hợp khi thiếu Điểm hành động."
+      },
+      "divine": {
+        "en": "Neutral 1 AP saves Faint Memory; cost reduction or 2 Vulnerable are useful divines.",
+        "vi": "1 Điểm hành động trung lập tiết kiệm Ký ức phai nhạt nhạt; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh hữu ích."
+      }
+    },
+    {
+      "cardId": "c_1049_uni3",
+      "ratings": [
+        1,
+        1,
+        2,
+        2,
+        4
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V adds draw when a Quest reward draws; III improves first-turn affordability when cost reductions have not started.",
+        "vi": "V thêm rút bài khi phần thưởng Nhiệm vụ có rút bài; III dễ dùng ở lượt đầu khi chưa bắt đầu giảm chi phí."
+      },
+      "divine": {
+        "en": "Neutral AP, Draw 1 or 3 Morale exploits the original cost pool; 2 Vulnerable is a useful divine.",
+        "vi": "Điểm hành động, Rút 1 hoặc 3 Sĩ khí trung lập tận dụng nhóm chi phí gốc; 2 Dễ tổn thương là thần thánh hữu ích."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Nyx E0",
+      "score": "—",
+      "note": {
+        "en": "Nyx combines draw/discard utility, supportive stats and a small team buff at any Ego level.",
+        "vi": "Nyx kết hợp Rút/Bỏ bài, chỉ số hỗ trợ và tăng sức mạnh nhẹ toàn đội ở mọi cấp Ego."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Yuri's off-class passives do not work, but her inexpensive draw Ego remains a strong free alternative.",
+        "vi": "Nội tại Yuri không hoạt động do khác lớp, nhưng kỹ năng Ego Rút bài ít tốn năng lượng vẫn là lựa chọn miễn phí tốt."
+      }
+    },
+    {
+      "name": "Arwen E4",
+      "score": "—",
+      "note": {
+        "en": "Arwen trades utility for strong survivability through passive incoming-damage reduction.",
+        "vi": "Arwen đánh đổi tiện ích để tăng khả năng sống sót bằng nội tại giảm sát thương phải chịu."
+      }
+    },
+    {
+      "name": "Alyssa E4",
+      "score": "—",
+      "note": {
+        "en": "Alyssa offers defense and passive healing instead of Arwen's mitigation, useful when defense scaling matters.",
+        "vi": "Alyssa tăng Phòng thủ và hồi máu nội tại thay cho giảm sát thương của Arwen, hữu ích khi đội cần chỉ số Phòng thủ."
+      }
+    },
+    {
+      "name": "Yvonne E4",
+      "score": "—",
+      "note": {
+        "en": "Choose Yvonne over Yuri when a free stat bonus matters more than draw utility.",
+        "vi": "Chọn Yvonne thay Yuri khi cần thưởng chỉ số miễn phí hơn là tiện ích Rút bài."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Glory's Reign (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Core Exhaust cards keep Glory's Reign useful, provided no teammate already supplies its buff.",
+        "vi": "Các lá Kiệt sức chủ lực tận dụng tốt Glory's Reign nếu chưa có đồng đội cung cấp hiệu ứng này."
+      }
+    },
+    {
+      "name": "Healer's Journey (2) + Tetra's Authority (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Use defensive 2/2/2 when another teammate already fully activates the non-stacking Glory's Reign buff.",
+        "vi": "Dùng 2/2/2 phòng ngự nếu đồng đội đã kích hoạt đầy đủ Glory's Reign, vì hiệu ứng bộ này không cộng dồn."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF% = HP% > EGO Regen",
+        "vi": "Phòng thủ% = Máu% > Hồi năng lượng Ego"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% = HP > HP% > EGO Regen",
+        "vi": "Phòng thủ > Phòng thủ% = Máu > Máu% > Hồi năng lượng Ego"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "When playing Cassius as a support, if possible, we recommend building him toward having 701+ HP in the character screen so that his Potential 7 is fully active and grants Fortitude every time a Quest is activated. This isn't a mandatory stat goal, but in certain Cassius builds and encounters is an incredibly potent defensive tool.",
+    "vi": "Khi chơi hỗ trợ, có thể hướng tới 701+ máu trên màn hình nhân vật để tiềm năng 7 cấp Kiên cường mỗi lần hoàn thành nhiệm vụ. Không bắt buộc, nhưng rất mạnh về phòng thủ trong một số bộ bài và trận đấu."
+  },
+  "potentialIntro": {
+    "en": "3-1: Grants a 30% chance to Draw 1 to both of Cassius’ Basic Attacks. 30% isn’t enough to count on, but it can help a little bit early in your run if you draw poorly. It’s not as impactful as some other Combatants’ 3-1s can be.5-1: Increases his Basic Attacks’ damage. Makes them a little better to play in conjunction with 3-1, but you’ll likely still end up removing them from your deck.7: Incredible. Getting Morale and Fortitude for a turn every time you complete a Quest makes Cassius an even more potent support. You already want to complete Quests early in a turn, but this makes it even more important if you want to take advantage of Morale.",
+    "vi": "Tiềm năng 3-1 cho hai bài tấn công cơ bản 30% cơ hội rút 1 lá, hữu ích khi rút bài kém nhưng thiếu ổn định; 5-1 tăng sát thương bài cơ bản, thường vẫn xóa về cuối chuyến thám hiểm. Ưu tiên tiềm năng 7 vì hoàn thành nhiệm vụ cho Sĩ khí và Kiên cường trong 1 lượt, nên hoàn thành nhiệm vụ sớm trong lượt để tận dụng hiệu ứng."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add a 30% chance to draw 1 card to Card and Wild Card.",
+        "vi": "Thêm 30% xác suất rút 1 lá cho Thẻ bài và Wild Card."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Cassius's Cards and Wild Card; If Cassius's Health is 600 or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng sát thương của Cards và Wild Card của Cassius; Nếu Máu của Cassius từ 600 trở lên, tăng thêm 5% cho chỉ số này"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "Upon completing a Quest, gain 1 Morale for 1 turn; If Cassius’s Health is 700 or higher, when a Quest is completed, 1 Fortitude for 1 turn",
+        "vi": "Khi hoàn thành Nhiệm vụ, nhận 1 Sĩ khí trong 1 lượt; Nếu Máu của Cassius từ 700 trở lên, khi hoàn thành Nhiệm vụ, nhận 1 Kiên cường trong 1 lượt"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp ()",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (CURRENT)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang",
+        "Sneering Dagger"
+      ],
+      "armor": [
+        "Contaminated Drone Lens",
+        "Pagna Mushroom",
+        "Contaminated Cocoon Cape"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Closed-Circuit Terminal",
+        "Cycle of Circulation"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Chains of Obsession",
+        "Torture Toolbox",
+        "Wings of Light",
+        "Nightmare Hairpin"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Sphere of Randomness",
+        "Stele of Heresy",
+        "Bloody Pendant"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Combat Drum",
+        "Plant Doll",
+        "Golden Bell"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Laboratory Zero",
+        "vi": "Mùa 1: Laboratory Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4 (source current season)",
+        "vi": "Mùa 4 (mùa hiện tại theo nguồn)"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Cassius' 1st Ego node now grants Joker to be able to retrieve a card from your Discard Pile as well. This is an extremely strong first Ego node that increases consistency and provides further utility to Cassius.",
+        "vi": "Joker có thể thu hồi cả bài trong chồng bỏ, tăng mạnh tính ổn định và công dụng hỗ trợ."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Increases Cassius' Healing output substantially allowing him to much more effectively serve as a sustain for the team.",
+        "vi": "Tăng đáng kể lượng hồi máu, giúp Cassius đảm nhiệm tốt hơn vai trò duy trì sinh tồn."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "No source commentary provided for this level.",
+        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "E4 buffs his Ego Skill by increasing/further reducing the amount of Ego on enemies by an additional 2, going from 3 stacks of Morale Reduction to 5.",
+        "vi": "Kỹ năng Ego tăng hiệu quả thêm 2 bậc, nâng mức giảm Sĩ khí của địch từ 3 lên 5 cộng dồn."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "No source commentary provided for this level.",
+        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Effectively doubles the strength of the tankiness aspect of Cassius' Pot-7, extremely strong at mitigating enemy damage.",
+        "vi": "Gần như nhân đôi phần phòng thủ của tiềm năng 7, giảm sát thương nhận vào rất mạnh."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Cassius: Generic Buffer (Season-3)",
+        "vi": "Cassius: Tăng sức mạnh đa dụng mùa 3"
+      },
+      "role": {
+        "en": "Additive Morale buffer",
+        "vi": "Tăng sát thương cộng dồn qua Sĩ khí"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1049_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_1049_uni1",
+          "count": 3,
+          "costDelta": -1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1049_uni2",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "c_1049_uni3",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 3 Morale",
+            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "guide_1049_persona",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00036",
+          "count": 1,
+          "effects": {
+            "en": "1 AP<br>Apply Initiation to this card",
+            "vi": "Nhận 1 Điểm hành động<br>Áp dụng Khởi đầu cho lá này"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Wings of Light",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Glory's Reign",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Combine neutral Morale Epiphanies and useful neutral cards with Pop Eyed Popper quests for additional buffs. This supports many damage patterns, including Diana, Hugo drivers, Fei, and Heidemarie; those team examples do not limit where it can be used.",
+        "vi": "Kết hợp Thức tỉnh bài trung lập tăng Sĩ khí, các lá trung lập hữu ích và nhiệm vụ do Pop Eyed Popper tạo để bổ sung hiệu ứng tăng sức mạnh. Dùng được với nhiều kiểu chủ lực như Diana, các đội kích hoạt Hugo, Fei hoặc Heidemarie; danh sách đội trong nguồn chỉ mang tính tham khảo."
+      }
+    },
+    {
+      "name": {
+        "en": "Cassius: Sereniel Support (Season-3)",
+        "vi": "Cassius: Hỗ trợ Sereniel mùa 3"
+      },
+      "role": {
+        "en": "High-cost Morale support",
+        "vi": "Tăng Sĩ khí bằng các lá chi phí cao"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1049_srt3",
+          "count": 1
+        },
+        {
+          "cardId": "c_1049_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_1049_uni1",
+          "count": 3,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1049_uni2",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "c_1049_uni3",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 3 Morale",
+            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1049_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00026",
+          "count": 3,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "card_ne_00036",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1<br>Apply Initiation to this card",
+            "vi": "Nhận 1 Sĩ khí<br>Áp dụng Khởi đầu cho lá này"
+          }
+        },
+        {
+          "cardId": "guide_1049_persona",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00050",
+          "count": 1,
+          "effects": {
+            "en": "Morale 2",
+            "vi": "Nhận 2 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Wings of Light",
+        "Clover of the Forest"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Keep the generic buffer's quest and Morale engine, but spend Sereniel's abundant AP on higher-cost cards. This version can avoid cost-reduction Divines on Cassius because Sereniel supplies the resources.",
+        "vi": "Giữ cách tạo Sĩ khí và hoàn thành nhiệm vụ của bản hỗ trợ đa dụng, nhưng tận dụng lượng Điểm hành động dồi dào từ Sereniel để dùng các lá đắt hơn. Nhờ nguồn Điểm hành động này, Cassius không nhất thiết phải dùng Thức tỉnh thần thánh giảm chi phí."
+      }
+    },
+    {
+      "name": {
+        "en": "Cassius: Heidemarie Shuffler (Season-3)",
+        "vi": "Cassius: Xào kiếm cho Heidemarie mùa 3"
+      },
+      "role": {
+        "en": "Mass-discard burst enabler",
+        "vi": "Chuẩn bị lượt bùng nổ bằng bỏ bài hàng loạt"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1049_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_1049_uni1",
+          "count": 3,
+          "costDelta": -1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1049_uni2_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_1049_uni3_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "card_enc_00055",
+          "count": 1,
+          "costDelta": -1,
+          "effects": {
+            "en": "Gain 2 Ego Points",
+            "vi": "Nhận 2 Điểm Ego"
+          }
+        },
+        {
+          "cardId": "card_ne_00026",
+          "count": 1,
+          "effects": {
+            "en": "Morale 1",
+            "vi": "Nhận 1 Sĩ khí"
+          }
+        },
+        {
+          "cardId": "guide_1049_persona",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Torture Toolbox",
+        "A Lonesome Wedding Ring"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Accumulate Heidemarie's swords, then use Shuffle to move them from discard to the draw pile. Nia's Ego discards that pile and triggers their extra attacks together. Extra Shuffle III copies suit bosses that cause frequent stress or mindbreak, enabling repeated Nia Ego bursts after mindbreak.",
+        "vi": "Tích nhiều kiếm của Heidemarie, rồi dùng Shuffle chuyển chúng từ chồng bài bỏ sang chồng bài rút. Kỹ năng Ego của Nia bỏ toàn bộ chồng bài rút để kích hoạt hàng loạt đòn đánh thêm của kiếm. Có thể thêm Shuffle III khi gặp trùm gây nhiều Căng thẳng hoặc Suy sụp tinh thần, nhằm dùng kỹ năng Ego của Nia nhiều lần sau Suy sụp tinh thần."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Sereniel",
+      "note": {
+        "en": "Instinct attacks help break Tenacity, while Sereniel's low draw needs and AP support suit Cassius's buffs.",
+        "vi": "Đòn Bản năng giúp phá Sức bền; nhu cầu Rút bài thấp và hỗ trợ Điểm hành động của Sereniel hợp các hiệu ứng Cassius."
+      }
+    },
+    {
+      "name": "Hugo",
+      "note": {
+        "en": "Created skills maintain Commence the Hunt, and frequent attacks trigger it while additive buffs strengthen Extra Attacks.",
+        "vi": "Bài Kỹ năng được tạo duy trì Bắt đầu cuộc săn; nhiều đòn đánh kích hoạt nó và tăng sát thương cộng thêm khuếch đại Đòn đánh thêm."
+      }
+    },
+    {
+      "name": "Selena",
+      "note": {
+        "en": "Joker helps sequence Selena's cards, while additive buffs strongly improve her frequent Extra Attacks.",
+        "vi": "Joker giúp sắp thứ tự bài Selena, còn tăng sát thương cộng thêm cải thiện mạnh các Đòn đánh thêm liên tục."
+      }
+    },
+    {
+      "name": "Heidemarie",
+      "note": {
+        "en": "Sword Rain III enables Triple-1, and late-turn multihit damage makes Cassius's additive buffs easy to apply in time.",
+        "vi": "Sword Rain III hỗ trợ Triple-1; sát thương nhiều lần đánh cuối lượt dễ nhận đầy đủ tăng sát thương cộng thêm của Cassius."
+      }
+    },
+    {
+      "name": "Diana",
+      "note": {
+        "en": "Quietus cards advance Straight Quest, while discard tools and additive buffs support Diana's Extra Attacks.",
+        "vi": "Bài Tịch diệt thúc đẩy Straight Nhiệm vụ; công cụ Bỏ bài và tăng sát thương cộng thêm hỗ trợ Đòn đánh thêm của Diana."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Selena Driver (Heidemarie)",
+        "vi": "Hỗ trợ Selena — Heidemarie"
+      },
+      "members": [
+        "Heidemarie",
+        "Selena",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Commence the Heide (HDMI Hugo Driver)",
+        "vi": "Heidemarie hỗ trợ Hugo"
+      },
+      "members": [
+        "Heidemarie",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Hilde)",
+        "vi": "Hilde hỗ trợ Hugo"
+      },
+      "members": [
+        "Hugo",
+        "Hilde",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Luke)",
+        "vi": "Luke hỗ trợ Hugo"
+      },
+      "members": [
+        "Luke",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ravager",
+        "vi": "Đội khai thác Suy yếu"
+      },
+      "members": [
+        "Sereniel",
+        "Cassius",
+        "Selena"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "ADHD Anchor Shot",
+        "vi": "Anchor Shot cùng Adelheid"
+      },
+      "members": [
+        "Adelheid",
+        "Haru",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole",
+        "vi": "Đội khai thác Rạn nứt"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Tressa)",
+        "vi": "Tressa hỗ trợ Hugo"
+      },
+      "members": [
+        "Tressa",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Selena Driver (Mei Lin)",
+        "vi": "Mei Lin hỗ trợ Selena"
+      },
+      "members": [
+        "Mei Lin",
+        "Selena",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Twist of Fei-t",
+        "vi": "Fei hỗ trợ rút bài"
+      },
+      "members": [
+        "Fei",
+        "Hilde",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Chizuru - Cassius Variant)",
+        "vi": "Hỗ trợ Hugo — Chizuru và Cassius"
+      },
+      "members": [
+        "Hugo",
+        "Chizuru",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "The Thinker, The Inspired",
+        "vi": "Đội Cảm hứng và Tư duy"
+      },
+      "members": [
+        "Yuki",
+        "Nia",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Narja Hyper (Season-3)",
+        "vi": "Narja chủ lực — Mùa 3"
+      },
+      "members": [
+        "Narja",
+        "Cassius",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Selena Driver (Lucas)",
+        "vi": "Lucas hỗ trợ Selena"
+      },
+      "members": [
+        "Lucas",
+        "Selena",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (AOE)",
+        "vi": "Đội khai thác Rạn nứt — diện rộng"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

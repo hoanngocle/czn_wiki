@@ -1,0 +1,191 @@
+[
+  {
+    "id": "TALENT_EXHAUST",
+    "englishTitle": "Exhaust",
+    "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+    "title": "Kiệt sức",
+    "desc": "Khi lá này được <color_orange><u>kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>kiệt sức</u></>"
+  },
+  {
+    "id": "TALENT_INNATE",
+    "englishTitle": "Initiation",
+    "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+    "title": "Khởi đầu",
+    "desc": "Đầu trận, đặt lá này lên trên cùng <color_orange><u>Chồng bài rút</u></>"
+  },
+  {
+    "id": "TALENT_RETAIN",
+    "englishTitle": "Retain",
+    "englishDesc": "This card is not discarded at the end of the turn",
+    "title": "Giữ lại",
+    "desc": "Lá này không bị bỏ vào cuối lượt"
+  },
+  {
+    "id": "CARD_ENERGY",
+    "englishTitle": "AP",
+    "englishDesc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+    "title": "Điểm hành động",
+    "desc": "Tài nguyên tiêu hao khi <color_orange><u>sử dụng</u></> bài"
+  },
+  {
+    "id": "CARD_DRAW",
+    "englishTitle": "Draw",
+    "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+    "title": "Rút bài",
+    "desc": "Đưa một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+  },
+  {
+    "id": "TALENT_RECALL_N",
+    "englishTitle": "Retrieve 2",
+    "englishDesc": "When this card moves to the <color_orange><u>Graveyard</u></>, return it to hand (up to <color_orange>2</> times)<br>Upon activation, Retrieve decreases by <cc>1</>",
+    "title": "Thu hồi 2",
+    "desc": "Khi lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa lại lên tay (tối đa <color_orange>2</> lần)<br>Khi kích hoạt, giảm Thu hồi đi <cc>1</>"
+  },
+  {
+    "id": "TALENT_EXHAUST_N",
+    "englishTitle": "Exhaust 3",
+    "englishDesc": "When this card is <color_orange><u>activate</u></>d <color_orange>3</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+    "title": "Kiệt sức 3",
+    "desc": "Khi lá này được <color_orange><u>kích hoạt</u></> <color_orange>3</> lần, chuyển vào Chồng bài <color_orange><u>kiệt sức</u></>"
+  },
+  {
+    "id": "CARD_SHIELD",
+    "englishTitle": "Shield",
+    "englishDesc": "Decrease Damage Amount taken until the next turn",
+    "title": "Lá chắn",
+    "desc": "Giảm lượng sát thương phải nhận cho đến lượt tiếp theo"
+  },
+  {
+    "id": "CARD_FIXEDDAMAGE",
+    "englishTitle": "Fixed Damage",
+    "englishDesc": "A damage that ignores persistent effects",
+    "title": "Sát thương cố định",
+    "desc": "Sát thương bỏ qua các hiệu ứng duy trì"
+  },
+  {
+    "id": "T_CS00_0008",
+    "englishTitle": "Resolve",
+    "englishDesc": "+<color_orange>20</>% <color_orange><u>Shield</u></> Gain for each <color_orange><u>Resolve</u></> stack",
+    "title": "Quyết tâm",
+    "desc": "Tăng <color_orange>20</>% lượng <color_orange><u>Lá chắn</u></> nhận được với mỗi cộng dồn <color_orange><u>Quyết tâm</u></>"
+  },
+  {
+    "id": "T_CS00_0012",
+    "englishTitle": "Fortitude",
+    "englishDesc": "-<color_orange>-20</>% Damage Amount for each <color_orange><u>Fortitude</u></>",
+    "title": "Kiên cường",
+    "desc": "-<color_orange>-20</>% lượng sát thương với mỗi cộng dồn <color_orange><u>Kiên cường</u></>"
+  },
+  {
+    "id": "TALENT_COOP",
+    "englishTitle": "Combo",
+    "englishDesc": "When a card of a different Combatant is used, <color_orange><u>proc</u></> this card",
+    "title": "Liên hoàn",
+    "desc": "Khi sử dụng lá của nhân vật khác, <color_orange><u>kích hoạt qua hiệu ứng</u></> lá này"
+  },
+  {
+    "id": "T_CS00_0001",
+    "englishTitle": "Morale",
+    "englishDesc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+    "title": "Sĩ khí",
+    "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi cộng dồn <color_orange><u>Sĩ khí</u></>"
+  },
+  {
+    "id": "CARD_PLACE_DISCARD_2",
+    "title": "Chồng bài bỏ",
+    "englishTitle": "Discard Pile",
+    "englishDesc": "The pile where Discarded Cards move to (max <cc>200</>)",
+    "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá)."
+  },
+  {
+    "id": "CARD_DECK_2",
+    "title": "Chồng bài rút",
+    "englishTitle": "Draw Pile",
+    "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+    "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>"
+  },
+  {
+    "id": "TALENT_IGNITE",
+    "title": "Bắt lửa",
+    "englishTitle": "Ignition",
+    "englishDesc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d",
+    "desc": "Khi lá này trên tay, nếu một lá bị <color_orange><u>Kiệt sức</u></>, giảm chi phí lá này đi <cc>1</> cho đến khi được <color_orange><u>kích hoạt</u></>"
+  },
+  {
+    "id": "TALENT_UNPLAYABLE",
+    "title": "Không thể kích hoạt",
+    "englishTitle": "Unactivatable",
+    "desc": "Không thể Kích hoạt lá này.",
+    "englishDesc": "This card cannot be activated"
+  },
+  {
+    "id": "TALENT_TERMINATION",
+    "title": "Kết thúc",
+    "englishTitle": "Finale",
+    "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, kết thúc lượt",
+    "englishDesc": "When this card is <color_orange><u>activate</u></>d, end turn"
+  },
+  {
+    "id": "CARD_CURE",
+    "title": "Hồi máu",
+    "englishTitle": "Healing",
+    "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng",
+    "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+  },
+  {
+    "id": "CARD_ACTIVATE",
+    "title": "Kích hoạt",
+    "englishTitle": "Activate",
+    "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+    "englishDesc": "Using or proccing a card"
+  },
+  {
+    "id": "CARD_USE",
+    "title": "Kích hoạt qua hiệu ứng",
+    "englishTitle": "Proc",
+    "desc": "Kích hoạt một lá bài thông qua hiệu ứng.",
+    "englishDesc": "Activating a card through an effect"
+  },
+  {
+    "id": "TALENT_CONNECT",
+    "title": "Liên kết",
+    "englishTitle": "Linked",
+    "englishDesc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+    "desc": "Khi lá này được <color_orange><u>dùng</u></>, bỏ toàn bộ lá có <color_orange><u>Liên kết</u></> khác trên tay"
+  },
+  {
+    "id": "T_CS00_0002",
+    "title": "Dễ tổn thương",
+    "englishTitle": "Vulnerable",
+    "desc": "Tăng <color_orange>50</>% sát thương phải chịu<br>Khi kích hoạt, giảm <color_orange><u>Dễ tổn thương</u></> đi <cc>1</>",
+    "englishDesc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+  },
+  {
+    "id": "TALENT_WEAKPOINT",
+    "title": "Đánh điểm yếu",
+    "englishTitle": "Weakness Attack",
+    "desc": "Đòn tấn công của lá này được tính là đánh trúng Điểm yếu.",
+    "englishDesc": "This card's attack is applied as Weakness"
+  },
+  {
+    "id": "TALENT_CELESTIAL",
+    "title": "Thiên thể",
+    "englishTitle": "Celestial",
+    "desc": "Khi dùng một lá có Chi phí từ <cc>2</> trở lên, <color_orange><u>Kích hoạt qua hiệu ứng</u></> lá này",
+    "englishDesc": "When a <cc>2</>-Cost or higher card is used, <color_orange><u>proc</u></> this card"
+  },
+  {
+    "id": "TALENT_LEAD",
+    "title": "Dẫn đầu",
+    "englishTitle": "Lead",
+    "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ",
+    "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+  },
+  {
+    "id": "TALENT_EXPLORATION",
+    "englishTitle": "Inquiry",
+    "title": "Tìm tòi",
+    "englishDesc": "Inquiry Synergy: Apply effect based on the total number of <cc>[ Inquiry ]</> talents possessed by allies<br><color_orange>0</><br><color_orange>0</><br><color_orange>0</>",
+    "desc": "Cộng hưởng Tìm tòi: Áp dụng hiệu ứng theo tổng số đặc tính <cc>[ Tìm tòi ]</> của đồng đội<br><color_orange>0</><br><color_orange>0</><br><color_orange>0</><br>Nguồn hiện chưa cung cấp mô tả cho các mốc hiệu ứng này."
+  }
+]

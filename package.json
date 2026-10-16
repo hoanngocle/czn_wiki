@@ -11,8 +11,14 @@
     "test:unit": "vitest run",
     "test:e2e": "playwright test",
     "import:wiki": "node scripts/import-e7bot.mjs",
+    "import:character": "node scripts/import-character.mjs",
+    "import:partners": "node scripts/import-partners.mjs",
     "audit:assets": "node scripts/audit-reference-assets.mjs",
-    "reference:serve": "node scripts/reference-server.mjs"
+    "reference:serve": "node scripts/reference-server.mjs",
+    "audit:characters": "vitest run tests/unit/character-content.test.ts tests/unit/combatant-catalog.test.ts tests/unit/combatant-decks-complete.test.ts tests/unit/card-videos.test.ts tests/unit/translation-overlay-audit.test.ts tests/unit/combatant-links.test.ts tests/unit/renoa-translation.test.ts",
+    "sync:combatants": "node scripts/sync-combatants.mjs",
+    "build:combatant-content": "node scripts/analyze-combatant-guides.mjs && node scripts/build-combatant-guides.mjs && node scripts/register-combatant-content.mjs",
+    "sync:card-videos": "node scripts/sync-card-videos.mjs"
   },
   "dependencies": {
     "next": "16.4.0",

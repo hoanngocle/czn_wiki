@@ -1,0 +1,1683 @@
+{
+  "characterId": "1069",
+  "name": "Tenebria",
+  "identity": [
+    "Passion",
+    "Psionic"
+  ],
+  "subtitle": {
+    "en": "Transforms Basic Attacks into Rhythm cards, then recycles them through Spotlight and Encore.",
+    "vi": "Biến bài Tấn công Cơ bản thành Rhythm, rồi tái sử dụng qua Spotlight và Encore."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1069.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/tenebria.json",
+      "docs/combatant/current/api/czn/characters/1069.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Tenebria": {
+      "src": "/assets/combatant/portrait_character_crop_half_1069.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Aria": {
+      "src": "/assets/partner/portrait_character_crop_half_1070.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Bria": {
+      "src": "/assets/partner/portrait_character_crop_half_20021.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eloise": {
+      "src": "/assets/partner/portrait_character_crop_half_20027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Zatera": {
+      "src": "/assets/partner/portrait_character_crop_half_20012.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Seth's Scarab": {
+      "src": "/assets/item/guide-e0e14ef2898e.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Prelude to a Hero": {
+      "src": "/assets/item/guide-a34147d55a1a.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mask of Flames": {
+      "src": "/assets/item/relic_1115.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "The Destruction of Erysichthon": {
+      "src": "/assets/item/relic_1141_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "W-52 Dopamine Injector": {
+      "src": "/assets/item/relic_0107.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutant Predator Spike": {
+      "src": "/assets/item/relic_0108.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Eye of the Eyeless": {
+      "src": "/assets/item/relic_1040.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rei": {
+      "src": "/assets/combatant/portrait_character_crop_half_1056.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mei Lin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Magna": {
+      "src": "/assets/combatant/portrait_character_crop_half_1010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tenebria artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1069.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Passion": {
+      "src": "/assets/common/icon_type_ego_love.png",
+      "width": 44,
+      "height": 44
+    },
+    "Psionic": {
+      "src": "/assets/common/icon_type_job_psionic.png",
+      "width": 44,
+      "height": 44
+    },
+    "Aria E4": {
+      "src": "/assets/partner/portrait_character_crop_half_1070.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Aria E0": {
+      "src": "/assets/partner/portrait_character_crop_half_1070.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Bria E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20021.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eloise E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Zatera E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20012.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eloise E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20027.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_1069_cre1",
+      "name": "Rhythm",
+      "cost": 2,
+      "description": "<color_orange>60%</> <color_orange>Damage</><br>+<color_orange>30</>% base Damage Amount for each Rhythm<br><color_orange><u>Proc</u></> <color_orange>1</> <cc>Rhythm</> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_03",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_03.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre1",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre2",
+      "name": "Rhythm: Crescendo",
+      "cost": 2,
+      "description": "<color_orange>180%</> <color_orange>Damage</><br>+<color_orange>40</>% base Damage Amount for each Rhythm in Graveyard<br>For <cc>1</> turn, decrease Cost of the next <color_orange><u>Rhythm card</u></> <color_orange><u>activate</u></>d by <cc>1</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre2",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre3",
+      "name": "Rhythm: Staccato",
+      "cost": 1,
+      "description": "<color_orange>80%</> <color_orange>Damage</><br>+<color_orange>50</>% base Damage Amount for each Rhythm<br>If the last card <color_orange><u>activate</u></>d was a <color_orange><u>Rhythm card</u></>, increase Cost by <color_orange>1</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre3",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre4",
+      "name": "Rhythm: Fortissimo",
+      "cost": 2,
+      "description": "<color_orange>90%</> <color_orange>Damage</><br>+<color_orange>55</>% base Damage Amount for each Linked Rhythm before <color_orange><u>activation</u></><br>When <cc>3</> or more cards are Linked, add <cc>1</> Hit",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_09.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre4",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre5",
+      "name": "Rhythm: Fermata",
+      "cost": 1,
+      "description": "Select <cc>1</> of <cc>4</> <color_orange><u>Rhythm card</u></>s<br>Change all <color_orange><u>Rhythm card</u></>s into the selected card for <cc>1</> turn and <color_orange><u>Draw</u></> <cc>2</> of them",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_10",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_10.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre5",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre5_mut1",
+      "name": "Rhythm",
+      "cost": 2,
+      "description": "<color_orange>60%</> <color_orange>Damage</><br>+<cc>30</>% base Damage Amount for each Rhythm<br><color_orange><u>Proc</u></> <color_orange>1</> <cc>Rhythm</> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_03",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_03.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre5_mut1",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre5_mut2",
+      "name": "Rhythm: Crescendo",
+      "cost": 2,
+      "description": "<color_orange>180%</> <color_orange>Damage</><br>+<cc>40</>% base Damage Amount for each Rhythm in Graveyard<br>For <cc>1</> turn, decrease Cost of the next <color_orange><u>Rhythm card</u></> <color_orange><u>activate</u></>d by <cc>1</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre5_mut2",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre5_mut3",
+      "name": "Rhythm: Staccato",
+      "cost": 1,
+      "description": "<color_orange>80%</> <color_orange>Damage</><br>+<cc>50</>% base Damage Amount for each Rhythm<br>If the last card <color_orange><u>activate</u></>d was a <color_orange><u>Rhythm card</u></>, increase Cost by <cc>1</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre5_mut3",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre5_mut4",
+      "name": "Rhythm: Fortissimo",
+      "cost": 2,
+      "description": "<color_orange>90%</> <color_orange>Damage</><br>+<cc>55</>% base Damage Amount for each Linked Rhythm before <color_orange><u>activation</u></><br>When <cc>3</> or more cards are Linked, add <cc>1</> Hit",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_09",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_09.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre5_mut4",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre6",
+      "name": "Rhythm: Arpeggio",
+      "cost": 0,
+      "description": "<color_orange>15%</><color_orange></> <color_orange>Damage</> for each Rhythm<br><color_orange><u>Draw</u></> <color_orange>1</> of the lowest-Cost <color_orange><u>Rhythm card</u></>s and decrease Cost by <color_orange>1</> until <color_orange><u>activate</u></>d",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre6",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre7",
+      "name": "Rhythm: Arpeggio",
+      "cost": 1,
+      "description": "<color_orange>20%</><color_orange></> <color_orange>Damage</> for each Rhythm<br><color_orange><u>Draw</u></> <color_orange>2</> of the lowest-Cost <color_orange><u>Rhythm card</u></>s and decrease Cost by <color_orange>1</> until <color_orange><u>activate</u></>d",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre7",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre8",
+      "name": "Rhythm: Arpeggio",
+      "cost": 2,
+      "description": "<color_orange>40%</><color_orange></> <color_orange>Damage</> for each Rhythm<br><color_orange><u>Proc</u></> <color_orange>1</> of the highest-Cost <color_orange><u>Rhythm card</u></>s in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre8",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre9",
+      "name": "Rhythm: Arpeggio",
+      "cost": 3,
+      "description": "<color_orange>50%</><color_orange></> <color_orange>Damage</> for each Rhythm<br><color_orange><u>Proc</u></> <color_orange>1</> of the highest-Cost <color_orange><u>Rhythm card</u></>(s) from among <color_orange><u>Draw Pile</u></> and <color_orange><u>Discard Pile</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "The pile where Discarded Cards move to (max <cc>200</>)",
+          "id": "CARD_PLACE_DISCARD_2",
+          "title": "Discard Pile"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre9",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre10",
+      "name": "Rhythm: Arpeggio",
+      "cost": 4,
+      "description": "<color_orange>80%</><color_orange></> <color_orange>Damage</> for each Rhythm<br>Decrease Cost of this card by <color_orange>1</> for each <color_orange><u>Rhythm card</u></> in <color_orange><u>Graveyard</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>",
+          "id": "CARD_TOMB",
+          "title": "Graveyard"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre10",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_cre11",
+      "name": "Rhythm: Arpeggio",
+      "cost": 5,
+      "description": "<color_orange>90%</><color_orange></> <color_orange>Damage</> for each Rhythm<br>Decrease Cost of this card by <color_orange>1</> for each <color_orange><u>Rhythm card</u></> <color_orange><u>activate</u></>d this turn",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_START",
+      "artKey": "unique_1069_11",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_11.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_cre11",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1069_bhc1",
+      "name": "Photo Card",
+      "cost": 0,
+      "description": "<color_orange>2</> <color_orange><u>Ego Points</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1069_12",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1069_12.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Resource consumed when using Awakening Skills or Partner Skills",
+          "id": "CARD_TACTIC_GAUGE",
+          "title": "Ego Points"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_bhc1",
+      "ownerId": "1069",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_1069_cre1",
+    "c_1069_cre2",
+    "c_1069_cre3",
+    "c_1069_cre4",
+    "c_1069_cre5",
+    "c_1069_cre5_mut1",
+    "c_1069_cre5_mut2",
+    "c_1069_cre5_mut3",
+    "c_1069_cre5_mut4",
+    "c_1069_cre6",
+    "c_1069_cre7",
+    "c_1069_cre8",
+    "c_1069_cre9",
+    "c_1069_cre10",
+    "c_1069_cre11",
+    "c_1069_bhc1"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Transforms Basic Attacks into Rhythm cards, then recycles them through Spotlight and Encore.",
+      "vi": "Biến bài Tấn công Cơ bản thành Rhythm, rồi tái sử dụng qua Spotlight và Encore."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Strong Basic-card synergy and rapid combo damage once the loop is established.",
+        "vi": "Phối hợp tốt với hiệu ứng tăng sức mạnh cho bài cơ bản và gây sát thương liên hoàn nhanh khi đã thiết lập vòng lặp."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; high AP needs and extra Basic cards can reduce opening consistency.",
+        "vi": "Không có sát thương diện rộng; cần nhiều Điểm hành động và thêm bài Cơ bản có thể làm lượt mở đầu kém ổn định."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Spotlight",
+        "body": {
+          "en": "140% Damage; Move 1 Rhythm card(s) to hand; Decrease Cost of those cards by 2 until activated",
+          "vi": "Gây 140% sát thương; Đưa 1 Bài Nhịp điệu lên tay; Giảm 2 chi phí của các lá đó cho đến khi được kích hoạt"
+        },
+        "cardId": "c_1069_uni1"
+      },
+      {
+        "title": "Call & Response",
+        "body": {
+          "en": "200% Damage; If in hand, treat as a Rhythm card; Attunement: Draw 1 Rhythm card(s)",
+          "vi": "Gây 200% sát thương; Khi trên tay, được xem là Bài Nhịp điệu; Điều hòa: Rút 1 Bài Nhịp điệu"
+        },
+        "cardId": "c_1069_uni2"
+      },
+      {
+        "title": "Encore",
+        "body": {
+          "en": "120% Damage; If the last card activated was a Rhythm card, proc that card",
+          "vi": "Gây 120% sát thương; Nếu lá được kích hoạt gần nhất là Bài Nhịp điệu, kích hoạt qua hiệu ứng lá đó"
+        },
+        "cardId": "c_1069_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1069_srt4",
+      "ratings": [
+        3,
+        1,
+        1,
+        4,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V creates the flexible Arpeggio set, combining a scaling expensive attack with cheaper utility. IV offers controlled conversion and recurring Rhythm draw.",
+        "vi": "V tạo bộ Arpeggio linh hoạt, kết hợp đòn đắt có thể giảm chi phí với tiện ích rẻ. IV cho đổi dạng có kiểm soát và rút bài Nhịp điệu định kỳ."
+      },
+      "divine": {
+        "en": "Morale neutral can preserve a useful base route; target Morale/Resolve or start-turn Draw 2 divines.",
+        "vi": "Sĩ khí trung lập có thể giữ hướng bản gốc hữu ích; thần thánh nhắm Sĩ khí/Quyết tâm hoặc Rút 2 đầu lượt."
+      }
+    },
+    {
+      "cardId": "c_1069_uni1",
+      "ratings": [
+        2,
+        3,
+        4,
+        5,
+        2
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV arranges three Rhythm cards at the top of the deck for consistent setup. III automatically activates moved cards but needs more AP upfront.",
+        "vi": "IV xếp ba lá Nhịp điệu lên đầu bộ bài để thiết lập ổn định. III tự kích hoạt bài đã di chuyển nhưng cần thêm Điểm hành động ban đầu."
+      },
+      "divine": {
+        "en": "IV/V can take AP; consider targeted draw, Common conversion/draw, or Vulnerable as needed.",
+        "vi": "IV/V có thể lấy Điểm hành động; cân nhắc rút chọn lọc, chuyển thành Bài chung/rút bài hoặc Dễ tổn thương theo nhu cầu."
+      }
+    },
+    {
+      "cardId": "c_1069_uni2",
+      "ratings": [
+        4,
+        1,
+        5,
+        2,
+        2
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III draws Rhythm cards while activating from the draw pile. I provides strong Attunement draw but needs more free hand space.",
+        "vi": "III rút bài Nhịp điệu khi kích hoạt từ Chồng bài rút. I rút mạnh qua Điều hòa nhưng cần nhiều chỗ trống trên tay hơn."
+      },
+      "divine": {
+        "en": "Consider draw on III, targeted/Common draw, or cost reduction.",
+        "vi": "Cân nhắc rút bài cho III, rút có chọn lọc/Bài chung hoặc giảm chi phí."
+      }
+    },
+    {
+      "cardId": "c_1069_uni3",
+      "ratings": [
+        5,
+        1,
+        5,
+        4,
+        3
+      ],
+      "preferred": "I / III",
+      "note": {
+        "en": "I repeats the last Rhythm twice but does not trigger Call & Response's in-hand Rhythm condition. III reduces upcoming Rhythm costs and adds a hit.",
+        "vi": "I lặp lá Nhịp điệu cuối hai lần nhưng không kích hoạt điều kiện Nhịp điệu trên tay của Call & Response. III giảm chi phí Nhịp điệu sắp dùng và thêm lần đánh."
+      },
+      "divine": {
+        "en": "Targeted/Common draw and cost reduction are useful; III/IV can use ordinary draw, with Vulnerable for damage support.",
+        "vi": "Rút có chọn lọc/Bài chung và giảm chi phí hữu ích; III/IV có thể dùng rút thông thường, thêm Dễ tổn thương để hỗ trợ sát thương."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Aria E4",
+      "score": "149.72%",
+      "note": {
+        "en": "Strengthens the same signature benefits as E0 for a substantial improvement at high investment.",
+        "vi": "Tăng mạnh các hiệu ứng trấn sẵn có ở E0, đem lại cải thiện lớn khi đầu tư cao."
+      }
+    },
+    {
+      "name": "Aria E0",
+      "score": "127.63%",
+      "note": {
+        "en": "The signature's varied damage bonuses make it the strongest listed option even at E0.",
+        "vi": "Nhiều loại hiệu ứng tăng cường sát thương từ Đối tác trấn giúp đây là lựa chọn mạnh nhất được liệt kê, ngay ở E0."
+      }
+    },
+    {
+      "name": "Bria E0",
+      "score": "111.10%",
+      "note": {
+        "en": "Chosen mainly for higher base stats; Bria, Ivy and Itsuku provide little meaningful passive synergy here.",
+        "vi": "Chủ yếu chọn vì chỉ số nền cao; Bria, Ivy và Itsuku ít có tương tác nội tại đáng kể trong trường hợp này."
+      }
+    },
+    {
+      "name": "Eloise E4",
+      "score": "106.22%",
+      "note": {
+        "en": "An accessible stat option when avoiding higher-rarity pulls; her passive and Ego skill have little synergy.",
+        "vi": "Lựa chọn lấy chỉ số dễ tiếp cận khi không muốn quay Đối tác hiếm hơn; nội tại và kỹ năng Ego ít tương tác."
+      }
+    },
+    {
+      "name": "Zatera E4",
+      "score": "100.00%",
+      "note": {
+        "en": "A free stopgap if none of the stronger listed Partners is available.",
+        "vi": "Phương án miễn phí tạm thời nếu chưa có Đối tác mạnh hơn trong danh sách."
+      }
+    },
+    {
+      "name": "Eloise E0",
+      "score": "98.78%",
+      "note": {
+        "en": "Weak initially but a better long-term investment than Zatera as additional Ego copies become available.",
+        "vi": "Ban đầu yếu nhưng đáng đầu tư lâu dài hơn Zatera khi có thêm bản để nâng Ego."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Black Wing (2) + Executioner's Tool (2) + Seth's Scarab (2)",
+      "score": "—",
+      "note": {
+        "en": "The reliable general damage setup; only particular specialist scenarios favor alternatives.",
+        "vi": "Bộ sát thương phổ thông đáng tin cậy; chỉ một số tình huống chuyên biệt ưu tiên phương án khác."
+      }
+    },
+    {
+      "name": "Prelude to a Hero (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Extra Crit Rate when allied discard or Rhythm Fortissimo's Linked effect can activate the set.",
+        "vi": "Thêm Tỷ lệ bạo kích khi bỏ bài từ đồng đội hoặc Liên kết của Rhythm Fortissimo có thể kích hoạt bộ."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "ATK% >= PASSION DMG%",
+        "vi": "Tấn công% >= Sát thương Đam mê%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% > CRIT DMG% > ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Maxing out Tenebria's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 700 ATK, which almost all Tenebria builds can accomplish.",
+    "vi": "Đạt 700 tấn công để tối đa hóa tiềm năng 7; gần như mọi cách xây dựng đều dễ chạm mốc."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Adds an [Incinerate] effect to Tenebria’s Basic-Attack Cards, providing a 50% heal. This ultimately does absolutely nothing outside of providing a small heal at the start of combat. Can be skipped.5-1: Tenebria’s 5-1 Potential grants a 10% multiplicative damage buff to Tenebria’s Rhythm cards, additionally - if her attack is 500 or higher, will provide a 10% multiplicative damage buff to her allies Rhythm cards too. A substantial damage boost, as Tenebria’s damage scaling is Base ratio, making this quite a potent potential to unlock.7: Tenebria’s 7 Potential grants Tenebria +5% Passion Attribute damage, and for every 20 Attack exceeding 600, will grant an additional +2% up to a maximum of 15% Passion Attribute Damage at 700 Attack. Definitely worth picking up.",
+    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Thiêu hủy hồi 50% vào bài cơ bản, lợi ích nhỏ nên có thể bỏ qua, còn 5-1 tăng sát thương bài Nhịp điệu của Tenebria 10% theo hệ số nhân và của đồng đội thêm 10% nếu tấn công ≥500, rất đáng mở. Tiềm năng 7 tăng 5% sát thương Đam mê, thêm 2% mỗi 20 tấn công vượt 600, đạt tối đa 15% ở 700 tấn công."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add the following effect to Sound Check: Incinerate: Heal 50%.",
+        "vi": "Thêm hiệu ứng sau cho Sound Check: Thiêu hủy: Hồi máu 50%."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "At the start of battle, increase Damage Amount of Tenebria’s Rhythm cards by 10%, and if Tenebria’s Attack is 500 or higher, increase Damage Amount of other Combatants’ Rhythm cards by 10% as well",
+        "vi": "Đầu trận, tăng 10% sát thương các lá Nhịp điệu của Tenebria; nếu Tấn công của Tenebria từ 500 trở lên, cũng tăng 10% sát thương các lá Nhịp điệu của nhân vật khác"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Tenebria’s Attack is 600 or higher, +5% Passion Attribute Damage Amount, and for every 20 Attack exceeding 600, add an additional +1% (additional +10% max)",
+        "vi": "Nếu Tấn công của Tenebria từ 600 trở lên, +5% sát thương hệ Đam mê; mỗi 20 Tấn công vượt quá 600 cộng thêm +1% (tối đa cộng thêm +10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "RFS-17",
+        "Sword Reflected in the Lake"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Mask of Flames",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "The Destruction of Erysichthon",
+        "RFS-17"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "W-52 Dopamine Injector",
+        "Mutant Predator Spike",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Eye of the Eyeless",
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "RFS-17",
+        "Harpoon Case of Broken Resolve",
+        "Sword Reflected in the Lake"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "RFS-17",
+        "Esophagus of Madness",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3",
+        "vi": "Mùa 3"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2 — Recommended",
+        "vi": "Mùa 2 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Tenebria’s first Ego to be unlocked increases the damage dealt by her “Performance Buzz” at the end of the turn to 150%. A fairly minor upgrade that doesn’t provide any extra utility, just some extra damage output. As the majority of Tenebria’s damage comes from her Rhythm cards themselves, this doesn’t do much for her. Note: In our calculations, we aren’t using Photo Time in order to boost deck consistency. Because of this, the listed gain for this Ego Point is 0%; however, if you are using it, it will be a very small increase.",
+        "vi": "Sức nóng sân khấu tăng sát thương cuối lượt lên 150%, không thêm tiện ích. Nguồn không dùng Photo Time để ổn định vòng bài nên tính tăng 0%; nếu giữ lá đó thì có tăng nhẹ, vì sát thương chính vẫn từ bài Nhịp điệu."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Tenebria’s next Ego creates a “Photo Card” card at the start of battle. “Photo Card” is a 0-Cost Skill Card that has the [Exhaust] and [Retain] tags and grants 2 Ego Points when used. Additionally, whenever an Ego Skill is used by any combatant, Tenebria will deal 200% damage to random enemies for each Ego Point that the Ego Skill required to be used. (Eg, Tenebria’s “Everyone’s Idol” costs 7 EP to use; Tenebria will deal 200% Damage to random enemies 7 times.) The main benefit of this Ego is the EP it gains, as the total damage contribution the hits deal aren’t too impactful in optimized Tenebra decks.",
+        "vi": "Đầu trận tạo Photo Card, kỹ năng 0 chi phí có Kiệt sức/Giữ lại, cho 2 điểm Ego. Khi bất kỳ nhân vật dùng kỹ năng Ego, Tenebria đánh 200% vào địch ngẫu nhiên số lần bằng chi phí Ego của kỹ năng, ví dụ 7 lần với Everyone’s Idol; giá trị chính là điểm Ego hơn là sát thương trong bộ tối ưu."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Tenebria’s third Ego increases the damage buff granted from her Ego Skill “Everyone’s Idol” from 7% per Rhythm card used to 11% per Rhythm card used. A solid overall increase to her potential damage output, as this will now provide a permanent 77% multiplicative damage buff to Rhythm cards played",
+        "vi": "Everyone’s Idol tăng mức thưởng mỗi bài Nhịp điệu đã dùng từ 7% lên 11%, đạt 77% tăng sát thương theo hệ số nhân vĩnh viễn. Là nâng cấp tổng thể tốt."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Tenebria’s fourth Ego grants the buff “Everyone’s Cheer” whenever a Rhythm card is activated or moved to the hand. For each stack held, up to a maximum of 20 - increases Tenebria’s damage by 1%. When 20 Stacks of “Everyone’s Cheer” are obtained, it increases the damage dealt by “Rhythm” cards by 10%. Enhances Tenebria’s damage output slightly but nothing ultimately game-changing or worth investing for.",
+        "vi": "Bài Nhịp điệu được kích hoạt hoặc đưa lên tay cho Everyone’s Cheer, tối đa 20; mỗi cộng dồn tăng 1% sát thương. Đủ 20 cộng dồn tăng sát thương bài Nhịp điệu 10%; có ích nhưng không phải mốc đáng chủ động đầu tư."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Tenebria’s damage output",
+        "vi": "Giới hạn tiềm năng bài cơ bản, chung và đặc trưng tăng 3 cấp, cải thiện sát thương theo cơ chế thông thường."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Tenebria’s final Ego to be unlocked grants an additional effect when “Photo Card” is played. When “Photo Card” is played, it decreases the cost of Tenebria’s next Ego Skill by 3 EP. When a Rhythm card is activated, Tenebria inflicts the {All Eyes on You} debuff to the target. {All Eyes on You} increases the damage taken by “Rhythm” cards on that target by 40% FINAL Damage (Same mult type as Vulnerable & Spore). If a Rhythm card is activated outside of manual use, an enemy that is inflicted with {All Eyes on You} will become the target of that card. Only 1 enemy can hold the {All Eyes on You} debuff at any given time.",
+        "vi": "Photo Card giảm 3 điểm Ego cho kỹ năng Ego kế tiếp của Tenebria. Bài Nhịp điệu áp All Eyes on You, khiến mục tiêu nhận thêm 40% sát thương cuối cùng từ Nhịp điệu, cùng nhóm hệ số với Dễ tổn thương/Bào tử; bài Nhịp điệu tự kích hoạt ưu tiên mục tiêu này và chỉ một địch được mang dấu cùng lúc."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Move to the Rhythm!",
+        "vi": "Chuỗi Rhythm: Arpeggio theo nhịp"
+      },
+      "role": {
+        "en": "Replayed basic-attack carry",
+        "vi": "Chủ lực lặp đòn đánh cơ bản"
+      },
+      "partner": "Aria",
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được sử dụng, Rút 2 lá"
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use Spotlight for the two cheapest Rhythm: Arpeggio, then Rei's Strike of Darkness V to activate the newly drawn expensive Rhythm: Arpeggio for free. Follow with Rhythm: Arpeggio to replay the two with the highest original cost. Cost reduction stabilizes the loop; Rei's basic-attack buffs and free activation are strongly recommended.",
+        "vi": "Dùng Spotlight kích hoạt hai Rhythm: Arpeggio rẻ nhất, rồi dùng Strike of Darkness V của Rei để kích hoạt miễn phí các Rhythm: Arpeggio đắt vừa rút. Sau đó dùng Rhythm: Arpeggio để lặp hai lá có chi phí gốc cao nhất. Giảm chi phí giúp vòng đánh ổn định; rất nên ghép Rei theo bản tăng sức mạnh cho đòn đánh cơ bản để vừa dùng bài miễn phí vừa tăng sát thương mạnh."
+      }
+    },
+    {
+      "name": {
+        "en": "Ballad of Vulnerability",
+        "vi": "Khúc nhạc Dễ tổn thương"
+      },
+      "role": {
+        "en": "High-resource finisher carry",
+        "vi": "Chủ lực kết liễu cần nhiều tài nguyên"
+      },
+      "partner": "Aria",
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được sử dụng, Rút 2 lá"
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use Call & Response for draw and hold Encore IV as the finisher. The rotation needs both AP and draw, making Nia's Forbidden: Eternal Hunger builds a strong fit. Adagio plus G Chord can also activate expensive cards more cheaply.",
+        "vi": "Dùng Call & Response hỗ trợ rút bài và để Encore IV làm đòn kết liễu. Vòng đánh cần nhiều Điểm hành động lẫn rút bài, nên rất hợp Nia theo các bản Forbidden: Eternal Hunger để lặp một hoặc hai bản lá này. Adagio kết hợp G Chord cũng giúp kích hoạt các lá đắt với chi phí thấp hơn."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Rei",
+      "note": {
+        "en": "Activates Basics together and supplies multipliers; different buff variants are needed, and later turns still need draw support.",
+        "vi": "Kích hoạt bài Cơ bản cùng lúc và cung cấp hiệu ứng tăng cường nhân; cần các biến thể hiệu ứng tăng cường khác nhau, các lượt sau vẫn cần hỗ trợ rút bài."
+      }
+    },
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Forbidden: Hunger supports AP and draw; Adagio into G-Chord can play expensive cards more cheaply.",
+        "vi": "Forbidden: Hunger hỗ trợ Điểm hành động và rút bài; Adagio nối G-Chord có thể dùng bài đắt với chi phí thấp hơn."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "Draw and Divine AP address both resource needs, though further AP Divines may still be necessary.",
+        "vi": "Rút bài và Thần thánh Điểm hành động đáp ứng cả hai nhu cầu tài nguyên, nhưng có thể vẫn cần thêm Thần thánh Điểm hành động."
+      }
+    },
+    {
+      "name": "Narja",
+      "note": {
+        "en": "Basic Attack buffs and persistent discounts reward repeated expensive plays, but Narja provides no innate draw.",
+        "vi": "Hiệu ứng tăng cường Tấn công cơ bản và giảm chi phí duy trì hỗ trợ dùng lại bài đắt, nhưng Narja không có rút bài sẵn trong bộ kỹ năng."
+      }
+    },
+    {
+      "name": "Mei Lin",
+      "note": {
+        "en": "Rhythm conversion and frequent Passion plays enable dual damage, but AP, draw and boss Elasticity constrain the setup.",
+        "vi": "Chuyển đổi Rhythm và dùng nhiều bài Đam mê hỗ trợ hai chủ lực, nhưng Điểm hành động, rút bài và Đàn hồi của trùm hạn chế bộ này."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Tenebria và Nia đánh liên tiếp"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "Tenebria tập trung sát thương"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Tenebria với bài chung"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Common-Core Magna-tude",
+        "vi": "Magna với bài chung"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Magna"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

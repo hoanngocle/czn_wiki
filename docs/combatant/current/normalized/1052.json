@@ -1,0 +1,2605 @@
+{
+  "id": "1052",
+  "name": "Narja",
+  "names": {
+    "en": "Narja",
+    "zhs": "娜嘉",
+    "zht": "娜嘉"
+  },
+  "job": "controller",
+  "ego": "instinct",
+  "rarity": 5,
+  "color": "#7087E1",
+  "info": {
+    "background_text": "<color_darkgray>An enhanced Replica of the Peltion.</><br>Replicas, artificial lifeforms created by Kaguya Pharmaceutical. She used to be called by her Entity Code, NA-02. She shares a mental connection with her flying wyrm, Elysion, and controls it to attack her enemies. As someone who was originally brought into this world just to suffer, she unintentionally harbors a deep, fundamental weariness and bitterness toward life.",
+    "birth_day": "ui_label_day_2nd",
+    "birth_month": "ui_label_month_january",
+    "cv_en": "Not included",
+    "cv_ja": "You Taichi",
+    "cv_ko": "Myeonghee Lee",
+    "cv_zhs": "cv_zhs_0056",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "1052_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@1052_info",
+    "id": "1052_info",
+    "link_combatant_face_group": "1052_face",
+    "link_combatant_voice_group": "1052_voice",
+    "link_live_event_id": "live_event_1052",
+    "link_story_content_counseling_key": "story_counseling_1052",
+    "link_town_normal_visit_group": "normal_visit_1052",
+    "link_town_policy_reaction_id": "1052",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "1052_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_10",
+    "small_talk_link_combatant_voice_id": "[1052_small_talk_01,1052_small_talk_02,1052_small_talk_03,1052_small_talk_04]",
+    "specialty": "combatant_info@specialty@1052_info",
+    "stage_success_link_combatant_voice_id": "1052_stage_success_01",
+    "touch_link_combatant_voice_id": "[1052_touch_01,1052_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_1052_srt1",
+      "name": "NA: Attack Response",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1052_01.webp",
+      "video": null,
+      "artKey": "start_1052_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1052_srt1"
+    },
+    {
+      "id": "c_1052_srt2",
+      "name": "NA: Defense Response",
+      "cost": 1,
+      "description": "<color_orange><u>Heal</u></> <color_orange>100%</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1052_02.webp",
+      "video": null,
+      "artKey": "start_1052_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_CURE",
+          "title": "Healing",
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_srt2_pot",
+          "name": "NA: Defense Response",
+          "cost": 1,
+          "description": "<color_orange><u>Heal</u></> <color_orange>100%</><br><color_orange>2</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1052_02.webp",
+          "video": null,
+          "artKey": "start_1052_02",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt2_pot"
+        }
+      ],
+      "sourceId": "c_1052_srt2"
+    },
+    {
+      "id": "c_1052_srt3",
+      "name": "NA: Defense Response",
+      "cost": 1,
+      "description": "<color_orange><u>Heal</u></> <color_orange>100%</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1052_02.webp",
+      "video": null,
+      "artKey": "start_1052_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_CURE",
+          "title": "Healing",
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_srt3_pot",
+          "name": "NA: Defense Response",
+          "cost": 1,
+          "description": "<color_orange><u>Heal</u></> <color_orange>100%</><br><color_orange>2</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1052_02.webp",
+          "video": null,
+          "artKey": "start_1052_02",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt3_pot"
+        }
+      ],
+      "sourceId": "c_1052_srt3"
+    },
+    {
+      "id": "c_1052_srt4",
+      "name": "Shackles of Hunger",
+      "cost": 1,
+      "description": "<color_orange>30%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>3</><br><color_orange>Attunement:</> <color_orange>4</> <color_orange><u>Voracity</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1052_02.webp",
+      "video": null,
+      "artKey": "unique_1052_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS01_0798",
+          "title": "Voracity",
+          "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+        },
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_srt4_rsp1",
+          "name": "Shackles of Hunger",
+          "cost": 1,
+          "description": "<color_orange>30%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>4</><br><color_orange>Attunement:</> <color_orange>6</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_02.webp",
+          "video": null,
+          "artKey": "unique_1052_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt4_rsp1"
+        },
+        {
+          "id": "c_1052_srt4_rsp2",
+          "name": "Shackles of Hunger",
+          "cost": 0,
+          "description": "<color_orange>30%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>2</><br>At the start of the turn, if <color_orange><u>Voracity</u></> was activated <cc>3</> or more times in the previous turn, move to hand<br><color_orange>Attunement:</> <color_orange>1</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_02.webp",
+          "video": null,
+          "artKey": "unique_1052_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt4_rsp2"
+        },
+        {
+          "id": "c_1052_srt4_rsp3",
+          "name": "Shackles of Hunger",
+          "cost": 1,
+          "description": "<color_orange>50%</> <color_orange><u>Defense-Based Damage</u></> × <color_orange>3</><br>Add <cc>1</> Hit for each <cc>4</> <color_orange><u>Voracity</u></> owned (max <cc>3</> times)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_02.webp",
+          "video": null,
+          "artKey": "unique_1052_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt4_rsp3"
+        },
+        {
+          "id": "c_1052_srt4_rsp4",
+          "name": "Shackles of Hunger",
+          "cost": 1,
+          "description": "Decrease <color_orange><u>Voracity</u></> by up to <cc>5</><br>+<color_orange>40</>% Damage Amount to the next Attack Card <color_orange><u>activate</u></>d for each amount decreased<br>If <cc>5</> is decreased, <color_orange>3</> <color_orange><u>Predation</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_02.webp",
+          "video": null,
+          "artKey": "unique_1052_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "T_CS01_0805",
+              "title": "Predation",
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt4_rsp4"
+        },
+        {
+          "id": "c_1052_srt4_rsp5",
+          "name": "Shackles of Hunger",
+          "cost": 0,
+          "description": "<color_orange>60%</> <color_orange><u>Shield</u></><br>Decrease <color_orange><u>Voracity</u></> by max <cc>3</><br>Repeat for each amount decreased",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_02.webp",
+          "video": null,
+          "artKey": "unique_1052_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_1052_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_1052_uni1",
+      "name": "Bottomless Hunger",
+      "cost": 0,
+      "description": "The next <color_orange>2</> times <color_orange><u>Voracity</u></> is activated, decrease Cost of <cc>1</> random card in hand by <color_orange>1</> for <cc>1</> turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1052_04.webp",
+      "video": "/assets/card/unique_1052_04.webm",
+      "artKey": "unique_1052_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS01_0798",
+          "title": "Voracity",
+          "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_uni1_rsp1",
+          "name": "Bottomless Hunger",
+          "cost": 0,
+          "description": "<color_orange>3</> <color_orange><u>Voracity</u></><br>The next <color_orange>2</> times <color_orange><u>Voracity</u></> is activated, decrease Cost of <cc>1</> random card in hand by <color_orange>1</> for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_04.webp",
+          "video": "/assets/card/unique_1052_04.webm",
+          "artKey": "unique_1052_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni1_rsp1"
+        },
+        {
+          "id": "c_1052_uni1_rsp2",
+          "name": "Bottomless Hunger",
+          "cost": 0,
+          "description": "Decrease Cost of <cc>2</> random cards in hand by <color_orange>1</> for <color_orange>1</> turn(s)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_04.webp",
+          "video": "/assets/card/unique_1052_04.webm",
+          "artKey": "unique_1052_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_1052_uni1_rsp2"
+        },
+        {
+          "id": "c_1052_uni1_rsp3",
+          "name": "Bottomless Hunger",
+          "cost": 1,
+          "description": "When <color_orange><u>Voracity</u></> is activated <cc>3</> times in <cc>1</> turn, decrease Cost of <cc>1</> random card in hand by <color_orange>1</> until <color_orange><u>activate</u></>d (<cc>1</> time per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_04.webp",
+          "video": "/assets/card/unique_1052_04.webm",
+          "artKey": "unique_1052_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni1_rsp3"
+        },
+        {
+          "id": "c_1052_uni1_rsp4",
+          "name": "Bottomless Hunger",
+          "cost": 0,
+          "description": "For <cc>1</> turn, +<color_orange>100</>% <color_orange><u>Defense-Based Damage</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_04.webp",
+          "video": "/assets/card/unique_1052_04.webm",
+          "artKey": "unique_1052_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni1_rsp4"
+        },
+        {
+          "id": "c_1052_uni1_rsp5",
+          "name": "Bottomless Hunger",
+          "cost": 1,
+          "description": "<color_orange>7</> <color_orange><u>Voracity</u></><br>For <cc>1</> turn, each time <color_orange><u>Voracity</u></> is activated, +<cc>40</>% Damage Amount to the next <cc><u>Mealtime</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_04.webp",
+          "video": "/assets/card/unique_1052_04.webm",
+          "artKey": "unique_1052_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_1052_uni1"
+    },
+    {
+      "id": "c_1052_uni2",
+      "name": "Voluntary Control",
+      "cost": 1,
+      "description": "If <color_orange><u>Voracity</u></> is fewer than <cc>6</> stacks, gain <color_orange>6</> Voracity<br>If <cc>6</> or more stacks, gain <color_orange>2</> <color_orange><u>Predation</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1052_05.webp",
+      "video": null,
+      "artKey": "unique_1052_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS01_0798",
+          "title": "Voracity",
+          "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+        },
+        {
+          "id": "T_CS01_0805",
+          "title": "Predation",
+          "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_uni2_rsp1",
+          "name": "Voluntary Control",
+          "cost": 1,
+          "description": "If <color_orange><u>Voracity</u></> is fewer than <cc>6</> stacks, gain <color_orange>9</> Voracity<br>If <cc>6</> or more stacks, gain <color_orange>3</> <color_orange><u>Predation</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_05.webp",
+          "video": null,
+          "artKey": "unique_1052_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "T_CS01_0805",
+              "title": "Predation",
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni2_rsp1"
+        },
+        {
+          "id": "c_1052_uni2_rsp2",
+          "name": "Voluntary Control",
+          "cost": 0,
+          "description": "If <cc><u>Mealtime</u></> is in <color_orange><u>Draw Pile</u></>, move to hand<br>If in <color_orange><u>Graveyard</u></>, <color_orange>3</> <color_orange><u>Morale</u></> for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_05.webp",
+          "video": null,
+          "artKey": "unique_1052_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "T_CS00_0001",
+              "title": "Morale",
+              "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni2_rsp2"
+        },
+        {
+          "id": "c_1052_uni2_rsp3",
+          "name": "Voluntary Control",
+          "cost": 1,
+          "description": "For <color_orange>2</> turn(s), each time <color_orange><u>Action Count</u></> of the target is decreased, <color_orange>1</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_05.webp",
+          "video": null,
+          "artKey": "unique_1052_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_TURN_COUNT",
+              "title": "Action Count",
+              "desc": "The number of card uses remaining until the monster acts<br>When a card is used, decrease by <cc>1</><br>When it reaches <cc>0</>, the monster takes action"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni2_rsp3"
+        },
+        {
+          "id": "c_1052_uni2_rsp4",
+          "name": "Voluntary Control",
+          "cost": 1,
+          "description": "<color_orange>10</> <color_orange><u>Voracity</u></><br>Select <color_orange>1</> Attack Card(s)<br><color_orange>1</> <color_orange><u>Predation</u></> each time that card is moved to hand",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_05.webp",
+          "video": null,
+          "artKey": "unique_1052_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "T_CS01_0805",
+              "title": "Predation",
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni2_rsp4"
+        },
+        {
+          "id": "c_1052_uni2_rsp5",
+          "name": "Voluntary Control",
+          "cost": 1,
+          "description": "Each time a Basic Attack Card inflicts a Hit, <color_orange>1</> <color_orange><u>Voracity</u></><br>+<color_orange>50</>% Damage Amount to Basic Attack Cards",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1052_05.webp",
+          "video": null,
+          "artKey": "unique_1052_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_1052_uni2"
+    },
+    {
+      "id": "c_1052_uni3",
+      "name": "Domain of Voracity",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Increase <color_orange><u>Tenacity Damage</u></> taken of the target by <cc>100</>% until their next Ravage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_1052_03.webp",
+      "video": "/assets/card/unique_1052_03.webm",
+      "artKey": "unique_1052_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "CARD_EGO_DAMAGE",
+          "title": "Tenacity Damage",
+          "desc": "Damage dealt to a monster's Tenacity"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_uni3_rsp1",
+          "name": "Domain of Voracity",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Increase <color_orange><u>Tenacity Damage</u></> taken of the target by <cc>100</>% until their next Ravage, and on Ravage, <color_orange>3</> <color_orange><u>Voracity</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1052_03.webp",
+          "video": "/assets/card/unique_1052_03.webm",
+          "artKey": "unique_1052_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_EGO_DAMAGE",
+              "title": "Tenacity Damage",
+              "desc": "Damage dealt to a monster's Tenacity"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni3_rsp1"
+        },
+        {
+          "id": "c_1052_uni3_rsp2",
+          "name": "Domain of Voracity",
+          "cost": 1,
+          "description": "<color_orange>100%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>For <color_orange>2</> turn(s), +<color_orange>100</>% <color_orange><u>Defense-Based Damage</u></> taken by the target",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1052_03.webp",
+          "video": "/assets/card/unique_1052_03.webm",
+          "artKey": "unique_1052_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni3_rsp2"
+        },
+        {
+          "id": "c_1052_uni3_rsp3",
+          "name": "Domain of Voracity",
+          "cost": 1,
+          "description": "<color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>For the next <color_orange>5</> Hits against a target, <color_orange><u>Heal</u></> <color_orange>40</>%",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1052_03.webp",
+          "video": "/assets/card/unique_1052_03.webm",
+          "artKey": "unique_1052_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni3_rsp3"
+        },
+        {
+          "id": "c_1052_uni3_rsp4",
+          "name": "Domain of Voracity",
+          "cost": 3,
+          "description": "<color_orange>320%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>If granted both <color_orange><u>Voracity</u></> and <color_orange><u>Predation</u></>, <color_orange><u>proc</u></> <cc>1</> more time",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1052_03.webp",
+          "video": "/assets/card/unique_1052_03.webm",
+          "artKey": "unique_1052_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "T_CS01_0805",
+              "title": "Predation",
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni3_rsp4"
+        },
+        {
+          "id": "c_1052_uni3_rsp5",
+          "name": "Domain of Voracity",
+          "cost": 1,
+          "description": "Each time <cc><u>Mealtime</u></> is <color_orange><u>activate</u></>d, <color_orange><u>Heal</u></> <color_orange>200</>%",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1052_03.webp",
+          "video": "/assets/card/unique_1052_03.webm",
+          "artKey": "unique_1052_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_1052_uni3"
+    },
+    {
+      "id": "c_1052_uni4",
+      "name": "Mealtime",
+      "cost": 6,
+      "description": "If <color_orange><u>Voracity</u></> is decreased,<br>decrease Cost by <cc>1</> and +<color_orange>30</>% <color_orange><u>Heal</u></> Amount (max <color_orange>10</>) until <color_orange><u>activate</u></>d<br><color_orange>160%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br><color_orange><u>Heal</u></> <color_orange>100%</><br><color_orange>4</> <color_orange><u>Predation</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_1052_06.webp",
+      "video": "/assets/card/unique_1052_06.webm",
+      "artKey": "unique_1052_06",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "CARD_CURE",
+          "title": "Healing",
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+        },
+        {
+          "id": "T_CS01_0798",
+          "title": "Voracity",
+          "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+        },
+        {
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage",
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        },
+        {
+          "id": "T_CS01_0805",
+          "title": "Predation",
+          "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1052_uni4_lbk",
+          "name": "Mealtime",
+          "cost": 6,
+          "description": "If <color_orange><u>Voracity</u></> is decreased,<br>decrease Cost by <cc>1</> and +<color_orange>30</>% <color_orange><u>Heal</u></> Amount (max <color_orange>10</>) until <color_orange><u>activate</u></>d<br><color_orange>160%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br><color_orange><u>Heal</u></> <color_orange>100%</><br><color_orange>6</> <color_orange><u>Predation</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_1052_06.webp",
+          "video": "/assets/card/unique_1052_06.webm",
+          "artKey": "unique_1052_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            },
+            {
+              "id": "T_CS01_0798",
+              "title": "Voracity",
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+            },
+            {
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage",
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "T_CS01_0805",
+              "title": "Predation",
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1052_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_1052_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_1052_eps",
+    "name": "Predator's Hunting Method",
+    "cost": 5,
+    "description": "<color_orange>10</> <color_orange><u>Voracity</u></><br><color_orange>250%</> <color_orange><u>Defense-Based Damage</u></><br>If <cc><u>Mealtime</></u> is in Graveyard, <color_orange>5</> <color_orange><u>Predation</u></>",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_1052_01.webp",
+    "video": null,
+    "artKey": "collapse_1052_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "T_CS01_0798",
+        "title": "Voracity",
+        "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+      },
+      {
+        "id": "CARD_DEFDAMAGE",
+        "title": "Defense-Based Damage",
+        "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+      },
+      {
+        "id": "T_CS01_0805",
+        "title": "Predation",
+        "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_1052_eps_lbk",
+        "name": "Predator's Hunting Method",
+        "cost": 5,
+        "description": "<color_orange>10</> <color_orange><u>Voracity</u></><br><color_orange>250%</> <color_orange><u>Defense-Based Damage</u></><br>If <cc><u>Mealtime</></u> is in Graveyard, <color_orange>8</> <color_orange><u>Predation</u></>",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_1052_01.webp",
+        "video": null,
+        "artKey": "collapse_1052_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "T_CS01_0798",
+            "title": "Voracity",
+            "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)"
+          },
+          {
+            "id": "CARD_DEFDAMAGE",
+            "title": "Defense-Based Damage",
+            "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack"
+          },
+          {
+            "id": "T_CS01_0805",
+            "title": "Predation",
+            "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_1052_eps_lbk"
+      }
+    ],
+    "sourceId": "c_1052_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_1052_col",
+      "name": "Guilt",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_1052_02.webp",
+      "video": null,
+      "artKey": "collapse_1052_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1052_col"
+    },
+    {
+      "id": "c_1052_col2",
+      "name": "Guilt",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_1052_02.webp",
+      "video": null,
+      "artKey": "collapse_2_1052_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1052_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "instinct",
+          "id": "1052",
+          "job": "controller",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1052_col",
+        "name": "Guilt",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_1052_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "instinct",
+          "id": "1052",
+          "job": "controller",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1052_col2",
+        "name": "Guilt",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_1052_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "gloom",
+    "collapse_illustration": "collapse/collapse_illustration/gloom",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "instinct",
+        "id": "1052",
+        "job": "controller",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 5,
+      "desc_display": "<color_orange>10</> <color_orange><u>Voracity</u></><br><color_orange>250%</> <color_orange><u>Defense-Based Damage</u></><br>If <cc><u>Mealtime</></u> is in Graveyard, <color_orange>5</> <color_orange><u>Predation</u></>",
+      "ego_type": "EGO_OWNER",
+      "id": "c_1052_eps",
+      "name": "Predator's Hunting Method",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 5,
+          "desc_display": "<color_orange>10</> <color_orange><u>Voracity</u></><br><color_orange>250%</> <color_orange><u>Defense-Based Damage</u></><br>If <cc><u>Mealtime</></u> is in Graveyard, <color_orange>8</> <color_orange><u>Predation</u></>",
+          "ego_type": "EGO_OWNER",
+          "id": "c_1052_eps_lbk",
+          "name": "Predator's Hunting Method",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_1052_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_1052_eps_lbk_01",
+            "c_1052_eps_lbk_02",
+            "c_1052_eps_lbk_03"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)",
+              "id": "T_CS01_0798",
+              "title": "Voracity"
+            },
+            {
+              "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+              "id": "CARD_DEFDAMAGE",
+              "title": "Defense-Based Damage"
+            },
+            {
+              "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>",
+              "id": "T_CS01_0805",
+              "title": "Predation"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_1052_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_1052_eps_01",
+        "c_1052_eps_02",
+        "c_1052_eps_03"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "When Hitting with an Attack Card, <color_orange>40</>% <color_orange><u>Fixed Heal</u></><br>If Health is <cc>50</>% or higher, +<color_orange>30</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</><br>(max <color_orange>30</> stacks)",
+          "id": "T_CS01_0798",
+          "title": "Voracity"
+        },
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "If in a <color_orange><u>Voracity</u></> state, +<color_orange>80</>% Damage Amount dealt by Attack Cards<br>When the effect is activated, decrease by <cc>1</>",
+          "id": "T_CS01_0805",
+          "title": "Predation"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_gloom",
+    "desc": "Every time you play this character’s card, there is a <cc>50%</> chance to increase the cost of their other cards by 1.",
+    "id": "collapse_1052",
+    "link_psychosis_id": "psychosis_1007_1",
+    "name": "Gloom"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Increase <color_orange><u>Mealtime</u></> card's <color_orange>Predation</> by <color_orange>2</>.",
+      "group": "limit_1052",
+      "id": "limit_1052_1",
+      "illust": "unique_1052_05",
+      "link_card_id": "[c_1052_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "When <color_orange>Voracity</> is decreased, <color_orange>40</>% chance to gain <color_orange>1</> <color_orange>Voracity</>.",
+      "group": "limit_1052",
+      "id": "limit_1052_2",
+      "illust": "unique_1052_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0131]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Increases <color_orange><u>Predator’s Hunting Method</u></>‘s <color_orange>Predation</> gained if <color_orange><u>Mealtime</u></> is in Graveyard by <color_orange><u>3</u></>.",
+      "group": "limit_1052",
+      "id": "limit_1052_3",
+      "illust": "collapse_1052_01",
+      "link_card_id": "[c_1052_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "+<color_orange>40</>% Damage Amount to <color_orange>Predation</>.",
+      "group": "limit_1052",
+      "id": "limit_1052_4",
+      "illust": "unique_1052_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0132]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1052",
+      "id": "limit_1052_5",
+      "illust": "unique_1052_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of the turn, gain <color_orange>4</> <color_orange>Voracity</> and <color_orange>2</> <color_orange>Predation</>.<br>At the end of the turn, <color_orange>50</>% Defense-Based Damage to random enemies and Heal <color_orange>1</>% Health × <color_orange>Predation</> count decreased this turn.",
+      "group": "limit_1052",
+      "id": "limit_1052_6",
+      "illust": "unique_1052_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs06_0133]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "10521001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "10522001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "10522002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "10522003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "10522004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "10522005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "10522006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "10522007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "10522008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "10522009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "10522010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "10522011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "10522012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "10522013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "10522014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "10522015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "10522016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "10523001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "10523002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "10523003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "10523004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "10523005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "10523006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "10523007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "10523008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "10523009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "10523010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "10523011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "10523012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "10523013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "10523014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "10523015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "10523016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Adds <color_orange>2</> <color_orange>Voracity</> to <color_orange><u>NA: Defense Response</u></>.",
+      "id": "10523101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "10524001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "10524002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "10524003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "10524004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "10524005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "10524006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "10524007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "10524008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "10524009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "10524010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "10524011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "10524012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "10524013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "10524014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "10524015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "10524016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Defense by <color_orange>1.6</>%",
+      "id": "10525001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_defense",
+        "id": "N_ADD_S_DEF_INC_RATE_OUT",
+        "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+        "main_title": "Stats",
+        "sub_title": "Defense Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Defense by <color_orange>3.2</>%",
+          "id": "10525002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>4.8</>%",
+          "id": "10525003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>6.4</>%",
+          "id": "10525004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Defense by <color_orange>8</>%",
+          "id": "10525005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_defense",
+            "id": "N_ADD_S_DEF_INC_RATE_OUT",
+            "link_stat_list_id": "S_DEF_INC_RATE_OUT",
+            "main_title": "Stats",
+            "sub_title": "Defense Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Heal Amount to Narja's <color_orange><u>NA: Defense Response</u></><br>If Narja's Defense is <color_orange>250</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "10525101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "10525201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "10526001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "10526002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "10526003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "10526004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "10526005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>10</>% Damage Amount to <color_orange>Voracity</><br>If Narja's Defense is <color_orange>300</> or higher, +<color_orange>20</>% Damage Amount to <color_orange>Predation</>",
+      "id": "10527001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "1052",
+  "sourceFile": "docs/combatant/current/api/czn/characters/1052.html"
+}

@@ -2,7 +2,8 @@ import { expect, test } from "@playwright/test";
 
 test("inline Potential sliders update each node independently and retain levels across language changes", async ({ page }) => {
   await page.goto("/combatant/renoa");
-  const node = (name: string) => page.getByTestId("potential-node").filter({ hasText: name });
+  const titles: Record<string, string> = { "Critical Chance Proficiency": "Tinh thông tỷ lệ chí mạng", "Critical Damage Proficiency": "Tinh thông sát thương chí mạng", "Basic Card Upgrade": "Nâng cấp bài cơ bản", "Epiphany Bonus": "Thưởng thức tỉnh bài" };
+  const node = (name: string) => page.getByTestId("potential-node").filter({ hasText: new RegExp(`${name}|${titles[name]}`) });
   const chance = node("Critical Chance Proficiency");
   const damage = node("Critical Damage Proficiency");
   const basic = node("Basic Card Upgrade");
@@ -13,11 +14,11 @@ test("inline Potential sliders update each node independently and retain levels 
   await expect(basic).toContainText("Tăng 20% sát thương");
   await slider.focus();
   await slider.press("End");
-  await expect(chance).toContainText("Tăng 10% Critical Chance.");
-  await expect(damage).toContainText("Tăng 12% Critical Damage.");
+  await expect(chance).toContainText("Tăng 10% Tỷ lệ chí mạng.");
+  await expect(damage).toContainText("Tăng 12% Sát thương chí mạng.");
   await damage.getByRole("slider").focus();
   await damage.getByRole("slider").press("ArrowLeft");
-  await expect(damage).toContainText("Tăng 9.6% Critical Damage.");
+  await expect(damage).toContainText("Tăng 9.6% Sát thương chí mạng.");
   await basic.getByRole("slider").focus();
   await basic.getByRole("slider").press("End");
   await expect(basic).toContainText("Tăng 32% sát thương");
@@ -29,10 +30,10 @@ test("inline Potential sliders update each node independently and retain levels 
   await expect(slider).toHaveValue("5");
   await page.getByRole("checkbox", { name: "Tiếng Việt" }).check();
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.getByRole("tab", { name: "Potential", exact: true }).click();
+  await page.getByRole("tab", { name: /^(Potential|Tiềm năng)$/, exact: true }).click();
   await slider.scrollIntoViewIfNeeded();
   const bounds = (await slider.boundingBox())!;
   await page.mouse.click(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
-  await expect(chance).toContainText("Tăng 6% Critical Chance.");
+  await expect(chance).toContainText("Tăng 6% Tỷ lệ chí mạng.");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });

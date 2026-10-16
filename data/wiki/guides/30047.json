@@ -1,0 +1,2090 @@
+{
+  "characterId": "30047",
+  "name": "Nine",
+  "identity": [
+    "Order",
+    "Vanguard"
+  ],
+  "subtitle": {
+    "en": "Hew returns at a higher level after Exhaust; Fighting Spirit helps bypass its expensive cost.",
+    "vi": "Hew trở lại ở cấp cao hơn sau khi Kiệt sức; Fighting Spirit giúp chi trả các lá bài có chi phí cao."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30047.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/nine",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/nine.json",
+      "docs/combatant/current/api/czn/characters/30047.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Nine": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alcea": {
+      "src": "/assets/partner/portrait_character_crop_half_30091.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Wilhelmina": {
+      "src": "/assets/partner/portrait_character_crop_half_20024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Line of Justice": {
+      "src": "/assets/item/guide-0993baf23969.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Beast's Yearning": {
+      "src": "/assets/item/guide-f05524d6c1a8.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Bullet of Order": {
+      "src": "/assets/item/guide-cf9f0c7e1230.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Announcement of Catastrophe": {
+      "src": "/assets/item/relic_0099.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell of Aberration": {
+      "src": "/assets/item/relic_0098.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mask of Flames": {
+      "src": "/assets/item/relic_1115.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dream of the Devoured": {
+      "src": "/assets/item/relic_1285.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Void of the Devourer": {
+      "src": "/assets/item/relic_1286.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Foggy Crystal Ball": {
+      "src": "/assets/item/relic_0040.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Helmet": {
+      "src": "/assets/item/relic_1246.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flower of Dead Souls": {
+      "src": "/assets/item/relic_1243.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "The Destruction of Erysichthon": {
+      "src": "/assets/item/relic_1141_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutant Predator Spike": {
+      "src": "/assets/item/relic_0108.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Millenium Arbor": {
+      "src": "/assets/item/guide-0c6eb6a569ed.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Brilliant Eternal Flame?": {
+      "src": "/assets/item/relic_5019.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Phytotype Synthetic": {
+      "src": "/assets/item/relic_5023.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Quantum Collector": {
+      "src": "/assets/item/relic_1043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Beryl": {
+      "src": "/assets/combatant/portrait_character_crop_half_1040.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rei": {
+      "src": "/assets/combatant/portrait_character_crop_half_1056.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Nine artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Order": {
+      "src": "/assets/common/icon_type_ego_norms.png",
+      "width": 44,
+      "height": 44
+    },
+    "Vanguard": {
+      "src": "/assets/common/icon_type_job_knight.png",
+      "width": 44,
+      "height": 44
+    },
+    "Alcea E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30091.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alcea E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30091.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Wilhelmina E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Wilhelmina E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20024.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_30047_srt4_mut",
+      "name": "Hew Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>420%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_mut2",
+      "name": "Hew Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>500%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_mut3",
+      "name": "Hew Lv. 3",
+      "cost": 2,
+      "description": "<color_orange>600%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp1_mut",
+      "name": "Hew (Ironclad) Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>480%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ironclad) Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp1_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp1_mut2",
+      "name": "Hew (Ironclad) Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>580%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ironclad) Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp1_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp1_mut3",
+      "name": "Hew (Ironclad) Lv. 3",
+      "cost": 2,
+      "description": "<color_orange>700%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew (Ironclad)</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp1_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp2_mut",
+      "name": "Hew (Extreme) Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>360%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Extreme) Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp2_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp2_mut2",
+      "name": "Hew (Extreme) Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>420%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Extreme) Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp2_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp2_mut3",
+      "name": "Hew (Extreme) Lv. 3",
+      "cost": 3,
+      "description": "<color_orange>550%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Extreme) Lv. 4</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp2_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp2_mut4",
+      "name": "Hew (Extreme) Lv. 4",
+      "cost": 3,
+      "description": "<color_orange>680%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Extreme) Lv. 5</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp2_mut4",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp2_mut5",
+      "name": "Hew (Extreme) Lv. 5",
+      "cost": 2,
+      "description": "<color_orange>1000%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew (Extreme)</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp2_mut5",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp3_mut",
+      "name": "Hew (Flash) Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>480%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Flash) Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d",
+          "id": "TALENT_IGNITE",
+          "title": "Ignition"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp3_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp3_mut2",
+      "name": "Hew (Flash) Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>580%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Flash) Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d",
+          "id": "TALENT_IGNITE",
+          "title": "Ignition"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp3_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp3_mut3",
+      "name": "Hew (Flash) Lv. 3",
+      "cost": 3,
+      "description": "<color_orange>700%</> <color_orange><u>Defense-Based Damage</u></><br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew (Flash)</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is in hand, if a card is <color_orange><u>Exhaust</u></>ed, decrease Cost of this card by <cc>1</> until <color_orange><u>activate</u></>d",
+          "id": "TALENT_IGNITE",
+          "title": "Ignition"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp3_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp4_mut",
+      "name": "Hew (Massacre) Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>480%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Decrease Damage Amount by <color_orange>10</>% for each<color_orange></> target<br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Massacre) Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp4_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp4_mut2",
+      "name": "Hew (Massacre) Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>580%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Decrease Damage Amount by <color_orange>10</>% for each<color_orange></> target<br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Massacre) Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp4_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp4_mut3",
+      "name": "Hew (Massacre) Lv. 3",
+      "cost": 3,
+      "description": "<color_orange>700%</> <color_orange><u>Defense-Based Damage</u></> to all enemies<br>Decrease Damage Amount by <color_orange>10</>% for each<color_orange></> target<br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew (Massacre)</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp4_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp5_mut",
+      "name": "Hew (Ambush) Lv. 1",
+      "cost": 3,
+      "description": "<color_orange>480%</> <color_orange><u>Defense-Based Damage</u></><br>On ally <color_orange><u>Counterattack</u></>, <color_orange><u>proc</u></> this card<br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ambush) Lv. 2</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        },
+        {
+          "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)",
+          "id": "T_CS00_0157",
+          "title": "Counterattack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp5_mut",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp5_mut2",
+      "name": "Hew (Ambush) Lv. 2",
+      "cost": 3,
+      "description": "<color_orange>580%</> <color_orange><u>Defense-Based Damage</u></><br>On ally <color_orange><u>Counterattack</u></>, <color_orange><u>proc</u></> this card<br><color_orange>Incinerate:</> Create <color_orange>1</> <cc><u>Hew (Ambush) Lv. 3</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        },
+        {
+          "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)",
+          "id": "T_CS00_0157",
+          "title": "Counterattack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp5_mut2",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_srt4_rsp5_mut3",
+      "name": "Hew (Ambush) Lv. 3",
+      "cost": 3,
+      "description": "<color_orange>700%</> <color_orange><u>Defense-Based Damage</u></><br>On ally <color_orange><u>Counterattack</u></>, <color_orange><u>proc</u></> this card<br><color_orange>Incinerate:</> At the start of the turn, create <color_orange>1</> <cc><u>Hew (Ambush)</u></> in hand",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_01.webp",
+      "video": "/assets/card/unique_30047_01.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        },
+        {
+          "desc": "When taking Damage, <color_orange>150%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>If an attack is completely blocked by <color_orange><u>Shield</u></>, <color_orange>300%</> <color_orange><u>Defense-Based Damage</u></> to the attacker<br>When the effect is activated, decrease <color_orange><u>Counterattack</u></> by <cc>1</><br>(Max <cc>10</>)",
+          "id": "T_CS00_0157",
+          "title": "Counterattack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_srt4_rsp5_mut3",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30047_bhc1",
+      "name": "Exploit Opening",
+      "cost": 0,
+      "description": "<color_orange>1</> <color_orange><u>Vulnerable</u></><br><color_orange>1</> <color_orange><u>Tenacity</u></> Damage",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30047_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30047_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST_N",
+          "title": "Exhaust 2"
+        },
+        {
+          "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve",
+          "id": "TALENT_RECALL",
+          "title": "Retrieve"
+        },
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "An attribute the monster has<br>When attacking with the same attribute card, trigger <color_orange><u>Weakness Attack</u></>",
+          "id": "CARD_EGO_FIELD",
+          "title": "Tenacity"
+        },
+        {
+          "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+          "id": "T_CS00_0002",
+          "title": "Vulnerable"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30047_bhc1",
+      "ownerId": "30047",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_30047_srt4_mut",
+    "c_30047_srt4_mut2",
+    "c_30047_srt4_mut3",
+    "c_30047_srt4_rsp1_mut",
+    "c_30047_srt4_rsp1_mut2",
+    "c_30047_srt4_rsp1_mut3",
+    "c_30047_srt4_rsp2_mut",
+    "c_30047_srt4_rsp2_mut2",
+    "c_30047_srt4_rsp2_mut3",
+    "c_30047_srt4_rsp2_mut4",
+    "c_30047_srt4_rsp2_mut5",
+    "c_30047_srt4_rsp3_mut",
+    "c_30047_srt4_rsp3_mut2",
+    "c_30047_srt4_rsp3_mut3",
+    "c_30047_srt4_rsp4_mut",
+    "c_30047_srt4_rsp4_mut2",
+    "c_30047_srt4_rsp4_mut3",
+    "c_30047_srt4_rsp5_mut",
+    "c_30047_srt4_rsp5_mut2",
+    "c_30047_srt4_rsp5_mut3",
+    "c_30047_bhc1"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Hew returns at a higher level after Exhaust; Fighting Spirit helps bypass its expensive cost.",
+      "vi": "Hew trở lại ở cấp cao hơn sau khi Kiệt sức; Fighting Spirit giúp chi trả các lá bài có chi phí cao."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Reliable access to her central attack, strong burst and several alternative playstyles.",
+        "vi": "Luôn tiếp cận được đòn chủ lực, bùng nổ mạnh và có nhiều lối chơi thay thế."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Has no draw and often needs substantial AP support, especially early in Chaos.",
+        "vi": "Không tự rút bài và thường cần nhiều hỗ trợ Điểm hành động, nhất là đầu chuyến thám hiểm Chaos."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Experienced Strike",
+        "body": {
+          "en": "140% Defense-Based Damage; 20% DMG-Based Shield; Increase Damage Amount of Exhaust cards by 20% for 1 turn",
+          "vi": "Gây 140% Sát thương theo Phòng thủ; 20% Lá chắn theo sát thương; Tăng 20% sát thương của các lá Kiệt sức trong 1 lượt"
+        },
+        "cardId": "c_30047_uni1"
+      },
+      {
+        "title": "Fatal Strike",
+        "body": {
+          "en": "140% Defense-Based Damage; Increase Damage Amount by 20% for each Cost of the highest-Cost Exhaust card in hand, then Exhaust that card",
+          "vi": "Gây 140% Sát thương theo Phòng thủ; Tăng 20% sát thương cho mỗi điểm chi phí của lá Kiệt sức có chi phí cao nhất trên tay, rồi Kiệt sức lá đó"
+        },
+        "cardId": "c_30047_uni2"
+      },
+      {
+        "title": "Counterblade",
+        "body": {
+          "en": "When Shield is gained through an ability, 1 Honed Edge",
+          "vi": "Khi nhận Lá chắn qua hiệu ứng, nhận 1 Lưỡi kiếm sắc bén"
+        },
+        "cardId": "c_30047_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30047_srt4",
+      "ratings": [
+        5,
+        3,
+        2,
+        2,
+        3
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "Extreme maximizes damage when all levels can be played each turn. Ironclad shifts toward shielding; Massacre is the area-oriented alternative.",
+        "vi": "Extreme tối đa sát thương khi dùng được mọi cấp mỗi lượt. Ironclad chuyển sang Lá chắn; Massacre là lựa chọn thiên về diện rộng."
+      },
+      "divine": {
+        "en": "Neutral/divine effects only apply to the starting form; 2 Vulnerable is optional with spare Faint Memory.",
+        "vi": "Trung lập/thần thánh chỉ áp dụng dạng ban đầu; 2 Dễ tổn thương là lựa chọn thêm khi dư Ký ức phai nhạt nhạt."
+      }
+    },
+    {
+      "cardId": "c_30047_uni1",
+      "ratings": [
+        4,
+        1,
+        2,
+        1,
+        2
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I modestly improves damage; III instead supports shield-focused allies. A useful neutral often contributes more than signature variants.",
+        "vi": "I tăng sát thương vừa phải; III hỗ trợ đồng đội tập trung Lá chắn. Trung lập hữu ích thường đóng góp hơn các biến thể riêng."
+      },
+      "divine": {
+        "en": "Prefer neutral 1 Vulnerable; cost reduction or 2 Vulnerable are optional divines.",
+        "vi": "Ưu tiên 1 Dễ tổn thương trung lập; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh tùy chọn."
+      }
+    },
+    {
+      "cardId": "c_30047_uni2",
+      "ratings": [
+        4,
+        1,
+        3,
+        2,
+        1
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I is a modest general improvement. III shortcuts Hew to its final level for burst setups, but is less flexible for playing every level.",
+        "vi": "I cải thiện vừa phải cho sử dụng chung. III đưa Hew nhanh lên cấp cuối để dồn sát thương, nhưng kém linh hoạt khi muốn dùng mọi cấp."
+      },
+      "divine": {
+        "en": "Neutral 1 Vulnerable is often best; consider cost reduction or 2 Vulnerable.",
+        "vi": "1 Dễ tổn thương trung lập thường tốt nhất; cân nhắc giảm chi phí hoặc 2 Dễ tổn thương."
+      }
+    },
+    {
+      "cardId": "c_30047_uni3",
+      "ratings": [
+        5,
+        2,
+        3,
+        3,
+        3
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I reliably generates Honed Edge through repeated exhaustion. III guarantees opening access but needs consistent shielding to maintain stacks.",
+        "vi": "I tạo Lưỡi kiếm sắc bén ổn định qua nhiều lần Kiệt sức. III đảm bảo có ở tay mở đầu nhưng cần Lá chắn đều để duy trì cộng dồn."
+      },
+      "divine": {
+        "en": "Prioritize the variant's engine; neutral and divine effects add little.",
+        "vi": "Ưu tiên cơ chế của biến thể; trung lập và thần thánh bổ sung ít giá trị."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Alcea E4",
+      "score": "126.82%",
+      "note": {
+        "en": "E4 strengthens the same tailored bonuses, rewarding deeper investment.",
+        "vi": "E4 tăng các hiệu ứng vốn phù hợp riêng, thích hợp đầu tư sâu hơn."
+      }
+    },
+    {
+      "name": "Alcea E0",
+      "score": "114.50%",
+      "note": {
+        "en": "Alcea's well-matched bonuses lead alternatives at comparable investment.",
+        "vi": "Các hiệu ứng phù hợp của Alcea dẫn đầu lựa chọn có mức đầu tư tương đương."
+      }
+    },
+    {
+      "name": "Wilhelmina E4",
+      "score": "111%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Wilhelmina E0",
+      "score": "100.00%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Line of Justice (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Strong when major attacks cost at least 2 and teammates already supply ample multiplicative card damage.",
+        "vi": "Mạnh khi đòn chính có Chi phí ít nhất 2 và đồng đội đã cung cấp nhiều tăng sát thương lá bài theo phép nhân."
+      }
+    },
+    {
+      "name": "Beast's Yearning (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Use when multiplicative card damage is scarce or Nine's damage is not concentrated in expensive cards.",
+        "vi": "Dùng khi thiếu tăng sát thương lá bài theo phép nhân hoặc sát thương Nine không tập trung vào bài đắt."
+      }
+    },
+    {
+      "name": "Bullet of Order (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Usually weaker than Beast's Yearning; use as a temporary option before farming better sets.",
+        "vi": "Thường yếu hơn Beast's Yearning; dùng tạm trước khi kiếm đủ bộ tốt hơn."
+      }
+    },
+    {
+      "name": "Executioner's Tool (2) + Tetra's Authority (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A reliable accessible setup that trails more specifically optimized four-piece bonuses.",
+        "vi": "Bộ dễ kiếm đáng tin cậy nhưng thua hiệu ứng bốn món được tối ưu phù hợp hơn."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "Order DMG",
+        "vi": "Sát thương Trật tự"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ% >>> Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "To fully activate Nine's Potential 7, aim for 350 DEF or higher on your character screen (before combat) in order to gain the full 15% Order DMG% from the Potential. To do this, consider swapping around 2P set bonuses.",
+    "vi": "Nhắm ít nhất 350 phòng thủ trên màn hình trước trận để nhận đủ 15% sát thương Trật tự từ tiềm năng 7. Có thể đổi các bộ mảnh ký ức 2 món để đạt mốc."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Nine’s 3-1 potential adds an additional effect to her starting attack card “Slash”. When using Slash, it grants a buff that lasts until the end of the turn that increases the damage of cards that have the [Exhaust] tag by 15% (Multiplicative) per stack, to a maximum of 2. This can help in the early stages of Chaos for some extra damage. Not relevant in most cases in Save modes, though.5-1: Nine’s 5-1 potential grants an additive 5% damage to Nine's basic attack card “Slash”, and if Nine's defense is greater than 250, it adds an additional 5% for a total of 10%. This isn’t a crucial node to be taking, but it can help in the earlier stages of Chaos.7: Nine’s 7 potential grants +5% Order Attribute damage if her Defense stat is over 300, for every 10 defense over 300, it will also grant an additional 2% up to a maximum of 10%, meaning 350 defense will be the breakpoint to fully utilize this potential node, granting a total of 15% order attribute damage. This node provides a solid damage boost across the board for Nine and is worth capitalizing on.Tip: Make sure you’re always hitting 350 DEF on the character sheet if possible to fully unlock this potential’s power; if you’re not, consider swapping some memory fragments around.",
+    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp Slash tăng sát thương bài Kiệt sức 15% theo hệ số nhân trong lượt, tối đa 2 cộng dồn, còn 5-1 tăng Slash 5% và thêm 5% khi phòng thủ >250, tổng 10%, chủ yếu hữu ích đầu Chaos. Tiềm năng 7 rất đáng đầu tư: phòng thủ >300 cho 5% sát thương Trật tự, thêm 2% mỗi 10 phòng thủ vượt 300, đạt tổng 15% tại 350; điều chỉnh mảnh ký ức để chạm mốc nếu cần."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "+30% Damage Amount to Slash cards, and adds the following effect: increase Damage Amount of Exhaust cards by 15% for 1 turn (max 2 stacks)",
+        "vi": "+30% sát thương cho các lá Slash và thêm hiệu ứng: tăng 15% sát thương các lá Kiệt sức trong 1 lượt (tối đa 2 cộng dồn)"
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Nine's Slash, and if Nine's Defense is 250 or higher, add an additional +5% to the modifier",
+        "vi": "+5% sát thương cho Slash của Nine; nếu Phòng thủ của Nine từ 250 trở lên, cộng thêm +5% vào hệ số"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Nine's Defense is 300 or higher, +5% Order Attribute Damage Amount, and for every 10 Defense exceeding 300, add an additional +2% to the modifier; (additional +10% max)",
+        "vi": "Nếu Phòng thủ của Nine từ 300 trở lên, +5% sát thương hệ Trật tự; mỗi 10 Phòng thủ vượt quá 300 cộng thêm +2% vào hệ số; (Tối đa thêm 10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Dagger That Tricked the Shadow",
+        "Sword Reflected in the Lake",
+        "Obsidian Sword",
+        "RFS-17"
+      ],
+      "armor": [
+        "Announcement of Catastrophe",
+        "Shell of Aberration",
+        "Fairy King's Crown",
+        "Mask of Flames"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "Foggy Crystal Ball and RFS-17 are recommended if using Hew (Flash) as it will reduce to 0-cost when played correctly, otherwise not.",
+        "vi": "Chỉ khuyến nghị Foggy Crystal Ball và RFS-17 khi dùng Hew (Flash), vì chơi đúng cách sẽ giảm lá này về 0 chi phí; ngoài trường hợp đó không nên ưu tiên."
+      }
+    },
+    {
+      "name": {
+        "en": "City of Mist",
+        "vi": "Thành phố sương mù"
+      },
+      "weapons": [
+        "Dream of the Devoured",
+        "Void of the Devourer",
+        "RFS-17",
+        "Foggy Crystal Ball"
+      ],
+      "armor": [
+        "Announcement of Catastrophe",
+        "Shell of Aberration",
+        "Contaminated Helmet"
+      ],
+      "trinkets": [
+        "Flower of Dead Souls",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "City of Mist is a high recommendation because of extremely high odds of getting Contaminated Helmet, one of the best equipment for increasing DEF-Based DPS damage. However, Swamp of Judgment is still preferred when optimized perfectly (when getting Senectus/Cthulu Armor).Foggy Crystal Ball and RFS-17 are recommended if using Hew (Flash) as it will reduce to 0-cost when played correctly, otherwise not.",
+        "vi": "City of Mist rất đáng chọn vì dễ lấy Contaminated Helmet cho sát thương theo phòng thủ; Đầm lầy of Judgment vẫn tốt hơn khi tối ưu đủ Senectus/Cthulu Armor. Foggy Crystal Ball và RFS-17 chỉ nên dùng với Hew (Flash), có thể giảm về 0 chi phí khi vận hành đúng."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Shell Bug Horn",
+        "The Destruction of Erysichthon",
+        "Esophagus of Madness",
+        "RFS-17"
+      ],
+      "armor": [
+        "Shell of Aberration",
+        "Announcement of Catastrophe",
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Mutant Predator Spike",
+        "Obsidian Sword",
+        "RFS-17",
+        "Foggy Crystal Ball"
+      ],
+      "armor": [
+        "Shell of Aberration",
+        "Announcement of Catastrophe",
+        "Wings of Freedom",
+        "Rocket-Adorned Cape"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "Foggy Crystal Ball and RFS-17 are recommended if using Hew (Flash) as it will reduce to 0-cost when played correctly, otherwise not.",
+        "vi": "Chỉ khuyến nghị Foggy Crystal Ball và RFS-17 khi dùng Hew (Flash), vì chơi đúng cách sẽ giảm lá này về 0 chi phí; ngoài trường hợp đó không nên ưu tiên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Millenium Arbor",
+        "Brilliant Eternal Flame?",
+        "RFS-17"
+      ],
+      "armor": [
+        "Announcement of Catastrophe",
+        "Shell of Aberration",
+        "Fairy King's Crown",
+        "Mask of Flames",
+        "Phytotype Synthetic"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Quantum Collector"
+      ],
+      "note": {
+        "en": "Foggy Crystal Ball and RFS-17 are recommended if using Hew (Flash) as it will reduce to 0-cost when played correctly, otherwise not.",
+        "vi": "Chỉ khuyến nghị Foggy Crystal Ball và RFS-17 khi dùng Hew (Flash), vì chơi đúng cách sẽ giảm lá này về 0 chi phí; ngoài trường hợp đó không nên ưu tiên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Esophagus of Madness",
+        "Obsidian Sword",
+        "RFS-17"
+      ],
+      "armor": [
+        "Announcement of Catastrophe",
+        "Shell of Aberration",
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ],
+      "note": {
+        "en": "Foggy Crystal Ball and RFS-17 are recommended if using Hew (Flash) as it will reduce to 0-cost when played correctly, otherwise not.",
+        "vi": "Chỉ khuyến nghị Foggy Crystal Ball và RFS-17 khi dùng Hew (Flash), vì chơi đúng cách sẽ giảm lá này về 0 chi phí; ngoài trường hợp đó không nên ưu tiên."
+      }
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3",
+        "vi": "Mùa 3"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2 — Recommended",
+        "vi": "Mùa 2 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Grants Nine the ability to now pick a target when using the Fighting Spirit card. This provides a decent quality of life but isn’t game-changing by any means.",
+        "vi": "Có thể chọn mục tiêu khi dùng Fighting Spirit. Tiện lợi hơn nhưng không thay đổi lớn sức mạnh."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Grants Nine an additional card at the start of battle, “Exploit Opening”. Exploit Opening is a 0-cost Skill card that has the tags [Exhaust 2 / Retrieve / Retain]. It’s a targeted Skill Card that de-buffs an enemy unit with 1 stack of Vulnerability and deals 1 Tenacity damage. Exhaust 2 allows you to use the card twice before it moves to the exhaust pile, and retrieve moves the card from the graveyard to your hand, but will result in the Retrieve tag being lost. This is a fine boost to Nine in Chaos, but in most Save mode decks, Nine should already have ample access to Vulnerability on her most impactful cards, so it is less powerful. Note: Calculations are using Millennium Arbor, meaning this Ego has a little impact, but not a lot. In builds that have permanent Vulnerability from teammates, its damage contribution would be 0 outside of Tenacity.",
+        "vi": "Đầu trận nhận Exploit Opening, kỹ năng 0 chi phí có Kiệt sức 2/Thu hồi/Giữ lại, áp 1 Dễ tổn thương và gây 1 sát thương sức bền. Dùng được hai lần trước khi kiệt sức, Thu hồi đưa từ mộ về tay rồi mất nhãn; tốt trong Chaos nhưng bộ lưu đã có đủ Dễ tổn thương sẽ ít hưởng lợi, thậm chí chỉ thêm sát thương sức bền khi đồng đội duy trì hiệu ứng này vĩnh viễn."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Her E3 node provides an additional +150% damage to her Ego skill, and increases the bonus damage granted from exhausting the two highest cost cards in your hand from +50% to +100% per cost of each card. Eg, Exhausting a 3 Cost Hew + a 1 cost card will now result in a +400% damage increase instead of +200%. Nine’s Ego skill is not a major part of her damage, so while this is a big boost to its power, it’s not a large overall damage increase over the course of longer fights where multiple high-level hues easily overshadow it.",
+        "vi": "Kỹ năng Ego tăng 150% sát thương; thưởng theo chi phí hai lá đắt nhất bị kiệt sức tăng từ 50% lên 100% mỗi điểm chi phí. Ví dụ Hew 3 chi phí và lá 1 chi phí cho 400% thay vì 200%, nhưng tổng ảnh hưởng trong trận dài nhỏ vì Hew chiếm phần lớn sát thương."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Nine's E4 grants a buff whenever one of her cards is exhausted. Nine will be granted 1 stack of Improvisation per the cost of the card that was exhausted. Exhausting a 3-cost Hew will grant 3 stacks of Improvisation. Improvisation grants an additive +50% damage to Defense-Based damage to Nine's attack cards for 1 turn. This node does more for Nine’s other attack cards outside of Hew, as all versions of Hew already have a high base value, where additive damage isn’t as impactful as multiplicative damage increases. Regardless of its low impact on Hew still ends up being an ok damage increase across the board.",
+        "vi": "Bài của Nine bị kiệt sức cho Improvisation bằng chi phí của lá, ví dụ Hew 3 chi phí cho 3 cộng dồn. Hiệu ứng tăng 50% sát thương theo phòng thủ của bài tấn công bằng phép cộng trong 1 lượt; hữu ích hơn với các bài khác vì Hew vốn có hệ số cơ bản cao."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Boosts the base damage increase of Nine’s potentials from 20% to 26%. Usually not too relevant on most characters, but on Nine, as most of her scaling comes from her base damage, this Ego unlock is better on her than average, still not a game-changer though.",
+        "vi": "Mức tăng sát thương cơ bản từ tiềm năng tăng từ 20% lên 26%. Có ích hơn mức trung bình vì Nine dựa nhiều vào hệ số cơ bản, nhưng không đổi cách chơi."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "When a Hew card is activated, Nine deals an additional 15% of the damage dealt to the target as fixed damage. If Nine were to hit an enemy for 10000 Damage, they would take an additional 1500 damage on top. This is a very nice damage increase, but unfortunately, this extra hit cannot Crit meaning it truly is just another 15% damage on top of your usual Hew damage.",
+        "vi": "Hew gây thêm sát thương cố định bằng 15% sát thương vừa gây, ví dụ 10000 thêm 1500. Phần thêm không chí mạng, nên thực chất là tăng 15% sát thương Hew."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Extreme Hew Spam Deck",
+        "vi": "Dùng Hew (Extreme) liên tục"
+      },
+      "role": {
+        "en": "Repeated high-cost attack carry",
+        "vi": "Chủ lực lặp đòn chi phí cao"
+      },
+      "partner": "Alcea",
+      "cards": [
+        {
+          "cardId": "c_30047_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30047_uni3_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30047_uni4",
+          "count": 4
+        }
+      ],
+      "gear": [
+        "Dagger That Tricked the Shadow",
+        "Announcement of Catastrophe",
+        "Verdant Day"
+      ],
+      "fragments": [
+        "Executioner's Tool",
+        "Tetra's Authority",
+        "Black Wing"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Duplicate Fighting Spirit and use allied AP or Exhaust support to level and repeatedly play Hew. The plan needs substantial AP and draw. Tiphera can provide both plus buffs, but some of her builds rely on random outcomes and therefore vary in consistency.",
+        "vi": "Nhân bản Fighting Spirit, kết hợp đồng đội cấp Điểm hành động hoặc hỗ trợ Kiệt sức để nâng cấp và dùng Hew liên tục. Bộ bài đòi hỏi nhiều Điểm hành động lẫn rút bài. Tiphera có thể đáp ứng cả hai và tăng sức mạnh, nhưng một số bản của cô phụ thuộc kết quả ngẫu nhiên nên độ ổn định sẽ dao động."
+      }
+    },
+    {
+      "name": {
+        "en": "One Hew Wonder (Extreme Variant)",
+        "vi": "Dồn sức mạnh vào Hew (Extreme)"
+      },
+      "role": {
+        "en": "Single-card burst carry",
+        "vi": "Dồn toàn bộ hiệu ứng tăng sức mạnh vào một lá"
+      },
+      "partner": "Alcea",
+      "cards": [
+        {
+          "cardId": "c_30047_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30047_uni2_rsp3",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30047_uni3_rsp1",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Dagger That Tricked the Shadow",
+        "Announcement of Catastrophe",
+        "Verdant Day"
+      ],
+      "fragments": [
+        "Executioner's Tool",
+        "Black Wing",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Fatal Strike III uses ally Exhaust effects, such as Orlea's or Tiphera's, to obtain level-5 Hew (Extreme) immediately. Keep only the key attack so Growth Acceleration, Softie, and Triangle buffs reliably land on it. Sustained DPS can be lower, but it excels when only one hit is allowed or heavily amplified, such as season 2's first Great Rift head with a 6× modifier.",
+        "vi": "Fatal Strike III tận dụng Kiệt sức của đồng đội như Orlea hoặc Tiphera để nhận ngay Hew (Extreme) cấp 5. Chỉ giữ lá tấn công trọng tâm để Growth Acceleration, Softie và hiệu ứng tăng sức mạnh từ bài Nguyên mẫu hình tam giác đều tập trung vào nó. Sát thương duy trì có thể thấp hơn, nhưng rất mạnh khi chỉ được gây sát thương một lần hoặc nhịp đánh đó được khuếch đại lớn, như đầu trùm Great Rift đầu mùa 2 có hệ số 6 lần."
+      }
+    },
+    {
+      "name": {
+        "en": "One Hew Wonder (Flash Variant)",
+        "vi": "Dồn sức mạnh vào Hew (Flash)"
+      },
+      "role": {
+        "en": "Discounted single-card attack carry",
+        "vi": "Chủ lực một lá tiết kiệm Điểm hành động"
+      },
+      "partner": "Alcea",
+      "cards": [
+        {
+          "cardId": "c_30047_srt4_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30047_uni3_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30047_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Dagger That Tricked the Shadow",
+        "Announcement of Catastrophe",
+        "Verdant Day"
+      ],
+      "fragments": [
+        "Executioner's Tool",
+        "Tetra's Authority",
+        "Black Wing"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Apply the same focused-buff principle as the Extreme version, but choose Hew (Flash). Lower cost permits more uses and more hits at the expense of each individual hit's damage.",
+        "vi": "Giữ nguyên cách dồn hiệu ứng tăng sức mạnh vào một lá của bản Hew (Extreme) nhưng chuyển sang Hew (Flash). Chi phí thấp hơn giúp dùng nhiều lần và tạo nhiều nhịp đánh hơn, đổi lại mỗi nhịp đánh có sát thương thấp hơn."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "Repose provides efficient draw with a high Divine ceiling, alongside some extra area damage.",
+        "vi": "Repose cho Rút bài tiết kiệm với trần cao nhờ Thức tỉnh thần thánh, đồng thời bổ sung chút sát thương diện rộng."
+      }
+    },
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Advanced discard-and-redraw sequences enable cheaper Hew activations, but this complex setup starts poorly in Chaos.",
+        "vi": "Chuỗi Bỏ rồi Rút nâng cao giúp kích hoạt Hew rẻ hơn, nhưng cách vận hành phức tạp này khởi đầu yếu trong Chaos."
+      }
+    },
+    {
+      "name": "Mika",
+      "note": {
+        "en": "Accessible AP generation meets expensive rotations, while Blessing of the Wave can support Shield-based epiphanies.",
+        "vi": "Tạo Điểm hành động dễ tiếp cận đáp ứng vòng bài đắt, còn Phước lành of the Sóng hỗ trợ Thức tỉnh dựa vào Lá chắn."
+      }
+    },
+    {
+      "name": "Orlea",
+      "note": {
+        "en": "Vulnerable, Softie buffs and Spore support amplify damage, but draw and AP need separate solutions without Divines.",
+        "vi": "Dễ tổn thương, tăng sức mạnh từ Softie và Bào tử khuếch đại sát thương, nhưng Rút bài và Điểm hành động cần nguồn khác nếu thiếu Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "Beryl",
+      "note": {
+        "en": "Manual Contaminated Spore activation combines built-in draw with reliable Glory's Reign support.",
+        "vi": "Chủ động kích hoạt Contaminated Spore kết hợp Rút bài sẵn có và hỗ trợ Glory's Reign ổn định."
+      }
+    },
+    {
+      "name": "Rei",
+      "note": {
+        "en": "Opening draw and Quantum Collector setups suit short kills, while ordinary additive buffs contribute little to Nine.",
+        "vi": "Rút đầu trận và cách dùng Quantum Collector hợp kết liễu nhanh, còn tăng sát thương cộng thêm thông thường ít giúp Nine."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Flasher",
+        "vi": "Nine với Hew: Flash"
+      },
+      "members": [
+        "Nine",
+        "Tiphera",
+        "Orlea"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Watch Out for Seven...",
+        "vi": "Nine dồn sát thương Hew"
+      },
+      "members": [
+        "Nine",
+        "Tiphera",
+        "Orlea"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "characterId": "1021",
+  "terms": [
+    {
+      "id": "TALENT_BULLET",
+      "title": "Đạn",
+      "englishTitle": "Bullet",
+      "desc": "Chỉ các lá có từ khóa Đạn.",
+      "englishDesc": "Cards with the Bullet keyword"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishDesc": "Decrease Damage Amount taken until the next turn"
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+    },
+    {
+      "id": "CARD_LAUNCHER",
+      "title": "Đạn súng phóng",
+      "englishTitle": "Launcher Bullet",
+      "desc": "Armor-Piercing Rounds, Explosive Shot, Dispersing Shot, Flame Shot, Cold Shot<br><i>Đây là các loại đạn súng phóng.</>",
+      "englishDesc": "Armor-Piercing Rounds, Explosive Shot, Dispersing Shot, Flame Shot, Cold Shot<br><i>These are Launcher Bullets.</>"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishDesc": "Using or proccing a card"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+    },
+    {
+      "id": "CARD_FIXEDDAMAGE",
+      "title": "Sát thương cố định",
+      "englishTitle": "Fixed Damage",
+      "desc": "Sát thương bỏ qua các hiệu ứng duy trì",
+      "englishDesc": "A damage that ignores persistent effects"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+    },
+    {
+      "id": "T_CS00_0003",
+      "title": "Suy nhược",
+      "englishTitle": "Weaken",
+      "desc": "Giảm <cc><color_orange>25</></>% lượng sát thương <br>Khi hiệu ứng kích hoạt, giảm Suy nhược đi <cc>1</>",
+      "englishDesc": "Decrease Damage Amount by <cc><color_orange>25</></>% <br>When the effect is activated, decrease Weaken by <cc>1</>"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "T_CS00_0158",
+      "title": "Điểm yếu Đam mê",
+      "englishTitle": "Passion Weakness",
+      "desc": "Áp dụng <color_orange><u>Đánh điểm yếu</u></> cho các lá <color_ego_love_light>Đam mê</><br>Khi bị áp dụng Điểm yếu thuộc tính khác, loại bỏ Điểm yếu <color_ego_love_light>Đam mê</>",
+      "englishDesc": "Apply <color_orange><u>Weakness Attack</u></> to <color_ego_love_light>Passion</> Cards<br>When another Attribute Weakness is applied, remove <color_ego_love_light>Passion</> Weakness"
+    },
+    {
+      "id": "T_CS00_0025",
+      "title": "Dấu ấn",
+      "englishTitle": "Mark",
+      "desc": "Khi một lá Tấn công được <color_orange><u>Kích hoạt</u></>, gây <color_orange>100%</> <color_orange><u>Đòn đánh thêm</u></>, gây <color_orange><u>Sát thương sức bền</u></> tương ứng Chi phí <cc>0</> và giảm <color_orange><u>Dấu ấn</u></> đi <cc>1</>",
+      "englishDesc": "When an Attack Card is <color_orange><u>activate</u></>d, inflict <color_orange>100%</> <color_orange><u>Extra Attack</u></>, inflict <color_orange><u>Tenacity Damage</u></> equal to <cc>0</> Cost, and decrease <color_orange><u>Mark</u></> by <cc>1</>"
+    },
+    {
+      "id": "TALENT_ETHEREAL",
+      "title": "Phù du",
+      "englishTitle": "Ephemeral",
+      "desc": "Nếu lá này còn trên tay vào cuối lượt, khiến nó Kiệt sức.",
+      "englishDesc": "If this card is in hand at the end of the turn, Exhaust it"
+    },
+    {
+      "id": "T_CS00_0007",
+      "title": "Suy giảm",
+      "englishTitle": "Impair",
+      "desc": "Giảm lượng <color_orange><u>Lá chắn</u></> nhận được đi <cc><color_orange>50</></>%<br>Khi hiệu ứng kích hoạt, giảm <color_orange><u>Suy giảm</u></> đi <cc>1</>",
+      "englishDesc": "Decrease <color_orange><u>Shield</u></> Gain Amount by <cc><color_orange>50</></>%<br>When the effect is activated, decrease <color_orange><u>Impair</u></> by <cc>1</>"
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch.",
+      "englishDesc": "This card does not reduce the enemy’s Action Count"
+    },
+    {
+      "id": "CARD_TURN_COUNT",
+      "title": "Số đếm hành động",
+      "englishTitle": "Action Count",
+      "desc": "Số lần sử dụng bài còn lại trước khi quái vật hành động<br>Khi sử dụng một lá bài, giảm <cc>1</><br>Khi về <cc>0</>, quái vật hành động",
+      "englishDesc": "The number of card uses remaining until the monster acts<br>When a card is used, decrease by <cc>1</><br>When it reaches <cc>0</>, the monster takes action"
+    },
+    {
+      "id": "T_CS00_0004",
+      "title": "Thống khổ",
+      "englishTitle": "Agony",
+      "desc": "Cuối lượt, gây <color_orange>50%</> <color_orange><u>Sát thương cố định theo thời gian</u></> × số <color_orange><u>Thống khổ</u></><br>Khi hiệu ứng kích hoạt, giảm một nửa cộng dồn <color_orange><u>Thống khổ</u></> (tối đa <cc>20</> cộng dồn)",
+      "englishDesc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)"
+    }
+  ]
+}

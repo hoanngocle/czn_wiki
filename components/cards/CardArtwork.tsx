@@ -17,12 +17,13 @@ function getReducedMotion() {
   return window.matchMedia(reducedMotionQuery).matches;
 }
 
-export function CardArtwork({ card, animationEnabled, visible = false }: { card: Card; animationEnabled: boolean; visible?: boolean }) {
+export function CardArtwork({ card, animationEnabled, visible = false, vietnamese = false }: { card: Card; animationEnabled: boolean; visible?: boolean; vietnamese?: boolean }) {
   const container = useRef<HTMLDivElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const [onscreen, setOnscreen] = useState(visible);
   const reduced = useSyncExternalStore(subscribeReducedMotion, getReducedMotion, () => true);
   const [failed, setFailed] = useState(false);
+  const [failedArtwork, setFailedArtwork] = useState<string | null>(null);
   useEffect(() => {
     if (visible || !container.current) return;
     const observer = new IntersectionObserver(([entry]) => setOnscreen(entry.isIntersecting), { threshold: .2 });
@@ -35,7 +36,7 @@ export function CardArtwork({ card, animationEnabled, visible = false }: { card:
     else video.current.play().catch(() => setFailed(true));
   }, [reduced, animationEnabled, onscreen]);
   return <div ref={container} className={styles.artwork}>
-    {card.artwork ? <Image src={card.artwork} alt="" fill sizes="(max-width: 767px) 164px, 172px" unoptimized /> : <span className={styles.artFallback}>Artwork unavailable</span>}
+    {card.artwork && failedArtwork !== card.artwork ? <Image src={card.artwork} alt="" fill sizes="(max-width: 767px) 164px, 172px" unoptimized onError={() => setFailedArtwork(card.artwork)} /> : <span className={styles.artFallback} data-image-placeholder={card.name}>{vietnamese ? "Chưa có hình minh họa" : "Artwork unavailable"}</span>}
     {animationEnabled && onscreen && card.video && !failed && <video ref={video} src={card.video} poster={card.artwork ?? undefined} autoPlay={!reduced} muted loop playsInline aria-hidden="true" className={reduced ? styles.videoHidden : styles.video} onError={() => setFailed(true)} />}
   </div>;
 }

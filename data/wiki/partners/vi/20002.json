@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Một Bản sao của Peltion.</><br>Bản sao là những dạng sống nhân tạo do Dược phẩm Kaguya tạo ra. Trong thời gian ở phòng thí nghiệm, cô được gọi bằng mã thực thể GA-01. Cô có kết nối tinh thần với băng long Agartha và có thể tùy ý điều khiển nó. Cô không ngại bộc lộ sự phòng bị và gai góc của mình. Tuy nhiên, với Narja, Gaya luôn là người đầu tiên có mặt ở bên cô ấy.",
+  "infoValues": [
+    "Bản sao",
+    "Ngày 2 tháng 1",
+    "Điều khiển băng long",
+    "Haruna Shimizu",
+    "Songyi Cheon"
+  ],
+  "cardDescription": "<color_orange>60%</> <color_orange><u>Sát thương theo Phòng thủ</u></><br><color_orange><u>Rút</u></> <color_orange>1</> lá Tấn công",
+  "terms": {
+    "CARD_DEFDAMAGE": {
+      "title": "Sát thương theo Phòng thủ",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá bài từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Tuyết phủ trái tim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>16</>%.<br>+<cc>20</>% lượng Sát thương theo Phòng thủ cho các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp.",
+        "Khi một lá Tấn công Độc nhất có chi phí gốc <cc>6</> của Nhân vật được ghép cặp được kích hoạt, +<cc>20</>% lượng Sát thương cho đồng minh (không cộng dồn)."
+      ]
+    },
+    "2": {
+      "name": "Tuyết phủ trái tim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>18</>%.<br>+<cc>25</>% lượng Sát thương theo Phòng thủ cho các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp.",
+        "Khi một lá Tấn công Độc nhất có chi phí gốc <cc>6</> của Nhân vật được ghép cặp được kích hoạt, +<cc>25</>% lượng Sát thương cho đồng minh (không cộng dồn)."
+      ]
+    },
+    "3": {
+      "name": "Tuyết phủ trái tim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>20</>%.<br>+<cc>30</>% lượng Sát thương theo Phòng thủ cho các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp.",
+        "Khi một lá Tấn công Độc nhất có chi phí gốc <cc>6</> của Nhân vật được ghép cặp được kích hoạt, +<cc>30</>% lượng Sát thương cho đồng minh (không cộng dồn)."
+      ]
+    },
+    "4": {
+      "name": "Tuyết phủ trái tim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>22</>%.<br>+<cc>35</>% lượng Sát thương theo Phòng thủ cho các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp.",
+        "Khi một lá Tấn công Độc nhất có chi phí gốc <cc>6</> của Nhân vật được ghép cặp được kích hoạt, +<cc>35</>% lượng Sát thương cho đồng minh (không cộng dồn)."
+      ]
+    },
+    "5": {
+      "name": "Tuyết phủ trái tim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>24</>%.<br>+<cc>40</>% lượng Sát thương theo Phòng thủ cho các lá thuộc tính <color_ego_instinct>Bản năng</> của Nhân vật được ghép cặp.",
+        "Khi một lá Tấn công Độc nhất có chi phí gốc <cc>6</> của Nhân vật được ghép cặp được kích hoạt, +<cc>40</>% lượng Sát thương cho đồng minh (không cộng dồn)."
+      ]
+    }
+  }
+}

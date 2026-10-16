@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import images from "../../data/wiki/guides/renoa-images.json";
+import { useCharacterGuide } from "./CharacterGuideContext";
 import guideStyles from "./RenoaGuide.module.css";
 import styles from "./GuideImage.module.css";
 
-export function GuideImage({ name, className = guideStyles.icon, alt = "" }: { name: string; className?: string; alt?: string }) {
-  const key = name.replace(/ E\d+$| \(\d\)$| (?:I|II|III|IV|V)$/, "");
-  const asset = (images as Record<string, { src: string; width: number; height: number }>)[key];
+export function GuideImage({ name = "", cardId, className = guideStyles.icon, alt = "" }: { name?: string; cardId?: string; className?: string; alt?: string }) {
+  const { guide, cards } = useCharacterGuide();
+  const card = cardId ? cards.get(cardId) : undefined;
+  const asset = cardId ? (card?.artwork ? { src: card.artwork, width: 468, height: 680 } : undefined) : guide?.images[name];
   const [failedSrc, setFailedSrc] = useState<string | null>(null);
 
   if (!asset || failedSrc === asset.src) {

@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Trưởng đội kỹ thuật Terrascion.</><br>Là thành viên Ban Hỗ trợ Kỹ thuật Trung ương, cô chịu trách nhiệm bảo trì và kiểm tra toàn bộ cơ sở vật chất, thiết bị và trang bị trên SS Nightmare. Việc ít bộc lộ cảm xúc khiến cô có vẻ lạnh lùng. Cô thần tượng thuyền trưởng nhưng luôn cố gắng duy trì mối quan hệ chuyên nghiệp.",
+  "infoValues": [
+    "Con người",
+    "Ngày 29 tháng 8",
+    "Yurika Moriyama",
+    "Yewon Seong"
+  ],
+  "cardDescription": "Trong <cc>1</> lượt, khi một lá bài bị <color_orange><u>Kiệt sức</u></>, gây <color_orange>1</> <color_orange><u>Suy nhược</u></> cho một kẻ địch ngẫu nhiên",
+  "terms": {
+    "T_CS00_0003": {
+      "title": "Suy nhược",
+      "desc": "Giảm <cc><color_orange>25</></>% lượng sát thương <br>Khi hiệu ứng kích hoạt, giảm <cc>1</> Suy nhược"
+    },
+    "TALENT_EXHAUST": {
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Hỗ trợ kỹ thuật",
+      "descriptions": [
+        "Tăng <cc>8</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>10</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp.",
+        "Lần đầu Nhân vật được ghép cặp làm Kiệt sức một lá bài hoặc nhận một lá Trạng thái bất lợi (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), tăng <cc>12</>% lượng sát thương của các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "2": {
+      "name": "Hỗ trợ kỹ thuật",
+      "descriptions": [
+        "Tăng <cc>10</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>13</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp.",
+        "Lần đầu Nhân vật được ghép cặp làm Kiệt sức một lá bài hoặc nhận một lá Trạng thái bất lợi (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), tăng <cc>15</>% lượng sát thương của các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "3": {
+      "name": "Hỗ trợ kỹ thuật",
+      "descriptions": [
+        "Tăng <cc>12</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>15</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp.",
+        "Lần đầu Nhân vật được ghép cặp làm Kiệt sức một lá bài hoặc nhận một lá Trạng thái bất lợi (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), tăng <cc>18</>% lượng sát thương của các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "4": {
+      "name": "Hỗ trợ kỹ thuật",
+      "descriptions": [
+        "Tăng <cc>14</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>18</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp.",
+        "Lần đầu Nhân vật được ghép cặp làm Kiệt sức một lá bài hoặc nhận một lá Trạng thái bất lợi (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), tăng <cc>21</>% lượng sát thương của các lá Tấn công trong <cc>1</> lượt."
+      ]
+    },
+    "5": {
+      "name": "Hỗ trợ kỹ thuật",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>20</>% lượng sát thương của các lá Tấn công thuộc Nhân vật được ghép cặp.",
+        "Lần đầu Nhân vật được ghép cặp làm Kiệt sức một lá bài hoặc nhận một lá Trạng thái bất lợi (bao gồm các lá đã được chuyển đổi từ lá Trạng thái bất lợi), tăng <cc>24</>% lượng sát thương của các lá Tấn công trong <cc>1</> lượt."
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "characterId": "1050",
+  "terms": [
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "englishTitle": "Retrieve",
+      "englishDesc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve",
+      "desc": "Nếu lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay.<br>Khi Kích hoạt, loại bỏ Thu hồi."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "englishDesc": "Activating a card through an effect",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng."
+    },
+    {
+      "id": "CARD_ENERGY",
+      "title": "Điểm hành động",
+      "englishTitle": "AP",
+      "englishDesc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+      "desc": "Tài nguyên tiêu hao khi các lá được <color_orange><u>dùng</u></>"
+    },
+    {
+      "id": "CARD_EGO_DAMAGE",
+      "title": "Sát thương sức bền",
+      "englishTitle": "Tenacity Damage",
+      "englishDesc": "Damage dealt to a monster's Tenacity",
+      "desc": "Sát thương gây lên Sức bền của quái vật"
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "englishTitle": "Discard Pile",
+      "englishDesc": "The pile where Discarded Cards move to (max <cc>200</>)",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá)."
+    },
+    {
+      "id": "T_CS00_0062",
+      "title": "Giảm sát thương",
+      "englishTitle": "Damage Reduction",
+      "englishDesc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>",
+      "desc": "Giảm <cc><color_orange>15</></>% sát thương phải chịu<br>Khi hiệu ứng kích hoạt, giảm <color_orange><u>Giảm sát thương</u></> đi <cc>1</>"
+    },
+    {
+      "id": "T_CS00_0002",
+      "title": "Dễ tổn thương",
+      "englishTitle": "Vulnerable",
+      "englishDesc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+      "desc": "Tăng <color_orange>50</>% sát thương phải chịu<br>Khi kích hoạt, giảm <color_orange><u>Dễ tổn thương</u></> đi <cc>1</>"
+    },
+    {
+      "id": "T_CS00_0228",
+      "title": "Kiên cường",
+      "englishTitle": "Fortitude",
+      "englishDesc": "+<color_orange>-20</>% Damage taken per <color_orange><u>Fortitude</u></>",
+      "desc": "Sát thương nhận vào thay đổi <color_orange>-20</>% với mỗi <color_orange><u>Kiên cường</u></>"
+    }
+  ]
+}

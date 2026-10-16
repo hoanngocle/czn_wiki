@@ -1,0 +1,1073 @@
+{
+  "characterId": "1043",
+  "name": "Hugo",
+  "identity": [
+    "Order",
+    "Ranger"
+  ],
+  "subtitle": {
+    "en": "Skills build Commence the Hunt stacks, then targeted attacks spend them on follow-up damage.",
+    "vi": "Bài kỹ năng tích Bắt đầu cuộc săn, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt đòn đánh thêm."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1043.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/hugo",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/hugo.json",
+      "docs/combatant/current/api/czn/characters/1043.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Hugo": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tina": {
+      "src": "/assets/partner/portrait_character_crop_half_20038.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Battlefield Evolution": {
+      "src": "/assets/item/guide-984c89d7e85a.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Second Method": {
+      "src": "/assets/item/relic_1168.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutagenic Wave Amplifier": {
+      "src": "/assets/item/relic_0106.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Luke": {
+      "src": "/assets/combatant/portrait_character_crop_half_1004.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tressa": {
+      "src": "/assets/combatant/portrait_character_crop_half_1009.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sereniel": {
+      "src": "/assets/combatant/portrait_character_crop_half_30075.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Heidemarie": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Olga": {
+      "src": "/assets/combatant/portrait_character_crop_half_30117.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hilde": {
+      "src": "/assets/combatant/portrait_character_crop_half_30113.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Haru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1062.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Chizuru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1060.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Anika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1012.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hugo artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Order": {
+      "src": "/assets/common/icon_type_ego_norms.png",
+      "width": 44,
+      "height": 44
+    },
+    "Ranger": {
+      "src": "/assets/common/icon_type_job_ranger.png",
+      "width": 44,
+      "height": 44
+    },
+    "Tina E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20038.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tina E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20038.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "guide_1043_persona",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique]<br>250% Damage. 2 Mark.<br>Ranger only",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1099.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/hugo#decks"
+    }
+  ],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Skills build Commence the Hunt stacks, then targeted attacks spend them on follow-up damage.",
+      "vi": "Bài kỹ năng tích Bắt đầu cuộc săn, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt đòn đánh thêm."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Sustained single-target output and strong draw after Upgrade setup.",
+        "vi": "Sát thương đơn mục tiêu bền bỉ và rút bài tốt sau khi dùng các bài Cường hóa."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs allies to alternate frequent targeted attacks with stack generation; AoE is scarce.",
+        "vi": "Cần đồng đội xen kẽ đánh chỉ định mục tiêu và tạo cộng dồn; ít sát thương diện rộng."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Fan of Daggers",
+        "body": {
+          "en": "60% × 3 Damage to random enemies; Commence the Hunt for each target hit",
+          "vi": "Gây 60% × 3 sát thương lên kẻ địch ngẫu nhiên; Bắt đầu cuộc săn với mỗi mục tiêu trúng đòn"
+        },
+        "cardId": "c_1043_uni1"
+      },
+      {
+        "title": "Quick Fix",
+        "body": {
+          "en": "80% Damage × 2; If in a Commence the Hunt state, Draw 1 Attack Card(s)",
+          "vi": "Gây 80% sát thương × 2; Nếu đang ở trạng thái Bắt đầu cuộc săn, Rút bài 1 bài Tấn công"
+        },
+        "cardId": "c_1043_uni2"
+      },
+      {
+        "title": "Dingo Howling",
+        "body": {
+          "en": "100% Shield; 2 Commence the Hunt",
+          "vi": "100% Lá chắn; 2 Bắt đầu cuộc săn"
+        },
+        "cardId": "c_1043_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1043_srt4",
+      "ratings": [
+        3,
+        4,
+        5,
+        1,
+        3
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III adds another Extra Attack to each hunt trigger; the additional hit does not receive the hunt's buff. II can supplement stack generation.",
+        "vi": "III thêm một Đòn đánh thêm mỗi lần kích hoạt cuộc săn; đòn bổ sung không nhận hiệu ứng tăng của cuộc săn. II có thể bổ sung khả năng tạo cộng dồn."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction; neutral damage-over-time utility rarely beats III's extra attack.",
+        "vi": "Ưu tiên giảm chi phí; tiện ích sát thương theo thời gian trung lập hiếm khi hơn đòn bổ sung của III."
+      }
+    },
+    {
+      "cardId": "c_1043_uni1",
+      "ratings": [
+        1,
+        5,
+        3,
+        2,
+        2
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II targets an enemy, generates two hunt stacks and triggers the hunt itself. III is more specialized for another Extra Attack ally.",
+        "vi": "II chọn mục tiêu, tạo hai cộng dồn cuộc săn và tự kích hoạt cuộc săn. III chuyên phối hợp với đồng đội có Đòn đánh thêm."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 is efficient; specialized effects matter more than investing in divines.",
+        "vi": "Rút 1 trung lập hiệu quả; hiệu ứng chuyên dụng quan trọng hơn đầu tư thần thánh."
+      }
+    },
+    {
+      "cardId": "c_1043_uni2",
+      "ratings": [
+        2,
+        1,
+        5,
+        2,
+        4
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III supplies Draw 2 while attacking, letting Hugo fill a support role. V favors carry damage when draw is already sufficient.",
+        "vi": "III vừa tấn công vừa Rút 2, giúp Hugo hỗ trợ đội. V nghiêng về sát thương chủ lực khi đã đủ khả năng rút bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 is competitive; cost reduction is the main divine target.",
+        "vi": "Rút 1 trung lập đáng cân nhắc; giảm chi phí là thần thánh ưu tiên."
+      }
+    },
+    {
+      "cardId": "c_1043_uni3",
+      "ratings": [
+        1,
+        1,
+        5,
+        1,
+        4
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III passively draws an Attack Card on the first hunt trigger each turn. V draws more immediately but requires repeated spending.",
+        "vi": "III thụ động rút Bài tấn công ở lần kích hoạt cuộc săn đầu mỗi lượt. V rút ngay nhiều hơn nhưng phải chi tài nguyên lặp lại."
+      },
+      "divine": {
+        "en": "Use cost reduction or Draw 1; a draw neutral generally trails V.",
+        "vi": "Dùng giảm chi phí hoặc Rút 1; trung lập rút bài thường kém V."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Tina E4",
+      "score": "138.02%",
+      "note": {
+        "en": "E4 increases Tina's tailored bonuses for a large damage upgrade.",
+        "vi": "E4 tăng các hiệu ứng phù hợp riêng của Tina, nâng sát thương đáng kể."
+      }
+    },
+    {
+      "name": "Tina E0",
+      "score": "122.00%",
+      "note": {
+        "en": "Tina's well-matched bonuses lead options at comparable investment.",
+        "vi": "Các hiệu ứng rất phù hợp của Tina dẫn đầu những lựa chọn có mức đầu tư tương đương."
+      }
+    },
+    {
+      "name": "Sylvia E0",
+      "score": "119.58%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Solia E4",
+      "score": "117.04%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Rosaria E4",
+      "score": "108.60%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Solia E0",
+      "score": "106.71%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Rosaria E0",
+      "score": "100.01%",
+      "note": {
+        "en": "The source gives no rationale for this Ego level.",
+        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+      }
+    },
+    {
+      "name": "Nakia E4",
+      "score": "100.00%",
+      "note": {
+        "en": "Nakia is a free stopgap when stronger listed partners are unavailable.",
+        "vi": "Nakia là phương án miễn phí tạm thời khi chưa có các Đối tác mạnh hơn trong danh sách."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Battlefield Evolution (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Usually close to 2/2/2 with two stacks, but requires setup rather than working immediately.",
+        "vi": "Thường gần bộ 2/2/2 khi có hai cộng dồn, nhưng cần chuẩn bị thay vì phát huy ngay."
+      }
+    },
+    {
+      "name": "Executioner's Tool (2) + Black Wing (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A consistent accessible setup that works immediately across builds and modes.",
+        "vi": "Bộ dễ kiếm và ổn định, phát huy ngay với nhiều cách xây dựng và chế độ."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "Order DMG% >= ATK%",
+        "vi": "Sát thương Trật tự% >= Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "Extra ATK DMG% > CRIT Rate% = CRIT DMG% > ATK > ATK%",
+        "vi": "Sát thương đòn đánh thêm% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Getting as close to maxing out Hugo's Potential 7 as possible is incredibly important for pushing his damage as high as you can. As a starting point, aim to hit at least 701 ATK to activate its initial effect, but after that, try to push it as high as you can without sacrificing optimal main stats or too many sub stats. It's very unlikely you'll be able to fully cap out this passive, as it requires 1100 ATK, but each breakpoint of 50 is a nice damage increase for Hugo.",
+    "vi": "Trước hết nhắm 701 tấn công để chắc chắn kích hoạt tiềm năng 7, rồi tăng theo từng mốc 50 mà không hy sinh chỉ số chính tốt nhất hoặc quá nhiều chỉ số phụ quan trọng. Mốc tối đa 1100 khó đạt, nhưng từng bước nhỏ đều có ích."
+  },
+  "potentialIntro": {
+    "en": "Hugo’s Signature Potentials offer significant damage boosts as well as some additional functionality, making them a high priority to unlock.3-1: Adds a 50% chance to gain Commence the Hunt when using Hugo’s Basic Attack Throw Dagger, helping with stack generation in Zero System runs. Not too relevant in endgame builds though.5-1: Increases Throw Dagger’s base damage multiplier by +5% and if ATK is higher than 500, an additional +5% is added. Also not hugely impactful in endgame Hugo decks and is more for early Zero System power.7: Improves the Additional Damage multiplier by +4% while Hugo’s ATK is 700 or higher. Also grants an extra +1% for every 50 ATK over that, up to 8%. A nice damage boost overall and definitely worth picking up.",
+    "vi": "Ưu tiên mở các tiềm năng tăng sát thương: 3-1 cho Throw Dagger 50% cơ hội tạo Bắt đầu cuộc săn, còn 5-1 tăng hệ số bài này 5% và thêm 5% khi tấn công >500; cả hai chủ yếu giúp đầu chuyến thám hiểm hơn là bộ bài cuối game. Tiềm năng 7 tăng 4% hệ số sát thương bổ sung khi tấn công ≥700, thêm 1% mỗi 50 tấn công vượt 700, tối đa thêm 8% ở 1100, đáng đầu tư."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add the following effect to the Knife Toss card: 50% chance for 1 Commence the Hunt",
+        "vi": "Thêm hiệu ứng sau cho lá Knife Toss: Có 50% xác suất nhận 1 Bắt đầu cuộc săn"
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Hugo's Knife Toss; If Hugo's Attack is 500 or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng sát thương của Knife Toss của Hugo; Nếu Tấn công của Hugo từ 500 trở lên, tăng thêm 5% cho chỉ số này"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Hugo’s Attack is 700 or higher, +4% Extra Damage Amount; For every 50 Attack exceeding 700, add an additional +1% to the modifier; (additional +8% max)",
+        "vi": "Nếu Tấn công của Hugo từ 700 trở lên, tăng 4% lượng sát thương Đòn đánh thêm; Với mỗi 50 Tấn công vượt quá 700, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 8%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "Second Method",
+        "Sword Reflected in the Lake"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "Second Method",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Mutagenic Wave Amplifier",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Sword Reflected in the Lake",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Corrupted Gauntlet",
+        "Second Method",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Hugo’s first Ego node increases the damage buff on his “Fixer’s Approach” card by +10%. A decent first node to unlock that boosts his damage output.",
+        "vi": "Fixer’s Approach tăng mức thưởng sát thương thêm 10%, cải thiện sát thương khá tốt."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "His second Ego point is a passive buff that activates once per turn. For every 2 times Commence the Hunt is activated, Hugo deals 40% Extra Attack Damage twice to random enemies. If hitting the same enemy twice, Hugo gains 1 stack of Commence the Hunt. A great second node for Hugo that allows him to maintain his Hunt stacks without generating them via Skill cards and also provides some extra damage for free.",
+        "vi": "Một lần mỗi lượt, sau 2 lần Bắt đầu cuộc săn kích hoạt, đánh thêm 40% hai lần vào địch ngẫu nhiên; nếu cả hai trúng cùng mục tiêu thì nhận lại 1 Bắt đầu cuộc săn. Giúp duy trì cộng dồn mà ít phụ thuộc bài kỹ năng hơn."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "His third Ego node provides an additional effect to his Ego Skill “Last Resort”. When used, it will also increase the maximum amount of Commence the Hunt stacks he can hold by 1. This is a great unlock for Hugo’s Ego Skill, increasing the value provided and further increasing his Potential damage output.",
+        "vi": "Last Resort còn tăng giới hạn Bắt đầu cuộc săn thêm 1, tăng giá trị kỹ năng Ego và tiềm năng sát thương."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "The fourth unlock for Hugo’s Ego is a passive effect that grants Hugo a buff whenever Commence the Hunt is triggered. When triggered, Hugo gains 1 stack of Arbiter’s Wrath for the turn, up to a maximum of 4 stacks. Hugo’s damage is increased by +10% per stack. A very easy to maintain buff that again, further elevates Hugo’s damage output.",
+        "vi": "Mỗi lần Bắt đầu cuộc săn kích hoạt nhận Arbiter’s Wrath trong lượt, tối đa 4; mỗi cộng dồn tăng 10% sát thương. Dễ duy trì và tăng sát thương ổn định."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. This node is less impactful on Hugo compared to some other characters, as the majority of their damage source is coming from their Extra Attacks and not directly from their Attack Cards.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Ít tác động hơn ở nhân vật khác vì Hugo chủ yếu gây sát thương bằng đòn đánh thêm."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Hugo’s final unlock is another passive effect that kicks in at the start of each turn, applying “Hunting Mark 1” to a random enemy. When an enemy affected by this debuff is hit by the effect of Commence the Hunt, gain 1 Morale for 1 turn and the debuff will be removed. This is a decent final node for Hugo that provides his team with Morale, but as it only generates a single stack once per turn, it’s not a game-changer but simply a nice added effect.",
+        "vi": "Đầu lượt áp Hunting Dấu ấn 1 lên địch ngẫu nhiên; khi Bắt đầu cuộc săn đánh trúng mục tiêu đó, nhận 1 Sĩ khí trong 1 lượt rồi xóa dấu. Có ích cho đội nhưng chỉ một cộng dồn mỗi lượt nên không thay đổi lớn."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Recommended deck",
+        "vi": "Bộ bài đề xuất"
+      },
+      "role": {
+        "en": "Skill-fed extra attacker",
+        "vi": "Đánh thêm nhờ đồng đội dùng kỹ năng"
+      },
+      "partner": "Tina",
+      "cards": [
+        {
+          "cardId": "c_1043_srt4_rsp3",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được sử dụng, Rút 2 lá"
+          }
+        },
+        {
+          "cardId": "c_1043_srt4_rsp2",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1043_uni2",
+          "count": 2,
+          "costDelta": -1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_1043_uni3_rsp5",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1043_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_1043_persona",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Play two or three Hunting Instinct copies on turn 1. Allied skills then build Commence the Hunt stacks, allowing two extra attacks for each ally attack. Frequent attackers such as Luke, Sereniel, Tressa, Chizuru, or Heidemarie drive the engine; Cassius and Rei buff its extra attacks efficiently.",
+        "vi": "Dùng hai hoặc ba Hunting Bản năng ở lượt đầu. Sau đó, kỹ năng của đồng đội tạo cộng dồn Bắt đầu cuộc săn, cho phép Hugo đánh thêm hai lần mỗi khi đồng đội tấn công. Luke, Sereniel, Tressa, Chizuru hoặc Heidemarie có thể liên tục kích hoạt cơ chế này; Cassius và Rei tăng sát thương đánh thêm rất hiệu quả."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Luke",
+      "note": {
+        "en": "Luke's many attack activations efficiently trigger Hugo's Extra Attacks.",
+        "vi": "Luke kích hoạt nhiều Tấn công, giúp kích hoạt hiệu quả Đòn đánh thêm của Hugo."
+      }
+    },
+    {
+      "name": "Tressa",
+      "note": {
+        "en": "Unsheathe Dagger supplies skills for Commence the Hunt and attacks to consume its stacks.",
+        "vi": "Unsheathe Dagger cung cấp Kỹ năng cho Bắt đầu cuộc săn và các đòn Tấn công để dùng cộng dồn."
+      }
+    },
+    {
+      "name": "Sereniel",
+      "note": {
+        "en": "Frequent attacks drive Hugo well, especially when Selena supplies additional skills for Commence the Hunt.",
+        "vi": "Nhiều đòn Tấn công phối hợp tốt với Hugo, nhất là khi Selena cung cấp thêm Kỹ năng cho Bắt đầu cuộc săn."
+      }
+    },
+    {
+      "name": "Cassius",
+      "note": {
+        "en": "Additive buffs strongly scale Extra Attacks, while quest-generated skills help sustain Commence the Hunt.",
+        "vi": "Tăng sát thương cộng thêm khuếch đại mạnh Đòn đánh thêm, còn Kỹ năng từ nhiệm vụ giúp duy trì Bắt đầu cuộc săn."
+      }
+    },
+    {
+      "name": "Tiphera",
+      "note": {
+        "en": "Abundant skills and AP make Hugo easier to operate, though her buffs fit him less well than Cassius's.",
+        "vi": "Nhiều Kỹ năng và Điểm hành động giúp Hugo dễ vận hành, nhưng hiệu ứng tăng sức mạnh của cô kém phù hợp hơn Cassius."
+      }
+    },
+    {
+      "name": "Heidemarie",
+      "note": {
+        "en": "Sword Rain III triggers every hit at full Commence the Hunt value before its stacks decrease.",
+        "vi": "Mọi lần đánh của Sword Rain III tận dụng đầy đủ Bắt đầu cuộc săn trước khi cộng dồn bị giảm."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Commence the Heide (HDMI Hugo Driver)",
+        "vi": "Heidemarie hỗ trợ Hugo"
+      },
+      "members": [
+        "Heidemarie",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "H2O Trio Carry",
+        "vi": "Bộ ba Hilde, Hugo và Olga"
+      },
+      "members": [
+        "Olga",
+        "Hilde",
+        "Hugo"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Hilde)",
+        "vi": "Hilde hỗ trợ Hugo"
+      },
+      "members": [
+        "Hugo",
+        "Hilde",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Luke)",
+        "vi": "Luke hỗ trợ Hugo"
+      },
+      "members": [
+        "Luke",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Triple-H Trio Carry",
+        "vi": "Bộ ba Haru, Hilde và Hugo"
+      },
+      "members": [
+        "Hugo",
+        "Hilde",
+        "Haru"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Chizuru - Anika Variant)",
+        "vi": "Hỗ trợ Hugo — Chizuru và Anika"
+      },
+      "members": [
+        "Hugo",
+        "Chizuru",
+        "Anika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Tressa)",
+        "vi": "Tressa hỗ trợ Hugo"
+      },
+      "members": [
+        "Tressa",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hugo Driver (Chizuru - Cassius Variant)",
+        "vi": "Hỗ trợ Hugo — Chizuru và Cassius"
+      },
+      "members": [
+        "Hugo",
+        "Chizuru",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

@@ -1,46 +1,251 @@
 {
   "characterId": "1041",
   "terms": [
-    { "id": "TERM_DESTROY", "title": "Destroy", "desc": "Kích hoạt phần hiệu ứng sau Destroy: khi lá bài đánh vỡ thanh Tenacity khiến mục tiêu vào trạng thái Ravage, hoặc đánh vào mục tiêu đang Ravage. Không cần tiêu diệt mục tiêu.<br>Ví dụ: Destroy: +1 Hit — thêm 1 lần đánh khi đủ điều kiện." },
-    { "id": "TERM_ATTUNEMENT", "title": "Attunement", "desc": "Kích hoạt phần hiệu ứng sau Attunement: ngay khi lá bài được đưa lên tay, kể cả rút bài đầu lượt. Không cần sử dụng lá bài; các hiệu ứng khác trên lá không tự kích hoạt.<br>Ví dụ: Attunement: +1 AP — nhận ngay 1 AP khi lá bài lên tay." },
-    { "id": "CARD_SHIELD", "title": "Shield", "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo." },
-    { "id": "CARD_PLACE_DISCARD_2", "title": "Discard Pile", "desc": "Nơi chứa các lá đã bị Discard (tối đa <cc>200</> lá)." },
-    { "id": "CARD_DISCARD", "title": "Discard", "desc": "Bỏ lá này từ tay vào <color_orange><u>Discard Pile</u></>." },
-    { "id": "CARD_DECK_2", "title": "Draw Pile", "desc": "Chồng bài dùng để <color_orange><u>Draw</u></>." },
-    { "id": "TALENT_INNATE", "title": "Initiation", "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Draw Pile</u></>." },
-    { "id": "CARD_TOMB", "title": "Graveyard", "desc": "Gồm các lá đã được Activate trong lượt này hoặc đang ở <color_orange><u>Discard Pile</u></>." },
-    { "id": "TALENT_EXHAUST", "title": "Exhaust", "desc": "Khi lá này được Activate, chuyển nó vào Exhaust Pile." },
-    { "id": "CARD_ADDITIONAL_ATTACK", "title": "Extra Attack", "desc": "Sát thương chịu ảnh hưởng của Critical Chance và Extra Damage." },
-    { "id": "T_CS00_0025", "title": "Mark", "desc": "Khi một lá Attack được Activate, gây <color_orange>100%</> <color_orange><u>Extra Attack</u></> và <color_orange><u>Tenacity Damage</u></> tương ứng với Cost <cc>0</>, đồng thời giảm <cc>1</> <color_orange><u>Mark</u></>." },
-    { "id": "CARD_ACTIVATE", "title": "Activate", "desc": "Sử dụng hoặc kích hoạt một lá bài." },
-    { "id": "CARD_DRAW", "title": "Draw", "desc": "Chuyển một lá từ <color_orange><u>Draw Pile</u></> lên tay." },
-    { "id": "TALENT_RECALL", "title": "Retrieve", "desc": "Nếu lá này chuyển vào <color_orange><u>Graveyard</u></>, đưa nó trở lại tay.<br>Khi Activate, loại bỏ Retrieve." },
-    { "id": "TALENT_RETAIN", "title": "Retain", "desc": "Lá này không bị Discard khi kết thúc lượt." },
-    { "id": "TALENT_BULLET", "title": "Bullet", "desc": "Chỉ các lá có từ khóa Bullet." },
-    { "id": "RENOA_DIRGE_BULLET", "title": "Dirge Bullet", "desc": "Tên lá bài được tạo bởi bộ bài của Renoa; giữ nguyên tên trong bản dịch." },
-    { "id": "CARD_ATK", "title": "Attack", "desc": "Loại lá bài tấn công." },
-    { "id": "CARD_SKILL", "title": "Skill", "desc": "Loại lá bài kỹ năng." },
-    { "id": "CARD_POWER", "title": "Upgrade", "desc": "Loại lá bài nâng cấp." },
-    { "id": "TERM_COST", "title": "Cost", "desc": "Chi phí sử dụng lá bài." },
-    { "id": "TERM_HP", "title": "HP", "desc": "Máu của nhân vật hoặc kẻ địch." },
-    { "id": "TERM_COMBATANT", "title": "Combatant", "desc": "Nhân vật tham chiến; lá của Combatant khác là lá thuộc nhân vật khác." },
-    { "id": "TERM_CRITICAL_CHANCE", "title": "Critical Chance", "desc": "Tỷ lệ chí mạng." },
-    { "id": "TERM_EXTRA_DAMAGE", "title": "Extra Damage", "desc": "Sát thương bổ sung." },
-    { "id": "TERM_TENACITY_DAMAGE", "title": "Tenacity Damage", "desc": "Sát thương lên thanh Tenacity." },
-    { "id": "TERM_EXHAUST_PILE", "title": "Exhaust Pile", "desc": "Nơi chứa các lá đã bị Exhaust." },
-    { "id": "RENOA_ROSES_RESOLVE", "title": "Rose’s Resolve", "desc": "Hiệu ứng từ Manifest Ego cấp 4 của Renoa: mỗi cộng dồn tăng 10% lượng sát thương, tối đa 4 cộng dồn; bị loại bỏ khi Shuffle." },
-    { "id": "RENOA_DIRGE_BULLET_FINALE", "title": "Dirge Bullet: Finale", "desc": "Lá bài được tạo bởi Manifest Ego cấp 2 của Renoa: cứ tạo 4 lá Dirge Bullet thì tạo 1 lá Dirge Bullet: Finale." },
-    { "id": "TERM_SHUFFLE", "title": "Shuffle", "desc": "Xáo bài." },
-    { "id": "TERM_CRITICAL_DAMAGE", "title": "Critical Damage", "desc": "Sát thương chí mạng." },
-    { "id": "TERM_BASIC_CARDS", "title": "Basic Cards", "desc": "Nhóm lá bài cơ bản." },
-    { "id": "TERM_COMMON_CARDS", "title": "Common Cards", "desc": "Nhóm lá bài chung." },
-    { "id": "TERM_SIGNATURE_CARDS", "title": "Signature Cards", "desc": "Nhóm lá bài đặc trưng của nhân vật." },
-    { "id": "TERM_BASIC_CARD_UPGRADE", "title": "Basic Card Upgrade", "desc": "Nâng cấp trong Potential giúp tăng sát thương, lượng Shield nhận được và lượng hồi máu của Basic Cards." },
-    { "id": "TERM_COMMON_CARD_UPGRADE", "title": "Common Card Upgrade", "desc": "Nâng cấp trong Potential giúp tăng sát thương, lượng Shield nhận được và lượng hồi máu của Common Cards." },
-    { "id": "TERM_SIGNATURE_CARD_UPGRADE", "title": "Signature Card Upgrade", "desc": "Nâng cấp trong Potential giúp tăng sát thương, lượng Shield nhận được và lượng hồi máu của Signature Cards." },
-    { "id": "TERM_EPIPHANY", "title": "Epiphany", "desc": "Cơ chế thức tỉnh của lá bài." },
-    { "id": "TERM_DIVINE_EPIPHANY", "title": "Divine Epiphany", "desc": "Một dạng Epiphany đặc biệt; Potential Divine Epiphany Adaptation tăng xác suất xuất hiện dạng này." },
-    { "id": "TERM_RARE_CARD", "title": "Rare Card", "desc": "Lá bài có độ hiếm Rare." },
-    { "id": "TERM_CHAOS", "title": "Chaos", "desc": "Tên chế độ được nhắc đến trong hiệu ứng Epiphany Bonus; giữ nguyên tên trong bản dịch." }
+    {
+      "id": "TERM_DESTROY",
+      "title": "Phá vỡ",
+      "desc": "Kích hoạt phần hiệu ứng sau Phá vỡ: khi lá bài đánh vỡ thanh Sức bền khiến mục tiêu vào trạng thái Suy yếu, hoặc đánh vào mục tiêu đang Suy yếu. Không cần tiêu diệt mục tiêu.<br>Ví dụ: Phá vỡ: +1 lần đánh — thêm 1 lần đánh khi đủ điều kiện.",
+      "englishTitle": "Destroy"
+    },
+    {
+      "id": "TERM_ATTUNEMENT",
+      "title": "Điều hòa",
+      "desc": "Kích hoạt phần hiệu ứng sau Điều hòa: ngay khi lá bài được đưa lên tay, kể cả rút bài đầu lượt. Không cần sử dụng lá bài; các hiệu ứng khác trên lá không tự kích hoạt.<br>Ví dụ: Điều hòa: +1 Điểm hành động — nhận ngay 1 Điểm hành động khi lá bài lên tay.",
+      "englishTitle": "Attunement"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishTitle": "Shield"
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá).",
+      "englishTitle": "Discard Pile"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Discard"
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishTitle": "Draw Pile"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishTitle": "Initiation"
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "desc": "Gồm các lá đã được Kích hoạt trong lượt này hoặc đang ở <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Graveyard"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được Kích hoạt, chuyển nó vào Chồng bài kiệt sức.",
+      "englishTitle": "Exhaust"
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung.",
+      "englishTitle": "Extra Attack"
+    },
+    {
+      "id": "T_CS00_0025",
+      "title": "Dấu ấn",
+      "desc": "Khi một lá Tấn công được Kích hoạt, gây <color_orange>100%</> <color_orange><u>Đòn đánh thêm</u></> và <color_orange><u>Sát thương sức bền</u></> tương ứng với chi phí <cc>0</>, đồng thời giảm <cc>1</> <color_orange><u>Dấu ấn</u></>.",
+      "englishTitle": "Mark"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishTitle": "Activate"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishTitle": "Draw"
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "desc": "Nếu lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay.<br>Khi Kích hoạt, loại bỏ Thu hồi.",
+      "englishTitle": "Retrieve"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishTitle": "Retain"
+    },
+    {
+      "id": "TALENT_BULLET",
+      "title": "Đạn",
+      "desc": "Chỉ các lá có từ khóa Đạn.",
+      "englishTitle": "Bullet"
+    },
+    {
+      "id": "RENOA_DIRGE_BULLET",
+      "title": "Dirge Bullet",
+      "desc": "Tên lá bài được tạo bởi bộ bài của Renoa; giữ nguyên tên trong bản dịch.",
+      "englishTitle": "Dirge Bullet"
+    },
+    {
+      "id": "CARD_ATK",
+      "title": "Tấn công",
+      "desc": "Loại lá bài tấn công.",
+      "englishTitle": "Attack"
+    },
+    {
+      "id": "CARD_SKILL",
+      "title": "Kỹ năng",
+      "desc": "Loại lá bài kỹ năng.",
+      "englishTitle": "Skill"
+    },
+    {
+      "id": "CARD_POWER",
+      "title": "Cường hóa",
+      "desc": "Loại lá bài nâng cấp.",
+      "englishTitle": "Upgrade"
+    },
+    {
+      "id": "TERM_COST",
+      "title": "Chi phí",
+      "desc": "Chi phí sử dụng lá bài.",
+      "englishTitle": "Cost"
+    },
+    {
+      "id": "TERM_HP",
+      "title": "Máu",
+      "desc": "Máu của nhân vật hoặc kẻ địch.",
+      "englishTitle": "HP"
+    },
+    {
+      "id": "TERM_COMBATANT",
+      "title": "Nhân vật",
+      "desc": "Nhân vật tham chiến; lá của Nhân vật khác là lá thuộc nhân vật khác.",
+      "englishTitle": "Combatant"
+    },
+    {
+      "id": "TERM_CRITICAL_CHANCE",
+      "title": "Tỷ lệ chí mạng",
+      "desc": "Tỷ lệ chí mạng.",
+      "englishTitle": "Critical Chance"
+    },
+    {
+      "id": "TERM_EXTRA_DAMAGE",
+      "title": "Sát thương bổ sung",
+      "desc": "Chỉ số ảnh hưởng đến sát thương của Đòn đánh thêm.",
+      "englishTitle": "Extra Damage"
+    },
+    {
+      "id": "TERM_TENACITY_DAMAGE",
+      "title": "Sát thương sức bền",
+      "desc": "Sát thương lên thanh Sức bền.",
+      "englishTitle": "Tenacity Damage"
+    },
+    {
+      "id": "TERM_EXHAUST_PILE",
+      "title": "Chồng bài kiệt sức",
+      "desc": "Nơi chứa các lá đã bị Kiệt sức.",
+      "englishTitle": "Exhaust Pile"
+    },
+    {
+      "id": "RENOA_ROSES_RESOLVE",
+      "title": "Quyết tâm hoa hồng",
+      "desc": "Hiệu ứng từ Thức tỉnh Ego cấp 4 của Renoa: mỗi cộng dồn tăng 10% lượng sát thương, tối đa 4 cộng dồn; bị loại bỏ khi xáo bài.",
+      "englishTitle": "Rose’s Resolve"
+    },
+    {
+      "id": "RENOA_DIRGE_BULLET_FINALE",
+      "title": "Dirge Bullet: Finale",
+      "desc": "Lá bài được tạo bởi Thức tỉnh Ego cấp 2 của Renoa: cứ tạo 4 lá Dirge Bullet thì tạo 1 lá Dirge Bullet: Finale.",
+      "englishTitle": "Dirge Bullet: Finale"
+    },
+    {
+      "id": "TERM_SHUFFLE",
+      "title": "Xáo bài",
+      "desc": "Xáo bài.",
+      "englishTitle": "Shuffle"
+    },
+    {
+      "id": "TERM_CRITICAL_DAMAGE",
+      "title": "Sát thương chí mạng",
+      "desc": "Sát thương chí mạng.",
+      "englishTitle": "Critical Damage"
+    },
+    {
+      "id": "TERM_BASIC_CARDS",
+      "title": "Bài cơ bản",
+      "desc": "Nhóm lá bài cơ bản.",
+      "englishTitle": "Basic Cards"
+    },
+    {
+      "id": "TERM_COMMON_CARDS",
+      "title": "Bài chung",
+      "desc": "Nhóm lá bài chung.",
+      "englishTitle": "Common Cards"
+    },
+    {
+      "id": "TERM_SIGNATURE_CARDS",
+      "title": "Bài đặc trưng",
+      "desc": "Nhóm lá bài đặc trưng của nhân vật.",
+      "englishTitle": "Signature Cards"
+    },
+    {
+      "id": "TERM_BASIC_CARD_UPGRADE",
+      "title": "Nâng cấp bài cơ bản",
+      "desc": "Nâng cấp trong Tiềm năng giúp tăng sát thương, lượng Lá chắn nhận được và lượng hồi máu của Bài cơ bản.",
+      "englishTitle": "Basic Card Upgrade"
+    },
+    {
+      "id": "TERM_COMMON_CARD_UPGRADE",
+      "title": "Nâng cấp bài chung",
+      "desc": "Nâng cấp trong Tiềm năng giúp tăng sát thương, lượng Lá chắn nhận được và lượng hồi máu của Bài chung.",
+      "englishTitle": "Common Card Upgrade"
+    },
+    {
+      "id": "TERM_SIGNATURE_CARD_UPGRADE",
+      "title": "Nâng cấp bài đặc trưng",
+      "desc": "Nâng cấp trong Tiềm năng giúp tăng sát thương, lượng Lá chắn nhận được và lượng hồi máu của Bài đặc trưng.",
+      "englishTitle": "Signature Card Upgrade"
+    },
+    {
+      "id": "TERM_EPIPHANY",
+      "title": "Thức tỉnh bài",
+      "desc": "Cơ chế thức tỉnh của lá bài.",
+      "englishTitle": "Epiphany"
+    },
+    {
+      "id": "TERM_DIVINE_EPIPHANY",
+      "title": "Thức tỉnh thần thánh",
+      "desc": "Một dạng Thức tỉnh bài đặc biệt; Tiềm năng Thích ứng thức tỉnh thần thánh tăng xác suất xuất hiện dạng này.",
+      "englishTitle": "Divine Epiphany"
+    },
+    {
+      "id": "TERM_RARE_CARD",
+      "title": "Bài hiếm",
+      "desc": "Lá bài có độ hiếm Hiếm.",
+      "englishTitle": "Rare Card"
+    },
+    {
+      "id": "TERM_CHAOS",
+      "title": "Chaos",
+      "desc": "Tên chế độ được nhắc đến trong hiệu ứng Thưởng thức tỉnh bài; giữ nguyên tên trong bản dịch.",
+      "englishTitle": "Chaos"
+    }
   ]
 }

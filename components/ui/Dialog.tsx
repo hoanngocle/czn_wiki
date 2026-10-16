@@ -6,7 +6,7 @@ import styles from "./Dialog.module.css";
 let openDialogs = 0;
 let originalOverflow = "";
 
-export function Dialog({ title, onClose, children, immersive = false }: { title: string; onClose: () => void; children: ReactNode; immersive?: boolean }) {
+export function Dialog({ title, onClose, children, immersive = false, closeLabel = "Close dialog" }: { title: string; onClose: () => void; children: ReactNode; immersive?: boolean; closeLabel?: string }) {
   const titleId = useId();
   const panel = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -39,7 +39,7 @@ export function Dialog({ title, onClose, children, immersive = false }: { title:
 
   return <div className={`${styles.backdrop} ${immersive ? styles.immersiveBackdrop : ""}`} onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
     <div ref={panel} className={`${styles.panel} ${immersive ? styles.immersivePanel : ""}`} role="dialog" aria-modal="true" aria-labelledby={titleId}>
-      <div className={`${styles.header} ${immersive ? styles.immersiveHeader : ""}`}><h2 id={titleId}>{title}</h2><button ref={closeRef} type="button" aria-label="Close dialog" onClick={onClose}>×</button></div>
+      <div className={`${styles.header} ${immersive ? styles.immersiveHeader : ""}`}><h2 id={titleId}>{title}</h2><button ref={closeRef} type="button" aria-label={closeLabel} onClick={onClose}>×</button></div>
       {children}
     </div>
   </div>;

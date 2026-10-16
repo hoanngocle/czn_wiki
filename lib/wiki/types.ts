@@ -53,6 +53,7 @@ export type CharacterDetail = SourceRef & {
   potentialNodes: { id: string; desc: string; node_level: string; node_num: string; max_level: string; potential_node_type_define?: { main_title?: string; sub_title?: string }; upgrade_nodes: { id: string; desc: string; node_level: string; node_num: string; max_level: string; potential_node_type_define?: { main_title?: string; sub_title?: string } }[] }[];
   potentialTargetCards: Card[];
   potentialTargetLinkCardId: string | null;
+  potentialTargetLinkCardIds?: string[];
 };
 
 export type AssetRecord = {

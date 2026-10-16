@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+});
+
 // Run with PLAYWRIGHT_DEV_SERVER=1 to catch React's development-only
 // attribute mismatch diagnostics as well as recoverable hydration errors.
 const themes = [

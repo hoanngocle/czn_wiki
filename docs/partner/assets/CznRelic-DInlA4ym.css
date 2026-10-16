@@ -1,0 +1,244 @@
+.czn-relic[data-v-5e9fef77] {
+    display: inline-block
+}
+
+.relic-card[data-v-5e9fef77] {
+    background: var(--bg-card);
+    border: 1px solid var(--border-secondary);
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    transition: all var(--transition-normal);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden
+}
+
+.relic-header[data-v-5e9fef77] {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-shrink: 0
+}
+
+.relic-icon-container[data-v-5e9fef77] {
+    flex-shrink: 0;
+    width: 100px;
+    aspect-ratio: 152 / 232;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden
+}
+
+.relic-icon-bg[data-v-5e9fef77] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1
+}
+
+.relic-icon[data-v-5e9fef77] {
+    position: relative;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+    z-index: 2
+}
+
+.relic-type-icon[data-v-5e9fef77] {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, .5))
+}
+
+.relic-info[data-v-5e9fef77] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem
+}
+
+.relic-name-wrapper[data-v-5e9fef77] {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    min-height: 1.5rem;
+    line-height: 1.5rem
+}
+
+.relic-name[data-v-5e9fef77] {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-primary);
+    line-height: 1.5rem
+}
+
+.relic-star-rating[data-v-5e9fef77] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: .25rem
+}
+
+.star-rating-stars[data-v-5e9fef77] {
+    display: flex;
+    align-items: center;
+    gap: 2px
+}
+
+.star-icon[data-v-5e9fef77] {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    flex-shrink: 0
+}
+
+.relic-badges[data-v-5e9fef77] {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    min-height: 1.75rem
+}
+
+.badge[data-v-5e9fef77] {
+    padding: .25rem .5rem;
+    border-radius: var(--radius-sm);
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    height: 1.75rem;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box
+}
+
+.badge.rarity.common[data-v-5e9fef77] {
+    background: var(--bg-secondary);
+    color: var(--text-secondary)
+}
+
+.badge.rarity.uncommon[data-v-5e9fef77] {
+    background: #50a93e;
+    color: #fff
+}
+
+.badge.rarity.rare[data-v-5e9fef77] {
+    background: #4caf50;
+    color: #fff
+}
+
+.badge.rarity.legend[data-v-5e9fef77] {
+    background: #ff9800;
+    color: #fff
+}
+
+.badge.rarity.unique[data-v-5e9fef77] {
+    background: #9c27b0;
+    color: #fff
+}
+
+.badge.shop[data-v-5e9fef77] {
+    background: #2196f3;
+    color: #fff
+}
+
+.relic-attributes[data-v-5e9fef77] {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background: #80808026;
+    border-radius: var(--radius-sm);
+    padding: .5rem;
+    min-height: 2rem;
+    width: 100%
+}
+
+.attribute-item[data-v-5e9fef77] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    box-sizing: border-box
+}
+
+.attribute-label[data-v-5e9fef77] {
+    color: var(--text-secondary);
+    font-weight: 500
+}
+
+.attribute-value[data-v-5e9fef77] {
+    color: var(--text-primary);
+    font-weight: 600
+}
+
+.relic-skills[data-v-5e9fef77] {
+    margin-top: .5rem;
+    padding-top: .5rem;
+    border-top: 1px solid var(--border-secondary)
+}
+
+.skill-item[data-v-5e9fef77] {
+    margin-bottom: 0
+}
+
+.skill-item[data-v-5e9fef77]:not(:last-child) {
+    margin-bottom: .5rem
+}
+
+.skill-description[data-v-5e9fef77] {
+    font-size: .9rem;
+    color: var(--text-secondary);
+    line-height: 1.4
+}
+
+.ribbon-wrapper[data-v-5e9fef77] {
+    font-size: 16px;
+    width: 5.5em;
+    height: 5.5em;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    pointer-events: none
+}
+
+.ribbon[data-v-5e9fef77] {
+    font-size: .5em;
+    font-weight: 700;
+    font-family: Sans-Serif;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 1.2em;
+    right: -1.8em;
+    width: 8em;
+    padding: .4em 0;
+    background: linear-gradient(135deg, #ff6b6b, #ee5253);
+    box-shadow: 0 2px 4px #0000004d;
+    border: 1px solid rgba(255, 255, 255, .2)
+}
+
+.ribbon-new[data-v-5e9fef77] {
+    background: linear-gradient(135deg, #ff6b6b, #ee5253)
+}

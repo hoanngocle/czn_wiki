@@ -1,0 +1,75 @@
+{
+  "characterId": "1040",
+  "terms": [
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "englishTitle": "Extra Attack",
+      "englishDesc": "Damage affected by Critical Chance and Extra Damage",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung."
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "T_CS00_0001",
+      "title": "Sĩ khí",
+      "englishTitle": "Morale",
+      "englishDesc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi <color_orange><u>Sĩ khí</u></>"
+    },
+    {
+      "id": "TRIGGER_RETAIN",
+      "title": "Giữ lại:",
+      "englishTitle": "Retain:",
+      "englishDesc": "When this card is Retained, activate effect",
+      "desc": "Khi lá này được Giữ lại, kích hoạt hiệu ứng"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "englishTitle": "Exhaust 2",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d <color_orange>2</> time(s), move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển nó vào Chồng bài <color_orange><u>kiệt sức</u></>."
+    }
+  ]
+}

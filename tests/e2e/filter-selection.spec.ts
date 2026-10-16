@@ -1,4 +1,8 @@
 import { expect, test } from "@playwright/test";
+
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+});
 import characters from "../../data/wiki/characters.json";
 
 test("each filter row replaces its selection and clicking it again restores all combatants", async ({ page }) => {
@@ -7,9 +11,9 @@ test("each filter row replaces its selection and clicking it again restores all 
   const combatants = characters.filter((character) => character.kind === "combatant");
 
   for (const { first, second, expected } of [
-    { first: "Job hunter", second: "Job knight", expected: combatants.filter((character) => character.job === "knight") },
+    { first: "Job hunter", second: "Job vanguard", expected: combatants.filter((character) => character.job === "vanguard") },
     { first: "Ego creed", second: "Ego love", expected: combatants.filter((character) => character.ego === "love") },
-    { first: "▲▲▲▲▲", second: "▲▲▲▲", expected: combatants.filter((character) => character.rarity === 4) },
+    { first: "5 stars", second: "4 stars", expected: combatants.filter((character) => character.rarity === 4) },
   ]) {
     const previous = page.getByRole("button", { name: first, exact: true });
     const next = page.getByRole("button", { name: second, exact: true });
@@ -29,7 +33,7 @@ test("each filter row replaces its selection and clicking it again restores all 
 test("switching a job preserves the selected ego and rarity", async ({ page }) => {
   await page.goto("/combatant");
   const ego = page.getByRole("button", { name: "Ego love", exact: true });
-  const rarity = page.getByRole("button", { name: "▲▲▲▲▲", exact: true });
+  const rarity = page.getByRole("button", { name: "5 stars", exact: true });
   await ego.click();
   await rarity.click();
   await page.getByRole("button", { name: "Job hunter", exact: true }).click();

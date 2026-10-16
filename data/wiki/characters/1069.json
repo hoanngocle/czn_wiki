@@ -1,0 +1,2716 @@
+{
+  "id": "1069",
+  "name": "Tenebria",
+  "names": {
+    "en": "Tenebria",
+    "zhs": "泰妮布里雅",
+    "zht": "泰妮布里雅"
+  },
+  "job": "psionic",
+  "ego": "love",
+  "rarity": 5,
+  "color": "#f396b2",
+  "info": {
+    "background_text": "<color_darkgray>The galaxy's #1 idol, and the brightest shining star</><br>The top idol in the galaxy. Her bright smile and boundless energy have won the hearts of countless fans. Anyone who has witnessed Tenebria's performance is instantly captivated by her extraordinary vocal talent and overwhelming stage presence. There's simply no escaping it.",
+    "birth_day": "ui_label_day_20th",
+    "birth_month": "ui_label_month_july",
+    "cv_en": "Not included",
+    "cv_ja": "Manami Numakura",
+    "cv_ko": "Hyewon Jung",
+    "cv_zhs": "Xiao Gan",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "1069_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@1069_info",
+    "id": "1069_info",
+    "link_combatant_face_group": "1069_face",
+    "link_combatant_voice_group": "1069_voice",
+    "link_live_event_id": "live_event_1069",
+    "link_story_content_counseling_key": "story_counseling_1069",
+    "link_town_normal_visit_group": "normal_visit_1069",
+    "link_town_policy_reaction_id": "1069",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "1069_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[1069_small_talk_01,1069_small_talk_02,1069_small_talk_03,1069_small_talk_04]",
+    "specialty": "combatant_info@specialty@1069_info",
+    "stage_success_link_combatant_voice_id": "1069_stage_success_01",
+    "touch_link_combatant_voice_id": "[1069_touch_01,1069_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_1069_srt1",
+      "name": "Sound Check",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1069_01.webp",
+      "video": null,
+      "artKey": "start_1069_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_1069_srt1_pot",
+          "name": "Sound Check",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br><color_orange>Incinerate:</> <color_orange><u>Heal</u></> <color_orange>50%</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1069_01.webp",
+          "video": null,
+          "artKey": "start_1069_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt1_pot"
+        }
+      ],
+      "sourceId": "c_1069_srt1"
+    },
+    {
+      "id": "c_1069_srt2",
+      "name": "Sound Check",
+      "cost": 1,
+      "description": "<color_orange>100%</> Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1069_01.webp",
+      "video": null,
+      "artKey": "start_1069_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_1069_srt2_pot",
+          "name": "Sound Check",
+          "cost": 1,
+          "description": "<color_orange>100%</> Damage<br><color_orange>Incinerate:</> <color_orange><u>Heal</u></> <color_orange>50%</>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_1069_01.webp",
+          "video": null,
+          "artKey": "start_1069_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_CURE",
+              "title": "Healing",
+              "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt2_pot"
+        }
+      ],
+      "sourceId": "c_1069_srt2"
+    },
+    {
+      "id": "c_1069_srt3",
+      "name": "Fan Service",
+      "cost": 1,
+      "description": "<color_orange><u>Heal</u></> <color_orange>100%</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_1069_02.webp",
+      "video": null,
+      "artKey": "start_1069_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_CURE",
+          "title": "Healing",
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1069_srt3"
+    },
+    {
+      "id": "c_1069_srt4",
+      "name": "Music, Start!",
+      "cost": 0,
+      "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create and give each ally <color_orange>2</> of their own <cc>Rhythm</> in <color_orange><u>Draw Pile</u></><br>Apply <color_orange><u>Haste</u></> to <color_orange><u>Rhythm card</u></>s of this unit",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1069_06.webp",
+      "video": null,
+      "artKey": "unique_1069_06",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_OPENING",
+          "title": "Opener",
+          "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards",
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+        },
+        {
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust",
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+        },
+        {
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste",
+          "desc": "This card does not reduce the enemy’s Action Count"
+        },
+        {
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile",
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1069_srt4_rsp1",
+          "name": "Music, Start!",
+          "cost": 0,
+          "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create and give each ally <color_orange>2</> of their own <cc>Rhythm: Crescendo</> in <color_orange><u>Draw Pile</u></><br>Apply <color_orange><u>Haste</u></> to <color_orange><u>Rhythm card</u></>s of this unit",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_06.webp",
+          "video": null,
+          "artKey": "unique_1069_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt4_rsp1"
+        },
+        {
+          "id": "c_1069_srt4_rsp2",
+          "name": "Music, Start!",
+          "cost": 0,
+          "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create and give each ally <color_orange>2</> of their own <cc>Rhythm: Staccato</> in <color_orange><u>Draw Pile</u></><br>Apply <color_orange><u>Haste</u></> to <color_orange><u>Rhythm card</u></>s of this unit",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_06.webp",
+          "video": null,
+          "artKey": "unique_1069_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt4_rsp2"
+        },
+        {
+          "id": "c_1069_srt4_rsp3",
+          "name": "Music, Start!",
+          "cost": 0,
+          "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create and give each ally <color_orange>2</> of their own <cc>Rhythm: Fortissimo</> in <color_orange><u>Draw Pile</u></><br>Apply <color_orange><u>Haste</u></> to <color_orange><u>Rhythm card</u></>s of this unit",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_06.webp",
+          "video": null,
+          "artKey": "unique_1069_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt4_rsp3"
+        },
+        {
+          "id": "c_1069_srt4_rsp4",
+          "name": "Music, Start!",
+          "cost": 0,
+          "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create and give each ally <color_orange>2</> of their own <cc>Rhythm: Fermata</> in <color_orange><u>Draw Pile</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_06.webp",
+          "video": null,
+          "artKey": "unique_1069_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt4_rsp4"
+        },
+        {
+          "id": "c_1069_srt4_rsp5",
+          "name": "Music, Start!",
+          "cost": 0,
+          "description": "<color_orange><u>Exhaust</u></> all Basic Attack Cards<br>Create <cc>1</> of each <cc>Rhythm: Arpeggio</> in <color_orange><u>Draw Pile</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_06.webp",
+          "video": null,
+          "artKey": "unique_1069_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_1069_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_1069_uni1",
+      "name": "Spotlight",
+      "cost": 1,
+      "description": "<color_orange>140%</> Damage<br>Move <color_orange>1</> <color_orange><u>Rhythm card</u></>(s) to hand<br>Decrease Cost of those cards by <color_orange>2</> until <color_orange><u>activate</u></>d",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1069_02.webp",
+      "video": null,
+      "artKey": "unique_1069_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards",
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1069_uni1_rsp1",
+          "name": "Spotlight",
+          "cost": 1,
+          "description": "<color_orange>210%</> Damage<br>Move <color_orange>2</> <color_orange><u>Rhythm card</u></>(s) to hand<br>Decrease Cost of <cc>1</> of those cards by <color_orange>2</> until <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_02.webp",
+          "video": null,
+          "artKey": "unique_1069_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni1_rsp1"
+        },
+        {
+          "id": "c_1069_uni1_rsp2",
+          "name": "Spotlight",
+          "cost": 1,
+          "description": "When <cc>3</> <color_orange><u>Rhythm card</u></>s are <color_orange><u>activate</u></>d in a turn, create <color_orange>1</> <cc>Spotlight</> with <color_orange><u>Exhaust</u></> in hand and decrease Cost of those cards by <cc>1</> (<cc>1</> time per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_02.webp",
+          "video": null,
+          "artKey": "unique_1069_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "TALENT_EXHAUST",
+              "title": "Exhaust",
+              "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni1_rsp2"
+        },
+        {
+          "id": "c_1069_uni1_rsp3",
+          "name": "Spotlight",
+          "cost": 2,
+          "description": "<color_orange>350%</> Damage<br>Select and move up to <color_orange>2</> <color_orange><u>Rhythm card</u></>s to hand, then <color_orange><u>proc</u></> those cards",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_02.webp",
+          "video": null,
+          "artKey": "unique_1069_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni1_rsp3"
+        },
+        {
+          "id": "c_1069_uni1_rsp4",
+          "name": "Spotlight",
+          "cost": 0,
+          "description": "Select up to <color_orange>3</> <color_orange><u>Rhythm card</u></>s from among <color_orange><u>Draw Pile</u></> and <color_orange><u>Graveyard</u></> and move those cards to the top of <color_orange><u>Draw Pile</u></><br><color_orange><u>Draw</u></> <color_orange>1</> of those cards",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_02.webp",
+          "video": null,
+          "artKey": "unique_1069_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni1_rsp4"
+        },
+        {
+          "id": "c_1069_uni1_rsp5",
+          "name": "Spotlight",
+          "cost": 0,
+          "description": "<color_orange>140</>% Damage<br><color_orange><u>Draw</u></> <color_orange>2</><br>Of those cards, Discard all non-<color_orange><u>Rhythm card</u></>s",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_02.webp",
+          "video": null,
+          "artKey": "unique_1069_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_1069_uni1"
+    },
+    {
+      "id": "c_1069_uni2",
+      "name": "Call & Response",
+      "cost": 1,
+      "description": "<color_orange>200%</> Damage<br>If in hand, treat as a <color_orange><u>Rhythm card</u></><br><color_orange>Attunement:</> Draw <color_orange>1</> <color_orange><u>Rhythm card(s)</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_1069_01.webp",
+      "video": null,
+      "artKey": "unique_1069_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste",
+          "desc": "This card does not reduce the enemy’s Action Count"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards",
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1069_uni2_rsp1",
+          "name": "Call & Response",
+          "cost": 1,
+          "description": "<color_orange>250%</> Damage<br>If in hand, treat as a <color_orange><u>Rhythm card</u></><br><color_orange>Attunement:</> Draw <color_orange>2</> <color_orange><u>Rhythm card(s)</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_01.webp",
+          "video": null,
+          "artKey": "unique_1069_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni2_rsp1"
+        },
+        {
+          "id": "c_1069_uni2_rsp2",
+          "name": "Call & Response",
+          "cost": 2,
+          "description": "<color_orange>240%</> Damage<br>If in <color_orange><u>Draw Pile</u></> or in hand, <color_orange><u>proc</u></> this card when a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_01.webp",
+          "video": null,
+          "artKey": "unique_1069_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni2_rsp2"
+        },
+        {
+          "id": "c_1069_uni2_rsp3",
+          "name": "Call & Response",
+          "cost": 1,
+          "description": "Draw <cc><color_orange>2</></> <color_orange><u>Rhythm card</u></>(s)<br>If in <color_orange><u>Draw Pile</u></>, <color_orange><u>proc</u></> this card when a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_01.webp",
+          "video": null,
+          "artKey": "unique_1069_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "CARD_DECK_2",
+              "title": "Draw Pile",
+              "desc": "The pile from which cards are <color_orange><u>drawn</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni2_rsp3"
+        },
+        {
+          "id": "c_1069_uni2_rsp4",
+          "name": "Call & Response",
+          "cost": 1,
+          "description": "<color_orange>120%</> Damage<br>When a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d, add <cc>1</> Hit to this card (max <color_orange>5</> times)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_01.webp",
+          "video": null,
+          "artKey": "unique_1069_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni2_rsp4"
+        },
+        {
+          "id": "c_1069_uni2_rsp5",
+          "name": "Call & Response",
+          "cost": 7,
+          "description": "<color_orange>700%</> Damage<br>If in hand, also treat as a <color_orange><u>Rhythm card</u></><br>When a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d, decrease Cost of this card by <color_orange>1</> until this card is <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_1069_01.webp",
+          "video": null,
+          "artKey": "unique_1069_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_NO_COUNT",
+              "title": "Haste",
+              "desc": "This card does not reduce the enemy’s Action Count"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_1069_uni2"
+    },
+    {
+      "id": "c_1069_uni3",
+      "name": "Encore",
+      "cost": 1,
+      "description": "<color_orange>120%</> Damage<br>If the last card <color_orange><u>activate</u></>d was a <color_orange><u>Rhythm card</u></>, <color_orange><u>proc</u></> that card",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_1069_04.webp",
+      "video": null,
+      "artKey": "unique_1069_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards",
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+        },
+        {
+          "id": "CARD_USE",
+          "title": "Proc",
+          "desc": "Activating a card through an effect"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1069_uni3_rsp1",
+          "name": "Encore",
+          "cost": 1,
+          "description": "<color_orange>120%</> Damage<br>If the last card <color_orange><u>activate</u></>d was a <color_orange><u>Rhythm card</u></>, <color_orange><u>proc</u></> that card <color_orange>2</> times",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1069_04.webp",
+          "video": null,
+          "artKey": "unique_1069_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni3_rsp1"
+        },
+        {
+          "id": "c_1069_uni3_rsp2",
+          "name": "Encore",
+          "cost": 1,
+          "description": "For every <cc>2</> Rhythm cards <color_orange><u>activate</u></>d, <color_orange>100</>% Damage to the enemy with the lowest HP (<cc>15</> times per turn)",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1069_04.webp",
+          "video": null,
+          "artKey": "unique_1069_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni3_rsp2"
+        },
+        {
+          "id": "c_1069_uni3_rsp3",
+          "name": "Encore",
+          "cost": 1,
+          "description": "For the next <cc><color_orange>3</></> <color_orange><u>Rhythm card</u></>(s) <color_orange><u>activate</u></>d, decrease Cost by <cc>1</> and add <cc>1</> Hit",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1069_04.webp",
+          "video": null,
+          "artKey": "unique_1069_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni3_rsp3"
+        },
+        {
+          "id": "c_1069_uni3_rsp4",
+          "name": "Encore",
+          "cost": 3,
+          "description": "<color_orange><u>Proc</u></> all <color_orange><u>Rhythm card</u></>s in <color_orange><u>Graveyard</u></>",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1069_04.webp",
+          "video": null,
+          "artKey": "unique_1069_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_TOMB",
+              "title": "Graveyard",
+              "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni3_rsp4"
+        },
+        {
+          "id": "c_1069_uni3_rsp5",
+          "name": "Encore",
+          "cost": 0,
+          "description": "<color_orange><u>Draw</u></> <color_orange>1</><br>If that card was a <color_orange><u>Rhythm card</u></>, increase Damage Amount by <color_orange>100</>% until <color_orange><u>activate</u></>d for <cc>1</> turn and repeat <cc>1</> more time (max <cc>2</> times)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_1069_04.webp",
+          "video": null,
+          "artKey": "unique_1069_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_1069_uni3"
+    },
+    {
+      "id": "c_1069_uni4",
+      "name": "Photo Time",
+      "cost": 1,
+      "description": "+<color_orange>1</> <color_orange><u>Performance Buzz</u></><br>If a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d or moved to hand, increase <color_orange><u>Performance Buzz</u></> by <color_orange>1</> until this card is <color_orange><u>activate</u></>d (max <cc>9</> times)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_1069_05.webp",
+      "video": null,
+      "artKey": "unique_1069_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards",
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+        },
+        {
+          "id": "T_CS_1069_08",
+          "title": "Performance Buzz",
+          "desc": "At the end of the turn, <color_orange>100%</> Damage × Performance Buzz count to random enemies<br>At the end of the turn, remove Performance Buzz (max <color_orange>10</> stacks)"
+        },
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_1069_uni4_lbk",
+          "name": "Photo Time",
+          "cost": 1,
+          "description": "+<color_orange>1</> <color_orange><u>Performance Buzz</u></><br>If a <color_orange><u>Rhythm card</u></> is <color_orange><u>activate</u></>d or moved to hand, increase <color_orange><u>Performance Buzz</u></> by <color_orange>1</> until this card is <color_orange><u>activate</u></>d (max <cc>9</> times)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_1069_05.webp",
+          "video": null,
+          "artKey": "unique_1069_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards",
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+            },
+            {
+              "id": "T_CS_1069_09",
+              "title": "Performance Buzz",
+              "desc": "At the end of the turn, <color_orange>150%</> Damage × Performance Buzz count to random enemies<br>At the end of the turn, remove Performance Buzz (max <color_orange>10</> stack(s))"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_1069_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_1069_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_1069_eps",
+    "name": "Everyone’s Idol",
+    "cost": 7,
+    "description": "For the next <color_orange>7</> <color_orange><u>Rhythm card</u></>s <color_orange><u>activate</u></>d, increase Damage Amount of <color_orange><u>Rhythm card</u></>s by <cc><color_orange>7</></>%<br>If <color_orange><u>activate</u></>d <color_orange>7</> times, add <color_orange>1</> Hit(s) to the next <color_orange>7</> <color_orange><u>Rhythm card</u></>(s) <color_orange><u>activate</u></>d",
+    "category": "CARD_SKILL",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_1069_01.webp",
+    "video": null,
+    "artKey": "collapse_1069_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "TALENT_RHYTHM",
+        "title": "Rhythm Cards",
+        "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+      },
+      {
+        "id": "CARD_ACTIVATE",
+        "title": "Activate",
+        "desc": "Using or proccing a card"
+      }
+    ],
+    "variants": [
+      {
+        "id": "c_1069_eps_lbk",
+        "name": "Everyone’s Idol",
+        "cost": 7,
+        "description": "For the next <color_orange>7</> <color_orange><u>Rhythm card</u></>s <color_orange><u>activate</u></>d, increase Damage Amount of <color_orange><u>Rhythm card</u></>s by <cc>11</>%<br>If <color_orange><u>activate</u></>d <color_orange>7</> times, add <color_orange>1</> Hit(s) to the next <color_orange>7</> <color_orange><u>Rhythm card</u></>(s) <color_orange><u>activate</u></>d",
+        "category": "CARD_SKILL",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_1069_01.webp",
+        "video": null,
+        "artKey": "collapse_1069_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "TALENT_RHYTHM",
+            "title": "Rhythm Cards",
+            "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>"
+          },
+          {
+            "id": "CARD_ACTIVATE",
+            "title": "Activate",
+            "desc": "Using or proccing a card"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_1069_eps_lbk"
+      }
+    ],
+    "sourceId": "c_1069_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_1069_col",
+      "name": "Charm",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_1069_02.webp",
+      "video": null,
+      "artKey": "collapse_1069_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1069_col"
+    },
+    {
+      "id": "c_1069_col2",
+      "name": "Charm",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_1069_02.webp",
+      "video": null,
+      "artKey": "collapse_2_1069_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_1069_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "love",
+          "id": "1069",
+          "job": "psionic",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1069_col",
+        "name": "Charm",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_1069_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "love",
+          "id": "1069",
+          "job": "psionic",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_1069_col2",
+        "name": "Charm",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_1069_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "dazzlement",
+    "collapse_illustration": "collapse/collapse_illustration/dazzlement",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "love",
+        "id": "1069",
+        "job": "psionic",
+        "rarity": 5
+      },
+      "card_category": "CARD_SKILL",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 7,
+      "desc_display": "For the next <color_orange>7</> <color_orange><u>Rhythm card</u></>s <color_orange><u>activate</u></>d, increase Damage Amount of <color_orange><u>Rhythm card</u></>s by <cc><color_orange>7</></>%<br>If <color_orange><u>activate</u></>d <color_orange>7</> times, add <color_orange>1</> Hit(s) to the next <color_orange>7</> <color_orange><u>Rhythm card</u></>(s) <color_orange><u>activate</u></>d",
+      "ego_type": "EGO_OWNER",
+      "id": "c_1069_eps",
+      "name": "Everyone’s Idol",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_SKILL",
+          "cost": 7,
+          "desc_display": "For the next <color_orange>7</> <color_orange><u>Rhythm card</u></>s <color_orange><u>activate</u></>d, increase Damage Amount of <color_orange><u>Rhythm card</u></>s by <cc>11</>%<br>If <color_orange><u>activate</u></>d <color_orange>7</> times, add <color_orange>1</> Hit(s) to the next <color_orange>7</> <color_orange><u>Rhythm card</u></>(s) <color_orange><u>activate</u></>d",
+          "ego_type": "EGO_OWNER",
+          "id": "c_1069_eps_lbk",
+          "name": "Everyone’s Idol",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_1069_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_1069_eps_lbk_01",
+            "c_1069_eps_lbk_02",
+            "c_1069_eps_lbk_11",
+            "c_1069_eps_lbk_21",
+            "c_1069_eps_lbk_22",
+            "c_1069_eps_lbk_23",
+            "c_1069_eps_lbk_24",
+            "c_1069_eps_lbk_25",
+            "c_1069_eps_lbk_26"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+              "id": "TALENT_RHYTHM",
+              "title": "Rhythm Cards"
+            },
+            {
+              "desc": "Using or proccing a card",
+              "id": "CARD_ACTIVATE",
+              "title": "Activate"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_1069_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_1069_eps_01",
+        "c_1069_eps_02",
+        "c_1069_eps_11",
+        "c_1069_eps_21",
+        "c_1069_eps_22",
+        "c_1069_eps_23",
+        "c_1069_eps_24",
+        "c_1069_eps_25",
+        "c_1069_eps_26"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Signature cards created by Tenebria<br>Changes Damage Type according to the Class of the unit who owns the card<br>Each time a Rhythm card is <color_orange><u>activate</u></>d, gain <cc>1</> <color_orange><u>Performance Burnout</u></>",
+          "id": "TALENT_RHYTHM",
+          "title": "Rhythm Cards"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_dazzlement",
+    "desc": "collapse_skill@desc@collapse_1069",
+    "id": "collapse_1069",
+    "link_psychosis_id": "psychosis_1004_3",
+    "name": "Charm"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Increases Damage Amount of <color_orange>Performance Buzz</> for the <color_orange><u>Photo Time</></> card from <color_orange>100</>% to <color_orange>150</>%.",
+      "group": "limit_1069",
+      "id": "limit_1069_1",
+      "illust": "unique_1069_05",
+      "link_card_id": "[c_1069_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1,1]",
+      "desc": "At the start of battle, create <color_orange><u>1</></> <color_orange>Photo Card</> card.<br>When an Ego Skill is used, <color_orange>200</>% Damage × original Cost to random enemies.<br><color_orange><u>Photo Card</></>: <color_orange>2</> Ego Points",
+      "group": "limit_1069",
+      "id": "limit_1069_2",
+      "illust": "unique_1069_02",
+      "link_card_id": "[c_1069_bhc1]",
+      "link_cs_id": "[cs_1069_lbk_01,cs_1069_lbk_02]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Increases the Damage Amount increase effect that <color_orange><u>Everyone’s Idol</></> gives to <color_orange>Rhythm cards</> from <color_orange>7</>% to <color_orange>11</>%.",
+      "group": "limit_1069",
+      "id": "limit_1069_3",
+      "illust": "collapse_1069_01",
+      "link_card_id": "[c_1069_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "When a <color_orange>Rhythm card</> is moved to hand or $activate$d, gain <color_orange>Everyone’s Cheer</>.<br><color_orange>Everyone’s Cheer</>: Increase Tenebria’s Damage Amount by <color_orange>1</>% (max <color_orange>20</> stacks)<br>When stacked to max, increase Damage Amount of <color_orange>Rhythm cards</> by an additional <color_orange>10</>%",
+      "group": "limit_1069",
+      "id": "limit_1069_4",
+      "illust": "unique_1069_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_1069_lbk_03]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_1069",
+      "id": "limit_1069_5",
+      "illust": "unique_1069_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1,1]",
+      "desc": "When <color_orange><u>Photo Card</></> is $activate$d, decrease Cost of Tenebria’s next Ego Skill used by <color_orange>3</>.<br>When a Rhythm card is $activate$d, inflicts <color_orange>1</> <color_orange>All Eyes On You</> on the target.<br><color_orange>All Eyes On You</>: Increase Damage Amount taken from <color_orange>Rhythm cards</> by <color_orange>40</>%, and if a <color_orange>Rhythm card</> is $proc$ced, this monster becomes the target of those <color_orange>Rhythm cards</>.<br>When applied to a different target, remove <color_orange>All Eyes On You</>",
+      "group": "limit_1069",
+      "id": "limit_1069_6",
+      "illust": "unique_1069_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_1069_lbk_06,cs_1069_lbk_09]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "10691001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "10692001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "10692002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "10692003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "10692004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "10692005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "10692006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "10692007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "10692008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "10692009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "10692010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "10692011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "10692012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "10692013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "10692014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "10692015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "10692016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "10693001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "10693002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "10693003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "10693004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "10693005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "10693006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "10693007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "10693008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "10693009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "10693010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "10693011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "10693012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "10693013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "10693014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "10693015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "10693016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Add the following effect to <color_orange><u>Sound Check</></>: Incinerate: Heal <color_orange>50</>%.",
+      "id": "10693101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "10694001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "10694002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "10694003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "10694004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "10694005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "10694006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "10694007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "10694008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "10694009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "10694010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "10694011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "10694012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "10694013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "10694014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "10694015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "10694016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "10695001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "10695002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "10695003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "10695004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "10695005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "At the start of battle, increase Damage Amount of Tenebria’s Rhythm cards by <color_orange>10</>%, and if Tenebria’s Attack is <color_orange>500</> or higher, increase Damage Amount of other Combatants’ Rhythm cards by <color_orange>10</>% as well",
+      "id": "10695101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "10695201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "10696001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "10696002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "10696003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "10696004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "10696005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Tenebria’s Attack is <color_orange>600</> or higher, +<color_orange>5</>% Passion Attribute Damage Amount, and for every <color_orange>20</> Attack exceeding 600, add an additional +<color_orange>1</>% (additional +<color_orange>10</>% max)",
+      "id": "10697001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "1069",
+  "sourceFile": "docs/combatant/current/api/czn/characters/1069.html"
+}

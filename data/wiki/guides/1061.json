@@ -1,0 +1,1209 @@
+{
+  "characterId": "1061",
+  "name": "Diana",
+  "identity": [
+    "Passion",
+    "Hunter"
+  ],
+  "subtitle": {
+    "en": "Generates Heart Bullets and uses discard with Quietus to launch repeated low-cost attacks.",
+    "vi": "Tạo Đạn trái tim rồi dùng cơ chế bỏ bài với Tịch diệt để tung nhiều đòn ít tốn Điểm hành động."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1061.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/diana",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/diana.json",
+      "docs/combatant/current/api/czn/characters/1061.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Diana": {
+      "src": "/assets/combatant/portrait_character_crop_half_1061.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sophia": {
+      "src": "/assets/partner/portrait_character_crop_half_30053.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Serithea": {
+      "src": "/assets/partner/portrait_character_crop_half_20014.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Akad": {
+      "src": "/assets/partner/portrait_character_crop_half_20007.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Prelude to a Hero": {
+      "src": "/assets/item/guide-a34147d55a1a.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Second Method": {
+      "src": "/assets/item/relic_1168.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dimensional Cube": {
+      "src": "/assets/item/relic_1077.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Renoa": {
+      "src": "/assets/combatant/portrait_character_crop_half_1041.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Heidemarie": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Selena": {
+      "src": "/assets/combatant/portrait_character_crop_half_1005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mei Lin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Diana artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1061.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Passion": {
+      "src": "/assets/common/icon_type_ego_love.png",
+      "width": 44,
+      "height": 44
+    },
+    "Hunter": {
+      "src": "/assets/common/icon_type_job_hunter.png",
+      "width": 44,
+      "height": 44
+    },
+    "Sophia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30053.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sophia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30053.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Serithea E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20014.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Akad E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20007.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Serithea E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20014.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_1061_cre1",
+      "name": "Heart Breaker",
+      "cost": 0,
+      "description": "<color_orange>80%</> Damage<br><color_orange><u>Discard</u></> <color_orange>1</> random Bullet card(s)<br>If this card is Discarded, <color_orange>120%</> <color_orange><u>Extra Attack</u></> to a random enemy",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1061_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1061_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Cards with the Bullet keyword",
+          "id": "TALENT_BULLET",
+          "title": "Bullet"
+        },
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+          "id": "CARD_DISCARD",
+          "title": "Discard"
+        },
+        {
+          "desc": "Damage affected by Critical Chance and Extra Damage",
+          "id": "CARD_ADDITIONAL_ATTACK",
+          "title": "Extra Attack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1061_cre1",
+      "ownerId": "1061",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1061_cre2",
+      "name": "Heart Shaker",
+      "cost": 0,
+      "description": "<color_orange>1</> <color_orange><u>Resonance</u></><br><color_orange><u>Discard</u></> <color_orange>1</> random card(s) in <color_orange><u>Draw Pile</u></><br>When this card is Discarded, <color_orange>2</> <color_orange><u>Resonance</u></> to a random enemy",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1061_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1061_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Cards with the Bullet keyword",
+          "id": "TALENT_BULLET",
+          "title": "Bullet"
+        },
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "On card Discard, <color_orange>80%</> <color_orange><u>Extra Attack</u></>, then decrease <color_orange><u>Resonance</u></> by <cc>1</>",
+          "id": "T_CS00_0299",
+          "title": "Resonance"
+        },
+        {
+          "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+          "id": "CARD_DISCARD",
+          "title": "Discard"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1061_cre2",
+      "ownerId": "1061",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1061_cre3",
+      "name": "Cupid Shot",
+      "cost": 1,
+      "description": "<color_orange>120%</> Damage<br><color_orange>60%</> <color_orange><u>Extra Attack</u></> × Bullet card count in hand<color_orange> x </> to a random enemy",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "start_1061_02",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/start_1061_02.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Cards with the Bullet keyword",
+          "id": "TALENT_BULLET",
+          "title": "Bullet"
+        },
+        {
+          "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn",
+          "id": "TALENT_TESTAMENT",
+          "title": "Quietus"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage affected by Critical Chance and Extra Damage",
+          "id": "CARD_ADDITIONAL_ATTACK",
+          "title": "Extra Attack"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1061_cre3",
+      "ownerId": "1061",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "guide_1061_persona",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique]<br>Discard up to 2 cards. For each Discarded, +60% Damage Amount to Attack Cards of this unit for 1 turn.<br>No Class restrictions",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1109.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/diana#decks"
+    },
+    {
+      "id": "card_ne_00043",
+      "name": "Negotiate​",
+      "cost": 1,
+      "description": "<color_orange>2</> <color_orange><u>Morale</u></><br><color_orange>2</> <color_orange><u>Morale</u></> to all enemies",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00003",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00003.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "+<color_orange>20</>% Damage Amount for each <color_orange><u>Morale</u></>",
+          "id": "T_CS00_0001",
+          "title": "Morale"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00043",
+      "ownerId": null,
+      "jobs": [
+        "ranger",
+        "hunter"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_1061_cre1",
+    "c_1061_cre2",
+    "c_1061_cre3"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Generates Heart Bullets and uses discard with Quietus to launch repeated low-cost attacks.",
+      "vi": "Tạo Đạn trái tim rồi dùng cơ chế bỏ bài với Tịch diệt để tung nhiều đòn ít tốn Điểm hành động."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "High hit counts reward additive buffs; her core loop needs few Divine upgrades.",
+        "vi": "Nhiều lần đánh tận dụng tốt hiệu ứng tăng sát thương cộng thêm; vòng lặp chính ít phụ thuộc Thức tỉnh thần thánh."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Long fights can fill the deck with generated cards, and true AoE is limited.",
+        "vi": "Trận dài có thể làm bộ bài đầy bài được tạo; sát thương diện rộng thực sự hạn chế."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "C’mere, Milk & Pong!",
+        "body": {
+          "en": "Create 2 Heart Shaker",
+          "vi": "Tạo 2 Heart Shaker"
+        },
+        "cardId": "c_1061_uni1"
+      },
+      {
+        "title": "Pistol of Purification",
+        "body": {
+          "en": "120% Damage; 2 Resonance; If this card is Discarded, activate Resonance inflicted on the target by this unit 3 more times",
+          "vi": "Gây 120% sát thương; 2 Cộng hưởng; Nếu lá này bị bỏ, kích hoạt Cộng hưởng do nhân vật này gây lên mục tiêu thêm 3 lần"
+        },
+        "cardId": "c_1061_uni2"
+      },
+      {
+        "title": "Blooming Love",
+        "body": {
+          "en": "Draw 1 Quietus card(s); Discard 2",
+          "vi": "Rút bài 1 lá Tịch diệt; Bỏ bài 2"
+        },
+        "cardId": "c_1061_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1061_srt4",
+      "ratings": [
+        5,
+        3,
+        3,
+        5,
+        3
+      ],
+      "preferred": "I / IV",
+      "note": {
+        "en": "I produces three Heart Breaker cards. IV adds Quietus to bullets for stronger discard turns, but demands timing and hand space.",
+        "vi": "I tạo ba lá Heart Breaker. IV thêm Tịch diệt cho bài Đạn để tăng sức mạnh lượt bỏ bài, nhưng cần đúng thời điểm và đủ chỗ trên tay."
+      },
+      "divine": {
+        "en": "Draw 1 is useful as either a neutral or divine effect.",
+        "vi": "Rút 1 hữu ích ở cả thức tỉnh trung lập lẫn thần thánh."
+      }
+    },
+    {
+      "cardId": "c_1061_uni1",
+      "ratings": [
+        3,
+        3,
+        2,
+        5,
+        3
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV creates both bullet types with little setup. I supports another combatant's Extra Attacks; V needs hand space for sustained generation.",
+        "vi": "IV tạo cả hai loại đạn mà ít cần chuẩn bị. I hỗ trợ Đòn đánh thêm của đồng đội; V cần chỗ trên tay để tạo bài lâu dài."
+      },
+      "divine": {
+        "en": "Neutral draw is efficient; consider draw, cost reduction, or AP on III.",
+        "vi": "Rút bài trung lập hiệu quả; cân nhắc rút bài, giảm chi phí hoặc Điểm hành động cho III."
+      }
+    },
+    {
+      "cardId": "c_1061_uni2",
+      "ratings": [
+        5,
+        3,
+        3,
+        3,
+        2
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I supplies Resonance and triggers it six times when discarded. II suits frequent Haste attacks but does not consume the stacks itself.",
+        "vi": "I tạo Cộng hưởng và kích hoạt sáu lần khi bị bỏ. II hợp nhiều đòn Nhanh nhẹn nhưng không tự tiêu thụ cộng dồn."
+      },
+      "divine": {
+        "en": "Neutral draw eases cycling; 2 Vulnerable or Weakness Attack improves damage.",
+        "vi": "Rút bài trung lập hỗ trợ luân chuyển; 2 Dễ tổn thương hoặc Tấn công điểm yếu tăng sát thương."
+      }
+    },
+    {
+      "cardId": "c_1061_uni3",
+      "ratings": [
+        3,
+        2,
+        3,
+        5,
+        4
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV converts discarded bullets into Extra Attacks but competes for bullets with other effects. V offers easier passive Quietus draw.",
+        "vi": "IV đổi các lá Đạn bị bỏ thành Đòn đánh thêm nhưng cạnh tranh nguồn đạn với hiệu ứng khác. V cung cấp rút bài Tịch diệt thụ động dễ dùng hơn."
+      },
+      "divine": {
+        "en": "Prefer draw, or Morale/Resolve on V; neutral choices miss valuable variant effects.",
+        "vi": "Ưu tiên rút bài, hoặc Sĩ khí/Quyết tâm cho V; trung lập bỏ lỡ hiệu ứng biến thể quan trọng."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Sophia E4",
+      "score": "147.18%",
+      "note": {
+        "en": "E4 raises Sophia's already tailored bonuses for a large investment upgrade.",
+        "vi": "E4 tăng các hiệu ứng vốn rất hợp của Sophia, tạo nâng cấp lớn khi đầu tư."
+      }
+    },
+    {
+      "name": "Sophia E0",
+      "score": "128.35%",
+      "note": {
+        "en": "Sophia supplies several high-value tailored bonuses and substantially outperforms alternatives.",
+        "vi": "Sophia cung cấp nhiều hiệu ứng phù hợp có giá trị cao và vượt đáng kể các lựa chọn khác."
+      }
+    },
+    {
+      "name": "Serithea E4",
+      "score": "120.22%",
+      "note": {
+        "en": "Serithea is usable if already invested, but her critical-chance bonus excludes non-card damage such as Resonance.",
+        "vi": "Serithea dùng tốt nếu đã đầu tư, nhưng thưởng Tỷ lệ chí mạng không áp dụng sát thương ngoài lá bài như Cộng hưởng."
+      }
+    },
+    {
+      "name": "Akad E4",
+      "score": "107.06%",
+      "note": {
+        "en": "Bullet bonuses and a strong one-turn critical buff make Akad an accessible choice for short fights.",
+        "vi": "Tăng sát thương Đạn và Chí mạng mạnh trong một lượt giúp Akad dễ dùng ở trận ngắn."
+      }
+    },
+    {
+      "name": "Serithea E0",
+      "score": "106.93%",
+      "note": {
+        "en": "E0 is much weaker than E4 but remains a starter alternative to Akad when already leveled.",
+        "vi": "E0 yếu hơn E4 nhiều nhưng vẫn có thể thay Akad lúc đầu nếu đã nâng sẵn."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "100.00%",
+      "note": {
+        "en": "Yuri offers a free starting option with utility that remains useful on supports after replacement.",
+        "vi": "Yuri là lựa chọn miễn phí ban đầu, với tiện ích vẫn hữu dụng cho nhân vật hỗ trợ sau khi thay thế."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Prelude to a Hero (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Diana consistently activates this discard-focused set, making it her strongest general option.",
+        "vi": "Diana kích hoạt ổn định bộ chuyên Bỏ bài này, nên đây là lựa chọn tổng quát mạnh nhất."
+      }
+    },
+    {
+      "name": "Black Wing (2) + Executioner's Tool (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "An accessible and consistent alternative that trails the better-fitting Prelude to a Hero.",
+        "vi": "Phương án dễ kiếm và ổn định nhưng thua Prelude to a Hero vốn hợp bộ kỹ năng hơn."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > ATK% = CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Tấn công% = Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "Passion DMG% = ATK%",
+        "vi": "Sát thương Đam mê% = Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "Extra DMG% > CRIT Rate% = CRIT DMG% > ATK >= ATK%",
+        "vi": "Sát thương bổ sung% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công >= Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Extra DMG% is Diana's best sub stat to stack but you'll want to prioritize Crit Rate before it until you hit 50% Crit Rate in order to max out her Potential 7 bonus.",
+    "vi": "Sát thương bổ sung là chỉ số phụ tốt nhất, nhưng ưu tiên tỷ lệ chí mạng đến 50% trước để tối đa hóa tiềm năng 7."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% > CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Diana’s 3-1 grants an additional effect to her Basic Attacks, causing them to now discard 1 random card of Diana’s from her hand on use. This node is a useful [Quietus] enabler early on in Chaos runs, but as Diana usually opts to remove all her Basics in Save Data decks, it isn’t too impactful there. It’s always worth getting due to the low cost of unlocking this Potential though.5-1: Diana’s 5-1 Potential provides an additional +5% damage to her Basic Attack card, and if Diana’s Critical Chance is greater than 20%, adds +5% damage. Very standard for the 5-1 Potential, mostly beneficial against Chaos content. Can be skipped if all you care about is Save Data; however, you will need it to unlock 5-2 to improve Divine Epiphany chance.7: Diana’s Potential 7 grants her +4% Extra Damage amount if her Critical Chance is above 10%, and for every 5% above 10% - adds an additional +1% to that modifier up to a cap of 8% (12% total). This is a must-have node for any serious Diana player as it's a major boost to her overall output in both Chaos and Save.",
+    "vi": "Ưu tiên tỷ lệ chí mạng > sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 khiến bài cơ bản bỏ ngẫu nhiên 1 bài của Diana để hỗ trợ Tịch diệt đầu Chaos, còn 5-1 tăng 5% sát thương và thêm 5% khi tỷ lệ chí mạng >20%, đồng thời mở đường đến 5-2 tăng cơ hội thức tỉnh thần thánh. Tiềm năng 7 bắt buộc cho đầu tư nghiêm túc: tỷ lệ chí mạng >10% nhận 4% sát thương bổ sung, thêm 1% mỗi 5% vượt 10%, tối đa thêm 8% ở 50% chí mạng (tổng 12%)."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds the following effect to the Disruption Fire card: Discard 1 random card of this unit.",
+        "vi": "Thêm hiệu ứng sau cho lá Disruption Fire: Bỏ 1 lá ngẫu nhiên của nhân vật này."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Diana’s Disruption Fire, and if Diana’s Critical Chance is 20% or higher, add an additional +5% to the modifier.",
+        "vi": "Tăng 5% lượng sát thương của Disruption Fire thuộc Diana; nếu Tỷ lệ chí mạng của Diana từ 20% trở lên, tăng thêm 5% cho chỉ số này."
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Diana's Critical Chance is 10% or higher, +4% Extra Damage; For every 5% Critical Chance above 10%, add an additional +1% to the modifier; (additional +8% max)",
+        "vi": "Nếu Tỷ lệ chí mạng của Diana từ 10% trở lên, tăng 4% sát thương Đòn đánh thêm; Với mỗi 5% Tỷ lệ chí mạng vượt 10%, tăng thêm 1% cho chỉ số này; (tăng thêm tối đa 8%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Tentacles of Chaos",
+        "Dagger That Tricked the Shadow",
+        "Second Method"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Dimensional Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Tentacles of Chaos",
+        "Shell Bug Horn",
+        "Second Method"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Tentacles of Chaos",
+        "Second Method",
+        "RFS-17"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Tentacles of Chaos",
+        "Second Method",
+        "RFS-17"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Tentacles of Chaos",
+        "Corrupted Gauntlet",
+        "Second Method"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Diana’s Ego 1 improves her “Liberated Feelings” card, increasing its damage by +100% (additive base damage), and increases the amount of [Bullet / Exhaust] cards drawn by 1. In decks that include Liberated Feelings, this Ego is a small damage and utility improvement, but in builds that don’t make use of it, it offers no benefit. The result is a fairly low impact Ego unlock overall.",
+        "vi": "Liberated Feelings tăng 100% sát thương cơ bản theo phép cộng và rút thêm 1 bài Đạn/Kiệt sức. Chỉ có tác dụng khi giữ lá này, nên ảnh hưởng tổng thể thấp."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Diana’s Ego 2 enables the “Flutter” buff, which she gains 2 stacks of whenever an ally (including herself) discards a card. At the end of the turn, all Flutters are removed, and so long as Diana has at least 1 stack, she’ll launch an Extra Attack, which deals 200% damage to the enemy with the highest base HP. Additionally, for each stack of Flutter removed, the damage of the Extra Attack is increased by 10% (multiplicative). A maximum of 20 Flutter stacks can be held at a time for an up to 200% damage increase. This Ego is powerful in Chaos and an alright damage increase in Save.",
+        "vi": "Mỗi lần đồng đội hoặc Diana bỏ bài nhận 2 Rung động, tối đa 20. Cuối lượt, nếu có ít nhất 1 cộng dồn thì gây đòn đánh thêm 200% lên địch có máu tối đa cao nhất; mỗi cộng dồn tăng sát thương đòn này 10% theo hệ số nhân, tối đa 200%. Toàn bộ Rung động bị xóa vào đầu lượt. Lưu ý: phần bình luận tiếng Anh của nguồn ghi xóa vào cuối lượt và chọn địch theo máu cơ bản; mô tả này dùng thời điểm đầu lượt và máu tối đa theo bộ kỹ năng hiện tại trên E7BOT, cũng khớp phần kỹ năng đã lưu của Prydwen."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Diana’s Ego 3 buffs her Ego Skill, reducing the cost by 1 to 4 Ego Points while also increasing the amount of Heart Bullets it generates from 2 to 4. The damage increase from this Ego Point isn’t anything crazy; however, the discount can definitely allow Diana’s Ego Skill to be used more quickly to get Cupid Shot into circulation faster. Not an essential Ego Point, but a nice Quality of Life nonetheless.",
+        "vi": "Kỹ năng Ego giảm 1 chi phí còn 4 điểm Ego, tạo 4 Heart Bullets thay vì 2. Không phải mốc thiết yếu nhưng giúp đưa Cupid Shot vào vòng bài sớm hơn."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Diana’s Ego 4 is one of her strongest, as it provides a flat +30% damage amount (additive) to all of Diana’s Extra Attacks, and an additional +1% Damage to her Extra Attacks for each stack of “Flutters” that Diana owns (up to +20%). This is a proper, solid damage boost to Diana in Save and a huge boost to her output in Chaos, where card damage boosts are far harder to consistently acquire.",
+        "vi": "Mọi đòn đánh thêm tăng 30% sát thương theo phép cộng, cộng 1% cho mỗi Rung động, tối đa thêm 20%. Tăng sát thương tốt trong dữ liệu lưu và đặc biệt mạnh trong Chaos."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "The fifth Ego for Diana is the standard Potential increase for her Basic and Unique cards. Very standard and helps with her damage output slightly.",
+        "vi": "Nâng tiềm năng bài cơ bản và đặc trưng theo cơ chế thông thường, tăng nhẹ sát thương."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Diana’s Final Ego to be unlocked further enhances her Flutters buff. It increases the amount of Flutters gained when cards are discarded by allies from 2 to 4, the maximum stack amount to 30, the boost from E4 to +60%, and the damage boost of E2’s hit to 300%. In addition to this, now, whenever Diana reaches 30 Flutters stacks in a turn, Diana and her allies will each launch a 200% Extra Damage Attack at a random enemy once per turn. How effective the Extra Attack from this Ego is will be highly dependent on the team Diana is running with. For the purpose of calculations, we’ve just included the hit from Diana, but with another Damage Dealer on the team, the potential increase from this Ego can be much higher.",
+        "vi": "Mỗi lần bỏ bài nhận 4 Rung động thay vì 2, giới hạn tăng lên 30; phần tăng từ Ego 4 lên 60%, còn phần tăng sát thương đòn Ego 2 lên 300%. Một lần mỗi lượt khi đủ 30 cộng dồn, Diana và từng đồng đội đánh thêm 200% vào địch ngẫu nhiên; giá trị tăng mạnh khi đội có thêm người gây sát thương."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Heartbreaker 1",
+        "vi": "Heart Breaker: Đạn tự Kiệt sức"
+      },
+      "role": {
+        "en": "Bullet and discard damage carry",
+        "vi": "Chủ lực đạn và bỏ bài"
+      },
+      "partner": "Sophia",
+      "cards": [
+        {
+          "cardId": "c_1061_srt4",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_1061_srt4_rsp4",
+          "count": 2
+        },
+        {
+          "cardId": "c_1061_srt4_rsp4",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1061_uni2",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_1061_uni3_rsp4",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "guide_1061_persona",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00043",
+          "count": 1,
+          "effects": {
+            "en": "Draw 2",
+            "vi": "Rút 2 lá"
+          }
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "With All My Heart! IV gives Heart Breaker Bullets Quietus so they exhaust instead of clogging the deck. Neutral draw versions of With All My Heart! and Pistol of Purification improve cycling. Use a discard-two Persona if extra discard is needed; save Blooming Love IV until last with many Bullets in hand. Nia and 6-Star Selena are recommended partners.",
+        "vi": "With All My Heart! IV gắn Tịch diệt cho lá Đạn Heart Breaker để đạn tự bị Kiệt sức sau khi dùng, tránh làm nghẽn bộ bài. Thức tỉnh bài trung lập rút bài trên With All My Heart! và Pistol of Purification giúp xoay bài. Dùng Persona bỏ hai lá nếu cần thêm nguồn bỏ bài; để Blooming Love IV cuối chuỗi khi tay có nhiều Đạn. Nia và Selena theo bản 6 sao là đồng đội đề xuất; có thể dùng Cassius hoặc chuyển sang bản Phối hợp bỏ bài nếu ghép Renoa."
+      }
+    },
+    {
+      "name": {
+        "en": "Heartbreaker 2",
+        "vi": "Heart Breaker: Tăng lượng đạn"
+      },
+      "role": {
+        "en": "Higher-output Bullet carry",
+        "vi": "Chủ lực tạo nhiều đạn hơn"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "c_1061_srt4_rsp1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1061_srt4_rsp4",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1061_uni2",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_1061_uni3_rsp4",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "guide_1061_persona",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Day"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Replace the neutral draw With All My Heart! with version I to generate more Bullets. The rest follows Heartbreaker 1. Potential damage rises, but losing draw can break the rotation and a full hand can waste the extra Bullets.",
+        "vi": "Đổi With All My Heart! có Thức tỉnh bài trung lập rút bài sang bản I để tạo nhiều Đạn hơn; phần còn lại chơi như bản Heart Breaker có đạn tự Kiệt sức. Trần sát thương tăng nhưng thiếu rút bài có thể làm đứt vòng đánh, còn tay đầy sẽ lãng phí số đạn tạo thêm."
+      }
+    },
+    {
+      "name": {
+        "en": "Daughters of Discard (Renoa Support)",
+        "vi": "Phối hợp bỏ bài: Phối hợp Renoa"
+      },
+      "role": {
+        "en": "Quietus support for Dirge Bullets",
+        "vi": "Gắn Tịch diệt cho Dirge Bullet"
+      },
+      "partner": "Sophia",
+      "cards": [
+        {
+          "cardId": "c_1061_srt4_rsp4",
+          "count": 3,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1061_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_1061_uni2",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_1061_uni3_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_1061_persona",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Verdant Day"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use only With All My Heart! IV because Renoa supplies most Bullets. Flower of Devoured Fate I with a draw Divine discards it, producing Bullets while applying Quietus so they exhaust after use. Nia is strongly preferred over Cassius for enough discard triggers. Otherwise follow Diana's usual Bullet rotation; the source credits Upi for this pairing.",
+        "vi": "Chỉ dùng With All My Heart! IV vì Renoa cung cấp phần lớn Đạn. Flower of Devoured Fate I có Thức tỉnh thần thánh rút bài bỏ lá này để vừa tạo đạn vừa gắn Tịch diệt, giúp đạn bị Kiệt sức sau khi sử dụng. Rất nên chọn Nia thay Cassius để có đủ lần bỏ bài khai thác cả hai chủ lực. Các bước còn lại theo vòng đạn thông thường của Diana; nguồn ghi nhận Upi là người xây dựng đội hình này."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Soul Rip III converts discards into Extra Attacks, while Nia's discard costs become advantages for Diana.",
+        "vi": "Soul Riff III biến Bỏ bài thành Đòn đánh thêm, còn chi phí Bỏ bài của Nia trở thành lợi thế cho Diana."
+      }
+    },
+    {
+      "name": "Cassius",
+      "note": {
+        "en": "Quietus helps fulfill Straight quests, and Morale, discards and draw support Diana's full combo.",
+        "vi": "Tịch diệt giúp hoàn thành nhiệm vụ Straight; Sĩ khí, Bỏ bài và Rút bài hỗ trợ chuỗi kết hợp của Diana."
+      }
+    },
+    {
+      "name": "Renoa",
+      "note": {
+        "en": "All My Heart! III lets discarded Bullets activate through Quietus and Exhaust afterward, reducing deck congestion.",
+        "vi": "All My Heart! III giúp Đạn bị bỏ kích hoạt qua Tịch diệt rồi Kiệt sức, giảm tình trạng nghẽn bộ bài."
+      }
+    },
+    {
+      "name": "Heidemarie",
+      "note": {
+        "en": "The captured source lists this synergy without an explanatory note.",
+        "vi": "Nguồn đã lưu liệt kê cặp phối hợp này nhưng chưa có giải thích."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "High draw completes Diana's combos, and selected Divine Epiphanies can add AP at the same time.",
+        "vi": "Rút nhiều bài giúp Diana hoàn thành chuỗi kết hợp; một số Thức tỉnh thần thánh đồng thời bổ sung Điểm hành động."
+      }
+    },
+    {
+      "name": "Selena",
+      "note": {
+        "en": "Diana's Passion attacks trigger Selena's coordinated hits, while Passion Weakness boosts damage against other matchups.",
+        "vi": "Đòn Đam mê của Diana kích hoạt đánh phối hợp của Selena; Điểm yếu Đam mê tăng sát thương ở đối thủ vốn không yếu thuộc tính này."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Daughters of Discard",
+        "vi": "Đội phối hợp bỏ bài"
+      },
+      "members": [
+        "Diana",
+        "Renoa",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Spire Fire",
+        "vi": "Đội Dragon Spire"
+      },
+      "members": [
+        "Mei Lin",
+        "Veronica",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

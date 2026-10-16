@@ -1,0 +1,103 @@
+{
+  "characterId": "1004",
+  "terms": [
+    {
+      "id": "TALENT_BULLET",
+      "title": "Đạn",
+      "englishTitle": "Bullet",
+      "desc": "Chỉ các lá có từ khóa Đạn.",
+      "englishDesc": "Cards with the Bullet keyword"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishDesc": "Decrease Damage Amount taken until the next turn"
+    },
+    {
+      "id": "CARD_HANDGUN",
+      "title": "Đạn súng ngắn",
+      "englishTitle": "Handgun Bullet",
+      "desc": "Magnum Shot, Silver Shot, Uranium Shot, Tracer Shot<br><i>Đây là các loại đạn tiêu chuẩn.</>",
+      "englishDesc": "Magnum Shot, Silver Shot, Uranium Shot, Tracer Shot<br><i>These are standardized bullets.</>"
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "englishTitle": "Retrieve",
+      "desc": "Nếu lá này chuyển vào <color_orange><u>Mộ bài</u></>, đưa nó trở lại tay.<br>Khi Kích hoạt, loại bỏ Thu hồi.",
+      "englishDesc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishDesc": "Using or proccing a card"
+    },
+    {
+      "id": "TALENT_UNPLAYABLE",
+      "title": "Không thể kích hoạt",
+      "englishTitle": "Unactivatable",
+      "desc": "Không thể Kích hoạt lá này.",
+      "englishDesc": "This card cannot be activated"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài.",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+    },
+    {
+      "id": "TALENT_ETHEREAL",
+      "title": "Phù du",
+      "englishTitle": "Ephemeral",
+      "desc": "Nếu lá này còn trên tay vào cuối lượt, khiến nó Kiệt sức.",
+      "englishDesc": "If this card is in hand at the end of the turn, Exhaust it"
+    },
+    {
+      "id": "T_CS00_0025",
+      "title": "Dấu ấn",
+      "englishTitle": "Mark",
+      "desc": "Khi một lá Tấn công được <color_orange><u>Kích hoạt</u></>, gây <color_orange>100%</> <color_orange><u>Đòn đánh thêm</u></>, gây <color_orange><u>Sát thương sức bền</u></> tương ứng Chi phí <cc>0</> và giảm <color_orange><u>Dấu ấn</u></> đi <cc>1</>",
+      "englishDesc": "When an Attack Card is <color_orange><u>activate</u></>d, inflict <color_orange>100%</> <color_orange><u>Extra Attack</u></>, inflict <color_orange><u>Tenacity Damage</u></> equal to <cc>0</> Cost, and decrease <color_orange><u>Mark</u></> by <cc>1</>"
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch.",
+      "englishDesc": "This card does not reduce the enemy’s Action Count"
+    },
+    {
+      "id": "TALENT_WEAKPOINT",
+      "title": "Đánh điểm yếu",
+      "englishTitle": "Weakness Attack",
+      "desc": "Đòn tấn công của lá này được tính là đánh trúng Điểm yếu.",
+      "englishDesc": "This card's attack is applied as Weakness"
+    }
+  ]
+}

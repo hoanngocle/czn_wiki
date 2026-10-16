@@ -1,0 +1,110 @@
+{
+  "characterId": "1061",
+  "terms": [
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "englishTitle": "Discard",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>."
+    },
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "englishTitle": "Healing",
+      "englishDesc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    {
+      "id": "TALENT_TESTAMENT",
+      "title": "Tịch diệt",
+      "englishTitle": "Quietus",
+      "englishDesc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn",
+      "desc": "Khi lá này bị bỏ, <color_orange><u>Kích hoạt qua hiệu ứng</u></> lá này<br>Không thể chuyển lá này khỏi Chồng bài đã <color_orange><u>Kích hoạt</u></> trong lượt này"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "CARD_HEART",
+      "title": "Đạn trái tim",
+      "englishTitle": "Heart Bullet",
+      "englishDesc": "Heart Breaker, Heart Shaker",
+      "desc": "Heart Breaker, Heart Shaker"
+    },
+    {
+      "id": "T_CS00_0299",
+      "title": "Cộng hưởng",
+      "englishTitle": "Resonance",
+      "englishDesc": "On card Discard, <color_orange>80%</> <color_orange><u>Extra Attack</u></>, then decrease <color_orange><u>Resonance</u></> by <cc>1</>",
+      "desc": "Khi bỏ bài, gây <color_orange>80%</> <color_orange><u>Đòn đánh thêm</u></>, rồi giảm <color_orange><u>Cộng hưởng</u></> đi <cc>1</>"
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "englishTitle": "Extra Attack",
+      "englishDesc": "Damage affected by Critical Chance and Extra Damage",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung."
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "TALENT_BULLET",
+      "title": "Đạn",
+      "englishTitle": "Bullet",
+      "englishDesc": "Cards with the Bullet keyword",
+      "desc": "Chỉ các lá có từ khóa Đạn."
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "englishDesc": "This card does not reduce the enemy’s Action Count",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch."
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng."
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>."
+    },
+    {
+      "id": "TERM_FLUTTERS",
+      "title": "Rung động",
+      "englishTitle": "Flutters",
+      "englishDesc": "Ego 2: Each time an ally Discards a card, gain <color_orange>2</> <color_orange>Flutters</>.<br><color_orange>Flutters</>: At the end of the turn, <color_orange>200</>% Extra Attack to the target with the highest max HP, and increase Damage Amount of the Extra Attack by <color_orange>10</>% for each <color_orange>Flutters</>, then decrease all <color_orange>Flutters</> at the start of the turn (max <color_orange>20</> stacks).<br><br>Ego 4: +<color_orange>30</>% Damage Amount to Diana’s Extra Attacks.<br>+<color_orange>1</>% Damage Amount to Diana’s Extra Attacks for each Flutters that Diana owns.<br><br>Ego 6: Each time a card is Discarded by an ally, gain an additional <color_orange>2</> <color_orange>Flutters</>, and increase the max stack count of <color_orange>Flutters</> by <color_orange>10</>.<br>Each time Diana’s <color_orange>Flutters</> stacks to <color_orange>30</>, allies inflict <color_orange>200</>% Extra Attack to a random enemy (<color_orange>1</> time per turn).",
+      "desc": "Ego 2: Mỗi khi đồng đội bỏ một lá, nhận <color_orange>2</> <color_orange>Rung động</>.<br><color_orange>Rung động</>: Cuối lượt, gây <color_orange>200</>% Đòn đánh thêm lên mục tiêu có Máu tối đa cao nhất; tăng <color_orange>10</>% lượng sát thương Đòn đánh thêm với mỗi <color_orange>Rung động</>, rồi loại bỏ toàn bộ <color_orange>Rung động</> vào đầu lượt (tối đa <color_orange>20</> cộng dồn).<br><br>Ego 4: Tăng <color_orange>30</>% lượng sát thương Đòn đánh thêm của Diana.<br>Tăng <color_orange>1</>% lượng sát thương Đòn đánh thêm của Diana với mỗi Rung động mà Diana sở hữu.<br><br>Ego 6: Mỗi khi đồng đội bỏ một lá, nhận thêm <color_orange>2</> <color_orange>Rung động</> và tăng giới hạn cộng dồn <color_orange>Rung động</> thêm <color_orange>10</>.<br>Mỗi khi <color_orange>Rung động</> của Diana đạt <color_orange>30</> cộng dồn, đồng đội gây <color_orange>200</>% Đòn đánh thêm lên một kẻ địch ngẫu nhiên (<color_orange>1</> lần mỗi lượt)."
+    }
+  ]
+}

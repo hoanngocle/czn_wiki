@@ -1,0 +1,568 @@
+0|@A @B
+1|Phản công
+2|Khi nhận sát thương, gây @A @B lên kẻ tấn công
+3|Nếu đòn đánh bị @A chặn hoàn toàn, gây @B @C lên kẻ tấn công
+4|Khi hiệu ứng kích hoạt, giảm @A đi @B
+5|(Tối đa @A)
+6|@A% @B
+7|Nghiền nát
+8|Khi đánh trúng mục tiêu có @A, tăng @B% sát thương
+9|Lá chắn theo Sát thương
+10|Nhận @A theo hệ số sát thương
+11|Không vượt quá @A% Máu tối đa
+12|Khi gây sát thương, nhận thêm @A @B
+13|Gây @A% @B lên tất cả kẻ địch
+14|Nhận @A cho mỗi mục tiêu chịu sát thương
+15|Tăng sát thương bằng @A% lượng @B đang có
+16|Cuối lượt, nhận @A @B
+17|Gây @A% @B lên kẻ địch ngẫu nhiên
+18|+@A% sát thương cho mỗi @B của bản thân
+19|Đầu lượt, nhận @A @B
+20|Kết tinh
+21|Cuối lượt, nhận @A @B cho mỗi @C
+22|Đầu lượt, nhận @A @B và @C% @D
+23|Lá chắn cố định
+24|Lá chắn bỏ qua các hiệu ứng duy trì
+25|Trong @A lượt, nhận @B @C
+26|Quyết tâm
+27|+@A% lượng @B nhận được cho mỗi cộng dồn @C
+28|+@A% sát thương cho @B của bản thân
+29|Gây @A @B lên tất cả kẻ địch
+30|Suy nhược
+31|Giảm @A% sát thương
+32|Khi hiệu ứng kích hoạt, giảm Suy nhược đi @A
+33|Cuối lượt, gây @A bằng @B% lượng @C đang có lên kẻ địch có Máu thấp nhất
+34|Sát thương cố định
+35|Sát thương bỏ qua các hiệu ứng duy trì
+36|Đầu lượt, nhận @A% @B nhân với số @C của bản thân
+37|Gây @A bằng lượng Lá chắn đang có
+38|Gây @A bằng @B% lượng Lá chắn đang có
+39|Tăng +@B% sát thương cố định của lá @A.
+40|Tăng @A% lượng Lá chắn Maribell nhận được.
+41|Tăng +@B% lượng Lá chắn nhận được từ lá @A
+42|@A đầu tiên của Maribell mỗi lượt được cộng sát thương bằng @B% Lá chắn hiện tại của cô.
+43|Thêm hiệu ứng sau vào các lá @A và @B: @C @D
+44|+@A% lượng Lá chắn cho @B và @C của Maribell
+45|Nếu Máu của Maribell từ @A trở lên, cộng thêm +@B% vào hệ số
+46|Tăng @A% Máu
+47|+@A% sát thương cho Bài cơ bản và Bài đặc trưng
+48|Nếu Máu của Maribell từ @A trở lên, cộng thêm +@B% vào hệ số
+49|Tạo @A lá @B
+50|+@A% sát thương cơ bản cho mỗi @B bị @C
+51|Khi lá này được @A, chuyển vào Chồng bài @B
+52|Áp dụng @A cho các lá đó
+53|+@A% sát thương cho mỗi @B
+54|+@A% sát thương cơ bản cho mỗi @B được tạo trong trận này
+55|Khi một lá bị @A, giảm @B chi phí của lá này trong @C lượt, cho đến khi được @D
+56|Gây @A sát thương × @B lên kẻ địch ngẫu nhiên
+57|Gây @A% sát thương lên tất cả kẻ địch
+58|Giảm chi phí cho mỗi @B đã bị @A
+59|+@A% sát thương cơ bản cho mỗi@B lá bị @C trong lượt này
+60|Nếu có lá bị @A trong lượt này, gây @B @C lên tất cả kẻ địch
+61|Thống khổ
+62|Cuối lượt, gây @A @B × số @C
+63|Khi hiệu ứng kích hoạt, giảm một nửa cộng dồn @A (tối đa @B cộng dồn)
+64|@A @B lá @C trên tay
+65|Gây @A% sát thương lên kẻ địch ngẫu nhiên
+66|Thêm @A lần đánh cho mỗi @C đã bị @B
+67|(Tối đa @A lần)
+68|Thêm @A lần đánh cho mỗi @B lá @D đã bị @C
+69|Khi @A bị @B, gây @C% @D lên kẻ địch ngẫu nhiên
+70|Khi @A được tạo, đổi các lá đó thành Bài tấn công có chi phí @B, gây @C% sát thương và có hiệu ứng @D
+71|Khi @A được tạo, đổi các lá đó thành Bài tấn công có chi phí @B, gây @C% sát thương
+72|@A tất cả lá @B, Trạng thái bất lợi và Nguyền rủa trên tay
+73|@A cho mỗi lá
+74|Khi @A lá @B bị @C, gây @D @E lên tất cả kẻ địch
+75|+@A sát thương cơ bản cho mỗi lá được tạo
+76|Gây @A@B sát thương lên tất cả kẻ địch
+77|@A tất cả lá @B trên tay
+78|+@A sát thương cơ bản cho mỗi lá bị Kiệt sức
+79|@A tất cả lá @B trên tay và trong Mộ bài
+80|Các lá được @A trong lượt này hoặc ở @B
+81|Khi lá @A được kích hoạt, tạo thêm @B lá @C.
+82|Mỗi khi dùng @A lá @B, gây @C% sát thương lên tất cả kẻ địch.
+83|Thêm @A vào phạm vi tìm các lá @B bị Kiệt sức bởi lá @C.
+84|Mỗi khi một lá @A bị Kiệt sức, nhận @B.
+85|@A: +@B% sát thương cho Bài tấn công của Kayron (tối đa @C cộng dồn)
+86|Mỗi khi một lá @A được tạo, có @B% xác suất gây @C hiệu ứng ngẫu nhiên trong số @D, @E hoặc @F lên kẻ địch ngẫu nhiên
+87|+@A% sát thương và lượng hồi máu lần lượt cho các lá @B và @C; thêm hiệu ứng 'Tạo @D lá @E' vào cả hai.
+88|+@A% sát thương cho @B của Kayron
+89|Nếu Tấn công của Kayron từ @A trở lên, cộng thêm +@B% vào hệ số
+90|Nếu Tấn công của Kayron từ @A trở lên, +@B% Sát thương chí mạng
+91|@A @B @C
+92|@A tất cả Bài tấn công cơ bản
+93|Tạo @A lá @B của từng đồng đội và đưa vào @C cho họ
+94|Áp dụng @A cho @B của bản thân
+95|Mở màn
+96|Đầu trận, @A lá này bằng cách tiêu hao @B
+97|Nếu không đủ @A, không @B
+98|Bài Nhịp điệu
+99|Bài đặc trưng do Tenebria tạo ra
+100|Loại sát thương thay đổi theo vai trò của nhân vật sở hữu lá bài
+101|Mỗi khi một lá Nhịp điệu được @A, nhận @B @C
+102|Tạo @A lá mỗi loại @B trong @C
+103|Đưa @A @B lên tay
+104|Giảm @A chi phí của các lá đó cho đến khi được @B
+105|Giảm chi phí của @A lá trong số đó đi @B cho đến khi được @C
+106|Khi @A @B được @C trong một lượt, tạo @D lá @E có @F trên tay và giảm chi phí các lá đó đi @G (@H lần mỗi lượt)
+107|Chọn và đưa tối đa @A @B lên tay, rồi @C các lá đó
+108|Chọn tối đa @A @B trong @C và @D, rồi đưa các lá đó lên đầu @E
+109|@A @B lá trong số đó
+110|Bỏ tất cả các lá không phải @A trong số đó
+111|Khi trên tay, được xem là @A
+112|@A Rút @B @C
+113|Khi ở @A hoặc trên tay, @B lá này khi một @C được @D
+114|Rút @A @B
+115|Khi ở @A, @B lá này khi một @C được @D
+116|Khi một @A được @B, thêm @C lần đánh cho lá này (tối đa @D lần)
+117|Khi trên tay, cũng được xem là @A
+118|Khi một @A được @B, giảm chi phí lá này đi @C cho đến khi lá này được @D
+119|Nếu lá được @A gần nhất là @B, @C lá đó
+120|Nếu lá được @A gần nhất là @B, @C lá đó @D lần
+121|Mỗi khi @A lá Nhịp điệu được @B, gây @C% sát thương lên kẻ địch có Máu thấp nhất (@D lần mỗi lượt)
+122|Với @A @B tiếp theo được @C, giảm chi phí đi @D và thêm @E lần đánh
+123|@A tất cả @B trong @C
+124|Nếu lá đó là @A, tăng @B% sát thương cho đến khi được @C trong @D lượt và lặp lại thêm @E lần (tối đa @F lần)
+125|+@A @B
+126|Nếu một @A được @B hoặc đưa lên tay, tăng @C thêm @D cho đến khi lá này được @E (tối đa @F lần)
+127|Sức nóng sân khấu
+128|Cuối lượt, gây @A sát thương × số Sức nóng sân khấu lên kẻ địch ngẫu nhiên
+129|Cuối lượt, xóa Sức nóng sân khấu (tối đa @A cộng dồn)
+130|Cuối lượt, xóa Sức nóng sân khấu (tối đa @A cộng dồn)
+131|Với @A @B tiếp theo được @C, tăng sát thương của @D thêm @E%
+132|Nếu được @A @B lần, thêm @C lần đánh cho @D @E tiếp theo được @F
+133|Tăng sát thương của @A từ lá @B từ @C% lên @D%.
+134|Đầu trận, tạo @A lá @B.
+135|Khi dùng Kỹ năng Ego, gây @A% sát thương × chi phí gốc lên kẻ địch ngẫu nhiên.
+136|@A: @B Điểm Ego
+137|Tăng hiệu ứng tăng sát thương mà @A cấp cho @B từ @C% lên @D%.
+138|Khi một @A được đưa lên tay hoặc kích hoạt, nhận @B.
+139|@A: Tăng @B% sát thương của Tenebria (tối đa @C cộng dồn)
+140|Khi đạt cộng dồn tối đa, tăng thêm @B% sát thương của @A
+141|Khi @A được kích hoạt, giảm @B chi phí Kỹ năng Ego tiếp theo Tenebria sử dụng.
+142|Khi một lá Nhịp điệu được kích hoạt, gây @A @B lên mục tiêu.
+143|@A: Tăng @C% sát thương nhận từ @B; nếu một @D được kích hoạt qua hiệu ứng, quái này trở thành mục tiêu của các @E đó.
+144|Khi áp dụng lên mục tiêu khác, xóa @A
+145|Thêm hiệu ứng sau cho @A: Thiêu hủy: Hồi máu @B%.
+146|Đầu trận, tăng @A% sát thương các lá Nhịp điệu của Tenebria; nếu Tấn công của Tenebria từ @B trở lên, cũng tăng @C% sát thương các lá Nhịp điệu của nhân vật khác
+147|Nếu Tấn công của Tenebria từ @A trở lên, +@B% sát thương hệ Đam mê; mỗi @C Tấn công vượt quá § cộng thêm +@D% (tối đa cộng thêm +@E%)
+148|Tăng @B% sát thương của các lá @A trong @C lượt
+149|@A Tạo @B lá @C
+150|Bắt lửa
+151|Khi lá này trên tay, nếu một lá bị @A, giảm chi phí lá này đi @B cho đến khi được @C
+152|Giảm @A% sát thương cho mỗi@B mục tiêu
+153|@A Tạo @B lá @C
+154|Khi đồng đội @A, @B lá này
+155|Nếu có lá bị @A trong lượt này, tăng @B% sát thương lá này trong @C lượt, cho đến khi được @D
+156|Tăng @B% lượng @A nhận được từ Bài kỹ năng trong @C lượt
+157|+@A% sát thương cho mỗi@B lá @C trên tay
+158|Trong @A lượt, khi một lá @B được @C, nhận @D @E
+159|Tăng @A% sát thương cho mỗi@B điểm chi phí của lá @C có chi phí cao nhất trên tay, rồi @D lá đó
+160|Tăng @A% sát thương cho mỗi@B điểm chi phí của lá có chi phí cao nhất trên tay
+161|Đổi @A trên tay thành cấp cuối cùng
+162|@A @B lá @C ngẫu nhiên của nhân vật khác trên tay
+163|Với mỗi lá bị Kiệt sức bởi hiệu ứng này, tăng @B% sát thương Bài tấn công tiếp theo của bản thân được @A, cho đến khi được @C
+164|Tăng @A% sát thương cho mỗi@B đồng đội có @C
+165|Khi nhận @A qua hiệu ứng, nhận @B @C
+166|Lưỡi kiếm sắc bén
+167|Tăng @B% lượng @A của Bài tấn công trong @C lượt (tối đa @D cộng dồn)
+168|Khi một lá bị @A, nhận @B @C
+169|Tăng @B% lượng @A nhận được; khi nhận @C qua hiệu ứng, nhận @D @E
+170|Khi nhận @A, nhận @B @C
+171|Lưỡi kiếm sắc bén+
+172|Tăng @B% lượng @A của Bài tấn công đồng đội trong @C lượt (tối đa @D cộng dồn)
+173|Đầu lượt, @A lá @B trên tay @C lần
+174|@A @B Bài tấn công của bản thân có chi phí cao nhất trên tay, rồi @C các lá đó
+175|@A @B Bài tấn công của bản thân có chi phí cao nhất trên tay lên mục tiêu, rồi @C các lá đó
+176|+@A% sát thương cho mỗi điểm tổng@B chi phí của @C lá có chi phí cao nhất, rồi @D các lá đó
+177|Có thể chọn mục tiêu tấn công cho lá @A.
+178|@A: @B Dễ tổn thương, @C sát thương Sức bền
+179|+@A sát thương cho @B và +@C% vào hệ số sát thương theo tổng chi phí của @D lá có chi phí cao nhất.
+180|Khi các lá của Nine bị Kiệt sức, nhận @A cho mỗi điểm chi phí của lá đó.
+181|@A: +@B% Sát thương theo Phòng thủ cho Bài tấn công của Nine (tối đa @C cộng dồn)
+182|Khi các lá @A được kích hoạt, gây Sát thương cố định bằng @B% sát thương đã gây lên mục tiêu (sát thương này không thể chí mạng).
+183|+@A% sát thương cho các lá @B và thêm hiệu ứng: tăng @C% sát thương các lá Kiệt sức trong @D lượt (tối đa @E cộng dồn)
+184|+@A% sát thương cho @B của Nine; nếu Phòng thủ của Nine từ @C trở lên, cộng thêm +@D% vào hệ số
+185|Nếu Phòng thủ của Nine từ @A trở lên, +@B% sát thương hệ Trật tự; mỗi @C Phòng thủ vượt quá § cộng thêm +@D% vào hệ số
+186|Hỏa thuật
+187|Khi @A đạt @B cộng dồn, gây @C @D lên kẻ địch bị tấn công gần nhất
+188|Khi hiệu ứng kích hoạt, giảm Hỏa thuật đi @A
+189|Khi @A qua hiệu ứng, nhận @B @C
+190|Tạo @A lá @B trong @C
+191|Giáng lâm
+192|Khi Giáng lâm đạt từ @A cộng dồn trở lên, tạo @B lá @C trên tay
+193|Khi @A được tạo, giảm Giáng lâm đi @B (kích hoạt tối đa @C lần mỗi lượt)
+194|+@A% sát thương cho các lá đó
+195|Đầu lượt, @A @B lá @C
+196|Khi @A kích hoạt, gây @B% @C lên mục tiêu
+197|Trong các lá vừa rút, @A tất cả lá có chi phí từ @B trở lên
+198|@A @B lá của bản thân có chi phí @C
+199|@A @B lá @C trong @D lên mục tiêu
+200|Nhận @A @B cho mỗi lá được @C
+201|Khi một lá của bản thân có chi phí từ @A trở xuống được @B, @C lá đó và @D @E lá
+202|@A @B lá có chi phí @C
+203|Tính giá trị @A của lá đó thành @B+@C cho đến khi được @D
+204|@A @B @C @D
+205|@A Trong @B lần tiếp theo @C kích hoạt, nhận @D @E
+206|Nhận @A @B cho mỗi lá @C trong @D
+207|Đầu lượt, đưa lên tay
+208|@A Tính @B tiếp theo thành @C+@D
+209|Gây @A sát thương × @B+@C
+210|@A lá @B trong @C lên mục tiêu cho mỗi lần đánh
+211|Tăng @B% sát thương của @A tiếp theo cho mỗi lần đánh
+212|(Tối đa @A%)
+213|@A @B × @C
+214|Thêm @A lần đánh cho @B
+215|Đưa @A lên tay cho mỗi @B nhận được trong lượt này
+216|Tăng @A% sát thương cho đến khi được @B
+217|Trong @A lượt, đầu lượt nhận @B @C
+218|Tăng @B% sát thương của @A tiếp theo
+219|Tăng @B% sát thương và thêm @C lần đánh cho @A tiếp theo
+220|Thêm hiệu ứng sau vào lá @A: Tăng @C% sát thương của @B được đưa lên tay cho đến khi kích hoạt.
+221|Đầu trận, nhận @A @B; mỗi lượt, khi lá @C đầu tiên được tạo, nhận @D @E.
+222|@A được kích hoạt, gây Sát thương cố định bằng @B% sát thương đã gây lên mục tiêu (sát thương này không thể chí mạng).
+223|Tăng @C @B cho @A và thêm hiệu ứng: Thêm @D lần đánh cho @E tiếp theo.
+224|Đầu trận, +@A% sát thương cho @B.
+225|Đầu trận hoặc mỗi khi @A lá @B được kích hoạt, nhận @C @D.
+226|@A: Thêm @B lần đánh cho @C; khi hiệu ứng kích hoạt, xóa @D.
+227|Thêm hiệu ứng sau vào lá @A: @B Hỏa thuật
+228|+@A% sát thương cho @B của Fei; nếu Tấn công của Fei từ @C trở lên, cộng thêm +@D% vào hệ số
+229|Nếu Tấn công của Fei từ @A trở lên, +@B% sát thương hệ Hư vô; mỗi @C Tấn công vượt quá § cộng thêm +@D% vào hệ số
+230|Tạo @A lá Nguyên mẫu trong @B
+231|@A @B lá trong số đó
+232|Chọn @A lá Nguyên mẫu
+233|Tạo mỗi nơi @A lá: trên tay và @B
+234|Dự đoán lá Nguyên mẫu sẽ được tạo
+235|Tạo @A lá Nguyên mẫu
+236|Nếu dự đoán đúng, tạo các lá còn lại trong @A
+237|Kích hoạt hiệu ứng @A @B lần trên @C lá ngẫu nhiên của bản thân
+238|Giữ lại:
+239|Khi lá này được Giữ lại, kích hoạt hiệu ứng
+240|Tạo @A lá Nguyên mẫu
+241|Khi @A bằng @B, tạo @C lá Nguyên mẫu ở mỗi nơi: trên tay và @D (@E lần mỗi lượt)
+242|Điểm hành động
+243|Tài nguyên bị tiêu hao khi các lá được @A
+244|@A @B lá Nguyên mẫu
+245|@A một hiệu ứng ngẫu nhiên của các lá đó trong @B lượt
+246|Chọn và làm Kiệt sức
+247|@A lá @B trên tay
+248|Đổi tất cả lá Nguyên mẫu trên tay
+249|thành lá Nguyên mẫu khác
+250|@A @B @C lá Nguyên mẫu
+251|Chọn và làm Kiệt sức tối đa @A lá @B từ Tất cả chồng bài
+252|@A một lá Kiệt sức cho mỗi lá bị Kiệt sức
+253|@A @B lá Nguyên mẫu
+254|Lặp lại đến khi rút liên tiếp cùng một lá
+255|(Tối đa @A lần)
+256|Nhận @A Lá chắn
+257|@A @B tất cả hiệu ứng
+258|@A Tăng @B% tất cả hiệu ứng cho đến khi được @C (tối đa @D lần)
+259|Khi @A bằng @B, tạo @C lá @D
+260|Giảm @A chi phí của các lá đó và áp dụng @B (@C lần mỗi lượt)
+261|Gây @A @B @C cho mỗi điểm chi phí của lá này
+262|Khi một lá bị @A, đổi ngẫu nhiên chi phí lá này trong khoảng
+263|@A - @B
+264|Khi @A lá Nguyên mẫu được tạo, tạo @B lá giống hệt trong @C
+265|Khi @A lá Nguyên mẫu được tạo, tạo @B lá giống hệt trên tay
+266|Áp dụng @A cho lá đó
+267|Khi @A được @B, tạo @C lá Nguyên mẫu khác trong @D
+268|Tạo @A lá mỗi loại Nguyên mẫu
+269|Tạo @A bản của lá Nguyên mẫu tiếp theo bị @B
+270|Khi một lá Nguyên mẫu được đưa lên tay, nhân bản lá đó và xóa một hiệu ứng ngẫu nhiên (@A lần mỗi lượt)
+271|Tăng @A% sát thương lần đánh đầu tiên của Bài tấn công tiếp theo
+272|Chọn và tạo @A lá Nguyên mẫu
+273|Trong @A lần tiếp theo dùng Kỹ năng Ego, tạo thêm một lá
+274|Giảm @B chi phí của @A tiếp theo được sử dụng
+275|Kỹ năng Ego
+276|Chỉ Kỹ năng Thức tỉnh của nhân vật và Kỹ năng của Đối tác.
+277|Đổi số cộng dồn tối đa của @A trên lá @B từ @C thành @D.
+278|Khi một lá Nguyên mẫu được kích hoạt, nhận hiệu ứng hình dạng của lá đó.
+279|Khi hiệu ứng hình dạng đạt @A cộng dồn, tạo @B lá gồm các hiệu ứng hình dạng đã tích lũy.
+280|@A: Hồi máu @B%
+281|@A: Tăng @B% sát thương lần đánh đầu tiên của Bài tấn công tiếp theo (tối đa @C%)
+282|@A: Rút @B lá Nguyên mẫu
+283|Hiệu ứng này chỉ có thể kích hoạt @A mỗi lượt; sau khi kích hoạt, hiệu ứng hình dạng bị xóa vào cuối lượt.
+284|Tăng số lần tạo thêm của @A lên @B lần và tăng mức giảm chi phí Kỹ năng Ego tiếp theo lên @C.
+285|Khi lá Nguyên mẫu của Tiphera được kích hoạt, nhận hiệu ứng @A.
+286|@A: Tăng @B% sát thương Bài tấn công, tăng @C% sát thương hệ Trật tự và tăng @D% Sát thương theo Phòng thủ cho đồng đội
+287|Cuối lượt, xóa @A (tối đa @B cộng dồn)
+288|Bài đặc trưng của Tiphera nhận @A, nhưng các hiệu ứng đó được @B.
+289|Đầu trận, đổi mức tăng @A của Archetype: △ từ @B% thành @C% và giới hạn cộng dồn từ @D% thành @E%.
+290|Giảm lượng hồi máu của lá @A còn @B% và thêm hiệu ứng @C% Lá chắn.
+291|+@A% lượng hồi máu và Lá chắn nhận được cho các lá Nguyên mẫu; nếu Phòng thủ của Tiphera từ @B trở lên, cộng thêm +@C% vào hệ số
+292|Nếu Phòng thủ của Tiphera từ @A trở lên, đầu trận đồng đội nhận +@B% Sát thương chí mạng
+293|+@A% sát thương cho @B trong @C lượt
+294|Liên kết
+295|Khi lá này được @A, bỏ tất cả lá @B khác trên tay
+296|Tịch diệt
+297|Khi lá này bị bỏ, @A lá này
+298|Không thể đưa lá này ra khỏi Chồng bài @A trong lượt này
+299|Thêm @A lần đánh cho mỗi@B @C trên tay trước khi @D
+300|@A @B@C lá @D trong @E lên mục tiêu dưới dạng @F
+301|Tạo @A lá @B rồi áp dụng @C cho các lá đó
+302|Nếu @A trên tay, @B lá đó; +@C% sát thương cho lá này với mỗi@D @E trong @F
+303|Hạ màn
+304|Khi lá này được @A, kết thúc lượt
+305|Áp dụng @A cho các lá đó trong lượt này
+306|Áp dụng @A cho các lá có chi phí từ @B trở xuống trên tay trong lượt này
+307|Áp dụng @A cho các lá @B trên tay trong lượt này
+308|Chọn @A lá từ @B hoặc @C, áp dụng @D cho lá đó rồi đưa lên tay
+309|@A @B Bài tấn công của bản thân
+310|Áp dụng @A cho tất cả Bài tấn công trên tay trong lượt này
+311|+@A% sát thương cho mỗi lá @B trên tay trước khi @C
+312|Nếu có từ @A lá @B trở lên trên tay trước khi @C, sát thương gấp @D lần
+313|Nếu lá này trên tay hoặc ở @A, +@B% sát thương cho các lá @C
+314|@A tất cả lá @B trên tay mà không bỏ chúng
+315|Khi được @A, gây @B% sát thương × @C
+316|Khi lá này bị bỏ, gây @A sát thương lên tất cả kẻ địch
+317|Sử dụng
+318|Tự tay sử dụng một lá bài
+319|+@A% sát thương cho @B @C tiếp theo
+320|Tạo @A cho mỗi@B lá @C trên tay
+321|Đầu lượt, tạo @A lá @B
+322|+@A% sát thương cho @B
+323|Khi chuyển vào @A, nhận @B @C
+324|Ánh sáng rực rỡ
+325|Khi Ánh sáng rực rỡ đạt @A cộng dồn, đổi @B thành @C
+326|Khi hiệu ứng kích hoạt, xóa Ánh sáng rực rỡ
+327|+@A% sát thương cho mỗi lá đã bỏ trong trận này (tối đa @B lá)
+328|+@A% sát thương cho lá @B; sát thương cộng thêm cho mỗi @C trong Mộ bài đổi thành +@D%.
+329|Đầu trận, đưa lá @A lên tay.
+330|Đầu lượt, nhận @A @B.
+331|@A: Khi một lá Liên kết được sử dụng hoặc bị bỏ, gây @B% Đòn đánh thêm lên kẻ địch có Máu cao nhất; khi sử dụng hoặc bỏ, giảm @C đi @D (tối đa @E cộng dồn).
+332|+@A% sát thương cho @B; đổi hiệu ứng +@C% sát thương (tối đa @D lá) thành +@E% sát thương (tối đa @F lá) cho mỗi lá đã bỏ trong trận này.
+333|Khi các lá Liên kết của Heidemarie được sử dụng hoặc bị bỏ, nhận @A @B.
+334|@A: +@B% sát thương cho Heidemarie (tối đa @C cộng dồn)
+335|Đổi các lá @A được tạo thành lá @B.
+336|Mỗi khi @A được kích hoạt, +@B% sát thương cho @C (tối đa +@D%).
+337|Thêm hiệu ứng sau vào lá @A: +@B% sát thương cho @C trong @D lượt.
+338|+@A% sát thương cho @B của Heidemarie; nếu Tấn công của Heidemarie từ @C trở lên, cộng thêm +@D% vào hệ số.
+339|Nếu Tấn công của Heidemarie từ @A trở lên, +@B% sát thương hệ Đam mê; mỗi @C Tấn công vượt quá § cộng thêm +@D%
+340|Khi một lá được @A, nhận @B @C cho mỗi điểm chi phí của lá đó
+341|Biên niên
+342|Đầu lượt, giảm toàn bộ @A
+343|Nhận @A cho mỗi điểm đã giảm (tối đa @B)
+344|Khi đang có @A, không thể nhận @B
+345|Khi @A bị xóa, nhận @B @C
+346|Thăng hoa thời gian
+347|Khi Bài cơ bản hoặc Bài đặc trưng của @A được @B, dùng @C làm chi phí
+348|Không thể nhận @A từ chi phí đã dùng qua @B
+349|Cuối lượt, xóa @A
+350|Cuối lượt, gây @A% sát thương lên kẻ địch ngẫu nhiên cho mỗi @B
+351|Khi một lá bị bỏ, nhận @A @B
+352|Khi hiệu ứng @A kích hoạt, nhận @B @C
+353|Tăng @A% sát thương cho mỗi điểm chi phí của các lá trên tay
+354|Tăng @A% sát thương cho mỗi lá có chi phí từ @B trở xuống trên tay
+355|Tăng @C% sát thương cho @A Bài tấn công tiếp theo của bản thân được @B
+356|Khi nhận @A, @B lá này nếu đang trên tay
+357|Dễ tổn thương
+358|Tăng @A% sát thương nhận vào
+359|Khi kích hoạt, giảm @A đi @B
+360|Đổi chi phí của tất cả @A trên tay thành @B
+361|Tăng @C chi phí của @A lá có chi phí từ @B trở xuống trên tay cho đến khi được @D, rồi @E @F lá ngẫu nhiên có chi phí @G
+362|@A @B Bài tấn công ngẫu nhiên có chi phí @C trên tay
+363|@A @B lá ngẫu nhiên có chi phí @C trong @D
+364|@A @B lá ngẫu nhiên có chi phí @C trên tay
+365|Khi một lá có chi phí được tăng được @A, gây @B% sát thương lên kẻ địch ngẫu nhiên
+366|Khi nhận @A, đưa tất cả Bài cơ bản của bản thân lên tay
+367|Chọn và @A @B lá @C từ @D, rồi tạo @E cho mỗi điểm chi phí của lá đó
+368|Tất cả chồng bài
+369|Tất cả chồng bài trừ Chồng bài kiệt sức
+370|Khi nhận @A, @B @C Bài tấn công có chi phí @D
+371|Giảm toàn bộ @A
+372|Nhận @A cho mỗi điểm đã giảm
+373|Nhận @A cho mỗi điểm đã giảm. Nếu giảm @B, nhận @C @D
+374|Tăng @B% sát thương Bài tấn công tiếp theo của bản thân được @A cho mỗi điểm chi phí của các lá được @C trong trận này (tối đa @D%)
+375|Thêm hiệu ứng sau liên quan đến @A vào lá @B: Nếu đã giảm @C, thay vào đó nhận @D @E
+376|Khi nhận Thăng hoa thời gian, tạo @A lá @B.
+377|@A: Tăng @B% sát thương Bài tấn công tiếp theo của bản thân được kích hoạt
+378|Tăng thêm @A% sát thương cho mỗi điểm chi phí của lá đó
+379|Đổi các giá trị của @A thành: tăng @B% sát thương Bài tấn công tiếp theo của bản thân được kích hoạt (tối đa @C%)
+380|Khi một lá có chi phí từ @A trở lên được kích hoạt, nhận @B.
+381|@A: Tăng @B% sát thương của Rita trong @C lượt (tối đa @D cộng dồn)
+382|Cho phép nhận @A ngay cả khi đang có @B.
+383|Khi nhận @A, nhận thêm @B @C (@D lần mỗi trận).
+384|@A bị xóa, gây @B% Sát thương cố định cho mỗi @C đã dùng trong @D lượt.
+385|+@A% sát thương cho lá @B.
+386|+@A% sát thương cho @B của Rita
+387|Nếu Tấn công của Rita từ @A trở lên, cộng thêm +@B% vào hệ số
+388|Nếu Tấn công của Rita từ @A trở lên, bản thân nhận +@B% Tấn công.
+389|Tạo @A lá @B trong @C, rồi @D @E lá trong số đó
+390|Khi hạ gục kẻ địch, tạo @A lá @B trong @C (@D lần mỗi lượt)
+391|Đầu lượt, tạo @A lá @B trong @C
+392|@A không thể là mục tiêu của @B
+393|Rút đầu lượt
+394|Đầu lượt, tự động rút @A lá
+395|Gây @A sát thương và @B @C lên tất cả kẻ địch
+396|Ion hóa
+397|+@A% sát thương nhận vào cho mỗi @B; thêm +@C% sát thương nhận từ @D cho mỗi @E (tối đa @F cộng dồn)
+398|Gây @A% sát thương và @B @C lên tất cả kẻ địch
+399|@A @B @C lên kẻ địch ngẫu nhiên
+400|@A @B @C lên tất cả kẻ địch (tối đa @D lần)
+401|Rạn nứt
+402|Cuối lượt, gây @A @B cho mỗi @C
+403|Gây @A% @B và @C @D lên tất cả kẻ địch
+404|@A @B Bài tấn công của bản thân
+405|@A Giảm chi phí đi @B
+406|+@A% sát thương cho các lá đó trong @B lượt, cho đến khi được @C
+407|Trong @A @B tiếp theo của bản thân, gây @C @D lên tất cả kẻ địch
+408|Đưa tất cả lá trên tay vào @A, rồi @B cho mỗi lá đã chuyển
+409|@A @B lá @C
+410|Giảm @A chi phí các lá đó trong @B lượt, cho đến khi được @C
+411|Tăng @A% sát thương Bài tấn công tiếp theo của bản thân cho mỗi@B lá được @C qua hiệu ứng trong lượt này (tối đa @D%)
+412|Khi đánh trúng, nhận @A @B
+413|Ngắm chuẩn
+414|Cuối lượt, gây @A% @B lên kẻ địch có Máu cao nhất cho mỗi @C; khi hiệu ứng kích hoạt, xóa @D (tối đa @E cộng dồn)
+415|Khi hiệu ứng @A kích hoạt, nhận @B @C
+416|Điều hòa:
+417|Khi lá này được @A, kích hoạt hiệu ứng
+418|Khi gây hiệu ứng bất lợi qua hiệu ứng, nhận @A @B
+419|Không thể @A Bài tấn công của bản thân
+420|Rút @A lá
+421|+@A% sát thương cho mỗi@B Bài tấn công được @C qua hiệu ứng trong lượt này (tối đa @D lá)
+422|Tất cả kẻ địch nhận thêm +@A% sát thương Điểm yếu trong @B lượt
+423|Áp dụng @A cho các lá đó trong @B lượt
+424|Nếu tấn công đúng hệ Điểm yếu của quái, tăng sát thương
+425|Giảm thêm @A
+426|Đổi các hiệu ứng sau của @A: tăng số lá rút thêm @B, +@C% sát thương và đổi mức tăng sát thương cho mỗi Bài tấn công rút qua hiệu ứng trong lượt này thành +@D%.
+427|Đầu trận, Hilde nhận +@A% Tỷ lệ chí mạng.
+428|Đầu lượt hoặc khi hạ gục kẻ địch, nhận @A @B.
+429|@A: Khi @B được kích hoạt, gây @C% Đòn đánh thêm lên kẻ địch có Máu thấp nhất và giảm Bắn kép đi @D (tối đa @E cộng dồn)
+430|Đổi hiệu ứng tăng sát thương Điểm yếu nhận vào của @A từ +@B% thành +@C%.
+431|Với mỗi lần đánh của đồng đội, nhận @A @B
+432|@A: Tăng @B% sát thương Đòn đánh thêm của Hilde (tối đa @C cộng dồn)
+433|Khi @A đạt @B cộng dồn, đồng đội hệ Bản năng nhận thêm +@C% Tỷ lệ chí mạng.
+434|Tăng giới hạn cộng dồn @A lên @B; đầu lượt, nhận @C @D.
+435|Với mỗi cộng dồn @A, +@B% Sát thương chí mạng cho @C (tối đa +@D%).
+436|+@A% sát thương cho @B của Hilde
+437|Nếu chỉ số Sát thương bổ sung của Hilde từ @A% trở lên, cộng thêm +@B% vào hệ số
+438|+@A% sát thương hệ Bản năng
+439|Nếu chỉ số Sát thương bổ sung của Hilde từ @A% trở lên, cộng thêm +@B% vào hệ số
+440|Gây @A @B lên kẻ địch có Máu cao nhất
+441|Tăng @A% sát thương Bài tấn công của bản thân trong @B lượt
+442|Gây @A @B cho mỗi loại hiệu ứng bất lợi trên mục tiêu (tối đa @C)
+443|@A @B lá của bản thân
+444|Gây @A% sát thương, @B @C, @D @E và @F @G lên tất cả kẻ địch
+445|Thiêu đốt
+446|Khi @A giảm, gây số lần giảm × @B @C (tối đa @D cộng dồn)
+447|Khi hiệu ứng kích hoạt, giảm đi @A; cuối lượt, xóa hiệu ứng
+448|Với mỗi kẻ địch đang hiện diện, bản thân nhận +@A% sát thương trong @B lượt
+449|Khuếch đại Rạn nứt
+450|Khi @A do đồng đội gây ra kích hoạt, gây @B @C lên mục tiêu; nếu chỉ có một kẻ địch, gây @D @E
+451|Tăng @A% sát thương Rạn nứt do Arabella gây ra
+452|Khi áp dụng lên mục tiêu khác, xóa @A (không cộng dồn)
+453|Với mỗi loại hiệu ứng bất lợi trên mục tiêu, bản thân nhận +@A% sát thương trong @B lượt (tối đa @C%)
+454|Gây @A @B và @C @D lên tất cả kẻ địch
+455|Trong @A lượt, bản thân nhận +@B% sát thương; khi đồng đội hạ gục kẻ địch trong lượt đó, chuyển @C của mục tiêu ấy sang kẻ địch ngẫu nhiên
+456|Đầu lượt, gây @A @B và @C @D lên kẻ địch có Máu cao nhất
+457|Gây @A sát thương và @B @C lên tất cả kẻ địch, rồi kích hoạt Rạn nứt do bản thân gây ra
+458|@A Kích hoạt Rạn nứt do đồng đội gây ra
+459|Gây @A% sát thương và @B @C lên tất cả kẻ địch, rồi kích hoạt @D do bản thân gây ra
+460|@A Kích hoạt @B do bản thân gây ra
+461|@A Kích hoạt @B do bản thân gây ra trên tất cả kẻ địch (@C lần mỗi lượt)
+462|Gây @A% sát thương, @B @C và @D @E lên tất cả kẻ địch
+463|@A Kích hoạt @B do đồng đội gây ra
+464|Gây @A% sát thương lên tất cả kẻ địch và xóa toàn bộ @B do đồng đội gây ra
+465|Gây số Rạn nứt đã xóa ×@A lên mục tiêu đang chịu @B
+466|Gây @A sát thương và kích hoạt @B do bản thân gây ra @C lần
+467|Thêm @A lần đánh cho mỗi loại hiệu ứng bất lợi trên mục tiêu (tối đa @B lần)
+468|Gây @A% sát thương × @B và kích hoạt @C do bản thân gây ra @D lần
+469|@A @B @C lá của bản thân
+470|Gây @A% sát thương và kích hoạt @B do bản thân gây ra
+471|@A Đưa lá này lên tay (@B lần mỗi lượt)
+472|Gây @A @B với mỗi lần đánh
+473|Nếu chi phí lá này được giảm, thêm @A lần đánh
+474|Gây @A% sát thương và kích hoạt @B do bản thân gây ra @C lần
+475|Thêm @A lần đánh cho mỗi Rạn nứt do bản thân gây ra đã kích hoạt trong lượt này (tối đa @B lần)
+476|Tăng @A% sát thương cho mỗi loại hiệu ứng bất lợi trên mục tiêu (tối đa @B%)
+477|@A Sát thương cơ bản gấp @B lần
+478|Trong @A lượt, gây Sát thương cố định lên mục tiêu bằng @B% tổng sát thương tất cả kẻ địch nhận vào
+479|(Không vượt quá @A% Tấn công của Arabella mỗi lượt)
+480|+@A% sát thương cho @B; đổi hiệu ứng tăng @C% sát thương cho mỗi loại hiệu ứng bất lợi trên mục tiêu (tối đa @D%) thành tăng @E% sát thương (tối đa @F%).
+481|Đầu trận, gây @A lên kẻ địch có Máu cao nhất.
+482|Khi kỹ năng của Arabella kích hoạt Rạn nứt do cô gây ra, cô gây @A Rạn nứt lên tất cả kẻ địch (@B lần mỗi lượt).
+483|Đổi các hiệu ứng sau của @A: +@B% sát thương; đổi Sát thương cố định bằng @C% tổng sát thương tất cả kẻ địch nhận vào thành @D%; tăng giới hạn mỗi lượt từ @E% Tấn công của Arabella lên @F%.
+484|Mỗi khi Arabella gây hoặc kích hoạt Rạn nứt của mình qua hiệu ứng, nhận @A.
+485|@A: Tăng @B% sát thương Rạn nứt của Arabella (tối đa @C cộng dồn)
+486|Khi kỹ năng của Arabella kích hoạt Rạn nứt do cô gây ra, gây thêm @A Rạn nứt lên mục tiêu đang chịu Khuếch đại Rạn nứt.
+487|Tăng giới hạn cộng dồn @A thêm @B; +@C% Sát thương chí mạng cho Rạn nứt Arabella gây lên mục tiêu chịu Khuếch đại Rạn nứt.
+488|Thêm hiệu ứng sau vào lá @A: @B Rạn nứt
+489|+@A% sát thương cho lá @B của Arabella
+490|Nếu Tấn công của Arabella từ @A trở lên, cộng thêm +@B% vào hệ số
+491|Nếu Tấn công của Arabella từ @A trở lên, +@B% sát thương hệ Bản năng; mỗi @C Tấn công vượt quá § cộng thêm +@D% vào hệ số (tối đa cộng thêm +@E%)
+492|Gây @A sát thương và @B @C, rồi kích hoạt @D do bản thân gây ra
+493|Gây @A sát thương và @B @C, rồi kích hoạt @D do đồng đội gây ra
+494|Gây @A sát thương và @B @C, rồi kích hoạt @D do bản thân gây ra @E lần
+495|Gây @A% sát thương và @B @C
+496|Kích hoạt @A do bản thân gây ra
+497|Gây @A% sát thương và @B @C, rồi kích hoạt @D do bản thân gây ra
+498|Cuối lượt, gây thêm @A @B (tối đa @C)
+499|Gây @A sát thương, @B @C và @D @E, rồi kích hoạt @F do bản thân gây ra và @G do đồng đội gây ra
+500|Dấu ấn Thống khổ
+501|Khi @A do bản thân gây ra kích hoạt, đưa @B lá @C lên tay và giảm chi phí đi @D cho đến khi được @E
+502|Khi @A được đưa lên tay, giảm @B đi @C (tối đa @D cộng dồn)
+503|Dấu ấn Rạn nứt
+504|Gây @A @B và @C @D lên kẻ địch có Máu cao nhất
+505|Đưa @A lá @B lên tay và áp dụng @C
+506|Đầu lượt, nhận @A @B hoặc @C @D
+507|Khi @A hoặc @B được kích hoạt qua Bài chọn mục tiêu, gây @C Rạn nứt và @D Thống khổ lên mục tiêu (@E lần mỗi lượt)
+508|Khi @A hoặc @B được gây ra qua Bài chọn mục tiêu, gây @C Rạn nứt và @D Thống khổ lên mục tiêu (@E lần mỗi lượt)
+509|Đầu lượt, gây @A Thiêu đốt lên tất cả kẻ địch
+510|Cuối lượt, xóa @A khỏi tất cả kẻ địch; gây một @B cho mỗi Thiêu đốt đã xóa lên kẻ địch có Máu cao nhất (tối đa @C)
+511|Khi gây hiệu ứng bất lợi qua hiệu ứng, tăng @A% sát thương trong @B lượt (tối đa @C%)
+512|Gây @A @B, @C sát thương, @D @E và @F @G
+513|Khi lá này được kích hoạt, đổi thành @A
+514|Tan vỡ
+515|Khi hiệu ứng @A trên mục tiêu kích hoạt, gây @B bằng @C% sát thương nhận vào (sát thương này không thể chí mạng)
+516|Cuối lượt, giảm @A đi @B
+517|Khi lá này được @A, đổi thành @B
+518|Với mỗi @A, @B và @C kích hoạt trong lượt này, lần lượt +@D%, +@E% và +@F% sát thương cơ bản (tối đa @G%)
+519|Giảm @B chi phí của @A
+520|Với @A, +@B% sát thương và tăng sát thương cơ bản cho mỗi hiệu ứng Tham tàn từ +@C% lên +@D%.
+521|Khi hiệu ứng Sát thương theo thời gian của @A kích hoạt, tăng hiệu ứng Sát thương cố định từ @B% sát thương nhận vào lên @C%.
+522|Khi Rạn nứt hoặc Thống khổ kích hoạt, Hồi phục @A% Máu tối đa (@B lần mỗi lượt).
+523|+@A% sát thương cho @B; đổi giới hạn sát thương theo mỗi Rạn nứt, Thống khổ và Thiêu đốt kích hoạt trong lượt này từ @C% lên @D%.
+524|Khi Rạn nứt hoặc Thống khổ của Olga kích hoạt, nhận @A @B.
+525|@A: Tăng @B% sát thương các hiệu ứng Sát thương theo thời gian của Olga (tối đa @C cộng dồn)
+526|Đầu lượt, đưa lá @A hoặc @B lên tay.
+527|Đổi mức tăng sát thương của @A từ @B% thành @C%; khi @D đạt @E cộng dồn, Olga nhận +@F% Sát thương chí mạng.
+528|Thêm hiệu ứng sau vào lá @A: @B Rạn nứt, @C Thống khổ
+529|+@A% sát thương cho lá @B của Olga
+530|Nếu chỉ số Sát thương theo thời gian của Olga từ @A% trở lên, cộng thêm +@B% vào hệ số
+531|Nếu chỉ số Sát thương theo thời gian của Olga từ @A% trở lên, cộng thêm +@B% vào hệ số
+532|+@A% sát thương cơ bản cho mỗi Nhịp điệu
+533|+@A% sát thương cơ bản cho mỗi Nhịp điệu trong Mộ bài
+534|Trong @A lượt, giảm @D chi phí của @B tiếp theo được @C
+535|Nếu lá được @A gần nhất là @B, tăng chi phí thêm @C
+536|+@A% sát thương cơ bản cho mỗi Nhịp điệu Liên kết trước khi @B
+537|Khi có từ @A lá Liên kết trở lên, thêm @B lần đánh
+538|Chọn @A trong @B @C
+539|Đổi tất cả @A thành lá đã chọn trong @B lượt và @C @D lá trong số đó
+540|Gây @A@B @C cho mỗi Nhịp điệu
+541|@A @B @C có chi phí thấp nhất và giảm chi phí đi @D cho đến khi được @E
+542|@A @B @C có chi phí cao nhất trên tay
+543|@A @B @C có chi phí cao nhất trong @D và @E
+544|Giảm @A chi phí của lá này cho mỗi @B trong @C
+545|Giảm @A chi phí của lá này cho mỗi @B được @C trong lượt này
+546|Điểm Ego
+547|Tài nguyên tiêu hao khi dùng Kỹ năng Thức tỉnh hoặc Kỹ năng Đối tác
+548|@A Đầu lượt, tạo @B lá @C trên tay
+549|Gây @A sát thương @B
+550|Khi @A kích hoạt qua lá này, @B @C
+551|Làm Kiệt sức tất cả @A trong @B, rồi +@C% sát thương cơ bản cho mỗi@D lá bị Kiệt sức
+552|Cuối lượt, đổi lá này thành @A
+553|Khi lá này bị bỏ, gây @A @B lên kẻ địch ngẫu nhiên
+554|Lá này không chuyển vào @A khi Xáo bài
+555|Gây @A@B sát thương cho mỗi điểm chi phí của lá này
+556|Tăng @B chi phí của tất cả @A trên tay
+557|Khi lá này rời tay, đổi chi phí thành @A
+558|Tăng @B% sát thương Bài tấn công tiếp theo của bản thân được @A
+559|Gây @A @B lên kẻ địch có Máu thấp nhất
+560|@A @B lá này
+561|+@A% sát thương cơ bản cho mỗi @B
+562|Kích hoạt @A và @B do bản thân gây ra
+563|Tham tàn
+564|Sát thương do lá này gây ra cũng được xem là @A
+565|Khi @A hoặc @B được gây ra qua hiệu ứng, tăng @C thêm @D
+566|Khi @A kích hoạt, đặt lại số cộng dồn @B
+567|Tối đa #olga_max_count# cộng dồn

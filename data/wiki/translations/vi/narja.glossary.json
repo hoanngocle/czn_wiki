@@ -1,0 +1,101 @@
+{
+  "characterId": "1052",
+  "terms": [
+    {
+      "id": "CARD_DEFDAMAGE",
+      "title": "Sát thương theo Phòng thủ",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công",
+      "englishTitle": "Defense-Based Damage"
+    },
+    {
+      "id": "CARD_CURE",
+      "title": "Hồi máu",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng",
+      "englishTitle": "Healing"
+    },
+    {
+      "id": "T_CS01_0798",
+      "title": "Háu ăn",
+      "desc": "Khi đánh trúng bằng một lá Tấn công, <color_orange>40</>% <color_orange><u>Hồi máu cố định</u></><br>Nếu Máu đạt ít nhất <cc>50</>%, tăng <color_orange>30</>% lượng sát thương gây ra bởi các lá Tấn công<br>Khi hiệu ứng kích hoạt, giảm <cc>1</> cộng dồn<br>(tối đa <color_orange>30</> cộng dồn)",
+      "englishTitle": "Voracity"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishTitle": "Activate"
+    },
+    {
+      "id": "T_CS01_0805",
+      "title": "Săn mồi",
+      "desc": "Nếu đang có <color_orange><u>Háu ăn</u></>, tăng <color_orange>80</>% lượng sát thương gây ra bởi các lá Tấn công<br>Khi hiệu ứng kích hoạt, giảm <cc>1</> cộng dồn",
+      "englishTitle": "Predation"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishTitle": "Retain"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishTitle": "Shield"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "desc": "Chỉ có thể đưa 1 bản sao của mỗi lá <cc>Độc nhất</> vào Bộ bài",
+      "englishTitle": "Unique"
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ",
+      "englishTitle": "Lead"
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "desc": "Gồm các lá đã được Kích hoạt trong lượt này hoặc đang ở <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Graveyard"
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishTitle": "Draw Pile"
+    },
+    {
+      "id": "T_CS00_0001",
+      "title": "Sĩ khí",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi <color_orange><u>Sĩ khí</u></>",
+      "englishTitle": "Morale"
+    },
+    {
+      "id": "CARD_TURN_COUNT",
+      "title": "Số đếm hành động",
+      "desc": "Số lần sử dụng bài còn lại trước khi quái vật hành động<br>Khi sử dụng một lá bài, giảm <cc>1</><br>Khi về <cc>0</>, quái vật hành động",
+      "englishTitle": "Action Count"
+    },
+    {
+      "id": "CARD_EGO_DAMAGE",
+      "title": "Sát thương sức bền",
+      "desc": "Sát thương gây lên Sức bền của quái vật",
+      "englishTitle": "Tenacity Damage"
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng",
+      "englishTitle": "Proc"
+    },
+    {
+      "id": "TERM_ATTUNEMENT",
+      "title": "Điều hòa",
+      "desc": "Kích hoạt phần hiệu ứng sau Điều hòa: ngay khi lá bài được đưa lên tay, kể cả rút bài đầu lượt. Không cần sử dụng lá bài; các hiệu ứng khác trên lá không tự kích hoạt.<br>Ví dụ: Điều hòa: +1 Điểm hành động — nhận ngay 1 Điểm hành động khi lá bài lên tay.",
+      "englishTitle": "Attunement"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "characterId": "30075",
+  "terms": [
+    {
+      "id": "TERM_DESTROY",
+      "title": "Phá vỡ",
+      "desc": "Kích hoạt phần hiệu ứng sau Phá vỡ: khi lá bài đánh vỡ thanh Sức bền khiến mục tiêu vào trạng thái Suy yếu, hoặc đánh vào mục tiêu đang Suy yếu. Không cần tiêu diệt mục tiêu.<br>Ví dụ: Phá vỡ: +1 lần đánh — thêm 1 lần đánh khi đủ điều kiện.",
+      "englishTitle": "Destroy"
+    },
+    {
+      "id": "TERM_ATTUNEMENT",
+      "title": "Điều hòa",
+      "desc": "Kích hoạt phần hiệu ứng sau Điều hòa: ngay khi lá bài được đưa lên tay, kể cả rút bài đầu lượt. Không cần sử dụng lá bài; các hiệu ứng khác trên lá không tự kích hoạt.<br>Ví dụ: Điều hòa: +1 Điểm hành động — nhận ngay 1 Điểm hành động khi lá bài lên tay.",
+      "englishTitle": "Attunement"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishTitle": "Shield"
+    },
+    {
+      "id": "CARD_PLACE_DISCARD_2",
+      "title": "Chồng bài bỏ",
+      "desc": "Nơi chứa các lá đã bị bỏ (tối đa <cc>200</> lá).",
+      "englishTitle": "Discard Pile"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Bỏ bài",
+      "desc": "Bỏ lá này từ tay vào <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Discard"
+    },
+    {
+      "id": "CARD_DECK_2",
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishTitle": "Draw Pile"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishTitle": "Initiation"
+    },
+    {
+      "id": "CARD_TOMB",
+      "title": "Mộ bài",
+      "desc": "Gồm các lá đã được Kích hoạt trong lượt này hoặc đang ở <color_orange><u>Chồng bài bỏ</u></>.",
+      "englishTitle": "Graveyard"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "desc": "Khi lá này được Kích hoạt, chuyển nó vào Chồng bài kiệt sức.",
+      "englishTitle": "Exhaust"
+    },
+    {
+      "id": "CARD_ADDITIONAL_ATTACK",
+      "title": "Đòn đánh thêm",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung.",
+      "englishTitle": "Extra Attack"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishTitle": "Activate"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishTitle": "Draw"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishTitle": "Retain"
+    },
+    {
+      "id": "CARD_ATK",
+      "title": "Tấn công",
+      "desc": "Loại lá bài tấn công.",
+      "englishTitle": "Attack"
+    },
+    {
+      "id": "CARD_SKILL",
+      "title": "Kỹ năng",
+      "desc": "Loại lá bài kỹ năng.",
+      "englishTitle": "Skill"
+    },
+    {
+      "id": "CARD_POWER",
+      "title": "Cường hóa",
+      "desc": "Loại lá bài nâng cấp.",
+      "englishTitle": "Upgrade"
+    },
+    {
+      "id": "TERM_COST",
+      "title": "Chi phí",
+      "desc": "Chi phí sử dụng lá bài.",
+      "englishTitle": "Cost"
+    },
+    {
+      "id": "TERM_HP",
+      "title": "Máu",
+      "desc": "Máu của nhân vật hoặc kẻ địch.",
+      "englishTitle": "HP"
+    },
+    {
+      "id": "TERM_COMBATANT",
+      "title": "Nhân vật",
+      "desc": "Nhân vật tham chiến; lá của Nhân vật khác là lá thuộc nhân vật khác.",
+      "englishTitle": "Combatant"
+    },
+    {
+      "id": "TERM_CRITICAL_CHANCE",
+      "title": "Tỷ lệ chí mạng",
+      "desc": "Tỷ lệ chí mạng.",
+      "englishTitle": "Critical Chance"
+    },
+    {
+      "id": "TERM_TENACITY_DAMAGE",
+      "title": "Sát thương sức bền",
+      "desc": "Sát thương lên thanh Sức bền.",
+      "englishTitle": "Tenacity Damage"
+    },
+    {
+      "id": "TERM_EXHAUST_PILE",
+      "title": "Chồng bài kiệt sức",
+      "desc": "Nơi chứa các lá đã bị Kiệt sức.",
+      "englishTitle": "Exhaust Pile"
+    },
+    {
+      "id": "TERM_CRITICAL_DAMAGE",
+      "title": "Sát thương chí mạng",
+      "desc": "Sát thương chí mạng.",
+      "englishTitle": "Critical Damage"
+    },
+    {
+      "id": "T_CS01_0764",
+      "title": "Dư quang",
+      "englishTitle": "Afterglow",
+      "desc": "Tăng <color_orange>1</> sát thương <color_orange><u>Sức bền</u></> của các lá Tấn công và tăng <color_orange>100</>% lượng sát thương lên kẻ địch đang <color_orange><u>Suy yếu</u></> hoặc không có <color_orange><u>Sức bền</u></>.<br>Khi hiệu ứng kích hoạt, giảm <cc>1</> Dư quang."
+    },
+    {
+      "id": "CARD_EGO_BREAK_2",
+      "title": "Suy yếu:",
+      "englishTitle": "Ravage:",
+      "desc": "Khi <color_orange><u>Sức bền</u></> của quái vật bị giảm hết, kích hoạt hiệu ứng.<br>Khi gây Suy yếu, nhận <cc>1</> Điểm hành động."
+    },
+    {
+      "id": "CARD_EGO_FIELD",
+      "title": "Sức bền",
+      "englishTitle": "Tenacity",
+      "desc": "Thuộc tính mà quái vật sở hữu.<br>Khi tấn công bằng lá bài cùng thuộc tính, kích hoạt <color_orange><u>Đánh điểm yếu</u></>."
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Kích hoạt qua hiệu ứng",
+      "englishTitle": "Proc",
+      "desc": "Kích hoạt một lá bài thông qua hiệu ứng."
+    },
+    {
+      "id": "T_CS00_0277",
+      "title": "Điểm yếu Bản năng",
+      "englishTitle": "Instinct Weakness",
+      "desc": "Áp dụng <color_orange><u>Đánh điểm yếu</u></> cho các lá <color_ego_instinct_light>Bản năng</>.<br>Khi bị áp dụng Điểm yếu thuộc tính khác, loại bỏ Điểm yếu <color_ego_instinct_light>Bản năng</>."
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "CARD_COST_X",
+      "title": "X",
+      "englishTitle": "X",
+      "desc": "Tiêu thụ toàn bộ <color_orange><u>Điểm hành động</u></> còn lại và kích hoạt hiệu ứng theo số điểm đó."
+    },
+    {
+      "id": "TALENT_NO_COUNT",
+      "title": "Nhanh nhẹn",
+      "englishTitle": "Haste",
+      "desc": "Lá này không làm giảm Số hành động của kẻ địch."
+    },
+    {
+      "id": "TALENT_WEAKPOINT",
+      "title": "Đánh điểm yếu",
+      "englishTitle": "Weakness Attack",
+      "desc": "Đòn tấn công của lá này được tính là đánh trúng Điểm yếu."
+    },
+    {
+      "id": "TERM_ACTION_POINTS",
+      "title": "Điểm hành động",
+      "englishTitle": "Action Points",
+      "desc": "Tài nguyên dùng để trả chi phí sử dụng lá bài."
+    },
+    {
+      "id": "SERENIEL_FIREPOWER_AMP",
+      "title": "Khuếch đại hỏa lực",
+      "englishTitle": "Firepower Amp",
+      "desc": "Hiệu ứng Thức tỉnh Ego cấp 4: mỗi cộng dồn tăng 25% lượng sát thương các lá Tấn công của Sereniel, tối đa 2 cộng dồn."
+    },
+    {
+      "id": "SERENIEL_HOMING_LASER",
+      "title": "Homing Laser",
+      "englishTitle": "Homing Laser",
+      "desc": "Tên lá bài của Sereniel; giữ nguyên tên trong bản dịch. Phiên bản cơ bản trở lại tay từ Mộ bài khi xảy ra Suy yếu; hiệu ứng của các Thức tỉnh bài có thể khác."
+    },
+    {
+      "id": "SERENIEL_HOMING_LASER_L",
+      "title": "Homing Laser L",
+      "englishTitle": "Homing Laser L",
+      "desc": "Tên lá bài được tạo bởi bộ kỹ năng của Sereniel; giữ nguyên tên trong bản dịch."
+    },
+    {
+      "id": "TALENT_EXHAUST_N",
+      "title": "Kiệt sức 2",
+      "englishTitle": "Exhaust 2",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></> <color_orange>2</> lần, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>."
+    },
+    {
+      "id": "T_CS00_0002",
+      "title": "Dễ tổn thương",
+      "englishTitle": "Vulnerable",
+      "desc": "Sát thương nhận vào tăng <color_orange>50</>%.<br>Khi kích hoạt, giảm <cc>1</> <color_orange><u>Dễ tổn thương</u></>."
+    },
+    {
+      "id": "SERENIEL_FORTITUDE",
+      "title": "Kiên cường",
+      "englishTitle": "Fortitude",
+      "desc": "Chỉ số bị giảm bởi hiệu ứng Đánh điểm yếu bổ sung trong bộ bài Anika/E2 theo nguồn."
+    },
+    {
+      "id": "T_CS00_0001",
+      "englishTitle": "Morale",
+      "title": "Sĩ khí",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương với mỗi <color_orange><u>Sĩ khí</u></>."
+    }
+  ]
+}

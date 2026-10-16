@@ -1,0 +1,103 @@
+{
+  "characterId": "1005",
+  "terms": [
+    {
+      "id": "CARD_PENETRATIONDAMAGE",
+      "title": "Sát thương xuyên",
+      "englishTitle": "Piercing Damage",
+      "desc": "Sát thương bỏ qua Lá chắn.",
+      "englishDesc": "Damage that ignores Shield"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishDesc": "Decrease Damage Amount taken until the next turn"
+    },
+    {
+      "id": "T_CS00_0025",
+      "title": "Dấu ấn",
+      "englishTitle": "Mark",
+      "desc": "Khi một lá Tấn công được <color_orange><u>Kích hoạt</u></>, gây <color_orange>100%</> <color_orange><u>Đòn đánh thêm</u></>, gây <color_orange><u>Sát thương sức bền</u></> tương ứng Chi phí <cc>0</> và giảm <color_orange><u>Dấu ấn</u></> đi <cc>1</>",
+      "englishDesc": "When an Attack Card is <color_orange><u>activate</u></>d, inflict <color_orange>100%</> <color_orange><u>Extra Attack</u></>, inflict <color_orange><u>Tenacity Damage</u></> equal to <cc>0</> Cost, and decrease <color_orange><u>Mark</u></> by <cc>1</>"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishDesc": "Using or proccing a card"
+    },
+    {
+      "id": "CARD_COOP",
+      "title": "Tấn công phối hợp",
+      "englishTitle": "Coordinated Attack",
+      "desc": "Sát thương áp dụng lượng sát thương của <color_orange><u>Đòn đánh thêm</u></>",
+      "englishDesc": "Damage that applies <color_orange><u>Extra Attack</u></> Damage Amount"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+    },
+    {
+      "id": "CARD_EGO_BREAK_2",
+      "title": "Suy yếu:",
+      "englishTitle": "Ravage:",
+      "desc": "Khi <color_orange><u>Sức bền</u></> của quái vật bị giảm hết, kích hoạt hiệu ứng.<br>Khi gây Suy yếu, nhận <cc>1</> Điểm hành động.",
+      "englishDesc": "When the monster’s <color_orange><u>Tenacity</u></> is fully reduced, activate effect<br>On Ravage, gain <cc>1</> Action Point"
+    },
+    {
+      "id": "T_CS00_0158",
+      "title": "Điểm yếu Đam mê",
+      "englishTitle": "Passion Weakness",
+      "desc": "Áp dụng <color_orange><u>Đánh điểm yếu</u></> cho các lá <color_ego_love_light>Đam mê</><br>Khi bị áp dụng Điểm yếu thuộc tính khác, loại bỏ Điểm yếu <color_ego_love_light>Đam mê</>",
+      "englishDesc": "Apply <color_orange><u>Weakness Attack</u></> to <color_ego_love_light>Passion</> Cards<br>When another Attribute Weakness is applied, remove <color_ego_love_light>Passion</> Weakness"
+    },
+    {
+      "id": "CARD_EGO_ATTACK",
+      "title": "Đánh điểm yếu",
+      "englishTitle": "Weakness Attack",
+      "desc": "Khi tấn công Thuộc tính điểm yếu của quái vật, tăng lượng sát thương<br>Giảm thêm <color_orange><u>Sức bền</u></>",
+      "englishDesc": "If attacking a monster's Weakness Attribute, increase Damage Amount<br>Further decrease <color_orange><u>Tenacity</u></>"
+    },
+    {
+      "id": "CARD_EGO_DAMAGE",
+      "title": "Sát thương sức bền",
+      "englishTitle": "Tenacity Damage",
+      "desc": "Sát thương gây lên Sức bền của quái vật",
+      "englishDesc": "Damage dealt to a monster's Tenacity"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "CARD_EGO_FIELD",
+      "title": "Sức bền",
+      "englishTitle": "Tenacity",
+      "desc": "Thuộc tính mà quái vật sở hữu.<br>Khi tấn công bằng lá bài cùng thuộc tính, kích hoạt <color_orange><u>Đánh điểm yếu</u></>.",
+      "englishDesc": "An attribute the monster has<br>When attacking with the same attribute card, trigger <color_orange><u>Weakness Attack</u></>"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài.",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+    }
+  ]
+}

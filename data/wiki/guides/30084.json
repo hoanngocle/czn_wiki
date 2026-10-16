@@ -1,0 +1,1956 @@
+{
+  "characterId": "30084",
+  "name": "Tiphera",
+  "identity": [
+    "Order",
+    "Controller"
+  ],
+  "subtitle": {
+    "en": "Zero-cost Archetypes supply AP, sustain or a powerful buff to the next attack's first hit.",
+    "vi": "Archetype 0 Điểm hành động cung cấp Điểm hành động, hồi phục hoặc hiệu ứng tăng cường mạnh cho lần đánh đầu của bài Tấn công kế tiếp."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30084.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tiphera",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/tiphera.json",
+      "docs/combatant/current/api/czn/characters/30084.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiana": {
+      "src": "/assets/partner/portrait_character_crop_half_30085.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Crimson Sword": {
+      "src": "/assets/item/relic_1170.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Star-Lit Cloak": {
+      "src": "/assets/item/relic_1189.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Clover of the Forest": {
+      "src": "/assets/item/relic_1232.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harp of Conflict": {
+      "src": "/assets/item/relic_5035.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pale Eternal Flame": {
+      "src": "/assets/item/relic_5018.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Lush Seaweed Armor": {
+      "src": "/assets/item/relic_1196.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Psionic Combat Suit": {
+      "src": "/assets/item/relic_1158_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Combat Drum": {
+      "src": "/assets/item/relic_5034.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Hyperimmunity Hormone": {
+      "src": "/assets/item/relic_0103.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Absolute Zero Tetrahedron": {
+      "src": "/assets/item/relic_1063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Leaf of the World Tree": {
+      "src": "/assets/item/relic_5026.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fueled Gauntlets": {
+      "src": "/assets/item/relic_5062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Closed-Circuit Terminal": {
+      "src": "/assets/item/relic_5071.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cycle of Circulation": {
+      "src": "/assets/item/relic_5074.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Phytotype Synthetic": {
+      "src": "/assets/item/relic_5023.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Chains of Obsession": {
+      "src": "/assets/item/relic_1152_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nine": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Kayron": {
+      "src": "/assets/combatant/portrait_character_crop_half_1064.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hugo": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mei Lin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rita": {
+      "src": "/assets/combatant/portrait_character_crop_half_30097.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Mika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Maribell": {
+      "src": "/assets/combatant/portrait_character_crop_half_1028.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Owen": {
+      "src": "/assets/combatant/portrait_character_crop_half_1050.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Order": {
+      "src": "/assets/common/icon_type_ego_norms.png",
+      "width": 44,
+      "height": 44
+    },
+    "Controller": {
+      "src": "/assets/common/icon_type_job_controller.png",
+      "width": 44,
+      "height": 44
+    },
+    "Tiana E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30085.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_30084_bhc",
+      "name": "○ △ □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>150%</><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)<br><color_orange><u>Draw</u></> <cc>1</> Archetype card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_01.webp",
+      "video": "/assets/card/unique_30084_01.webm",
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_bhc",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp2_mut1",
+      "name": "Archetype: ○",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp2_mut1",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp2_mut2",
+      "name": "Archetype: △",
+      "cost": 0,
+      "description": "<color_orange>50%</> <color_orange><u>Shield</u></><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp2_mut2",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp2_mut3",
+      "name": "Archetype: □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange><u>Draw</u></> <cc>1</> Archetype card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp2_mut3",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp3_mut1",
+      "name": "Archetype: ○",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp3_mut1",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp3_mut2",
+      "name": "Archetype: △",
+      "cost": 0,
+      "description": "<color_orange>50%</> <color_orange><u>Shield</u></><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp3_mut2",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_srt4_rsp3_mut3",
+      "name": "Archetype: □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange><u>Draw</u></> <cc>1</> Archetype card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_srt4_rsp3_mut3",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_mut1",
+      "name": "Archetype: ○",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_06.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_mut1",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_mut2",
+      "name": "Archetype: △",
+      "cost": 0,
+      "description": "<color_orange>50%</> <color_orange><u>Shield</u></><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_07.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_mut2",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_mut3",
+      "name": "Archetype: □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange><u>Draw</u></> <cc>1</> Archetype card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_08.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_mut3",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_lbk_mut1",
+      "name": "Archetype: ○",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_06.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_lbk_mut1",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_lbk_mut2",
+      "name": "Archetype: △",
+      "cost": 0,
+      "description": "<color_orange>50%</> <color_orange><u>Shield</u></><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_07.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_lbk_mut2",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_eps_lbk_mut3",
+      "name": "Archetype: □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange><u>Draw</u></> <cc>1</> Archetype card",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_08.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_eps_lbk_mut3",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_cre1",
+      "name": "Archetype: ○",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_cre1",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_cre2",
+      "name": "Archetype: △",
+      "cost": 0,
+      "description": "<color_orange>50%</> <color_orange><u>Shield</u></><br>Increase Damage Amount of the first Hit of next Attack Card by <cc><color_orange>30</></>%<br>(max <color_orange>300</>%)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_cre2",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30084_cre3",
+      "name": "Archetype: □",
+      "cost": 0,
+      "description": "<color_orange><u>Heal</u></> <color_orange>50%</><br><color_orange><u>Draw</u></> <color_orange>1</> Archetype card(s)",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30084_08",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30084_08.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30084_cre3",
+      "ownerId": "30084",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ds02_00005",
+      "name": "One With All",
+      "cost": 0,
+      "description": "Select and <color_orange><u>proc</u></> <color_orange>1</> card(s) in hand, <color_orange><u>Draw Pile</u></>, or <color_orange><u>Discard Pile</u></><br>For <cc>1</> turn, when each of Damage, <color_orange><u>Shield</u></>, and <color_orange><u>Heal</u></> has been <color_orange><u>activate</u></>d through cards, remove <color_orange><u>Unactivatable</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00490",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00490.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card cannot be activated",
+          "id": "TALENT_UNPLAYABLE",
+          "title": "Unactivatable"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, end turn",
+          "id": "TALENT_TERMINATION",
+          "title": "Finale"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        },
+        {
+          "desc": "The pile where Discarded Cards move to (max <cc>200</>)",
+          "id": "CARD_PLACE_DISCARD_2",
+          "title": "Discard Pile"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        },
+        {
+          "desc": "This card cannot be activated",
+          "id": "TALENT_UNPLAYABLE",
+          "title": "Unactivatable"
+        },
+        {
+          "desc": "Activating a card through an effect",
+          "id": "CARD_USE",
+          "title": "Proc"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ds02_00005",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_30084_bhc",
+    "c_30084_srt4_rsp2_mut1",
+    "c_30084_srt4_rsp2_mut2",
+    "c_30084_srt4_rsp2_mut3",
+    "c_30084_srt4_rsp3_mut1",
+    "c_30084_srt4_rsp3_mut2",
+    "c_30084_srt4_rsp3_mut3",
+    "c_30084_eps_mut1",
+    "c_30084_eps_mut2",
+    "c_30084_eps_mut3",
+    "c_30084_eps_lbk_mut1",
+    "c_30084_eps_lbk_mut2",
+    "c_30084_eps_lbk_mut3",
+    "c_30084_cre1",
+    "c_30084_cre2",
+    "c_30084_cre3"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Zero-cost Archetypes supply AP, sustain or a powerful buff to the next attack's first hit.",
+      "vi": "Archetype 0 Điểm hành động cung cấp Điểm hành động, hồi phục hoặc hiệu ứng tăng cường mạnh cho lần đánh đầu của bài Tấn công kế tiếp."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Excellent resource generation and protection; particularly valuable for large single hits.",
+        "vi": "Tạo tài nguyên và bảo vệ rất tốt; đặc biệt hữu ích cho một đòn có sát thương lớn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Buffs suit only specific attacks; random generation and hand management need planning.",
+        "vi": "Hiệu ứng tăng cường chỉ hợp một số đòn; việc tạo bài ngẫu nhiên và quản lý tay bài cần tính toán."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Form Convergence",
+        "body": {
+          "en": "Draw 2 Archetype card(s); Double a random effect of those cards for 1 turn",
+          "vi": "Rút bài 2 lá Nguyên mẫu; Nhân đôi một hiệu ứng ngẫu nhiên của các lá đó trong 1 lượt"
+        },
+        "cardId": "c_30084_uni1"
+      },
+      {
+        "title": "Creation and Destruction",
+        "body": {
+          "en": "120% Defense-Based Damage; 80% Shield; Heal 80%; Harmonization: Double all effects",
+          "vi": "Gây 120% Sát thương theo Phòng thủ; Nhận 80% Lá chắn; Hồi máu 80%; Hòa âm: Nhân đôi tất cả hiệu ứng"
+        },
+        "cardId": "c_30084_uni2"
+      },
+      {
+        "title": "Dual Creation",
+        "body": {
+          "en": "When 2 Archetype cards are created, create 1 identical card in Discard Pile",
+          "vi": "Khi 2 lá Nguyên mẫu được tạo, tạo 1 lá giống hệt trong Chồng bài bỏ"
+        },
+        "cardId": "c_30084_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30084_srt4",
+      "ratings": [
+        1,
+        5,
+        5,
+        4,
+        1
+      ],
+      "preferred": "II / III",
+      "note": {
+        "en": "II chooses the creation type for consistent setups. III adds draw and a prediction gamble with greater creation rewards when correct.",
+        "vi": "II chọn loại tạo vật để thiết lập ổn định. III thêm rút bài và dự đoán có thưởng nhiều tạo vật hơn khi đúng."
+      },
+      "divine": {
+        "en": "Consider Draw 1 or AP; IV can use cost reduction. Neutral Morale is a situational multihit option.",
+        "vi": "Cân nhắc Rút 1 hoặc Điểm hành động; IV dùng được giảm chi phí. Sĩ khí trung lập tùy đội nhiều lần đánh."
+      }
+    },
+    {
+      "cardId": "c_30084_uni1",
+      "ratings": [
+        5,
+        2,
+        4,
+        4,
+        2
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I draws three while preserving the doubling effect. III supports a specialized retained-Archetype setup with Quantum Seed IV.",
+        "vi": "I rút ba lá và giữ hiệu ứng nhân đôi. III hỗ trợ bộ bài Giữ lại Archetype chuyên biệt với Quantum Seed IV."
+      },
+      "divine": {
+        "en": "Neutral 1 AP can effectively remove the cost; cost reduction is the divine target.",
+        "vi": "1 Điểm hành động trung lập có thể bù toàn bộ chi phí; giảm chi phí là thần thánh ưu tiên."
+      }
+    },
+    {
+      "cardId": "c_30084_uni2",
+      "ratings": [
+        1,
+        3,
+        2,
+        5,
+        3
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV gives recurring free damage, shielding and healing. II favors a secondary-damage role, while III is slower and occupies hand space.",
+        "vi": "IV cung cấp sát thương, Lá chắn và hồi máu miễn phí định kỳ. II thiên về sát thương phụ, còn III chậm hơn và chiếm chỗ trên tay."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 or AP improves efficiency; specialized effects matter more than divines.",
+        "vi": "Rút 1 hoặc Điểm hành động trung lập tăng hiệu suất; hiệu ứng chuyên dụng quan trọng hơn thần thánh."
+      }
+    },
+    {
+      "cardId": "c_30084_uni3",
+      "ratings": [
+        3,
+        5,
+        2,
+        3,
+        4
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II creates directly in hand after three creations, improving consistency. V duplicates moved Archetypes but each copy loses one effect.",
+        "vi": "II tạo trực tiếp trên tay sau ba lần tạo, giúp ổn định hơn. V nhân bản Archetype được đưa lên tay nhưng mỗi bản mất một hiệu ứng."
+      },
+      "divine": {
+        "en": "Prioritize the creation pattern; neutral/divine investment is low priority.",
+        "vi": "Ưu tiên cách tạo bài phù hợp; đầu tư trung lập/thần thánh ít cần thiết."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Tiana E0",
+      "score": "—",
+      "note": {
+        "en": "Wide team buffs make the signature preferred, unless the strategy specifically requires a Partner's draw skill.",
+        "vi": "Nhiều hiệu ứng tăng cường đội giúp Đối tác trấn được ưu tiên, trừ khi chiến thuật bắt buộc cần kỹ năng rút bài của Đối tác."
+      }
+    },
+    {
+      "name": "Nyx E0",
+      "score": "—",
+      "note": {
+        "en": "Adds draw/discard utility, support stats and a modest team buff at any Ego level.",
+        "vi": "Thêm tiện ích rút/bỏ bài, chỉ số hỗ trợ và một ít hiệu ứng tăng cường toàn đội ở mọi cấp Ego."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Her off-class passives are inactive, but spending 2 EP to draw 2 remains a useful free option.",
+        "vi": "Nội tại không hoạt động do khác hệ nghề, nhưng dùng 2 EP rút 2 lá vẫn là lựa chọn miễn phí hữu ích."
+      }
+    },
+    {
+      "name": "Arwen E4",
+      "score": "—",
+      "note": {
+        "en": "Choose her passive damage reduction when surviving matters more than extra utility.",
+        "vi": "Chọn giảm sát thương thụ động khi ưu tiên sống sót hơn tiện ích bổ sung."
+      }
+    },
+    {
+      "name": "Alyssa E4",
+      "score": "—",
+      "note": {
+        "en": "Trades Arwen's mitigation for DEF and passive healing; useful when DEF scaling matters or Arwen is unavailable.",
+        "vi": "Đổi giảm sát thương của Arwen lấy Phòng thủ và hồi máu thụ động; hữu ích khi cần hệ số Phòng thủ hoặc chưa có Arwen."
+      }
+    },
+    {
+      "name": "Yvonne E4",
+      "score": "—",
+      "note": {
+        "en": "A free alternative to Yuri when extra stats matter more than an Ego draw skill.",
+        "vi": "Thay thế Yuri miễn phí khi coi trọng chỉ số hơn kỹ năng Ego rút bài."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Glory's Reign (4) + Tetra's Authority (2)",
+      "score": "—",
+      "note": {
+        "en": "Her Exhaust-heavy rotation activates Glory's Reign naturally, making her a priority holder of its team buff.",
+        "vi": "Chuỗi hành động nhiều bài Kiệt sức kích hoạt Glory's Reign tự nhiên, nên ưu tiên để cô mang hiệu ứng tăng cường đội từ bộ này."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Tiphera Stats — Support · Ideal",
+        "vi": "Hỗ trợ · Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — Support · Desire",
+        "vi": "Hỗ trợ · Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — Support · Imagination",
+        "vi": "Hỗ trợ · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — Support · Substats",
+        "vi": "Hỗ trợ · Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% > HP > HP% > EGO Regen",
+        "vi": "Phòng thủ > Phòng thủ% > Máu > Máu% > Hồi năng lượng Ego"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — DPS-Lite · Ideal",
+        "vi": "Sát thương phụ · Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — DPS-Lite · Desire",
+        "vi": "Sát thương phụ · Khao khát"
+      },
+      "value": {
+        "en": "Order DMG",
+        "vi": "Sát thương Trật tự"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — DPS-Lite · Imagination",
+        "vi": "Sát thương phụ · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Stats — DPS-Lite · Substats",
+        "vi": "Sát thương phụ · Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ% >>> Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
+    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+  },
+  "potentialIntro": {
+    "en": "DEF% > Unique Card DMG% > CRIT RATE% = Basic Card DMG% >= Common Card DMG%Basic Card Proficiency / 3-1:Tiphera’s 3-1 Potential alters her Barrier Deployment card from a 100% heal to a 70% shield 70% heal. Tiphera’s basic attacks aren’t usually relevant in Save Data modes, but in Chaos, this potential unlock is usually a net positive in survivability, provided you use it before enemies strike for its shielding. Cheap enough to unlock that there’s no reason not to pick it up.Unique Card Proficiency / 5-1:Provides an additional +5% base Heal and Shield increase to her Archetype cards, and if her Defense is greater than 250, adds an additional +5%. A potent increase to Tiphera’s sustain due to the fact that the baseline base healing and shielding of Archetypes is so low, so increasing it by any amount is always a huge boost. Definitely worth picking up and investing in to reach the 250 defense threshold if you intend for Tiphera to be your dedicated sustain unit.Unique Stat Upgrade / 7:A must-have epiphany that grants +10% Critical Damage to all allies while Tiphera’s Defense is greater than 300, at the start of battle (301+ in character screen). The damage boost from this potential isn’t game-changing, but there’s no reason not to unlock it. Free damage is free damage.",
+    "vi": "Ưu tiên % phòng thủ > sát thương bài đặc trưng > tỷ lệ chí mạng = bài cơ bản ≥ bài chung; 3-1 đổi Barrier Deployment từ hồi 100% sang 70% lá chắn +70% hồi máu, hữu ích nếu dùng trước địch đánh trong Chaos, còn 5-1 tăng hệ số hồi máu/lá chắn của Archetype 5% và thêm 5% khi phòng thủ >250, rất đáng đầu tư nếu Tiphera là nguồn duy trì sinh tồn chính. Tiềm năng 7 nên mở và đạt 301+ phòng thủ trên màn hình nhân vật để cấp 10% sát thương chí mạng cho toàn đội đầu trận."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Decrease Heal Amount of the Barrier Deployment card to 70%, and add a 70% Shield effect.",
+        "vi": "Giảm lượng hồi máu của lá Barrier Deployment còn 70% và thêm hiệu ứng 70% Lá chắn."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Heal and Shield Gain Amounts to Archetype cards, and if Tiphera’s Defense is 250 or higher, add an additional +5% to the modifier",
+        "vi": "+5% lượng hồi máu và Lá chắn nhận được cho các lá Nguyên mẫu; nếu Phòng thủ của Tiphera từ 250 trở lên, cộng thêm +5% vào hệ số"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Tiphera's Defense is 300 or higher, at the start of battle, +10% to Critical Damage of allies",
+        "vi": "Nếu Phòng thủ của Tiphera từ 300 trở lên, đầu trận đồng đội nhận +10% Sát thương chí mạng"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Wings of Light",
+        "Star-Lit Cloak"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles"
+      ],
+      "note": {
+        "en": "Swamp is typically the go-to choice for any support that can trigger ‘Recover’ through a Card, which is all Controllers and some Psionics, because of the access to ‘Clover of the Forest’ at fairly high odds (+10% ATK% for all allies on Recover from Card).",
+        "vi": "Đầm lầy thường là lựa chọn đầu tiên cho hỗ trợ có bài hồi phục, gồm mọi nhân vật Điều khiển và một số Ngoại cảm, vì dễ lấy Clover of the Forest. Trang bị này tăng 10% tấn công cho toàn đội khi hồi phục bằng bài."
+      }
+    },
+    {
+      "name": {
+        "en": "Support",
+        "vi": "Hỗ trợ"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Harp of Conflict",
+        "Pale Eternal Flame",
+        "Harpoon Case of Broken Resolve",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Lush Seaweed Armor",
+        "Psionic Combat Suit",
+        "Vine Lord's Mask",
+        "Fragment of the Empty Void",
+        "Vine Camouflage",
+        "Star-Lit Cloak"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Combat Drum",
+        "Sphere of Randomness",
+        "Hyperimmunity Hormone",
+        "Absolute Zero Tetrahedron",
+        "A Lonesome Wedding Ring",
+        "Superconductive Protein",
+        "Leaf of the World Tree"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Contaminated Drone Lens",
+        "Pagna Mushroom",
+        "Essence-Fueled Gauntlets"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Closed-Circuit Terminal",
+        "Cycle of Circulation"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Harp of Conflict",
+        "Pale Eternal Flame",
+        "Harpoon Case of Broken Resolve"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask",
+        "Phytotype Synthetic"
+      ],
+      "trinkets": [
+        "Combat Drum",
+        "Plant Doll",
+        "Sphere of Randomness",
+        "Golden Bell"
+      ],
+      "note": {
+        "en": "Despite wording, Phytotype Synthetic only improves the wearer's damage on activation. So, it is not generally recommended but can be an increase in Tiphera DPS with certain epiphanies or in E6/DPS setups.",
+        "vi": "Phytotype Synthetic chỉ tăng sát thương người đeo khi kích hoạt dù mô tả dễ gây hiểu nhầm. Thường không khuyến nghị, nhưng có thể tăng sát thương Tiphera với một số thức tỉnh hoặc hướng Ego 6/gây sát thương."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Nightmare Hairpin",
+        "Torture Toolbox",
+        "Chains of Obsession",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Sphere of Randomness",
+        "Stele of Heresy",
+        "Bloody Pendant"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] and/or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, và/hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.When used as a DPS, typical DPS options like When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance are recommended.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Nếu chơi gây sát thương, dùng các lựa chọn tương ứng như +15% chí mạng khi bài tấn công đánh địch Dễ tổn thương. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Tiphera’s first Ego increases the maximum amount that [Form Upgrade] can be triggered on her Event Horizon card by 1. This isn’t a game-changer by any stretch, but it will net you either an extra 1 AP, 1 draw, or an extra 40% buff each turn so long as you can activate 4 Archetypes.",
+        "vi": "Event Horizon tăng số lần Nâng cấp hình dạng tối đa thêm 1. Nếu kích hoạt 4 Archetype mỗi lượt, có thể thêm 1 điểm hành động, 1 lượt rút hoặc 40% tăng cường."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Tiphera E2 grants her 1 Stack of “Shape” whenever she activates an Archetype card corresponding to the type of Archetype used. (If you use a Triangle, she gets 1 Triangle Stack). Once per turn, whenever she reaches 3 Stacks of any “Shape,” she creates a card with matching effects according to whatever 3 Shape stacks she had at the time of creation. Here is what each shape stack contributes to the final product: Circle Shape Stack: Heal 150%, Triangle Shape Stack: Increase Damage of the first hit of the next Attack Card by 30% (Max 300%), Square Shape Stack: Draw 1 Archetype Card. So if Tiphera had 2 Stacks of Circle and 1 stack of Square, the generated card would heal for 150% twice and draw 1 Archetype card. This Ego point is definitely strong but favors Tiphera set-ups that require additional buffing, sustain, or greater access to fishing archetypes out of the deck. If you don’t need more of those things, this Ego won't be as impactful. But in most cases, when playing Tiphera in her main role as a buffer, using 3 triangles with this Ego active is equivalent to 3 extra free Archetypes every turn, thanks to the triple triangle shape card E2 generates.",
+        "vi": "Dùng Archetype nhận cộng dồn hình tương ứng; một lần mỗi lượt khi đủ 3 hình, tạo bài kết hợp hiệu ứng: mỗi tròn hồi 150%, mỗi tam giác tăng 30% sát thương lần đánh đầu của bài tấn công kế tiếp (giới hạn 300%), mỗi vuông rút 1 Archetype. Ví dụ 2 tròn +1 vuông hồi 150% hai lần và rút 1; ba tam giác gần như cho thêm ba Archetype miễn phí mỗi lượt, đặc biệt mạnh khi cần tăng cường, hồi phục hoặc tìm bài."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Tiphera’s E3 enhances her Ego Skill, increasing the Archetype creation effect from 2 to 3 times. It also decreases the cost of the next Ego Skill used by 3 instead of 2. Not a massive increase to her power, but a handy perk nonetheless, being equivalent to 1 extra Archetype and 1 extra EP per fight on average.",
+        "vi": "Kỹ năng Ego tạo Archetype 3 lần thay vì 2 và giảm chi phí Ego kế tiếp 3 thay vì 2. Trung bình thêm 1 Archetype và 1 điểm Ego mỗi trận, tiện ích nhỏ."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Tiphera’s E4 grants 1 stack of “Power of Archetype” whenever an Archetype card is played, up to 2 stacks. Each stack increases the damage of Attack Cards, Order Attribute Damage and Defense-Based Damage, all by 5% (multiplicative), respectively (10% at max stacks). This is an outstanding, near-permanent boost for the team that, on the right units, is a tremendous damage increase. An Order attribute, Defense-based attacker gains 30% (multiplicative) damage while this Ego has both stacks active. A very good bonus for certain team combinations.",
+        "vi": "Dùng Archetype nhận Power of Archetype, tối đa 2; mỗi cộng dồn tăng lần lượt 5% sát thương bài tấn công, sát thương Trật tự và sát thương theo phòng thủ theo hệ số nhân, tối đa 10% mỗi loại. Gần như thường trực; nhân vật Trật tự đánh theo phòng thủ có thể hưởng cả ba, nguồn mô tả tổng tăng 30%."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Tiphera’s E5 increases the base and maximum level of her [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. A small increase to sustain and damage, but nothing worth chasing.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Tăng nhẹ sinh tồn và sát thương, không đáng chủ động theo đuổi."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Tiphera’s E6 increases her damage Potential, allowing her Unique cards to take advantage of her Triangle Archetype buffs whilst not consuming them effectively, allowing her to leverage her own buffs for free. This certainly isn’t enough to turn Tiphera herself into a dedicated damage dealer, but it is a nice boost to any sub dps capabilities you may have planned for her. Luckily, that’s not all this E6 does; it also increases the buff amount of Triangle from 30% to 35% while also increasing the maximum to 350%.",
+        "vi": "Bài đặc trưng của Tiphera hưởng tăng cường Archetype tam giác mà không tiêu hao, tăng khả năng gây sát thương phụ nhưng chưa đủ để thành nhân vật sát thương chính. Mức tăng của tam giác còn từ 30% lên 35%, giới hạn từ 300% lên 350%."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Generic Support",
+        "vi": "Hỗ trợ đa dụng"
+      },
+      "role": {
+        "en": "Prediction-based Archetype and draw support",
+        "vi": "Tạo bài Nguyên mẫu và rút bài qua dự đoán"
+      },
+      "partner": "Tiana",
+      "cards": [
+        {
+          "cardId": "c_30084_srt4_rsp3",
+          "count": 4,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_30084_uni3_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30084_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Psionic Combat Suit",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Glory's Reign",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Quantum Seed III with Dual Creation II can create up to sixteen Archetypes per turn if every prediction succeeds, while also supporting draw. Normal outcomes are less consistent. If using Protos Rewind, record the shape from a failed guess, rewind, and choose that observed result on the retry. Players avoiding rewinds may prefer another variant.",
+        "vi": "Quantum Seed III kết hợp Dual Creation II có thể tạo tối đa mười sáu bài Nguyên mẫu mỗi lượt nếu đoán đúng tất cả, đồng thời hỗ trợ rút bài. Kết quả thông thường sẽ kém ổn định hơn. Nếu dùng tính năng quay lại lượt của Protos, ghi nhớ hình dạng xuất hiện sau lần đoán sai, quay lại rồi chọn chính kết quả đó ở lần thử lại. Người không muốn quay lại lượt nên cân nhắc biến thể khác."
+      }
+    },
+    {
+      "name": {
+        "en": "Select Variant",
+        "vi": "Biến thể tự chọn bài Nguyên mẫu"
+      },
+      "role": {
+        "en": "Deterministic Archetype support",
+        "vi": "Tạo đúng bài Nguyên mẫu theo nhu cầu"
+      },
+      "partner": "Tiana",
+      "cards": [
+        {
+          "cardId": "c_30084_srt4_rsp2",
+          "count": 4,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30084_uni1_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30084_uni3_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30084_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Psionic Combat Suit",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Glory's Reign",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Quantum Seed II lets you choose the required Archetype directly, removing prediction randomness. The trade-off is a much lower total number of Archetypes per turn than the high-output variants.",
+        "vi": "Quantum Seed II cho phép chọn trực tiếp bài Nguyên mẫu cần dùng, loại bỏ rủi ro đoán sai. Đổi lại, tổng số bài Nguyên mẫu tạo mỗi lượt thấp hơn đáng kể so với các bản tập trung sản lượng tối đa."
+      }
+    },
+    {
+      "name": {
+        "en": "Tiphera Nuke",
+        "vi": "Tiphera dồn một đòn lớn"
+      },
+      "role": {
+        "en": "Nine-cost single-hit burst carry",
+        "vi": "Chủ lực một đòn giá 9 Điểm hành động"
+      },
+      "partner": "Tiana",
+      "cards": [
+        {
+          "cardId": "c_30084_srt4_rsp3",
+          "count": 2,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_30084_srt4_rsp3",
+          "count": 2
+        },
+        {
+          "cardId": "c_30084_uni2_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "Always Attack Weakness",
+            "vi": "Luôn tấn công điểm yếu"
+          }
+        },
+        {
+          "cardId": "c_30084_uni3_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30084_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ds02_00005",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Stack Orlea's multiplicative buffs over several turns, then land the 9-cost Creation and Destruction with its 1620% base ratio. Great Rift multipliers can further amplify the hit. OTK-Lea or Growth Acceleration variants support it. Obtaining the 9-cost form and a critical hit may require extensive Rewind use; One With All or Nia's G Chord can activate the card free when paying nine AP is impractical.",
+        "vi": "Tích mức tăng sát thương theo phép nhân của Orlea qua nhiều lượt rồi tung Creation and Destruction giá 9 Điểm hành động với hệ số gốc 1620%; hệ số riêng của Great Rift còn có thể khuếch đại thêm. Có thể dùng Orlea theo bản dồn sát thương hoặc Growth Acceleration. Để có đúng dạng 9 Điểm hành động và đánh chí mạng có thể phải quay lại lượt nhiều lần. One With All hoặc G Chord của Nia giúp kích hoạt miễn phí khi khó trả đủ 9 Điểm hành động đúng lúc."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Nine",
+      "note": {
+        "en": "Frequent Exhaust enables Hew interactions; AP generation and attack multipliers support Nine's single-hit damage.",
+        "vi": "Kiệt sức thường xuyên tạo tương tác với Hew; tạo Điểm hành động và hiệu ứng tăng cường nhân hỗ trợ sát thương đơn đòn của Nine."
+      }
+    },
+    {
+      "name": "Kayron",
+      "note": {
+        "en": "Form Convergence IV clears Futility while her AP and attack buffs help sustain Kayron's scaling.",
+        "vi": "Form Convergence IV dọn Futility; Điểm hành động và hiệu ứng tăng cường tấn công giúp duy trì khả năng tăng tiến của Kayron."
+      }
+    },
+    {
+      "name": "Hugo",
+      "note": {
+        "en": "Generated skills feed Commence the Hunt; Hugo's draw complements her AP generation when enough attacks are available.",
+        "vi": "Kỹ năng được tạo tích Bắt đầu cuộc săn; rút bài của Hugo bổ trợ tạo Điểm hành động khi có đủ bài tấn công."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "Large draw output gives access to the right play order and reduces dependence on Divine Draw rolls.",
+        "vi": "Rút nhiều bài giúp sắp đúng thứ tự hành động và giảm phụ thuộc vào kết quả Thần thánh rút bài."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Fractured But Whole",
+        "vi": "Đội khai thác Rạn nứt"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Spire Fire",
+        "vi": "Đội Dragon Spire"
+      },
+      "members": [
+        "Mei Lin",
+        "Veronica",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Foe Feline",
+        "vi": "Rita tấn công liên hoàn"
+      },
+      "members": [
+        "Rita",
+        "Tiphera",
+        "Mika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Flasher",
+        "vi": "Nine với Hew: Flash"
+      },
+      "members": [
+        "Nine",
+        "Tiphera",
+        "Orlea"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rita Filter",
+        "vi": "Rita lọc bài"
+      },
+      "members": [
+        "Rita",
+        "Tiphera",
+        "Mika"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shelter Striker",
+        "vi": "Maribell gây sát thương theo lá chắn"
+      },
+      "members": [
+        "Maribell",
+        "Veronica",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Watch Out for Seven...",
+        "vi": "Nine dồn sát thương Hew"
+      },
+      "members": [
+        "Nine",
+        "Tiphera",
+        "Orlea"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ex-Brand OTK - Persona Loop",
+        "vi": "Kayron dồn sát thương trong một lượt — vòng lặp bài Nhân cách"
+      },
+      "members": [
+        "Kayron",
+        "Narja",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (AOE)",
+        "vi": "Đội khai thác Rạn nứt — diện rộng"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Spire Fire (No Elasticity)",
+        "vi": "Dragon Spire — địch không có Đàn hồi"
+      },
+      "members": [
+        "Mei Lin",
+        "Owen",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

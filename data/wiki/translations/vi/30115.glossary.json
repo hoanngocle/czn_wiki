@@ -1,0 +1,75 @@
+{
+  "characterId": "30115",
+  "terms": [
+    {
+      "id": "T_CS00_0369",
+      "title": "Rạn nứt",
+      "englishTitle": "Fracture",
+      "englishDesc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)",
+      "desc": "Cuối lượt, gây <color_orange>40%</> <color_orange><u>Sát thương theo thời gian</u></> cho mỗi <color_orange><u>Rạn nứt</u></><br>Khi hiệu ứng kích hoạt, giảm một nửa cộng dồn <color_orange><u>Rạn nứt</u></> (tối đa <cc><color_orange>30</></> cộng dồn)"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo."
+    },
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay."
+    },
+    {
+      "id": "T_DES_CS_20000",
+      "title": "Thiêu đốt",
+      "englishTitle": "Scorched",
+      "englishDesc": "When <color_orange><u>Action Count</u></> is decreased, the amount decreased × <color_orange>80%</> <color_orange><u>DoT</u></> (max <color_orange>10</> stack(s))<br>On effect activation, decrease by <cc>1</>, and at the end of the turn, remove effect",
+      "desc": "Khi <color_orange><u>Số đếm hành động</u></> giảm, gây số lần giảm × <color_orange>80%</> <color_orange><u>Sát thương theo thời gian</u></> (tối đa <color_orange>10</> cộng dồn)<br>Khi hiệu ứng kích hoạt, giảm đi <cc>1</>; cuối lượt, xóa hiệu ứng"
+    },
+    {
+      "id": "T_CS00_0004",
+      "title": "Thống khổ",
+      "englishTitle": "Agony",
+      "englishDesc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)",
+      "desc": "Cuối lượt, gây <color_orange>50%</> <color_orange><u>Sát thương theo thời gian cố định</u></> × số <color_orange><u>Thống khổ</u></><br>Khi hiệu ứng kích hoạt, giảm một nửa cộng dồn <color_orange><u>Thống khổ</u></> (tối đa <cc>20</> cộng dồn)"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài."
+    },
+    {
+      "id": "T_CS_30115_02",
+      "title": "Khuếch đại Rạn nứt",
+      "englishTitle": "Fracture Amplification",
+      "englishDesc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)",
+      "desc": "Khi <color_orange><u>Rạn nứt</u></> do đồng đội gây ra kích hoạt, gây <cc><color_orange>1</></> <color_orange><u>Rạn nứt</u></> lên mục tiêu; nếu chỉ có một kẻ địch, gây <cc>2</> <color_orange><u>Rạn nứt</u></><br>Tăng <cc>20</>% sát thương Rạn nứt do Arabella gây ra<br>Khi áp dụng lên mục tiêu khác, xóa <color_orange><u>Khuếch đại Rạn nứt</u></> (không cộng dồn)"
+    },
+    {
+      "id": "T_CS00_0002",
+      "title": "Dễ tổn thương",
+      "englishTitle": "Vulnerable",
+      "englishDesc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+      "desc": "Tăng <color_orange>50</>% sát thương nhận vào<br>Khi kích hoạt, giảm <color_orange><u>Dễ tổn thương</u></> đi <cc>1</>"
+    },
+    {
+      "id": "TALENT_OPENING",
+      "title": "Mở màn",
+      "englishTitle": "Opener",
+      "englishDesc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>",
+      "desc": "Đầu trận, <color_orange><u>kích hoạt qua hiệu ứng</u></> lá này bằng cách tiêu hao <color_orange><u>Điểm hành động</u></><br>Nếu không đủ <color_orange><u>Điểm hành động</u></>, không <color_orange><u>kích hoạt qua hiệu ứng</u></>"
+    }
+  ]
+}

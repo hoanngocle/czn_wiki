@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Adelheid",
+    "intro": {
+      "en": "Blessing converts routine card use into Shield, while Protect Us keeps cards moving through the deck.",
+      "vi": "Phước lành biến việc sử dụng bài thành lá chắn, còn Protect Us giúp luân chuyển bộ bài."
+    },
+    "pros": [
+      {
+        "en": "Low AP demand with steady protection and useful card draw.",
+        "vi": "Ít tốn Điểm hành động, bảo vệ ổn định và hỗ trợ rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage is modest; specialists can offer stronger buffs or draw.",
+        "vi": "Sát thương vừa phải; nhân vật chuyên hỗ trợ có thể tăng sức mạnh hoặc rút bài tốt hơn."
+      }
+    ]
+  },
+  {
+    "name": "Amir",
+    "intro": {
+      "en": "Metallization turns allied Shield cards into DEF-based follow-up attacks.",
+      "vi": "Kim loại hóa biến các lần dùng bài tạo lá chắn của đồng đội thành đòn đánh thêm dựa trên phòng thủ."
+    },
+    "pros": [
+      {
+        "en": "Combines Vulnerable, Resolve and substantial damage reduction.",
+        "vi": "Kết hợp Dễ tổn thương, Quyết tâm và khả năng giảm sát thương đáng kể."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs frequent Shield triggers from allies and AP support for costly attacks.",
+        "vi": "Cần đồng đội dùng bài tạo lá chắn thường xuyên và hỗ trợ Điểm hành động cho các đòn đánh có chi phí cao."
+      }
+    ]
+  },
+  {
+    "name": "Anika",
+    "intro": {
+      "en": "Lead and Efficiency reward discounted cards; Shockwave adds Tenacity damage alongside offensive buffs.",
+      "vi": "Dẫn đầu và hiệu ứng tăng hiệu suất giúp tận dụng bài được giảm chi phí; Sóng xung kích bổ sung sát thương Sức bền cùng các hiệu ứng tăng sức tấn công."
+    },
+    "pros": [
+      {
+        "en": "Can support a carry or take a damage role with suitable Epiphanies.",
+        "vi": "Có thể hỗ trợ chủ lực hoặc gây sát thương với Thức tỉnh bài phù hợp."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Limited card draw and no healing leave support duties for teammates.",
+        "vi": "Khả năng rút bài hạn chế và không hồi máu nên cần đồng đội bù đắp."
+      }
+    ]
+  },
+  {
+    "name": "Arabella",
+    "intro": {
+      "en": "Applies Fracture across enemies and can trigger it before the usual end-of-turn window.",
+      "vi": "Gây Rạn nứt lên nhiều kẻ địch và có thể kích hoạt trước thời điểm cuối lượt thông thường."
+    },
+    "pros": [
+      {
+        "en": "Effective against groups, with damage-over-time pressure and personal draw.",
+        "vi": "Hiệu quả khi đánh nhiều mục tiêu, có sát thương theo thời gian và tự rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "AP demand can be high, and Fracture cannot trigger Weakness Attacks.",
+        "vi": "Có thể cần nhiều Điểm hành động; sát thương Rạn nứt không kích hoạt tấn công điểm yếu."
+      }
+    ]
+  },
+  {
+    "name": "Beryl",
+    "intro": {
+      "en": "Retain lets Beryl bank attacks and strengthen them before spending AP on a chosen turn.",
+      "vi": "Giữ lại giúp Beryl tích trữ bài tấn công và tăng sức mạnh trước khi dồn Điểm hành động vào lượt thích hợp."
+    },
+    "pros": [
+      {
+        "en": "Strong single-target options and flexible draw-focused Epiphanies.",
+        "vi": "Có lựa chọn đơn mục tiêu mạnh và Thức tỉnh bài linh hoạt thiên về rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage may need several turns to mature; costly attacks and scarce AoE limit flexibility.",
+        "vi": "Sát thương có thể cần nhiều lượt tích lũy; bài có chi phí cao và ít khả năng đánh diện rộng làm giảm tính linh hoạt."
+      }
+    ]
+  },
+  {
+    "name": "Cassius",
+    "intro": {
+      "en": "Quest generation combines additive damage buffs, draw and defensive effects in one support package.",
+      "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, rút bài và hiệu ứng phòng thủ trong một bộ hỗ trợ."
+    },
+    "pros": [
+      {
+        "en": "Exhaust Quests quickly enable Glory's Reign; common Epiphanies ease deck editing.",
+        "vi": "Bài phần thưởng nhiệm vụ có Kiệt sức giúp kích hoạt Glory’s Reign nhanh; nhiều Thức tỉnh bài hữu dụng giúp điều chỉnh bộ bài dễ hơn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Pop-Eyed Piper makes players choose between Initiation and selecting a Quest, weakening opening consistency.",
+        "vi": "Pop-Eyed Piper buộc chọn giữa Khởi đầu và khả năng chọn phần thưởng nhiệm vụ, khiến lượt đầu kém ổn định."
+      }
+    ]
+  },
+  {
+    "name": "Chizuru",
+    "intro": {
+      "en": "Repeated hits build her resources, eventually upgrading Shadow of the Moon into a stronger attack.",
+      "vi": "Đánh nhiều lần tích lũy tài nguyên, rồi nâng Shadow of the Moon thành đòn mạnh hơn."
+    },
+    "pros": [
+      {
+        "en": "Adds cost efficiency and some healing while dealing single-target damage.",
+        "vi": "Hỗ trợ giảm chi phí và hồi một ít máu trong khi gây sát thương đơn mục tiêu."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Wisp generation and Inhibit constrain teammates; there is no AoE.",
+        "vi": "Cơ chế tạo Ma trơi và Ức chế hạn chế lựa chọn đồng đội; không có sát thương diện rộng."
+      }
+    ]
+  },
+  {
+    "name": "Diana",
+    "intro": {
+      "en": "Generates Heart Bullets and uses discard with Quietus to launch repeated low-cost attacks.",
+      "vi": "Tạo Đạn trái tim rồi dùng cơ chế bỏ bài với Tịch diệt để tung nhiều đòn ít tốn Điểm hành động."
+    },
+    "pros": [
+      {
+        "en": "High hit counts reward additive buffs; her core loop needs few Divine upgrades.",
+        "vi": "Nhiều lần đánh tận dụng tốt hiệu ứng tăng sát thương cộng thêm; vòng lặp chính ít phụ thuộc Thức tỉnh thần thánh."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Long fights can fill the deck with generated cards, and true AoE is limited.",
+        "vi": "Trận dài có thể làm bộ bài đầy bài được tạo; sát thương diện rộng thực sự hạn chế."
+      }
+    ]
+  },
+  {
+    "name": "Fei",
+    "intro": {
+      "en": "Drawing builds Descent for Heavensfall, while Inferno Rhapsody fuels Flame Arts and further cycling.",
+      "vi": "Rút bài tích Giáng lâm để tạo Heavensfall; Inferno Rhapsody tích Hỏa thuật và tiếp tục luân chuyển bài."
+    },
+    "pros": [
+      {
+        "en": "Strong personal draw and early burst from her signature card and Ego skill.",
+        "vi": "Tự rút bài tốt và có sát thương bùng nổ đầu trận từ bài đặc trưng cùng kỹ năng Ego."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs buffs for low base multipliers; X-cost cards and hand space require planning.",
+        "vi": "Cần hiệu ứng tăng sát thương do hệ số cơ bản thấp; bài có chi phí X Điểm hành động và giới hạn bài trên tay đòi hỏi tính toán."
+      }
+    ]
+  },
+  {
+    "name": "Haru",
+    "intro": {
+      "en": "Repeated Anchor Shot use increases its damage, rewarding sustained cycling through expensive attacks.",
+      "vi": "Dùng Anchor Shot nhiều lần để tăng sát thương, khuyến khích liên tục tái sử dụng các đòn đánh có chi phí cao."
+    },
+    "pros": [
+      {
+        "en": "Strong self-scaling, single-target burst and some AoE; can retrieve her signature attack.",
+        "vi": "Tự tăng sát thương tốt, bùng nổ đơn mục tiêu và có sát thương diện rộng; có thể lấy lại bài đặc trưng."
+      }
+    ],
+    "cons": [
+      {
+        "en": "High AP demand and repeated cycling delay full damage potential.",
+        "vi": "Cần nhiều Điểm hành động và luân chuyển bài nhiều lần để đạt sát thương tối đa."
+      }
+    ]
+  },
+  {
+    "name": "Heidemarie",
+    "intro": {
+      "en": "Linked discards Effulgent Blades together, while repeated Compression discards unlock Effulgent Release.",
+      "vi": "Liên kết giúp bỏ nhiều Effulgent Blade cùng lúc; bỏ Effulgent Compression nhiều lần mở khóa Effulgent Release."
+    },
+    "pros": [
+      {
+        "en": "Quietus keeps AP demand low and her kit enables its own discard engine.",
+        "vi": "Tịch diệt giảm nhu cầu Điểm hành động và bộ kỹ năng tự vận hành cơ chế bỏ bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Generated cards compete for hand space; AoE and unrestricted draw are limited.",
+        "vi": "Bài được tạo chiếm chỗ trên tay; sát thương diện rộng và khả năng rút bài không điều kiện còn hạn chế."
+      }
+    ]
+  },
+  {
+    "name": "Hilde",
+    "intro": {
+      "en": "Homing Arrows activate when drawn, cycling the deck while Ionization supports repeated attacks.",
+      "vi": "Homing Arrow kích hoạt khi được rút, luân chuyển bộ bài trong khi Ion hóa hỗ trợ các đòn đánh liên tục."
+    },
+    "pros": [
+      {
+        "en": "AP-efficient support with substantial draw and useful AoE damage.",
+        "vi": "Hỗ trợ tiết kiệm Điểm hành động, rút nhiều bài và gây sát thương diện rộng hữu ích."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage is spread across several attack types, making focused damage synergies harder to optimize.",
+        "vi": "Sát thương chia giữa nhiều kiểu đòn, khiến đội hình chuyên một dạng sát thương khó tối ưu."
+      }
+    ]
+  },
+  {
+    "name": "Hugo",
+    "intro": {
+      "en": "Skills build Commence the Hunt stacks, then targeted attacks spend them on follow-up damage.",
+      "vi": "Bài kỹ năng tích Bắt đầu cuộc săn, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt đòn đánh thêm."
+    },
+    "pros": [
+      {
+        "en": "Sustained single-target output and strong draw after Upgrade setup.",
+        "vi": "Sát thương đơn mục tiêu bền bỉ và rút bài tốt sau khi dùng các bài Cường hóa."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs allies to alternate frequent targeted attacks with stack generation; AoE is scarce.",
+        "vi": "Cần đồng đội xen kẽ đánh chỉ định mục tiêu và tạo cộng dồn; ít sát thương diện rộng."
+      }
+    ]
+  },
+  {
+    "name": "Kayron",
+    "intro": {
+      "en": "Exhausting Futility scales Black Hole; Oath of Vanity turns otherwise awkward generated cards into useful attacks.",
+      "vi": "Đưa Futility vào trạng thái Kiệt sức để tăng sức mạnh Black Hole; Oath of Vanity biến bài được tạo khó dùng thành đòn đánh hữu ích."
+    },
+    "pros": [
+      {
+        "en": "Can scale through long fights and threaten both groups and single targets.",
+        "vi": "Tăng sức mạnh trong trận dài và đe dọa cả nhiều mục tiêu lẫn đơn mục tiêu."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Very AP-hungry and setup-dependent; unused Futility can clog the hand and deck.",
+        "vi": "Rất cần Điểm hành động và khâu thiết lập; Futility chưa dùng có thể làm nghẽn tay bài và bộ bài."
+      }
+    ]
+  },
+  {
+    "name": "Khalipe",
+    "intro": {
+      "en": "Playing a card costing at least 2 AP triggers Celestial cards, combining Vulture Ejection damage with Shield.",
+      "vi": "Dùng bài tốn ít nhất 2 Điểm hành động kích hoạt bài Thiên thể, kết hợp sát thương Vulture Ejection với Lá chắn."
+    },
+    "pros": [
+      {
+        "en": "Provides AoE, targeted draw and protection in the same sequence.",
+        "vi": "Cung cấp sát thương diện rộng, rút bài chỉ định và bảo vệ trong cùng chuỗi hành động."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Without reliable Celestial triggers, her high printed costs become inefficient.",
+        "vi": "Nếu không kích hoạt Thiên thể ổn định, chi phí cơ bản cao khiến bài kém hiệu quả."
+      }
+    ]
+  },
+  {
+    "name": "Lucas",
+    "intro": {
+      "en": "Extended Magazine generates Launcher Bullets; his upgrades turn those bullets into repeated AoE pressure.",
+      "vi": "Extended Magazine tạo Đạn súng phóng; các bài Cường hóa biến chúng thành nguồn sát thương diện rộng liên tục."
+    },
+    "pros": [
+      {
+        "en": "Offers several bullet debuffs, hand cycling and support for Bullet-focused teams.",
+        "vi": "Có nhiều hiệu ứng đạn, luân chuyển tay bài và hỗ trợ đội hình dùng Đạn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Launcher Bullets need AP and cannot be discounted; upgrades also require setup resources.",
+        "vi": "Đạn súng phóng cần Điểm hành động và không thể giảm chi phí; các bài Cường hóa cũng cần tài nguyên để thiết lập."
+      }
+    ]
+  },
+  {
+    "name": "Luke",
+    "intro": {
+      "en": "Builds a stream of free Bullet attacks, with Chain Fire relying on sufficient Critical Rate.",
+      "vi": "Tạo chuỗi Đạn miễn phí, trong đó Chain Fire cần đủ Tỷ lệ chí mạng để vận hành."
+    },
+    "pros": [
+      {
+        "en": "Frequent small hits gain substantial value from additive damage buffs.",
+        "vi": "Nhiều đòn đánh nhỏ tận dụng tốt hiệu ứng tăng sát thương cộng thêm."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs draw and buff support; has no AoE and can run short of hand space.",
+        "vi": "Cần hỗ trợ rút bài và tăng sát thương; không có sát thương diện rộng và dễ thiếu chỗ trên tay."
+      }
+    ]
+  },
+  {
+    "name": "Magna",
+    "intro": {
+      "en": "Crystallization supplies passive Shield, enabling Counterattacks and Vulnerable support after setup.",
+      "vi": "Kết tinh tạo Lá chắn thụ động, hỗ trợ Phản công và Dễ tổn thương sau khi thiết lập."
+    },
+    "pros": [
+      {
+        "en": "Protects the team while retaliating; Ice Wall can spread counter damage.",
+        "vi": "Bảo vệ đội trong khi phản đòn; Ice Wall có thể mở rộng sát thương phản công."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Expensive cards consume AP, and damage falls when enemies attack infrequently.",
+        "vi": "Bài đắt tiêu hao nhiều Điểm hành động; sát thương giảm nếu kẻ địch ít tấn công."
+      }
+    ]
+  },
+  {
+    "name": "Maribell",
+    "intro": {
+      "en": "Turns Shield into offense through Counterattacks and Shelter Strike, while Weaken reduces incoming damage.",
+      "vi": "Biến Lá chắn thành sát thương qua Phản công và Shelter Strike, còn Suy nhược giảm sát thương nhận."
+    },
+    "pros": [
+      {
+        "en": "A flexible defensive slot that can also contribute damage.",
+        "vi": "Lựa chọn phòng thủ linh hoạt vẫn đóng góp được sát thương."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Shield buildup can be slow under turn limits; counter damage depends on enemy attacks.",
+        "vi": "Tích Lá chắn có thể chậm khi giới hạn lượt; sát thương phản công phụ thuộc đòn đánh của địch."
+      }
+    ]
+  },
+  {
+    "name": "Mei Lin",
+    "intro": {
+      "en": "Applies Passion Weakness and chains attacks with self-buffs, search and cost reduction.",
+      "vi": "Gây điểm yếu Đam mê rồi nối chuỗi tấn công nhờ tự tăng sức mạnh, tìm bài và giảm chi phí."
+    },
+    "pros": [
+      {
+        "en": "Strong single-target burst with good AP efficiency and limited support requirements.",
+        "vi": "Bùng nổ đơn mục tiêu mạnh, tiết kiệm Điểm hành động và ít đòi hỏi hỗ trợ."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; her Ego skill is costly and external draw still helps.",
+        "vi": "Không có sát thương diện rộng; kỹ năng Ego đắt và vẫn hưởng lợi từ hỗ trợ rút bài."
+      }
+    ]
+  },
+  {
+    "name": "Mika",
+    "intro": {
+      "en": "Wave stacks convert into AP, allowing Mika to fuel expensive teammates while healing.",
+      "vi": "Cộng dồn Sóng chuyển thành Điểm hành động, giúp Mika cấp tài nguyên cho đồng đội có bài chi phí cao đồng thời hồi máu."
+    },
+    "pros": [
+      {
+        "en": "Cheap cards provide dependable healing and substantial AP generation.",
+        "vi": "Bài ít tốn Điểm hành động cung cấp hồi máu ổn định và tạo nhiều Điểm hành động."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Offers little damage and no inherent draw or team damage buffs.",
+        "vi": "Ít sát thương và không có sẵn khả năng rút bài hoặc hiệu ứng tăng cường sát thương toàn đội."
+      }
+    ]
+  },
+  {
+    "name": "Nia",
+    "intro": {
+      "en": "Active discard and deck reshuffles convert Decibel into healing and allied Extra Attacks.",
+      "vi": "Chủ động bỏ bài và xáo lại bộ bài chuyển Đề-xi-ben thành hồi máu cùng Đòn đánh thêm của đồng đội."
+    },
+    "pros": [
+      {
+        "en": "Manipulates draw order and can activate costly cards through Adagio and G Chord.",
+        "vi": "Điều khiển thứ tự rút bài và có thể kích hoạt bài đắt qua Adagio cùng G Chord."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs deliberate discard triggers; ordinary end-of-turn discards do not feed Soul Rip.",
+        "vi": "Cần chủ động kích hoạt bỏ bài; bỏ bài thông thường cuối lượt không nuôi Soul Riff."
+      }
+    ]
+  },
+  {
+    "name": "Nine",
+    "intro": {
+      "en": "Hew returns at a higher level after Exhaust; Fighting Spirit helps bypass its expensive cost.",
+      "vi": "Hew trở lại ở cấp cao hơn sau khi Kiệt sức; Fighting Spirit giúp chi trả các lá bài có chi phí cao."
+    },
+    "pros": [
+      {
+        "en": "Reliable access to her central attack, strong burst and several alternative playstyles.",
+        "vi": "Luôn tiếp cận được đòn chủ lực, bùng nổ mạnh và có nhiều lối chơi thay thế."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Has no draw and often needs substantial AP support, especially early in Chaos.",
+        "vi": "Không tự rút bài và thường cần nhiều hỗ trợ Điểm hành động, nhất là đầu chuyến thám hiểm Chaos."
+      }
+    ]
+  },
+  {
+    "name": "Olga",
+    "intro": {
+      "en": "Shattering amplifies damage-over-time effects while her cards trigger Fracture and Agony early.",
+      "vi": "Tan vỡ khuếch đại sát thương theo thời gian; các bài của cô kích hoạt Rạn nứt và Thống khổ sớm."
+    },
+    "pros": [
+      {
+        "en": "Can repeatedly activate DoT effects and strengthen dedicated DoT teams.",
+        "vi": "Có thể kích hoạt sát thương theo thời gian nhiều lần và tăng sức mạnh đội hình chuyên sát thương theo thời gian."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Draw and AP demand can be high; some support value depends on Ego or Partner investment.",
+        "vi": "Có thể cần nhiều khả năng rút bài và Điểm hành động; một phần hỗ trợ phụ thuộc đầu tư Ego hoặc Đối tác."
+      }
+    ]
+  },
+  {
+    "name": "Orlea",
+    "intro": {
+      "en": "Creates zero-cost companions and repeatedly triggers Retain for healing, Shield and damage buffs.",
+      "vi": "Tạo các bạn nhỏ có chi phí 0 Điểm hành động và kích hoạt Giữ lại nhiều lần để hồi máu, tạo lá chắn và tăng sát thương."
+    },
+    "pros": [
+      {
+        "en": "Flexible sustain and multiplicative buffs suit heavy single-hit damage dealers.",
+        "vi": "Hồi phục linh hoạt và hiệu ứng tăng sát thương theo hệ số nhân phù hợp với chủ lực gây sát thương lớn trong một lần đánh."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No natural draw; keeping Creations can consume hand space and delay payoff.",
+        "vi": "Không có sẵn khả năng rút bài; giữ Tạo vật có thể chiếm chỗ trên tay và chậm phát huy hiệu quả."
+      }
+    ]
+  },
+  {
+    "name": "Owen",
+    "intro": {
+      "en": "Uses Vulnerable and Wind Charge II to support heavy attacks with an additional hit.",
+      "vi": "Dùng Dễ tổn thương và Wind Charge II để hỗ trợ đòn mạnh bằng một lần đánh bổ sung."
+    },
+    "pros": [
+      {
+        "en": "Combines AoE, some Shield and useful offensive support.",
+        "vi": "Kết hợp sát thương diện rộng, một ít Lá chắn và hỗ trợ tấn công hữu ích."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Limited self-scaling and costly key cards make him better supported than self-sufficient.",
+        "vi": "Tự tăng sát thương hạn chế và bài chủ chốt đắt khiến anh cần hỗ trợ từ đội."
+      }
+    ]
+  },
+  {
+    "name": "Rei",
+    "intro": {
+      "en": "Adds damage to allied cards through Morale and targeted buffs, favoring frequent or multi-hit attacks.",
+      "vi": "Tăng sát thương cho bài đồng đội qua Sĩ khí và hiệu ứng tăng sức mạnh có mục tiêu, phù hợp với các đòn nhiều lần đánh hoặc đánh liên tục."
+    },
+    "pros": [
+      {
+        "en": "Strong offensive support with Exhaust-based draw and deck thinning.",
+        "vi": "Hỗ trợ tấn công mạnh, rút bài qua Kiệt sức và tinh gọn bộ bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Buff timing and target conditions matter; healing is secondary.",
+        "vi": "Cần chú ý thời điểm và điều kiện nhận hiệu ứng tăng cường; hồi máu chỉ là vai trò phụ."
+      }
+    ]
+  },
+  {
+    "name": "Rin",
+    "intro": {
+      "en": "Dark Mist Stance strengthens her attacks and resource efficiency until another ally uses an Attack card.",
+      "vi": "Thế Sương đen tăng sức mạnh đòn đánh và hiệu quả tài nguyên cho đến khi đồng đội khác dùng bài Tấn công."
+    },
+    "pros": [
+      {
+        "en": "Strong single-target chains with personal draw and self-buffs.",
+        "vi": "Chuỗi tấn công đơn mục tiêu mạnh, có khả năng tự rút bài và tăng sức mạnh."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; Attack-heavy teammates can repeatedly break her stance.",
+        "vi": "Không có sát thương diện rộng; đồng đội dùng nhiều bài Tấn công có thể liên tục phá thế."
+      }
+    ]
+  },
+  {
+    "name": "Rita",
+    "intro": {
+      "en": "Converts Chronicle into Chronal Ascension, then spends it instead of AP on expensive attacks.",
+      "vi": "Chuyển Biên niên thành Thăng hoa thời gian để trả thay Điểm hành động cho những đòn đánh có chi phí cao."
+    },
+    "pros": [
+      {
+        "en": "High base multipliers and Tenacity damage with substantial personal resources.",
+        "vi": "Hệ số cơ bản và sát thương Sức bền cao, có nguồn tài nguyên riêng đáng kể."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; poor resource sequencing or insufficient AP sharply limits output.",
+        "vi": "Không có sát thương diện rộng; quản lý tài nguyên sai hoặc thiếu Điểm hành động làm giảm mạnh sát thương."
+      }
+    ]
+  },
+  {
+    "name": "Selena",
+    "intro": {
+      "en": "Allied targeted attacks drive her coordinated damage; specialized Epiphanies also support repeated Ravage setups.",
+      "vi": "Đòn chỉ định mục tiêu của đồng đội kích hoạt sát thương phối hợp; Thức tỉnh bài chuyên biệt còn hỗ trợ Suy yếu lặp lại."
+    },
+    "pros": [
+      {
+        "en": "Several support and damage paths, including Tenacity restoration and Passion Weakness.",
+        "vi": "Có nhiều hướng hỗ trợ lẫn sát thương, gồm khôi phục Sức bền của địch và gây điểm yếu Đam mê."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Key builds require specific Epiphanies and teammates that trigger her effects.",
+        "vi": "Các bộ bài quan trọng cần Thức tỉnh bài cụ thể và đồng đội kích hoạt hiệu ứng."
+      }
+    ]
+  },
+  {
+    "name": "Tenebria",
+    "intro": {
+      "en": "Transforms Basic Attacks into Rhythm cards, then recycles them through Spotlight and Encore.",
+      "vi": "Biến bài Tấn công Cơ bản thành Rhythm, rồi tái sử dụng qua Spotlight và Encore."
+    },
+    "pros": [
+      {
+        "en": "Strong Basic-card synergy and rapid combo damage once the loop is established.",
+        "vi": "Phối hợp tốt với hiệu ứng tăng sức mạnh cho bài cơ bản và gây sát thương liên hoàn nhanh khi đã thiết lập vòng lặp."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; high AP needs and extra Basic cards can reduce opening consistency.",
+        "vi": "Không có sát thương diện rộng; cần nhiều Điểm hành động và thêm bài Cơ bản có thể làm lượt mở đầu kém ổn định."
+      }
+    ]
+  },
+  {
+    "name": "Tiphera",
+    "intro": {
+      "en": "Zero-cost Archetypes supply AP, sustain or a powerful buff to the next attack's first hit.",
+      "vi": "Archetype 0 Điểm hành động cung cấp Điểm hành động, hồi phục hoặc hiệu ứng tăng cường mạnh cho lần đánh đầu của bài Tấn công kế tiếp."
+    },
+    "pros": [
+      {
+        "en": "Excellent resource generation and protection; particularly valuable for large single hits.",
+        "vi": "Tạo tài nguyên và bảo vệ rất tốt; đặc biệt hữu ích cho một đòn có sát thương lớn."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Buffs suit only specific attacks; random generation and hand management need planning.",
+        "vi": "Hiệu ứng tăng cường chỉ hợp một số đòn; việc tạo bài ngẫu nhiên và quản lý tay bài cần tính toán."
+      }
+    ]
+  },
+  {
+    "name": "Tressa",
+    "intro": {
+      "en": "Free Shadow Daggers build Agony, while Cursed Gouge can trigger its damage ahead of schedule.",
+      "vi": "Shadow Dagger miễn phí tích Thống khổ; Cursed Gouge có thể kích hoạt sát thương sớm."
+    },
+    "pros": [
+      {
+        "en": "Frequent attacks benefit from additive buffs and Exhaust synergies.",
+        "vi": "Đánh liên tục tận dụng hiệu ứng tăng cường cộng thêm và phối hợp Kiệt sức."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Limited AoE, delayed DoT payoff and many actions can be punished by enemies.",
+        "vi": "Sát thương diện rộng hạn chế, sát thương theo thời gian cần tích lũy và số lần hành động cao có thể bị kẻ địch trừng phạt."
+      }
+    ]
+  },
+  {
+    "name": "Yuki",
+    "intro": {
+      "en": "Drawing activates Inspiration, allowing repeated AoE attacks when the team supplies reliable cycling.",
+      "vi": "Rút bài kích hoạt Cảm hứng, giúp tấn công diện rộng liên tục khi đội luân chuyển bài ổn định."
+    },
+    "pros": [
+      {
+        "en": "Useful personal draw and AP-efficient options with suitable Epiphanies.",
+        "vi": "Tự rút bài hữu ích và có lựa chọn tiết kiệm Điểm hành động với Thức tỉnh bài phù hợp."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Early Chaos draw is unreliable; missing Inspiration or weak Tenacity damage lowers effectiveness.",
+        "vi": "Rút bài đầu Chaos thiếu ổn định; thiếu Cảm hứng hoặc sát thương Sức bền thấp làm giảm hiệu quả."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1352 @@
+{
+  "characterId": "1055",
+  "name": "Adelheid",
+  "identity": [
+    "Void",
+    "Vanguard"
+  ],
+  "subtitle": {
+    "en": "Blessing converts routine card use into Shield, while Protect Us keeps cards moving through the deck.",
+    "vi": "Phước lành biến việc sử dụng bài thành lá chắn, còn Protect Us giúp luân chuyển bộ bài."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1055.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/adelheid",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/adelheid.json",
+      "docs/combatant/current/api/czn/characters/1055.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Adelheid": {
+      "src": "/assets/combatant/portrait_character_crop_half_1055.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Clara": {
+      "src": "/assets/partner/portrait_character_crop_half_30095.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eishlen": {
+      "src": "/assets/partner/portrait_character_crop_half_20005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Wilhelmina": {
+      "src": "/assets/partner/portrait_character_crop_half_20024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rachel": {
+      "src": "/assets/partner/portrait_character_crop_half_20032.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Healer's Journey": {
+      "src": "/assets/item/guide-9a0cb5c9e3e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Starlight and Dreams": {
+      "src": "/assets/item/guide-6163675f3a6d.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Crimson Sword": {
+      "src": "/assets/item/relic_1170.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fueled Gauntlets": {
+      "src": "/assets/item/relic_5062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Closed-Circuit Terminal": {
+      "src": "/assets/item/relic_5071.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cycle of Circulation": {
+      "src": "/assets/item/relic_5074.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pale Eternal Flame": {
+      "src": "/assets/item/relic_5018.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harp of Conflict": {
+      "src": "/assets/item/relic_5035.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Phytotype Synthetic": {
+      "src": "/assets/item/relic_5023.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Chains of Obsession": {
+      "src": "/assets/item/relic_1152_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amir": {
+      "src": "/assets/combatant/portrait_character_crop_half_1017.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Magna": {
+      "src": "/assets/combatant/portrait_character_crop_half_1010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Heidemarie": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nine": {
+      "src": "/assets/combatant/portrait_character_crop_half_30047.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Haru": {
+      "src": "/assets/combatant/portrait_character_crop_half_1062.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Adelheid artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1055.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Void": {
+      "src": "/assets/common/icon_type_ego_creed.png",
+      "width": 44,
+      "height": 44
+    },
+    "Vanguard": {
+      "src": "/assets/common/icon_type_job_knight.png",
+      "width": 44,
+      "height": 44
+    },
+    "Clara E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30095.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eishlen E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Wilhelmina E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rachel E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20032.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_1055_cre1_lbk",
+      "name": "Doggie",
+      "cost": 0,
+      "description": "<color_orange>1</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre1_lbk",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_cre2_lbk",
+      "name": "Teddy",
+      "cost": 0,
+      "description": "<color_orange>1</> <color_orange><u>Shield</u></><br><color_orange>1</> <color_orange><u>Damage Reduction</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>",
+          "id": "T_CS00_0062",
+          "title": "Damage Reduction"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre2_lbk",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_uni2_mut1",
+      "name": "Doggie",
+      "cost": 0,
+      "description": "<cc>60</>% <color_orange><u>Defense-Based Damage</u></> × <cc>4</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_uni2_mut1",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_uni2_mut2",
+      "name": "Teddy",
+      "cost": 0,
+      "description": "<cc>200</>% <color_orange><u>Shield</u></><br><cc>2</> <color_orange><u>Damage Reduction</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>",
+          "id": "T_CS00_0062",
+          "title": "Damage Reduction"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_uni2_mut2",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_cre1",
+      "name": "Doggie",
+      "cost": 0,
+      "description": "<color_orange>60% x 4</> <color_orange><u>Defense-Based Damage</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre1",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": [
+        "c_1055_cre1_lbk"
+      ]
+    },
+    {
+      "id": "c_1055_cre2",
+      "name": "Teddy",
+      "cost": 0,
+      "description": "<color_orange>200%</> <color_orange><u>Shield</u></><br><color_orange>2</> <color_orange><u>Damage Reduction</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>",
+          "id": "T_CS00_0062",
+          "title": "Damage Reduction"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre2",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": [
+        "c_1055_cre2_lbk"
+      ]
+    },
+    {
+      "id": "c_1055_cre3",
+      "name": "Doggie (Pack)",
+      "cost": 0,
+      "description": "<color_orange>200%</> <color_orange><u>Defense-Based Damage</u></><br>Increase Damage Amount by <cc>50</>% for each <cc><u>Doggie</u></> in hand before <color_orange><u>activation</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        },
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        },
+        {
+          "desc": "When this card is Discarded, <color_orange><u>proc</u></> this card<br>This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn",
+          "id": "TALENT_TESTAMENT",
+          "title": "Quietus"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre3",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_cre4",
+      "name": "Doggie (Morphed)",
+      "cost": 0,
+      "description": "<color_orange>90% x 4</> <color_orange><u>Defense-Based Damage</u></><br>When an Attack Card is <color_orange><u>use</u></>d, change this card into <cc><u>Teddy (Morphed)</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_06.webp",
+      "video": "/assets/card/unique_1055_06.webm",
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage applied as <cc>210</>% of Defense and <cc>30</>% of Attack",
+          "id": "CARD_DEFDAMAGE",
+          "title": "Defense-Based Damage"
+        },
+        {
+          "desc": "Using a card manually",
+          "id": "CARD_THROW",
+          "title": "Use"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre4",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_1055_cre5",
+      "name": "Teddy (Morphed)",
+      "cost": 0,
+      "description": "<color_orange>300%</> <color_orange><u>Shield</u></><br><color_orange>3</> <color_orange><u>Damage Reduction</u></><br>When a Skill Card is <color_orange><u>use</u></>d, change this card into <cc><u>Doggie (Morphed)</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1055_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1055_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>",
+          "id": "TALENT_FAIRY",
+          "title": "Blessing"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using a card manually",
+          "id": "CARD_THROW",
+          "title": "Use"
+        },
+        {
+          "desc": "Decrease Damage Taken by <cc><color_orange>15</></>%<br>When the effect is activated, decrease <color_orange><u>Damage Reduction</u></> by <cc>1</>",
+          "id": "T_CS00_0062",
+          "title": "Damage Reduction"
+        },
+        {
+          "desc": "Decrease Damage Amount taken until the next turn",
+          "id": "CARD_SHIELD",
+          "title": "Shield"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1055_cre5",
+      "ownerId": "1055",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ta_00006",
+      "name": "Forbidden: Gesture of Freedom",
+      "cost": 0,
+      "description": "Decrease Cost of <cc>1</> random card in hand by <cc>1</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_TABOO",
+      "artKey": "taboo_00006",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/taboo_00006.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+          "id": "TALENT_INNATE",
+          "title": "Initiation"
+        }
+      ],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "card_ta_00006",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "taboo"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_1055_cre1_lbk",
+    "c_1055_cre2_lbk",
+    "c_1055_uni2_mut1",
+    "c_1055_uni2_mut2",
+    "c_1055_cre1",
+    "c_1055_cre2",
+    "c_1055_cre3",
+    "c_1055_cre4",
+    "c_1055_cre5"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Blessing converts routine card use into Shield, while Protect Us keeps cards moving through the deck.",
+      "vi": "Phước lành biến việc sử dụng bài thành lá chắn, còn Protect Us giúp luân chuyển bộ bài."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Low AP demand with steady protection and useful card draw.",
+        "vi": "Ít tốn Điểm hành động, bảo vệ ổn định và hỗ trợ rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Damage is modest; specialists can offer stronger buffs or draw.",
+        "vi": "Sát thương vừa phải; nhân vật chuyên hỗ trợ có thể tăng sức mạnh hoặc rút bài tốt hơn."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Protect Us",
+        "body": {
+          "en": "For the next 2 Blessing cards activated, Draw 1 Blessing card",
+          "vi": "Với 2 lá có Phước lành tiếp theo được Kích hoạt, Rút bài 1 lá có Phước lành"
+        },
+        "cardId": "c_1055_uni1"
+      },
+      {
+        "title": "Friends from Fairy Tales",
+        "body": {
+          "en": "Select and create 1 of either Doggie or Teddy",
+          "vi": "Chọn và tạo 1 lá Doggie hoặc Teddy"
+        },
+        "cardId": "c_1055_uni2"
+      },
+      {
+        "title": "Truth Behind A Story",
+        "body": {
+          "en": "200% Defense-Based Damage; +100% Damage Amount taken by the target for 1 turn",
+          "vi": "200% Sát thương theo Phòng thủ; Tăng 100% lượng sát thương mục tiêu nhận vào trong 1 lượt"
+        },
+        "cardId": "c_1055_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1055_srt4",
+      "ratings": [
+        3,
+        5,
+        3,
+        1,
+        3
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II selects an opening card at zero cost; use it to organize the first turn and spread Blessing.",
+        "vi": "II chọn bài mở đầu với chi phí 0; dùng để sắp xếp lượt đầu và lan Phước lành."
+      },
+      "divine": {
+        "en": "Prefer AP, cost reduction or draw; Common Draw supports specific II combos.",
+        "vi": "Ưu tiên Điểm hành động, giảm chi phí hoặc rút bài; Rút Bài chung hỗ trợ một số tổ hợp với II."
+      }
+    },
+    {
+      "cardId": "c_1055_uni1",
+      "ratings": [
+        5,
+        2,
+        2,
+        4,
+        2
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I provides three staggered Blessing draws; IV trades certainty for zero cost and improves with Ego 4.",
+        "vi": "I rút ba lá Phước lành theo từng lần; IV đổi độ ổn định lấy chi phí 0 và mạnh hơn khi có Ego 4."
+      },
+      "divine": {
+        "en": "Draw or cost reduction; AP fits IV. Neutral options are low priority.",
+        "vi": "Chọn rút bài hoặc giảm chi phí; Điểm hành động phù hợp IV. Thức tỉnh trung lập ít được ưu tiên."
+      }
+    },
+    {
+      "cardId": "c_1055_uni2",
+      "ratings": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II repeatedly returns Teddy after damage; III serves a dedicated Doggie damage build, while V offers flexible forms.",
+        "vi": "II liên tục đưa Teddy trở lại sau khi nhận sát thương; III dành cho lối gây sát thương bằng Doggie, còn V linh hoạt đổi dạng."
+      },
+      "divine": {
+        "en": "Prefer draw or cost reduction; neutral options rarely justify replacing these variants.",
+        "vi": "Ưu tiên rút bài hoặc giảm chi phí; lựa chọn trung lập hiếm khi đáng đổi các biến thể này."
+      }
+    },
+    {
+      "cardId": "c_1055_uni3",
+      "ratings": [
+        5,
+        3,
+        3,
+        2,
+        1
+      ],
+      "preferred": "I",
+      "note": {
+        "en": "I preserves the buff and adds Weaken; III strengthens Teddy's shield. Duplicate buffs extend duration rather than increase strength.",
+        "vi": "I giữ hiệu ứng tăng sức mạnh và thêm Suy nhược; III tăng Lá chắn của Teddy. Bản sao chỉ kéo dài thời gian hiệu lực, không tăng độ mạnh."
+      },
+      "divine": {
+        "en": "Common-card draw, own-card draw or cost reduction suit the retained support role.",
+        "vi": "Rút Bài chung, rút bài của bản thân hoặc giảm chi phí phù hợp vai trò hỗ trợ."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Clara E0",
+      "score": "—",
+      "note": {
+        "en": "Clara supplies team buffs that the other Vanguard partners lack, making her the strongest support fit.",
+        "vi": "Clara tăng sức mạnh toàn đội, lợi ích các Đối tác Tiên phong khác thiếu, nên hợp vai trò hỗ trợ nhất."
+      }
+    },
+    {
+      "name": "Eishlen E0",
+      "score": "—",
+      "note": {
+        "en": "Without Clara, Eishlen prioritizes defense and sustain through her stats and Shield-retaining Ego skill.",
+        "vi": "Khi thiếu Clara, Eishlen bổ sung Phòng thủ và khả năng trụ trận nhờ chỉ số cùng kỹ năng Ego giữ Lá chắn."
+      }
+    },
+    {
+      "name": "Wilhelmina E4",
+      "score": "—",
+      "note": {
+        "en": "High-Ego Wilhelmina offers a large defensive stat boost, but little additional utility.",
+        "vi": "Wilhelmina ở Ego cao tăng mạnh chỉ số phòng ngự nhưng ít tiện ích ngoài chỉ số."
+      }
+    },
+    {
+      "name": "Rachel E4",
+      "score": "—",
+      "note": {
+        "en": "Rachel trades raw stats for useful draw from an inexpensive Ego skill.",
+        "vi": "Rachel đánh đổi chỉ số để lấy khả năng Rút bài từ kỹ năng Ego ít tốn năng lượng."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Yuri offers inexpensive draw despite being outside the Vanguard class, at the cost of class stat benefits.",
+        "vi": "Yuri cho Rút bài ít tốn năng lượng dù khác lớp Tiên phong, đổi lại mất lợi ích chỉ số theo lớp."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Tetra's Authority (2) + Healer's Journey (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "The flexible 2/2/2 setup supplies reliable DEF and HP; specialized teams may prefer a support set.",
+        "vi": "Bộ 2/2/2 linh hoạt tăng Phòng thủ và Máu ổn định; đội chuyên biệt có thể ưu tiên bộ hỗ trợ."
+      }
+    },
+    {
+      "name": "Starlight and Dreams (4) + Tetra's Authority (2)",
+      "score": "—",
+      "note": {
+        "en": "Use this for Counterattack or Extra Attack teams; its damage bonus is wasted on other attack types.",
+        "vi": "Dùng cho đội Phản công hoặc Đòn đánh thêm; mức tăng sát thương không giúp các loại đòn khác."
+      }
+    },
+    {
+      "name": "Glory's Reign (4) + Tetra's Authority (2)",
+      "score": "—",
+      "note": {
+        "en": "Use only when the team lacks Glory's Reign coverage, since Exhaust is not central to Adelheid's kit.",
+        "vi": "Chỉ nên dùng khi đội chưa có Glory's Reign, vì Kiệt sức không phải cơ chế chính của Adelheid."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Adelheid Stats — Support · Ideal",
+        "vi": "Hỗ trợ · Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Support · Desire",
+        "vi": "Hỗ trợ · Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Support · Imagination",
+        "vi": "Hỗ trợ · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Support · Substats",
+        "vi": "Hỗ trợ · Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% > HP > HP% > Ego Regen",
+        "vi": "Phòng thủ > Phòng thủ% > Máu > Máu% > Hồi năng lượng Ego"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Offensive · Ideal",
+        "vi": "Tấn công · Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate",
+        "vi": "Tỷ lệ chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Offensive · Desire",
+        "vi": "Tấn công · Khao khát"
+      },
+      "value": {
+        "en": "Void DMG%",
+        "vi": "Sát thương Hư vô%"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Offensive · Imagination",
+        "vi": "Tấn công · Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF%",
+        "vi": "Phòng thủ%"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelheid Stats — Offensive · Substats",
+        "vi": "Tấn công · Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ% >>> Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Unlike most characters Adelheid has no specific stat requirements for standard play as a support.",
+    "vi": "Ở vai trò hỗ trợ thông thường, Adelheid không có ngưỡng chỉ số bắt buộc."
+  },
+  "potentialIntro": {
+    "en": "DEFENSE% = HEALTH% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Adelheid’s 3-1 Ego grants her starting Basic Cards “Gather Around” and “Fairy’s Protection” the [Blessing] tag. A pretty solid Potential to unlock to assist with some extra Shielding when starting Chaos/Sortie runs.5-1: Adelheid’s 5-1 Ego increases the Shield provided by her “Fairy’s Protection” card by +5%. If her Defense is greater than 250, it applies an additional +5% to that modifier. A small increase to her defensive capabilities early in Chaos/Sortie, prior to having her Basic Cards removed.7: Adelheid’s Potential 7 increases her Void-Attribute damage modifier by +5% if her Defense is greater than 300, for every 10 Defense exceeding 300 - add an additional 2% to that value up to a maximum of +10%, for a total of +15% Void-Attribute damage. Overall, a relatively lackluster Potential for Adelheid as she primarily fills a support role in a team and won’t be a primary Damage Dealer, but still provides a decent damage increase when played as a sub-DPS role.",
+    "vi": "Ưu tiên % phòng thủ = % máu ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Phước lành cho Gather Around và Fairy’s Protection, còn 5-1 tăng lá chắn của Fairy’s Protection thêm 5%, cộng thêm 5% khi phòng thủ >250, chủ yếu hữu ích đầu chuyến thám hiểm trước khi xóa bài cơ bản. Tiềm năng 7 cho 5% sát thương Hư vô khi phòng thủ >300, thêm 2% mỗi 10 phòng thủ vượt 300, tối đa thêm 10% (tổng 15%); giá trị thấp với vai trò hỗ trợ nhưng hữu ích khi gây sát thương phụ."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add Blessing to Gather Around and Fairy’s Protection cards.",
+        "vi": "Thêm Phước lành cho các lá Gather Around và Fairy’s Protection."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Shield Gain Amount to Adelheid’s Fairy’s Protection; If Adelheid’s Defense is 250 or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng Lá chắn nhận được của Fairy’s Protection thuộc Adelheid; Nếu Phòng thủ của Adelheid đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Adelheid’s Defense is 300 or higher, +5% Void-Attribute Damage Amount, and for every 10 Defense exceeding 300, add an additional 2% to the modifier; (additional +10% max)",
+        "vi": "Nếu Phòng thủ của Adelheid từ 300 trở lên, tăng 5% lượng sát thương hệ Hư vô; với mỗi 10 Phòng thủ vượt 300, tăng thêm 2% cho chỉ số này; (tăng thêm tối đa 10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Season 1: Lab-Zero",
+        "vi": "Mùa 1: Lab-Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (CURRENT)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Contaminated Drone Lens",
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom",
+        "Essence-Fueled Gauntlets"
+      ],
+      "trinkets": [
+        "Essence-Fragmented Necklace",
+        "Sphere of Randomness",
+        "Closed-Circuit Terminal",
+        "Cycle of Circulation"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Pale Eternal Flame",
+        "Harp of Conflict"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask",
+        "Phytotype Synthetic"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Plant Doll",
+        "Golden Bell"
+      ],
+      "note": {
+        "en": "Phytotype Synthetic does not effect allies, contrary to wording.",
+        "vi": "Phytotype Synthetic không tác dụng lên đồng đội, trái với cách diễn đạt của hiệu ứng."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Crimson Sword",
+        "Flashbang"
+      ],
+      "armor": [
+        "Chains of Obsession",
+        "Nightmare Hairpin",
+        "Wings of Light",
+        "Torture Toolbox"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Sphere of Randomness",
+        "Stele of Heresy",
+        "Bloody Pendant"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4 (source current season)",
+        "vi": "Mùa 4 (mùa hiện tại theo nguồn)"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Adelheid’s first Ego to be unlocked increases the Shield amount of her Mythic card “Garden of Secrets” by 100% and also reduces the cost by 1. A decent increase to the upfront Shield granted whilst also increasing her AP efficiency slightly, overall not incredibly impactful.",
+        "vi": "Garden of Secrets tăng thêm 100% lá chắn và giảm 1 chi phí. Cải thiện phòng thủ tức thời và tiết kiệm điểm hành động, nhưng tác động tổng thể vừa phải."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Her second Ego grants the buff “Bliss of Dreams” at the start of battle for each card anywhere (hand/deck/graveyard) that has the [Blessing] tag and whenever Adelheid applies the [Blessing] tag to a card or creates a card that has the [Blessing] tag. Bliss of Dreams can stack up to 10 times and lasts indefinitely. It provides a 3% multiplicative damage buff for each stack to her allies. This is a strong Ego that provides a solid, persistent damage buff to all allies.",
+        "vi": "Bliss of Dreams nhận cộng dồn từ các lá có Phước lành ở đầu trận, cũng như mỗi lần gắn Phước lành hoặc tạo bài mang hiệu ứng này. Tối đa 10 cộng dồn tồn tại vô hạn, mỗi cộng dồn tăng sát thương đồng đội 3% theo hệ số nhân: một nâng cấp hỗ trợ mạnh và ổn định."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Adelheid’s third Ego increases the Shield amount of her Ego Skill by an additional +200% and increases the heal amount cap to 50% of your Max HP, opposed to 30%. A relatively minor power increase, but it does increase her defensive and healing output provided by her Ego Skill.",
+        "vi": "Kỹ năng Ego tăng thêm 200% lá chắn; giới hạn hồi máu tăng từ 30% lên 50% máu tối đa. Chủ yếu cải thiện phòng thủ và hồi phục."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Her fourth Ego grants an additional start-of-battle effect; it will apply the [Blessing] tag to any number of cards in your hand. When an Upgrade card is played that has the [Blessing] tag, it will also apply the [Blessing] tag to 1 random card in the Draw Pile. Provides some additional synergy with some of her draw power offered via “Protect Us” in its base variant and some of its offered Epiphanies, whilst also bolstering her defensive output.",
+        "vi": "Đầu trận gắn Phước lành lên các lá trên tay; dùng bài cường hóa có Phước lành còn gắn hiệu ứng này cho 1 lá ngẫu nhiên trong chồng rút. Tăng khả năng phòng thủ và phối hợp với khả năng rút bài của Protect Us."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "This Ego node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] potentials by 3. As the majority of Adelheid’s Shielding capabilities come from the [Blessing] tag and not from her cards, this doesn’t provide a huge increase to her defensive capabilities and is relatively minor.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của tiềm năng nâng cấp bài cơ bản, đặc trưng và chung. Vì phần lớn lá chắn đến từ Phước lành, mức cải thiện phòng thủ khá nhỏ."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Her final Ego reduces the maximum stack count of “Bliss of Dreams” by 5, but increases the buff value to 8% per stack instead of the standard 3%. When fully stacked, this provides a 40% multiplicative damage buff instead of the usual 30% while also allowing it to fully stack faster. Additionally, at the start of the turn, if you have 5 stacks of “Bliss of Dreams”, she will also draw 1 card that has the [Blessing] tag. A solid overall final Ego for Adelheid that provides some very consistent draw power, as most Adelheid decks will have at least 5 cards that have the [Blessing] tag to allow this to work even on turn 1. The draw effect on this, as it is easy to have 1 [Blessing] card in your deck with Adelheid, is effectively +1 start-of-turn draw, which increases Adelheid’s potency as a draw engine quite a bit.",
+        "vi": "Bliss of Dreams giảm giới hạn từ 10 xuống 5 cộng dồn nhưng tăng giá trị mỗi cộng dồn từ 3% lên 8%, đạt 40% sát thương theo hệ số nhân thay vì 30% và tích nhanh hơn. Khi đủ 5 cộng dồn ở đầu lượt, rút 1 lá có Phước lành; bộ bài phù hợp có thể hưởng ngay từ lượt đầu."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Recommended deck",
+        "vi": "Bộ bài đề xuất"
+      },
+      "role": {
+        "en": "Opening-hand setup and AP support",
+        "vi": "Chuẩn bị bài đầu trận và hỗ trợ Điểm hành động"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "c_1055_srt4_rsp2",
+          "count": 3,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1055_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1055_uni3",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1055_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ta_00006",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Rocket-Adorned Cape",
+        "Sphere of Randomness"
+      ],
+      "fragments": [
+        "Starlight and Dreams"
+      ],
+      "fragmentPieces": [
+        0
+      ],
+      "code": "v6l7NBZz5YZG6d-GDdybhmibocfen5l0aBqdIOZ3aURPgSdv4vApU-wGZBW6ObrPMRCm4tzPixXL0gMAost-kJOYTT47cTA",
+      "note": {
+        "en": "Choose three opening cards and supply AP on turns 1–2. Adjust duplicate counts and Divine Epiphanies to the team's draw or AP needs. Lab-0 offers useful support equipment; other zones work if its Forbidden card and equipment are omitted.",
+        "vi": "Chọn ba lá trên tay khi bắt đầu giao tranh và cung cấp nhiều Điểm hành động trong lượt 1–2. Điều chỉnh số bản sao và Thức tỉnh thần thánh theo nhu cầu rút bài hoặc Điểm hành động của đội. Nên thu thập bộ bài tại Lab-0 để lấy trang bị hỗ trợ phù hợp; vẫn có thể thu thập bộ bài ở khu khác nếu bỏ lá Cấm kỵ và trang bị riêng của khu này."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Amir",
+      "note": {
+        "en": "Blessing activates Metallization while Truth Behind a Story adds a damage buff.",
+        "vi": "Phước lành kích hoạt Kim loại hóa, còn Truth Behind a Story bổ sung tăng sát thương."
+      }
+    },
+    {
+      "name": "Magna",
+      "note": {
+        "en": "Counterattack retention and retained Shields help Magna start turns with stronger counters.",
+        "vi": "Giữ Phản công và Lá chắn giúp Magna bắt đầu lượt với các đòn phản công mạnh hơn."
+      }
+    },
+    {
+      "name": "Heidemarie",
+      "note": {
+        "en": "Blessed blades generate draw and Shields, while recovering discarded blades enables extra activations.",
+        "vi": "Gắn Phước lành lên kiếm tạo Rút bài và Lá chắn; lấy lại kiếm đã bỏ giúp kích hoạt thêm."
+      }
+    },
+    {
+      "name": "Nine",
+      "note": {
+        "en": "Blessing efficiently triggers Counterblade, while Nine strengthens Adelheid's Shield skills but not Blessing itself.",
+        "vi": "Phước lành dễ kích hoạt Counterblade; Nine tăng Lá chắn từ kỹ năng của Adelheid nhưng không tăng chính Phước lành."
+      }
+    },
+    {
+      "name": "Haru",
+      "note": {
+        "en": "Haru repeatedly triggers Blessing through Retrieve and movement effects, while her own buffs cover Adelheid's weaker buffing.",
+        "vi": "Haru liên tục kích hoạt Phước lành nhờ Thu hồi và chuyển bài, đồng thời tự tăng sức mạnh để bù phần hỗ trợ sát thương còn yếu."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "ADHD Anchor Shot",
+        "vi": "Anchor Shot cùng Adelheid"
+      },
+      "members": [
+        "Adelheid",
+        "Haru",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

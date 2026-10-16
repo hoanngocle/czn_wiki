@@ -1,0 +1,2459 @@
+{
+  "id": "30115",
+  "name": "Arabella",
+  "names": {
+    "en": "Arabella",
+    "zhs": "艾拉貝拉",
+    "zht": "艾拉貝拉"
+  },
+  "job": "striker",
+  "ego": "instinct",
+  "rarity": 5,
+  "color": "#C10004",
+  "info": {
+    "background_text": "<color_darkgray>The dangerous femme fatale who lures those around her to ruin</><br>Commander of the infamous mercenary group, the Black Spica. With her alluring beauty and eloquent speech, she captivates others and toys with them as if they were mere playthings. Your instincts tell you to stay away, yet she possesses an irresistible allure that no one can look away from.",
+    "birth_day": "ui_label_day_30th",
+    "birth_month": "ui_label_month_september",
+    "cv_en": "Not included",
+    "cv_ja": "Ai Kakuma",
+    "cv_ko": "Bona Kim",
+    "cv_zhs": "cv_zhs_0062",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "30115_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@30115_info",
+    "id": "30115_info",
+    "link_combatant_face_group": "30115_face",
+    "link_combatant_voice_group": "30115_voice",
+    "link_live_event_id": "live_event_30115",
+    "link_story_content_counseling_key": "story_counseling_30115",
+    "link_town_normal_visit_group": "normal_visit_30115",
+    "link_town_policy_reaction_id": "30115",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "30115_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_5",
+    "small_talk_link_combatant_voice_id": "[30115_small_talk_01,30115_small_talk_02,30115_small_talk_03,30115_small_talk_04]",
+    "specialty": "combatant_info@specialty@30115_info",
+    "stage_success_link_combatant_voice_id": "30115_stage_success_01",
+    "touch_link_combatant_voice_id": "[30115_touch_01,30115_touch_02]"
+  },
+  "startCards": [
+    {
+      "id": "c_30115_srt1",
+      "name": "Diagonal Slash",
+      "cost": 1,
+      "description": "<color_orange>60%</> Damage to all enemies",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30115_01.webp",
+      "video": null,
+      "artKey": "start_30115_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30115_srt1_pot",
+          "name": "Diagonal Slash",
+          "cost": 1,
+          "description": "<color_orange>60%</> Damage to all enemies<br><color_orange>1</> <color_orange><u>Fracture</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30115_01.webp",
+          "video": null,
+          "artKey": "start_30115_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt1_pot"
+        }
+      ],
+      "sourceId": "c_30115_srt1"
+    },
+    {
+      "id": "c_30115_srt2",
+      "name": "Diagonal Slash",
+      "cost": 1,
+      "description": "<color_orange>60%</> Damage to all enemies",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30115_01.webp",
+      "video": null,
+      "artKey": "start_30115_01",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30115_srt2_pot",
+          "name": "Diagonal Slash",
+          "cost": 1,
+          "description": "<color_orange>60%</> Damage to all enemies<br><color_orange>1</> <color_orange><u>Fracture</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30115_01.webp",
+          "video": null,
+          "artKey": "start_30115_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt2_pot"
+        }
+      ],
+      "sourceId": "c_30115_srt2"
+    },
+    {
+      "id": "c_30115_srt3",
+      "name": "Crimson Domain",
+      "cost": 1,
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30115_02.webp",
+      "video": null,
+      "artKey": "start_30115_02",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30115_srt3"
+    },
+    {
+      "id": "c_30115_srt4",
+      "name": "Scream For Me",
+      "cost": 1,
+      "description": "<color_orange>40%</> Damage and <color_orange>2</> <color_orange><u>Fracture</u></> to all enemies<br><color_orange>4</> <color_orange><u>Fracture</u></> to the enemy with the highest HP",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30115_01.webp",
+      "video": null,
+      "artKey": "unique_30115_01",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_LEAD",
+          "title": "Lead",
+          "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS00_0369",
+          "title": "Fracture",
+          "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30115_srt4_rsp1",
+          "name": "Scream For Me",
+          "cost": 1,
+          "description": "<color_orange>60%</> Damage and <color_orange>3</> <color_orange><u>Fracture</u></> to all enemies<br><color_orange>6</> <color_orange><u>Fracture</u></> to the enemy with the highest HP",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_01.webp",
+          "video": null,
+          "artKey": "unique_30115_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt4_rsp1"
+        },
+        {
+          "id": "c_30115_srt4_rsp2",
+          "name": "Scream For Me",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage and <color_orange>3</> <color_orange><u>Fracture</u></> to all enemies<br>Increase Damage Amount of Attack Cards of this unit by <color_orange>50</>% for <cc>1</> turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_01.webp",
+          "video": null,
+          "artKey": "unique_30115_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt4_rsp2"
+        },
+        {
+          "id": "c_30115_srt4_rsp3",
+          "name": "Scream For Me",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage and <color_orange>2</> <color_orange><u>Fracture</u></> to all enemies<br><cc>1</> <color_orange><u>Fracture</u></> for each type of harmful effect the target has (max <cc>5</>)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_01.webp",
+          "video": null,
+          "artKey": "unique_30115_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt4_rsp3"
+        },
+        {
+          "id": "c_30115_srt4_rsp4",
+          "name": "Scream For Me",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage and <color_orange>3</> <color_orange><u>Fracture</u></> to all enemies<br><color_orange><u>Draw</u></> <cc>2</> cards of this unit",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_01.webp",
+          "video": null,
+          "artKey": "unique_30115_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt4_rsp4"
+        },
+        {
+          "id": "c_30115_srt4_rsp5",
+          "name": "Scream For Me",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage, <color_orange>2</> <color_orange><u>Fracture</u></>, <color_orange>4</> <color_orange><u>Agony</u></>, and <color_orange>2</> <color_orange><u>Scorched</u></> to all enemies",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_01.webp",
+          "video": null,
+          "artKey": "unique_30115_01",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_DES_CS_20000",
+              "title": "Scorched",
+              "desc": "When <color_orange><u>Action Count</u></> is decreased, the amount decreased × <color_orange>80%</> <color_orange><u>DoT</u></> (max <color_orange>10</> stack(s))<br>On effect activation, decrease by <cc>1</>, and at the end of the turn, remove effect"
+            },
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS00_0004",
+              "title": "Agony",
+              "desc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_srt4_rsp5"
+        }
+      ],
+      "sourceId": "c_30115_srt4"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "c_30115_uni1",
+      "name": "Observer’s Pleasure",
+      "cost": 0,
+      "description": "<color_orange>1</> <color_orange><u>Fracture Amplification</u></><br>For each enemy present, +<cc><color_orange>20</></>% Damage Amount to this unit for <cc>1</> turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30115_02.webp",
+      "video": null,
+      "artKey": "unique_30115_02",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "T_CS_30115_02",
+          "title": "Fracture Amplification",
+          "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30115_uni1_rsp1",
+          "name": "Observer’s Pleasure",
+          "cost": 0,
+          "description": "<color_orange>1</> <color_orange><u>Fracture Amplification</u></><br>For each enemy present, +<cc><color_orange>30</></>% Damage Amount to this unit for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_02.webp",
+          "video": null,
+          "artKey": "unique_30115_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni1_rsp1"
+        },
+        {
+          "id": "c_30115_uni1_rsp2",
+          "name": "Observer’s Pleasure",
+          "cost": 0,
+          "description": "<color_orange>1</> <color_orange><u>Fracture Amplification</u></><br>For each type of harmful effect the target has, +<cc><color_orange>20</></>% Damage Amount to this unit for <cc>1</> turn (max <cc>120</>%)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_02.webp",
+          "video": null,
+          "artKey": "unique_30115_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni1_rsp2"
+        },
+        {
+          "id": "c_30115_uni1_rsp3",
+          "name": "Observer’s Pleasure",
+          "cost": 1,
+          "description": "<color_orange>1</> <color_orange><u>Fracture Amplification</u></><br><color_orange>2</> <color_orange><u>Fracture</u></> and <color_orange>2</> <color_orange><u>Vulnerable</u></> to all enemies<br>Increase Damage Amount of Attack Cards of this unit by <cc><color_orange>50</></>% for <cc>1</> turn",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_02.webp",
+          "video": null,
+          "artKey": "unique_30115_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            },
+            {
+              "id": "T_CS00_0002",
+              "title": "Vulnerable",
+              "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni1_rsp3"
+        },
+        {
+          "id": "c_30115_uni1_rsp4",
+          "name": "Observer’s Pleasure",
+          "cost": 0,
+          "description": "<color_orange>1</> <color_orange><u>Fracture Amplification</u></><br>For <cc>1</> turn, +<cc><color_orange>80</></>% Damage Amount to this unit, and when allies defeat an enemy during that turn, transfer <color_orange><u>Fracture</u></> of that target to a random enemy",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_02.webp",
+          "video": null,
+          "artKey": "unique_30115_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni1_rsp4"
+        },
+        {
+          "id": "c_30115_uni1_rsp5",
+          "name": "Observer’s Pleasure",
+          "cost": 0,
+          "description": "At the start of the turn, <cc>1</> <color_orange><u>Fracture Amplification</u></> and <cc>6</> <color_orange><u>Fracture</u></> to the enemy with the highest HP",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_02.webp",
+          "video": null,
+          "artKey": "unique_30115_02",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_OPENING",
+              "title": "Opener",
+              "desc": "At the start of battle, <color_orange><u>proc</u></> this card by using <color_orange><u>AP</u></><br>If <color_orange><u>AP</u></> is insufficient, does not <color_orange><u>proc</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni1_rsp5"
+        }
+      ],
+      "sourceId": "c_30115_uni1"
+    },
+    {
+      "id": "c_30115_uni2",
+      "name": "Hollow Verdict",
+      "cost": 1,
+      "description": "<color_orange>40%</> Damage and <color_orange>2</> <color_orange><u>Fracture</u></> to all enemies, and activate Fracture inflicted by this unit",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30115_03.webp",
+      "video": null,
+      "artKey": "unique_30115_03",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS00_0369",
+          "title": "Fracture",
+          "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30115_uni2_rsp1",
+          "name": "Hollow Verdict",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage and <color_orange>3</> <color_orange><u>Fracture</u></> to all enemies<br><color_orange>Fracture Amplification:</> Activate Fracture inflicted by allies",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_03.webp",
+          "video": null,
+          "artKey": "unique_30115_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni2_rsp1"
+        },
+        {
+          "id": "c_30115_uni2_rsp2",
+          "name": "Hollow Verdict",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage and <color_orange>3</> <color_orange><u>Fracture</u></> to all enemies, and activate <color_orange><u>Fracture</u></> inflicted by this unit<br><color_orange>Fracture Amplification:</> Activate <color_orange><u>Fracture</u></> inflicted by this unit",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_03.webp",
+          "video": null,
+          "artKey": "unique_30115_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni2_rsp2"
+        },
+        {
+          "id": "c_30115_uni2_rsp3",
+          "name": "Hollow Verdict",
+          "cost": 2,
+          "description": "<color_orange>360</>% Damage and <color_orange>2</> <color_orange><u>Fracture</u></> to all enemies<br><color_orange>Defeat:</> Activate <color_orange><u>Fracture</u></> inflicted by this unit on all enemies (<cc>1</> time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_03.webp",
+          "video": null,
+          "artKey": "unique_30115_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni2_rsp3"
+        },
+        {
+          "id": "c_30115_uni2_rsp4",
+          "name": "Hollow Verdict",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage, <color_orange>2</> <color_orange><u>Fracture</u></>, and <color_orange>4</> <color_orange><u>Agony</u></> to all enemies<br><color_orange>Fracture Amplification:</> Activate <color_orange><u>Agony</u></> inflicted by allies",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_03.webp",
+          "video": null,
+          "artKey": "unique_30115_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS00_0004",
+              "title": "Agony",
+              "desc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni2_rsp4"
+        },
+        {
+          "id": "c_30115_uni2_rsp5",
+          "name": "Hollow Verdict",
+          "cost": 1,
+          "description": "<color_orange>100</>% Damage to all enemies, and remove all <color_orange><u>Fracture</u></> inflicted by allies<br>Apply the amount of Fracture removed ×<cc>2</> to the target inflicted with <color_orange><u>Fracture Amplification</u></>",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30115_03.webp",
+          "video": null,
+          "artKey": "unique_30115_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "T_CS_30115_02",
+              "title": "Fracture Amplification",
+              "desc": "When <color_orange><u>Fracture</u></> inflicted by allies is activated, <cc><color_orange>1</></> <color_orange><u>Fracture</u></> to the target, and if there is only one enemy, <cc>2</> <color_orange><u>Fracture</u></><br>Increase Damage Amount of Fracture inflicted by Arabella by <cc>20</>%<br>When applied to a different target, remove <color_orange><u>Fracture Amplification</u></> (cannot stack)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_30115_uni2"
+    },
+    {
+      "id": "c_30115_uni3",
+      "name": "Sadistic Restraint",
+      "cost": 1,
+      "description": "<color_orange>60%</> Damage, and activate <color_orange><u>Fracture</u></> inflicted by this unit <cc>2</> times<br>Add <cc>1</> Hit for each type of harmful effect the target has (max <cc>3</> times)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_30115_04.webp",
+      "video": null,
+      "artKey": "unique_30115_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS00_0369",
+          "title": "Fracture",
+          "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+        }
+      ],
+      "variants": [
+        {
+          "id": "c_30115_uni3_rsp1",
+          "name": "Sadistic Restraint",
+          "cost": 1,
+          "description": "<color_orange>100</>% Damage<br>Add <cc>1</> Hit for each type of harmful effect the target has (max <cc>3</> times)<br><color_orange>Fracture Amplification:</> Activate <color_orange><u>Fracture</u></> inflicted by allies",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30115_04.webp",
+          "video": null,
+          "artKey": "unique_30115_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni3_rsp1"
+        },
+        {
+          "id": "c_30115_uni3_rsp2",
+          "name": "Sadistic Restraint",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage × <color_orange>4</>, and activate <color_orange><u>Fracture</u></> inflicted by this unit <cc>2</> times<br><color_orange>Fracture Amplification:</> <color_orange><u>Draw</u></> <cc>1</> card of this unit",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30115_04.webp",
+          "video": null,
+          "artKey": "unique_30115_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni3_rsp2"
+        },
+        {
+          "id": "c_30115_uni3_rsp3",
+          "name": "Sadistic Restraint",
+          "cost": 1,
+          "description": "<color_orange>240</>% Damage, and activate <color_orange><u>Fracture</u></> inflicted by this unit<br><color_orange>Defeat:</> Move this card to hand (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30115_04.webp",
+          "video": null,
+          "artKey": "unique_30115_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni3_rsp3"
+        },
+        {
+          "id": "c_30115_uni3_rsp4",
+          "name": "Sadistic Restraint",
+          "cost": 2,
+          "description": "<color_orange>40</>% Damage to random enemies<br><color_orange>2</> <color_orange><u>Fracture</u></> on each Hit<br>If Cost of this card is decreased, add <cc>1</> Hit",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30115_04.webp",
+          "video": null,
+          "artKey": "unique_30115_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LEAD",
+              "title": "Lead",
+              "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni3_rsp4"
+        },
+        {
+          "id": "c_30115_uni3_rsp5",
+          "name": "Sadistic Restraint",
+          "cost": 1,
+          "description": "<color_orange>60</>% Damage, and activate <color_orange><u>Fracture</u></> inflicted by this unit <cc>2</> times<br>Add <cc>1</> Hit for each Fracture inflicted by this unit that was activated this turn (max <cc>5</> times)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30115_04.webp",
+          "video": null,
+          "artKey": "unique_30115_04",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "T_CS00_0369",
+              "title": "Fracture",
+              "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30115_uni3_rsp5"
+        }
+      ],
+      "sourceId": "c_30115_uni3"
+    },
+    {
+      "id": "c_30115_uni4",
+      "name": "The Art of Unmaking",
+      "cost": 1,
+      "description": "<color_orange>200%</> Damage to all enemies<br>Increase Damage Amount by <cc>15</>% for each type of harmful effect the target has (max <cc>120</>%)<br><color_orange>Fracture Amplification:</> <cc>2</>x base Damage Amount",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_30115_05.webp",
+      "video": null,
+      "artKey": "unique_30115_05",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "c_30115_uni4_lbk",
+          "name": "The Art of Unmaking",
+          "cost": 1,
+          "description": "<color_orange>250%</> Damage to all enemies<br>Increase Damage Amount by <cc>20</>% for each type of harmful effect the target has (max <cc>180</>%)<br><color_orange>Fracture Amplification:</> <cc>2</>x base Damage Amount",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_30115_05.webp",
+          "video": null,
+          "artKey": "unique_30115_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30115_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_30115_uni4"
+    }
+  ],
+  "collapseSkillCard": {
+    "id": "c_30115_eps",
+    "name": "Pathetic End",
+    "cost": 5,
+    "description": "<color_orange>600%</> Damage<br>For <color_orange>2</> turn(s), inflict Fixed Damage to the target equal to <cc>30</>% of Damage Amount taken by all enemies<br>(cannot exceed <cc>1000</>% of Arabella’s Attack per turn)",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_30115_01.webp",
+    "video": null,
+    "artKey": "collapse_30115_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [],
+    "variants": [
+      {
+        "id": "c_30115_eps_lbk",
+        "name": "Pathetic End",
+        "cost": 5,
+        "description": "<color_orange>800%</> Damage<br>For <color_orange>2</> turn(s), inflict Fixed Damage to the target equal to <cc>50</>% of Damage Amount taken by all enemies<br>(cannot exceed <cc>1500</>% of Arabella’s Attack per turn)",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_30115_01.webp",
+        "video": null,
+        "artKey": "collapse_30115_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [],
+        "variants": [],
+        "sourceId": "c_30115_eps_lbk"
+      }
+    ],
+    "sourceId": "c_30115_eps"
+  },
+  "collapseCards": [
+    {
+      "id": "c_30115_col",
+      "name": "Charm",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_30115_02.webp",
+      "video": null,
+      "artKey": "collapse_30115_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30115_col"
+    },
+    {
+      "id": "c_30115_col2",
+      "name": "Charm",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_30115_02.webp",
+      "video": null,
+      "artKey": "collapse_2_30115_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30115_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "instinct",
+          "id": "30115",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30115_col",
+        "name": "Charm",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_30115_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "instinct",
+          "id": "30115",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30115_col2",
+        "name": "Charm",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_30115_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "dazzlement",
+    "collapse_illustration": "collapse/collapse_illustration/dazzlement",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "instinct",
+        "id": "30115",
+        "job": "striker",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 5,
+      "desc_display": "<color_orange>600%</> Damage<br>For <color_orange>2</> turn(s), inflict Fixed Damage to the target equal to <cc>30</>% of Damage Amount taken by all enemies<br>(cannot exceed <cc>1000</>% of Arabella’s Attack per turn)",
+      "ego_type": "EGO_OWNER",
+      "id": "c_30115_eps",
+      "name": "Pathetic End",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 5,
+          "desc_display": "<color_orange>800%</> Damage<br>For <color_orange>2</> turn(s), inflict Fixed Damage to the target equal to <cc>50</>% of Damage Amount taken by all enemies<br>(cannot exceed <cc>1500</>% of Arabella’s Attack per turn)",
+          "ego_type": "EGO_OWNER",
+          "id": "c_30115_eps_lbk",
+          "name": "Pathetic End",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_30115_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_30115_eps_lbk_01",
+            "c_30115_eps_lbk_02"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": []
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_30115_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_30115_eps_01",
+        "c_30115_eps_02"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": []
+    },
+    "collapse_text": "collapse_text/collapse_text_dazzlement",
+    "desc": "Every time this character enters battle, their stress increases by <cc>10</>.",
+    "id": "collapse_30115",
+    "link_psychosis_id": "psychosis_1004_4",
+    "name": "Charm"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>50</>% Damage Amount to <color_orange><u>The Art of Unmaking</u></> and change the increase Damage Amount by <color_orange>15</>% for each type of harmful effect the target has (max <color_orange>120</>%) effect to increase Damage Amount by <color_orange>20</>% (max <color_orange>180</>%).",
+      "group": "limit_30115",
+      "id": "limit_30115_1",
+      "illust": "unique_30115_05",
+      "link_card_id": "[c_30115_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1,1]",
+      "desc": "At the start of battle, inflict <color_orange>1 Fracture Amplification</> on the enemy with the highest Health.<br>When Arabella's abilities activates the Fractures that she inflicted, she inflicts <color_orange>3</> Fracture on all enemies (<color_orange>4</> times per turn).",
+      "group": "limit_30115",
+      "id": "limit_30115_2",
+      "illust": "unique_30115_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30115_21, cs_30115_11]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Change the following effects for <color_orange><u>Pathetic End</u></>: +<color_orange>200</>% Damage Amount, change the Fixed Damage equal to <color_orange>30</>% Damage Amount taken by all enemies to <color_orange>50</>%, and increase the per-turn limit from <color_orange>1000</>% of Arabella’s Attack to <color_orange>1500</>%.",
+      "group": "limit_30115",
+      "id": "limit_30115_3",
+      "illust": "collapse_30115_01",
+      "link_card_id": "[c_30115_eps]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "Each time Arabella inflicts or activates her Fracture through an ability, gain <color_orange>1 Deconstruction Analysis</>.<br><color_orange>Deconstruction Analysis</>: Increase Damage Amount of Arabella’s Fracture by <color_orange>5</>% (max <color_orange>6</> stacks)",
+      "group": "limit_30115",
+      "id": "limit_30115_4",
+      "illust": "unique_30115_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30115_14]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_30115",
+      "id": "limit_30115_5",
+      "illust": "unique_30115_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD_OVERWRITE",
+      "break_value": "[1,1,1,1]",
+      "desc": "When Arabella's abilities activates Fractures that she inflicted, additionally inflict <color_orange>1</> Fracture on the target inflicted with Fracture Amplification.<br>Increase the max stack limit of <color_orange>Deconstruction Analysis</> by <color_orange>4</>, and +<color_orange>50</>% Critical Damage to the Fractures that Arabella inflicts on the Fracture Amplification target.",
+      "group": "limit_30115",
+      "id": "limit_30115_6",
+      "illust": "unique_30115_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30115_21,cs_30115_17,cs_30115_16,cs_30115_15]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "301151001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "301152001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "301152002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "301152003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "301152004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "301152005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "301152006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "301152007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "301152008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "301152009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "301152010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "301152011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "301152012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "301152013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "301152014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "301152015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "301152016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "301153001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "301153002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "301153003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "301153004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "301153005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "301153006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "301153007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "301153008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "301153009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "301153010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "301153011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "301153012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "301153013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "301153014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "301153015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "301153016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Adds the following effect to the <color_orange><u>Diagonal Slash</u></> card: <color_orange>1</> Fracture",
+      "id": "301153101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "301154001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "301154002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "301154003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "301154004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "301154005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "301154006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "301154007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "301154008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "301154009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "301154010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "301154011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "301154012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "301154013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "301154014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "301154015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "301154016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "301155001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "301155002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "301155003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "301155004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "301155005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Arabella’s <color_orange><u>Diagonal Slash</u></> card<br>If Arabella's Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "301155101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "301155201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "301156001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "301156002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "301156003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "301156004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "301156005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Arabella’s Attack is <color_orange>600</> or higher, +<color_orange>5</>% Instinct Attribute Damage Amount, and for every <color_orange>20</> Attack exceeding 600, add an additional +<color_orange>2</>% to the modifier (additional +<color_orange>10</>% max)",
+      "id": "301157001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "30115",
+  "sourceFile": "docs/combatant/current/api/czn/characters/30115.html"
+}

@@ -1,15 +1,20 @@
 import { expect, test } from "@playwright/test";
+import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, relative } from "node:path";
 
-test("every flattened asset is served with its original bytes", async ({ request }) => {
-  for (const category of readdirSync("public/assets")) {
-    for (const file of readdirSync(join("public/assets", category))) {
-      const url = `/assets/${category}/${file}`;
+test("every local asset is served with its original bytes", async ({ request }) => {
+  const files = readdirSync("public/assets", { recursive: true, withFileTypes: true }).filter(entry => entry.isFile());
+  for (let offset = 0; offset < files.length; offset += 8) {
+    await Promise.all(files.slice(offset, offset + 8).map(async file => {
+      const path = join(file.parentPath, file.name);
+      const url = `/${relative("public", path).replaceAll("\\", "/")}`;
       const response = await request.get(url);
       expect(response.status(), url).toBe(200);
-      expect(await response.body(), url).toEqual(readFileSync(join("public", url)));
-    }
+      const sha256 = (bytes: Buffer) => createHash("sha256").update(bytes).digest("hex");
+      expect(sha256(await response.body()), url).toBe(sha256(readFileSync(path)));
+      await response.dispose();
+    }));
   }
 });
 

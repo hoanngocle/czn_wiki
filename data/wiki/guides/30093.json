@@ -1,0 +1,1290 @@
+{
+  "characterId": "30093",
+  "name": "Heidemarie",
+  "identity": [
+    "Passion",
+    "Ranger"
+  ],
+  "subtitle": {
+    "en": "Linked discards Effulgent Blades together, while repeated Compression discards unlock Effulgent Release.",
+    "vi": "Liên kết giúp bỏ nhiều Effulgent Blade cùng lúc; bỏ Effulgent Compression nhiều lần mở khóa Effulgent Release."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30093.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/heidemarie",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/heidemarie.json",
+      "docs/combatant/current/api/czn/characters/30093.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Heidemarie": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Marin": {
+      "src": "/assets/partner/portrait_character_crop_half_30051.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Prelude to a Hero": {
+      "src": "/assets/item/guide-a34147d55a1a.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Conquerer's Aspect": {
+      "src": "/assets/item/guide-43cdce9261f8.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Second Method": {
+      "src": "/assets/item/relic_1168.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutagenic Wave Amplifier": {
+      "src": "/assets/item/relic_0106.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Diana": {
+      "src": "/assets/combatant/portrait_character_crop_half_1061.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rei": {
+      "src": "/assets/combatant/portrait_character_crop_half_1056.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hugo": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Selena": {
+      "src": "/assets/combatant/portrait_character_crop_half_1005.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Heidemarie artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30093.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Passion": {
+      "src": "/assets/common/icon_type_ego_love.png",
+      "width": 44,
+      "height": 44
+    },
+    "Ranger": {
+      "src": "/assets/common/icon_type_job_ranger.png",
+      "width": 44,
+      "height": 44
+    },
+    "Sylvia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sylvia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30094.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Marin E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30051.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Solia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_1058.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nakia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rosaria E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20025.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_30093_uni4_mut1",
+      "name": "Effulgent Release",
+      "cost": 0,
+      "description": "<color_orange>500%</> Damage<br>Exhaust all <cc>Effulgent Blade</> in <color_orange><u>Graveyard</u></>, then +<color_orange>100</>% base Damage Amount for each<color_orange></> Exhausted<br>At the end of the turn, change this card into <cc>Effulgent Compression</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30093_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30093_06.webp",
+      "video": "/assets/card/unique_30093_06.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>",
+          "id": "CARD_TOMB",
+          "title": "Graveyard"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30093_uni4_mut1",
+      "ownerId": "30093",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30093_uni4_lbk_mut1",
+      "name": "Effulgent Release",
+      "cost": 0,
+      "description": "<color_orange>700%</> Damage<br>Exhaust all <cc>Effulgent Blade</> in <color_orange><u>Graveyard</u></>, then +<color_orange>120</>% base Damage Amount for each<color_orange></> Exhausted<br>At the end of the turn, change this card into <cc>Effulgent Compression</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30093_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30093_06.webp",
+      "video": "/assets/card/unique_30093_06.webm",
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Cards that were <color_orange><u>activate</u></>d this turn or the <color_orange><u>Discard Pile</u></>",
+          "id": "CARD_TOMB",
+          "title": "Graveyard"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30093_uni4_lbk_mut1",
+      "ownerId": "30093",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30093_cre1",
+      "name": "Effulgent Blade",
+      "cost": 1,
+      "description": "<color_orange>120%</> Damage<br>When this card is Discarded, <color_orange>120%</> <color_orange><u>Extra Attack</u></> to a random enemy<br>This card does not move to <color_orange><u>Draw Pile</u></> on Shuffle",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30093_07",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30093_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage affected by Critical Chance and Extra Damage",
+          "id": "CARD_ADDITIONAL_ATTACK",
+          "title": "Extra Attack"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30093_cre1",
+      "ownerId": "30093",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "c_30093_cre1_mut1",
+      "name": "Effulgent Blade",
+      "cost": 1,
+      "description": "<color_orange>120%</> Damage<br>When this card is Discarded, <color_orange>120%</> <color_orange><u>Extra Attack</u></> to a random enemy<br>This card does not move to <color_orange><u>Draw Pile</u></> on Shuffle",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30093_07",
+      "egoType": "EGO_ALL",
+      "artwork": "/assets/card/unique_30093_07.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand",
+          "id": "TALENT_CONNECT",
+          "title": "Linked"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Damage affected by Critical Chance and Extra Damage",
+          "id": "CARD_ADDITIONAL_ATTACK",
+          "title": "Extra Attack"
+        },
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30093_cre1_mut1",
+      "ownerId": "30093",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "guide_30093_persona",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique]<br>250% Damage. 2 Mark.<br>Ranger only",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1099.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/heidemarie#decks"
+    },
+    {
+      "id": "guide_30093_persona_2",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique]<br>Discard up to 2 cards. For each Discarded, +60% Damage Amount to Attack Cards of this unit for 1 turn.<br>No Class restrictions",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1109.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/heidemarie#decks"
+    },
+    {
+      "id": "card_enc_00017",
+      "name": "Flame of Eternity",
+      "cost": 2,
+      "description": "Increases Damage Amount of cards with Cost <cc>1</> or above by <cc>40</>%<br>Increases Cost of Attack Cards by <cc>1</>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_ETC",
+      "artKey": "job_00435",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00435.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "card_enc_00017",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [],
+      "chaos": "Swamp of Judgment",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_30093_uni4_mut1",
+    "c_30093_uni4_lbk_mut1",
+    "c_30093_cre1",
+    "c_30093_cre1_mut1"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Linked discards Effulgent Blades together, while repeated Compression discards unlock Effulgent Release.",
+      "vi": "Liên kết giúp bỏ nhiều Effulgent Blade cùng lúc; bỏ Effulgent Compression nhiều lần mở khóa Effulgent Release."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Quietus keeps AP demand low and her kit enables its own discard engine.",
+        "vi": "Tịch diệt giảm nhu cầu Điểm hành động và bộ kỹ năng tự vận hành cơ chế bỏ bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Generated cards compete for hand space; AoE and unrestricted draw are limited.",
+        "vi": "Bài được tạo chiếm chỗ trên tay; sát thương diện rộng và khả năng rút bài không điều kiện còn hạn chế."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Hero to All",
+        "body": {
+          "en": "Draw 3; Apply Linked to those cards for this turn",
+          "vi": "Rút bài 3 lá; Áp dụng Liên kết cho các lá đó trong lượt này"
+        },
+        "cardId": "c_30093_uni1"
+      },
+      {
+        "title": "Thread of Light",
+        "body": {
+          "en": "120% Damage; +120% Damage Amount for each Linked card in hand before activation",
+          "vi": "Gây 120% sát thương; +120% sát thương cho mỗi lá Liên kết trên tay trước khi kích hoạt"
+        },
+        "cardId": "c_30093_uni2"
+      },
+      {
+        "title": "Effulgent Expansion",
+        "body": {
+          "en": "Create 2 Effulgent Blade; +50% Damage Amount to Effulgent Blade for 1 turn",
+          "vi": "Tạo 2 lá Effulgent Blade; +50% sát thương cho Effulgent Blade trong 1 lượt"
+        },
+        "cardId": "c_30093_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30093_srt4",
+      "ratings": [
+        5,
+        3,
+        5,
+        4,
+        1
+      ],
+      "preferred": "I / III",
+      "note": {
+        "en": "I uses Quietus to create two Effulgent Blade cards but needs hand space. III offers five Extra Attacks after sufficient blade setup.",
+        "vi": "I dùng Tịch diệt để tạo hai lá Effulgent Blade nhưng cần chỗ trên tay. III tạo năm Đòn đánh thêm khi đã chuẩn bị đủ kiếm."
+      },
+      "divine": {
+        "en": "Neutral removes Quietus for looping; consider Weakness Attack, Common draw, or cost reduction on III/IV.",
+        "vi": "Trung lập bỏ Tịch diệt để dùng lặp; cân nhắc Tấn công điểm yếu, rút Bài chung hoặc giảm chi phí cho III/IV."
+      }
+    },
+    {
+      "cardId": "c_30093_uni1",
+      "ratings": [
+        5,
+        2,
+        3,
+        5,
+        3
+      ],
+      "preferred": "I / IV",
+      "note": {
+        "en": "I combines search with a Quietus discard engine. IV gives lasting Link and targeted retrieval but expires after its limited uses.",
+        "vi": "I kết hợp tìm bài với cơ chế bỏ bài Tịch diệt. IV gắn Liên kết lâu dài và lấy bài chọn trước nhưng hết tác dụng sau số lần dùng giới hạn."
+      },
+      "divine": {
+        "en": "Neutral 1 AP is efficient; the card works well without spending on divines.",
+        "vi": "1 Điểm hành động trung lập hiệu quả; lá này hoạt động tốt mà không cần đầu tư thần thánh."
+      }
+    },
+    {
+      "cardId": "c_30093_uni2",
+      "ratings": [
+        2,
+        3,
+        5,
+        1,
+        3
+      ],
+      "preferred": "III",
+      "note": {
+        "en": "III supplies a passive buff from hand or graveyard plus Quietus damage. II instead requires a dedicated burst setup.",
+        "vi": "III tăng sức mạnh thụ động từ tay hoặc Mộ bài và thêm sát thương Tịch diệt. II cần bộ bài chuyên dồn sát thương."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 improves cycling; specialized variants matter more than divines.",
+        "vi": "Rút 1 trung lập cải thiện luân chuyển; biến thể phù hợp quan trọng hơn thần thánh."
+      }
+    },
+    {
+      "cardId": "c_30093_uni3",
+      "ratings": [
+        3,
+        2,
+        2,
+        3,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V generates two Effulgent Blade cards each turn and keeps its buff permanently. Reserve hand space; I's buff needs repeated use.",
+        "vi": "V tạo hai Effulgent Blade mỗi lượt và duy trì hiệu ứng tăng sức mạnh lâu dài. Cần chừa chỗ trên tay; I phải dùng lại để duy trì hiệu ứng."
+      },
+      "divine": {
+        "en": "Neutral or divine Draw 1 is useful for cycling.",
+        "vi": "Rút 1 trung lập hoặc thần thánh hữu ích để luân chuyển."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Sylvia E4",
+      "score": "156.11%",
+      "note": {
+        "en": "E4 strengthens Sylvia's already well-matched bonuses for a substantial upgrade.",
+        "vi": "E4 tăng các hiệu ứng vốn rất phù hợp của Sylvia, tạo nâng cấp đáng kể."
+      }
+    },
+    {
+      "name": "Sylvia E0",
+      "score": "132.86%",
+      "note": {
+        "en": "Sylvia supplies numerous valuable bonuses and is a major improvement over the alternatives.",
+        "vi": "Sylvia cung cấp nhiều hiệu ứng giá trị và cải thiện lớn so với các lựa chọn khác."
+      }
+    },
+    {
+      "name": "Solia E4",
+      "score": "114.16%",
+      "note": {
+        "en": "Solia is usable if already invested, but Sylvia or utility-focused alternatives often offer more.",
+        "vi": "Solia dùng được nếu đã đầu tư, nhưng Sylvia hoặc lựa chọn giàu tiện ích thường cho nhiều giá trị hơn."
+      }
+    },
+    {
+      "name": "Marin E0",
+      "score": "113.99%",
+      "note": {
+        "en": "Marin combines competitive damage stats with Skill-card draw that can help both Chaos and selected Save Data decks.",
+        "vi": "Marin kết hợp chỉ số sát thương cạnh tranh với Rút bài Kỹ năng, hữu ích trong Chaos và một số bộ Dữ liệu lưu."
+      }
+    },
+    {
+      "name": "Solia E0",
+      "score": "104.90%",
+      "note": {
+        "en": "Use an already-leveled Solia as a small step above Nakia, while aiming for a stronger long-term option.",
+        "vi": "Solia đã nâng sẵn nhỉnh hơn Nakia một chút, nhưng nên hướng tới lựa chọn mạnh hơn để dùng lâu dài."
+      }
+    },
+    {
+      "name": "Rosaria E4",
+      "score": "104.69%",
+      "note": {
+        "en": "Skill-heavy decks improve her random Morale value, whereas pure damage decks usually prefer a damage partner.",
+        "vi": "Bộ nhiều Kỹ năng tận dụng Sĩ khí ngẫu nhiên tốt hơn; bộ thuần sát thương thường thích Đối tác tăng sát thương trực tiếp."
+      }
+    },
+    {
+      "name": "Nakia E4",
+      "score": "100.00%",
+      "note": {
+        "en": "Nakia is a free temporary fallback when stronger listed partners are unavailable.",
+        "vi": "Nakia là phương án miễn phí tạm thời khi chưa có các Đối tác mạnh hơn trong danh sách."
+      }
+    },
+    {
+      "name": "Rosaria E0",
+      "score": "97.74%",
+      "note": {
+        "en": "Her damage trails Nakia, but the Ego skill's upgrade or draw utility can justify the trade.",
+        "vi": "Sát thương thua Nakia, nhưng Ego tạo nâng cấp hoặc Rút bài có thể đáng để đánh đổi."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Prelude to a Hero (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Linked discard chains activate this set consistently, making it the general damage recommendation.",
+        "vi": "Chuỗi Bỏ bài Liên kết kích hoạt bộ ổn định, nên đây là gợi ý sát thương tổng quát."
+      }
+    },
+    {
+      "name": "Black Wing (2) + Executioner's Tool (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A consistent accessible alternative, though specialized four-piece sets offer more damage.",
+        "vi": "Phương án dễ kiếm và ổn định, dù bộ bốn món chuyên biệt cho sát thương cao hơn."
+      }
+    },
+    {
+      "name": "Conquerer's Aspect (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "This wins when exactly 1-cost cards produce most damage, but falls behind in other decks.",
+        "vi": "Bộ này mạnh khi các lá đúng Chi phí 1 gây phần lớn sát thương, nhưng yếu hơn ở bộ bài khác."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG = ATK%",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng = Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "ATK% > Passion DMG%",
+        "vi": "Tấn công% > Sát thương Đam mê%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "Extra DMG% > CRIT Rate% = CRIT DMG% > ATK% >= ATK",
+        "vi": "Sát thương bổ sung% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công% >= Tấn công"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Maxing out Heidemarie's Potential 7 is the main stat breakpoint to watch out for. Fortunately it's incredibly easy to do so and all you need is 700 ATK which almost all Heidemarie builds can accomplish.",
+    "vi": "Đạt 700 tấn công để tối đa hóa tiềm năng 7; ngưỡng này dễ đạt trong gần như mọi cách xây dựng."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Heidemaries 3-1 potential adds an additional effect to her Basic attack card, granting an additional +30% damage to Effulgent Blade for 1 turn. This is mostly some extra power in Chaos-based game modes and usually isn’t enough to allow the card to see play in Save Data-based modes. Cheap enough to unlock, there is no reason not to do so.5-1: Her 5-1 Potential node increases the damage dealt by her Basic Attack Card “Sword Flash” by an additional +5%, and if her attack is greater than 500, it adds an additional +5%. Again, mostly providing utility in Chaos-style content, as basics are usually removed in Save-based modes. Not a must-have potential for Heidemary and should only be unlocked for chaos power or if you want the Divine Epiphany chance behind it.7: Heidemarie’s potential 7 increases her Passion Attribute damage by +5%. Additionally, for each 20 Attack above 600, it adds an additional +2% to this value up to an additional 10% for a total of +15% Passion damage at 700 Attack. This is a great potential node to invest in and is extremely easy to reach, requiring only 700 Attack, which should be very obtainable even with sub-par Memory Fragments. A must-have unlock to get as soon as possible.",
+    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp bài cơ bản tăng Effulgent Blade 30% sát thương trong 1 lượt, còn 5-1 tăng Sword Flash 5% và thêm 5% khi tấn công >500, chủ yếu có ích trong Chaos hoặc để mở nút tăng cơ hội thức tỉnh thần thánh. Mở tiềm năng 7 sớm: tăng 5% sát thương Đam mê, thêm 2% mỗi 20 tấn công vượt 600, tối đa thêm 10%, đạt tổng 15% ở 700 tấn công ngay cả với mảnh ký ức chưa tối ưu."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Add the following effect to the Sword Flash card: +30% Damage Amount to Effulgent Blade for 1 turn.",
+        "vi": "Thêm hiệu ứng sau vào lá Sword Flash: +30% sát thương cho Effulgent Blade trong 1 lượt."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Heidemarie’s Sword Flash, and if Heidemarie’s Attack is 500 or higher, add an additional +5% to the modifier.",
+        "vi": "+5% sát thương cho Sword Flash của Heidemarie; nếu Tấn công của Heidemarie từ 500 trở lên, cộng thêm +5% vào hệ số."
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Heidemarie’s Attack is 600 or higher, +5% Passion Attribute Damage Amount, and for every 20 Attack exceeding 600, add an additional +2%; (additional +10% max)",
+        "vi": "Nếu Tấn công của Heidemarie từ 600 trở lên, +5% sát thương hệ Đam mê; mỗi 20 Tấn công vượt quá 600 cộng thêm +2%; (Tối đa thêm 10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "Second Method",
+        "Sword Reflected in the Lake"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "Second Method",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Mutagenic Wave Amplifier",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Second Method",
+        "Sword Reflected in the Lake",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Corrupted Gauntlet",
+        "Second Method",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Freedom"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.If doing Nuke, her best Season is technically Season 2 (w/ Decent God Hammer) and best refine is: When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance. This playstyle and build has been heavily nerfed for several patches, though.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. Nếu chơi dồn sát thương một lần, mùa 2 với God’s Hammer phù hợp có thể tốt nhất, cùng tinh luyện +15% chí mạng khi bài tấn công đánh địch Dễ tổn thương; tuy nhiên hướng này đã bị giảm sức mạnh qua nhiều bản cập nhật trong nguồn. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Heidemarie’s Ego 1 increases the base damage values on her Mythic Card “Effulgent Release” by an additional +200% (additive) and increases the damage for each exhausted “Effulgent Blade” to +120%. Not an incredibly substantial first Ego to be unlocked, but it slightly boosts her potential damage output.",
+        "vi": "Effulgent Release tăng 200% sát thương cơ bản theo phép cộng; mức tăng cho mỗi Effulgent Blade bị kiệt sức lên 120%. Tăng sát thương nhẹ."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Her Ego 2 moves Heidemarie’s Mythic card “Effulgent Compression” to her hand at the start of the battle, which is a nice consistency gain in the Chaos-based modes and the first turn of Save, but not the real benefit. The real power of this Ego is that at the start of each turn, Heidemarie gains 5 stacks of “Crimson Blade”. Crimson Blade activates whenever a link card is activated manually or discarded. After it is, Heidemarie will deal a 120% Damage Extra-Attack to the enemy that has the highest HP and then remove 1 stack of Crimson Blade. Heidemarie can have up to 8 Stacks of Crimson Blade at once. The Crimson Blade component of this Ego adds another 5 potential extra attacks per turn to Heidemarie, which is a sizable damage boost, especially in Chaos, where high hit counts each turn are harder to guarantee. If you’re looking to invest heavily in Heidemarie, this is the major Ego breakpoint.",
+        "vi": "Đưa Effulgent Compression lên tay đầu trận và nhận 5 Crimson Blade đầu mỗi lượt, tối đa giữ 8. Khi bài liên kết được dùng thủ công hoặc bị bỏ, tiêu hao 1 cộng dồn để đánh thêm 120% vào địch nhiều máu nhất: tối đa 5 đòn thêm mỗi lượt từ lượng nhận mới, là mốc đầu tư lớn nhất."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Her third Ego increases the base damage on her Ego skill by an additional +200%, the scaling damage per card discarded to +100% and finally, allowing her to scale the damage even further by increasing the damage threshold cap to 30 cards discarded in a battle instead of 20. All up because Heidemarie's Ego Skill only makes up a small portion of her damage, this Ego doesn’t end up being that large of a boost.",
+        "vi": "Kỹ năng Ego tăng 200% sát thương cơ bản, hệ số mỗi bài bị bỏ lên 100% và giới hạn tính từ 20 lên 30 lá mỗi trận. Tác động tổng thể không lớn vì Ego chỉ chiếm phần nhỏ sát thương."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Her fourth Ego grants Heidemarie a stack of “Effulgent Chain” whenever one of Heidemarie’s Linked cards is activated manually or discarded. Effulgent Chain can stack up to 10 times permanently and grant her an additional +5% (additive) damage per stack. A very solid buff equivalent to roughly 2.5 morale stacks, which is incredibly easy to get up and running - especially considering these stacks are permanent.",
+        "vi": "Dùng thủ công hoặc bỏ bài liên kết nhận Effulgent Chain, tối đa 10 cộng dồn vĩnh viễn; mỗi cộng dồn tăng 5% sát thương theo phép cộng. Dễ tích và rất hiệu quả."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "This Ego node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] potentials by 3. Very standard, further amplifies her damage output.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp bài cơ bản, đặc trưng và chung; tăng thêm sát thương."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Her final Ego node grants her “Effulgent Blade” elemental advantage to every enemy, which effectively functions as a 1.25x damage multiplier for the card if Heidemarie didn’t already have advantage (Passion weak enemy). In addition, every time “Crimson Blade” is activated, it increases the damage dealt by Crimson Blade by an additional +40%, up to a maximum of +480% after 12 activations. Our calculations don’t include the boost from enemy weakness, as that part of this Ego is conditional, but does include the damage boost from Crimson Blade; therefore, you can treat the calculation number as the minimum potential gain you can expect. That means this is a very potent Ego to pick up for most Heidemarie decks.",
+        "vi": "Effulgent Blade luôn có lợi thế thuộc tính, tương đương nhân 1,25 sát thương nếu trước đó không khắc chế. Mỗi lần Crimson Blade kích hoạt tăng sát thương của chính nó thêm 40%, tối đa 480% sau 12 lần; số tính trong nguồn chưa gồm lợi thế thuộc tính có điều kiện nên là mức tăng tối thiểu."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Selena's Uber Driver",
+        "vi": "Heidemarie kích hoạt Selena"
+      },
+      "role": {
+        "en": "Passion attack driver",
+        "vi": "Kích hoạt đòn đánh thêm hệ Đam mê"
+      },
+      "partner": "Sylvia",
+      "cards": [
+        {
+          "cardId": "c_30093_srt4_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_srt4_rsp3",
+          "count": 3,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_30093_uni1_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_30093_persona",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use Heidemarie's attack cards to trigger Selena's three extra attacks per card. Selena also buffs Mark, and Sword Rain III triggers Mark on all five hits even when the enemy has only one Mark. This interaction is the main reason to pair them.",
+        "vi": "Dùng các lá tấn công của Heidemarie để kích hoạt ba đòn đánh thêm từ Selena cho mỗi lá. Selena còn tăng sát thương Dấu ấn; Sword Rain III kích hoạt Dấu ấn trên cả năm nhịp đánh dù mục tiêu chỉ có một Dấu ấn. Tương tác này là lợi thế chính của cặp đôi."
+      }
+    },
+    {
+      "name": {
+        "en": "Commence the Heide",
+        "vi": "Heidemarie kích hoạt Hugo"
+      },
+      "role": {
+        "en": "Five-hit Hugo driver",
+        "vi": "Kích hoạt Hugo qua chuỗi năm nhịp đánh"
+      },
+      "partner": "Sylvia",
+      "cards": [
+        {
+          "cardId": "c_30093_srt4_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_srt4_rsp3",
+          "count": 3,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_30093_uni1_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_30093_persona_2",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Build at least five blades in discard with Effulgent Expansion IV so Sword Rain III triggers five full-strength Commence the Hunt attacks. Hero to All IV helps find Cassius's Pop Eyed Popper early, and both allies alternate skills and attacks to feed Hugo. Skill neutrals or Personas maintain Commence the Hunt stacks; discard-two Persona offers a higher ceiling but complicates non-Quietus discard management. Selena can fill a similar role.",
+        "vi": "Dùng Effulgent Expansion IV để có ít nhất năm kiếm trong chồng bài bỏ, giúp Sword Rain III kích hoạt năm đòn Bắt đầu cuộc săn đủ sát thương. Hero to All IV hỗ trợ tìm sớm Pop Eyed Popper của Cassius; cả hai đồng đội dùng kỹ năng xen kẽ tấn công để kích hoạt Hugo. Lá trung lập kỹ năng hoặc Persona giúp duy trì cộng dồn Bắt đầu cuộc săn. Persona bỏ hai lá có trần cao nhưng khó quản lý khi phải bỏ lá không có Tịch diệt. Có thể vận hành tương tự với Selena."
+      }
+    },
+    {
+      "name": {
+        "en": "Oppen-Heider (Nuke Build)",
+        "vi": "Heidemarie: Dồn một đòn lớn"
+      },
+      "role": {
+        "en": "Base-ratio scaling burst carry",
+        "vi": "Chủ lực tích hệ số gốc để dồn sát thương"
+      },
+      "partner": "Sylvia",
+      "cards": [
+        {
+          "cardId": "c_30093_uni1_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 2
+        },
+        {
+          "cardId": "c_30093_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_enc_00017",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Conquerer's Aspect"
+      ],
+      "fragmentPieces": [
+        0
+      ],
+      "note": {
+        "en": "Scale Effulgent Light with Effulgent Expansion IV, then amplify the eventual hit with Orlea and Tiphera's multiplicative buffs. Because growth affects the base ratio, the ceiling is very high. Remove Sword Rain and Thread of Light Epiphanies so they do not interfere with the targeted buff setup.",
+        "vi": "Dùng Effulgent Expansion IV để tăng hệ số gốc của Ánh sáng rực rỡ, rồi khuếch đại đòn kết liễu bằng các hiệu ứng tăng sát thương theo phép nhân của Orlea và Tiphera. Tăng hệ số gốc cho phép đạt trần sát thương rất cao. Ưu tiên loại Sword Rain và Thread of Light có Thức tỉnh bài vì chúng làm lệch thiết lập hiệu ứng tăng sức mạnh tập trung vào một lá."
+      }
+    },
+    {
+      "name": {
+        "en": "Sword Shuffle, Slide!",
+        "vi": "Xào kiếm rồi bỏ bài hàng loạt"
+      },
+      "role": {
+        "en": "Mass sword-discard burst",
+        "vi": "Bùng nổ bằng bỏ hàng loạt kiếm"
+      },
+      "partner": "Sylvia",
+      "cards": [
+        {
+          "cardId": "c_30093_srt4",
+          "count": 1,
+          "effects": {
+            "en": "Draw 1",
+            "vi": "Rút 1 lá"
+          }
+        },
+        {
+          "cardId": "c_30093_uni1_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 3,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30093_uni3_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_30093_persona_2",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Prelude to a Hero"
+      ],
+      "fragmentPieces": [
+        0
+      ],
+      "note": {
+        "en": "Requires Cassius's Heidemarie Shuffler and Nia's discard setup. Create swords until the burst turn, Shuffle them from discard into the draw pile, then use Nia's Ego to discard them together for extra attacks. Additional Shuffle III copies help repeat the sequence after mindbreak against stress-heavy bosses.",
+        "vi": "Cần Cassius theo bản xào kiếm cho Heidemarie và Nia theo hướng bỏ bài. Tạo kiếm đến lượt dồn sát thương, dùng Shuffle chuyển kiếm từ chồng bài bỏ vào chồng bài rút, rồi dùng kỹ năng Ego của Nia để bỏ tất cả và kích hoạt đánh thêm đồng loạt. Thêm Shuffle III có thể giúp lặp lại chuỗi sau Suy sụp tinh thần khi gặp trùm gây Căng thẳng nhiều."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Soul Rip III turns discards into Extra Attacks, while Nia starts Linked chains and supplies cycling and healing.",
+        "vi": "Soul Riff III biến Bỏ bài thành Đòn đánh thêm; Nia mở chuỗi Liên kết, luân chuyển bài và hồi máu."
+      }
+    },
+    {
+      "name": "Diana",
+      "note": {
+        "en": "Link and Quietus create powerful discard chains, but both generate enough cards that hand space needs careful management.",
+        "vi": "Liên kết và Tịch diệt tạo chuỗi Bỏ bài mạnh, nhưng cả hai tạo nhiều bài nên cần quản lý chỗ trống trên tay."
+      }
+    },
+    {
+      "name": "Cassius",
+      "note": {
+        "en": "Large additive buffs suit many hits, with draw and discard support helping execute the combo.",
+        "vi": "Tăng sát thương cộng thêm lớn hợp nhiều lần đánh, còn Rút và Bỏ bài giúp triển khai chuỗi kết hợp."
+      }
+    },
+    {
+      "name": "Rei",
+      "note": {
+        "en": "One-cost and additive damage buffs fit Blade-focused builds with frequent hits.",
+        "vi": "Tăng sức mạnh lá Chi phí 1 và sát thương cộng thêm hợp hướng dùng Kiếm gây nhiều lần đánh."
+      }
+    },
+    {
+      "name": "Hugo",
+      "note": {
+        "en": "Sword Rain III drives Commence the Hunt efficiently while intervening skills rebuild its stacks.",
+        "vi": "Sword Rain III kích hoạt Bắt đầu cuộc săn hiệu quả, còn các Kỹ năng xen giữa tích lại cộng dồn."
+      }
+    },
+    {
+      "name": "Selena",
+      "note": {
+        "en": "Sword Rain III triggers repeated coordinated hits, and Passion Weakness expands Heidemarie's favorable matchups.",
+        "vi": "Sword Rain III kích hoạt nhiều đòn phối hợp, còn Điểm yếu Đam mê giúp Heidemarie có lợi thế trước nhiều đối thủ hơn."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Selena Driver (Heidemarie)",
+        "vi": "Hỗ trợ Selena — Heidemarie"
+      },
+      "members": [
+        "Heidemarie",
+        "Selena",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Commence the Heide (HDMI Hugo Driver)",
+        "vi": "Heidemarie hỗ trợ Hugo"
+      },
+      "members": [
+        "Heidemarie",
+        "Hugo",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

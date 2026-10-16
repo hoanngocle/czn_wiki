@@ -1,0 +1,1630 @@
+[
+  [
+    "Gain {0} {1} ",
+    "Gain <color_orange>1</> <color_orange><u>AP</u></> "
+  ],
+  [
+    "Increase {0} Amount of the next card {1}d by {2}%",
+    "Increase <color_orange><u>Heal</u></> Amount of the next card <color_orange><u>activate</u></>d by <color_orange>50</>%"
+  ],
+  [
+    "Decrease Stress of allies by {0}",
+    "Decrease Stress of allies by <color_orange>2</>"
+  ],
+  [
+    "Increase {0} Amount by {1}% for each {2}",
+    "Increase <color_orange><u>Heal</u></> Amount by <color_orange>30</>% for each <color_orange><u>AP</u></>"
+  ],
+  [
+    "Gain {0} equal to {1} Amount overflow",
+    "Gain <color_orange><u>Shield</u></> equal to <color_orange><u>Heal</u></> Amount overflow"
+  ],
+  [
+    "Increase {0} Amount of the next card {1}d by {2}% for each {3}",
+    "Increase <color_orange><u>Heal</u></> Amount of the next card <color_orange><u>activate</u></>d by <color_orange>20</>% for each <color_orange><u>AP</u></>"
+  ],
+  [
+    "Inflict Damage equal to {0} Amount to a random enemy",
+    "Inflict Damage equal to <color_orange><u>Heal</u></> Amount to a random enemy"
+  ],
+  [
+    "{0} Amount +{1}% for each {2} used this turn",
+    "<color_orange><u>Heal</u></> Amount +<color_orange>50</>% for each <color_orange><u>AP</u></> used this turn"
+  ],
+  [
+    "+{0}% {1} Amount for {2} turn",
+    "+<color_orange>50</>% <color_orange><u>Heal</u></> Amount for <cc>1</> turn"
+  ],
+  [
+    "+{0}% {1} Amount for {2} turns",
+    "+<color_orange>50</>% <color_orange><u>Heal</u></> Amount for <cc>2</> turns"
+  ],
+  [
+    "+{0}% {1} Amount of this unit for {2} turn",
+    "+<color_orange>100</>% <color_orange><u>Heal</u></> Amount of this unit for <cc>1</> turn"
+  ],
+  [
+    "For {0} turn, when a card of this unit is {1}d, {2} {3}",
+    "For <cc>1</> turn, when a card of this unit is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Wave</u></>"
+  ],
+  [
+    "+{0}% {1} Amount",
+    "+<color_orange>50</>% <color_orange><u>Heal</u></> Amount"
+  ],
+  [
+    "{0} {1}% for each target hit",
+    "<color_orange><u>Heal</u></> <color_orange>100</>% for each target hit"
+  ],
+  [
+    "{0} {1} for each target hit",
+    "<color_orange>1</> <color_orange><u>Wave</u></> for each target hit"
+  ],
+  [
+    "Increase {0} Amount of the next card {1}d by {2}% for each target hit",
+    "Increase <color_orange><u>Heal</u></> Amount of the next card <color_orange><u>activate</u></>d by <color_orange>20</>% for each target hit"
+  ],
+  [
+    "On {0}, decrease Cost by {1} until {2}d",
+    "On <color_orange><u>Recover</u></>, decrease Cost by <cc>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0}({1}) Damage to all enemies",
+    "<color_orange>100%</>(<color_orange>200</>) Damage to all enemies"
+  ],
+  [
+    "Increase Damage Amount equal to Heal Amount of this card",
+    "Increase Damage Amount equal to Heal Amount of this card"
+  ],
+  [
+    "Create {0} {1} Card(s), grant {2} to it",
+    "Create <color_orange>2</> <cc><u>Source of Water</u></> Card(s), grant <color_orange><u>Exhaust</u></> to it"
+  ],
+  [
+    "Create {0} {1} Card(s), grant {2} and {3} to it",
+    "Create <color_orange>2</> <cc><u>Source of Water</u></> Card(s), grant <color_orange><u>Exhaust</u></> and <color_orange><u>Retain</u></> to it"
+  ],
+  [
+    "Wave",
+    "Wave"
+  ],
+  [
+    "If {0} is {1}, gain {2} {3} and reduce {4} by {5}",
+    "If <color_orange><u>Wave</u></> is <cc>3</>, gain <cc>1</> <color_orange><u>Action Points</u></> and reduce <color_orange><u>Wave</u></> by <cc>3</>"
+  ],
+  [
+    "When {0} gains Stress during battle, $Fixed Heal$ equal to {1}%.",
+    "When Mika gains Stress during battle, $Fixed Heal$ equal to <color_orange>200</>%."
+  ],
+  [
+    "This effect activates {0}.",
+    "This effect activates <color_orange>1 time per turn</>."
+  ],
+  [
+    "Add {0} to {1} created by the {2} card.",
+    "Add <color_orange>Retain</> to <color_orange><u>Source of Water</u></> created by the <color_orange><u>Surge</u></> card."
+  ],
+  [
+    "At the start of the battle, gain{0} {1}.",
+    "At the start of the battle, gain<color_orange> 2</> <color_orange>Wave</>."
+  ],
+  [
+    "+{0}% Heal Amount to {1} cards.",
+    "+<color_orange>30</>% Heal Amount to <color_orange><u>Water Barrier</u></> cards."
+  ],
+  [
+    "If {0}’s Ego Recovery is {1} or higher, +{2}% Recover Amount to {3}",
+    "If Mika’s Ego Recovery is <color_orange>40</> or higher, +<color_orange>10</>% Recover Amount to <color_orange><u>Source of Water</u></>"
+  ],
+  [
+    "For every {0} Ego Recovery exceeding {1}, add an additional +{2}% to the modifier",
+    "For every <color_orange>5</> Ego Recovery exceeding 40, add an additional +<color_orange>2</>% to the modifier"
+  ],
+  [
+    "{0} Add {1} Hit(s) for {2} turn",
+    "<color_orange>Retain:</> Add <color_orange>2</> Hit(s) for <cc>1</> turn"
+  ],
+  [
+    "{0} Change Cost to {1}",
+    "<color_orange>Retain:</> Change Cost to <cc>0</>"
+  ],
+  [
+    "When a card of this unit is {0}ed, {1}% {2} to random enemies",
+    "When a card of this unit is <color_orange><u>Retain</u></>ed, <cc>150</>% <color_orange><u>Extra Attack</u></> to random enemies"
+  ],
+  [
+    "{0} Decrease Cost by {1} until {2}d",
+    "<color_orange>Retain:</> Decrease Cost by <cc>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0} +{1}% Damage Amount (max {2} time)",
+    "<color_orange>Retain:</> +<color_orange>240</>% Damage Amount (max <cc>1</> time)"
+  ],
+  [
+    "Decrease Cost of {0} random card of this unit in hand by {1}",
+    "Decrease Cost of <cc>1</> random card of this unit in hand by <cc>1</>"
+  ],
+  [
+    "Activate all {0} effects of cards of this unit in hand",
+    "Activate all <color_orange><u>Retain</u></> effects of cards of this unit in hand"
+  ],
+  [
+    "+{0}% Damage Amount to the next Attack Card of this unit {1}d",
+    "+<color_orange>160</>% Damage Amount to the next Attack Card of this unit <color_orange><u>activate</u></>d"
+  ],
+  [
+    "+{0}% Damage Amount to Attack {1} of this unit for {2} turn",
+    "+<color_orange>80</>% Damage Amount to Attack Cards of this unit for <cc>1</> turn"
+  ],
+  [
+    "Increases Damage Amount of Attacks {0} of this unit by {1}%",
+    "Increases Damage Amount of Attacks Cards of this unit by <color_orange>40</>%"
+  ],
+  [
+    "Create {0} {1} or {2}, then apply {3} to that card and decrease Cost by {4} until {5}d",
+    "Create <cc>1</> <cc><u>Opening Found</u></> or <cc><u>Charged Shot</u></>, then apply <color_orange><u>Exhaust</u></> to that card and decrease Cost by <cc>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Reduces the cost of {0} cards by {1}.",
+    "Reduces the cost of <color_orange><u>Heavy Weapons Specialist</u></> cards by <color_orange>1</>."
+  ],
+  [
+    "The damage of the {0} card is increased by +{1}%.",
+    "The damage of the <color_orange><u>Max Output Charged Shot</u></> card is increased by +<color_orange>50</>%."
+  ],
+  [
+    "Each time {0}’s cards are {1}, she gains {2} {3}.",
+    "Each time Beryl’s cards are <color_orange>Retained</>, she gains <color_orange>1</> <color_orange>Condense</>."
+  ],
+  [
+    "{0}: When {1}'s Attack {2} are $activate$d, {3}% Extra Attack × {4} count, and when $activate$d, remove {5} (max {6} stacks).",
+    "<color_orange>Condense</>: When Beryl's Attack Cards are $activate$d, <color_orange>50</>% Extra Attack × <color_orange>Condense</> count, and when $activate$d, remove <color_orange>Condense</> (max <color_orange>3</> stacks)."
+  ],
+  [
+    "+{0}% damage of {1} and {2} {3}.",
+    "+<color_orange>20</>% damage of <color_orange><u>Launcher</u></> and <color_orange><u>Charge Launcher</u></> Cards."
+  ],
+  [
+    "If {0}’s Critical Damage is {1}% or higher, add an additional {2}% to the modifier.",
+    "If Beryl’s Critical Damage is <color_orange>160</>% or higher, add an additional <color_orange>5</>% to the modifier."
+  ],
+  [
+    "If {0}’s Critical Damage is {1}% or higher, +{2}% Damage Amount to {3}",
+    "If Beryl’s Critical Damage is <color_orange>230</>% or higher, +<color_orange>10</>% Damage Amount to <color_orange><u>Charged Shot</u></>"
+  ],
+  [
+    "{0}% Chance for {1} {2}",
+    "<cc>50</>% Chance for <color_orange>1</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "When an Upgrade or Skill Card of a different Combatant is {0}d, {1} {2}",
+    "When an Upgrade or Skill Card of a different Combatant is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "{0} chance of an additional {1} {2}",
+    "<color_orange>50%</> chance of an additional <color_orange>1</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "If {0} is activated, {1}% {2} to the target",
+    "If <color_orange><u>Commence the Hunt</u></> is activated, <color_orange>50</>% <color_orange><u>Coordinated Attack</u></> to the target"
+  ],
+  [
+    "{0} for each Skill Card in hand",
+    "<color_orange><u>Commence the Hunt</u></> for each Skill Card in hand"
+  ],
+  [
+    "When an Upgrade or Skill Card is {0}d, {1} {2}",
+    "When an Upgrade or Skill Card is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "{0}% × {1} Damage to random enemies",
+    "<color_orange>90</>% × <color_orange>3</> Damage to random enemies"
+  ],
+  [
+    "{0} for each target hit",
+    "<color_orange><u>Draw</u></> for each target hit"
+  ],
+  [
+    "{0} × {1} Damage",
+    "<color_orange>90%</> × <color_orange>3</> Damage"
+  ],
+  [
+    "When Damage is dealt, {0}% chance of a random ally performing a {1} on the target",
+    "When Damage is dealt, <cc>100</>% chance of a random ally performing a <color_orange><u>Coordinated Attack</u></> on the target"
+  ],
+  [
+    "{0}% Damage × {1} to random enemies",
+    "<color_orange>90</>% Damage × <color_orange>3</> to random enemies"
+  ],
+  [
+    "If in a {0} state, increase Damage Amount by {1}%",
+    "If in a <color_orange><u>Commence the Hunt</u></> state, increase Damage Amount by <color_orange>100</>%"
+  ],
+  [
+    "At the start of the turn, {0}% Damage × {1} to random enemies",
+    "At the start of the turn, <color_orange>60</>% Damage × <color_orange>2</> to random enemies"
+  ],
+  [
+    "{0} equal to the number of targets hit",
+    "<color_orange><u>Commence the Hunt</u></> equal to the number of targets hit"
+  ],
+  [
+    "If in a {0} state, {1} {2} Attack Card(s)",
+    "If in a <color_orange><u>Commence the Hunt</u></> state, <color_orange><u>Draw</u></> <color_orange>1</> Attack Card(s)"
+  ],
+  [
+    "If in a {0} state,",
+    "If in a <color_orange><u>Commence the Hunt</u></> state,"
+  ],
+  [
+    "add {0} Hit(s)",
+    "add <color_orange>1</> Hit(s)"
+  ],
+  [
+    "If in a {0} state, {1} {2}",
+    "If in a <color_orange><u>Commence the Hunt</u></> state, <color_orange><u>Draw</u></> <color_orange>2</>"
+  ],
+  [
+    "increase {0} of all enemies by {1}",
+    "increase <color_orange><u>Action Count</u></> of all enemies by <color_orange>2</>"
+  ],
+  [
+    "Add {0} Hit(s) for each{1} {2}",
+    "Add <color_orange>1</> Hit(s) for each<color_orange>0</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "If under {0}",
+    "If under <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "Upon gaining {0}, {1} {2} Attack card(s) ({3} per turn)",
+    "Upon gaining <color_orange><u>Commence the Hunt</u></>, <color_orange><u>Draw</u></> <color_orange>1</> Attack card(s) (<cc>1</> per turn)"
+  ],
+  [
+    "{0} Add {1} {2}",
+    "<color_orange>Streak:</> Add <color_orange>2</> <color_orange><u>Commence the Hunt</u></>"
+  ],
+  [
+    "{0} {1} attack card(s)",
+    "<color_orange><u>Draw</u></> <color_orange>2</> attack card(s)"
+  ],
+  [
+    "Increase Damage Amount of {0}'s {1}s by {2}%",
+    "Increase Damage Amount of <color_orange><u>Commence the Hunt</u></>'s <color_orange><u>Extra Attack</u></>s by <color_orange>50</>%"
+  ],
+  [
+    "Increase Damage of {0} by {1}%",
+    "Increase Damage of <color_orange><u>Commence the Hunt</u></> by <color_orange>30</>%"
+  ],
+  [
+    "Increase max stack of {0} by {1}",
+    "Increase max stack of <color_orange><u>Commence the Hunt</u></> by <cc>1</>"
+  ],
+  [
+    "Commence the Hunt",
+    "Commence the Hunt"
+  ],
+  [
+    "When a Targeting Attack Card is {0}d, {1} {2} on the target, then decrease {3} by {4}",
+    "When a Targeting Attack Card is <color_orange><u>activate</u></>d, <color_orange>50%</> <color_orange><u>Extra Attack</u></> on the target, then decrease <color_orange><u>Commence the Hunt</u></> by <cc>1</>"
+  ],
+  [
+    "+{0}% base Damage Amount to {1}s for each {2} (max {3} stacks)",
+    "+<color_orange>30</>% base Damage Amount to <color_orange><u>Extra Attack</u></>s for each <color_orange><u>Commence the Hunt</u></> (max <color_orange>5</> stacks)"
+  ],
+  [
+    "+{0}% to the Damage Amount Increase effect of {1} for the {2} Card.",
+    "+<color_orange>10</>% to the Damage Amount Increase effect of <color_orange>Commence the Hunt</> for the <color_orange><u>Fixer's Approach</u></> Card."
+  ],
+  [
+    "Every {0} times {1} is $activate$d, inflict {2}% Extra Attack × {3} on random enemies, and if the same target is attacked, gain {4} {5}. This effect $activate$s {6}.",
+    "Every <color_orange>2</> times <color_orange>Commence the Hunt</> is $activate$d, inflict <color_orange>40</>% Extra Attack × <color_orange>2</> on random enemies, and if the same target is attacked, gain <color_orange>1</> <color_orange>Commence the Hunt</>. This effect $activate$s <color_orange>once per turn</>."
+  ],
+  [
+    "When {0} is used, increase max stack of {1} by {2}.",
+    "When <color_orange><u>Last Resort</u></> is used, increase max stack of <color_orange>Commence the Hunt</> by <color_orange>1</>."
+  ],
+  [
+    "Each time {0} is activated, gain {1}.",
+    "Each time <color_orange>Commence the Hunt</> is activated, gain <color_orange>1 Fixer's Wrath</>."
+  ],
+  [
+    "{0}: +{1}% Damage Amount to {2} (max {3} stacks)",
+    "<color_orange>Fixer's Wrath</>: +<color_orange>10</>% Damage Amount to Hugo (max <color_orange>4</> stacks)"
+  ],
+  [
+    "At the start of the turn, apply {0} {1} to a random enemy.",
+    "At the start of the turn, apply <color_orange>1</> <color_orange>Hunting Mark</> to a random enemy."
+  ],
+  [
+    "{0}: On Hit through the effect of {1}, {2} {3} for {4} turn (cannot stack)",
+    "<color_orange>Hunting Mark</>: On Hit through the effect of <color_orange>Commence the Hunt</>, <color_orange>2</> <color_orange>Morale</> for <color_orange>1</> turn (cannot stack)"
+  ],
+  [
+    "On effect activation or if {0} is applied to a different target, remove effect",
+    "On effect activation or if <color_orange>Hunting Mark</> is applied to a different target, remove effect"
+  ],
+  [
+    "Add the following effect to the {0} card: {1}% chance for {2} Commence the Hunt",
+    "Add the following effect to the <color_orange><u>Knife Toss</u></> card: <color_orange>50</>% chance for <color_orange>1</> Commence the Hunt"
+  ],
+  [
+    "If {0}'s Attack is {1} or higher, add an additional +{2}% to the modifier",
+    "If Yuki's Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier"
+  ],
+  [
+    "If {0}’s Attack is {1} or higher, +{2}% Extra Damage Amount",
+    "If Hugo’s Attack is <color_orange>700</> or higher, +<color_orange>4</>% Extra Damage Amount"
+  ],
+  [
+    "{0}% chance to {1} {2}",
+    "<cc>30</>% chance to <color_orange><u>Draw</u></> <color_orange>1</>"
+  ],
+  [
+    "Start a random {0} out of {1} {2}s",
+    "Start a random <cc>1</> out of <cc>4</> <color_orange><u>Quest</u></>s"
+  ],
+  [
+    " Create a {0}, remove {1}, and apply {2}",
+    " Create a <color_orange><u>Quest card</u></>, remove <color_orange><u>Ephemeral</u></>, and apply <color_orange><u>Retain</u></>"
+  ],
+  [
+    "When the {0} is completed, create a stronger {1}",
+    "When the <color_orange><u>Quest</u></> is completed, create a stronger <color_orange><u>Quest card</u></>"
+  ],
+  [
+    "Choose {0} out of {1} {2}s to start",
+    "Choose <cc>1</> out of <cc>4</> <color_orange><u>Quest</u></>s to start"
+  ],
+  [
+    "When the {0} is completed, replace it with another random Quest",
+    "When the <color_orange><u>Quest</u></> is completed, replace it with another random Quest"
+  ],
+  [
+    "Create {0} {1}(s)",
+    "Create <color_orange>2</> <color_orange><u>Quest card</u></>(s)"
+  ],
+  [
+    "{0} Damage to all enemies equal to that card’s Cost",
+    "<color_orange>80%</> Damage to all enemies equal to that card’s Cost"
+  ],
+  [
+    "{0} all cards in hand",
+    "<color_orange><u>Discard</u></> all cards in hand"
+  ],
+  [
+    "{0} for each Discarded",
+    "<color_orange><u>Draw</u></> for each Discarded"
+  ],
+  [
+    "{0} any number of cards in hand",
+    "<color_orange><u>Discard</u></> any number of cards in hand"
+  ],
+  [
+    "Move all cards in hand and {0} to {1}",
+    "Move all cards in hand and <color_orange><u>Discard Pile</u></> to <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "Select up to {0} cards in {1} and move to top of {2}",
+    "Select up to <cc>5</> cards in <color_orange><u>Discard Pile</u></> and move to top of <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "If the total Cost of those cards is {0} or less, {1} all",
+    "If the total Cost of those cards is <cc>4</> or less, <color_orange><u>Discard</u></> all"
+  ],
+  [
+    "Decrease {0} by {1} for {2} turn",
+    "Decrease <color_orange><u>Fortitude</u></> by <cc>4</> for <cc>1</> turn"
+  ],
+  [
+    "Decrease Cost by the number of completed {0}s",
+    "Decrease Cost by the number of completed <color_orange><u>Quest</u></>s"
+  ],
+  [
+    "+{0}% base Damage Amount for each {1} completed",
+    "+<cc>80</>% base Damage Amount for each <color_orange><u>Quest</u></> completed"
+  ],
+  [
+    "(max {0} times)",
+    "(max <cc>4</> times)"
+  ],
+  [
+    "When a {0} is {1}d, {2} {3}%, then {4}% {5} to a random enemy",
+    "When a <color_orange><u>Quest card</u></> is <color_orange><u>activate</u></>d, <color_orange><u>Heal</u></> <color_orange>100</>%, then <color_orange>100</>% <color_orange><u>Fixed Damage</u></> to a random enemy"
+  ],
+  [
+    "At the start of the turn, create {0} empowered {1} card(s)",
+    "At the start of the turn, create <color_orange>1</> empowered <color_orange><u>Quest</u></> card(s)"
+  ],
+  [
+    "Select and {0} {1} card(s) from {2}",
+    "Select and <color_orange><u>Draw</u></> <color_orange>1</> card(s) from <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "Select {0} card(s) from {1} or {2}, then move those cards to hand",
+    "Select <color_orange>1</> card(s) from <color_orange><u>Draw Pile</u></> or <color_orange><u>Discard Pile</u></>, then move those cards to hand"
+  ],
+  [
+    "+{0}% base Damage Amount for each{1} Attack Card {2}d this turn",
+    "+<color_orange>50</>% base Damage Amount for each<color_orange></> Attack Card <color_orange><u>activate</u></>d this turn"
+  ],
+  [
+    "{0} {1}, {2}, and {3} for {4} turn",
+    "<color_orange>3</> <color_orange><u>Morale</u></>, <color_orange><u>Resolve</u></>, and <color_orange><u>Fortitude</u></> for <cc>1</> turn"
+  ],
+  [
+    "Decrease Stress of a random ally by {0}",
+    "Decrease Stress of a random ally by <color_orange>3</>"
+  ],
+  [
+    "Decrease {0} of all enemies by {1} for {2} turn",
+    "Decrease <color_orange><u>Morale</u></> of all enemies by <color_orange>5</> for <cc>1</> turn"
+  ],
+  [
+    "When {0} {1}-Cost cards are {2}d, create {3}",
+    "When <cc>3</> <cc>1</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Triple 1</u></>"
+  ],
+  [
+    "When {0} of each {1}-Cost, {2}-Cost, and {3}-Cost cards are {4}d, create {5}",
+    "When 1 of each <cc>0</>-Cost, <cc>1</>-Cost, and <cc>2</>-Cost cards are <color_orange><u>activate</u></>d, create <cc><u>Straight</u></>"
+  ],
+  [
+    "When a card of each Combatant has been {0}d, create {1}",
+    "When a card of each Combatant has been <color_orange><u>activate</u></>d, create <cc><u>Full House</u></>"
+  ],
+  [
+    "When {0} card of each Combatant has been {1}d, create {2}",
+    "When <cc>1</> card of each Combatant has been <color_orange><u>activate</u></>d, create <cc><u>Full House</u></>"
+  ],
+  [
+    "When {0} {1}-Cost cards are {2}d, create an empowered {3}",
+    "When <cc>3</> <cc>1</>-Cost cards are <color_orange><u>activate</u></>d, create an empowered <cc><u>Triple 1</u></>"
+  ],
+  [
+    "When {0} of each {1}-Cost, {2}-Cost, and {3}-Cost cards are {4}d, create an empowered {5}",
+    "When 1 of each <cc>0</>-Cost, <cc>1</>-Cost, and <cc>2</>-Cost cards are <color_orange><u>activate</u></>d, create an empowered <cc><u>Straight</u></>"
+  ],
+  [
+    "When a card of each Combatant has been {0}d, create an empowered {1}",
+    "When a card of each Combatant has been <color_orange><u>activate</u></>d, create an empowered <cc><u>Full House</u></>"
+  ],
+  [
+    "Mission",
+    "Mission"
+  ],
+  [
+    "During battle, when conditions are met, create a Quest card as a reward and Fixed Heal {0}% ({1} times per turn)",
+    "During battle, when conditions are met, create a Quest card as a reward and Fixed Heal <cc>80</>% (<cc>3</> times per turn)"
+  ],
+  [
+    "However, {0} is excluded from the criteria",
+    "However, <color_orange><u>Quest card</u></> is excluded from the criteria"
+  ],
+  [
+    "Quest Card",
+    "Quest Card"
+  ],
+  [
+    "Obtainable upon completing {0} Quests",
+    "Obtainable upon completing Cassius Quests"
+  ],
+  [
+    "-{0}% Damage amount per Morale",
+    "-<color_orange>20</>% Damage amount per Morale"
+  ],
+  [
+    "Fortitude",
+    "Fortitude"
+  ],
+  [
+    "-{0}% Damage Amount for each {1}",
+    "-<color_orange>-20</>% Damage Amount for each <color_orange><u>Fortitude</u></>"
+  ],
+  [
+    "Add the {0} as a targeted area for the {1} card’s effect.",
+    "Add the <color_orange>Discard Pile</> as a targeted area for the <color_orange><u>Joker</u></> card’s effect."
+  ],
+  [
+    "Each time {0} draws through an ability, $Fixed Heal$ equal to {1}%.",
+    "Each time Cassius draws through an ability, $Fixed Heal$ equal to <color_orange>40</>%."
+  ],
+  [
+    "Increase {0} by {1} of {2} to all enemies",
+    "Increase <color_orange>Morale Reduction</> by <color_orange>2</> of <color_orange><u>Death Trick</u></> to all enemies"
+  ],
+  [
+    "Whenever {0} completes a Quest, apply {1} {2} to all enemies for {3} turn.",
+    "Whenever Cassius completes a Quest, apply <color_orange>1 Morale Reduction</> <color_orange></> to all enemies for <color_orange>1</> turn."
+  ],
+  [
+    "Add a {0}% chance to draw {1} card to {2} and {3}.",
+    "Add a <color_orange>30</>% chance to draw <color_orange>1</> card to <color_orange><u>Card</u></> and <color_orange><u>Wild Card</u></>."
+  ],
+  [
+    "If {0}'s Health is {1} or higher, add an additional +{2}% to the modifier",
+    "If Owen's Health is <color_orange>600</> or higher, add an additional +<color_orange>5</>% to the modifier"
+  ],
+  [
+    "Upon completing a Quest, gain {0} Morale for {1} turn",
+    "Upon completing a Quest, gain <color_orange>1</> Morale for <color_orange>1</> turn"
+  ],
+  [
+    "If {0}’s Health is {1} or higher, when a Quest is completed, {2} Fortitude for {3} turn",
+    "If Cassius’s Health is <color_orange>700</> or higher, when a Quest is completed, <color_orange>1</> Fortitude for <color_orange>1</> turn"
+  ],
+  [
+    "Add {0} Hit(s) to the next Attack Card of this unit {1}d",
+    "Add <color_orange>1</> Hit(s) to the next Attack Card of this unit <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Add {0} Hit(s) to the next Attack Card {1}d",
+    "Add <color_orange>1</> Hit(s) to the next Attack Card <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Decrease Damage Amount by {0}%",
+    "Decrease Damage Amount by <color_orange>50</>%"
+  ],
+  [
+    "When an Attack Card of this unit is {0}d, {1} chance to add {2} Hit(s)",
+    "When an Attack Card of this unit is <color_orange><u>activate</u></>d, <color_orange>30%</> chance to add <color_orange>1</> Hit(s)"
+  ],
+  [
+    "{0} the next Skill Card {1}d {2} more time(s)",
+    "<color_orange><u>Proc</u></> the next Skill Card <color_orange><u>activate</u></>d <color_orange>1</> more time(s)"
+  ],
+  [
+    "{0} Activate effect {1} more time (max {2} time)",
+    "<color_orange>Defeat:</> Activate effect <cc>1</> more time (max <cc>1</> time)"
+  ],
+  [
+    "At the start of the turn, decrease {0} by {1}",
+    "At the start of the turn, decrease <color_orange><u>AP</u></> by <color_orange>1</>"
+  ],
+  [
+    "At the end of the turn, {0}% Damage to all enemies",
+    "At the end of the turn, <color_orange>280</>% Damage to all enemies"
+  ],
+  [
+    "Increase {0} by {1}%",
+    "Increase <color_orange><u>Tenacity Damage</u></> by <cc>100</>%"
+  ],
+  [
+    "Move {0} from {1} to hand",
+    "Move <cc><u>Wind Charge</u></> from <color_orange><u>Discard Pile</u></> to hand"
+  ],
+  [
+    "Move {0} card(s) of this unit from {1} to hand",
+    "Move <color_orange>2</> card(s) of this unit from <color_orange><u>Discard Pile</u></> to hand"
+  ],
+  [
+    "When {0} is {1}d, {2}% {3}",
+    "When <cc><u>Wind Charge</u></> is <color_orange><u>activate</u></>d, <color_orange>120</>% <color_orange><u>Shield</u></>"
+  ],
+  [
+    "If {0} is {1}d this turn, gain additional {2} {3}",
+    "If <cc><u>Wind Charge</u></> is <color_orange><u>activate</u></>d this turn, gain additional <color_orange>220%</> <color_orange><u>Shield</u></>"
+  ],
+  [
+    "When the target is in a {0} state, increase Damage Amount by {1}%",
+    "When the target is in a <color_orange><u>Vulnerable</u></> state, increase Damage Amount by <color_orange>30</>%"
+  ],
+  [
+    "When {0} is {1}d, move this card from {2} to hand",
+    "When <cc><u>Wind Charge</u></> is <color_orange><u>activate</u></>d, move this card from <color_orange><u>Discard Pile</u></> to hand"
+  ],
+  [
+    "+{0}% Damage taken per {1}",
+    "+<color_orange>-20</>% Damage taken per <color_orange><u>Fortitude</u></>"
+  ],
+  [
+    "+{0}% Damage and Shield Gain Amounts to the {1} card.",
+    "+<color_orange>50</>% Damage and Shield Gain Amounts to the <color_orange><u>Gale Strike</u></> card."
+  ],
+  [
+    "Whenever {0}'s {1} Card is moved to hand, deal {2}% Damage to all enemies.",
+    "Whenever Owen's <color_orange><u>Wind Charge</u></> Card is moved to hand, deal <color_orange>80</>% Damage to all enemies."
+  ],
+  [
+    "+{0}% Damage and Shield Gain Amounts to {1}.",
+    "+<color_orange>50</>% Damage and Shield Gain Amounts to <color_orange><u>Raging Storm</u></>."
+  ],
+  [
+    "Each time the {0} card is $activate$d, +{1}% Damage Amount to {2} for {3} turn.",
+    "Each time the <color_orange><u>Wind Charge</u></> card is $activate$d, +<color_orange>20</>% Damage Amount to Owen for <color_orange>1</> turn."
+  ],
+  [
+    "The damage of the {0} card is increased by +{1}%",
+    "The damage of the <color_orange><u>Downward Cut</u></> card is increased by +<color_orange>30</>%"
+  ],
+  [
+    "+{0}% to Attack and Defense",
+    "+<color_orange>4</>% to Attack and Defense"
+  ],
+  [
+    "If {0}’s Health is {1}or higher, add an additional +{2}% to the modifier",
+    "If Owen’s Health is <color_orange>700</>or higher, add an additional +<color_orange>4</>% to the modifier"
+  ],
+  [
+    "Apply {0} to {1} random card(s) in {2}, then {3} {4} of those cards",
+    "Apply <color_orange><u>Blessing</u></> to <color_orange>3</> random card(s) in <color_orange><u>Draw Pile</u></>, then <color_orange><u>Draw</u></> <color_orange>1</> of those cards"
+  ],
+  [
+    "Select and {0} {1} from {2}, then apply {3} to those cards",
+    "Select and <color_orange><u>Draw</u></> <color_orange>1</> from <color_orange><u>Draw Pile</u></>, then apply <color_orange><u>Blessing</u></> to those cards"
+  ],
+  [
+    "Apply {0} to {1} random card(s) of the Combatant who owns the Discarded card",
+    "Apply <color_orange><u>Blessing</u></> to <color_orange>3</> random card(s) of the Combatant who owns the Discarded card"
+  ],
+  [
+    "Draw equal to {0}, then apply {1} to those cards",
+    "Draw equal to <cc><color_orange><u>X</u></></>, then apply <color_orange><u>Blessing</u></> to those cards"
+  ],
+  [
+    "When a card is created, apply {0} ({1} times per turn)",
+    "When a card is created, apply <color_orange><u>Blessing</u></> (<cc>5</> times per turn)"
+  ],
+  [
+    "For the next {0} {1} cards {2}d, {3} {4} {5} card",
+    "For the next <color_orange>3</> <color_orange><u>Blessing</u></> cards <color_orange><u>activate</u></>d, <color_orange><u>Draw</u></> <cc>1</> <color_orange><u>Blessing</u></> card"
+  ],
+  [
+    "The next {0} times {1} cards are in hand, {2} {3} {4} card",
+    "The next <color_orange>2</> times <cc>0</> cards are in hand, <color_orange><u>Draw</u></> <cc>1</> <color_orange><u>Blessing</u></> card"
+  ],
+  [
+    "Change Cost of those cards to {0}-{1} for {2} turn",
+    "Change Cost of those cards to <cc>0</>-<cc>2</> for <cc>1</> turn"
+  ],
+  [
+    "If that card is a {0} card, add {1} {2}",
+    "If that card is a <color_orange><u>Blessing</u></> card, add <cc>1</> <color_orange><u>Draw</u></>"
+  ],
+  [
+    "Increase Damage and {0} Gain Amount of those cards by {1}% for {2} turn",
+    "Increase Damage and <color_orange><u>Shield</u></> Gain Amount of those cards by <color_orange>60</>% for <cc>1</> turn"
+  ],
+  [
+    "Select and create {0} of either {1} or {2}",
+    "Select and create <color_orange>1</> of either <cc><u>Doggie</u></> or <cc><u>Teddy</u></>"
+  ],
+  [
+    "+{0}% Damage Amount to {1} for each {2} card in All Piles (max {3} cards)",
+    "+<cc>20</>% Damage Amount to <cc><u>Doggie</u></> for each <color_orange><u>Blessing</u></> card in All Piles (max <cc>15</> cards)"
+  ],
+  [
+    "When Damage is taken, move {0} to hand ({1} time per turn)",
+    "When Damage is taken, move <cc><u>Teddy</u></> to hand (<cc>1</> time per turn)"
+  ],
+  [
+    "Create {0} {1} in {2}",
+    "Create <color_orange>4</> <cc><u>Doggie (Pack)</u></> in <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "When {0} is {1}d, {2} {3}, and for {4} turn, {5}",
+    "When <cc><u>Teddy</u></> is <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Counterattack</u></>, and for <cc>1</> turn, <color_orange><u>Retain Counterattack</u></>"
+  ],
+  [
+    "+{0}% Damage Amount taken by the target for {1} turn",
+    "+<color_orange>100</>% Damage Amount taken by the target for <cc>1</> turn"
+  ],
+  [
+    "Move {0} {1} card(s) from {2} to hand",
+    "Move <color_orange>2</> <color_orange><u>Blessing</u></> card(s) from <color_orange><u>Discard Pile</u></> to hand"
+  ],
+  [
+    "Increase Damage and {0} Gain Amounts of {1} and {2} by {3}% for {4} turn",
+    "Increase Damage and <color_orange><u>Shield</u></> Gain Amounts of <cc><u>Doggie</></> and <cc><u>Teddy</></> by <color_orange>100</>% for <cc>1</> turn"
+  ],
+  [
+    "Increase Damage Amount by {0}% for each {1} card in hand",
+    "Increase Damage Amount by <cc>30</>% for each <color_orange><u>Blessing</u></> card in hand"
+  ],
+  [
+    "Increase {0} by {1}",
+    "Increase <color_orange><u>Action Count</u></> by <color_orange>4</>"
+  ],
+  [
+    "{0} equal to {1} in possession",
+    "<color_orange><u>Fixed Heal</u></> equal to <color_orange><u>Shield</u></> in possession"
+  ],
+  [
+    "(cannot exceed {0}% of max HP)",
+    "(cannot exceed <cc>50</>% of max HP)"
+  ],
+  [
+    "Increase Damage Amount by {0}% for each {1} in hand before {2}",
+    "Increase Damage Amount by <cc>50</>% for each <cc><u>Doggie</u></> in hand before <color_orange><u>activation</u></>"
+  ],
+  [
+    "When an Attack Card is {0}d, change this card into {1}",
+    "When an Attack Card is <color_orange><u>use</u></>d, change this card into <cc><u>Teddy (Morphed)</u></>"
+  ],
+  [
+    "When a Skill Card is {0}d, change this card into {1}",
+    "When a Skill Card is <color_orange><u>use</u></>d, change this card into <cc><u>Doggie (Morphed)</u></>"
+  ],
+  [
+    "Blessing",
+    "Blessing"
+  ],
+  [
+    "When {0} in possession is lower than {1}% of max Health, if this card moves from hand to {2}, {3}% {4}",
+    "When <color_orange><u>Shield</u></> in possession is lower than <cc>30</>% of max Health, if this card moves from hand to <color_orange><u>Graveyard</u></>, <cc>60</>% <color_orange><u>Fixed Shield</u></>"
+  ],
+  [
+    "Retain Counterattack",
+    "Retain Counterattack"
+  ],
+  [
+    "When the {0} effect is activated, retain {1}",
+    "When the <color_orange><u>Counterattack</u></> effect is activated, retain <color_orange><u>Counterattack</u></>"
+  ],
+  [
+    "At the end of the turn, decrease by {0}",
+    "At the end of the turn, decrease by <cc>1</>"
+  ],
+  [
+    "Quietus",
+    "Quietus"
+  ],
+  [
+    "When this card is Discarded, {0} this card",
+    "When this card is Discarded, <color_orange><u>proc</u></> this card"
+  ],
+  [
+    "This card cannot be moved from the {0}d Pile for this turn",
+    "This card cannot be moved from the <color_orange><u>Activate</u></>d Pile for this turn"
+  ],
+  [
+    "Fixed Healing",
+    "Fixed Healing"
+  ],
+  [
+    "Healing that ignores persistent effects",
+    "Healing that ignores persistent effects"
+  ],
+  [
+    "Linked",
+    "Linked"
+  ],
+  [
+    "When this card is {0}d, Discard all other {1} cards in hand",
+    "When this card is <color_orange><u>use</u></>d, Discard all other <color_orange><u>Linked</u></> cards in hand"
+  ],
+  [
+    "Use",
+    "Use"
+  ],
+  [
+    "Using a card manually",
+    "Using a card manually"
+  ],
+  [
+    "For the {0} card, decrease Cost by {1} and add +{2}% Shield Gain Amount.",
+    "For the <color_orange><u>Garden of Secrets</u></> card, decrease Cost by <color_orange>1</> and add +<color_orange>100</>% Shield Gain Amount."
+  ],
+  [
+    "Gains the {0} effect for each Blessing {1} applies or creates.",
+    "Gains the <color_orange><u>Bliss of Dreams</u></> effect for each Blessing Adelheid applies or creates."
+  ],
+  [
+    "At the start of battle, gain the {0} effect for each Blessing card in Deck.",
+    "At the start of battle, gain the <color_orange><u>Bliss of Dreams</></> effect for each Blessing card in Deck."
+  ],
+  [
+    "{0}: Increase Damage Amount of allies by {1}% (max {2} stacks).",
+    "<color_orange><u>Bliss of Dreams</></>: Increase Damage Amount of allies by <color_orange>3</>% (max <color_orange>10</> stacks)."
+  ],
+  [
+    "+{0}% Shield Gain Amount to {1}.",
+    "+<color_orange>200</>% Shield Gain Amount to <color_orange><u>Happy Ending</u></>."
+  ],
+  [
+    "Changes the restrictions of the Fixed Heal equal to Shield in possession effect to (cannot exceed {0}% of max HP).",
+    "Changes the restrictions of the Fixed Heal equal to Shield in possession effect to (cannot exceed <color_orange>50</>% of max HP)."
+  ],
+  [
+    "At the start of battle, apply {0} to any number of cards in hand.",
+    "At the start of battle, apply <color_orange>Blessing</> to any number of cards in hand."
+  ],
+  [
+    "When a {0} Upgrade Card is $activate$d, apply {1} to {2} random card in Draw Pile.",
+    "When a <color_orange>Blessing</> Upgrade Card is $activate$d, apply <color_orange>Blessing</> to <color_orange>1</> random card in Draw Pile."
+  ],
+  [
+    "For {0}, decrease max stacks by {1} and change the increased Damage Amount effect to {2}%.",
+    "For <color_orange><u>Bliss of Dreams</></>, decrease max stacks by <color_orange>5</> and change the increased Damage Amount effect to <color_orange>8</>%."
+  ],
+  [
+    "At the start of the turn, if {0} is {1}, Draw {2} {3} card.",
+    "At the start of the turn, if <color_orange><u>Bliss of Dreams</></> is <color_orange>5</>, Draw <color_orange>1</> <color_orange>Blessing</> card."
+  ],
+  [
+    "Add {0} to {1} and {2} cards.",
+    "Add <color_orange>Blessing</> to <color_orange><u>Gather Around</u></> and <color_orange><u>Fairy’s Protection</u></> cards."
+  ],
+  [
+    "+{0}% Shield Gain Amount to {1}’s {2}",
+    "+<color_orange>5</>% Shield Gain Amount to Adelheid’s <color_orange><u>Fairy’s Protection</u></>"
+  ],
+  [
+    "If {0}’s Defense is {1} or higher, +{2}% Void-Attribute Damage Amount, and for every {3} Defense exceeding {4}, add an additional {5}% to the modifier",
+    "If Adelheid’s Defense is <color_orange>300</> or higher, +<color_orange>5</>% Void-Attribute Damage Amount, and for every <color_orange>10</> Defense exceeding 300, add an additional <color_orange>2</>% to the modifier"
+  ],
+  [
+    "Increase Damage Amount of Basic Attack {0} by {1}% for {2} turn",
+    "Increase Damage Amount of Basic Attack Cards by <color_orange>100</>% for <cc>1</> turn"
+  ],
+  [
+    "Increases Damage Amount of Basic Attack {0} by {1}% for {2} turn",
+    "Increases Damage Amount of Basic Attack Cards by <color_orange>150</>% for <cc>1</> turn"
+  ],
+  [
+    "Decrease Damage Amount by {0}% for {1} turn",
+    "Decrease Damage Amount by <color_orange>20</>% for <cc>1</> turn"
+  ],
+  [
+    "{0} all {1}, add {2} Hit for each",
+    "<color_orange><u>Discard</u></> all <color_orange><u>Basic Cards</u></>, add <cc>1</> Hit for each"
+  ],
+  [
+    "Increase Damage Amount of Basic Attack {0} by {1}%",
+    "Increase Damage Amount of Basic Attack Cards by <color_orange>80</>%"
+  ],
+  [
+    "{0} all {1}s in hand",
+    "<color_orange><u>Proc</u></> all <color_orange><u>Basic Card</u></>s in hand"
+  ],
+  [
+    "+{0}% Damage Amount to {1}-Cost cards",
+    "+<color_orange>60</>% Damage Amount to <cc>1</>-Cost cards"
+  ],
+  [
+    "At the end of the turn, {0} {1}%",
+    "At the end of the turn, <color_orange><u>Heal</u></> <color_orange>90</>%"
+  ],
+  [
+    "+{0}% Damage Amount to {1} {2}",
+    "+<color_orange>40</>% Damage Amount to <color_ego_creed_light>Void</> Cards"
+  ],
+  [
+    "+{0}% Damage, {1} Gain, and {2} Amounts to {3}-Cost cards",
+    "+<color_orange>40</>% Damage, <color_orange><u>Shield</u></> Gain, and <color_orange><u>Heal</u></> Amounts to <cc>1</>-Cost cards"
+  ],
+  [
+    "+{0}% Damage Amount to {1}-Cost or lower cards",
+    "+<color_orange>40</>% Damage Amount to <cc>1</>-Cost or lower cards"
+  ],
+  [
+    "For {0} turn, +{1}% Damage Amount to {2}-Cost cards",
+    "For <cc>1</> turn, +<color_orange>80</>% Damage Amount to <cc>1</>-Cost cards"
+  ],
+  [
+    "Choose {0} card(s) in hand to {1}",
+    "Choose <color_orange>1</> card(s) in hand to <color_orange><u>Exhaust</u></>"
+  ],
+  [
+    "Select and Exhaust up to {0} card(s) in hand, then {1} for each Exhausted",
+    "Select and Exhaust up to <color_orange>2</> card(s) in hand, then <color_orange><u>Draw</u></> for each Exhausted"
+  ],
+  [
+    "Select and {0} up to {1} card(s) in {2}, then {3} for each Exhausted",
+    "Select and <color_orange><u>Exhaust</u></> up to <color_orange>1</> card(s) in <color_orange><u>Draw Pile</u></>, then <color_orange><u>Draw</u></> for each Exhausted"
+  ],
+  [
+    "Select and {0} {1} card(s) in hand",
+    "Select and <color_orange><u>Exhaust</u></> <color_orange>2</> card(s) in hand"
+  ],
+  [
+    "Select and {0} {1} {2} card(s)",
+    "Select and <color_orange><u>Draw</u></> <color_orange>1</> <color_ego_creed_light>Void</> card(s)"
+  ],
+  [
+    "Select {0} Attack Card(s) in hand, then +{1}% Damage Amount for {2} turn until {3}d",
+    "Select <color_orange>1</> Attack Card(s) in hand, then +<color_orange>150</>% Damage Amount for <cc>1</> turn until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Select {0} card(s) in hand, then +{1}% Damage, {2} Gain, and {3} Amounts for {4} turn until {5}d",
+    "Select <color_orange>1</> card(s) in hand, then +<color_orange>100</>% Damage, <color_orange><u>Shield</u></> Gain, and <color_orange><u>Heal</u></> Amounts for <cc>1</> turn until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "For {0} turn, +{1}% Damage Amount of {2} Attack {3}",
+    "For <cc>1</> turn, +<color_orange>50</>% Damage Amount of <color_ego_creed_light>Void</> Attack Cards"
+  ],
+  [
+    "Select {0} Attack Card(s), then +{1}% Damage Amount until {2}d",
+    "Select <color_orange>1</> Attack Card(s), then +<color_orange>100</>% Damage Amount until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Choose {0} Attack Card(s) in hand, +{1}% Damage Amount",
+    "Choose <color_orange>1</> Attack Card(s) in hand, +<color_orange>50</>% Damage Amount"
+  ],
+  [
+    "For{0} turn, {1} {2}",
+    "For<cc> 1</> turn, <color_orange>4</> <color_orange><u>Morale</u></>"
+  ],
+  [
+    "DMG-Based Recovery",
+    "DMG-Based Recovery"
+  ],
+  [
+    "{0} based on the Damage coefficient",
+    "<color_orange><u>Fixed Recovery</u></> based on the Damage coefficient"
+  ],
+  [
+    "{0} with only Damage, Shield, or Heal functions among Combatant's Starting {1}",
+    "Cards with only Damage, Shield, or Heal functions among Combatant's Starting Cards"
+  ],
+  [
+    "Increase the {0} gained from the {1} card by {2} for {3} turn.",
+    "Increase the <color_orange>Morale</> gained from the <color_orange><u>Predator's Blade</u></> card by <color_orange>2</> for <color_orange>1</> turn."
+  ],
+  [
+    "If {0} $activate$s an Attack Card, $Fixed Heal$ equal to {1}%.",
+    "If Rei $activate$s an Attack Card, $Fixed Heal$ equal to <color_orange>120</>%."
+  ],
+  [
+    "This effect $activates$ {0}.",
+    "This effect $activates$ <color_orange>1 time per turn</>."
+  ],
+  [
+    "+{0}% Damage Amount to allies' Attack {1}.",
+    "+<color_orange>20</>% Damage Amount to allies' Attack Cards."
+  ],
+  [
+    "Add a {0}% Damage-Based Recovery effect to the {1} card.",
+    "Add a <color_orange>20</>% Damage-Based Recovery effect to the <color_orange><u>Dark Blade</u></> card."
+  ],
+  [
+    "If {0}’s Attack is {1} or higher, +{2}% Damage Amount to {3}",
+    "If Rei’s Attack is <color_orange>550</> or higher, +<color_orange>10</>% Damage Amount to <color_orange><u>Predator’s Blade</u></>"
+  ],
+  [
+    "{0} {1} Attack Card(s) of this unit",
+    "<color_orange><u>Draw</u></> <color_orange>1</> Attack Card(s) of this unit"
+  ],
+  [
+    "Increase Damage Amount of those cards by {0}% for {1} turn",
+    "Increase Damage Amount of those cards by <color_orange>40</>% for <cc>1</> turn"
+  ],
+  [
+    "Increase Damage Amount of Attack {0} of this unit by {1}% for {2} turn",
+    "Increase Damage Amount of Attack Cards of this unit by <color_orange>50</>% for <cc>1</> turn"
+  ],
+  [
+    "Decrease Damage Amount of those cards by {0}% for {1} turn",
+    "Decrease Damage Amount of those cards by <color_orange>10</>% for <cc>1</> turn"
+  ],
+  [
+    "{0} {1} {2} Attack Card(s) of this unit",
+    "<color_orange>Inspiration:</> <color_orange><u>Draw</u></> <color_orange>1</> Attack Card(s) of this unit"
+  ],
+  [
+    "At the start of the next turn, {0} {1} Attack Card(s) of this unit",
+    "At the start of the next turn, <color_orange><u>Draw</u></> <color_orange>2</> Attack Card(s) of this unit"
+  ],
+  [
+    "If there is only a single target, increase Damage Amount by {0}%",
+    "If there is only a single target, increase Damage Amount by <cc>50</>%"
+  ],
+  [
+    "{0} Add {1} Hit",
+    "<color_orange>Streak:</> Add <cc>1</> Hit"
+  ],
+  [
+    "+{0}% Damage Amount for each card of this unit Drawn {1} turn (max {2})",
+    "+<color_orange>150</>% Damage Amount for each card of this unit Drawn <cc>that</> turn (max <cc>5</>)"
+  ],
+  [
+    "When {0}d, decrease Cost by {1}",
+    "When <color_orange><u>activate</u></>d, decrease Cost by <cc>1</>"
+  ],
+  [
+    "Enable the {0} effect for {1} random card(s) of this unit in hand",
+    "Enable the <color_orange><u>Inspiration</u></> effect for <color_orange>1</> random card(s) of this unit in hand"
+  ],
+  [
+    "Select {0} cards of this unit in hand and enable the {1} effect",
+    "Select <color_orange>1</> cards of this unit in hand and enable the <color_orange><u>Inspiration</u></> effect"
+  ],
+  [
+    "Enable the {0} effect for all cards of this unit in hand",
+    "Enable the <color_orange><u>Inspiration</u></> effect for all cards of this unit in hand"
+  ],
+  [
+    "For {0} turn, when an {1}-enabled card of this unit is {2}d, {3}% Damage to a random enemy",
+    "For <color_orange>1</> turn, when an <color_orange><u>Inspiration</u></>-enabled card of this unit is <color_orange><u>activate</u></>d, <color_orange>100</>% Damage to a random enemy"
+  ],
+  [
+    "{0} {1} card(s) that have the {2} effect",
+    "<color_orange><u>Draw</u></> <color_orange>1</> card(s) that have the <color_orange><u>Inspiration</u></> effect"
+  ],
+  [
+    "When an {0}-enabled card of this unit is {1}d, {2}% Damage to all enemies",
+    "When an <color_orange><u>Inspiration</u></>-enabled card of this unit is <color_orange><u>activate</u></>d, <color_orange>120</>% Damage to all enemies"
+  ],
+  [
+    "When an {0}-enabled card of this unit is {1}d, {2}% Damage × {3} to a random enemy",
+    "When an <color_orange><u>Inspiration</u></>-enabled card of this unit is <color_orange><u>activate</u></>d, <color_orange>120</>% Damage × <cc>2</> to a random enemy"
+  ],
+  [
+    "Increase Damage Amount of All-Target Attack {0} of this unit by {1}%",
+    "Increase Damage Amount of All-Target Attack Cards of this unit by <color_orange>50</>%"
+  ],
+  [
+    "At the start of the turn, enable the {0} effect for {1} random cards in hand",
+    "At the start of the turn, enable the <color_orange><u>Inspiration</u></> effect for <cc>2</> random cards in hand"
+  ],
+  [
+    "{0}{1} Damage to all enemies",
+    "<color_orange>600%</><color_orange></> Damage to all enemies"
+  ],
+  [
+    "Move all Attack {0} of this unit in hand to the top of {1}",
+    "Move all Attack Cards of this unit in hand to the top of <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "+{0} base Damage Amount for each card moved",
+    "+<color_orange>150%</> base Damage Amount for each card moved"
+  ],
+  [
+    "Inspiration:",
+    "Inspiration:"
+  ],
+  [
+    "When this card is moved to hand through an ability, enable effect",
+    "When this card is moved to hand through an ability, enable effect"
+  ],
+  [
+    "Does not count for Draws at the start of the turn",
+    "Does not count for Draws at the start of the turn"
+  ],
+  [
+    "Add the following to {0}: If there is only a single target, increase Damage Amount by {1}%.",
+    "Add the following to <color_orange><u>Iceberg Cleave</u></>: If there is only a single target, increase Damage Amount by <color_orange>50</>%."
+  ],
+  [
+    "At the start of battle, for {0} turns, enable Inspiration for cards of this unit drawn at the start of the turn.",
+    "At the start of battle, for <color_orange>3</> turns, enable Inspiration for cards of this unit drawn at the start of the turn."
+  ],
+  [
+    "+{0}% Damage Amount to {1} and change the +{2}% Damage Amount for each card moved to top of $Draw Pile$ to +{3}%",
+    "+<color_orange>150</>% Damage Amount to <color_orange><u>Skyscraper Cleave</u></> and change the +<color_orange>100</>% Damage Amount for each card moved to top of $Draw Pile$ to +<color_orange>150</>%"
+  ],
+  [
+    "Each time a card of this unit is Drawn through an ability, gain {0} {1}.",
+    "Each time a card of this unit is Drawn through an ability, gain <color_orange>1</> <color_orange>Sword Dance</>."
+  ],
+  [
+    "{0}: Increases Damage Amount of Attack {1} of this unit by {2}% (max {3} stacks)",
+    "<color_orange>Sword Dance</>: Increases Damage Amount of Attack Cards of this unit by <color_orange>10</>% (max <color_orange>3</> stacks)"
+  ],
+  [
+    "Increase max stacks of Sword Dance by {0} and change the Damage Amount increase effect to {1}%.",
+    "Increase max stacks of Sword Dance by <color_orange>1</> and change the Damage Amount increase effect to <color_orange>15</>%."
+  ],
+  [
+    "If Sword Dance is stacked to {0}, gain {1} {2}.",
+    "If Sword Dance is stacked to <color_orange>4</>, gain <color_orange>1</> <color_orange>Swiftblade Flurry</>."
+  ],
+  [
+    "{0}: Increase Damage Amount of {1} and {2} by {3}%",
+    "<color_orange>Swiftblade Flurry</>: Increase Damage Amount of <color_orange><u>Flash Slash</u></> and <color_orange><u>Iceberg Cleave</u></> by <color_orange>20</>%"
+  ],
+  [
+    "Adds the following effects:",
+    "Adds the following effects:"
+  ],
+  [
+    "Inspiration: Decrease Cost by{0}, to {1}",
+    "Inspiration: Decrease Cost by<color_orange>1</>, to <color_orange><u>Longsword Slash</u></>"
+  ],
+  [
+    "Inspiration: Increase Damage Amount by {0}%, to {1}",
+    "Inspiration: Increase Damage Amount by <color_orange>30</>%, to <color_orange><u>Rapid Slash</u></>"
+  ],
+  [
+    "If {0}’s Attack is {1} or higher, +{2}% Damage Amount to {3} and {4}.",
+    "If Yuki’s Attack is <color_orange>600</> or higher, +<color_orange>5</>% Damage Amount to <color_orange><u>Flash Slash</u></> and <color_orange><u>Iceberg Cleave</u></>."
+  ],
+  [
+    "For every {0} Attack above {1}, add an additional +{2}% to the modifier",
+    "For every <color_orange>20</> Attack above 600, add an additional +<color_orange>1</>% to the modifier"
+  ],
+  [
+    "{0} Decrease Cost of the next card of this unit {1}d by {2}",
+    "<color_orange>Cursed Shackles:</> Decrease Cost of the next card of this unit <color_orange><u>activate</u></>d by <color_orange>2</>"
+  ],
+  [
+    "When a target inflicted with {0} is defeated, create this card",
+    "When a target inflicted with <color_orange><u>Cursed Shackles</u></> is defeated, create this card"
+  ],
+  [
+    "{0} {1} for each Hit of the next Attack Card of this unit {2}d",
+    "<color_orange>4</> <color_orange><u>Will-O’-Wisp</u></> for each Hit of the next Attack Card of this unit <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Add {0} Hit(s) to the next Attack Card of this unit {1}d, then {2} {3} for each Hit",
+    "Add <color_orange>1</> Hit(s) to the next Attack Card of this unit <color_orange><u>activate</u></>d, then <color_orange>2</> <color_orange><u>Will-O’-Wisp</u></> for each Hit"
+  ],
+  [
+    "Add {0} Hit(s) to the next {1}, {2} {3}d",
+    "Add <color_orange>2</> Hit(s) to the next <cc><u>Shadow of the Moon</u></>, <cc><u>Shadow of the Moon+</u></> <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0} {1} for each Attack Card of this unit in hand",
+    "<color_orange>3</> <color_orange><u>Will-O’-Wisp</u></> for each Attack Card of this unit in hand"
+  ],
+  [
+    "When an Attack Card of this unit is {0}d, {1} {2}",
+    "When an Attack Card of this unit is <color_orange><u>activate</u></>d, <color_orange>2</> <color_orange><u>Will-O’-Wisp</u></>"
+  ],
+  [
+    "Decrease Cost of {0} random card(s) of other Combatants by {1} until {2}d",
+    "Decrease Cost of <color_orange>2</> random card(s) of other Combatants by <color_orange>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Decrease Cost of {0} random card(s) by {1} until {2}d",
+    "Decrease Cost of <color_orange>2</> random card(s) by <color_orange>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "When {0} is {1}d, decrease Cost of the next {2} card(s) {3}d by {4} until {5}d",
+    "When <cc><u>Shadow of the Moon+</u></> is <color_orange><u>activate</u></>d, decrease Cost of the next <color_orange>1</> card(s) <color_orange><u>activate</u></>d by <color_orange>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0} {1} random card(s) of other Combatants",
+    "<color_orange><u>Proc</u></> <color_orange>2</> random card(s) of other Combatants"
+  ],
+  [
+    "{0} {1} random {2} card(s)",
+    "<color_orange><u>Proc</u></> <color_orange>2</> random <color_orange><u>Lead</u></> card(s)"
+  ],
+  [
+    "Decrease Cost of {0} card(s) with the highest Cost by {1} until {2}d",
+    "Decrease Cost of <color_orange>1</> card(s) with the highest Cost by <color_orange>2</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Other than {0}, if there are no other Attack {1} in hand, add {2} Hit(s)",
+    "Other than <cc><u>Shadow of the Moon</u></>, if there are no other Attack Cards in hand, add <color_orange>2</> Hit(s)"
+  ],
+  [
+    "Apply {0} to those cards and decrease Cost by {1} until {2}d",
+    "Apply <color_orange><u>Exhaust</u></> to those cards and decrease Cost by <color_orange>1</> until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0}% Damage Amount to {1}",
+    "<color_orange>80</>% Damage Amount to <cc><u>Shadow of the Moon+</u></>"
+  ],
+  [
+    "At the start of the turn, {0} {1}'",
+    "At the start of the turn, <color_orange>4</> <color_orange><u>Will-O’-Wisp</u></>'"
+  ],
+  [
+    "+{0}% Damage Amount for each Bind stack",
+    "+<color_orange>80</>% Damage Amount for each Bind stack"
+  ],
+  [
+    "+{0}% Damage Amount for each {1} created (max {2})",
+    "+<color_orange>150</>% Damage Amount for each <cc><u>Shadow of the Moon</u></> created (max <cc><color_orange>10</></>)"
+  ],
+  [
+    "{0} {1}% of Max HP",
+    "<color_orange><u>Recover</u></> <color_orange>8</>% of Max HP"
+  ],
+  [
+    "Cursed Shackles",
+    "Cursed Shackles"
+  ],
+  [
+    "When an Attack Card other than a {0} card is {1}d by allies on a target in a Cursed Shackles state, gain {2} {3} for each Hit Count",
+    "When an Attack Card other than a <color_orange><u>Bind</u></> card is <color_orange><u>activate</u></>d by allies on a target in a Cursed Shackles state, gain <color_orange>1</> <color_orange><u>Will-O’-Wisp</u></> for each Hit Count"
+  ],
+  [
+    "When applied to a different target, remove {0}",
+    "When applied to a different target, remove <color_orange><u>Cursed Shackles</u></>"
+  ],
+  [
+    "Will-O’-Wisp",
+    "Will-O’-Wisp"
+  ],
+  [
+    "When {0} {1} are gained, create {2} {3}",
+    "When <cc>5</> <color_orange><u>Will-O-Wisp</u></> are gained, create <cc>1</> <cc><u>Shadow of the Moon</u></>"
+  ],
+  [
+    "Inhibit",
+    "Inhibit"
+  ],
+  [
+    "Cannot be influenced by {0} gain or loss effects (except for what is given through cards and continuous effects of this unit, at the start of the turn or on {1})",
+    "Cannot be influenced by <color_orange><u>AP</u></> gain or loss effects (except for what is given through cards and continuous effects of this unit, at the start of the turn or on <color_orange><u>Ravage</u></>)"
+  ],
+  [
+    " add {0} Hit to {1} and {2}",
+    " add <cc>1</> Hit to <cc><u>Shadow of the Moon</u></> and <cc><u>Shadow of the Moon+</u></>"
+  ],
+  [
+    "Bind",
+    "Bind"
+  ],
+  [
+    "When Bind cards of a given unit are in the same Pile or in hand, stack into {0} card",
+    "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card"
+  ],
+  [
+    "If Bind is {0} or higher, change into {1}",
+    "If Bind is <cc>3</> or higher, change into <cc><u>Shadow of the Moon+</u></>"
+  ],
+  [
+    "When a Bind card is {0}d, reset stacks",
+    "When a Bind card is <color_orange><u>activate</u></>d, reset stacks"
+  ],
+  [
+    "Max {0} stacks",
+    "Max <cc>5</> stacks"
+  ],
+  [
+    "Bind {0}",
+    "Bind 3"
+  ],
+  [
+    "+{0}% Damage Amount to {1}, +{2}% to Recover Amount of Max HP.",
+    "+<color_orange>20</>% Damage Amount to <color_orange><u>Shadow of the Moon+</u></>, +<color_orange>3</>% to Recover Amount of Max HP."
+  ],
+  [
+    "When a {0} card is $activate$d, create {1} {2} card.",
+    "When a <color_orange><u>Shadow of the Moon+</u></> card is $activate$d, create <color_orange>1</> <color_orange><u>Shadow of the Moon</u></> card."
+  ],
+  [
+    "+{0}% Damage Amount to {1}, and change the +{2}% Damage Amount for each {3} created to +{4}%.",
+    "+<color_orange>200</>% Damage Amount to <color_orange><u>Moonlight of High Tide</u></>, and change the +<color_orange>100</>% Damage Amount for each Shadow of the Moon created to +<color_orange>150</>%."
+  ],
+  [
+    "When {0} is created, gain {1}.",
+    "When <color_orange><u>Shadow of the Moon</u></> is created, gain <color_orange>1 Lunarshard</>."
+  ],
+  [
+    "{0}: +{1}% Damage Amount to {2}’s Attack {3} (max {4} stacks)",
+    "<color_orange>Lunarshard</>: +<color_orange>10</>% Damage Amount to Chizuru’s Attack Cards (max <color_orange>3</> stacks)"
+  ],
+  [
+    "When {0} stacks to {1}, increases Hit Count of {2} by {3}.",
+    "When <color_orange>Lunarshard</> stacks to <color_orange>3</>, increases Hit Count of <color_orange><u>Shadow of the Moon+</u></> by <color_orange>1</>."
+  ],
+  [
+    "Change {0}‘s card effect to {1}% Damage × {2}.",
+    "Change <color_orange><u>Moonslash</u></>‘s card effect to <color_orange>70</>% Damage × <color_orange>2</>."
+  ],
+  [
+    "If {0}’s Attack is {1} or higher, +{2}% Damage Amount to Bind cards",
+    "If Chizuru’s Attack is <color_orange>600</> or higher, +<color_orange>5</>% Damage Amount to Bind cards"
+  ],
+  [
+    "For every {0} Attack above {1}, add an additional +{2}% to the modifier (additional +{3}% max)",
+    "For every <color_orange>10</> Attack above 600, add an additional +<color_orange>1</>% to the modifier (additional +<color_orange>10</>% max)"
+  ],
+  [
+    "{0} {1} random card(s) of this unit",
+    "<color_orange><u>Discard</u></> <color_orange>1</> random card(s) of this unit"
+  ],
+  [
+    "{0} {1} {2} Bullet card(s)",
+    "<color_orange><u>Draw</u></> <color_orange>3</> <color_orange><u>Exhaust</u></> Bullet card(s)"
+  ],
+  [
+    "Change all {0}-Cost or lower {1} cards in hand into {2}",
+    "Change all <cc>1</>-Cost or lower <color_orange><u>Exhaust</u></> cards in hand into <cc><u>Heart Breaker</u></>"
+  ],
+  [
+    "Apply {0} to all {1} Bullet cards in hand",
+    "Apply <color_orange><u>Quietus</u></> to all <color_orange><u>Exhaust</u></> Bullet cards in hand"
+  ],
+  [
+    "If {0} or less {1}s are owned, create {2} more",
+    "If <cc>5</> or less <color_orange><u>Heart Bullet</u></>s are owned, create <color_orange>1</> more"
+  ],
+  [
+    "For the next {0} {1}s by a different Combatant, {2} {3} to the target",
+    "For the next <color_orange>3</> <color_orange><u>Extra Attack</u></>s by a different Combatant, <color_orange>1</> <color_orange><u>Resonance</u></> to the target"
+  ],
+  [
+    "{0} up to {1} cards in hand",
+    "<color_orange><u>Discard</u></> up to <color_orange>2</> cards in hand"
+  ],
+  [
+    "Create {0} for each Discarded +{1}",
+    "Create <cc><u>Heart Shaker</u></> for each Discarded +<color_orange>1</>"
+  ],
+  [
+    "Change all {0}-Cost {1} {2} in hand into random {3}s",
+    "Change all <cc>0</>-Cost <color_orange><u>Exhaust</u></> Cards in hand into random <color_orange><u>Heart Bullet</u></>s"
+  ],
+  [
+    "Create {0} of each {1}",
+    "Create <color_orange>1</> of each <color_orange><u>Heart Bullet</u></>"
+  ],
+  [
+    "{0} {1} to a random enemy for each different Bullet card in hand",
+    "<cc>1</> <color_orange><u>Resonance</u></> to a random enemy for each different Bullet card in hand"
+  ],
+  [
+    "Change {0} in hand into {1}",
+    "Change <cc><u>Heart Shaker</u></> in hand into <cc><u>Heart Breaker</u></>"
+  ],
+  [
+    "{0} Create {1} {2}",
+    "<color_orange>Retain:</> Create <color_orange>1</> <cc><u>Heart Shaker</u></>"
+  ],
+  [
+    "If this card is Discarded, activate {0} inflicted on the target by this unit {1} more times",
+    "If this card is Discarded, activate <color_orange><u>Resonance</u></> inflicted on the target by this unit <color_orange>5</> more times"
+  ],
+  [
+    "For the next {0} {1} Attack Card(s) {2}d, {3} {4} to the target",
+    "For the next <color_orange>5</> <color_orange><u>Haste</u></> Attack Card(s) <color_orange><u>activate</u></>d, <color_orange>1</> <color_orange><u>Resonance</u></> to the target"
+  ],
+  [
+    "Activate {0} inflicted on the target by this unit {1} time(s)",
+    "Activate <color_orange><u>Resonance</u></> inflicted on the target by this unit <color_orange>10</> time(s)"
+  ],
+  [
+    "+{0}% base Damage Amount for each Bullet Discarded this turn",
+    "+<color_orange>100</>% base Damage Amount for each Bullet Discarded this turn"
+  ],
+  [
+    "When this card is Discarded, activate {0} inflicted on all enemies {1} time(s)",
+    "When this card is Discarded, activate <color_orange><u>Resonance</u></> inflicted on all enemies <color_orange>2</> time(s)"
+  ],
+  [
+    "{0} {1} {2} card(s)",
+    "<color_orange><u>Draw</u></> <color_orange>1</> <color_orange><u>Quietus</u></> card(s)"
+  ],
+  [
+    "If the Discarded card was a card of a different Combatant, create {0} {1}",
+    "If the Discarded card was a card of a different Combatant, create <color_orange>2</> <color_orange><u>Heart Bullet</u></>"
+  ],
+  [
+    "{0} {1} to all enemies for each combined Cost of the Discarded cards",
+    "<color_orange>1</> <color_orange><u>Resonance</u></> to all enemies for each combined Cost of the Discarded cards"
+  ],
+  [
+    "(max {0})",
+    "(max <cc>6</>)"
+  ],
+  [
+    "{0} up to {1} Bullet card(s) in hand",
+    "<color_orange><u>Discard</u></> up to <color_orange>3</> Bullet card(s) in hand"
+  ],
+  [
+    "{0} a {1} card for each Discarded {2}",
+    "<color_orange><u>Draw</u></> a <color_orange><u>Quietus</u></> card for each Discarded <cc>-1</>"
+  ],
+  [
+    "{0} all Bullet cards in hand",
+    "<color_orange><u>Discard</u></> all Bullet cards in hand"
+  ],
+  [
+    "{0} {1} × that amount{2} to a random enemy",
+    "<color_orange>80%</> <color_orange><u>Extra Attack</u></> × that amount<color_orange> x </> to a random enemy"
+  ],
+  [
+    "If no {0} cards of this unit are in hand, {1} {2} {3} card(s) of this unit",
+    "If no <color_orange><u>Quietus</u></> cards of this unit are in hand, <color_orange><u>Draw</u></> <color_orange>1</> <color_orange><u>Quietus</u></> card(s) of this unit"
+  ],
+  [
+    "({0} time per turn)",
+    "(<cc>1</> time per turn)"
+  ],
+  [
+    "Increase base Damage Amount by {0}% for each different Bullet card in hand",
+    "Increase base Damage Amount by <color_orange>30</>% for each different Bullet card in hand"
+  ],
+  [
+    "{0} {1} random Bullet card(s)",
+    "<color_orange><u>Discard</u></> <color_orange>1</> random Bullet card(s)"
+  ],
+  [
+    "If this card is Discarded, {0} {1} to a random enemy",
+    "If this card is Discarded, <color_orange>120%</> <color_orange><u>Extra Attack</u></> to a random enemy"
+  ],
+  [
+    "{0} {1} random card(s) in {2}",
+    "<color_orange><u>Discard</u></> <color_orange>1</> random card(s) in <color_orange><u>Draw Pile</u></>"
+  ],
+  [
+    "When this card is Discarded, {0} {1} to a random enemy",
+    "When this card is Discarded, <color_orange>2</> <color_orange><u>Resonance</u></> to a random enemy"
+  ],
+  [
+    "{0} {1} × Bullet card count in hand{2} to a random enemy",
+    "<color_orange>60%</> <color_orange><u>Extra Attack</u></> × Bullet card count in hand<color_orange> x </> to a random enemy"
+  ],
+  [
+    "Heart Bullet",
+    "Heart Bullet"
+  ],
+  [
+    "Resonance",
+    "Resonance"
+  ],
+  [
+    "On card Discard, {0} {1}, then decrease {2} by {3}",
+    "On card Discard, <color_orange>80%</> <color_orange><u>Extra Attack</u></>, then decrease <color_orange><u>Resonance</u></> by <cc>1</>"
+  ],
+  [
+    "+{0}% Damage Amount to the {1} card, and changes the Draw count of Exhaust Bullet cards to {2}.",
+    "+<color_orange>100</>% Damage Amount to the <color_orange><u>Liberated Feelings</u></> card, and changes the Draw count of Exhaust Bullet cards to <color_orange>3</>."
+  ],
+  [
+    "Each time an ally Discards a card, gain {0} {1}.",
+    "Each time an ally Discards a card, gain <color_orange>2</> <color_orange>Flutters</>."
+  ],
+  [
+    "{0}: At the end of the turn, {1}% Extra Attack to the target with the highest max HP, and increase Damage Amount of the Extra Attack by {2}% for each {3}, then decrease all {4} at the start of the turn (max {5} stacks).",
+    "<color_orange>Flutters</>: At the end of the turn, <color_orange>200</>% Extra Attack to the target with the highest max HP, and increase Damage Amount of the Extra Attack by <color_orange>10</>% for each <color_orange>Flutters</>, then decrease all <color_orange>Flutters</> at the start of the turn (max <color_orange>20</> stacks)."
+  ],
+  [
+    "Change Cost of {0} to {1} and the creation count of Heart Bullets to {2} cards.",
+    "Change Cost of <color_orange><u>Radiant Smile</u></> to <color_orange>4</> and the creation count of Heart Bullets to <color_orange>4</> cards."
+  ],
+  [
+    "+{0}% Damage Amount to {1}’s Extra Attacks.",
+    "+<color_orange>30</>% Damage Amount to Diana’s Extra Attacks."
+  ],
+  [
+    "+{0}% Damage Amount to {1}’s Extra Attacks for each Flutters that {2} owns.",
+    "+<color_orange>1</>% Damage Amount to Diana’s Extra Attacks for each Flutters that Diana owns."
+  ],
+  [
+    "Each time a card is Discarded by an ally, gain an additional {0} {1}, and increase the max stack count of {2} by {3}.",
+    "Each time a card is Discarded by an ally, gain an additional <color_orange>2</> <color_orange>Flutters</>, and increase the max stack count of <color_orange>Flutters</> by <color_orange>10</>."
+  ],
+  [
+    "Each time {0}’s {1} stacks to {2}, allies inflict {3}% Extra Attack to a random enemy ({4} time per turn).",
+    "Each time Diana’s <color_orange>Flutters</> stacks to <color_orange>30</>, allies inflict <color_orange>200</>% Extra Attack to a random enemy (<color_orange>1</> time per turn)."
+  ],
+  [
+    "Adds the following effect to the {0} card: Discard {1} random card of this unit.",
+    "Adds the following effect to the <color_orange><u>Disruption Fire</u></> card: Discard <color_orange>1</> random card of this unit."
+  ],
+  [
+    "+{0}% Damage Amount to {1}’s {2}, and if {3}’s Critical Chance is {4}% or higher, add an additional +{5}% to the modifier.",
+    "+<color_orange>5</>% Damage Amount to Diana’s <color_orange><u>Disruption Fire</u></>, and if Diana’s Critical Chance is <color_orange>20</>% or higher, add an additional +<color_orange>5</>% to the modifier."
+  ],
+  [
+    "If {0}'s Critical Chance is {1}% or higher, +{2}% Extra Damage",
+    "If Diana's Critical Chance is <color_orange>10</>% or higher, +<color_orange>4</>% Extra Damage"
+  ],
+  [
+    "For every {0}% Critical Chance above {1}%, add an additional +{2}% to the modifier",
+    "For every <color_orange>5</>% Critical Chance above 10%, add an additional +<color_orange>1</>% to the modifier"
+  ],
+  [
+    "+{0}% Damage Amount for each {1} of this card (max {2})",
+    "+<color_orange>100</>% Damage Amount for each <color_orange><u>activation</u></> of this card (max <color_orange>10</>)"
+  ],
+  [
+    "+{0}% Damage Amount for each({1}) {2} of this card (max {3})",
+    "+<color_orange>150</>% Damage Amount for each(<cc><color_orange>0</></>) <color_orange><u>activation</u></> of this card (max <color_orange>10</>)"
+  ],
+  [
+    "{0} all cards of other Combatants, then +{1}% Damage Amount for each card Discarded",
+    "<color_orange><u>Discard</u></> all cards of other Combatants, then +<color_orange>150</>% Damage Amount for each card Discarded"
+  ],
+  [
+    "+{0}% Damage Amount for each {1} of this card (max{2})",
+    "+<color_orange>100</>% Damage Amount for each <color_orange><u>activation</u></> of this card (max<color_orange>10</>)"
+  ],
+  [
+    "Create this card in {0} ({1} time(s) per battle)",
+    "Create this card in <color_orange><u>Draw Pile</u></> (<color_orange>2</> time(s) per battle)"
+  ],
+  [
+    "{0}%{1} Damage",
+    "<color_orange>350</>%<color_orange></> Damage"
+  ],
+  [
+    "On Critical Hit, move to hand ({0} time per turn)",
+    "On Critical Hit, move to hand (<cc>1</> time per turn)"
+  ],
+  [
+    "Move {0} from {1} or {2} to hand",
+    "Move <cc><u>Anchor Shot</u></> from <color_orange><u>Draw Pile</u></> or <color_orange><u>Graveyard</u></> to hand"
+  ],
+  [
+    "Apply {0} to all {1}",
+    "Apply <color_orange><u>Retrieve</u></> to all <cc><u>Anchor Shots</u></>"
+  ],
+  [
+    "Move {0} from {1} or {2} to hand, then apply {3} to that card",
+    "Move <cc><u>Anchor Shot</u></> from <color_orange><u>Draw Pile</u></> or <color_orange><u>Graveyard</u></> to hand, then apply <color_orange><u>Retain</u></> to that card"
+  ],
+  [
+    "Move {0} from {1} or {2} to hand, then increase Damage Amount of that card by {3}% for {4} turn until {5}d",
+    "Move <cc><u>Anchor Shot</u></> from <color_orange><u>Draw Pile</u></> or <color_orange><u>Graveyard</u></> to hand, then increase Damage Amount of that card by <color_orange>20</>% for <cc>1</> turn until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "Move {0} from {1} or {2} to hand, then +{3}% Critical Chance to that card for {4} turn until {5}d",
+    "Move <cc><u>Anchor Shot</u></> from <color_orange><u>Draw Pile</u></> or <color_orange><u>Graveyard</u></> to hand, then +<color_orange>25</>% Critical Chance to that card for <cc>1</> turn until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "If there is only one target, +{0}% Damage Amount",
+    "If there is only one target, +<color_orange>150</>% Damage Amount"
+  ],
+  [
+    "For each target hit, +{0}% Damage Amount to the next Attack Card of this unit {1}d",
+    "For each target hit, +<color_orange>50</>% Damage Amount to the next Attack Card of this unit <color_orange><u>activate</u></>d"
+  ],
+  [
+    "{0} Change Cost of this card to {1}",
+    "<color_orange>Streak:</> Change Cost of this card to <color_orange>1</>"
+  ],
+  [
+    "For {0} turn, increase Damage Amount of Attack {1} of this unit by {2}% and +{3}% Critical Chance",
+    "For <cc>1</> turn, increase Damage Amount of Attack Cards of this unit by <color_orange>50</>% and +<color_orange>20</>% Critical Chance"
+  ],
+  [
+    "Increase Damage Amount of the next Attack Card of this unit {0}d by {1}%, and +{2} to {3}",
+    "Increase Damage Amount of the next Attack Card of this unit <color_orange><u>activate</u></>d by <color_orange>100</>%, and +<color_orange>2</> to <color_orange><u>Tenacity Damage</u></>"
+  ],
+  [
+    "+{0}% Damage Amount to Attack {1} of this unit for each card of this unit in hand for {2} turn",
+    "+<color_orange>70</>% Damage Amount to Attack Cards of this unit for each card of this unit in hand for <cc>1</> turn"
+  ],
+  [
+    "Increase Damage Amount of {0} in hand by {1}% for {2} turn until {3}d",
+    "Increase Damage Amount of <cc><u>Anchor Shot</u></> in hand by <color_orange>120</>% for <cc>1</> turn until <color_orange><u>activate</u></>d"
+  ],
+  [
+    "+{0}% Damage Amount for each beneficial effect in possession (max +{1}%)",
+    "+<color_orange>80</>% Damage Amount for each beneficial effect in possession (max +<cc>800</>%)"
+  ],
+  [
+    "Pulverize",
+    "Pulverize"
+  ],
+  [
+    "When hitting a target holding {0}, increase Damage Amount by {1}%",
+    "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%"
+  ],
+  [
+    "Changes the increase in Damage Amount effect of {0} from {1}% to {2}%.",
+    "Changes the increase in Damage Amount effect of <color_orange>Lift Anchor</> from <color_orange>80</>% to <color_orange>120</>%."
+  ],
+  [
+    "Changes {0} to be usable even if Cost is insufficient.",
+    "Changes <color_orange><u>Anchor Shot</u></> to be usable even if Cost is insufficient."
+  ],
+  [
+    "The {0} card used through this effect will consume all remaining AP, and for each {1} AP spent less than the original Cost, decrease Damage Amount by {2}%.",
+    "The <color_orange><u>Anchor Shot</u></> card used through this effect will consume all remaining AP, and for each <color_orange>1</> AP spent less than the original Cost, decrease Damage Amount by <color_orange>30</>%."
+  ],
+  [
+    "+{0}% Damage Amount to {1} and +{2}% to the Damage Amount for each beneficial effect in possession",
+    "+<color_orange>200</>% Damage Amount to <color_orange><u>Power Strike</u></> and +<color_orange>20</>% to the Damage Amount for each beneficial effect in possession"
+  ],
+  [
+    "Each time {0} is $activate$d by {1}, gain {2}.",
+    "Each time <color_orange><u>Anchor Shot</u></> is $activate$d by Haru, gain <color_orange>1 Power Supply</>."
+  ],
+  [
+    "{0}: +{1}% Damage Amount to {2}'s Attack {3} (max {4} stacks)",
+    "<color_orange>Power Supply</>: +<color_orange>30</>% Damage Amount to Haru's Attack Cards (max <color_orange>3</> stacks)"
+  ],
+  [
+    "Change the Damage Amount decreased effect that is caused when using the {0} card with insufficient AP to {1}% for each {2} AP spent less than the original Cost.",
+    "Change the Damage Amount decreased effect that is caused when using the <color_orange><u>Anchor Shot</u></> card with insufficient AP to <color_orange>15</>% for each <color_orange>1</> AP spent less than the original Cost."
+  ],
+  [
+    "At the start of the turn, move {0} {1} card to hand, and increase Damage Amount of that card by {2}% until $activate$d.",
+    "At the start of the turn, move <color_orange>1</> <color_orange><u>Anchor Shot</u></> card to hand, and increase Damage Amount of that card by <color_orange>30</>% until $activate$d."
+  ],
+  [
+    "+{0}% Damage Amount to {1} and {2}",
+    "+<color_orange>20</>% Damage Amount to <color_orange><u>Anchor</u></> and <color_orange><u>Power Anchor</u></>"
+  ],
+  [
+    "The following effect is added to {0}: Increase Damage Amount by {1}%",
+    "The following effect is added to <color_orange><u>Anchor Shot</u></>: Increase Damage Amount by <color_orange>10</>%"
+  ]
+]

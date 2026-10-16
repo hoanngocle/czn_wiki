@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Tham vọng của Innos.</><br>Cô là một thiên tài đã vượt qua sự yếu ớt và bất lực nhờ tham vọng, quyết tâm cùng trí tuệ phi thường. Cô sở hữu một cuốn ma đạo thư cấm và giờ đây sử dụng sức mạnh của một thực thể chưa rõ danh tính. Bất chấp những rủi ro từ sức mạnh ấy và các khiếm khuyết trong tính cách, Eishlen vẫn là một nhân vật quan trọng không thể phủ nhận trong cộng đồng Sileyma.",
+  "infoValues": [
+    "Sileyma",
+    "Ngày 19 tháng 9",
+    "Sóng năng lượng",
+    "Kana Yuuki",
+    "Roah Oh"
+  ],
+  "cardDescription": "<color_orange>100%</> <color_orange><u>Lá chắn</u></><br><color_orange>50</>% <color_orange><u>Giữ Lá chắn</u></> trong <cc>1</> lượt (không cộng dồn)",
+  "terms": {
+    "CARD_SHIELD_RETAIN": {
+      "title": "Giữ Lá chắn",
+      "desc": "Cuối lượt, giữ lại <color_orange><u>Lá chắn</u></> tương ứng với lượng hiện tại<br>Khi có nhiều hiệu ứng cùng tồn tại, chỉ áp dụng giá trị cao nhất"
+    },
+    "CARD_SHIELD": {
+      "title": "Lá chắn",
+      "desc": "Giảm lượng Sát thương nhận vào cho đến lượt tiếp theo"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Sóng huyền thuật",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Lá chắn nhận được của Nhân vật được ghép cặp thêm <cc>12</>%.",
+        "Khi Nhân vật được ghép cặp nhận Phản công lần đầu, +<cc>15</>% lượng Sát thương theo Phòng thủ."
+      ]
+    },
+    "2": {
+      "name": "Sóng huyền thuật",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Lá chắn nhận được của Nhân vật được ghép cặp thêm <cc>14</>%.",
+        "Khi Nhân vật được ghép cặp nhận Phản công lần đầu, +<cc>19</>% lượng Sát thương theo Phòng thủ."
+      ]
+    },
+    "3": {
+      "name": "Sóng huyền thuật",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Lá chắn nhận được của Nhân vật được ghép cặp thêm <cc>16</>%.",
+        "Khi Nhân vật được ghép cặp nhận Phản công lần đầu, +<cc>23</>% lượng Sát thương theo Phòng thủ."
+      ]
+    },
+    "4": {
+      "name": "Sóng huyền thuật",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Lá chắn nhận được của Nhân vật được ghép cặp thêm <cc>18</>%.",
+        "Khi Nhân vật được ghép cặp nhận Phản công lần đầu, +<cc>27</>% lượng Sát thương theo Phòng thủ."
+      ]
+    },
+    "5": {
+      "name": "Sóng huyền thuật",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Lá chắn nhận được của Nhân vật được ghép cặp thêm <cc>20</>%.",
+        "Khi Nhân vật được ghép cặp nhận Phản công lần đầu, +<cc>30</>% lượng Sát thương theo Phòng thủ."
+      ]
+    }
+  }
+}

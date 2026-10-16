@@ -1,0 +1,1140 @@
+{
+  "characterId": "1018",
+  "name": "Rin",
+  "identity": [
+    "Void",
+    "Striker"
+  ],
+  "subtitle": {
+    "en": "Dark Mist Stance strengthens her attacks and resource efficiency until another ally uses an Attack card.",
+    "vi": "Thế Sương đen tăng sức mạnh đòn đánh và hiệu quả tài nguyên cho đến khi đồng đội khác dùng bài Tấn công."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1018.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rin",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/rin.json",
+      "docs/combatant/current/api/czn/characters/1018.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Rin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1018.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Scarlet": {
+      "src": "/assets/partner/portrait_character_crop_half_20034.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lilian": {
+      "src": "/assets/item/guide-3c58b0d857ec.webp",
+      "width": 160,
+      "height": 160
+    },
+    "Priscilla": {
+      "src": "/assets/partner/portrait_character_crop_half_20019.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Douglas": {
+      "src": "/assets/partner/portrait_character_crop_half_20015.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Orb of Inhibition": {
+      "src": "/assets/item/guide-172e40b27b15.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Prelude to a Hero": {
+      "src": "/assets/item/guide-a34147d55a1a.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Conquerer's Aspect": {
+      "src": "/assets/item/guide-43cdce9261f8.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mask of Flames": {
+      "src": "/assets/item/relic_1115.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutant Predator Spike": {
+      "src": "/assets/item/relic_0108.webp",
+      "width": 124,
+      "height": 124
+    },
+    "W-52 Dopamine Injector": {
+      "src": "/assets/item/relic_0107.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cursed Corpse": {
+      "src": "/assets/item/guide-cc5dd35d3446.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Rin artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1018.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Void": {
+      "src": "/assets/common/icon_type_ego_creed.png",
+      "width": 44,
+      "height": 44
+    },
+    "Striker": {
+      "src": "/assets/common/icon_type_job_striker.png",
+      "width": 44,
+      "height": 44
+    },
+    "Scarlet E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20034.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Scarlet E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20034.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lilian E4": {
+      "src": "/assets/item/guide-3c58b0d857ec.webp",
+      "width": 160,
+      "height": 160
+    },
+    "Priscilla E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20019.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Douglas E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20015.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lilian E0": {
+      "src": "/assets/item/guide-3c58b0d857ec.webp",
+      "width": 160,
+      "height": 160
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_1018_bhc1",
+      "name": "Sheathe Sword",
+      "cost": 1,
+      "description": "<color_orange>60%</> Damage<br>+<color_orange>20%</> base Damage Amount for each Attack Card of this unit <color_orange><u>activate</u></>d this turn<br>If there is no other Attack Card of this unit in hand, decrease Cost by <color_orange>1</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_1018_01",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_1018_01.webp",
+      "video": "/assets/card/unique_1018_01.webm",
+      "talent": [
+        {
+          "desc": "This card does not reduce the enemy’s Action Count",
+          "id": "TALENT_NO_COUNT",
+          "title": "Haste"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "If this card is in hand at the end of the turn, Exhaust it",
+          "id": "TALENT_ETHEREAL",
+          "title": "Ephemeral"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_1018_bhc1",
+      "ownerId": "1018",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "guide_1018_persona",
+      "name": "Persona",
+      "cost": 1,
+      "description": "[Unique] [Exhaust 2]<br>250% Shield. Move 1 random Attack Card(s) of this unit from Graveyard to hand.<br>Striker only",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/prydwen-card_1109.webp",
+      "video": null,
+      "artKey": "prydwen-persona",
+      "sort": "SORT_SUPPORT",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rin#decks"
+    },
+    {
+      "id": "card_ne_00053",
+      "name": "Sadism​",
+      "cost": 1,
+      "description": "<color_orange>1</> <color_orange><u>Vulnerable</u></> to all enemies<br>Decrease Cost of <color_orange>1</> random Attack Card(s) in hand by <cc>1</> for <cc>1</> turn until <color_orange><u>activate</u></>d",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00331",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00331.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed",
+          "id": "TALENT_LEAD",
+          "title": "Lead"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        },
+        {
+          "desc": "Damage taken increased by <color_orange>50</>%<br>Upon activation, decrease <color_orange><u>Vulnerable</u></> by <cc>1</>",
+          "id": "T_CS00_0002",
+          "title": "Vulnerable"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00053",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_1018_bhc1"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Dark Mist Stance strengthens her attacks and resource efficiency until another ally uses an Attack card.",
+      "vi": "Thế Sương đen tăng sức mạnh đòn đánh và hiệu quả tài nguyên cho đến khi đồng đội khác dùng bài Tấn công."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Strong single-target chains with personal draw and self-buffs.",
+        "vi": "Chuỗi tấn công đơn mục tiêu mạnh, có khả năng tự rút bài và tăng sức mạnh."
+      }
+    ],
+    "cons": [
+      {
+        "en": "No AoE; Attack-heavy teammates can repeatedly break her stance.",
+        "vi": "Không có sát thương diện rộng; đồng đội dùng nhiều bài Tấn công có thể liên tục phá thế."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Dark Mist Secret Art: Destruction",
+        "body": {
+          "en": "Draw 1 card(s) of this unit; Gain Dark Mist Stance",
+          "vi": "Rút bài 1 lá của Nhân vật này; Nhận Thế Sương đen"
+        },
+        "cardId": "c_1018_uni1"
+      },
+      {
+        "title": "Dark Mist Secret Art: Annihilation",
+        "body": {
+          "en": "200% Damage; Dark Mist Stance: Add 1 Hit(s)",
+          "vi": "Gây 200% sát thương; Thế Sương đen: thêm 1 lần đánh"
+        },
+        "cardId": "c_1018_uni2"
+      },
+      {
+        "title": "Dark Mist Inner Art",
+        "body": {
+          "en": "Retain Dark Mist Stance for 1 turn; Dark Mist Stance: +40% Damage Amount to Attack Cards of this unit for 1 turn",
+          "vi": "Giữ Thế Sương đen trong 1 lượt; Thế Sương đen: tăng 40% lượng sát thương của các lá Tấn công của Nhân vật này trong 1 lượt"
+        },
+        "cardId": "c_1018_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1018_srt4",
+      "ratings": [
+        4,
+        5,
+        4,
+        4,
+        4
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II adds a hit in Dark Mist Stance and scales well with allied buffs. Neutral Morale can instead improve Rin's more important attacks.",
+        "vi": "II thêm lần đánh trong Tư thế sương đen và phối hợp tốt hiệu ứng đồng đội. Sĩ khí trung lập có thể tăng các đòn quan trọng hơn của Rin."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is viable; prioritize 2 Vulnerable or 1 AP divines.",
+        "vi": "1 Sĩ khí trung lập hữu ích; ưu tiên thần thánh 2 Dễ tổn thương hoặc 1 Điểm hành động."
+      }
+    },
+    {
+      "cardId": "c_1018_uni1",
+      "ratings": [
+        1,
+        1,
+        1,
+        5,
+        1
+      ],
+      "preferred": "IV",
+      "note": {
+        "en": "IV returns Annihilation and Black Dance for repeated attacks and is central to the recommended builds. Other variants do not replace that loop.",
+        "vi": "IV đưa Annihilation và Black Dance trở lại để đánh nhiều lần, là cốt lõi các bộ bài đề xuất. Biến thể khác không thay được vòng lặp này."
+      },
+      "divine": {
+        "en": "1 AP is the main divine target; avoid neutral replacements.",
+        "vi": "1 Điểm hành động là thần thánh ưu tiên; tránh thay bằng trung lập."
+      }
+    },
+    {
+      "cardId": "c_1018_uni2",
+      "ratings": [
+        2,
+        4,
+        3,
+        1,
+        4
+      ],
+      "preferred": "II / V",
+      "note": {
+        "en": "II's four hits maximize buffed damage but increase AP demands. V reduces the cost of other Rin attacks and is easier to sustain.",
+        "vi": "Bốn lần đánh của II tối đa sát thương có tăng sức mạnh nhưng cần nhiều Điểm hành động. V giảm chi phí đòn Rin khác, dễ duy trì hơn."
+      },
+      "divine": {
+        "en": "Consider 2 Vulnerable or Weakness Attack.",
+        "vi": "Cân nhắc 2 Dễ tổn thương hoặc Tấn công điểm yếu."
+      }
+    },
+    {
+      "cardId": "c_1018_uni3",
+      "ratings": [
+        3,
+        5,
+        3,
+        3,
+        4
+      ],
+      "preferred": "II",
+      "note": {
+        "en": "II draws two Rin cards while preserving Dark Mist. V offers a permanent buff with simpler ordering and removes itself from later draws.",
+        "vi": "II rút hai lá Rin trong khi giữ Sương đen. V tăng sức mạnh lâu dài, dễ sắp thứ tự hơn và tự rời các lượt rút sau."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale is acceptable; choose the variant before spending on divines.",
+        "vi": "1 Sĩ khí trung lập chấp nhận được; ưu tiên đúng biến thể trước khi đầu tư thần thánh."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Scarlet E4",
+      "score": "141.62%",
+      "note": {
+        "en": "Listed by Prydwen without a written rationale.",
+        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+      }
+    },
+    {
+      "name": "Scarlet E0",
+      "score": "119.45%",
+      "note": {
+        "en": "Listed by Prydwen without a written rationale.",
+        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+      }
+    },
+    {
+      "name": "Lilian E4",
+      "score": "112.27%",
+      "note": {
+        "en": "Listed by Prydwen without a written rationale.",
+        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+      }
+    },
+    {
+      "name": "Priscilla E4",
+      "score": "110.88%",
+      "note": {
+        "en": "Listed by Prydwen without a written rationale.",
+        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+      }
+    },
+    {
+      "name": "Douglas E4",
+      "score": "100.00%",
+      "note": {
+        "en": "A free temporary option when no stronger listed Partner is available.",
+        "vi": "Lựa chọn miễn phí tạm thời khi chưa có Đối tác mạnh hơn trong danh sách."
+      }
+    },
+    {
+      "name": "Lilian E0",
+      "score": "97.31%",
+      "note": {
+        "en": "Listed by Prydwen without a written rationale.",
+        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Executioner's Tool (2) + Black Wing (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Consistent across builds and modes; specialized four-piece sets can win when their conditions are met.",
+        "vi": "Ổn định ở nhiều bộ bài và chế độ; bộ 4 món chuyên biệt có thể hơn khi đáp ứng điều kiện."
+      }
+    },
+    {
+      "name": "Orb of Inhibition (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Its damage bonus overlaps with readily available buffs, so the flexible two-piece setup usually performs better.",
+        "vi": "Hiệu ứng tăng cường sát thương trùng nhóm với nhiều nguồn dễ có, nên phối bộ 2 món linh hoạt thường hiệu quả hơn."
+      }
+    },
+    {
+      "name": "Prelude to a Hero (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "A Crit Rate option when an ally or mechanic can discard Rin's cards to activate it.",
+        "vi": "Lựa chọn Tỷ lệ bạo kích khi đồng đội hoặc cơ chế có thể bỏ bài của Rin để kích hoạt."
+      }
+    },
+    {
+      "name": "Conquerer's Aspect (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "A strong upgrade for decks dealing most of their damage through 1-cost cards.",
+        "vi": "Nâng cấp mạnh cho bộ bài gây phần lớn sát thương bằng lá có chi phí 1."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "Void DMG% >= ATK%",
+        "vi": "Sát thương Hư vô% >= Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
+        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Ensure Rin's ATK is at 601 in the character screen at a minimum to activate the initial stage of her Potential 7. Ideally, though, scale her ATK higher than that targeting breakpoints of +50 over 600 to grant her even more Crit Rate, but not at the cost of swapping out her most optimal Main Stats or sacrificing too many Sub Stats.",
+    "vi": "Đạt tối thiểu 601 tấn công để kích hoạt tiềm năng 7, rồi tăng thêm mà không hy sinh chỉ số chính hoặc quá nhiều chỉ số phụ tốt. Nguồn có khác biệt: phần chỉ số khuyên mốc +50, nhưng mô tả tiềm năng ghi thêm tỷ lệ chí mạng mỗi 40 tấn công."
+  },
+  "potentialIntro": {
+    "en": "Rin’s Signature Potentials offer significant damage boosts as well as some additional functionality, making them a high priority to unlock.3-1: Adds Dark Mist Stance to her Basic Attacks, making it an absolute must-have as soon as possible to ensure consistent starts to battles.5-1: Increases both of Rin’s Basic Attacks by +5% and if her ATK is greater than 500, grants a further +5% boost.7: When Rin’s ATK is over 600, she gains +5% Crit Rate and for every 40, grants a further 1% up to a cap of 10% for a total of 15%.",
+    "vi": "Ưu tiên mở 3-1 ngay vì bài cơ bản có thể kích hoạt Thế Sương đen, giúp khởi đầu ổn định; 5-1 tăng hai bài cơ bản 5% sát thương, cộng thêm 5% khi tấn công >500. Tiềm năng 7 cho 5% tỷ lệ chí mạng khi tấn công >600, thêm 1% mỗi 40 tấn công vượt 600, tối đa thêm 10%, tổng 15%."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds the Gain Dark Mist Stance effect to Dark Mist Sword: First Form, Dark Mist Sword: Third Form card.",
+        "vi": "Thêm hiệu ứng Nhận Thế Sương đen cho lá Dark Mist Sword: First Form, Dark Mist Sword: Third Form."
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Rin’s Dark Mist Sword: First Form and Dark Mist Sword: Third Form; If Rin’s Attack is 500 or higher, add an additional +5% to the modifier",
+        "vi": "Tăng 5% lượng sát thương của Dark Mist Sword: First Form và Dark Mist Sword: Third Form của Rin; Nếu Tấn công của Rin đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Rin’s Attack is 600 or higher, +5% Critical Chance; For every 40 Attack exceeding 600, add an additional +1% to the modifier; (additional +10% max)",
+        "vi": "Nếu Tấn công của Rin đạt ít nhất 600, tăng 5% Tỷ lệ chí mạng; Với mỗi 40 Tấn công vượt quá 600, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "RFS-17"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Wings of Light",
+        "Mask of Flames"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "RFS-17 is assuming use with Narja / other forms of Cost-Reduction for Rin's main damage cards. Mask of Flames assumes a niche build with high Vulnerable uptime.",
+        "vi": "RFS-17 giả định Rin đi cùng Narja hoặc có cách giảm chi phí cho bài sát thương chính. Mask of Flames dành cho hướng đặc thù duy trì Dễ tổn thương thường xuyên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "Esophagus of Madness",
+        "RFS-17"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "RFS-17 is assuming use with Narja / other forms of Cost-Reduction for Rin's main damage cards. Mask of Flames assumes a niche build with high Vulnerable uptime.",
+        "vi": "RFS-17 giả định Rin đi cùng Narja hoặc có cách giảm chi phí cho bài sát thương chính. Mask of Flames dành cho hướng đặc thù duy trì Dễ tổn thương thường xuyên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Mutant Predator Spike",
+        "W-52 Dopamine Injector",
+        "RFS-17"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "RFS-17 is assuming use with Narja / other forms of Cost-Reduction for Rin's main damage cards. Mask of Flames assumes a niche build with high Vulnerable uptime.",
+        "vi": "RFS-17 giả định Rin đi cùng Narja hoặc có cách giảm chi phí cho bài sát thương chính. Mask of Flames dành cho hướng đặc thù duy trì Dễ tổn thương thường xuyên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Sword Reflected in the Lake",
+        "Harpoon Case of Broken Resolve",
+        "RFS-17"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "RFS-17 is assuming use with Narja / other forms of Cost-Reduction for Rin's main damage cards. Mask of Flames assumes a niche build with high Vulnerable uptime.",
+        "vi": "RFS-17 giả định Rin đi cùng Narja hoặc có cách giảm chi phí cho bài sát thương chính. Mask of Flames dành cho hướng đặc thù duy trì Dễ tổn thương thường xuyên."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Esophagus of Madness",
+        "Obsidian Sword",
+        "RFS-17"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ],
+      "note": {
+        "en": "RFS-17 is assuming use with Narja / other forms of Cost-Reduction for Rin's main damage cards. Mask of Flames assumes a niche build with high Vulnerable uptime.",
+        "vi": "RFS-17 giả định Rin đi cùng Narja hoặc có cách giảm chi phí cho bài sát thương chính. Mask of Flames dành cho hướng đặc thù duy trì Dễ tổn thương thường xuyên."
+      }
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The recommended Card Engraving is [Umbra Engraving 5: Add 2 Hit(s) [Exhaust +2]]as it increases the [Exhaust] count of the recommended Persona Card (which is [Exhaust 5] base but goes up to [Exhaust 9] with both Engravings) but also makes the Attack Card much stronger, as well).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Ưu tiên khắc ấn bài Umbra 5: thêm 2 lần đánh và +2 Kiệt sức. Bài Nhân cách đề xuất từ Kiệt sức 5 lên Kiệt sức 9 khi có cả hai khắc ấn, đồng thời đánh mạnh hơn. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2 — Recommended",
+        "vi": "Mùa 2 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Eternal Hunger.+Draw, ++AP(Also 1 Additional Skill for Rin's Black Dance)Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +Damage",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Eternal Hunger tăng rút bài và điểm hành động, đồng thời thêm 1 kỹ năng để hỗ trợ Black Dance của Rin. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Provides a small +20% (additive) bonus to Black Dance’s base damage multiplier which after factoring in full save data team buffs isn’t a huge increase to Rin’s damage potential but in low buff scenarios like Chaos can be a helpful boost to her.",
+        "vi": "Black Dance tăng 20% hệ số sát thương cơ bản theo phép cộng. Nhỏ khi đội và bộ bài lưu đã có nhiều tăng cường, nhưng hữu ích trong Chaos."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Grants Rin access to a new card every time she enters Dark Mist Stance called Sheathe Sword. This card is a combo finisher and ideally should be used at the end of your combos after you’ve used all of your usual attack sequence. Using it this way will ensure it’s discount to 0 AP instead of costing the original 1 and also that it gains as much additive damage as possible. In save based game modes this is just another small damage increase for Rin but in Chaos it can be a welcome addition to Rin’s damage arsenal each turn.",
+        "vi": "Mỗi lần vào Thế Sương đen tạo Sheathe Sword. Nên dùng cuối chuỗi tấn công để giảm từ 1 xuống 0 điểm hành động và tích tối đa sát thương cộng thêm; tăng nhẹ ở dữ liệu lưu, hữu ích hơn trong Chaos."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Improves the damage and Vulnerableapplication of Rin’s Ego Skill. Ego Points like this are never too impactful and Rin’s is no exception, as her Ego makes up very little of her total damage potential overall.",
+        "vi": "Kỹ năng Ego tăng sát thương và khả năng áp Dễ tổn thương. Tác động nhỏ vì kỹ năng chỉ chiếm ít sát thương cả trận."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "This dupe is a pretty big deal; it allows you to get Stanceoff any card that Rin uses, meaning you can pop Destructioninto both your payoff cards without using your Basics. It also opens up the option for secondary DPS comps since you can reliably apply Stanceevery turn. Note: This Ego Point is completely utility-based and does not directly grant damage; therefore, we can’t calculate it.",
+        "vi": "Bất kỳ bài nào Rin dùng cũng có thể kích hoạt thế đánh, cho phép dùng Destruction nối hai lá gây sát thương chủ lực mà không cần bài cơ bản. Mở thêm đội hình sát thương phụ và tăng độ ổn định mỗi lượt; thuần tiện ích nên nguồn không tính phần trăm sát thương."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Boosts the base damage increase of Rin’s Potentials from 20% to 26%. A nice damage increase as it affects her kit, but nothing game-changing.",
+        "vi": "Mức tăng sát thương cơ bản từ tiềm năng tăng từ 20% lên 26%; hữu ích nhưng không đổi cách chơi."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Rin’s E6 is her first sizable upgrade from Ego Points, as it allows her to start the battle in Dark Mist Stance and also grants her and the team 2 Morale (equivalent to 40% additive damage) for the turn whenever she starts the turn in Dark Mist Stance. What makes this Ego strong is the combination of utility plus the fact that Morale affects all of Rin’s damage, not just a single ability.",
+        "vi": "Bắt đầu trận trong Thế Sương đen; nếu bắt đầu lượt trong thế này, toàn đội nhận 2 Sĩ khí, tương đương 40% sát thương cộng thêm trong lượt. Mạnh nhờ vừa tăng tiện ích vừa tác động lên mọi nguồn sát thương của Rin."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Multi-Hit Rin",
+        "vi": "Rin nhiều nhịp đánh"
+      },
+      "role": {
+        "en": "Hand-skill stacking attack carry",
+        "vi": "Chủ lực tích kỹ năng trên tay để tăng nhịp đánh"
+      },
+      "partner": "Scarlet",
+      "cards": [
+        {
+          "cardId": "c_1018_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni1_rsp4",
+          "count": 4,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1018_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni3_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Conquerer's Aspect",
+        "Executioner's Tool"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Dark Mist Secret Art: Destruction returns Dark Mist Secret Art: Annihilation and Dark Mist Secret Art: Black Dance to hand up to four times each turn. Fill the hand with skills before Dark Mist Secret Art: Black Dance, using season 2 Contaminated Spore or retained allied skills such as Orlea's. AP demand is very high: Narja or persistent cost reduction is preferred, with other AP batteries/Divines as alternatives.",
+        "vi": "Dark Mist Secret Art: Destruction đưa Dark Mist Secret Art: Annihilation và Dark Mist Secret Art: Black Dance lên tay tối đa bốn lần mỗi lượt. Tích nhiều lá kỹ năng trước Dark Mist Secret Art: Black Dance bằng Contaminated Spore mùa 2 hoặc kỹ năng Giữ lại của đồng đội như Orlea. Nhu cầu Điểm hành động rất cao: ưu tiên Narja hoặc giảm chi phí lâu dài; cũng có thể dùng nguồn cấp Điểm hành động khác hay Thức tỉnh thần thánh để bù."
+      }
+    },
+    {
+      "name": {
+        "en": "Discount Rin",
+        "vi": "Rin tự giảm chi phí"
+      },
+      "role": {
+        "en": "AP-efficient repeat attacker",
+        "vi": "Lặp tấn công với nhu cầu Điểm hành động thấp hơn"
+      },
+      "partner": "Scarlet",
+      "cards": [
+        {
+          "cardId": "c_1018_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni1_rsp4",
+          "count": 4,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1018_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni3_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Black Wing",
+        "Executioner's Tool",
+        "Cursed Corpse"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Follow Multi-Hit Rin's movement and hand-filling sequence, but choose the Dark Mist Secret Art: Annihilation that discounts Dark Mist Secret Art: Black Dance. This makes the rotation easier to fund without a dedicated AP battery or AP Divines.",
+        "vi": "Giữ vòng chuyển bài và tích kỹ năng trên tay của Rin nhiều nhịp đánh, nhưng chọn Dark Mist Secret Art: Annihilation giảm chi phí Dark Mist Secret Art: Black Dance. Nhờ vậy vòng đánh dễ trả Điểm hành động hơn ngay cả khi không có nhân vật chuyên cấp Điểm hành động hoặc Thức tỉnh thần thánh cấp Điểm hành động."
+      }
+    },
+    {
+      "name": {
+        "en": "Narja Discount",
+        "vi": "Rin nhận giảm chi phí từ Narja"
+      },
+      "role": {
+        "en": "Narja-enabled flexible carry",
+        "vi": "Chủ lực linh hoạt nhờ Narja giảm chi phí"
+      },
+      "partner": "Scarlet",
+      "cards": [
+        {
+          "cardId": "c_1018_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_1018_uni1_rsp4",
+          "count": 4
+        },
+        {
+          "cardId": "c_1018_uni2_rsp2",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1018_uni3_rsp2",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1018_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "guide_1018_persona",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00053",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Black Wing",
+        "Executioner's Tool",
+        "Cursed Corpse"
+      ],
+      "fragmentPieces": [
+        0,
+        0,
+        0
+      ],
+      "note": {
+        "en": "Let Narja provide cost reduction and drop AP Divines. Spend the saved Faint Memory budget on Personas or neutral cards with useful Epiphanies, gaining extra buffs or more skills to hold for Dark Mist Secret Art: Black Dance's multi-hit scaling.",
+        "vi": "Để Narja phụ trách giảm chi phí và bỏ các Thức tỉnh thần thánh cấp Điểm hành động. Dùng phần Ký ức phai nhạt nhạt tiết kiệm được cho Persona hoặc lá trung lập có Thức tỉnh bài hữu ích, bổ sung hiệu ứng tăng sức mạnh hoặc tăng số kỹ năng giữ trên tay để hỗ trợ cơ chế nhiều nhịp đánh của Dark Mist Secret Art: Black Dance."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Narja",
+      "note": {
+        "en": "Turn-long discounts remain useful through repeated card plays; Voracity and Predation add supplementary buffs.",
+        "vi": "Giảm chi phí cả lượt vẫn hữu ích khi dùng lại bài nhiều lần; Háu ăn và Săn mồi bổ sung hiệu ứng tăng cường."
+      }
+    },
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Adagio V assembles Rin's hand; E2 Rhythm Boost and Dimensional Cube activation add damage bonuses.",
+        "vi": "Adagio V tập hợp bài cho Rin; Rhythm Boost E2 và kích hoạt Dimensional Cube bổ sung sát thương."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "Heavy draw collects Rin's required setup cards before her main attack sequence.",
+        "vi": "Rút nhiều bài giúp gom đủ các lá thiết lập của Rin trước chuỗi tấn công chính."
+      }
+    },
+    {
+      "name": "Orlea",
+      "note": {
+        "en": "Retained skills maintain the hand condition that boosts Black Dance, with passive buffs each turn.",
+        "vi": "Kỹ năng Giữ lại duy trì điều kiện bài trên tay để tăng Black Dance, đồng thời cung cấp hiệu ứng tăng cường mỗi lượt."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Rin Persona Loop",
+        "vi": "Rin với vòng lặp bài Nhân cách"
+      },
+      "members": [
+        "Rin",
+        "Veronica",
+        "Narja"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

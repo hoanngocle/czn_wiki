@@ -1,0 +1,1093 @@
+{
+  "characterId": "30115",
+  "name": "Arabella",
+  "identity": [
+    "Instinct",
+    "Striker"
+  ],
+  "subtitle": {
+    "en": "Applies Fracture across enemies and can trigger it before the usual end-of-turn window.",
+    "vi": "Gây Rạn nứt lên nhiều kẻ địch và có thể kích hoạt trước thời điểm cuối lượt thông thường."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30115.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/arabella",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/arabella.json",
+      "docs/combatant/current/api/czn/characters/30115.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Licinia": {
+      "src": "/assets/partner/portrait_character_crop_half_30116.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Scarlet": {
+      "src": "/assets/partner/portrait_character_crop_half_20034.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Priscilla": {
+      "src": "/assets/partner/portrait_character_crop_half_20019.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lilian": {
+      "src": "/assets/item/guide-3c58b0d857ec.webp",
+      "width": 160,
+      "height": 160
+    },
+    "Douglas": {
+      "src": "/assets/partner/portrait_character_crop_half_20015.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sanguine Thorn": {
+      "src": "/assets/item/guide-cb86a0513698.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Cursed Corpse": {
+      "src": "/assets/item/guide-cc5dd35d3446.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "The Destruction of Erysichthon": {
+      "src": "/assets/item/relic_1141_6.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutagenic Wave Amplifier": {
+      "src": "/assets/item/relic_0106.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Obsidian Sword": {
+      "src": "/assets/item/relic_1060.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sword Reflected in the Lake": {
+      "src": "/assets/item/relic_1187.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Corrupted Gauntlet": {
+      "src": "/assets/item/relic_5043.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hilde": {
+      "src": "/assets/combatant/portrait_character_crop_half_30113.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Adelheid": {
+      "src": "/assets/combatant/portrait_character_crop_half_1055.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Olga": {
+      "src": "/assets/combatant/portrait_character_crop_half_30117.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Striker": {
+      "src": "/assets/common/icon_type_job_striker.png",
+      "width": 44,
+      "height": 44
+    },
+    "Licinia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30116.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Licinia E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30116.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Scarlet E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20034.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Priscilla E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20019.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Lilian E4": {
+      "src": "/assets/item/guide-3c58b0d857ec.webp",
+      "width": 160,
+      "height": 160
+    },
+    "Douglas E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20015.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Applies Fracture across enemies and can trigger it before the usual end-of-turn window.",
+      "vi": "Gây Rạn nứt lên nhiều kẻ địch và có thể kích hoạt trước thời điểm cuối lượt thông thường."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Effective against groups, with damage-over-time pressure and personal draw.",
+        "vi": "Hiệu quả khi đánh nhiều mục tiêu, có sát thương theo thời gian và tự rút bài."
+      }
+    ],
+    "cons": [
+      {
+        "en": "AP demand can be high, and Fracture cannot trigger Weakness Attacks.",
+        "vi": "Có thể cần nhiều Điểm hành động; sát thương Rạn nứt không kích hoạt tấn công điểm yếu."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Observer’s Pleasure",
+        "body": {
+          "en": "1 Fracture Amplification; For each enemy present, +20% Damage Amount to this unit for 1 turn",
+          "vi": "1 Khuếch đại Rạn nứt; Với mỗi kẻ địch đang hiện diện, bản thân nhận +20% sát thương trong 1 lượt"
+        },
+        "cardId": "c_30115_uni1"
+      },
+      {
+        "title": "Hollow Verdict",
+        "body": {
+          "en": "40% Damage and 2 Fracture to all enemies, and activate Fracture inflicted by this unit",
+          "vi": "Gây 40% sát thương và 2 Rạn nứt lên tất cả kẻ địch, rồi kích hoạt Rạn nứt do bản thân gây ra"
+        },
+        "cardId": "c_30115_uni2"
+      },
+      {
+        "title": "Sadistic Restraint",
+        "body": {
+          "en": "60% Damage, and activate Fracture inflicted by this unit 2 times; Add 1 Hit for each type of harmful effect the target has (max 3 times)",
+          "vi": "Gây 60% sát thương và kích hoạt Rạn nứt do bản thân gây ra 2 lần; Thêm 1 lần đánh cho mỗi loại hiệu ứng bất lợi trên mục tiêu (tối đa 3 lần)"
+        },
+        "cardId": "c_30115_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30115_srt4",
+      "ratings": [
+        5,
+        2,
+        3,
+        5,
+        2
+      ],
+      "preferred": "I / IV",
+      "note": {
+        "en": "I builds single-target Fracture quickly; IV improves self-draw. III is an alternative for spreading Fracture across enemies.",
+        "vi": "I tích Rạn nứt nhanh lên một mục tiêu; IV cải thiện tự rút bài. III phù hợp để lan Rạn nứt lên nhiều kẻ địch."
+      },
+      "divine": {
+        "en": "Neutral 2 Morale becomes competitive once other cards can reach the Fracture cap.",
+        "vi": "2 Sĩ khí trung lập đáng cân nhắc khi các lá khác đã đủ đạt giới hạn Rạn nứt."
+      }
+    },
+    {
+      "cardId": "c_30115_uni1",
+      "ratings": [
+        3,
+        3,
+        3,
+        4,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V resets Fracture Amplification each turn and supports single-target stacking; area-focused alternatives depend on the encounter.",
+        "vi": "V đặt lại Khuếch đại Rạn nứt mỗi lượt và hỗ trợ tích cộng dồn lên một mục tiêu; hướng diện rộng tùy trận đấu."
+      },
+      "divine": {
+        "en": "Prefer draw, Common/own-card draw or AP; neutral Morale or Vulnerable gives less value.",
+        "vi": "Ưu tiên rút bài, rút Bài chung/bài bản thân hoặc Điểm hành động; Sĩ khí hay Dễ tổn thương trung lập ít giá trị hơn."
+      }
+    },
+    {
+      "cardId": "c_30115_uni2",
+      "ratings": [
+        2,
+        5,
+        4,
+        1,
+        5
+      ],
+      "preferred": "II / V",
+      "note": {
+        "en": "II triggers Fracture twice on the amplified target; III serves area fights. V helps when stack generation remains insufficient.",
+        "vi": "II kích hoạt Rạn nứt hai lần trên mục tiêu được khuếch đại; III dùng cho trận nhiều mục tiêu. V hữu ích khi còn thiếu khả năng tạo cộng dồn."
+      },
+      "divine": {
+        "en": "Prefer cost reduction or targeted draw; neutral effects replace important mechanics.",
+        "vi": "Ưu tiên giảm chi phí hoặc rút bài có chọn lọc; hiệu ứng trung lập làm mất cơ chế quan trọng."
+      }
+    },
+    {
+      "cardId": "c_30115_uni3",
+      "ratings": [
+        2,
+        5,
+        1,
+        2,
+        5
+      ],
+      "preferred": "II / V",
+      "note": {
+        "en": "II combines four hits with frequent Fracture triggers; pair V with it to maximize an Attack Card build's hit count.",
+        "vi": "II kết hợp bốn lần đánh với nhiều lần kích hoạt Rạn nứt; phối hợp V để tối đa số lần đánh của bộ bài Tấn công."
+      },
+      "divine": {
+        "en": "Prioritize cost reduction or 2 Vulnerable; neutral Morale/Vulnerable is situational.",
+        "vi": "Ưu tiên giảm chi phí hoặc 2 Dễ tổn thương; Sĩ khí/Dễ tổn thương trung lập tùy nhu cầu."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Licinia E4",
+      "score": "188.86%",
+      "note": {
+        "en": "E4 keeps Licinia's tailored effects and raises their values, making it a substantial investment upgrade.",
+        "vi": "E4 giữ các hiệu ứng phù hợp riêng của Licinia và tăng giá trị, nên là nâng cấp đáng kể khi đầu tư."
+      }
+    },
+    {
+      "name": "Licinia E0",
+      "score": "149.96%",
+      "note": {
+        "en": "Licinia combines consistent vulnerability amplification, critical chance and strong base stats for Arabella.",
+        "vi": "Licinia kết hợp tăng sát thương mục tiêu phải chịu ổn định, Tỷ lệ chí mạng và chỉ số cơ bản cao cho Arabella."
+      }
+    },
+    {
+      "name": "Scarlet E0",
+      "score": "125.09%",
+      "note": {
+        "en": "Scarlet is a strong standard alternative when her passive can stay active.",
+        "vi": "Scarlet là lựa chọn thường mạnh khi duy trì được điều kiện nội tại."
+      }
+    },
+    {
+      "name": "Priscilla E4",
+      "score": "118.78%",
+      "note": {
+        "en": "High-Ego Priscilla is usable after Battle Pass investment, though her stats and activation conditions trail Scarlet.",
+        "vi": "Priscilla Ego cao dùng được nếu đã đầu tư vé mùa, nhưng chỉ số và điều kiện kích hoạt kém thuận lợi hơn Scarlet."
+      }
+    },
+    {
+      "name": "Lilian E4",
+      "score": "114.80%",
+      "note": {
+        "en": "Lilian is accessible despite incomplete passive use; Ritochka is close enough that Ego-skill preference can decide.",
+        "vi": "Lilian dễ tiếp cận dù khó tận dụng hết nội tại; Ritochka khá sát nên có thể chọn theo kỹ năng Ego ưa thích."
+      }
+    },
+    {
+      "name": "Douglas E4",
+      "score": "100%",
+      "note": {
+        "en": "Douglas is a free temporary fallback when stronger listed partners are unavailable.",
+        "vi": "Douglas là phương án miễn phí tạm thời khi chưa có các Đối tác mạnh hơn trong danh sách."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Sanguine Thorn (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Sanguine Thorn strongly boosts the critical damage of Arabella's core attacks and Fracture hits.",
+        "vi": "Sanguine Thorn tăng mạnh Sát thương chí mạng cho các đòn chính và lần gây Rạn nứt của Arabella."
+      }
+    },
+    {
+      "name": "Black Wing (2) + Executioner's Tool (2) + Cursed Corpse (2)",
+      "score": "—",
+      "note": {
+        "en": "This easier-to-assemble 2/2/2 combination remains competitive while allowing more flexibility.",
+        "vi": "Bộ 2/2/2 này dễ ghép và linh hoạt hơn mà sát thương vẫn có sức cạnh tranh."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "CRIT Rate > CRIT DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "ATK% >= Instinct DMG%",
+        "vi": "Tấn công% >= Sát thương Bản năng%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "DoT DMG% => CRIT DMG% > CRIT Rate% > ATK > ATK%",
+        "vi": "Sát thương theo thời gian% => Sát thương chí mạng% > Tỷ lệ chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Maxing out Arabella's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 700 ATK, which almost all Arabella builds can accomplish.",
+    "vi": "Ưu tiên đạt 700 tấn công để tối đa hóa tiềm năng 7; đây là ngưỡng khá dễ đạt với đa số cách xây dựng."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Arabella’s 3-1 Potential improves their starting Basic-Attack Card. Granting it to inflict 1 Fracture to all enemies. Provides a nice boost to Arabella’s early power when in Chaos/Sortie but unutilized in Save Data content.5-1: Arabella’s 5-1 Potential improves upon their Basic-Attack Card again, increasing the damage dealt by an additional +5% and a further 5% when Arabella’s attack is 500 or higher. Again, only useful in Chaos/Sortie.7: Arabella’s 7 Potential grants Arabella +5% Instinct-Attribute Damage when their Attack Stat is 600 or higher. For every 20 Attack past 600 - grants an additional +2% to this modifier up to a maximum of +10%. Provides a very nice damage boost to Arabella and should be invested in as soon as possible.",
+    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp bài tấn công cơ bản gây 1 Rạn nứt lên toàn bộ địch, còn 5-1 tăng 5% sát thương và thêm 5% nếu tấn công ≥500, chủ yếu hữu ích trong Chaos trước khi xóa bài. Ưu tiên tiềm năng 7: đạt ≥600 tấn công nhận 5% sát thương Bản năng, thêm 2% mỗi 20 tấn công vượt 600, tối đa thêm 10% ở 700 tấn công."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds the following effect to the Diagonal Slash card: 1 Fracture",
+        "vi": "Thêm hiệu ứng sau vào lá Diagonal Slash: 1 Rạn nứt"
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Arabella’s Diagonal Slash card; If Arabella's Attack is 500 or higher, add an additional +5% to the modifier",
+        "vi": "+5% sát thương cho lá Diagonal Slash của Arabella; Nếu Tấn công của Arabella từ 500 trở lên, cộng thêm +5% vào hệ số"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "If Arabella’s Attack is 600 or higher, +5% Instinct Attribute Damage Amount, and for every 20 Attack exceeding 600, add an additional +2% to the modifier (additional +10% max)",
+        "vi": "Nếu Tấn công của Arabella từ 600 trở lên, +5% sát thương hệ Bản năng; mỗi 20 Tấn công vượt quá 600 cộng thêm +2% vào hệ số (tối đa cộng thêm +10%)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery",
+        "vi": "Mùa 4: Kaleidoscope Hatchery"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "The Destruction of Erysichthon",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Mutagenic Wave Amplifier",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Sword Reflected in the Lake",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Criticism of Discord",
+        "Corrupted Gauntlet",
+        "Esophagus of Madness",
+        "Obsidian Sword"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4 (source current season)",
+        "vi": "Mùa 4 (mùa hiện tại theo nguồn)"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.!’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.There are no recommended specific Refinements.+15% Critical Hit on Vulnerable, only works on Attack Cards, which makes it not synergistic with Arabella's main damage of Fracture.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Không có tinh luyện cụ thể được khuyến nghị. Tăng 15% chí mạng khi đánh mục tiêu Dễ tổn thương chỉ áp dụng cho bài tấn công, không phối hợp với nguồn sát thương Rạn nứt chính của Arabella. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1",
+        "vi": "Mùa 1"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +Damage",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s first Ego Manifestation “Sleeping Memory” improves their Mythic Card “The Art of Unmaking”. Improving the base damage dealt by an additional +50% and increasing the damage per debuff to 20% from 15% whilst also increasing the bonus damage cap to 180%. Provides a slight damage boost to their Mythic Card but ultimately doesn’t do much for their overall gameplan. Because this card is commonly removed, as is done in the deck used for calculations, it is not factored into the 'percentages' but if kept can be a small increase from its original.",
+        "vi": "The Art of Unmaking tăng thêm 50% sát thương cơ bản, mức tăng mỗi hiệu ứng bất lợi từ 15% lên 20% và giới hạn lên 180%. Lợi ích nhỏ với kế hoạch chính; lá này thường bị xóa nên phần tính sát thương của nguồn không tính nâng cấp này."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s “Awakening Memory” grants Arabella an additional passive effect. Applies 1 “Fracture Amplification” at the start of battle to the enemy with the highest amount of AP. Additionally, whenever Arabella triggers her own “Fracture” through one of her own abilities, Arabella applies 3 stacks of “Fracture” to all enemies, up to 4 times per turn. This is a solid Ego for Arabella when being brought into Chaos/Sortie. Without refined Save Data this will help with ensuring Arabella is able to maintain “Fracture” on their enemies.",
+        "vi": "Đầu trận áp 1 Khuếch đại Rạn nứt lên địch có điểm hành động cao nhất; mỗi lần Arabella tự kích hoạt Rạn nứt bằng kỹ năng của mình, áp 3 Rạn nứt lên tất cả địch, tối đa 4 lần mỗi lượt. Hữu ích trong Chaos hoặc khi bộ bài lưu chưa tối ưu."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s “Vivid Memory” improves upon their Ego-Skill “Pathetic End”. Grants an additional +200% to the base damage, and increases the additional amount of fixed damage dealt by +20% - for a total of +50% additional fixed damage. The maximum cap per turn is also increased to 1500% of Arabella’s attack per turn, instead of 1000%. Very mediocre and overall doesn’t change their playstyle all that much.",
+        "vi": "Pathetic End tăng thêm 200% sát thương cơ bản và thêm 20% sát thương cố định, tổng 50%; giới hạn mỗi lượt tăng từ 1000% lên 1500% tấn công. Ít thay đổi lối chơi."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s “Inner Memory” provides Arabella another passive effect. Whenever Arabella applies or triggers her own instance of “Fracture” via her own ability, Arabella gains 1 stack of “Deconstruction Analysis”. “Dismantle Analysis” can stack up to 6 times and increases Arabella’s “Fracture” DoT damage by 5% per stack. This is a solid source of increased damage for Arabella’s DoT damage, as finding buffs that directly increase DoT damage can be hard to find, but overall not worth investing for.",
+        "vi": "Mỗi lần tự áp hoặc kích hoạt Rạn nứt nhận 1 cộng dồn Deconstruction Analysis, tối đa 6; mỗi cộng dồn tăng sát thương theo thời gian của Rạn nứt 5%. Là nguồn tăng sát thương trực tiếp hữu ích, nhưng nguồn không khuyến nghị đầu tư chỉ để đạt mốc này."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s Complete Memory Ego Manifestation is your standard Potential increase. Provides some slight extra damage output. Very standard.",
+        "vi": "Nâng các tiềm năng theo cơ chế thông thường, tăng nhẹ sát thương tổng thể."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Arabella’s “Liberated Memory” grants Arabella another passive ability. Firstly, it increases the maximum stack count of “Deconstruction Analysis by 4. Whenever Arabella triggers her own “Fracture” through her own ability, Arabella applies 1 additional stack of “Fracture” to the target(s) who have been inflicted with “Fracture Amplification”. Additionally - Arabella's “Fracture” has an additional +50% Critical Damage against enemies who are affected by “Fracture Amplification”. This is by far Arabella’s best Ego, further increasing her “Fracture” generation on targets who have been affected by “Fracture Amplification” and providing a substantial amount of Critical Strike Damage to her “Fracture” debuff.",
+        "vi": "Tăng giới hạn Deconstruction Analysis thêm 4 cộng dồn; tự kích hoạt Rạn nứt áp thêm 1 cộng dồn lên mục tiêu có Khuếch đại Rạn nứt. Rạn nứt còn được thêm 50% sát thương chí mạng lên các mục tiêu đó, khiến đây là Ego mạnh nhất của Arabella."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Fractured But Whole",
+        "vi": "Tích Rạn nứt đơn mục tiêu"
+      },
+      "role": {
+        "en": "Fracture damage carry",
+        "vi": "Chủ lực gây sát thương Rạn nứt"
+      },
+      "partner": "Licinia",
+      "cards": [
+        {
+          "cardId": "c_30115_srt4_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni1_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni3_rsp2",
+          "count": 2,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        },
+        {
+          "cardId": "c_30115_uni3_rsp5",
+          "count": 2,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Sanguine Thorn",
+        "Executioner's Tool"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Use Hollow Verdict V and the doubled effect to reach 30 Fracture quickly. Complete ally buffs before repeatedly playing Arabella's attacks. An AP provider and a damage buffer make this plan easier to sustain.",
+        "vi": "Dùng Hollow Verdict V cùng hiệu ứng nhân đôi để nhanh chóng đạt 30 Rạn nứt. Hoàn tất hiệu ứng tăng sức mạnh của đồng đội rồi liên tục dùng các lá tấn công của Arabella. Nên đi cùng một nhân vật cấp Điểm hành động và một nhân vật tăng sát thương để duy trì chuỗi đánh."
+      }
+    },
+    {
+      "name": {
+        "en": "Fractured But AOE",
+        "vi": "Tích Rạn nứt diện rộng"
+      },
+      "role": {
+        "en": "Area Fracture carry",
+        "vi": "Chủ lực Rạn nứt diện rộng"
+      },
+      "partner": "Licinia",
+      "cards": [
+        {
+          "cardId": "c_30115_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni1_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni2_rsp2",
+          "count": 3,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        },
+        {
+          "cardId": "c_30115_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni3_rsp2",
+          "count": 1,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        },
+        {
+          "cardId": "c_30115_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Sanguine Thorn",
+        "Executioner's Tool"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Spread Vulnerable and Fracture across enemies. Half the Fracture hits can land on targets without Fracture amplification. Against one target, Fracture hit count stays comparable but attack-card damage falls. Keeping the Mythic card improves area damage and raises draw needs, hence Scream for Me IV's draw-two option.",
+        "vi": "Rải Dễ tổn thương và Rạn nứt lên nhiều kẻ địch; một nửa số nhịp đánh Rạn nứt có thể đánh vào mục tiêu chưa được khuếch đại Rạn nứt. Khi đánh đơn mục tiêu, số nhịp đánh Rạn nứt vẫn tương đương nhưng sát thương từ lá tấn công thấp hơn. Thường giữ lá Thần thoại để tăng sát thương diện rộng, đồng thời dùng Scream for Me IV rút hai lá để bù nhu cầu rút bài."
+      }
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (Cost-Reduction)",
+        "vi": "Rạn nứt đơn mục tiêu giảm chi phí"
+      },
+      "role": {
+        "en": "AP-efficient Fracture carry",
+        "vi": "Chủ lực Rạn nứt tiết kiệm Điểm hành động"
+      },
+      "partner": "Licinia",
+      "cards": [
+        {
+          "cardId": "c_30115_srt4_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni1_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni3",
+          "count": 4,
+          "costDelta": -1,
+          "effects": {
+            "en": "Apply 1 Vulnerable to the target",
+            "vi": "Gây 1 Dễ tổn thương lên mục tiêu"
+          }
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Sanguine Thorn",
+        "Executioner's Tool"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Trade Vulnerable for cost reduction when the team cannot fund the standard rotation. This broadens team options but substantially reduces Arabella's personal damage. Removing one Sadistic Restraint can free investment for discounts on other cards and useful neutral cards.",
+        "vi": "Đổi Dễ tổn thương lấy giảm chi phí khi đội không tạo đủ Điểm hành động cho vòng đánh tiêu chuẩn. Bản này dễ ghép đội hơn nhưng sát thương cá nhân của Arabella giảm đáng kể. Có thể bỏ một Sadistic Restraint để dành tài nguyên giảm chi phí cho các lá khác hoặc thêm lá trung lập phù hợp."
+      }
+    },
+    {
+      "name": {
+        "en": "Fractured But AOE (Cost-Reduction)",
+        "vi": "Rạn nứt diện rộng giảm chi phí"
+      },
+      "role": {
+        "en": "AP-efficient area carry",
+        "vi": "Chủ lực diện rộng tiết kiệm Điểm hành động"
+      },
+      "partner": "Licinia",
+      "cards": [
+        {
+          "cardId": "c_30115_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni1_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni2_rsp2",
+          "count": 3,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_30115_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30115_uni3_rsp2",
+          "count": 1,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_30115_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [
+        "Sanguine Thorn",
+        "Executioner's Tool"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Keep the area Fracture plan while replacing Vulnerable with cost reduction. Choose this when paying for the standard area rotation is the limiting factor; the trade is weaker damage amplification.",
+        "vi": "Giữ lối chơi Rạn nứt diện rộng nhưng đổi Dễ tổn thương lấy giảm chi phí. Chọn bản này khi đội thiếu Điểm hành động để duy trì vòng đánh diện rộng tiêu chuẩn, chấp nhận giảm khả năng khuếch đại sát thương."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Cassius",
+      "note": {
+        "en": "Additive buffs suit low-ratio multihit cards, while draw and selected AP effects ease setup.",
+        "vi": "Tăng sát thương cộng thêm hợp bài nhiều lần đánh với hệ số thấp, còn Rút bài và hiệu ứng Điểm hành động giúp chuẩn bị."
+      }
+    },
+    {
+      "name": "Narja",
+      "note": {
+        "en": "Cost reduction eases Arabella's spending; a draw-focused Shackles setup is powerful but expensive to obtain.",
+        "vi": "Giảm Chi phí giúp Arabella tiết kiệm; hướng Shackles hỗ trợ Rút bài mạnh nhưng tốn nhiều đầu tư để đạt."
+      }
+    },
+    {
+      "name": "Hilde",
+      "note": {
+        "en": "Hilde can supply draw or Fracture, but maximizing one often sacrifices the other.",
+        "vi": "Hilde hỗ trợ Rút bài hoặc Rạn nứt, nhưng tối đa một mặt thường phải hy sinh mặt còn lại."
+      }
+    },
+    {
+      "name": "Adelheid",
+      "note": {
+        "en": "Draw and survivability are useful immediately, while E4 unlocks a strong permanent Fracture damage buff.",
+        "vi": "Rút bài và khả năng bảo vệ hữu ích ngay, còn E4 mở tăng sát thương Rạn nứt mạnh và kéo dài cả trận."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "High draw and Rosaria's Morale help Arabella, with additional AP available through Divine Epiphanies.",
+        "vi": "Rút nhiều bài và Sĩ khí từ Rosaria hỗ trợ Arabella; Thức tỉnh thần thánh có thể bổ sung Điểm hành động."
+      }
+    },
+    {
+      "name": "Orlea",
+      "note": {
+        "en": "Sacred Censer enables strong multiplicative buffs, but the setup is inconsistent and demands substantial AP.",
+        "vi": "Sacred Censer tạo mức tăng sát thương theo phép nhân mạnh, nhưng vận hành thiếu ổn định và tốn nhiều Điểm hành động."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Fractured But Whole",
+        "vi": "Đội khai thác Rạn nứt"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (Olga Variant)",
+        "vi": "Đội khai thác Rạn nứt — biến thể Olga"
+      },
+      "members": [
+        "Arabella",
+        "Olga",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (AOE)",
+        "vi": "Đội khai thác Rạn nứt — diện rộng"
+      },
+      "members": [
+        "Arabella",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

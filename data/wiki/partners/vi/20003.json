@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Cô gái pha chế dược phẩm hậu đậu.</><br>Cô làm việc tại Phòng nghiên cứu Antelope của Ironrain và có kiến thức sâu rộng về thuốc men cùng dược phẩm, nhưng vẫn còn thiếu kinh nghiệm và dễ mắc sai lầm. Cô tìm thấy niềm vui khi dùng khả năng của mình để giúp đỡ người khác. Cô có thói quen kéo dài âm cuối câu.",
+  "infoValues": [
+    "Con người",
+    "Ngày 19 tháng 4",
+    "Giả kim thuật",
+    "Ari Ozawa",
+    "Chaeha Kim"
+  ],
+  "cardDescription": "<color_orange><u>Hồi máu</u></> <color_orange>100%</><br><color_orange>1</> <color_orange><u>Sĩ khí</u></> trong <cc>1</> lượt<br>Khi Máu dưới <cc>50</>%, tăng lượng <color_orange><u>Hồi máu</u></> thêm <color_orange>50</>%",
+  "terms": {
+    "CARD_CURE": {
+      "title": "Hồi máu",
+      "desc": "Tăng Máu hiện tại dựa trên Phòng thủ<br>Giảm <cc>1</>-<cc>6</> Căng thẳng của một Nhân vật ngẫu nhiên tùy theo lượng Máu tăng"
+    },
+    "T_CS00_0001": {
+      "title": "Sĩ khí",
+      "desc": "+<color_orange>20</>% lượng Sát thương cho mỗi cộng dồn <color_orange><u>Sĩ khí</u></>"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Thành quả giả kim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>12</>%.",
+        "Khi kết thúc trận đấu, hồi <cc>3</>% Máu."
+      ]
+    },
+    "2": {
+      "name": "Thành quả giả kim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>15</>%.",
+        "Khi kết thúc trận đấu, hồi <cc>3.8</>% Máu."
+      ]
+    },
+    "3": {
+      "name": "Thành quả giả kim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>18</>%.",
+        "Khi kết thúc trận đấu, hồi <cc>4.5</>% Máu."
+      ]
+    },
+    "4": {
+      "name": "Thành quả giả kim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>21</>%.",
+        "Khi kết thúc trận đấu, hồi <cc>5.3</>% Máu."
+      ]
+    },
+    "5": {
+      "name": "Thành quả giả kim",
+      "descriptions": [
+        "Tăng Phòng thủ của Nhân vật được ghép cặp thêm <cc>24</>%.",
+        "Khi kết thúc trận đấu, hồi <cc>6</>% Máu."
+      ]
+    }
+  }
+}

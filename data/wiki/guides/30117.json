@@ -1,0 +1,1223 @@
+{
+  "characterId": "30117",
+  "name": "Olga",
+  "identity": [
+    "Instinct",
+    "Psionic"
+  ],
+  "subtitle": {
+    "en": "Shattering amplifies damage-over-time effects while her cards trigger Fracture and Agony early.",
+    "vi": "Tan vỡ khuếch đại sát thương theo thời gian; các bài của cô kích hoạt Rạn nứt và Thống khổ sớm."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_30117.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/olga",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/olga.json",
+      "docs/combatant/current/api/czn/characters/30117.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Olga": {
+      "src": "/assets/combatant/portrait_character_crop_half_30117.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Emilie": {
+      "src": "/assets/partner/portrait_character_crop_half_30118.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Anteia": {
+      "src": "/assets/partner/portrait_character_crop_half_20008.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Bria": {
+      "src": "/assets/partner/portrait_character_crop_half_20021.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eloise": {
+      "src": "/assets/partner/portrait_character_crop_half_20027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Zatera": {
+      "src": "/assets/partner/portrait_character_crop_half_20012.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Sanguine Thorn": {
+      "src": "/assets/item/guide-cb86a0513698.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Executioner's Tool": {
+      "src": "/assets/item/guide-78d8408e86c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Black Wing": {
+      "src": "/assets/item/guide-cd4b26617b0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Criticism of Discord": {
+      "src": "/assets/item/relic_0094.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Dagger That Tricked the Shadow": {
+      "src": "/assets/item/relic_1231.webp",
+      "width": 124,
+      "height": 124
+    },
+    "RFS-17": {
+      "src": "/assets/item/relic_0072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fairy King's Crown": {
+      "src": "/assets/item/relic_1062.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mask of Flames": {
+      "src": "/assets/item/relic_1115.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Day": {
+      "src": "/assets/item/relic_1305.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Night": {
+      "src": "/assets/item/relic_1306.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Verdant Shackles": {
+      "src": "/assets/item/relic_1307.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Amorphous Cube": {
+      "src": "/assets/item/relic_1075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Shell Bug Horn": {
+      "src": "/assets/item/relic_1082.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Esophagus of Madness": {
+      "src": "/assets/item/relic_1151.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Invader Observation Logs": {
+      "src": "/assets/item/relic_5075.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "W-52 Dopamine Injector": {
+      "src": "/assets/item/relic_0107.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Mutant Predator Spike": {
+      "src": "/assets/item/relic_0108.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Freedom": {
+      "src": "/assets/item/relic_5005.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Ring of the Seraphim": {
+      "src": "/assets/item/relic_1181.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Hugo": {
+      "src": "/assets/combatant/portrait_character_crop_half_1043.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hilde": {
+      "src": "/assets/combatant/portrait_character_crop_half_30113.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Veronica": {
+      "src": "/assets/combatant/portrait_character_crop_half_1033.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Orlea": {
+      "src": "/assets/combatant/portrait_character_crop_half_1024.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Olga artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30117.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Psionic": {
+      "src": "/assets/common/icon_type_job_psionic.png",
+      "width": 44,
+      "height": 44
+    },
+    "Emilie E4": {
+      "src": "/assets/partner/portrait_character_crop_half_30118.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Emilie E0": {
+      "src": "/assets/partner/portrait_character_crop_half_30118.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Anteia E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20008.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Bria E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20021.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Eloise E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20027.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Zatera E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20012.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "c_30117_uni4_mut1",
+      "name": "Reckoning",
+      "cost": 0,
+      "description": "<color_orange>400%</> Damage<br>+<color_orange>20</>% base Damage Amount for each <color_orange><u>Rapacity</u></><br>Activate <color_orange><u>Agony</u></> and <color_orange><u>Fracture</u></> inflicted by this unit<br>When this card is activated, change into <cc>End of the Line</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30117_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30117_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)",
+          "id": "T_CS00_0369",
+          "title": "Fracture"
+        },
+        {
+          "desc": "Also treat Damage dealt by this card as <color_orange><u>DoT</u></><br>When <color_orange><u>Fracture</u></> or <color_orange><u>Agony</u></> is applied through an ability, increase <color_orange><u>Rapacity</u></> by <cc>1</><br>When <cc>Reckoning</> is activated, reset <color_orange><u>Rapacity</u></> stack count<br>Max #olga_max_count# stacks",
+          "id": "TALENT_UNIQUE_OLGA",
+          "title": "Rapacity"
+        },
+        {
+          "desc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)",
+          "id": "T_CS00_0004",
+          "title": "Agony"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30117_uni4_mut1",
+      "ownerId": "30117",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": [
+        "c_30117_uni4_lbk_mut1"
+      ]
+    },
+    {
+      "id": "c_30117_uni4_lbk_mut1",
+      "name": "Reckoning",
+      "cost": 0,
+      "description": "<color_orange>600%</> Damage<br>+<color_orange>30</>% base Damage Amount for each <color_orange><u>Rapacity</u></><br>Activate <color_orange><u>Agony</u></> and <color_orange><u>Fracture</u></> inflicted by this unit<br>When this card is activated, change into <cc>End of the Line</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNIQUE",
+      "sort": "SORT_UNIQUE",
+      "artKey": "unique_30117_06",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/unique_30117_06.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+          "id": "TALENT_ORIGIN",
+          "title": "Unique"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "At the end of the turn, <color_orange>40%</> <color_orange><u>DoT</u></> for each <color_orange><u>Fracture</u></><br>On effect activation, decrease <color_orange><u>Fracture</u></> stacks by half (max <cc><color_orange>30</></> stacks)",
+          "id": "T_CS00_0369",
+          "title": "Fracture"
+        },
+        {
+          "desc": "Also treat Damage dealt by this card as <color_orange><u>DoT</u></><br>When <color_orange><u>Fracture</u></> or <color_orange><u>Agony</u></> is applied through an ability, increase <color_orange><u>Rapacity</u></> by <cc>1</><br>When <cc>Reckoning</> is activated, reset <color_orange><u>Rapacity</u></> stack count<br>Max #olga_max_count# stacks",
+          "id": "TALENT_UNIQUE_OLGA",
+          "title": "Rapacity"
+        },
+        {
+          "desc": "At the end of the turn, <color_orange>50%</> <color_orange><u>Fixed DoT</u></> × <color_orange><u>Agony</u></> count<br>On effect activation, decrease <color_orange><u>Agony</u></> stacks by half (max <cc>20</> stacks)",
+          "id": "T_CS00_0004",
+          "title": "Agony"
+        }
+      ],
+      "variants": [],
+      "sourceId": "c_30117_uni4_lbk_mut1",
+      "ownerId": "30117",
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ds04_des_10013",
+      "name": "Sample Collection",
+      "cost": 1,
+      "description": "<color_orange>150%</> Damage<br><color_orange><u>Draw</u></> <color_orange>2</>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_DESIRE",
+      "artKey": "job_00613",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00613.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "Inquiry Synergy: Apply effect based on the total number of <cc>[ Inquiry ]</> talents possessed by allies<br><color_orange>0</><br><color_orange>0</><br><color_orange>0</>",
+          "id": "TALENT_EXPLORATION",
+          "title": "Inquiry"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ds04_des_10013",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00010",
+      "name": "Attack!",
+      "cost": 0,
+      "description": "Select <color_orange>1</> Attack Card(s) in <color_orange><u>Draw Pile</u></> and move those cards to hand",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00248",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00248.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "The pile from which cards are <color_orange><u>drawn</u></>",
+          "id": "CARD_DECK_2",
+          "title": "Draw Pile"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00010",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [
+    "c_30117_uni4_mut1",
+    "c_30117_uni4_lbk_mut1"
+  ],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Shattering amplifies damage-over-time effects while her cards trigger Fracture and Agony early.",
+      "vi": "Tan vỡ khuếch đại sát thương theo thời gian; các bài của cô kích hoạt Rạn nứt và Thống khổ sớm."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Can repeatedly activate DoT effects and strengthen dedicated DoT teams.",
+        "vi": "Có thể kích hoạt sát thương theo thời gian nhiều lần và tăng sức mạnh đội hình chuyên sát thương theo thời gian."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Draw and AP demand can be high; some support value depends on Ego or Partner investment.",
+        "vi": "Có thể cần nhiều khả năng rút bài và Điểm hành động; một phần hỗ trợ phụ thuộc đầu tư Ego hoặc Đối tác."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Dispersed Desire",
+        "body": {
+          "en": "80% Damage and 4 Agony, then activate Agony inflicted by this unit",
+          "vi": "Gây 80% sát thương và 4 Thống khổ, rồi kích hoạt Thống khổ do bản thân gây ra"
+        },
+        "cardId": "c_30117_uni1"
+      },
+      {
+        "title": "Break Apart & Renew",
+        "body": {
+          "en": "1 Brand of Agony; 4 Agony to the enemy with the highest HP",
+          "vi": "1 Dấu ấn Thống khổ; Gây 4 Thống khổ lên kẻ địch có Máu cao nhất"
+        },
+        "cardId": "c_30117_uni2"
+      },
+      {
+        "title": "Insatiable Cravings",
+        "body": {
+          "en": "When Fracture or Agony is activated through a Targeting Card, 2 Fracture and 3 Agony to the target (3 time(s) per turn)",
+          "vi": "Khi Rạn nứt hoặc Thống khổ được kích hoạt qua Bài chọn mục tiêu, gây 2 Rạn nứt và 3 Thống khổ lên mục tiêu (3 lần mỗi lượt)"
+        },
+        "cardId": "c_30117_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_30117_srt4",
+      "ratings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "preferred": "",
+      "note": {
+        "en": "This repeatedly applies and triggers Olga's Fracture when returned by Brand effects. Neutral support routes are meaningful alternatives to signature upgrades.",
+        "vi": "Lá này liên tục gây và kích hoạt Rạn nứt của Olga khi được dấu ấn đưa trở lại. Hướng hỗ trợ trung lập là lựa chọn đáng cân nhắc ngoài biến thể riêng."
+      },
+      "divine": {
+        "en": "Choose neutral 1 Morale or 1 Vulnerable; support builds can use Fortitude reduction on Weakness Attack.",
+        "vi": "Chọn 1 Sĩ khí hoặc 1 Dễ tổn thương trung lập; hướng hỗ trợ có thể dùng giảm Kiên cường khi Tấn công điểm yếu."
+      }
+    },
+    {
+      "cardId": "c_30117_uni1",
+      "ratings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "preferred": "",
+      "note": {
+        "en": "It applies and activates Agony similarly to Rift of Severance. IV additionally triggers Scorched for teams using that effect.",
+        "vi": "Lá này gây và kích hoạt Thống khổ tương tự Rift of Severance. IV còn kích hoạt Thiêu đốt cho đội sử dụng hiệu ứng đó."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale/Vulnerable is viable; Fortitude reduction on Weakness Attack supports allies.",
+        "vi": "1 Sĩ khí/Dễ tổn thương trung lập hữu ích; giảm Kiên cường khi Tấn công điểm yếu hỗ trợ đồng đội."
+      }
+    },
+    {
+      "cardId": "c_30117_uni2",
+      "ratings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "preferred": "",
+      "note": {
+        "en": "Its Brands return Olga's attack cards for repeated use. IV's movement does not reduce cost, and the Unique skill and Upgrade cannot coexist.",
+        "vi": "Các dấu ấn đưa bài tấn công của Olga trở lại để dùng nhiều lần. Di chuyển của IV không giảm chi phí; kỹ năng và Nâng cấp Độc nhất không thể cùng tồn tại."
+      },
+      "divine": {
+        "en": "Use ordinary AP, draw or cost-reduction effects according to the rotation.",
+        "vi": "Chọn Điểm hành động, rút bài hoặc giảm chi phí thông thường theo chu trình sử dụng."
+      }
+    },
+    {
+      "cardId": "c_30117_uni3",
+      "ratings": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "preferred": "",
+      "note": {
+        "en": "This Upgrade adds Agony and Fracture after targeted activations, not area attacks. Most variants retain this core role.",
+        "vi": "Nâng cấp này thêm Thống khổ và Rạn nứt sau kích hoạt chọn mục tiêu, không áp dụng đòn diện rộng. Phần lớn biến thể giữ vai trò chính này."
+      },
+      "divine": {
+        "en": "Start-turn Draw 2 is the specific divine recommendation.",
+        "vi": "Rút 2 đầu lượt là thần thánh được đề xuất cụ thể."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Emilie E4",
+      "score": "127.29%",
+      "note": {
+        "en": "Improves the same benefits as E0 with substantially stronger values for deeper investment.",
+        "vi": "Nâng mạnh các hiệu ứng sẵn có ở E0, phù hợp khi đầu tư sâu hơn."
+      }
+    },
+    {
+      "name": "Emilie E0",
+      "score": "115.86%",
+      "note": {
+        "en": "Her signature supplies valuable bonuses to Olga and teammates, outperforming the listed alternatives.",
+        "vi": "Đối tác trấn cung cấp nhiều hiệu ứng tăng cường giá trị cho Olga và đồng đội, vượt các phương án thay thế được liệt kê."
+      }
+    },
+    {
+      "name": "Anteia E4",
+      "score": "109.47%",
+      "note": {
+        "en": "High base stats and passive ATK suit Olga because many Partner effects cannot improve Fracture damage.",
+        "vi": "Chỉ số nền cao và Tấn công thụ động hợp Olga vì nhiều hiệu ứng Đối tác không tăng được sát thương Rạn nứt."
+      }
+    },
+    {
+      "name": "Bria E0",
+      "score": "108.73%",
+      "note": {
+        "en": "Mainly a stat option: passive ATK helps, while the other effects add little to Olga.",
+        "vi": "Chủ yếu dùng lấy chỉ số: Tấn công thụ động hữu ích, các hiệu ứng khác ít đóng góp cho Olga."
+      }
+    },
+    {
+      "name": "Eloise E4",
+      "score": "104.08%",
+      "note": {
+        "en": "An accessible upgrade over Zatera, but weaker stats and multipliers limit her damage contribution.",
+        "vi": "Dễ tiếp cận và hơn Zatera, nhưng chỉ số cùng hệ số hiệu ứng tăng cường yếu hơn giới hạn đóng góp sát thương."
+      }
+    },
+    {
+      "name": "Zatera E4",
+      "score": "100.00%",
+      "note": {
+        "en": "A free placeholder when none of the stronger listed Partners is available.",
+        "vi": "Phương án miễn phí tạm dùng khi chưa có Đối tác mạnh hơn trong danh sách."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Sanguine Thorn (4) + Executioner's Tool (2)",
+      "score": "—",
+      "note": {
+        "en": "Olga activates the effect easily, and its Fracture bonus supports a large share of her damage.",
+        "vi": "Olga dễ kích hoạt hiệu ứng; hiệu ứng tăng cường Rạn nứt hỗ trợ phần lớn sát thương của cô."
+      }
+    },
+    {
+      "name": "Executioner's Tool (2) + Black Wing (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Slightly weaker than Sanguine Thorn but flexible and reusable across many characters.",
+        "vi": "Yếu hơn Sanguine Thorn nhưng linh hoạt và dùng chung được cho nhiều nhân vật."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "Crit Rate > Crit DMG",
+        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "ATK% >= Instinct DMG%",
+        "vi": "Tấn công% >= Sát thương Bản năng%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "ATK%",
+        "vi": "Tấn công%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "DoT DMG% => CRIT DMG% > CRIT Rate% > ATK > ATK%",
+        "vi": "Sát thương theo thời gian% => Sát thương chí mạng% > Tỷ lệ chí mạng% > Tấn công > Tấn công%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "Maxing out Olga's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 6% DoT (substat), which almost all Olga builds can accomplish.",
+    "vi": "Mốc chính là 6% sát thương theo thời gian từ chỉ số phụ để tối đa hóa tiềm năng 7; gần như mọi cách xây dựng đều dễ đạt."
+  },
+  "potentialIntro": {
+    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Olga’s 3-1 Potential node grants her Basic-Attack Cards an additional effect to apply 1 stack of both Fracture and Agony. Mostly serves useful in Chaos/Sortie content.5-1: Olga’s 5-1 Potential node increases Olga’s Reaping Slash Basic-Attack card an additional +5% damage, and if Olga’s Damage over Time stat is 6% or higher, grants an additional +5% damage. Again, primarily useful in Sortie/Chaos.7: Olga’s 7 Potential grants Olga +7% Instinct Attribute damage. If Olga’s Damage over Time stat is 6% or higher, grants an additional +8% to this amount. Very useful and should be prioritized as this provides a solid damage boost across the board.",
+    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp bài tấn công cơ bản áp 1 Rạn nứt và 1 Thống khổ, còn 5-1 tăng Reaping Slash 5% sát thương và thêm 5% khi sát thương theo thời gian ≥6%, chủ yếu hỗ trợ Chaos. Ưu tiên tiềm năng 7 vì tăng 7% sát thương Bản năng và thêm 8% khi sát thương theo thời gian ≥6%, tổng 15%."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds the following to the Reaping Slash card: 1 Fracture, 1 Agony",
+        "vi": "Thêm hiệu ứng sau vào lá Reaping Slash: 1 Rạn nứt, 1 Thống khổ"
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Damage Amount to Olga’s Reaping Slash card; If Olga’s Damage over Time (stat) is 6% or higher, add an additional +5% to the modifier",
+        "vi": "+5% sát thương cho lá Reaping Slash của Olga; Nếu chỉ số Sát thương theo thời gian của Olga từ 6% trở lên, cộng thêm +5% vào hệ số"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "+7% Instinct Attribute Damage Amount; If Olga's Damage over Time (stat) is 6% or higher, add an additional +8% to the modifier",
+        "vi": "+7% sát thương hệ Bản năng; Nếu chỉ số Sát thương theo thời gian của Olga từ 6% trở lên, cộng thêm +8% vào hệ số"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "Dagger That Tricked the Shadow",
+        "RFS-17"
+      ],
+      "armor": [
+        "Fairy King's Crown",
+        "Mask of Flames",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Verdant Day",
+        "Verdant Night",
+        "Verdant Shackles",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "The choice between Tentacles of Chaos and Criticism of Discord depends on if you are using Olga as more of a supportive or DPS unit. We recommend using her alongside other DPS units, like Hugo or Hilde, so Tentacles is a higher recommendation. But, Olga also works as a Carry as well.",
+        "vi": "Chọn Tentacles of Chaos hay Criticism of Discord tùy Olga hỗ trợ hay gây sát thương chính. Nguồn ưu tiên đi cùng Hugo/Hilde nên khuyên Tentacles cao hơn, nhưng Olga vẫn có thể làm nhân vật sát thương chủ lực."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "Shell Bug Horn",
+        "Esophagus of Madness"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Invader Observation Logs",
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Amorphous Cube"
+      ],
+      "note": {
+        "en": "The choice between Tentacles of Chaos and Criticism of Discord depends on if you are using Olga as more of a supportive or DPS unit. We recommend using her alongside other DPS units, like Hugo or Hilde, so Tentacles is a higher recommendation. But, Olga also works as a Carry as well.",
+        "vi": "Chọn Tentacles of Chaos hay Criticism of Discord tùy Olga hỗ trợ hay gây sát thương chính. Nguồn ưu tiên đi cùng Hugo/Hilde nên khuyên Tentacles cao hơn, nhưng Olga vẫn có thể làm nhân vật sát thương chủ lực."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "W-52 Dopamine Injector",
+        "Mutant Predator Spike"
+      ],
+      "armor": [
+        "Wings of Freedom",
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "The choice between Tentacles of Chaos and Criticism of Discord depends on if you are using Olga as more of a supportive or DPS unit. We recommend using her alongside other DPS units, like Hugo or Hilde, so Tentacles is a higher recommendation. But, Olga also works as a Carry as well.",
+        "vi": "Chọn Tentacles of Chaos hay Criticism of Discord tùy Olga hỗ trợ hay gây sát thương chính. Nguồn ưu tiên đi cùng Hugo/Hilde nên khuyên Tentacles cao hơn, nhưng Olga vẫn có thể làm nhân vật sát thương chủ lực."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "RFS-17",
+        "Harpoon Case of Broken Resolve"
+      ],
+      "armor": [
+        "Fairy King's Crown"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "The choice between Tentacles of Chaos and Criticism of Discord depends on if you are using Olga as more of a supportive or DPS unit. We recommend using her alongside other DPS units, like Hugo or Hilde, so Tentacles is a higher recommendation. But, Olga also works as a Carry as well.",
+        "vi": "Chọn Tentacles of Chaos hay Criticism of Discord tùy Olga hỗ trợ hay gây sát thương chính. Nguồn ưu tiên đi cùng Hugo/Hilde nên khuyên Tentacles cao hơn, nhưng Olga vẫn có thể làm nhân vật sát thương chủ lực."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Criticism of Discord",
+        "Esophagus of Madness",
+        "RFS-17"
+      ],
+      "armor": [
+        "Ring of the Seraphim",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "Amorphous Cube",
+        "Sphere of Randomness",
+        "A Lonesome Wedding Ring"
+      ],
+      "note": {
+        "en": "The choice between Tentacles of Chaos and Criticism of Discord depends on if you are using Olga as more of a supportive or DPS unit. We recommend using her alongside other DPS units, like Hugo or Hilde, so Tentacles is a higher recommendation. But, Olga also works as a Carry as well.",
+        "vi": "Chọn Tentacles of Chaos hay Criticism of Discord tùy Olga hỗ trợ hay gây sát thương chính. Nguồn ưu tiên đi cùng Hugo/Hilde nên khuyên Tentacles cao hơn, nhưng Olga vẫn có thể làm nhân vật sát thương chủ lực."
+      }
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.For DPS Olga, it's recommended to do 5 Claim to increase her DoT damage. Though, this often raises AP requirements a lot.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Olga gây sát thương nên nhắm 5 Chiếm hữu để tăng sát thương theo thời gian, nhưng thường cần nhiều điểm hành động hơn."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3",
+        "vi": "Mùa 3"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common SUPPORT Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).The most common DAMAGE Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Hướng hỗ trợ: Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách. Hướng gây sát thương: Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.+15% Critical Hit on Vulnerable, only works on Attack Cards, which makes it not synergistic with Olga's main damage of Fracture.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. Tăng 15% chí mạng khi đánh mục tiêu Dễ tổn thương chỉ áp dụng cho bài tấn công, không hỗ trợ sát thương Rạn nứt chủ lực của Olga. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1 — Recommended",
+        "vi": "Mùa 1 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).For Supportive Olga, it's recommended to do Season-1 for Guidance of Futility in order to allow her to be a fully fledged healer at E0, as many teams she is used as a buffer in lack a Healer w/o her E2. For DPS Olga, other seasons are preferred.Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Guidance of Futility. +++SurvivabilityForbidden: Ecstasy of Violence. +Damage",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Olga hỗ trợ nên chọn mùa 1 để lấy Forbidden: Guidance of Futility, đảm nhiệm hồi phục đầy đủ ngay Ego 0 cho đội thiếu người hồi máu khi chưa có Ego 2. Olga gây sát thương thường thích mùa khác. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót. Forbidden: Ecstasy of Violence tăng sát thương. "
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Olga’s first Ego to be unlocked reduces the cost of their Mythic Card, End of the Line by 1. Additionally, increases the base damage dealt by Reckoning by an additional +200% and increases the additional base damage per Rapacity to 30%. This is a pretty solid first overall Ego, providing some solid AP alleviation while increasing the potential damage output of Reckoning by 50%.",
+        "vi": "End of the Line giảm 1 chi phí; Reckoning tăng 200% sát thương cơ bản và hệ số mỗi Tham tàn lên 30%. Giảm nhu cầu điểm hành động, đồng thời tăng tiềm năng sát thương Reckoning khoảng 50% theo nguồn."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Olga’s second Ego increases the damage dealt by the Shattering debuff to 40% fixed damage, on top of this - whenever Fracture or Agony is activated, Olga recovers 4% of Max HP up to 5 times per turn. This is a pretty strong Ego to be unlocked, providing a very solid and consistent source of healing. The percentage increase is much more substantial when using her as a Buffer for Ally Fracture, as well.",
+        "vi": "Tan vỡ tăng lên 40% sát thương cố định; khi Rạn nứt hoặc Thống khổ kích hoạt, hồi 4% máu tối đa, tối đa 5 lần mỗi lượt. Mang lại hồi phục ổn định và đặc biệt có giá trị khi Olga hỗ trợ Rạn nứt của đồng đội."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "Olga’s Vivid Memory enhances their Ego Skill, increasing the damage dealt by an additional +200% and changes the max damage threshold for each Fracture, Agony and Scorch activated during this turn from 300% to 450%. Overall not super impactful and only provides some additional damage output to Olga.",
+        "vi": "Kỹ năng Ego tăng 200% sát thương; giới hạn tăng theo Rạn nứt, Thống khổ và Thiêu đốt kích hoạt trong lượt từ 300% lên 450%. Chủ yếu thêm sát thương, ít đổi lối chơi."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Olga’s fourth Ego grants Olga 1 stack of Shard Erosion each time Olga’s Fracture or Agony is activated. Shard Erosion is a buff that stacks up to 5 times and lasts indefinitely, increasing Olga’s DoT Damage by 6% per stack. This is a very nice Ego for Olga, there are currently very few buffs that directly increase DoT damage so anything helps.",
+        "vi": "Rạn nứt hoặc Thống khổ của Olga kích hoạt cho Shard Erosion, tối đa 5 cộng dồn vô thời hạn; mỗi cộng dồn tăng 6% sát thương theo thời gian. Đây là loại tăng cường trực tiếp khá hiếm và hữu ích."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "Olga’s Complete Memory is the standard Potential node increase for their Basic, Common and Signature cards. Overall not incredibly impactful but does provide a slight increase to the base damage values of their cards.",
+        "vi": "Nâng tiềm năng bài cơ bản, chung và đặc trưng theo cơ chế thông thường, tăng nhẹ sát thương cơ bản."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Olga’s final Ego moves Olga’s End of the Line or Reckoning card to their hand at the start of each turn. It also increases the damage buff provided by Shard Erosion to 10% per stack, on top of this - once Olga reaches 5 stacks of Shard Erosion, grants Olga an additional +50% Critical Damage. This is an incredibly powerful Ego that improves consistency and really pushes Olga’s potential damage output.",
+        "vi": "Đầu mỗi lượt đưa End of the Line hoặc Reckoning lên tay; Shard Erosion tăng từ 6% lên 10% mỗi cộng dồn và đủ 5 cộng dồn cho thêm 50% sát thương chí mạng. Rất mạnh cả về độ ổn định và sát thương."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Olga: Buffer + Debuffer",
+        "vi": "Olga: Tăng sức mạnh và giảm phòng thủ"
+      },
+      "role": {
+        "en": "Morale and Fortitude support",
+        "vi": "Tăng Sĩ khí và giảm Kiên cường"
+      },
+      "partner": "Emilie",
+      "cards": [
+        {
+          "cardId": "c_30117_srt4",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale<br>Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt<br>Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30117_uni1",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale<br>Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt<br>Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30117_uni2_rsp1",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30117_uni2_rsp2",
+          "count": 2
+        },
+        {
+          "cardId": "c_30117_uni3_rsp1",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Exploit Brand of Agony and Brand of Fracture's built-in movement and discounts to repeatedly apply neutral/Divine effects. One-turn Morale +1 and enemy Fortitude −2 options can total six Morale and −12 Fortitude per turn, provided the team's rotation can accommodate Olga.",
+        "vi": "Tận dụng hiệu ứng chuyển bài và giảm chi phí sẵn có của Dấu ấn Thống khổ cùng Dấu ấn Rạn nứt để lặp các hiệu ứng trung lập hoặc Thức tỉnh thần thánh. Các lựa chọn tăng 1 Sĩ khí và giảm 2 Kiên cường trong một lượt có thể cộng thành 6 Sĩ khí và giảm 12 Kiên cường mỗi lượt, nếu vòng đánh của đội đủ linh hoạt để dùng Olga."
+      }
+    },
+    {
+      "name": {
+        "en": "Olga: Vulnerable Carry",
+        "vi": "Olga: Chủ lực Dễ tổn thương"
+      },
+      "role": {
+        "en": "Single-target Fracture attacker",
+        "vi": "Chủ lực Rạn nứt đơn mục tiêu"
+      },
+      "partner": "Emilie",
+      "cards": [
+        {
+          "cardId": "c_30117_srt4_rsp3",
+          "count": 1,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+          }
+        },
+        {
+          "cardId": "c_30117_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30117_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "c_30117_uni2_rsp4",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30117_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_30117_uni2_rsp1",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30117_uni3",
+          "count": 1
+        },
+        {
+          "cardId": "c_30117_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use the kit's movement and cost reduction to apply Vulnerable efficiently and trigger Fracture several times per turn. This converts Olga's repeatable card access into focused single-target damage.",
+        "vi": "Tận dụng chuyển bài và giảm chi phí trong bộ kỹ năng để gắn Dễ tổn thương hiệu quả rồi kích hoạt Rạn nứt nhiều lần mỗi lượt. Khả năng lấy lại bài liên tục giúp Olga tập trung sát thương tốt vào một mục tiêu."
+      }
+    },
+    {
+      "name": {
+        "en": "Olga: Fracture Buffer (Season-4)",
+        "vi": "Olga: Hỗ trợ Rạn nứt mùa 4"
+      },
+      "role": {
+        "en": "Damage-over-time team buffer",
+        "vi": "Tăng sức mạnh đội sát thương theo thời gian"
+      },
+      "partner": "Emilie",
+      "cards": [
+        {
+          "cardId": "c_30117_srt4",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale<br>Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt<br>Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30117_uni1",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale<br>Weakness Attack: Decrease Fortitude by 2 for 1 turn",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt<br>Tấn công điểm yếu: Giảm 2 Kiên cường trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_30117_uni2_rsp1",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30117_uni2_rsp2",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_30117_uni3_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "c_30117_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ds04_des_10013",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00010",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Add Olga's Mythic card to the standard buffer setup for a large damage-over-time team boost. Use two Desire Manifestation: Claim and one Desire Manifestation: Inquiry on Olga to preserve Sample Collection as protection against poor draw, while the main DoT carry, such as Arabella, takes three Desire Manifestation: Claim.",
+        "vi": "Thêm lá Thần thoại của Olga vào bản hỗ trợ tiêu chuẩn để tăng mạnh sát thương đội chuyên gây sát thương theo thời gian. Olga nên dùng hai Desire Manifestation: Claim và một Desire Manifestation: Inquiry nhằm giữ Sample Collection, giúp xử lý lượt rút bài xấu. Chủ lực sát thương theo thời gian chính như Arabella nên dùng ba Desire Manifestation: Claim."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Hugo",
+      "note": {
+        "en": "Olga's frequent skills feed Commence the Hunt; Hugo supplies draw to sustain her strong buffs.",
+        "vi": "Kỹ năng dùng thường xuyên của Olga tích Bắt đầu cuộc săn; Hugo rút bài để duy trì hiệu ứng tăng cường mạnh của cô."
+      }
+    },
+    {
+      "name": "Hilde",
+      "note": {
+        "en": "Heavy draw, including targeted Attack draws, helps Olga set up and also fits Hugo teams.",
+        "vi": "Rút nhiều bài, kể cả rút đích danh bài Tấn công, giúp Olga thiết lập và hợp đội có Hugo."
+      }
+    },
+    {
+      "name": "Arabella",
+      "note": {
+        "en": "They amplify each other's Fracture damage, but competing draw and AP requirements can make rotations awkward.",
+        "vi": "Hai bên tăng sát thương Rạn nứt cho nhau, nhưng cùng cần rút bài và Điểm hành động nên chuỗi hành động có thể khó vận hành."
+      }
+    },
+    {
+      "name": "Veronica",
+      "note": {
+        "en": "Combines draw and AP support; Rosaria on Veronica can help Olga's team reach its Morale cap.",
+        "vi": "Kết hợp hỗ trợ rút bài và Điểm hành động; Rosaria trên Veronica có thể giúp đội Olga chạm giới hạn Sĩ khí."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "H2O Trio Carry",
+        "vi": "Bộ ba Hilde, Hugo và Olga"
+      },
+      "members": [
+        "Olga",
+        "Hilde",
+        "Hugo"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (Olga Variant)",
+        "vi": "Đội khai thác Rạn nứt — biến thể Olga"
+      },
+      "members": [
+        "Arabella",
+        "Olga",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hoe 'Em Down",
+        "vi": "Olga chủ lực"
+      },
+      "members": [
+        "Olga",
+        "Orlea",
+        "Veronica"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

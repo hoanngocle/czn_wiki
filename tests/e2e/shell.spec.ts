@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+});
+
 test("root opens the CZN Combatant workspace and keeps the selected theme", async ({ page }) => {
   await page.goto("/");
   await expect.poll(() => new URL(page.url()).pathname).toBe("/combatant");
@@ -21,7 +25,7 @@ test("mobile navigation closes with Escape and restores focus", async ({ page })
   await expect(page.getByRole("navigation", { name: "CZN navigation" })).toBeVisible();
   await expect(page.getByRole("navigation", { name: "CZN navigation" }).getByRole("link").first()).toBeFocused();
   await page.keyboard.press("Shift+Tab");
-  await expect(page.getByRole("navigation", { name: "CZN navigation" }).getByRole("button", { name: /theme/i })).toBeFocused();
+  await expect(page.getByRole("navigation", { name: "CZN navigation" }).getByRole("button", { name: "Chuyển sang tiếng Việt" })).toBeFocused();
   await page.keyboard.press("Escape");
   await expect(opener).toBeFocused();
 });

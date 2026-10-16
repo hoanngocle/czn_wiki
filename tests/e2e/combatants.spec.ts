@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+});
+
 test("picker searches only 38 combatants and keeps filters during route changes", async ({ page }) => {
   await page.goto("/combatant");
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(38);
@@ -14,7 +18,7 @@ test("picker searches only 38 combatants and keeps filters during route changes"
   await expect(page.getByRole("textbox", { name: "Search combatants" })).toHaveValue(" RENOa ");
   await page.getByRole("button", { name: "Clear filters" }).click();
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(38);
-  const fiveStar = page.getByRole("button", { name: "▲▲▲▲▲" });
+  const fiveStar = page.getByRole("button", { name: "5 stars" });
   await fiveStar.click();
   await expect(fiveStar).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("link", { name: "Renoa" }).last().click();
@@ -30,10 +34,11 @@ test("picker searches only 38 combatants and keeps filters during route changes"
   await expect(fiveStar).toHaveAttribute("aria-pressed", "true");
 });
 
-test("known summary lacks detail; supporter and unknown IDs return HTTP 404", async ({ page, request }) => {
+test("known combatant has its own detail; supporter and unknown IDs return HTTP 404", async ({ page, request }) => {
   await page.goto("/combatant/nia");
   await expect(page.getByRole("heading", { name: "Nia" })).toBeVisible();
-  await expect(page.getByText(/detail.*not available/i)).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Start Cards", exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: "G Chord card", exact: true })).toBeVisible();
   await expect(page.getByText("Annihilation Shot")).toHaveCount(0);
   expect((await request.get("/combatant/nope")).status()).toBe(404);
   expect((await request.get("/combatant/0001041")).status()).toBe(404);

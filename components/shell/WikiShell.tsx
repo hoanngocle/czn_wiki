@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import styles from "./WikiShell.module.css";
 import { storeValue, useStoredValue } from "../../lib/ui/storage";
+import { languageKey, useUiLanguage } from "../../lib/ui/language";
 
 const icons = {
   Combatant: "combatant",
@@ -17,7 +18,7 @@ const icons = {
   Terminology: "terminology",
 };
 const nav = ["Combatant", "Partner", "Cards", "Deck Builder", "Equipment", "Items", "Terminology"] as const;
-const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/combatant", "Deck Builder": "/deck-builder", Terminology: "/terminology" };
+const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/combatant", Partner: "/partner", "Deck Builder": "/deck-builder", Equipment: "/equipment", Terminology: "/terminology" };
 const logo = "/assets/common/c1016_sd01_s-BmcFnoIZ.png";
 
 function NavIcon({ item }: { item: keyof typeof icons }) {
@@ -32,16 +33,19 @@ function NavIcon({ item }: { item: keyof typeof icons }) {
 }
 
 function ThemeToggle() {
+  const { t } = useUiLanguage();
   const mode = useStoredValue("themeMode", "system");
   const toggle = () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
     storeValue("themeMode", next);
   };
-  return <button type="button" className={`${styles.utility} ${styles.themeToggle}`} aria-label="Toggle theme" title={`Theme: ${mode}`} onClick={toggle}>{mode === "light" ? "☀️" : "🌙"}</button>;
+  return <button type="button" className={`${styles.utility} ${styles.themeToggle}`} aria-label={t("Toggle theme")} title={`${t("Theme")}: ${t(mode)}`} onClick={toggle}>{mode === "light" ? "☀️" : "🌙"}</button>;
 }
 
 export function WikiShell({ children }: { children: React.ReactNode }) {
+  const { vietnamese, t } = useUiLanguage();
+  useEffect(() => { document.documentElement.lang = vietnamese ? "vi" : "en"; }, [vietnamese]);
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const opener = useRef<HTMLButtonElement>(null);
@@ -60,19 +64,19 @@ export function WikiShell({ children }: { children: React.ReactNode }) {
   }, [menuOpen]);
   return <div className={styles.shell}>
     <header className={styles.mobileHeader}>
-      <button ref={opener} aria-label="Open navigation" aria-expanded={menuOpen} onClick={() => setMenuOpen(true)}>☰</button>
+      <button ref={opener} aria-label={t("Open navigation")} aria-expanded={menuOpen} onClick={() => setMenuOpen(true)}>☰</button>
       <Link href="/combatant" className={styles.mobileBrand}><Image src={logo} alt="" width={30} height={30} unoptimized /> CZN</Link>
       <span aria-hidden="true" style={{ width: 22 }} />
     </header>
-    {menuOpen && <button className={styles.scrim} aria-label="Close navigation" onClick={() => { setMenuOpen(false); opener.current?.focus(); }} />}
-    <nav ref={navRef} aria-label="CZN navigation" className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
+    {menuOpen && <button className={styles.scrim} aria-label={t("Close navigation")} onClick={() => { setMenuOpen(false); opener.current?.focus(); }} />}
+    <nav ref={navRef} aria-label={t("CZN navigation")} className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
       <Link className={styles.brand} href="/combatant" onClick={() => setMenuOpen(false)}><Image src={logo} alt="" width={42} height={42} unoptimized /><small>CZN</small></Link>
       <div className={styles.navItems}>{nav.map((item) => {
         const href = routes[item];
         const active = href && (pathname === href || pathname.startsWith(`${href}/`));
-        return href ? <Link key={item} href={href} aria-current={active ? "page" : undefined} className={`${styles.navItem} ${active ? styles.active : ""}`} onClick={() => setMenuOpen(false)}><NavIcon item={item} /><span>{item}</span></Link> : <span key={item} className={`${styles.navItem} ${styles.disabled}`} aria-disabled="true" title="Coming soon"><NavIcon item={item} /><span>{item}</span></span>;
+        return href ? <Link key={item} href={href} aria-current={active ? "page" : undefined} className={`${styles.navItem} ${active ? styles.active : ""}`} onClick={() => setMenuOpen(false)}><NavIcon item={item} /><span>{t(item)}</span></Link> : <span key={item} className={`${styles.navItem} ${styles.disabled}`} aria-disabled="true" title={t("Coming soon")}><NavIcon item={item} /><span>{t(item)}</span></span>;
       })}</div>
-      <div className={styles.bottom}><ThemeToggle /><span className={styles.utility} aria-label="Language: English">EN</span></div>
+      <div className={styles.bottom}><ThemeToggle /><button type="button" className={styles.utility} aria-label={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} title={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} onClick={() => storeValue(languageKey, String(!vietnamese))}>{vietnamese ? "VI" : "EN"}</button></div>
     </nav>
     <main className={styles.main}>{children}</main>
   </div>;

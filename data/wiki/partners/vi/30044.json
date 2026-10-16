@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Thám tử ghế bành lao đi không gì cản nổi.</><br>Một thám tử ngồi trên chiếc xe lăn có hình dáng như ghế bành. Cô tự tìm đến hiện trường vụ án mà không được mời và điều tra hoàn toàn theo cách của mình. Vì luôn điều tra khi đang ngồi, cô tự hào gọi mình là Thám tử ghế bành. Trớ trêu thay, điều cô coi trọng nhất trong một cuộc điều tra lại là đích thân đến hiện trường.",
+  "infoValues": [
+    "Con người",
+    "Ngày 15 tháng 9",
+    "Mai Kanno",
+    "Bora You"
+  ],
+  "cardDescription": "Chuyển <color_orange>1</> lá từ tay lên đầu <color_orange><u>Chồng bài rút</u></><br><color_orange><u>Rút</u></> <color_orange>2</> lá của Nhân vật được ghép cặp",
+  "terms": {
+    "CARD_DECK_2": {
+      "title": "Chồng bài rút",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Suy luận sáng suốt",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Tấn công của Nhân vật được ghép cặp được Rút nhờ năng lực của chính Nhân vật đó, +<cc>25</>% lượng sát thương cho lá đó trong <cc>1</> lượt.",
+        "Tăng <cc>20</>% lượng sát thương của các lá có Cảm hứng thuộc Nhân vật được ghép cặp."
+      ]
+    },
+    "2": {
+      "name": "Suy luận sáng suốt",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Tấn công của Nhân vật được ghép cặp được Rút nhờ năng lực của chính Nhân vật đó, +<cc>32</>% lượng sát thương cho lá đó trong <cc>1</> lượt.",
+        "Tăng <cc>25</>% lượng sát thương của các lá có Cảm hứng thuộc Nhân vật được ghép cặp."
+      ]
+    },
+    "3": {
+      "name": "Suy luận sáng suốt",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Tấn công của Nhân vật được ghép cặp được Rút nhờ năng lực của chính Nhân vật đó, +<cc>38</>% lượng sát thương cho lá đó trong <cc>1</> lượt.",
+        "Tăng <cc>30</>% lượng sát thương của các lá có Cảm hứng thuộc Nhân vật được ghép cặp."
+      ]
+    },
+    "4": {
+      "name": "Suy luận sáng suốt",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Tấn công của Nhân vật được ghép cặp được Rút nhờ năng lực của chính Nhân vật đó, +<cc>44</>% lượng sát thương cho lá đó trong <cc>1</> lượt.",
+        "Tăng <cc>35</>% lượng sát thương của các lá có Cảm hứng thuộc Nhân vật được ghép cặp."
+      ]
+    },
+    "5": {
+      "name": "Suy luận sáng suốt",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Khi một lá Tấn công của Nhân vật được ghép cặp được Rút nhờ năng lực của chính Nhân vật đó, +<cc>50</>% lượng sát thương cho lá đó trong <cc>1</> lượt.",
+        "Tăng <cc>40</>% lượng sát thương của các lá có Cảm hứng thuộc Nhân vật được ghép cặp."
+      ]
+    }
+  }
+}

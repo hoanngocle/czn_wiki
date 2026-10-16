@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { decodeSnapshot, normalizeCharacters, normalizeDetail } from "../../scripts/import-e7bot.mjs";
 
 const key = "2egkWEkLvR9idARLvjqfJdWKfR24HJgY";
-const source = "docs/wiki.e7bot.top/api/czn/characters";
+const source = "docs/combatant/current/api/czn/characters";
 
 describe("E7BOT snapshot import", () => {
   it("decodes the envelope and splits 38 combatants from 49 supporters", () => {

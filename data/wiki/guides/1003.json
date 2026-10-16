@@ -1,0 +1,1482 @@
+{
+  "characterId": "1003",
+  "name": "Nia",
+  "identity": [
+    "Instinct",
+    "Controller"
+  ],
+  "subtitle": {
+    "en": "Active discard and deck reshuffles convert Decibel into healing and allied Extra Attacks.",
+    "vi": "Chủ động bỏ bài và xáo lại bộ bài chuyển Đề-xi-ben thành hồi máu cùng Đòn đánh thêm của đồng đội."
+  },
+  "portrait": "/assets/combatant/portrait_character_crop_half_1003.webp",
+  "source": {
+    "name": "Prydwen + E7BOT",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/nia",
+    "updated": "",
+    "kind": "guide",
+    "files": [
+      "docs/combatant/prydwen/nia.json",
+      "docs/combatant/current/api/czn/characters/1003.html",
+      "data/deck-builder/catalog.json"
+    ],
+    "note": {
+      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+    }
+  },
+  "images": {
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nyx": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Healer's Journey": {
+      "src": "/assets/item/guide-9a0cb5c9e3e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tetra's Authority": {
+      "src": "/assets/item/guide-1723d608cc01.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Glory's Reign": {
+      "src": "/assets/item/guide-b889fea371c5.webp",
+      "width": 60,
+      "height": 60
+    },
+    "Tentacles of Chaos": {
+      "src": "/assets/item/guide-c8580902821e.webp",
+      "width": 40,
+      "height": 40
+    },
+    "Flashbang": {
+      "src": "/assets/item/relic_1161.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Wings of Light": {
+      "src": "/assets/item/relic_1179.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Star-Lit Cloak": {
+      "src": "/assets/item/relic_1189.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Clover of the Forest": {
+      "src": "/assets/item/relic_1232.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Sphere of Randomness": {
+      "src": "/assets/item/relic_0096.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Cocoon Cape": {
+      "src": "/assets/item/relic_5063.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Contaminated Drone Lens": {
+      "src": "/assets/item/relic_5072.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pagna Mushroom": {
+      "src": "/assets/item/relic_5066.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Essence-Fragmented Necklace": {
+      "src": "/assets/item/relic_5064.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Closed-Circuit Terminal": {
+      "src": "/assets/item/relic_5071.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Cycle of Circulation": {
+      "src": "/assets/item/relic_5074.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Rocket-Adorned Cape": {
+      "src": "/assets/item/relic_5004.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Fragment of the Empty Void": {
+      "src": "/assets/item/relic_1093.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Superconductive Protein": {
+      "src": "/assets/item/relic_0109.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Pale Eternal Flame": {
+      "src": "/assets/item/relic_5018.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Harpoon Case of Broken Resolve": {
+      "src": "/assets/item/relic_5030.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Camouflage": {
+      "src": "/assets/item/relic_5025.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Vine Lord's Mask": {
+      "src": "/assets/item/relic_5017.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Combat Drum": {
+      "src": "/assets/item/relic_5034.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Plant Doll": {
+      "src": "/assets/item/relic_5027.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Golden Bell": {
+      "src": "/assets/item/relic_5012.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Nightmare Hairpin": {
+      "src": "/assets/item/relic_5046.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Torture Toolbox": {
+      "src": "/assets/item/relic_1157.webp",
+      "width": 124,
+      "height": 124
+    },
+    "A Lonesome Wedding Ring": {
+      "src": "/assets/item/relic_5050.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Stele of Heresy": {
+      "src": "/assets/item/relic_5047.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Bloody Pendant": {
+      "src": "/assets/item/relic_1223.webp",
+      "width": 124,
+      "height": 124
+    },
+    "Renoa": {
+      "src": "/assets/combatant/portrait_character_crop_half_1041.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Diana": {
+      "src": "/assets/combatant/portrait_character_crop_half_1061.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rin": {
+      "src": "/assets/combatant/portrait_character_crop_half_1018.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tenebria": {
+      "src": "/assets/combatant/portrait_character_crop_half_1069.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rei": {
+      "src": "/assets/combatant/portrait_character_crop_half_1056.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Fei": {
+      "src": "/assets/combatant/portrait_character_crop_half_30048.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arabella": {
+      "src": "/assets/combatant/portrait_character_crop_half_30115.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Olga": {
+      "src": "/assets/combatant/portrait_character_crop_half_30117.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Hilde": {
+      "src": "/assets/combatant/portrait_character_crop_half_30113.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Cassius": {
+      "src": "/assets/combatant/portrait_character_crop_half_1049.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Amir": {
+      "src": "/assets/combatant/portrait_character_crop_half_1017.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Narja": {
+      "src": "/assets/combatant/portrait_character_crop_half_1052.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuki": {
+      "src": "/assets/combatant/portrait_character_crop_half_1057.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Instinct": {
+      "src": "/assets/common/icon_type_ego_instinct.png",
+      "width": 44,
+      "height": 44
+    },
+    "Controller": {
+      "src": "/assets/common/icon_type_job_controller.png",
+      "width": 44,
+      "height": 44
+    },
+    "Nyx E0": {
+      "src": "/assets/partner/portrait_character_crop_half_20006.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yuri E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20016.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Arwen E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20001.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Alyssa E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Yvonne E4": {
+      "src": "/assets/partner/portrait_character_crop_half_20026.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [
+    {
+      "id": "card_ta_00007",
+      "name": "Forbidden: Eternal Hunger",
+      "cost": 0,
+      "description": "<color_orange>Attunement:</> <color_orange><u>Draw</u></> <cc>1</> and gain <cc>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_TABOO",
+      "artKey": "taboo_00007",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/taboo_00007.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "This card is not discarded at the end of the turn",
+          "id": "TALENT_RETAIN",
+          "title": "Retain"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        },
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ta_00007",
+      "ownerId": null,
+      "jobs": [],
+      "tags": [
+        "taboo"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00020",
+      "name": "Glorious Resistance",
+      "cost": 3,
+      "description": "At the start of the turn, deal <color_orange>10</>% Max HP <color_orange><u>Fixed Damage</u></> to each ally<br>Gain <color_orange>1</> <color_orange><u>AP</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00070",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00070.webp",
+      "video": null,
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "A damage that ignores persistent effects",
+          "id": "CARD_FIXEDDAMAGE",
+          "title": "Fixed Damage"
+        },
+        {
+          "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+          "id": "CARD_ENERGY",
+          "title": "AP"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00020",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00026",
+      "name": "Gear Bag",
+      "cost": 1,
+      "description": "<color_orange><u>Draw</u></> <color_orange>2</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_LEGEND",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "job_00326",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/job_00326.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        },
+        {
+          "desc": "When a card of a different Combatant is used, <color_orange><u>proc</u></> this card",
+          "id": "TALENT_COOP",
+          "title": "Combo"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+          "id": "CARD_DRAW",
+          "title": "Draw"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00026",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    },
+    {
+      "id": "card_ne_00050",
+      "name": "First Aid Kit​",
+      "cost": 2,
+      "description": "<color_orange><u>Heal</u></> <color_orange>250%</>",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_COMMON",
+      "sort": "SORT_NEUTRAL",
+      "artKey": "potion_00044",
+      "egoType": "EGO_OWNER",
+      "artwork": "/assets/card/potion_00044.webp",
+      "video": null,
+      "talent": [
+        {
+          "desc": "When a <cc>2</>-Cost or higher card is used, <color_orange><u>proc</u></> this card",
+          "id": "TALENT_CELESTIAL",
+          "title": "Celestial"
+        },
+        {
+          "desc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile",
+          "id": "TALENT_EXHAUST",
+          "title": "Exhaust"
+        }
+      ],
+      "tooltips": [
+        {
+          "desc": "Increase current HP based on Defense<br>Decrease Stress of a random Combatant by <cc>1</>-<cc>6</> based on the amount increased",
+          "id": "CARD_CURE",
+          "title": "Healing"
+        }
+      ],
+      "variants": [],
+      "sourceId": "card_ne_00050",
+      "ownerId": null,
+      "jobs": [
+        "psionic",
+        "controller"
+      ],
+      "tags": [
+        "neutral"
+      ],
+      "chaos": "",
+      "variantIds": []
+    }
+  ],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Active discard and deck reshuffles convert Decibel into healing and allied Extra Attacks.",
+      "vi": "Chủ động bỏ bài và xáo lại bộ bài chuyển Đề-xi-ben thành hồi máu cùng Đòn đánh thêm của đồng đội."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Manipulates draw order and can activate costly cards through Adagio and G Chord.",
+        "vi": "Điều khiển thứ tự rút bài và có thể kích hoạt bài đắt qua Adagio cùng G Chord."
+      }
+    ],
+    "cons": [
+      {
+        "en": "Needs deliberate discard triggers; ordinary end-of-turn discards do not feed Soul Rip.",
+        "vi": "Cần chủ động kích hoạt bỏ bài; bỏ bài thông thường cuối lượt không nuôi Soul Riff."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Mute Accent",
+        "body": {
+          "en": "Discard 1 card(s) with the highest Cost; 150% Extra Attack to a random enemy by the Combatant who owns that card",
+          "vi": "Bỏ bài 1 lá có Chi phí cao nhất; Nhân vật sở hữu lá đó gây Đòn đánh thêm 150% lên một kẻ địch ngẫu nhiên"
+        },
+        "cardId": "c_1003_uni1"
+      },
+      {
+        "title": "Soul Riff",
+        "body": {
+          "en": "Heal 150%; For 1 turn, when a card is Discarded, 1 Decibel and 2 Elasticity",
+          "vi": "Hồi máu 150%; Trong 1 lượt, khi một lá bị Bỏ bài, nhận 1 Đề-xi-ben và 2 Đàn hồi"
+        },
+        "cardId": "c_1003_uni2"
+      },
+      {
+        "title": "Adagio",
+        "body": {
+          "en": "Draw 1; Discard 1; Move the card Discarded through this effect to the top of Draw Pile",
+          "vi": "Rút bài 1; Bỏ bài 1; Đưa lá bị Bỏ bài bởi hiệu ứng này lên đầu Chồng bài rút"
+        },
+        "cardId": "c_1003_uni3"
+      }
+    ]
+  },
+  "cardAdvice": [
+    {
+      "cardId": "c_1003_srt4",
+      "ratings": [
+        4,
+        4,
+        4,
+        2,
+        3
+      ],
+      "preferred": "I / II / III",
+      "note": {
+        "en": "I–III remain close to the useful base effect. IV supports heavier discard plans but adds randomness and setup demands.",
+        "vi": "I–III gần với hiệu ứng gốc vốn hữu ích. IV hỗ trợ kế hoạch bỏ nhiều bài nhưng tăng tính ngẫu nhiên và yêu cầu thiết lập."
+      },
+      "divine": {
+        "en": "Neutral resource support or 2 Morale is competitive; draw and cost reduction remain useful.",
+        "vi": "Tài nguyên trung lập hoặc 2 Sĩ khí đáng cân nhắc; rút bài và giảm chi phí vẫn hữu ích."
+      }
+    },
+    {
+      "cardId": "c_1003_uni1",
+      "ratings": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "preferred": "III / V",
+      "note": {
+        "en": "III can enable expensive cards through a difficult lowest-cost condition. V supports discard/Extra Attack combos but can empty too much of the hand.",
+        "vi": "III có thể giúp dùng bài đắt qua điều kiện chi phí thấp nhất khó đáp ứng. V hỗ trợ tổ hợp bỏ bài/Đòn đánh thêm nhưng có thể làm cạn tay bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 reduces draw loss; consider draw or cost reduction divines.",
+        "vi": "Rút 1 trung lập giảm hao hụt bài; cân nhắc thần thánh rút bài hoặc giảm chi phí."
+      }
+    },
+    {
+      "cardId": "c_1003_uni2",
+      "ratings": [
+        3,
+        3,
+        3,
+        2,
+        4
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V passively builds Decibel and leaves the draw cycle. II specializes in healing; III supports discard-driven Extra Attack allies.",
+        "vi": "V thụ động tạo Đề-xi-ben và rời vòng rút. II chuyên hồi máu; III hỗ trợ đồng đội Đòn đánh thêm thông qua bỏ bài."
+      },
+      "divine": {
+        "en": "Neutral Draw 1 or 2 Morale is useful; draw/cost reduction are common divine choices.",
+        "vi": "Rút 1 hoặc 2 Sĩ khí trung lập hữu ích; thần thánh thường chọn rút bài/giảm chi phí."
+      }
+    },
+    {
+      "cardId": "c_1003_uni3",
+      "ratings": [
+        3,
+        3,
+        2,
+        3,
+        5
+      ],
+      "preferred": "V",
+      "note": {
+        "en": "V improves draw while clearing selected allied cards. I manipulates the top of the deck for G Chord or Attunement interactions.",
+        "vi": "V cải thiện rút bài đồng thời loại các lá đồng đội được chọn. I sắp xếp đầu bộ bài để phối hợp G Chord hoặc Điều hòa."
+      },
+      "divine": {
+        "en": "Neutral 1 Morale adds a buff; 1 AP is the main divine target.",
+        "vi": "1 Sĩ khí trung lập thêm tăng sức mạnh; 1 Điểm hành động là thần thánh ưu tiên."
+      }
+    }
+  ],
+  "partners": [
+    {
+      "name": "Nyx E0",
+      "score": "—",
+      "note": {
+        "en": "Nyx combines draw/discard utility, supportive stats and a small team buff at any Ego level.",
+        "vi": "Nyx kết hợp Rút/Bỏ bài, chỉ số hỗ trợ và tăng sức mạnh nhẹ toàn đội ở mọi cấp Ego."
+      }
+    },
+    {
+      "name": "Yuri E4",
+      "score": "—",
+      "note": {
+        "en": "Off-class passives are inactive, but Yuri's inexpensive draw Ego remains a strong free alternative.",
+        "vi": "Nội tại không hoạt động do khác lớp, nhưng Ego Rút bài ít tốn năng lượng của Yuri vẫn là lựa chọn miễn phí tốt."
+      }
+    },
+    {
+      "name": "Arwen E4",
+      "score": "—",
+      "note": {
+        "en": "Passive damage reduction improves survival when utility can be sacrificed.",
+        "vi": "Nội tại giảm sát thương giúp sống sót tốt hơn khi có thể đánh đổi tiện ích."
+      }
+    },
+    {
+      "name": "Alyssa E4",
+      "score": "—",
+      "note": {
+        "en": "Defense and passive healing offer an alternative when defense scaling matters or Arwen is unavailable.",
+        "vi": "Phòng thủ và hồi máu nội tại là phương án khác khi cần chỉ số Phòng thủ hoặc chưa có Arwen."
+      }
+    },
+    {
+      "name": "Yvonne E4",
+      "score": "—",
+      "note": {
+        "en": "Choose Yvonne when free stat bonuses matter more than Yuri's draw skill.",
+        "vi": "Chọn Yvonne khi thưởng chỉ số miễn phí quan trọng hơn kỹ năng Rút bài của Yuri."
+      }
+    }
+  ],
+  "fragments": [
+    {
+      "name": "Healer's Journey (2) + Tetra's Authority (2) + Flex",
+      "score": "—",
+      "note": {
+        "en": "A consistent accessible support default for general-purpose Nia builds.",
+        "vi": "Bộ hỗ trợ mặc định dễ kiếm và ổn định cho các hướng Nia đa dụng."
+      }
+    },
+    {
+      "name": "Glory's Reign (4) + Flex",
+      "score": "—",
+      "note": {
+        "en": "Strong only in builds that generate enough Exhaust cards; otherwise put the set on another teammate.",
+        "vi": "Chỉ mạnh khi cách xây dựng tạo đủ bài Kiệt sức; nếu không nên giao bộ này cho đồng đội khác."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "name": {
+        "en": "Ideal",
+        "vi": "Lý tưởng"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Desire",
+        "vi": "Khao khát"
+      },
+      "value": {
+        "en": "HP%",
+        "vi": "Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Imagination",
+        "vi": "Tưởng tượng"
+      },
+      "value": {
+        "en": "DEF% = EGO Regen >= HP%",
+        "vi": "Phòng thủ% = Hồi năng lượng Ego >= Máu%"
+      }
+    },
+    {
+      "name": {
+        "en": "Substats",
+        "vi": "Chỉ số phụ"
+      },
+      "value": {
+        "en": "DEF > DEF% > EGO Regen = HP > HP%",
+        "vi": "Phòng thủ > Phòng thủ% > Hồi năng lượng Ego = Máu > Máu%"
+      }
+    }
+  ],
+  "critNote": {
+    "en": "If you care about raising the healing multipliers of Nia's Elasticity and to a lesser extent, Amp Therap,y you can optionally aim to reach 71 or higher Ego Recovery to amplify their effects. However, this isn't mandatory to do and it can be more productive to instead focus on maximizing DEF and HP, both of which boost survivability as well. We only recommend going for this stat goal if you were already going to build Ego Regen.",
+    "vi": "Có thể nhắm 71+ hồi phục Ego để tăng hồi máu Đàn hồi và phần nào Amp Therapy, nhưng không bắt buộc. Chỉ nên theo nếu vốn định xây hồi phục Ego; phòng thủ và máu có thể hiệu quả hơn cho sinh tồn."
+  },
+  "potentialIntro": {
+    "en": "Nia’s Signature Potentials focus entirely on healing, which isn’t really a priority given her primary use as a deck manipulator.3-1: Causes Amp Therapy to accumulate 1 stack of Elasticity on use. Good passive healing.5-1: Improves Amp Therapy’s heal by 5% and an additional 5% if Nia’s Ego Recovery is greater than 30.7: Increases Elasticity’s healing by +30% and another +20% if Nia’s Ego Recovery is greater than 70.",
+    "vi": "Các tiềm năng đặc trưng hoàn toàn tập trung hồi máu nên ưu tiên thấp nếu chỉ dùng Nia điều khiển vòng bài: 3-1 giúp Amp Therapy tích 1 Đàn hồi, còn 5-1 tăng hồi máu Amp Therapy 5% và thêm 5% khi hồi phục Ego >30. Tiềm năng 7 tăng hồi phục Đàn hồi 30%, thêm 20% khi hồi phục Ego >70."
+  },
+  "potentialAdvice": [
+    {
+      "name": "3-1",
+      "note": {
+        "en": "Adds the following effect to the Amp Therapy card: 2 Elasticity",
+        "vi": "Thêm hiệu ứng sau cho lá Amp Therapy: 2 Đàn hồi"
+      }
+    },
+    {
+      "name": "5-1",
+      "note": {
+        "en": "+5% Heal Amount to Nia's Amp Therapy; If Nia's Ego Recovery is 30 or higher, add an additional +5% to that value",
+        "vi": "Tăng 5% lượng hồi máu của Amp Therapy của Nia; Nếu Hồi phục Ego của Nia đạt ít nhất 30, tăng thêm 5% vào giá trị đó"
+      }
+    },
+    {
+      "name": "5-2",
+      "note": {
+        "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
+        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+      }
+    },
+    {
+      "name": "7-0",
+      "note": {
+        "en": "+30% Heal Amount to Elasticity; If Nia’s Ego Recovery is 70 or higher, add an additional +20% to the modifier",
+        "vi": "Tăng 30% lượng hồi máu của Đàn hồi; Nếu Hồi phục Ego của Nia đạt ít nhất 70, tăng thêm 20% vào mức cộng thêm"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": {
+        "en": "Swamp",
+        "vi": "Đầm lầy"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Flashbang"
+      ],
+      "armor": [
+        "Wings of Light",
+        "Star-Lit Cloak"
+      ],
+      "trinkets": [
+        "Clover of the Forest",
+        "Sphere of Randomness"
+      ],
+      "note": {
+        "en": "Swamp is typically the go-to choice for any support that can trigger ‘Recover’ through a Card, which is all Controllers and some Psionics, because of the access to ‘Clover of the Forest’ at fairly high odds (+10% ATK% for all allies on Recover from Card).",
+        "vi": "Đầm lầy thường là lựa chọn đầu tiên cho hỗ trợ có bài hồi phục, gồm mọi nhân vật Điều khiển và một số Ngoại cảm, vì dễ lấy Clover of the Forest. Trang bị này tăng 10% tấn công cho toàn đội khi hồi phục bằng bài."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 4: Kaleidoscope Hatchery (Current)",
+        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Flashbang"
+      ],
+      "armor": [
+        "Contaminated Cocoon Cape",
+        "Contaminated Drone Lens",
+        "Pagna Mushroom"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Essence-Fragmented Necklace",
+        "Closed-Circuit Terminal",
+        "Cycle of Circulation"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 1: Lab Zero",
+        "vi": "Mùa 1: Lab Zero"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Flashbang"
+      ],
+      "armor": [
+        "Rocket-Adorned Cape",
+        "Fragment of the Empty Void"
+      ],
+      "trinkets": [
+        "Superconductive Protein",
+        "Sphere of Randomness"
+      ]
+    },
+    {
+      "name": {
+        "en": "Season 2: Burning Life",
+        "vi": "Mùa 2: Burning Life"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Pale Eternal Flame",
+        "Harpoon Case of Broken Resolve",
+        "Flashbang"
+      ],
+      "armor": [
+        "Vine Camouflage",
+        "Vine Lord's Mask"
+      ],
+      "trinkets": [
+        "Sphere of Randomness",
+        "Combat Drum",
+        "Plant Doll",
+        "Golden Bell"
+      ],
+      "note": {
+        "en": "While Nia struggles to activate Combat Drum, it's possible because of Spore giving more Skill Cards to trigger [Exhaust] on and her having an Adagio epiphany that makes [Exhaust] copies of it (~6 [Exhaust] Skills guaranteed a turn total).",
+        "vi": "Nia khó kích hoạt Combat Drum nhưng vẫn làm được nhờ Spore tạo thêm bài kỹ năng có Kiệt sức và thức tỉnh Adagio tạo các bản sao có Kiệt sức; tổng cộng có thể bảo đảm khoảng 6 kỹ năng Kiệt sức mỗi lượt."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3: Theater of Illusions",
+        "vi": "Mùa 3: Theater of Illusions"
+      },
+      "weapons": [
+        "Tentacles of Chaos",
+        "Flashbang"
+      ],
+      "armor": [
+        "Nightmare Hairpin",
+        "Torture Toolbox",
+        "Wings of Light"
+      ],
+      "trinkets": [
+        "A Lonesome Wedding Ring",
+        "Stele of Heresy",
+        "Sphere of Randomness",
+        "Bloody Pendant"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "name": {
+        "en": "Season 4",
+        "vi": "Mùa 4"
+      },
+      "note": {
+        "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
+        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 3 — Recommended",
+        "vi": "Mùa 3 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] and/or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
+        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, và/hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 2",
+        "vi": "Mùa 2"
+      },
+      "note": {
+        "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
+        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+      }
+    },
+    {
+      "name": {
+        "en": "Season 1 — Recommended",
+        "vi": "Mùa 1 — Đề xuất"
+      },
+      "note": {
+        "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Eternal Hunger.+++Draw, +++APNia has one of the most notable and dominant synergies in Season 1, with her being able to easily loop multiple Fungers (Forbidden: Eternal Hungers) via Adagio. It is the forefront recommendation; however, it is certainly possible to use any of the below options as well for specific setups or builds.Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
+        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Ưu tiên Forbidden: Eternal Hunger vì Nia có thể dùng Adagio quay vòng nhiều bản, tạo lượng rút bài và điểm hành động rất lớn. Tùy đội vẫn có thể dùng Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+      }
+    }
+  ],
+  "dupes": [
+    {
+      "name": "Base",
+      "score": "—",
+      "note": {
+        "en": "Base performance of the character.",
+        "vi": "Hiệu năng cơ bản của nhân vật khi chưa mở thêm Ego."
+      }
+    },
+    {
+      "name": "Ego 1",
+      "score": "—",
+      "note": {
+        "en": "Nia’s E1 reduces the cost of her “Nia’s Curiosity” card by 1. A really, really good first node for Nia, which slightly reduces her AP needs whilst allowing you to ramp your decibel stacks even further.",
+        "vi": "Nia’s Curiosity giảm 1 chi phí, giảm áp lực điểm hành động và giúp tích Đề-xi-ben tốt hơn; là Ego đầu rất tốt."
+      }
+    },
+    {
+      "name": "Ego 2",
+      "score": "—",
+      "note": {
+        "en": "Her 2nd Ego node grants Nia an additional passive buff called “Rhythm Boost”. Whenever a shuffle occurs, Nia grants 4 stacks of Rhythm Boost, which provides a 5% multiplicative damage buff per stack. At the start of each turn 1 stack will be lost. This is a fantastic 2nd node for Nia that now allows her to provide a solid buff to her allies that can be consistently maintained.",
+        "vi": "Mỗi lần xáo bài nhận 4 Rhythm Boost, mỗi cộng dồn tăng sát thương 5% theo hệ số nhân; mất 1 cộng dồn ở đầu mỗi lượt. Đây là nguồn tăng cường đồng đội mạnh và dễ duy trì."
+      }
+    },
+    {
+      "name": "Ego 3",
+      "score": "—",
+      "note": {
+        "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. As Nia doesn’t necessarily have many cards that directly deal damage or heal, this node is relatively minor and doesn’t overall provide a huge benefit to her gameplay.",
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Tác động nhỏ vì Nia có ít bài trực tiếp gây sát thương hoặc hồi máu."
+      }
+    },
+    {
+      "name": "Ego 4",
+      "score": "—",
+      "note": {
+        "en": "Her 4th Ego node boosts her “Rock & Roll” Ego skill by increasing the amount of Decibel stacks granted by 2, to a total of 5. An okay node that allows her Ego skill to fully stack Decibel to maximize healing and damage dealt when your next Shuffle occurs.",
+        "vi": "Rock & Roll cho thêm 2 Đề-xi-ben, tổng 5. Giúp tích đủ ngay để tối đa hồi máu và sát thương ở lần xáo bài kế tiếp."
+      }
+    },
+    {
+      "name": "Ego 5",
+      "score": "—",
+      "note": {
+        "en": "E5 again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. As mentioned earlier, a very minor increase that really only benefits her basic cards, which are often removed.",
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; lợi ích nhỏ, chủ yếu ở bài cơ bản thường bị xóa."
+      }
+    },
+    {
+      "name": "Ego 6",
+      "score": "—",
+      "note": {
+        "en": "Her E6 node is arguably her most impactful node that allows Nia to function additionally as an amazing Healer. Not only does this node grant a 40% heal per Decibel stack when a shuffle triggers, but it also now starts battles off with 4 stacks of Rhythm Boost to immediately boost the damage output of your team. When combined with her 7-1 Potential Node, whenever a shuffle occurs she has the Potential to heal for a huge 500% + 200% whenever a shuffle occurs.",
+        "vi": "Mỗi lần xáo bài hồi 40% cho mỗi Đề-xi-ben; đầu trận còn có sẵn 4 Rhythm Boost. Kết hợp tiềm năng 7-1 có thể hồi tổng 500% + 200% mỗi lần xáo, giúp Nia đảm nhiệm tốt vai trò hồi phục."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Double Funger",
+        "vi": "Lặp hai Forbidden: Eternal Hunger"
+      },
+      "role": {
+        "en": "High-output AP and draw loop",
+        "vi": "Vòng lặp tạo nhiều Điểm hành động và rút bài"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1003_srt4",
+          "count": 1,
+          "draw": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni2",
+          "count": 1,
+          "draw": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1003_uni3_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1003_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ta_00007",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00020",
+          "count": 1,
+          "effects": {
+            "en": "Morale 2",
+            "vi": "Nhận 2 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Adagio I places two Forbidden: Forbidden: Eternal Hunger atop the draw pile; draw to trigger them, then repeat. Usually an ally carries the second Forbidden: Eternal Hunger because duplicating Forbidden cards requires rare Lab-0 access or Core of Reverse. Prefer neutral Morale when resources allow. Adagio plus G Chord can play an expensive buff free: select Glorious Resistance second so it lands on top. Forbidden: Eternal Hunger requires Lab-0.",
+        "vi": "Adagio I đặt hai Forbidden: Eternal Hunger lên đầu chồng bài rút; rút chúng để kích hoạt rồi tiếp tục lặp. Thường để đồng đội giữ bản Forbidden: Eternal Hunger thứ hai vì nhân bản Cấm kỵ cần sự kiện hiếm ở Lab-0 hoặc Core of Reverse. Có thể thêm Thức tỉnh bài trung lập tăng Sĩ khí. Adagio kết hợp G Chord dùng miễn phí lá tăng sức mạnh có chi phí cao: chọn Glorious Resistance thứ hai để nó nằm trên cùng. Forbidden: Eternal Hunger chỉ có ở Lab-0."
+      }
+    },
+    {
+      "name": {
+        "en": "Generic Support",
+        "vi": "Hỗ trợ đa dụng"
+      },
+      "role": {
+        "en": "Targeted draw cycling and healing",
+        "vi": "Xoay bài có chọn mục tiêu và hồi máu"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1003_srt4_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1003_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1003_uni3_rsp5",
+          "count": 4,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1003_uni4",
+          "count": 1
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Healer's Journey",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Use Adagio to cycle cards, targeting a specific combatant when needed. Soul Riff's upgrade adds more cycling while Decibels/Elasticity provide healing. This suits Rin's multi-hit and discount builds or Haru's repeated Anchor Shot plan.",
+        "vi": "Dùng Adagio để xoay bài, chọn riêng bài của một nhân vật khi cần. Nâng cấp Soul Riff bổ sung khả năng xoay bài, còn Đề-xi-ben/Đàn hồi cung cấp hồi máu. Phù hợp với các bản Rin nhiều nhịp đánh hoặc giảm chi phí, cũng như Haru lặp Anchor Shot."
+      }
+    },
+    {
+      "name": {
+        "en": "Discard DPS Support",
+        "vi": "Hỗ trợ chủ lực bỏ bài"
+      },
+      "role": {
+        "en": "Extra attacks from hand discard",
+        "vi": "Tạo đánh thêm khi bỏ bài trên tay"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1003_srt4",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni2",
+          "count": 1,
+          "costDelta": -1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni2_rsp3",
+          "count": 1,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1003_uni3_rsp2",
+          "count": 2,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1003_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00026",
+          "count": 1,
+          "effects": {
+            "en": "Gain 2 Ego Points",
+            "vi": "Nhận 2 Điểm Ego"
+          }
+        },
+        {
+          "cardId": "card_ne_00050",
+          "count": 1,
+          "effects": {
+            "en": "Morale 2",
+            "vi": "Nhận 2 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [
+        "Healer's Journey",
+        "Tetra's Authority"
+      ],
+      "fragmentPieces": [
+        0,
+        0
+      ],
+      "note": {
+        "en": "Soul Riff III adds an extra attack for the owner of a discarded card, multiplying the hit output of Renoa or Diana. It can approach doubling their discard-triggered attacks. If the team discards from the draw pile instead of hand, as in Heidemarie's sword shuffle, choose neutral draw-one or one-turn Morale-two Soul Riff instead.",
+        "vi": "Soul Riff III tạo một đòn đánh thêm cho chủ sở hữu lá bị bỏ, tăng mạnh số nhịp đánh của Renoa hoặc Diana và có thể gần gấp đôi lượng đòn đánh do bỏ bài. Nếu đội bỏ bài từ chồng bài rút thay vì trên tay, như Heidemarie xào kiếm, nên đổi Soul Riff sang Thức tỉnh bài trung lập rút một lá hoặc tăng hai Sĩ khí trong một lượt."
+      }
+    },
+    {
+      "name": {
+        "en": "Nia: The Forbidden One",
+        "vi": "Nia: Một Forbidden: Eternal Hunger"
+      },
+      "role": {
+        "en": "Single-Forbidden: Eternal Hunger AP and draw loop",
+        "vi": "Lặp một Forbidden: Eternal Hunger để cấp Điểm hành động và rút bài"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1003_srt4",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni2",
+          "count": 1,
+          "draw": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni3",
+          "count": 3,
+          "effects": {
+            "en": "For 1 turn, gain 1 Morale<br>1 AP",
+            "vi": "Nhận 1 Sĩ khí trong 1 lượt<br>Nhận 1 Điểm hành động"
+          }
+        },
+        {
+          "cardId": "c_1003_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ta_00007",
+          "count": 1
+        },
+        {
+          "cardId": "card_ne_00020",
+          "count": 1,
+          "effects": {
+            "en": "Morale 2",
+            "vi": "Nhận 2 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Return Forbidden: Eternal Hunger to the top of the deck and draw it repeatedly for AP and draw. Leave roughly three hand slots free for Forbidden: Eternal Hunger, its draw, and any card creation such as Cassius's. This is the simplest general version; discard carries may prefer Soul Riff III, while higher resource needs can justify two Forbidden: Eternal Hunger. Farm Lab-0.",
+        "vi": "Đưa Forbidden: Eternal Hunger lên đầu bộ bài rồi rút lại nhiều lần để nhận Điểm hành động và rút bài. Thường cần chừa khoảng ba ô tay trống cho Forbidden: Eternal Hunger, lá nó rút và hiệu ứng tạo bài như của Cassius. Đây là bản đa dụng dễ vận hành nhất; đội bỏ bài có thể đổi sang Soul Riff III, còn đội cần nhiều tài nguyên hơn có thể dùng hai Forbidden: Eternal Hunger. Thu thập bộ bài tại Lab-0."
+      }
+    },
+    {
+      "name": {
+        "en": "Nia: The Forbidden Two",
+        "vi": "Nia: Hai Forbidden: Eternal Hunger"
+      },
+      "role": {
+        "en": "Maximum AP and draw loop",
+        "vi": "Vòng lặp Điểm hành động và rút bài công suất cao"
+      },
+      "partner": "Nyx",
+      "cards": [
+        {
+          "cardId": "c_1003_srt4",
+          "count": 1,
+          "costDelta": -1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni2",
+          "count": 1,
+          "effects": {
+            "en": "For 1 turn, gain 2 Morale",
+            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+          }
+        },
+        {
+          "cardId": "c_1003_uni3_rsp1",
+          "count": 3
+        },
+        {
+          "cardId": "c_1003_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "card_ta_00007",
+          "count": 2
+        },
+        {
+          "cardId": "card_ne_00020",
+          "count": 1,
+          "effects": {
+            "en": "Morale 2",
+            "vi": "Nhận 2 Sĩ khí"
+          }
+        }
+      ],
+      "gear": [
+        "Tentacles of Chaos",
+        "Clover of the Forest"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use the draw-two/discard-two Adagio that returns discarded cards atop the deck to redraw two Forbidden: Eternal Hunger consecutively. Keep the second on an ally such as Narja when possible; duplicating it on Nia is costly. This can supply around 10–12 AP per turn, versus AP Veronica's roughly four, for demanding teams such as Tenebria or Metal Amir. Forbidden: Eternal Hunger requires Lab-0.",
+        "vi": "Dùng Adagio rút hai, bỏ hai rồi chuyển bài đã bỏ lên đầu chồng rút để rút liên tiếp hai Forbidden: Eternal Hunger. Nên để đồng đội như Narja mang bản thứ hai vì nhân cả hai trên Nia rất khó và tốn kém. Có thể tạo khoảng 10–12 Điểm hành động mỗi lượt, so với khoảng 4 Điểm hành động của Veronica bản cấp Điểm hành động, phù hợp đội tốn nhiều tài nguyên như Tenebria hoặc Amir Kim loại hóa. Forbidden: Eternal Hunger chỉ có tại Lab-0."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Renoa",
+      "note": {
+        "en": "Soul Rip III adds hits to Renoa's discards, while healing and cycling help manage excess Dirge Bullets.",
+        "vi": "Soul Riff III thêm lần đánh khi Renoa Bỏ bài; hồi máu và luân chuyển bài giúp xử lý Dirge Bullet dư thừa."
+      }
+    },
+    {
+      "name": "Diana",
+      "note": {
+        "en": "Soul Rip III adds hits while targeted cycling and discards support Heart Bullet and Quietus interactions.",
+        "vi": "Soul Riff III thêm lần đánh, còn luân chuyển và Bỏ bài có chọn lọc hỗ trợ tương tác Đạn trái tim cùng Tịch diệt."
+      }
+    },
+    {
+      "name": "Rin",
+      "note": {
+        "en": "Targeted cycling brings Rin's own cards into hand for Black Dance setup.",
+        "vi": "Luân chuyển có chọn lọc đưa bài của Rin lên tay để chuẩn bị Black Dance."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Daughters of Discard",
+        "vi": "Đội phối hợp bỏ bài"
+      },
+      "members": [
+        "Diana",
+        "Renoa",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Tenebria và Nia đánh liên tiếp"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Renoa's Fei-t Pics",
+        "vi": "Renoa phối hợp Fei"
+      },
+      "members": [
+        "Renoa",
+        "Fei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "Tenebria tập trung sát thương"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Tenebria với bài chung"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fractured But Whole (Olga Variant)",
+        "vi": "Đội khai thác Rạn nứt — biến thể Olga"
+      },
+      "members": [
+        "Arabella",
+        "Olga",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Twist of Fei-t",
+        "vi": "Fei hỗ trợ rút bài"
+      },
+      "members": [
+        "Fei",
+        "Hilde",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Metal Amir (ST)",
+        "vi": "Amir Kim loại hóa — đơn mục tiêu"
+      },
+      "members": [
+        "Amir",
+        "Narja",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "The Thinker, The Inspired",
+        "vi": "Đội Cảm hứng và Tư duy"
+      },
+      "members": [
+        "Yuki",
+        "Nia",
+        "Cassius"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Metal Amir (AOE)",
+        "vi": "Amir Kim loại hóa — diện rộng"
+      },
+      "members": [
+        "Amir",
+        "Narja",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
+          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+        }
+      ]
+    }
+  ]
+}

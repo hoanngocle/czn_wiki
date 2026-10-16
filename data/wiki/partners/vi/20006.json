@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Trưởng nữ của gia tộc Errante.</><br>Từ sớm, cô đã khẳng định vị trí người thừa kế Errante và tiếp nhận Lõi Errante, vốn chỉ được truyền lại cho người đứng đầu gia tộc. Hiện tại, cô đang chu du thế giới bên ngoài để học hỏi và trải nghiệm nhiều điều.",
+  "infoValues": [
+    "Sileyma",
+    "Ngày 5 tháng 6",
+    "Đồng cảm tăng cường",
+    "Mizuki Yuina",
+    "Bom Kim"
+  ],
+  "cardDescription": "<color_orange><u>Bỏ</u></> tối đa <color_orange>3</> lá bài,<br>sau đó <color_orange><u>Rút</u></> số lá bằng số lá đã bỏ +<color_orange>1</>",
+  "terms": {
+    "CARD_DISCARD": {
+      "title": "Bỏ bài",
+      "desc": "Bỏ lá bài này từ tay vào <color_orange><u>Chồng bài bỏ</u></>"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá bài từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Cộng hưởng",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>12</>%.",
+        "Khi Nhân vật được ghép cặp Rút bài bằng một năng lực lần đầu trong mỗi lượt, +<cc>8</>% Sát thương do đồng minh gây ra trong <cc>1</> lượt."
+      ]
+    },
+    "2": {
+      "name": "Cộng hưởng",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>14</>%.",
+        "Khi Nhân vật được ghép cặp Rút bài bằng một năng lực lần đầu trong mỗi lượt, +<cc>10</>% Sát thương do đồng minh gây ra trong <cc>1</> lượt."
+      ]
+    },
+    "3": {
+      "name": "Cộng hưởng",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>16</>%.",
+        "Khi Nhân vật được ghép cặp Rút bài bằng một năng lực lần đầu trong mỗi lượt, +<cc>12</>% Sát thương do đồng minh gây ra trong <cc>1</> lượt."
+      ]
+    },
+    "4": {
+      "name": "Cộng hưởng",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>18</>%.",
+        "Khi Nhân vật được ghép cặp Rút bài bằng một năng lực lần đầu trong mỗi lượt, +<cc>14</>% Sát thương do đồng minh gây ra trong <cc>1</> lượt."
+      ]
+    },
+    "5": {
+      "name": "Cộng hưởng",
+      "descriptions": [
+        "Tăng Phòng thủ, Máu và lượng Hồi máu của Nhân vật được ghép cặp thêm <cc>20</>%.",
+        "Khi Nhân vật được ghép cặp Rút bài bằng một năng lực lần đầu trong mỗi lượt, +<cc>16</>% Sát thương do đồng minh gây ra trong <cc>1</> lượt."
+      ]
+    }
+  }
+}

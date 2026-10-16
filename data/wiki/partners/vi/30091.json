@@ -1,0 +1,57 @@
+{
+  "profile": "<color_darkgray>Cánh tay phải của Nine.</><br>Được mọi người công nhận là cánh tay phải của Nine, cô hỗ trợ nhóm lính đánh thuê bằng trí tuệ xuất chúng. Cô thường giữ vẻ điềm tĩnh, nhưng khi ở riêng với Nine lại bộc lộ cảm xúc thật và đôi khi than phiền. Có lời đồn rằng cô từng là ái nữ của một gia tộc tài phiệt đã suy tàn.",
+  "infoValues": [
+    "Con người",
+    "12 tháng Sáu",
+    "Hana Hishikawa",
+    "Jin-Ah Kim"
+  ],
+  "cardDescription": "<color_orange>250%</> <color_orange><u>Sát thương theo Phòng thủ</u></><br><color_orange>5</> <color_orange><u>Lời châm chọc</u></>",
+  "terms": {
+    "CARD_DEFDAMAGE": {
+      "title": "Sát thương theo Phòng thủ",
+      "desc": "Sát thương được tính bằng <cc>210</>% Phòng thủ và <cc>30</>% Tấn công"
+    },
+    "T_CS03_0216": {
+      "title": "Lời châm chọc",
+      "desc": "Tăng <color_orange>20</>% lượng sát thương nhận vào từ Nhân vật được ghép cặp; nếu mục tiêu có <color_orange><u>Lá chắn</u></>, tăng thêm <color_orange>10</>%<br>Khi hiệu ứng được kích hoạt, giảm <cc>1</> <color_orange><u>Lời châm chọc</u></>"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Chăm sóc cô thật vất vả",
+      "descriptions": [
+        "Tăng <cc>16</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi một lá Kiệt sức của Nhân vật được ghép cặp bị Kiệt sức hoặc được Kích hoạt, tăng <cc>20</>% lượng Sát thương theo Phòng thủ của lá Tấn công tiếp theo được Kích hoạt (không cộng dồn).",
+        "Khi một lá có Chi phí từ <cc>2</> trở lên của Nhân vật được ghép cặp bị Kiệt sức, nhận <cc>100</>% Lá chắn cố định (<cc>1</> lần mỗi lượt)."
+      ]
+    },
+    "2": {
+      "name": "Chăm sóc cô thật vất vả",
+      "descriptions": [
+        "Tăng <cc>18</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi một lá Kiệt sức của Nhân vật được ghép cặp bị Kiệt sức hoặc được Kích hoạt, tăng <cc>25</>% lượng Sát thương theo Phòng thủ của lá Tấn công tiếp theo được Kích hoạt (không cộng dồn).",
+        "Khi một lá có Chi phí từ <cc>2</> trở lên của Nhân vật được ghép cặp bị Kiệt sức, nhận <cc>125</>% Lá chắn cố định (<cc>1</> lần mỗi lượt)."
+      ]
+    },
+    "3": {
+      "name": "Chăm sóc cô thật vất vả",
+      "descriptions": [
+        "Tăng <cc>20</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi một lá Kiệt sức của Nhân vật được ghép cặp bị Kiệt sức hoặc được Kích hoạt, tăng <cc>30</>% lượng Sát thương theo Phòng thủ của lá Tấn công tiếp theo được Kích hoạt (không cộng dồn).",
+        "Khi một lá có Chi phí từ <cc>2</> trở lên của Nhân vật được ghép cặp bị Kiệt sức, nhận <cc>150</>% Lá chắn cố định (<cc>1</> lần mỗi lượt)."
+      ]
+    },
+    "4": {
+      "name": "Chăm sóc cô thật vất vả",
+      "descriptions": [
+        "Tăng <cc>22</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi một lá Kiệt sức của Nhân vật được ghép cặp bị Kiệt sức hoặc được Kích hoạt, tăng <cc>35</>% lượng Sát thương theo Phòng thủ của lá Tấn công tiếp theo được Kích hoạt (không cộng dồn).",
+        "Khi một lá có Chi phí từ <cc>2</> trở lên của Nhân vật được ghép cặp bị Kiệt sức, nhận <cc>175</>% Lá chắn cố định (<cc>1</> lần mỗi lượt)."
+      ]
+    },
+    "5": {
+      "name": "Chăm sóc cô thật vất vả",
+      "descriptions": [
+        "Tăng <cc>24</>% Phòng thủ của Nhân vật được ghép cặp.<br>Khi một lá Kiệt sức của Nhân vật được ghép cặp bị Kiệt sức hoặc được Kích hoạt, tăng <cc>40</>% lượng Sát thương theo Phòng thủ của lá Tấn công tiếp theo được Kích hoạt (không cộng dồn).",
+        "Khi một lá có Chi phí từ <cc>2</> trở lên của Nhân vật được ghép cặp bị Kiệt sức, nhận <cc>200</>% Lá chắn cố định (<cc>1</> lần mỗi lượt)."
+      ]
+    }
+  }
+}

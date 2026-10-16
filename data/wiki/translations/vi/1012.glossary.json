@@ -1,0 +1,138 @@
+{
+  "characterId": "1012",
+  "terms": [
+    {
+      "id": "TALENT_LEAD",
+      "title": "Dẫn đầu",
+      "englishTitle": "Lead",
+      "desc": "Đầu lượt, có <color_orange>50%</> xác suất giảm <cc>1</> Chi phí của lá có hiệu ứng này<br>Khi sử dụng một lá khác, hiệu ứng bị loại bỏ",
+      "englishDesc": "At the start of the turn, has a <color_orange>50%</> chance to decrease Cost of the card with this effect by <cc>1</><br>When a different card is used, the effect is removed"
+    },
+    {
+      "id": "CARD_SHIELD",
+      "title": "Lá chắn",
+      "englishTitle": "Shield",
+      "desc": "Giảm lượng sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishDesc": "Decrease Damage Amount taken until the next turn"
+    },
+    {
+      "id": "CARD_EGO_DAMAGE",
+      "title": "Sát thương sức bền",
+      "englishTitle": "Tenacity Damage",
+      "desc": "Sát thương gây lên Sức bền của quái vật",
+      "englishDesc": "Damage dealt to a monster's Tenacity"
+    },
+    {
+      "id": "CARD_ENERGY",
+      "title": "Điểm hành động",
+      "englishTitle": "AP",
+      "desc": "Tài nguyên tiêu hao khi các lá được <color_orange><u>dùng</u></>",
+      "englishDesc": "The resource consumed when cards are <color_orange><u>use</u></>d"
+    },
+    {
+      "id": "TALENT_WEAKPOINT",
+      "title": "Đánh điểm yếu",
+      "englishTitle": "Weakness Attack",
+      "desc": "Đòn tấn công của lá này được tính là đánh trúng Điểm yếu.",
+      "englishDesc": "This card's attack is applied as Weakness"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "desc": "Lá này không bị bỏ khi kết thúc lượt.",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Rút bài",
+      "englishTitle": "Draw",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay.",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "desc": "Chỉ được đưa 1 bản của mỗi lá <cc>Độc nhất</> vào bộ bài.",
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "desc": "Khi bắt đầu trận đấu, đặt lá này lên đầu <color_orange><u>Chồng bài rút</u></>.",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+    },
+    {
+      "id": "CARD_COOP",
+      "title": "Tấn công phối hợp",
+      "englishTitle": "Coordinated Attack",
+      "desc": "Sát thương áp dụng lượng sát thương của <color_orange><u>Đòn đánh thêm</u></>",
+      "englishDesc": "Damage that applies <color_orange><u>Extra Attack</u></> Damage Amount"
+    },
+    {
+      "id": "TALENT_BULLET",
+      "title": "Đạn",
+      "englishTitle": "Bullet",
+      "desc": "Chỉ các lá có từ khóa Đạn.",
+      "englishDesc": "Cards with the Bullet keyword"
+    },
+    {
+      "id": "T_CS_1012_02",
+      "title": "Sóng xung kích",
+      "englishTitle": "Shockwave",
+      "desc": "Trong <cc><color_orange>?</></> lượt, tăng Sát thương sức bền mà mục tiêu chịu lên <cc>2</> lần; nếu mục tiêu đang Suy yếu, tăng <color_orange>50</>% lượng sát thương phải chịu",
+      "englishDesc": "For <cc><color_orange>?</></> turn(s), increase Tenacity Damage taken of the target by <cc>2</>x, and if in a Ravage state, +<color_orange>50</>% Damage Amount taken"
+    },
+    {
+      "id": "TALENT_COOP",
+      "title": "Liên hoàn",
+      "englishTitle": "Combo",
+      "desc": "Khi dùng lá của Nhân vật khác, <color_orange><u>Kích hoạt qua hiệu ứng</u></> lá này",
+      "englishDesc": "When a card of a different Combatant is used, <color_orange><u>proc</u></> this card"
+    },
+    {
+      "id": "TALENT_EXHAUST",
+      "title": "Kiệt sức",
+      "englishTitle": "Exhaust",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, chuyển vào Chồng bài <color_orange><u>Kiệt sức</u></>",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, move to <color_orange><u>Exhaust</u></> Pile"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Kích hoạt",
+      "englishTitle": "Activate",
+      "desc": "Sử dụng một lá bài hoặc kích hoạt lá đó thông qua hiệu ứng.",
+      "englishDesc": "Using or proccing a card"
+    },
+    {
+      "id": "TALENT_TERMINATION",
+      "title": "Kết thúc",
+      "englishTitle": "Finale",
+      "desc": "Khi lá này được <color_orange><u>Kích hoạt</u></>, kết thúc lượt",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, end turn"
+    },
+    {
+      "id": "T_CS00_0370",
+      "title": "Khóa tay bài",
+      "englishTitle": "Hand Lock",
+      "desc": "Trong <cc><color_orange>?</></> lượt, không thể đưa hoặc <color_orange><u>Rút bài</u></> bài lên tay (ngoại trừ <color_orange><u>Rút đầu lượt</u></>)",
+      "englishDesc": "For <cc><color_orange>?</></> turn(s), cannot move or <color_orange><u>Draw</u></> cards to hand (except for <color_orange><u>Turn Draw</u></>)"
+    },
+    {
+      "id": "CARD_DECK",
+      "title": "Chồng bài rút",
+      "englishTitle": "Draw Pile",
+      "desc": "Chồng bài dùng để <color_orange><u>Rút bài</u></>.",
+      "englishDesc": "The pile from which cards are <color_orange><u>drawn</u></>"
+    },
+    {
+      "id": "TERM_EFFICIENCY",
+      "title": "Hiệu suất",
+      "englishTitle": "Efficiency",
+      "englishDesc": "An additional effect that activates when a card is activated in a cost-reduced state, including reduction through Lead or Divine Epiphanies.",
+      "desc": "Kích hoạt phần hiệu ứng sau Hiệu suất khi lá bài được kích hoạt trong trạng thái chi phí đã được giảm, chẳng hạn nhờ Dẫn đầu hoặc Thức tỉnh thần thánh."
+    }
+  ]
+}

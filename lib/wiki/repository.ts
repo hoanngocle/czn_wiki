@@ -1,6 +1,6 @@
 // Static JSON repository. Keep this module in Server Components and tests only.
 import characters from "../../data/wiki/characters.json";
-import detail from "../../data/wiki/characters/1041.json";
+import { characterDetails } from "../../data/wiki/characters/index";
 import manifest from "../../data/wiki/source-manifest.json";
 import assets from "../../data/wiki/assets.json";
 import type { CharacterDetail, CharacterSummary } from "./types";
@@ -21,7 +21,7 @@ export function getCombatantBySlug(slug: string): CharacterSummary | undefined {
 }
 
 export function getCharacterDetail(id: string): CharacterDetail | undefined {
-  return id === "1041" ? detail as CharacterDetail : undefined;
+  return characterDetails[id];
 }
 
 export function getNewCombatantIds(): string[] { return manifest.diff.new; }

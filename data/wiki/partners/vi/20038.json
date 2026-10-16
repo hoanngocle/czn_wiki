@@ -1,0 +1,58 @@
+{
+  "profile": "<color_darkgray>Kẻ gây rắc rối tài năng.</><br>Luôn được khen ngợi vì kỹ năng truyền tin và liên lạc xuất sắc, nhưng cũng nổi tiếng với hàng loạt sai sót nhỏ ngớ ngẩn. Một đặc vụ hiếm có. Cô tuân thủ giờ làm việc rất nghiêm ngặt; năng suất tăng vọt khi giờ tan làm đến gần.",
+  "infoValues": [
+    "Con người",
+    "Ngày 31 tháng 8",
+    "Chuyển tiếp liên lạc",
+    "Hiyori Nitta",
+    "Dallae Lee"
+  ],
+  "cardDescription": "<color_orange><u>Rút</u></> <color_orange>1</> lá<br>Tăng <color_orange>30</>% lượng sát thương <color_orange><u>Đòn đánh thêm</u></> của Nhân vật được ghép cặp trong <cc>1</> lượt",
+  "terms": {
+    "CARD_ADDITIONAL_ATTACK": {
+      "title": "Đòn đánh thêm",
+      "desc": "Sát thương chịu ảnh hưởng của Tỷ lệ chí mạng và Sát thương bổ sung"
+    },
+    "CARD_DRAW": {
+      "title": "Rút",
+      "desc": "Chuyển một lá từ <color_orange><u>Chồng bài rút</u></> lên tay"
+    }
+  },
+  "passives": {
+    "1": {
+      "name": "Hỗ trợ liên lạc",
+      "descriptions": [
+        "Tăng <cc>16</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>15</>% lượng sát thương Đòn đánh thêm thuộc tính <color_ego_norms>Trật tự</>.",
+        "+<cc>25</>% lượng sát thương cho các Đòn đánh thêm được kích hoạt thông qua lá Tấn công chỉ định mục tiêu."
+      ]
+    },
+    "2": {
+      "name": "Hỗ trợ liên lạc",
+      "descriptions": [
+        "Tăng <cc>18</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>19</>% lượng sát thương Đòn đánh thêm thuộc tính <color_ego_norms>Trật tự</>.",
+        "+<cc>32</>% lượng sát thương cho các Đòn đánh thêm được kích hoạt thông qua lá Tấn công chỉ định mục tiêu."
+      ]
+    },
+    "3": {
+      "name": "Hỗ trợ liên lạc",
+      "descriptions": [
+        "Tăng <cc>20</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>23</>% lượng sát thương Đòn đánh thêm thuộc tính <color_ego_norms>Trật tự</>.",
+        "+<cc>38</>% lượng sát thương cho các Đòn đánh thêm được kích hoạt thông qua lá Tấn công chỉ định mục tiêu."
+      ]
+    },
+    "4": {
+      "name": "Hỗ trợ liên lạc",
+      "descriptions": [
+        "Tăng <cc>22</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>27</>% lượng sát thương Đòn đánh thêm thuộc tính <color_ego_norms>Trật tự</>.",
+        "+<cc>44</>% lượng sát thương cho các Đòn đánh thêm được kích hoạt thông qua lá Tấn công chỉ định mục tiêu."
+      ]
+    },
+    "5": {
+      "name": "Hỗ trợ liên lạc",
+      "descriptions": [
+        "Tăng <cc>24</>% Tấn công của Nhân vật được ghép cặp.<br>Tăng <cc>30</>% lượng sát thương Đòn đánh thêm thuộc tính <color_ego_norms>Trật tự</>.",
+        "+<cc>50</>% lượng sát thương cho các Đòn đánh thêm được kích hoạt thông qua lá Tấn công chỉ định mục tiêu."
+      ]
+    }
+  }
+}
