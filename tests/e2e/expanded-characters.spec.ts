@@ -8,13 +8,13 @@ for (const [slug, name, starter] of [["narja", "Narja", "NA: Attack Response"], 
       page.on("pageerror", error => errors.push(error.message));
       await page.goto(`/combatant/${slug}`);
       const tabs = page.getByRole("tablist", { name: `${name} hướng dẫn` });
-      await expect(tabs.getByRole("tab")).toHaveText(["Thẻ bài", "Đánh giá", "Xây dựng", "Bộ bài"]);
-      await expect(page.getByRole("heading", { name: "Bài khởi đầu" })).toBeVisible();
+      await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
+      await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
       await page.getByRole("button", { name: `${starter} card`, exact: true }).click();
       await expect(page.getByRole("dialog")).toContainText(starter);
-      await expect(page.getByRole("dialog")).toContainText(/sát thương|Lá chắn|Kích hoạt|Tạo 1 lá/i);
+      await expect(page.getByRole("dialog")).toContainText(/sát thương|Defense-Based Damage|Shield|Kích hoạt|Tạo 1 lá/i);
       await page.getByRole("button", { name: "Đóng hộp thoại" }).click();
-      for (const tab of ["Đánh giá", "Xây dựng", "Bộ bài"]) {
+      for (const tab of ["Đánh giá", "Build", "Deck"]) {
         await tabs.getByRole("tab", { name: tab, exact: true }).click();
         const images = page.getByRole("tabpanel").locator("img").filter({ visible: true });
         for (const img of await images.all()) {
@@ -42,7 +42,7 @@ test("Sereniel X-cost variant displays X and its translated effect", async ({ pa
 
 test("Sereniel saved decks preserve copies and additional effects in the modal", async ({ page }) => {
   await page.goto("/combatant/sereniel");
-  await page.getByRole("tab", { name: "Bộ bài", exact: true }).click();
+  await page.getByRole("tab", { name: "Deck", exact: true }).click();
   const deckTabs = page.getByRole("tablist", { name: "Bộ bài đề xuất" }).getByRole("tab");
   for (const [index, count] of [8, 9, 8].entries()) {
     await deckTabs.nth(index).click();

@@ -1,0 +1,724 @@
+{
+  "characterId": "rossweisse",
+  "name": "Rossweisse",
+  "identity": [
+    "Justice",
+    "Striker"
+  ],
+  "subtitle": {
+    "en": "Build Sword Tassel, clear the hand and coalesce a single-hit finisher. Kit-based theorycraft.",
+    "vi": "Tích Sword Tassel, dọn tay bài và hợp nhất thành đòn kết liễu một hit. Theorycraft từ kit."
+  },
+  "portrait": "/assets/anni/rossweisse/profile.jpg",
+  "source": {
+    "name": "STOVE kit · Editorial theorycraft",
+    "url": "https://page.onstove.com/chaoszeronightmare/en/view/14590737",
+    "updated": "2026-10-21",
+    "kind": "guide",
+    "files": [
+      "data/wiki/characters/rossweisse.json",
+      "data/wiki/articles/rossweisse-mechanics.json",
+      "data/wiki/characters/1039.json",
+      "data/wiki/guides/30084.json",
+      "data/wiki/characters/1003.json",
+      "data/wiki/characters/1040.json",
+      "data/wiki/characters/1010.json",
+      "data/wiki/characters/30097.json"
+    ],
+    "note": {
+      "en": "Theorycraft based on the published kit and saved ally data, not combat-tested rankings. Each team has exactly three Combatants: Rossweisse and two allies. Deck lists show only Rossweisse's core cards, not the full shared team deck; they assume no Ego duplicates or Divine modifiers.",
+      "vi": "Theorycraft dựa trên kit công bố và dữ liệu đồng đội đã lưu, chưa phải xếp hạng qua thực chiến. Mỗi đội có đúng 3 Combatant: Rossweisse và 2 đồng đội. Danh sách deck chỉ gồm bài lõi của Rossweisse, không phải toàn bộ bộ bài chung của đội; chưa tính bản sao Ego hoặc hiệu ứng Divine."
+    }
+  },
+  "images": {
+    "Justice": {
+      "src": "/assets/common/icon_type_ego_narcissism.png",
+      "width": 44,
+      "height": 44
+    },
+    "Striker": {
+      "src": "/assets/common/icon_type_job_striker.png",
+      "width": 44,
+      "height": 44
+    },
+    "Rossweisse": {
+      "src": "/assets/anni/rossweisse/profile.jpg",
+      "width": 340,
+      "height": 340
+    },
+    "Mika": {
+      "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Tiphera": {
+      "src": "/assets/combatant/portrait_character_crop_half_30084.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Nia": {
+      "src": "/assets/combatant/portrait_character_crop_half_1003.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Beryl": {
+      "src": "/assets/combatant/portrait_character_crop_half_1040.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Magna": {
+      "src": "/assets/combatant/portrait_character_crop_half_1010.webp",
+      "width": 260,
+      "height": 460
+    },
+    "Rita": {
+      "src": "/assets/combatant/portrait_character_crop_half_30097.webp",
+      "width": 260,
+      "height": 460
+    }
+  },
+  "extraCards": [],
+  "generatedCardIds": [],
+  "epiphanyReviews": {},
+  "review": {
+    "intro": {
+      "en": "Rossweisse is a main damage dealer whose payoff depends on both Sword Tassel generation and clearing the hand. Start with Amped and resource supports; branch into Cycle or Justice once the team can reliably coalesce.",
+      "vi": "Rossweisse là DPS chủ lực, cần vừa tạo Sword Tassel vừa dọn tay để tung đòn lớn. Nên bắt đầu bằng Amped cùng hỗ trợ tài nguyên; chuyển sang Cycle hoặc Justice khi đội hợp nhất ổn định."
+    },
+    "profile": [],
+    "pros": [
+      {
+        "en": "Equilux returns to hand at the start of the turn; the standard finisher costs 0 AP.",
+        "vi": "Equilux tự về tay đầu lượt; đòn kết liễu thông thường tốn 0 AP."
+      },
+      {
+        "en": "Each Sword Tassel adds 80% base Damage Amount when absorbed.",
+        "vi": "Mỗi Sword Tassel cộng 80% hệ số sát thương cơ bản khi được hấp thụ."
+      }
+    ],
+    "cons": [
+      {
+        "en": "An unplayable non-Light/Dark/Bind card can prevent coalescence.",
+        "vi": "Một lá không thuộc Light/Dark/Bind mà không xử lý được có thể chặn hợp nhất."
+      },
+      {
+        "en": "Random shard hits and extra attacks can spend debuff or next-attack buff charges before the finisher.",
+        "vi": "Hit ngẫu nhiên của mảnh kiếm và các đòn phụ có thể tiêu tầng debuff hoặc buff đòn kế tiếp trước đòn kết liễu."
+      }
+    ],
+    "mechanics": [
+      {
+        "title": "Sword Tassel → Equilux",
+        "cardId": "rossweisse_tassel",
+        "body": {
+          "en": "Amped starts at 600%. Absorbing seven Tassel gives 600% + 7 × 80% = 1,160% before other modifiers; this is a coefficient example, not measured damage.",
+          "vi": "Amped có hệ số 600%. Hấp thụ 7 Tassel cho 600% + 7 × 80% = 1.160% trước các hiệu ứng khác; đây là ví dụ hệ số, không phải sát thương đo thực tế."
+        }
+      },
+      {
+        "title": "Clear the hand / Dọn tay bài",
+        "cardId": "rossweisse_srt4",
+        "body": {
+          "en": "Light and Dark coalesce when only Light, Dark and Bind cards remain in hand. Resolve support cards, draws and discards before the finisher; do not remove a shard without a return effect.",
+          "vi": "Light và Dark hợp nhất khi tay chỉ còn Light, Dark và Bind. Xử lý bài hỗ trợ, rút và bỏ bài trước đòn kết liễu; không bỏ mảnh kiếm nếu chưa có cách trả về."
+        }
+      },
+      {
+        "title": "Brand of the Cycle",
+        "cardId": "rossweisse_uni3",
+        "body": {
+          "en": "The tooltip gives 20% increased damage taken from Rossweisse and consumes one Brand on activation. Six Brand is not a 120% damage bonus. Check remaining charges before Equilux.",
+          "vi": "Tooltip ghi tăng 20% sát thương nhận từ Rossweisse và tiêu một Brand khi kích hoạt. 6 Brand không có nghĩa là tăng 120% sát thương. Kiểm tra số tầng còn lại trước Equilux."
+        }
+      }
+    ]
+  },
+  "cardAdvice": [],
+  "partners": [],
+  "fragments": [],
+  "stats": [
+    {
+      "name": {
+        "en": "Attack",
+        "vi": "Tấn công"
+      },
+      "value": {
+        "en": "Prioritize ATK for damage scaling.",
+        "vi": "Ưu tiên ATK để tăng sát thương."
+      }
+    },
+    {
+      "name": {
+        "en": "Critical Chance",
+        "vi": "Tỷ lệ chí mạng"
+      },
+      "value": {
+        "en": "Favor consistency for the single-hit finisher; no fixed target is established.",
+        "vi": "Ưu tiên độ ổn định của đòn một hit; chưa chốt ngưỡng cố định."
+      }
+    },
+    {
+      "name": {
+        "en": "Critical Damage",
+        "vi": "Sát thương chí mạng"
+      },
+      "value": {
+        "en": "Balance with Critical Chance and available buffs.",
+        "vi": "Cân bằng với tỷ lệ chí mạng và buff sẵn có."
+      }
+    }
+  ],
+  "critNote": {
+    "en": "These are qualitative priorities, not verified optimal gear slots or stat breakpoints. Equilux has a fixed hit count of one; additional-hit effects are not the core build plan.",
+    "vi": "Đây là ưu tiên định tính, chưa phải bộ chỉ số hoặc vị trí trang bị tối ưu đã kiểm chứng. Equilux cố định một hit; tăng số hit không phải hướng xây dựng chính."
+  },
+  "buildAdvice": [
+    {
+      "title": {
+        "en": "1. Secure AP and hand clearance",
+        "vi": "1. Bảo đảm AP và khả năng dọn tay"
+      },
+      "body": {
+        "en": "Use Mika plus Tiphera for the first Amped prototype. Draw only while you can resolve the incoming cards. Remove Sword Slash and Standing Blade when the team covers damage and survival; keep enough cheap ally activations for Dark.",
+        "vi": "Thử Amped với Mika + Tiphera trước. Chỉ rút thêm khi còn khả năng xử lý bài mới. Ưu tiên loại Sword Slash và Standing Blade khi đội đã đủ sát thương, sinh tồn; vẫn giữ đủ bài đồng đội dễ kích hoạt để nuôi Dark."
+      }
+    },
+    {
+      "title": {
+        "en": "2. Start with Amped",
+        "vi": "2. Bắt đầu bằng Amped"
+      },
+      "body": {
+        "en": "Flicker Blade I, Sword Resonance I, Radiant Sword Flow II and Blade of the Cycle III form the baseline. Keep Kyrken's Apostle. Add a second non-Unique Sword Resonance only if AP and hand clearance support it. Sword Tassel is generated, not a manually playable deck card.",
+        "vi": "Lõi đề xuất: Flicker Blade I, Sword Resonance I, Radiant Sword Flow II và Blade of the Cycle III; giữ Kyrken’s Apostle. Chỉ thêm bản Sword Resonance thứ hai không có Unique khi đủ AP và dọn tay tốt. Sword Tassel là bài được tạo, không phải lá chủ động đánh từ deck."
+      }
+    },
+    {
+      "title": {
+        "en": "3. Match Epiphanies to the team",
+        "vi": "3. Chọn Epiphany theo đội"
+      },
+      "body": {
+        "en": "Cycle II pairs with Nia's Draw/Discard. Justice uses Radiant Sword Flow V and Blade of the Cycle IV with Mika + support Beryl. Unbound V needs surplus AP. Blink IV depends on Retrieve sequencing; Aegis III trades burst emphasis for shielding.",
+        "vi": "Cycle II đi với Draw/Discard của Nia. Justice dùng Radiant Sword Flow V và Blade of the Cycle IV cùng Mika + Beryl hỗ trợ. Unbound V cần AP dư. Blink IV phụ thuộc thứ tự Retrieve; Aegis III thiên về Shield hơn burst."
+      }
+    },
+    {
+      "title": {
+        "en": "4. Prepare buffs before coalescence",
+        "vi": "4. Chuẩn bị buff trước hợp nhất"
+      },
+      "body": {
+        "en": "Use Kyrken's Apostle and preserve Brand for the finisher. Tiphera's first-hit buffs should follow smaller attacks and shard triggers. A targeted buff card still in hand can block Flicker Blade from forming; do not assume it can target the future Equilux.",
+        "vi": "Dùng Kyrken’s Apostle và giữ Brand cho đòn kết liễu. Buff hit đầu của Tiphera nên đặt sau các đòn nhỏ và trigger mảnh kiếm. Một lá buff chọn mục tiêu còn trên tay có thể chặn Flicker Blade hình thành; không mặc định buff được lá Equilux chưa xuất hiện."
+      }
+    },
+    {
+      "title": {
+        "en": "5. Control Finale and shard returns",
+        "vi": "5. Quản lý Finale và đường trả mảnh kiếm"
+      },
+      "body": {
+        "en": "Flickering White Night costs 6 EP, not AP; use it before the intended Equilux. Unbound has Finale. Mika's Blessing of Waves V also ends the turn. Normal discard does not guarantee a shard returns; verify Blink/Retrieve behavior before attempting repeated coalescence.",
+        "vi": "Flickering White Night tốn 6 EP, không phải AP; dùng trước Equilux muốn cường hóa. Unbound có Finale. Blessing of Waves V của Mika cũng kết thúc lượt. Discard thông thường không bảo đảm trả mảnh kiếm; cần kiểm chứng Blink/Retrieve trước khi thử hợp nhất nhiều lần."
+      }
+    }
+  ],
+  "potentialIntro": {
+    "en": "Potential nodes are absent from the published data. Do not infer upgrade values or priorities from the announcement's Ego 5 description.",
+    "vi": "Dữ liệu công bố chưa có các nút Potential. Chưa suy đoán giá trị hoặc thứ tự nâng cấp từ mô tả Ego 5."
+  },
+  "potentialAdvice": [],
+  "equipment": [],
+  "seasonal": [],
+  "dupes": [
+    {
+      "name": "E0",
+      "score": "",
+      "note": {
+        "en": "All proposed decks start from the base kit; no duplicate is assumed.",
+        "vi": "Mọi deck đề xuất bắt đầu từ kit cơ bản, không yêu cầu bản sao."
+      }
+    },
+    {
+      "name": "E1",
+      "score": "AP / Buff",
+      "note": {
+        "en": "Kyrken's Apostle gains 1 AP; Aegis becomes 30% Attack Card damage and 20% final Flicker Blade damage. Improves resource flow.",
+        "vi": "Kyrken’s Apostle thêm 1 AP; Aegis thành 30% sát thương bài tấn công và 20% sát thương cuối Flicker Blade. Hỗ trợ vận hành tài nguyên."
+      }
+    },
+    {
+      "name": "E2",
+      "score": "Sword Tassel",
+      "note": {
+        "en": "Adds 20% final damage and four Blade Afterimage each turn. Its Light/Dark activation interaction needs combat verification; do not assume every passive effect spends a stack.",
+        "vi": "Thêm 20% sát thương cuối và 4 Blade Afterimage đầu lượt. Tương tác với kích hoạt Light/Dark cần kiểm chứng; không mặc định mọi hiệu ứng thụ động đều tiêu một tầng."
+      }
+    },
+    {
+      "name": "E3",
+      "score": "Ego",
+      "note": {
+        "en": "Ego damage increases by 400%; the follow-up Fixed Damage ratio increases from 30% to 60%.",
+        "vi": "Sát thương Ego thêm 400%; tỷ lệ sát thương cố định đi kèm tăng từ 30% lên 60%."
+      }
+    },
+    {
+      "name": "E4",
+      "score": "Damage",
+      "note": {
+        "en": "Precious Name adds 8% damage per stack, up to five stacks.",
+        "vi": "Precious Name tăng 8% sát thương mỗi tầng, tối đa 5 tầng."
+      }
+    },
+    {
+      "name": "E5",
+      "score": "Potential",
+      "note": {
+        "en": "Raises three Potential upgrade levels by 3; detailed Potential data is not published.",
+        "vi": "Tăng 3 cấp cho ba nhóm nâng cấp Potential; dữ liệu Potential chi tiết chưa công bố."
+      }
+    },
+    {
+      "name": "E6",
+      "score": "Hand / Damage",
+      "note": {
+        "en": "Equilux, Light and Dark no longer count toward hand capacity; Blade Poised Against the Cycle adds final-damage buffs. Hand-cap relief does not remove the coalescence condition.",
+        "vi": "Equilux, Light và Dark không còn chiếm giới hạn tay bài; Blade Poised Against the Cycle tăng sát thương cuối. Giảm áp lực giới hạn tay không xóa điều kiện hợp nhất."
+      }
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Amped — consistent burst",
+        "vi": "Amped — burst ổn định"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Tiphera · Start here",
+        "vi": "Rossweisse + Mika + Tiphera · Nên thử đầu tiên"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp3",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Five-card Ross core. Amped Light triggers from Ross activations (twice per turn); Dark triggers for every two ally activations (twice per turn). Build Tassel, finish draws and clear the hand, then use the 0-AP Flicker Blade. Sword Resonance II is an alternative when searching for Ross cards matters more.",
+        "vi": "Lõi Ross 5 lá. Light Amped kích theo bài Ross (2 lần/lượt); Dark kích mỗi 2 lần đánh bài đồng đội (2 lần/lượt). Tích Tassel, xử lý hết rút bài và dọn tay rồi đánh Flicker Blade 0 AP. Đổi Sword Resonance I sang II nếu cần tìm bài Ross hơn."
+      }
+    },
+    {
+      "name": {
+        "en": "Cycle — Draw / Discard",
+        "vi": "Cycle — rút / bỏ bài"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Nia · Hand control",
+        "vi": "Rossweisse + Mika + Nia · Kiểm soát tay bài"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp3",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Use Adagio to trigger skill-based Draw and Discard, each shard capped at two passive triggers per turn. Discard spare cards deliberately. Radiant Sword Flow II can discard a shard, proc it and return it; ordinary discard cannot be treated as equivalent.",
+        "vi": "Dùng Adagio tạo sự kiện Draw và Discard qua kỹ năng; mỗi mảnh giới hạn 2 trigger thụ động/lượt. Chủ động bỏ bài thừa. Radiant Sword Flow II có thể bỏ mảnh kiếm, proc rồi trả về; không áp dụng giả định này cho discard thông thường."
+      }
+    },
+    {
+      "name": {
+        "en": "Justice — Purity burst",
+        "vi": "Justice — burst Purity"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Beryl · Support Beryl",
+        "vi": "Rossweisse + Mika + Beryl · Beryl hỗ trợ"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp4",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Radiant Sword Flow V gives 15% damage per Justice card in hand, capped at 75%; use it before clearing Justice cards. Blade of the Cycle IV is cheaper with Purity. All three allies are Justice, but neutral/generated cards still require attention. Beryl focuses on Guilty Pleasure and Unlimited Firepower IV rather than retaining expensive attacks.",
+        "vi": "Radiant Sword Flow V tăng 15% sát thương mỗi bài Justice trên tay, tối đa 75%; dùng trước khi dọn bài Justice. Blade of the Cycle IV giảm cost khi đạt Purity. Ba Combatant đều Justice nhưng vẫn phải xét bài trung lập/được tạo. Beryl tập trung Guilty Pleasure và Unlimited Firepower IV, hạn chế giữ bài tấn công đắt."
+      }
+    },
+    {
+      "name": {
+        "en": "Unbound — surplus AP",
+        "vi": "Unbound — chuyển AP dư thành sát thương"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Tiphera · Resource-heavy alternative",
+        "vi": "Rossweisse + Mika + Tiphera · Khi tài nguyên đã dư"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp5",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp3",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Light triggers on ability-granted AP; Dark on activation of a card costing at least 1 (two triggers each per turn). X adds 120% base damage per AP to the 400% base. Plan enough AP to clear the hand before spending the remainder on X. Finale ends the turn; 0-cost spam alone does not trigger this Dark.",
+        "vi": "Light kích khi nhận AP qua kỹ năng; Dark khi kích hoạt bài cost từ 1 (mỗi mảnh 2 lần/lượt). X thêm 120% hệ số mỗi AP vào nền 400%. Dành đủ AP dọn tay trước khi đổ phần còn lại vào X. Finale kết thúc lượt; chỉ spam bài 0 cost không kích Dark nhánh này."
+      }
+    },
+    {
+      "name": {
+        "en": "Blink — shard manipulation",
+        "vi": "Blink — thao tác mảnh kiếm"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Tiphera · Experimental",
+        "vi": "Rossweisse + Mika + Tiphera · Thử nghiệm"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp3",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Blink shards cost 0 and have Retrieve. Light removes a random Status Ailment/Curse; Dark discards a random other-Combatant card. Resolve valuable ally cards first. Sword Resonance III applies Retrieve but does not create three Tassel. Verify return timing and avoid replaying away the only shard needed for coalescence; no infinite loop is assumed.",
+        "vi": "Shard Blink tốn 0 và có Retrieve. Light bỏ ngẫu nhiên một Status Ailment/Curse; Dark bỏ ngẫu nhiên bài Combatant khác. Chơi bài hỗ trợ quan trọng trước. Sword Resonance III cấp Retrieve nhưng không tạo 3 Tassel. Kiểm chứng thời điểm trả bài, tránh đánh mất mảnh duy nhất cần hợp nhất; không giả định combo vô hạn."
+      }
+    },
+    {
+      "name": {
+        "en": "Aegis — survival",
+        "vi": "Aegis — sinh tồn"
+      },
+      "role": {
+        "en": "Rossweisse + Mika + Magna · Defensive alternative",
+        "vi": "Rossweisse + Mika + Magna · Phương án phòng thủ"
+      },
+      "partner": "",
+      "cards": [
+        {
+          "cardId": "rossweisse_srt4_rsp3",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni4",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni1_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni2_rsp2",
+          "count": 1
+        },
+        {
+          "cardId": "rossweisse_uni3_rsp3",
+          "count": 1
+        }
+      ],
+      "gear": [],
+      "fragments": [],
+      "note": {
+        "en": "Aegis Light reacts when attacked, Dark when Shield is gained through an ability, each once per turn. Flicker Blade has a 400% base and 20% DMG-Based Shield. Magna supplies Shield and Vulnerable; budget her AP costs. Treat this as a survival option, not a proven damage upgrade over Amped.",
+        "vi": "Light Aegis phản ứng khi bị đánh, Dark khi nhận Shield qua kỹ năng, mỗi mảnh 1 lần/lượt. Flicker Blade có nền 400% và 20% DMG-Based Shield. Magna cấp Shield và Vulnerable; cần tính chi phí AP của cô. Đây là lựa chọn sinh tồn, chưa phải nâng cấp sát thương so với Amped."
+      }
+    }
+  ],
+  "synergies": [
+    {
+      "name": "Mika",
+      "note": {
+        "en": "AP and healing from Source of Water support hand clearance. V gives 3 AP with Exhaust; other variants favor longer battles. Avoid ending the turn with Blessing of Waves V before Ross finishes.",
+        "vi": "Source of Water cấp AP và hồi phục để dọn tay. Bản V cho 3 AP kèm Exhaust; các bản khác hợp đánh lâu. Không dùng Blessing of Waves V kết thúc lượt trước đòn Ross."
+      }
+    },
+    {
+      "name": "Tiphera",
+      "note": {
+        "en": "Zero-cost Archetypes supply AP, cycling and first-hit buffs. Finish small attacks before committing the finisher buff, and do not overdraw into an unplayable hand.",
+        "vi": "Archetype 0 cost cấp AP, xoay bài và buff hit đầu. Xử lý đòn nhỏ trước khi đặt buff kết liễu; tránh rút quá nhiều khiến tay không chơi hết."
+      }
+    },
+    {
+      "name": "Nia",
+      "note": {
+        "en": "Adagio supports Cycle's Draw/Discard triggers. Choose discard targets carefully: highest-cost or random discard can remove a 2-cost shard without returning it.",
+        "vi": "Adagio hỗ trợ trigger Draw/Discard của Cycle. Chọn mục tiêu bỏ cẩn thận: bỏ ngẫu nhiên hoặc lá cost cao nhất có thể làm mất Shard 2 cost."
+      }
+    },
+    {
+      "name": "Beryl",
+      "note": {
+        "en": "Justice support: Guilty Pleasure draws cheaply; Unlimited Firepower IV buffs the next Attack Card without restricting its owner. Other self-only variants do not buff Ross.",
+        "vi": "Hỗ trợ Justice: Guilty Pleasure rút bài rẻ; Unlimited Firepower IV buff bài tấn công kế tiếp không giới hạn chủ sở hữu. Các bản chỉ buff bản thân không tăng sát thương Ross."
+      }
+    },
+    {
+      "name": "Magna",
+      "note": {
+        "en": "Justice defender with Shield and Vulnerable. Useful for difficult incoming damage, but her expensive cards and debuff consumption must fit the rotation.",
+        "vi": "Phòng thủ Justice với Shield và Vulnerable. Hợp màn áp lực sát thương, nhưng cần cân đối bài đắt và số tầng debuff bị tiêu trong chuỗi."
+      }
+    },
+    {
+      "name": "Rita",
+      "note": {
+        "en": "Optional swap for the second ally beside Mika. Chronal Ascension can pay for Rita's Basic/Signature cards, but Fate Imprint and costly retained cards may block Ross. A dual-DPS experiment, not the default recommendation.",
+        "vi": "Có thể thử thay vị trí đồng đội thứ hai bên cạnh Mika. Chronal Ascension trả cost Basic/Signature của Rita, nhưng Fate Imprint và bài Retain đắt có thể chặn Ross. Đây là thử nghiệm hai DPS, không phải đề xuất mặc định."
+      }
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Amped — Rossweisse / Mika / Tiphera",
+        "vi": "Amped — Rossweisse / Mika / Tiphera"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Mika supplies AP; Tiphera supplies cheap Archetypes. Resolve draw effects while AP and hand space are available.",
+          "vi": "Mika cấp AP; Tiphera cấp Archetype rẻ. Xử lý hiệu ứng rút khi còn AP và chỗ trên tay."
+        },
+        {
+          "en": "Use Ross cards to generate Tassel and apply Brand. Aim for two Ross activations and four ally activations to reach Amped's passive trigger caps.",
+          "vi": "Dùng bài Ross tạo Tassel và đặt Brand. Hướng đến 2 lần kích hoạt bài Ross và 4 lần bài đồng đội để đạt giới hạn trigger thụ động Amped."
+        },
+        {
+          "en": "After smaller hits, apply the first-hit buff, clear remaining support cards, then use Flicker Blade. Use Ego beforehand if enough EP is available.",
+          "vi": "Sau các hit nhỏ, đặt buff hit đầu, xử lý hết bài hỗ trợ rồi đánh Flicker Blade. Dùng Ego trước đó nếu đủ EP."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cycle — Rossweisse / Mika / Nia",
+        "vi": "Cycle — Rossweisse / Mika / Nia"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Generate AP with Mika, then use Adagio to cycle the hand and trigger both shards.",
+          "vi": "Tạo AP bằng Mika, dùng Adagio xoay tay và kích hai mảnh kiếm."
+        },
+        {
+          "en": "Discard spare cards; use Radiant Sword Flow II when discarding a shard so its return is explicitly supported.",
+          "vi": "Bỏ bài thừa; nếu bỏ Shard, dùng Radiant Sword Flow II để có hiệu ứng trả về rõ ràng."
+        },
+        {
+          "en": "Stop drawing when both passive trigger caps are met and the hand can be cleared. Preserve Brand for Flicker Blade.",
+          "vi": "Ngừng rút khi đã đủ trigger thụ động và có thể dọn tay. Giữ Brand cho Flicker Blade."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Justice — Rossweisse / Mika / Beryl",
+        "vi": "Justice — Rossweisse / Mika / Beryl"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Beryl"
+      ],
+      "steps": [
+        {
+          "en": "Mika funds the turn; Beryl uses Guilty Pleasure to find setup pieces. Play any off-attribute cards before Purity checks.",
+          "vi": "Mika cấp tài nguyên; Beryl dùng Guilty Pleasure tìm bài chuẩn bị. Chơi hết bài khác hệ trước khi kiểm tra Purity."
+        },
+        {
+          "en": "Use Radiant Sword Flow V while holding several Justice cards, then use Blade of the Cycle IV under Purity.",
+          "vi": "Dùng Radiant Sword Flow V khi còn nhiều bài Justice, sau đó dùng Blade of the Cycle IV trong điều kiện Purity."
+        },
+        {
+          "en": "Resolve smaller attacks before Unlimited Firepower IV. Clear Beryl's remaining cards and finish with Ross; do not keep a Beryl Retain stack at the expense of coalescence.",
+          "vi": "Xử lý đòn nhỏ trước Unlimited Firepower IV. Dọn bài Beryl rồi kết liễu bằng Ross; không giữ bài Retain Beryl đến mức chặn hợp nhất."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Unbound — Rossweisse / Mika / Tiphera",
+        "vi": "Unbound — Rossweisse / Mika / Tiphera"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Use Source of Water and Archetype AP effects to trigger Light; use needed cards costing at least 1 to trigger Dark.",
+          "vi": "Dùng Source of Water và hiệu ứng AP của Archetype để kích Light; chơi các lá cần thiết cost từ 1 để kích Dark."
+        },
+        {
+          "en": "Build Tassel and prepare buffs without exhausting the AP needed to clear remaining cards.",
+          "vi": "Tích Tassel, đặt buff nhưng giữ đủ AP xử lý các lá còn lại."
+        },
+        {
+          "en": "Use Ego if ready, coalesce and spend the remaining AP on Unbound. Its Finale ends the turn.",
+          "vi": "Dùng Ego nếu sẵn sàng, hợp nhất rồi dùng AP còn lại cho Unbound. Finale của lá này kết thúc lượt."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Blink — Rossweisse / Mika / Tiphera",
+        "vi": "Blink — Rossweisse / Mika / Tiphera"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Tiphera"
+      ],
+      "steps": [
+        {
+          "en": "Use important ally cards before Dark's random discard. Leave only expendable ally cards if any remain.",
+          "vi": "Chơi bài đồng đội quan trọng trước discard ngẫu nhiên của Dark. Nếu còn bài đồng đội, chỉ để lại lá có thể bỏ."
+        },
+        {
+          "en": "Use the shard return effects deliberately; track Retrieve consumption and confirm both shards are in hand.",
+          "vi": "Dùng hiệu ứng trả Shard có chủ đích; theo dõi Retrieve bị tiêu và bảo đảm cả hai Shard trên tay."
+        },
+        {
+          "en": "Clear the hand and coalesce once reliably before experimenting with additional shard plays.",
+          "vi": "Ưu tiên dọn tay và hợp nhất ổn định một lần trước khi thử thêm lượt đánh Shard."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Aegis — Rossweisse / Mika / Magna",
+        "vi": "Aegis — Rossweisse / Mika / Magna"
+      },
+      "members": [
+        "Rossweisse",
+        "Mika",
+        "Magna"
+      ],
+      "steps": [
+        {
+          "en": "Mika covers AP and healing; Magna provides Shield to trigger Aegis Dark while protecting the team.",
+          "vi": "Mika lo AP và hồi phục; Magna cấp Shield để kích Dark Aegis và bảo vệ đội."
+        },
+        {
+          "en": "Use Sword Resonance for proactive Tassel generation; the attacked trigger is situational rather than guaranteed.",
+          "vi": "Dùng Sword Resonance chủ động tạo Tassel; trigger khi bị đánh phụ thuộc tình huống, không mặc định luôn có."
+        },
+        {
+          "en": "Track remaining Vulnerable and Brand charges after smaller hits. Clear the hand and use the Shield-generating finisher.",
+          "vi": "Theo dõi Vulnerable và Brand còn lại sau các hit nhỏ. Dọn tay và dùng đòn kết liễu tạo Shield."
+        }
+      ]
+    }
+  ]
+}

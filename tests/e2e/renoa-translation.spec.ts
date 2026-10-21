@@ -52,7 +52,7 @@ test("terminology has its own navigation tab and direct route on desktop and mob
   await expect(terms).toHaveCount(0);
   await expect(page.getByText("Không tìm thấy thuật ngữ phù hợp.")).toBeVisible();
   await search.fill("");
-  await expect(page.getByRole("region", { name: "Danh sách thuật ngữ" }).getByText("Shield", { exact: true })).toBeVisible();
+  await expect(terms.filter({ has: page.getByText("Shield", { exact: true }) })).toBeVisible();
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
   await expect(page.getByRole("heading", { name: "Thuật ngữ", exact: true })).toBeVisible();
@@ -68,7 +68,7 @@ test("language preference covers Manifest Ego, Potential, and all upgrade levels
   const potential = page.getByTestId("potential-node").filter({ hasText: /Basic Card Upgrade|Nâng cấp bài cơ bản/ });
   await expect(ego).toHaveCount(6);
   await expect(ego.nth(1)).toContainText("Cứ tạo 4 lá Dirge Bullet, tạo 1 lá Dirge Bullet: Finale.");
-  await expect(ego.nth(3)).toContainText("Quyết tâm hoa hồng");
+  await expect(ego.nth(3)).toContainText("Rose’s Resolve");
   await expect(potential).toContainText("Tăng 20% sát thương");
   await potential.click();
   const upgrades = page.getByRole("dialog", { name: /^(Basic Card Upgrade|Nâng cấp bài cơ bản)$/, exact: true });

@@ -12,12 +12,12 @@ function normalizeSearch(text: string) {
 export function CardGlossary({ definitions }: { definitions: GlossaryTerm[] }) {
   const [query, setQuery] = useState("");
   const search = normalizeSearch(query);
-  const terms = definitions.filter(term => normalizeSearch(`${term.aliases.join(" ")} ${term.title} ${term.definitions.map(definition => `${definition.title} ${definition.desc}`).join(" ").replace(/<br\s*\/?\s*>/gi, " ").replace(/<[^>]*>/g, "")}`).includes(search));
+  const terms = definitions.filter(term => normalizeSearch(`${term.aliases.join(" ")} ${term.title} ${term.searchText} ${term.definitions.map(definition => `${definition.title} ${definition.desc}`).join(" ")}`.replace(/<br\s*\/?\s*>/gi, " ").replace(/<[^>]*>/g, "")).includes(search));
   return <section className={styles.glossary} aria-label="Danh sách thuật ngữ" lang="vi">
     <input className={styles.search} type="search" aria-label="Tìm thuật ngữ" placeholder="Tìm theo tên hoặc giải nghĩa…" value={query} onChange={event => setQuery(event.target.value)} />
     <p className={styles.summary}>{terms.length} / {definitions.length} thuật ngữ</p>
     <dl>{terms.map(term => <div key={term.englishTitle ?? term.title}>
-      <dt><span>{term.title}</span>{term.englishTitle !== term.title && <span className={styles.englishTitle} lang="en">{term.englishTitle}</span>}</dt>
+      <dt lang="en"><span>{term.title}</span></dt>
       <dd>{term.definitions.map((definition, index) => <div className={styles.definition} key={`${definition.id}-${index}`}>
         {term.definitions.length > 1 && <span className={styles.context}>{definition.id.startsWith("TALENT_") ? "Đặc tính lá bài" : definition.id.startsWith("TRIGGER_") ? "Điều kiện kích hoạt" : definition.id === "CARD_ATK" ? "Loại bài" : definition.id === "TERM_ATTACK_STAT" ? "Chỉ số nhân vật" : definition.id.startsWith("SERENIEL_") ? "Ghi chú bộ bài" : `Định nghĩa ${index + 1}`}</span>}
         <Description text={definition.desc} />

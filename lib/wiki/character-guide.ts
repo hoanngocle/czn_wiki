@@ -27,6 +27,7 @@ export type CharacterGuide = {
   partners: Recommendation[];
   fragments: Recommendation[];
   stats: { name: GuideText; value: GuideText }[];
+  buildAdvice?: { title: GuideText; body: GuideText }[];
   critNote: GuideText;
   potentialIntro: GuideText;
   potentialAdvice: { name: string; note: GuideText }[];

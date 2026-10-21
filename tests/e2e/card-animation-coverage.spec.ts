@@ -49,7 +49,7 @@ for (const id of ["1041", "1027", "1062"]) {
     await cardButton.scrollIntoViewIfNeeded();
     const video = cardButton.locator("video");
     await expect.poll(() => video.evaluate((element: HTMLVideoElement) => element.currentTime > 0 && !element.paused)).toBe(true);
-    await page.getByRole("tab", { name: "Bộ bài", exact: true }).click();
+    await page.getByRole("tab", { name: "Deck", exact: true }).click();
     // Scroll to an animated canonical card; viewport observation controls playback.
     const ref = guide.decks[0].cards.find(entry => cards.get(entry.cardId)?.video)!;
     const target = page.locator(`[data-card-id="${ref.cardId}"]`).filter({ visible: true }).first();

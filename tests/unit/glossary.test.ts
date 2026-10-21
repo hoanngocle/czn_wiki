@@ -1,7 +1,7 @@
 import { expect, it } from "vitest";
 import { characterTranslations } from "../../data/wiki/translations";
 import { collectGlossary } from "../../lib/wiki/glossary";
-import { label } from "../../lib/wiki/labels";
+import { label, preserveGameTermNames } from "../../lib/wiki/labels";
 import { getCardTerms } from "../../lib/wiki/card-terms";
 
 it("deduplicates punctuation aliases while preserving parameterized glossary titles", () => {
@@ -40,20 +40,33 @@ it("preserves source contexts even when IDs and numeric values match", () => {
   expect(terms[0].definitions.map(term => term.desc)).toEqual(["Đầu lượt, nhận 1", "Cuối lượt, nhận 1"]);
 });
 
-it("uses the same Vietnamese term in every combatant and the shared label dictionary", () => {
-  for (const translation of Object.values(characterTranslations)) for (const term of translation.terms) {
-    const english = term.englishTitle?.replace(/:\s*$/, "").trim();
-    const vietnamese = term.title.replace(/:\s*$/, "").trim();
-    if (english && english !== vietnamese) expect(label(english, true), `${term.id}: ${english}`).toBe(vietnamese);
+it("keeps game terminology names in English with Vietnamese explanations", () => {
+  for (const term of collectGlossary(characterTranslations)) {
+    expect(term.title, term.id).toBe(term.englishTitle);
   }
+  for (const name of ["Attack", "Skill", "AP", "Exhaust", "Attunement", "Potential", "Justice", "Striker", "Critical Chance"]) {
+    expect(label(name, true)).toBe(name);
+  }
+  expect(label("Animation", true)).toBe("Ảnh động");
 });
 
 it("explains cost-reduced activation and Diana's current Flutter timing", () => {
   const glossary = collectGlossary(characterTranslations);
   const efficiency = glossary.find(term => term.englishTitle === "Efficiency");
   expect(efficiency?.desc).toContain("chi phí đã được giảm");
-  expect(getCardTerms({ description: "Hiệu suất: nhận 1 Điểm hành động", talent: [], tooltips: [] }, true).find(term => term.title === "Hiệu suất")?.desc).toContain("chi phí đã được giảm");
+  expect(getCardTerms({ description: "Efficiency: nhận 1 AP", talent: [], tooltips: [] }, true).find(term => term.title === "Efficiency")?.desc).toContain("chi phí đã được giảm");
   const flutter = glossary.find(term => term.englishTitle === "Flutters");
-  expect(flutter?.desc).toContain("Máu tối đa cao nhất");
+  expect(flutter?.desc).toContain("HP tối đa cao nhất");
   expect(flutter?.desc).toContain("vào đầu lượt");
+});
+
+it("preserves game names in Vietnamese prose without changing markup or partial words", () => {
+  expect(preserveGameTermNames('Nhận <color_orange>2 Đòn đánh thêm</> và Lá chắn từ Shieldbearer; tăng sát thương.'))
+    .toBe('Nhận <color_orange>2 Extra Attack</> và Shield từ Shieldbearer; tăng sát thương.');
+  expect(preserveGameTermNames('<u>Thức tỉnh thần thánh</u>: giảm chi phí.'))
+    .toBe('<u>Divine Epiphany</u>: giảm chi phí.');
+  expect(preserveGameTermNames("Kích hoạt phần hiệu ứng sau Điều hòa. Sử dụng một lá bài."))
+    .toBe("Kích hoạt phần hiệu ứng sau Attunement. Sử dụng một lá bài.");
+  expect(preserveGameTermNames("Kích hoạt phần hiệu ứng <u>Kích hoạt</u>."))
+    .toBe("Kích hoạt phần hiệu ứng <u>Activate</u>.");
 });

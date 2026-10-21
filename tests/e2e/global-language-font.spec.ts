@@ -4,7 +4,7 @@ test("Vietnamese navigation is the default and the language setting follows page
   await page.goto("/combatant/renoa");
   await expect(page.locator("html")).toHaveAttribute("lang", "vi");
   const nav = page.getByRole("navigation", { name: "Điều hướng CZN" });
-  await expect(nav.getByRole("link", { name: "Nhân vật", exact: true })).toBeVisible();
+  await expect(nav.getByRole("link", { name: "Combatant", exact: true })).toBeVisible();
   await nav.getByRole("link", { name: "Xây bộ bài", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Xây bộ bài", exact: true })).toBeVisible();
   await page.getByRole("region", { name: "Thiết lập bộ bài" }).getByRole("button", { name: "Chọn nhân vật", exact: true }).click();

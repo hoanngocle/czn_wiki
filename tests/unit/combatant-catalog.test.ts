@@ -13,7 +13,8 @@ const legacy = new Set(["1041", "1033", "1052", "30075"]);
 const numbers = (text: string) => (text.replace(/<[^>]*>/g, " ").match(/\d+(?:\.\d+)?/g) ?? []).sort();
 it("covers imported combatants with guides and officially announced combatants with source kits", () => {
   expect(roster).toHaveLength(39);
-  expect(Object.keys(characterGuides).sort()).toEqual(roster.filter(item => item.source === "e7bot").map(item => item.id).sort());
+  for (const summary of roster.filter(item => item.source === "e7bot")) expect(characterGuides[summary.id]).toBeDefined();
+  for (const id of Object.keys(characterGuides)) expect(roster.some(item => item.id === id)).toBe(true);
   expect(Object.keys(characterTranslations).sort()).toEqual(roster.map(item => item.id).sort());
 });
 describe.each(roster)("$name complete catalog", summary => {

@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 for (const entry of [
   { term: "Efficiency", character: "Anika", card: "Ignition Slash", explanation: "chi phí đã được giảm", englishExplanation: "cost-reduced" },
-  { term: "Destroy", character: "Anika", card: "Rampage Trigger", explanation: "Sức bền", englishExplanation: "Tenacity" },
+  { term: "Destroy", character: "Anika", card: "Rampage Trigger", explanation: "Tenacity", englishExplanation: "Tenacity" },
   { term: "Attunement", character: "Selena", card: "Target Spotted", explanation: "đầu lượt", englishExplanation: "start-of-turn" },
 ]) {
   test(`${entry.term} can be searched and is explained on card hover`, async ({ page }) => {

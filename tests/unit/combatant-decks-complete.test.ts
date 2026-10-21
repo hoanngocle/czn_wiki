@@ -7,10 +7,12 @@ import { characterDetails } from "../../data/wiki/characters/index";
 import { characterTranslations } from "../../data/wiki/translations";
 import { indexCharacterCards } from "../../lib/wiki/character-guide";
 
+const capturedGuides = Object.values(characterGuides).filter(guide => sources.some(source => source.name === guide.name));
+
 describe("complete captured Prydwen decks", () => {
   it("imports all 98 decks for all 38 released combatants", () => {
     expect(sources).toHaveLength(38);
-    expect(Object.values(characterGuides).reduce((sum, guide) => sum + guide.decks.length, 0)).toBe(98);
+    expect(capturedGuides.reduce((sum, guide) => sum + guide.decks.length, 0)).toBe(98);
     for (const source of sources) {
       const guide = Object.values(characterGuides).find(item => item.name === source.name)!;
       expect(guide.decks.map(deck => deck.name.en), source.name).toEqual(source.decks.map(deck => deck.name));
@@ -54,7 +56,7 @@ describe("complete captured Prydwen decks", () => {
   });
 
   it("includes every captured card advice, season and Ego commentary", () => {
-    expect(Object.values(characterGuides).reduce((count, guide) => count + guide.cardAdvice.length, 0)).toBe(152);
+    expect(capturedGuides.reduce((count, guide) => count + guide.cardAdvice.length, 0)).toBe(152);
     for (const source of supplement) {
       const guide = Object.values(characterGuides).find(item => item.name === source.name)!;
       expect(guide.cardAdvice, source.name).toHaveLength(source.cards.length);

@@ -15,19 +15,19 @@ for (const width of [1440, 390]) {
     page.on("pageerror", error => errors.push(error.message));
     await page.goto("/combatant/renoa");
     const tabs = page.getByRole("tablist", { name: "Renoa hướng dẫn" });
-    await expect(tabs.getByRole("tab")).toHaveText(["Thẻ bài", "Đánh giá", "Xây dựng", "Bộ bài"]);
-    await expect(page.getByRole("heading", { name: "Bài khởi đầu" })).toBeVisible();
+    await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
+    await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
     const echo = page.getByRole("button", { name: "Echo of Sorrow card", exact: true });
     const artwork = await echo.locator("img").first().evaluate((img: HTMLImageElement) => new URL(img.src).pathname);
     await echo.click();
     await expect(page.getByRole("dialog").getByRole("note")).toHaveCount(5);
-    await expect(page.getByRole("button", { name: "Thức tỉnh bài 5", exact: true })).toBeVisible();
+    await expect(page.getByRole("button", { name: "Epiphany 5", exact: true })).toBeVisible();
     await page.getByRole("button", { name: "Đóng hộp thoại" }).click();
     await tabs.getByRole("tab", { name: "Đánh giá", exact: true }).click();
     await expect(page.getByRole("heading", { name: "Điểm mạnh" })).toBeVisible();
-    await tabs.getByRole("tab", { name: "Xây dựng", exact: true }).click();
-    await expect(page.getByRole("table", { name: "Xếp hạng Đối tác" })).toContainText("Kiara");
-    await tabs.getByRole("tab", { name: "Bộ bài", exact: true }).click();
+    await tabs.getByRole("tab", { name: "Build", exact: true }).click();
+    await expect(page.getByRole("table", { name: "Xếp hạng Partner" })).toContainText("Kiara");
+    await tabs.getByRole("tab", { name: "Deck", exact: true }).click();
     const list = page.getByRole("list", { name: "Các lá trong bộ bài" });
     await expect(list.getByRole("listitem")).toHaveCount(7);
     expect(await list.getByRole("button", { name: "Echo of Sorrow V card", exact: true }).locator("img").first().evaluate((img: HTMLImageElement) => new URL(img.src).pathname)).toBe(artwork);
@@ -54,7 +54,7 @@ for (const width of [1440, 390]) {
 
 test("all guide images load and failed card artwork has a readable fallback", async ({ page }) => {
   await page.goto("/combatant/renoa");
-  for (const name of ["Đánh giá", "Xây dựng", "Bộ bài"]) {
+  for (const name of ["Đánh giá", "Build", "Deck"]) {
     await page.getByRole("tablist", { name: "Renoa hướng dẫn" }).getByRole("tab", { name, exact: true }).click();
     const images = page.getByRole("tabpanel").locator("img").filter({ visible: true });
     for (const img of await images.all()) {
@@ -64,6 +64,6 @@ test("all guide images load and failed card artwork has a readable fallback", as
   }
   await page.route("**/assets/card/unique_1041_02.webp", route => route.abort());
   await page.reload();
-  await page.getByRole("tab", { name: "Bộ bài", exact: true }).click();
+  await page.getByRole("tab", { name: "Deck", exact: true }).click();
   await expect(page.locator('[data-image-placeholder="Flower of Devoured Fate I"]').filter({ visible: true })).toHaveCount(3);
 });

@@ -1,0 +1,515 @@
+"use strict";(self.webpackChunkallyourbasedotgg=self.webpackChunkallyourbasedotgg||[]).push([[4558,7125],{222(e,t,r){r.d(t,{Ax:()=>i,Bf:()=>a,Cx:()=>d,ZC:()=>s,f7:()=>l,nI:()=>c,r4:()=>p});var o=r(64833),n=r(55612);async function i(){const e="Could not sign you out. Check your connection and try again.";let t;try{t=(await async function(){return n.A.get("/do.php?cmd=logout",void 0,{retry:!1,url:"https://api.dotgg.gg/do.php?cmd=logout"})}())?.logout_token}catch{throw new Error(e)}if(!t)throw new Error(e);(0,o.Vd)(),window.location.href=`${window.location.origin}/?dotgg_logout=${encodeURIComponent(t)}`}async function a(e,t){return await n.A.post("/do.php?cmd=checknickunique",{nick:e,check:t})}async function l(e,t,r){return await n.A.post("/do.php?cmd="+(r?"edituser":"register"),{...e,recaptcha:t})}async function s(e,t,r){return await n.A.post("/do.php?cmd=site_login",{login:e,password:t,recaptcha:r})}async function c(e,t){const r=await n.A.post("/do.php?cmd=passgetkey",{login:e,recaptcha:t});return"object"==typeof r&&null!==r&&1===+(r.result??0)}async function d(e,t,r,o){return await n.A.post("/do.php?cmd=passreset",{password:e,uid:t,key:r,recaptcha:o})}async function p(e){const t=e?`&returl=${encodeURIComponent(e)}`:"";return await n.A.get(`/do.php?cmd=login_buttons${t}`)}r(21331)},48981(e,t,r){r.d(t,["L",0,"6LfJ590qAAAAAMcA3rZ4kcgwxlkiJHddg5Ly0yKY"])},21331(e,t,r){r.d(t,{T:()=>X});var o=r(15073),n=r(58468),i=r(70994);const a={login:{path:"/login/",title:"Login"},register:{path:"/register/",title:"Register"},reset:{path:"/reset/",title:"Password Reset"}};function l(){document.getElementById("ContentBeforeProContent")?.setAttribute("hidden","")}var s=r(15519),c=r(70213),d=r(63346),p=r(90023),g=r(41022),u=r(53794),h=r(222),m=r(48981),y=r(63679),x=r(28297),v=r(30821);const b=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 440px;
+  margin: 8px auto 32px;
+  @media only screen and ${x.E0} {
+    gap: 14px;
+    margin: 0 auto 24px;
+  }
+`,f=y.Ay.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--theme-palette-color-4);
+`,w=y.Ay.span`
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: var(--theme-palette-color-7);
+  box-shadow: inset 0 0 0 1px var(--theme-palette-color-5);
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--theme-palette-color-3);
+`,$=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid var(--theme-palette-color-5);
+  border-radius: 8px;
+  background: var(--theme-palette-color-8);
+  @media only screen and ${x.E0} {
+    gap: 14px;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+`,k=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+`,S=y.Ay.h2`
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--theme-palette-color-4);
+  @media only screen and ${x.E0} {
+    display: none;
+  }
+`,A=(0,y.Ay)(S)`
+  @media only screen and ${x.E0} {
+    display: block;
+  }
+`,Y=y.Ay.p`
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--theme-palette-color-3);
+  text-wrap: pretty;
+  @media only screen and ${x.E0} {
+    font-size: 14px;
+  }
+`,C=y.Ay.form`
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+`,D=y.Ay.p`
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  text-align: center;
+  color: ${v.Q.muted};
+  a {
+    color: var(--theme-palette-color-3);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+`,z=y.Ay.div`
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+`,L=y.Ay.div`
+  font-size: 13px;
+  line-height: 1.45;
+  color: ${v.Q.danger};
+`,E=(0,y.Ay)(d.jn)`
+  height: 48px;
+  font-size: 15px;
+  @media only screen and ${x.E0} {
+    height: 52px;
+    font-size: 16px;
+  }
+`;var T=r(97205),F=r(9019),I=r(29854);const G=({value:e,onUsernameChange:t,message:r,onPage:n})=>(0,o.Y)(I.A,{id:"reset-login",name:"login",label:"Email or username",autoComplete:"username",value:e,onValue:t,message:r,autoFocus:!0,onPage:n}),M=({loginButtons:e,mode:t,errors:r})=>{const[i,a]=(0,g.lm)(),l="register"===t?"Sign up with":"Continue with",s=t=>{const s=e[t];if(!s)return null;const c=r?.[t];return(0,o.FD)(n.Ay.Fragment,{children:[(0,o.Y)(g.SS,{provider:t,href:s,label:`${l} ${g.s_[t]}`,opening:i===t,onOpen:()=>a(t)}),c&&(0,o.Y)(g.mZ,{role:"alert",children:c})]},t)};return e.discord||e.google?(0,o.FD)(P,{children:[s("discord"),s("google")]}):null},P=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`;var J=r(28709);const U=e=>(0,o.FD)(C,{noValidate:!0,onSubmit:t=>{t.preventDefault(),e.onSubmit()},children:[!e.recovery&&(0,o.FD)(d.QW,{type:"button",onClick:e.onBack,children:[(0,o.Y)(c.gu,{size:16}),"Back"]}),(0,o.FD)(k,{children:[(0,o.Y)(A,{children:e.recovery?"Recovery code":"Enter your code"}),(0,o.Y)(Y,{children:e.recovery?"Enter one of the codes you saved when you turned on two-factor. Each works once.":"Open your authenticator app and type the 6-digit code for DotGG. It submits when all six are in."})]}),(0,o.Y)(I.A,{id:"twofa-code",ariaLabel:e.recovery?"Recovery code":"Authenticator code",variant:e.recovery?"recovery":"code",inputMode:e.recovery?"text":"numeric",autoComplete:"one-time-code",autoCapitalize:"characters",spellCheck:!1,maxLength:e.recovery?16:6,placeholder:e.recovery?"XXXX-XXXX":"••••••",value:e.code,onValue:e.onCodeChange,autoFocus:!0,disabled:e.done,message:e.error?{tone:"error",text:e.error}:null,onPage:e.onPage},e.recovery?"recovery":"code"),!e.recovery&&(0,o.FD)(J.T,{id:"twofa-trust",checked:e.trust,onChange:e.onTrustChange,note:"Your password is still required every time. Only on a device that's yours; undo it in Settings ▸ Account & security.",children:["Trust this browser for ",e.trustedDays," days"]}),(0,o.FD)(E,{type:"submit",disabled:e.busy||e.done,"aria-busy":e.busy||e.done||void 0,children:[(e.busy||e.done)&&(0,o.Y)(d.az,{"aria-hidden":"true"}),e.done?"Signed in. Taking you back…":e.busy?"Verifying…":"Verify"]}),(0,o.Y)(d.QW,{type:"button",$center:!0,onClick:e.onToggleRecovery,children:e.recovery?"Use the authenticator code instead":"Lost your device? Use a recovery code"})]});var j=r(64833),R=r(75213),N=r(53887);const B=e=>({tone:"error",text:e});var O=r(44260);const _={unverified:"Your Discord account has no verified email. Verify it on Discord, or register with email.",cancelled:"Discord sign-in was cancelled.",expired:"That Discord sign-in expired. Please try again.",unavailable:"Discord sign-in is not available right now.",failed:"Discord sign-in failed. Please try again."},K={unverified:"Google hasn't verified this account's email, so it can't sign you in. Verify it with Google, or use email."};function V(){const e=new URLSearchParams(window.location.search),t=e.get("discord_error"),r=e.get("google_error");return{...t?{discord:_[t]??"Discord sign-in failed. Please try again."}:{},...r?{google:K[r]??"Google sign-in failed. Please try again."}:{}}}const Q={login:{idle:"Sign in",busy:"Signing in…",done:"Signed in. Taking you back…"},register:{idle:"Create account",busy:"Creating account…",done:"Account created. Signing you in…"},reset:{idle:"Send reset link",busy:"Sending…",done:"Sent"}},W=({formType:e,comeback:t,comebackto:r,onSuccess:i})=>{const l=(0,u.WS)(),[y,x]=(0,n.J0)(e),[v,I]=(0,n.J0)({}),[P]=(0,n.J0)(V),[J,_]=(0,n.J0)(""),K=(W=t?r:null,(0,n.Kr)(()=>{if(!W)return null;try{const e=new URL(W).hostname.replace(/^www\./,"").toLowerCase(),t=e.split(".");if("dotgg.gg"===e||t.length<2)return null;const r=t[t.length-2]??"",o=t[t.length-1]??"";return{host:e,initials:`${r.charAt(0)}${o.charAt(0)}`.toUpperCase()}}catch{return null}},[W]));var W;const X=t&&r?r:"https://dotgg.gg/",q=r?`?returl=${encodeURIComponent(r)}`:"";(0,n.vJ)(()=>{(0,h.r4)(t&&r?r:void 0).then(I).catch(console.error)},[t,r]);const H=function({active:e,redirectUrl:t,onExpired:r,onSuccess:o}){const[i,a]=(0,n.J0)(null),[l,s]=(0,n.J0)(""),[c,d]=(0,n.J0)(!1),[p,g]=(0,n.J0)(!1),[u,h]=(0,n.J0)(30),[m,y]=(0,n.J0)(!1),[x,v]=(0,n.J0)(!1),[b,f]=(0,n.J0)(""),w=(0,n.li)("");(0,n.vJ)(()=>{if(!e)return;const t=new URLSearchParams(window.location.search),r=t.get("twofa");r&&a(r);const o=Number(t.get("twofa_days"));o>0&&h(o)},[e]);const $=(0,n.hb)(e=>{s(e),f("")},[]),k=(0,n.hb)((e,t)=>{a(e),s(""),f(""),d(!1),t&&t>0&&h(t)},[]),S=(0,n.hb)(()=>{a(null),s(""),f(""),d(!1)},[]),A=(0,n.hb)(()=>{d(e=>!e),s(""),f("")},[]),Y=(0,n.hb)(()=>{if(!i||m||x)return;const e=l.trim();c||/^\d{6}$/.test(e)?c&&e.replace(/[^a-z0-9]/gi,"").length<8?f("Enter a recovery code: 8 letters and numbers, like 7F3K-Q2MD."):(y(!0),f(""),(0,O.go)(i,e,p).then(e=>{const n=e?.result;return n&&"object"==typeof n&&+n.DotGGUser>0?((0,j.MC)(n.DotGGUser,n.DotGGUserToken),v(!0),window.location.href=`https://api.dotgg.gg/auth.php?returl=${encodeURIComponent(t)}`,void o?.()):(y(!1),"expired"===e?.error?(S(),void r("That sign-in expired. Sign in again.")):void f(function(e,t){if("locked"===e?.error){const t=Math.max(1,Math.ceil((e.retry_in??900)/60));return`Too many incorrect codes. Try again in ${t} minute${1===t?"":"s"}.`}return"code_reused"===e?.error?"You already used that code. Wait for your app to show the next one.":t?"That code didn't match. Check for typos. Each code works only once.":"That code didn't work. Use the newest code your authenticator app shows for DotGG."}(e,c)))}).catch(e=>{console.error(e),y(!1),f("Couldn't reach the server. Check your connection and try again.")})):f("Enter the 6-digit code from your authenticator app.")},[i,l,p,c,m,x,t,o,r,S]);return(0,n.vJ)(()=>{const e=l.trim();i&&!c&&/^\d{6}$/.test(e)&&w.current!==e&&(w.current=e,Y())},[i,c,l,Y]),{challenge:i,beginChallenge:k,cancel:S,code:l,setCode:$,recovery:c,toggleRecovery:A,trust:p,setTrust:g,trustedDays:u,busy:m,done:x,error:b,submit:Y}}({active:"login"===y,redirectUrl:X,onExpired:_,onSuccess:i}),Z=e=>{e!==y&&(ee.clear(),_(""),"login"!==e||ee.login||ee.setLogin(ee.reg.email),"register"===e&&!ee.reg.email&&ee.login.includes("@")&&ee.setReg({...ee.reg,email:ee.login}),x(e),function(e){const t=a[e];window.history.replaceState(window.history.state,"",`${t.path}${window.location.search}`);const r=document.querySelector("h1.page-title");r&&(r.textContent=t.title);const o=document.querySelector(".ct-breadcrumbs .last-item [itemprop='name']");o&&(o.textContent=t.title),document.title=document.title.replace(/^[^|]*\|/,`${t.title} |`)}(e))},ee=function({mode:e,redirectUrl:t,beginChallenge:r,emailTakenNote:o,onSuccess:i}){const a=(0,n.li)(null),[l,s]=(0,n.J0)(""),[c,d]=(0,n.J0)(""),[p,g]=(0,n.J0)({email:"",password:"",nick:"",acceptedTerms:!1}),[u,m]=(0,n.J0)(""),[y,x]=(0,n.J0)(!1),[v,b]=(0,n.J0)(!1),[f,w]=(0,n.J0)(""),[$,k]=(0,n.J0)(null),[S,A]=(0,n.J0)(null),[Y,C]=(0,n.J0)({}),[D,z]=(0,n.J0)(null),L=(0,n.hb)(()=>{w(""),k(null),A(null),C({}),z(null)},[]),E=(0,n.hb)(e=>{x(!1),w(e)},[]),T=(0,n.hb)((e,r)=>{(0,j.MC)(e,r),b(!0),window.location.href=(e=>`https://api.dotgg.gg/auth.php?returl=${encodeURIComponent(e)}`)(t),i?.()},[t,i]),F=()=>{x(!0),a.current?.reset(),a.current?.execute()};return{recaptcha:a,login:l,setLogin:s,password:c,setPassword:d,reg:p,setReg:g,resetLogin:u,setResetLogin:m,busy:y,done:v,formError:f,setFormError:w,loginMsg:$,passwordMsg:S,regMsgs:Y,resetMsg:D,clear:L,submit:()=>{if(y||v)return;if(L(),"login"===e)return void(l.trim()?c?F():A(B("Enter your password.")):k(B("Enter your email or username.")));if("reset"===e)return void(u.trim()?F():z(B("Enter your email or username.")));const t={},r=(0,N.Xe)(p.nick);(0,R.as)(p.email)||(t.email=B("Enter a valid email address."));const n=""===r?"Pick a nickname.":(0,N.qK)(r);n&&(t.nick=B(n)),p.password.length<6&&(t.password=B("Use at least 6 characters.")),p.acceptedTerms||(t.terms=B("Please accept the terms of service before continuing.")),Object.keys(t).length?C(t):(x(!0),(0,h.Bf)(p.email.trim(),"email").then(e=>0!==+e.result?(x(!1),void C({email:B(o())})):(0,h.Bf)(r,"nick").then(e=>{0!==+e.result&&C({nick:{tone:"warning",text:"That nickname is taken. You can keep it, and a .NUMBER suffix will be added."}}),F()})).catch(F))},onCaptcha:t=>{t&&("login"===e?(0,h.ZC)(l.trim(),c,t).then(e=>{const t=e?.result;t&&"object"==typeof t&&"requires_2fa"in t?(x(!1),r(t.challenge,t.trusted_days)):t&&"object"==typeof t&&+t.DotGGUser>0?T(t.DotGGUser,t.DotGGUserToken):!1===e?.captcha?(x(!1),A(B("We couldn't verify you're not a robot. Please try again."))):(x(!1),A(B("Wrong email or password. Please try again.")))}).catch(()=>E("Sign-in failed: couldn't reach the server. Please try again.")):"register"===e?(0,h.f7)({...p,email:p.email.trim(),nick:(0,N.Xe)(p.nick)},t).then(e=>{if(e&&+e.result?.DotGGUser>0)return T(e.result.DotGGUser,e.result.DotGGUserToken);const t=function(e){const t={};let r="";for(const[o,n]of Object.entries(e??{})){const e=String(n?.[0]??"").replace(/<[^>]*>/g,"");e&&(/email/i.test(o)?t.email=B(e):/login|user|nick/i.test(o)?t.nick=B(e):r=e)}return t.email||t.nick||r||(r="Registration failed: this email may already be in use. Try signing in or resetting your password."),{fields:t,form:r}}(e?.message);C(e=>({...e,...t.fields})),E(t.form)}).catch(()=>E("Registration failed: couldn't reach the server. Please try again.")):(0,h.nI)(u.trim(),t).then(e=>{x(!1),z(e?{tone:"success",text:"Check your email for the reset link."}:B("We couldn't send the link. Check the email or username, or sign in with Google or Discord if you signed up that way."))}).catch(()=>E("Password reset failed: couldn't reach the server. Please try again.")))},onCaptchaError:()=>{y&&E("reCAPTCHA couldn't check this browser. Please try again.")}}}({mode:y,redirectUrl:X,beginChallenge:H.beginChallenge,onSuccess:i,emailTakenNote:()=>(0,o.FD)(o.FK,{children:["This email is already registered."," ",(0,o.Y)("button",{type:"button",onClick:()=>Z("login"),children:"Sign in"})," ","or"," ",(0,o.Y)("a",{href:`/reset/${q}`,"data-native":!0,children:"reset the password"}),"."]})}),te=Q[y],re=(0,o.FD)(E,{type:"submit",disabled:ee.busy||ee.done,"aria-busy":ee.busy||ee.done||void 0,children:[(ee.busy||ee.done)&&(0,o.Y)(d.az,{"aria-hidden":"true"}),ee.done?te.done:ee.busy?te.busy:te.idle]}),oe=e=>{e.preventDefault(),ee.submit()},ne=ee.formError||("login"===y?J:""),ie=Boolean(v.discord||v.google),ae=`One account for ${K?`${K.host} and 30+ other`:"30+"} game sites. Your collection, decks and trades follow you to all of them.`,le="login"===y&&null!==H.challenge,se=le?(0,o.Y)(U,{code:H.code,recovery:H.recovery,trust:H.trust,trustedDays:H.trustedDays,busy:H.busy,done:H.done,error:H.error,onCodeChange:H.setCode,onTrustChange:H.setTrust,onToggleRecovery:H.toggleRecovery,onBack:H.cancel,onSubmit:H.submit,onPage:l}):"reset"===y?(0,o.FD)(C,{noValidate:!0,onSubmit:oe,children:[(0,o.FD)(d.QW,{type:"button",onClick:()=>Z("login"),children:[(0,o.Y)(c.gu,{size:16}),"Back to sign in"]}),(0,o.FD)(k,{children:[(0,o.Y)(A,{children:"Reset your password"}),(0,o.Y)(Y,{children:"Enter your email or username and we'll email you a link to set a new one."})]}),(0,o.Y)(G,{value:ee.resetLogin,onUsernameChange:ee.setResetLogin,message:ee.resetMsg,onPage:l}),ne&&(0,o.Y)(L,{role:"alert",children:ne}),re]}):(0,o.FD)(o.FK,{children:[(0,o.Y)(p.$,{ariaLabel:"Sign in or create an account",fill:!0,raised:!l,value:y,onChange:Z,options:[{value:"login",label:"Sign in"},{value:"register",label:"Create account"}]}),(0,o.FD)(k,{children:[(0,o.Y)(S,{children:"register"===y?"Create your DotGG account":"Sign in to DotGG"}),!(l&&"register"===y)&&(0,o.Y)(Y,{children:ae})]}),(0,o.Y)(M,{loginButtons:v,mode:"register"===y?"register":"signin",errors:P}),ie&&(0,o.Y)(g.JE,{children:"or with email"}),(0,o.FD)(C,{noValidate:!0,onSubmit:oe,children:["login"===y?(0,o.Y)(T.Q,{login:ee.login,password:ee.password,onLoginChange:ee.setLogin,onPasswordChange:ee.setPassword,resetHref:`/reset/${q}`,loginMessage:ee.loginMsg,passwordMessage:ee.passwordMsg,onPage:l}):(0,o.Y)(F.s,{formData:ee.reg,onFormChange:ee.setReg,messages:ee.regMsgs,onPage:l}),ne&&(0,o.Y)(L,{role:"alert",children:ne}),re]})]});return(0,o.FD)(b,{children:[K&&(0,o.FD)(f,{children:[(0,o.Y)(w,{"aria-hidden":"true",children:K.initials}),"Continue to ",K.host]}),(0,o.FD)($,{children:[se,!le&&(0,o.FD)(D,{children:["Protected by reCAPTCHA · Google"," ",(0,o.Y)("a",{href:"https://policies.google.com/privacy",target:"_blank",rel:"noopener noreferrer",children:"Privacy"})," ","and"," ",(0,o.Y)("a",{href:"https://policies.google.com/terms",target:"_blank",rel:"noopener noreferrer",children:"Terms"})," ","apply."]}),(0,o.Y)(z,{children:(0,o.Y)(s.A,{ref:ee.recaptcha,sitekey:m.L,size:"invisible",badge:"inline",onChange:ee.onCaptcha,onErrored:ee.onCaptchaError,onExpired:ee.onCaptchaError})})]})]})};function X(){const e=(0,i.zy)(),t=new URLSearchParams(e.search.replace("?","")).get("returl")??"";return(0,n.vJ)(l,[]),(0,o.Y)(W,{formType:(r=e.pathname,r.includes("register")?"register":r.includes("login")?"login":"reset"),comeback:e.search.includes("returl"),comebackto:t});var r}},64083(e,t,r){var o=r(15073),n=r(58468),i=r(63679);const a={error:"rgb(222, 71, 44)",info:"rgb(87, 138, 245)",success:"rgb(61, 168, 110)"},l=i.Ay.div`
+  color: ${({$kind:e})=>a[e]};
+  border-left: solid 5px ${({$kind:e})=>a[e]};
+  padding: 10px;
+  margin-top: 7px;
+`;r.d(t,["C",0,({message:e,className:t})=>{const r=(0,n.li)(null);return(0,n.vJ)(()=>{e&&r.current?.scrollIntoView({block:"center",behavior:"smooth"})},[e]),e?(0,o.Y)(l,{ref:r,className:t,role:"error"===e.kind?"alert":"status",$kind:e.kind,children:e.text}):null}])},97205(e,t,r){var o=r(15073),n=(r(58468),r(63679)),i=r(65057),a=r(29854),l=r(28297);const s=n.Ay.span`
+  @media only screen and ${l.E0} {
+    display: none;
+  }
+`,c=n.Ay.span`
+  display: none;
+  @media only screen and ${l.E0} {
+    display: inline;
+  }
+`;r.d(t,["Q",0,({login:e,password:t,onLoginChange:r,onPasswordChange:n,onEnterKey:l,resetHref:d,loginMessage:p,passwordMessage:g,onPage:u,loginLabel:h="Email or username"})=>{const m=e=>{l&&"Enter"===e.key&&l()};return(0,o.FD)(o.FK,{children:[(0,o.Y)(a.A,{id:"login-email",name:"login",label:h,autoComplete:"username",value:e,onValue:r,onKeyDown:m,message:p,onPage:u}),(0,o.Y)(a.s,{id:"login-password",name:"password",label:"Password",labelEnd:d&&(0,o.FD)(i.rm,{href:d,"data-native":!0,children:[(0,o.Y)(s,{children:"Forgot password?"}),(0,o.Y)(c,{children:"Forgot?"})]}),autoComplete:"current-password",value:t,onValue:n,onKeyDown:m,message:g,onPage:u})]})}])},9019(e,t,r){var o=r(15073),n=(r(58468),r(28709)),i=r(65057),a=r(29854);r(53887),r.d(t,["s",0,({formData:e,onFormChange:t,messages:r={},onPage:l})=>{const s=(r,o)=>t({...e,[r]:o});return(0,o.FD)(o.FK,{children:[(0,o.Y)(a.A,{id:"reg-email",name:"email",label:"Email",type:"email",inputMode:"email",autoComplete:"email",value:e.email,onValue:e=>s("email",e),message:r.email,onPage:l}),(0,o.Y)(a.A,{id:"reg-nick",name:"nick",label:"Nickname",autoComplete:"nickname",maxLength:32,value:e.nick,onValue:e=>s("nick",e),message:r.nick,onPage:l}),(0,o.Y)(a.s,{id:"reg-password",name:"password",label:"Password",autoComplete:"new-password",value:e.password,onValue:e=>s("password",e),message:r.password,onPage:l}),(0,o.FD)("div",{children:[(0,o.Y)(n.T,{id:"reg-terms",checked:e.acceptedTerms,onChange:e=>s("acceptedTerms",e),children:(0,o.FD)("span",{children:["I accept the"," ",(0,o.Y)("a",{href:"https://dotgg.gg/terms/",target:"_blank",rel:"noopener noreferrer",children:"Terms and Conditions"})," ","and"," ",(0,o.Y)("a",{href:"https://dotgg.gg/privacy/",target:"_blank",rel:"noopener noreferrer",children:"Privacy Policy"})]})}),r.terms&&(0,o.Y)(i.XE,{$tone:r.terms.tone,role:"alert",children:r.terms.text})]})]})}])},32751(e,t,r){var o=r(15073),n=(r(58468),r(63679)),i=r(30821);const a=n.Ay.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  user-select: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  line-height: 1;
+
+  /* Size variants */
+  ${({$size:e})=>"small"===e?"\n          padding: 0 8px;\n          font-size: 14px;\n          height: 24px;\n          min-width: 24px;\n        ":"\n          padding: 0 12px;\n          font-size: 14px;\n          height: 32px;\n          min-width: 32px;\n        "}
+
+  /* Color variants */
+  ${({$variant:e})=>{switch(e){case"primary":return"\n          background-color: var(--theme-palette-color-1);\n          color: var(--dotgg-on-accent, var(--theme-palette-color-8));\n          border: 1px solid var(--theme-palette-color-5);\n\n          &:hover:not(:disabled) {\n            background-color: var(--theme-palette-color-2);\n            color: var(--dotgg-on-accent-2, var(--theme-palette-color-8));\n          }\n\n          &:active:not(:disabled) {\n            background-color: var(--theme-palette-color-3);\n            color: var(--theme-palette-color-8);\n          }\n        ";case"danger":return`\n          background-color: var(--theme-palette-color-8);\n          color: var(--theme-palette-color-4);\n          border: 1px solid var(--theme-palette-color-5);\n\n          &:hover:not(:disabled) {\n            background-color: ${i.Q.dangerStrong};\n            color: white;\n            border-color: ${i.Q.dangerStrong};\n          }\n\n          &:active:not(:disabled) {\n            background-color: color-mix(in srgb, ${i.Q.dangerStrong} 70%, ${i.Q.dangerEdge});\n          }\n        `;default:return"\n          background-color: var(--theme-palette-color-8);\n          color: var(--theme-palette-color-4);\n          border: 1px solid var(--theme-palette-color-5);\n\n          &:hover:not(:disabled) {\n            background-color: var(--theme-palette-color-6);\n            border-color: var(--theme-palette-color-3);\n          }\n\n          &:active:not(:disabled) {\n            background-color: var(--theme-palette-color-5);\n          }\n        "}}}
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:focus {
+    outline: 1px solid var(--theme-palette-color-1);
+    outline-offset: 1px;
+  }
+`;r.d(t,["r",0,({variant:e="secondary",size:t="large",children:r,isLoading:n=!1,loadingText:i,disabled:l,...s})=>(0,o.Y)(a,{$variant:e,$size:t,disabled:l||n,...s,children:n?i||"⏳":r})])},78074(e,t,r){r.d(t,{U:()=>s});var o=r(15073),n=r(58468),i=r(4738),a=r(55612),l=r(32751);const s=({tierlistId:e,tierlistName:t,tierlistAuthor:r,onDelete:s,className:c,style:d,variant:p="icon"})=>{const[g,u]=(0,n.J0)(!1),h=()=>{if(!window.DotGGUser)return!1;const e=Number(window.DotGGUser);return r===e||20===e};return h()?(0,o.Y)(l.r,{variant:"danger",size:"small"===p?"small":"large",onClick:async r=>{if(r.preventDefault(),r.stopPropagation(),h()&&!g&&window.confirm(`Are you sure you want to delete "${t}"? This action cannot be undone.`)){u(!0);try{await async function(e){const t={tierlistID:e},r=await a.A.post("/deletetierlist",t,{headers:(0,i.z5)()});if(r.error)throw new Error(r.message||"Failed to delete tierlist");return r}(e),s?.(e)}catch(e){console.error("Failed to delete tierlist:",e),alert("Failed to delete tierlist: "+e.message)}finally{u(!1)}}},disabled:g,title:`Delete "${t}"`,className:c,style:d,isLoading:g,loadingText:"large"===p?"Deleting...":"⏳",children:(()=>{switch(p){case"large":return"Delete";case"small":return"×";default:return"🗑️"}})()}):null}},69372(e,t,r){var o=r(63679),n=r(10392);const i=o.Ay.div`
+  display: flex;
+  background-color: var(--theme-palette-color-8);
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+`,a=o.Ay.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* the text colour at 50% (near-black on trlst.com) under text in the surface colour */
+  background-color: ${(0,n.u)(50)};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--theme-palette-color-8);
+  font-size: 24px;
+  z-index: 1;
+`,l=o.Ay.div`
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  gap: 10px;
+`,s=o.Ay.div`
+  padding: 20px;
+`,c=o.Ay.div`
+  width: 100%;
+  height: 100px;
+  border: 2px dashed var(--theme-palette-color-5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: ${e=>e.$isHovering?(0,n.u)(12):"transparent"};
+`,d=o.Ay.div`
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(${e=>"BIG"===e.$previewSize?"110px":"60px"}, 1fr)
+  );
+  gap: 10px;
+  position: relative;
+  width: 100%;
+`,p=o.Ay.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`,g=o.Ay.div`
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+`,u=o.Ay.button`
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  color: var(--theme-palette-color-8);
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${(0,n.u)(50)};
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    color: red;
+  }
+`;r.d(t,["GY",0,l,"Kl",0,d,"QF",0,p,"d0",0,u,"kC",0,g,"mc",0,s,"wC",0,c,"wP",0,a,"xq",0,i])},25379(e,t,r){r.r(t),r.d(t,{Trlst:()=>U});var o=r(15073),n=r(58468),i=r(63679),a=r(849),l=r(45913),s=r(61204),c=r(65187),d=r(4738),p=r(70994),g=r(99104),u=r(32751),h=r(78074),m=r(19156),y=r(69372),x=r(10392);const v=({entity:e,previewSize:t="SMALL"})=>(0,o.FD)(b,{children:[(0,o.Y)(f,{$src:e.image}),(0,o.Y)(w,{$previewSize:t,children:(0,o.Y)($,{$previewSize:t,children:e.itemName})}),e.eval&&+e.eval>0&&(0,o.Y)(k,{$previewSize:t,children:e.eval||"0.0"})]}),b=i.Ay.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: var(--theme-palette-color-8);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  border: 1px solid var(--theme-palette-color-5);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media only screen and (max-width: 750px) {
+    border-radius: 6px;
+  }
+`,f=i.Ay.div`
+  width: 100%;
+  aspect-ratio: 1;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--theme-palette-color-5);
+  background-image: ${e=>`url(https://static.dotgg.gg/trlst/${e.$src})`};
+`,w=i.Ay.div`
+  width: 100%;
+  padding: ${e=>"SMALL"===e.$previewSize?"2px 1px":"8px 6px"};
+  background-color: var(--theme-palette-color-8);
+  border-top: 1px solid var(--theme-palette-color-5);
+  text-align: center;
+
+  @media only screen and (max-width: 750px) {
+    padding: ${e=>"SMALL"===e.$previewSize?"2px 1px":"6px 4px"};
+  }
+`,$=i.Ay.span`
+  color: var(--theme-palette-color-4);
+  font-size: ${e=>"SMALL"===e.$previewSize?"0.65em":"0.85em"};
+  font-weight: 500;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+
+  @media only screen and (max-width: 750px) {
+    font-size: ${e=>"SMALL"===e.$previewSize?"0.6em":"0.75em"};
+  }
+`,k=i.Ay.div`
+  position: absolute;
+  padding: ${e=>"SMALL"===e.$previewSize?"4px 6px":"6px 8px"};
+  top: ${e=>"SMALL"===e.$previewSize?"4px":"8px"};
+  right: ${e=>"SMALL"===e.$previewSize?"4px":"8px"};
+  /* over the entity's image: the text colour at 75% (near-black on trlst.com) */
+  background-color: ${(0,x.u)(75)};
+  border-radius: 4px;
+  color: var(--theme-palette-color-1);
+  font-size: ${e=>"SMALL"===e.$previewSize?"0.7em":"0.9em"};
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+
+  @media only screen and (max-width: 750px) {
+    padding: ${e=>"SMALL"===e.$previewSize?"3px 4px":"4px 6px"};
+    font-size: ${e=>"SMALL"===e.$previewSize?"0.65em":"0.8em"};
+    top: ${e=>"SMALL"===e.$previewSize?"3px":"6px"};
+    right: ${e=>"SMALL"===e.$previewSize?"3px":"6px"};
+  }
+`,S=({tier:e,previewSize:t="SMALL"})=>0===e.entities.length?null:(0,o.FD)(A,{$borderColor:e.color,children:[(0,o.Y)(Y,{$color:e.color,children:e.name}),(0,o.Y)(C,{children:(0,o.Y)(y.Kl,{$previewSize:t,children:e.entities.map(e=>(0,o.Y)(v,{entity:e,previewSize:t},e.itemId))})})]}),A=i.Ay.div`
+  display: flex;
+  align-items: stretch;
+  border-radius: 8px;
+  flex-basis: 100%;
+  background-color: var(--theme-palette-color-8);
+  border: 1px solid ${e=>e.$borderColor};
+  overflow: hidden;
+
+  @media only screen and (max-width: 750px) {
+    border-radius: 6px;
+  }
+`,Y=i.Ay.div`
+  background-color: ${e=>e.$color};
+  color: var(--theme-palette-color-8);
+  font-weight: bold;
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  max-width: 48px;
+  writing-mode: horizontal-tb;
+
+  @media only screen and (max-width: 750px) {
+    font-size: 1em;
+    padding: 10px 6px;
+    min-width: 40px;
+    max-width: 40px;
+  }
+`,C=i.Ay.div`
+  width: 100%;
+  padding: 12px;
+
+  @media only screen and (max-width: 750px) {
+    padding: 8px;
+  }
+`;var D=r(97525),z=r(46457),L=r(29155),E=r(18318);const T=({subjectSlug:e,tierlistSlug:t,tierlistName:r})=>{const[i,a]=(0,n.J0)([]),[l,s]=(0,n.J0)(!0);return(0,n.vJ)(()=>{const r=`${e}/${t}`;(0,L.Ky)(r).then(e=>{a(e)}).catch(e=>{console.error("Failed to load bound posts:",e),a([])}).finally(()=>{s(!1)})},[e,t]),l||0===i.length?null:(0,o.FD)(F,{children:[(0,o.FD)(I,{children:[r," Related Articles"]}),(0,o.Y)(G,{children:i.map((e,t)=>(0,o.Y)(M,{children:(0,o.Y)(E.l,{post:e,withContent:!0})},e.post_name||t))})]})},F=i.Ay.div`
+  margin-top: 2rem;
+  padding: 1rem 0;
+`,I=i.Ay.h3`
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--theme-palette-color-4);
+  margin: 0 0 1rem 0;
+  text-align: center;
+`,G=i.Ay.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  width: 100%;
+  padding: 0 1rem;
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+`,M=i.Ay.div`
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+`,P="trlst-tierlist-compact-mode",J=()=>window.innerWidth<700,U=e=>{const{ListSlug:t}=(0,p.g)(),r=!!e.slugOverride,i=(0,n.li)(null),[y,x]=(0,n.J0)(!1),[v,b]=(0,n.J0)(()=>{if(r)return J();const e=(0,d.Ri)(P);return null!==e?"compact"===e:J()});(0,n.vJ)(()=>{if(!r&&null!==(0,d.Ri)(P))return;const e=()=>{const e=J();b(t=>r?e||t:e)};return window.addEventListener("resize",e),()=>window.removeEventListener("resize",e)},[r]);const{tiers:f,tierlistData:w}=(({slugOverride:e,listSlug:t})=>{const[r,o]=(0,n.J0)(z.B8),[i,a]=(0,n.J0)(!0),[l,s]=(0,n.J0)(null);return(0,n.vJ)(()=>{(async()=>{a(!0);try{const r=!window.DotGGUser||!!e,n=await(0,D.M)(`${z.JR}/gettierlist?slug=${e??t}`,!r);if(n.error||!n.tierlist)return console.error("Tierlist not found:",n.message||"Unknown error"),a(!1),null;s(n.tierlist);const i=await(0,D.M)(`${z.JR}/getsubject?slug=${n.tierlist.subjectSlug}`,!0);return!i.error&&i.subject&&i.items?(o((0,z.z1)(n.tierlist.arena,n.items,e=>(0,z.Sm)(i.items,e))),n.tierlist):(console.error("Subject data not found:",i.message||"Unknown error"),a(!1),null)}catch(e){return console.error("Error fetching tierlist data:",e),null}finally{a(!1)}})()},[e,t]),{tiers:r,isLoading:i,tierlistData:l}})({slugOverride:e.slugOverride,listSlug:t}),$=w&&window.DotGGUser&&String(w.author)===String(window.DotGGUser),k=!e.slugOverride&&$,A=!e.slugOverride,Y=()=>{b(e=>{const t=!e;return r||(0,d.TV)(P,t?"compact":"normal",365),t})},C=w?`https://trlst.com/${w.subjectSlug}/${w.slug}/`:"";return(0,o.Y)(m.mc,{children:(0,o.FD)(m.j,{children:[(0,o.FD)(j,{children:[(0,o.FD)(R,{children:[w&&A&&(0,o.Y)(h.U,{tierlistId:Number(w.id),tierlistName:w.name,tierlistAuthor:Number(w.author),onDelete:()=>{w&&(window.location.href=`/${w.subjectSlug}`)},variant:"large"}),k&&(0,o.Y)(u.r,{variant:"primary",size:"small",onClick:()=>{w&&(window.location.href=`/builder/${w.subjectSlug}/${w.slug}`)},children:"✏️ EDIT"})]}),(0,o.FD)(R,{children:[(0,o.FD)(g.C,{children:[(0,o.Y)(g.D,{onClick:Y,$active:!v,children:"Normal"}),(0,o.Y)(g.D,{onClick:Y,$active:v,children:"Compact"})]}),w&&(0,o.FD)(N,{onClick:async()=>{if(i.current&&w&&!y){x(!0);try{await(0,c.shareElementAsImage)(i.current,{filename:`tierlist-${w.subjectSlug}-${w.slug}.png`,shareTitle:w.name,shareText:`${w.name} — ${C}`})}finally{x(!1)}}},disabled:y,title:"Export tierlist as PNG (uses native share on mobile)",children:[(0,o.Y)(s.g,{icon:l.q}),y?"…":"Image"]}),w&&(0,o.Y)(a.F,{shareTitleLable:"Share Tierlist",stringToCopy:C})]})]}),(0,o.Y)(m.I5,{ref:i,children:f.map(e=>(0,o.Y)(S,{tier:e,previewSize:v?"SMALL":"BIG"},e.id))}),!e.slugOverride&&w&&(0,o.Y)(T,{subjectSlug:w.subjectSlug,tierlistSlug:w.slug,tierlistName:w.name})]})})},j=i.Ay.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+`,R=i.Ay.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+`,N=i.Ay.button`
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--theme-palette-color-1);
+  color: var(--dotgg-on-accent, var(--theme-palette-color-8));
+  padding: 2px 8px;
+  min-height: 32px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  font: inherit;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+`},35566(e,t,r){var o=r(15073),n=(r(27915),r(14730)),i=r(97525),a=r(80649),l=r(24567),s=r(69036),c=r(75835),d=r(9299),p=r(81616),g=r(89629),u=r(25379),h=r(87250),m=r(6e3),y=r(84668);const x=(0,y.A)({loader:async()=>await r.e(3611).then(()=>r(75992)),loading:()=>(0,o.Y)(m.F,{}),render(e){const t=e.BuilderExternal;return(0,o.Y)(t,{})}});var v=r(63506);const b=(0,y.A)({loader:async()=>await r.e(5662).then(()=>r(65662)),loading:()=>(0,o.Y)(v.v,{}),render(e){const t=e.Explorer;return(0,o.Y)(t,{})}});var f=r(38144);const w=(0,y.A)({loader:async()=>await r.e(4184).then(()=>r(31803)),loading:()=>(0,o.Y)(f.R,{}),render(e){const t=e.SubjectTierlists;return(0,o.Y)(t,{})}}),$=(0,y.A)({loader:async()=>await r.e(586).then(()=>r(50586)),loading:()=>(0,o.Y)(f.R,{}),render(e){const t=e.SubjectsEditor;return(0,o.Y)(t,{})}}),k=(0,y.A)({loader:async()=>await r.e(402).then(()=>r(20402)),loading:()=>(0,o.Y)(f.R,{}),render(e){const t=e.SubjectIndex;return(0,o.Y)(t,{})}});var S=r(79268);const A=(0,y.A)({loader:async()=>await Promise.resolve().then(()=>r(25379)),loading:()=>(0,o.Y)(S.z,{}),render(e){const t=e.Trlst;return(0,o.Y)(t,{})}});var Y=r(20482);const C=(0,y.A)({loader:async()=>await r.e(9635).then(()=>r(39635)),loading:()=>(0,o.Y)(Y.j,{}),render(e){const t=e.default;return(0,o.Y)(t,{})}}),D=()=>(0,o.FD)(h.r,{children:[(0,o.Y)(b,{path:"/explorer"}),(0,o.Y)(x,{path:"/builder"}),(0,o.Y)(x,{path:"/builder/:subjectSlug"}),(0,o.Y)(x,{path:"/builder/:subjectSlug/:ListSlug"}),(0,o.Y)(k,{path:"/collections"}),(0,o.Y)($,{path:"/collections/:subjectSlug"}),(0,o.Y)(C,{path:"/u"}),(0,o.Y)(C,{path:"/u/:userID"}),(0,o.Y)(C,{path:"/u/:userID/:tab"}),(0,o.Y)(A,{path:"/:subjectSlug/:ListSlug"}),(0,o.Y)(w,{path:"/:subjectSlug"})]});var z=r(51700),L=r(86031);(0,z.UH)().catch(e=>{console.error("Failed to initialize butterfly cache:",e)}),(0,L.fZ)({core:{gameNameForTitle:"TRLST - Tier List Maker"},collection:{collectionExportEnable:!1,collectionCanTrade:!1}}),(0,l.K)("entry"),(0,g.k0)();const E=(0,a.X)(),T=(0,i.M)("https://api.dotgg.gg/trlst/gettaxonomies",!0);E.catch(()=>{}),T.catch(()=>{}),document.addEventListener("DOMContentLoaded",()=>{(0,l.K)("dom"),(async()=>{await E,p.Ex.taxonomies=new p.il;const e=await T;if(e.error||!Array.isArray(e.taxonomies)?(console.error("Failed to load taxonomies:",e.message||"Invalid data"),p.Ex.taxonomies.updateState([])):p.Ex.taxonomies.updateState(e.taxonomies),(0,s.pc)("trlst"),(0,l.K)("loaded"),(0,c.L)("trlst",(0,o.Y)(D,{})))return void(0,l.K)("router");const t=document.getElementsByClassName("RootOfEmbeddedTierlist");for(const e of t){const t=e.dataset.tierlist;t&&(0,n.Hr)(e).render((0,o.Y)(d.t,{justhide:!0,children:(0,o.Y)(u.Trlst,{slugOverride:t})}))}(0,l.K)("embeds")})().catch(e=>{(0,g.N7)(e,"boot:trlst")})})},46457(e,t,r){const o=["#e05555","#e08c4a","#d4c44a","#6bce4a","#4aceb5","#888888","#7a7af0","#c44ad4","#4a90e0","#b5651d"],n=e=>o[e%o.length],i=["S","A","B","C","D","N"].map((e,t)=>({name:e,color:n(t)}));let a=0;const l=()=>`tier-${Date.now().toString(36)}-${a++}`,s=e=>e.map((e,t)=>({id:l(),name:e.name,color:e.color||n(t),entities:[]})),c=s(i);r.d(t,["Ao",0,e=>{const t=parseFloat(e);return t<0?"0":t>10?"10":e||"0"},"B8",0,c,"JR",0,"https://api.dotgg.gg/trlst","MY",0,s,"PD",0,o,"Qj",0,e=>{const t=e.lastIndexOf(".");return t>0?e.substring(0,t):e},"Sm",0,(e,t)=>e.find(e=>e.itemId===t),"ZC",0,e=>e?e.startsWith("blob:")||e.startsWith("http://")||e.startsWith("https://")?e:`https://static.dotgg.gg/trlst/${e}`:"","_w",0,i,"bw",0,e=>{const t=new Set(e);for(const e of"ABCDEFGHIJKLMNOPQRSTUVWXYZ")if(!t.has(e))return e;let r=e.length+1;for(;t.has(`T${r}`);)r++;return`T${r}`},"co",0,l,"e8",0,(e,t)=>{const r=e.replace("#","");if(r.length<6)return null!=t?`rgba(0,0,0,${t})`:"#ffffff";const o=.299*parseInt(r.slice(0,2),16)+.587*parseInt(r.slice(2,4),16)+.114*parseInt(r.slice(4,6),16)<150;return null!=t?o?`rgba(255,255,255,${t})`:`rgba(0,0,0,${t})`:o?"#ffffff":"rgba(0,0,0,0.78)"},"vN",0,e=>({itemId:e.itemId,itemName:e.itemName,image:e.image,eval:"0"}),"vb",0,n,"z1",0,(e,t,r)=>{const o=new Map;t.forEach(e=>{const t=r(e.itemID),n={itemId:e.itemID,itemName:t?.itemName||"",image:t?.image||"",eval:e.eval},i=o.get(e.tier)??[];i.push(n),o.set(e.tier,i)});const a=(e=>{let t=e;if("string"==typeof e){if(""===e.trim())return i;try{t=JSON.parse(e)}catch{return i}}if(!Array.isArray(t)||0===t.length)return i;const r=[];return t.forEach((e,t)=>{if(!e||"object"!=typeof e)return;const o=String(e.name??"").slice(0,10);if(!o)return;const i=String(e.color??"")||n(t);r.push({name:o,color:i})}),r.length>0?r:i})(e),c=s(a).map(e=>({...e,entities:o.get(e.name)??[]})),d=new Set(a.map(e=>e.name));let p=c.length;return o.forEach((e,t)=>{d.has(t)||c.push({id:l(),name:t,color:n(p++),entities:e})}),c}])},19156(e,t,r){var o=r(63679),n=r(66525),i=r(10392);const a=o.I4.div`
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+`,l=o.I4.div`
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px dashed var(--theme-palette-color-5);
+  border-radius: 5px;
+  color: var(--theme-palette-color-5);
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+`,s=o.I4.div`
+  color: ${e=>"SMALL"===e.$previewSize?"var(--theme-palette-color-3)":"var(--theme-palette-color-7)"};
+  font-size: ${e=>"SMALL"===e.$previewSize?"0.55em":"0.6em"};
+  text-align: ${e=>"SMALL"===e.$previewSize?"center":"left"};
+`,c=(0,o.I4)(n.p)`
+  background-color: ${e=>"SMALL"===e.$previewSize?"var(--theme-palette-color-8)":"var(--theme-palette-color-7)"} !important;
+  width: 100%;
+  font-size: ${e=>"SMALL"===e.$previewSize?"0.7em":"0.85em"};
+  padding: ${e=>"SMALL"===e.$previewSize?"2px 4px":"4px 6px"};
+  text-align: center;
+`,d=o.I4.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--theme-palette-color-7);
+  color: var(--theme-palette-color-4);
+`,p=o.I4.div`
+  width: 100%;
+  background-color: var(--theme-palette-color-6);
+  padding: 10px;
+`,g=o.I4.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 10px;
+
+  @media only screen and (max-width: 750px) {
+    gap: 8px;
+  }
+`,u=(o.I4.div`
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  flex-basis: 100%;
+  background-color: var(--theme-palette-color-6);
+  border: 1px solid var(--theme-palette-color-6);
+`,o.I4.div`
+  background-color: ${e=>e.$color};
+  border-radius: 5px 0 0 5px;
+  color: var(--theme-palette-color-4);
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  height: 100%;
+
+  @media only screen and (max-width: 750px) {
+    font-size: 1em;
+    padding: 8px;
+    min-width: 40px;
+  }
+`,o.I4.div`
+  width: 100%;
+  padding: 10px;
+
+  @media only screen and (max-width: 750px) {
+    padding: 6px;
+  }
+`,o.I4.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--theme-palette-color-5);
+
+  @media only screen and (max-width: 750px) {
+    padding: 6px;
+  }
+`,o.I4.div`
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  background-color: ${(0,i.u)(50)};
+  border-radius: 0 5px 0 5px;
+`,o.I4.div`
+  width: ${e=>"BIG"===e.$previewSize?"200px":"100px"};
+  height: ${e=>"BIG"===e.$previewSize?"200px":"100px"};
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+  background-image: ${e=>`url(https://static.dotgg.gg/trlst/${e.$src})`};
+
+  @media only screen and (max-width: 750px) {
+    width: ${e=>"BIG"===e.$previewSize?"120px":"70px"};
+    height: ${e=>"BIG"===e.$previewSize?"120px":"70px"};
+    margin: 3px;
+  }
+`,o.I4.span`
+  margin-bottom: 5px;
+  color: var(--theme-palette-color-4);
+  font-size: 0.8em;
+
+  @media only screen and (max-width: 750px) {
+    font-size: 0.7em;
+    margin-bottom: 3px;
+  }
+`,o.I4.div``,o.I4.div`
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  @media only screen and (max-width: 750px) {
+    justify-content: center;
+  }
+`);r.d(t,["Cz",0,p,"GY",0,u,"I5",0,g,"dE",0,c,"gM",0,s,"j",0,a,"mc",0,d,"uO",0,l])},12434(e,t,r){const o="undefined"!=typeof window?window.DOTGG_GAME:void 0,n={apiUrl:o?.apiUrl??"",TheGame:o?.TheGame??"",BASE_URL:o?.BASE_URL??"",BASE_FOLDER:o?.BASE_FOLDER??"/",apiOrigin:o?.apiOrigin??"https://api.dotgg.gg",CardsDirName:o?.CardsDirName??"card",BlogID:o?.BlogID??"",mode:o?.mode??"prod",version:"0.4.875"};r.d(t,["Ay",0,n,"ff",0,1792501412,"jt",0,"85cbf580cbb0"])}},e=>{e.O(0,[2076,4121],()=>e(35566)),e.O()}]);

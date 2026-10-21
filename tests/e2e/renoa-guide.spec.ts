@@ -6,7 +6,7 @@ for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/combatant/renoa");
     const tabs = page.getByRole("tablist", { name: /^(Renoa guide|Renoa hướng dẫn)$/ });
-    await expect(tabs.getByRole("tab")).toHaveText(["Thẻ bài", "Đánh giá", "Xây dựng", "Bộ bài"]);
+    await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
     await expect(page.getByRole("heading", { name: /^(Start Cards|Bài khởi đầu)$/, exact: true })).toBeVisible();
     await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/, exact: true }).check();
     await tabs.getByRole("tab", { name: /^(Review|Đánh giá)$/, exact: true }).click();
@@ -65,7 +65,7 @@ test("deck copies preserve their individual effects when switching languages", a
   for (const card of await englishCards.filter({ hasText: "Flower of Devoured Fate IV" }).all()) await expect(card.locator("strong").first()).toHaveText("0");
   await language.check();
   for (const card of await cards.filter({ hasText: "Flower of Devoured Fate IV" }).all()) await expect(card.locator("strong").first()).toHaveText("0");
-  await expect(cards.filter({ hasText: "Nếu có Dirge Bullet trên tay, Rút bài thêm 1 lá" })).toHaveCount(4);
+  await expect(cards.filter({ hasText: "Nếu có Dirge Bullet trên tay, Draw thêm 1 lá" })).toHaveCount(4);
 });
 
 test("missing guide images keep their reserved slots and readable card content", async ({ page }) => {

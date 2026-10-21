@@ -36,7 +36,7 @@ export function CombatantDetail({ summary, detail, guide, translation }: { summa
       </div>}
     </header>
     {summary.source === "stove" && <aside className={styles.sourceNotice}>
-      <p>{vietnamese ? "Dữ liệu từ thông báo cập nhật chính thức ngày 21/10/2026. Chỉ hiển thị thông tin đã công bố; chưa có hướng dẫn build, Tiềm năng và Suy sụp từ wiki." : "Published kit from the official 21 October 2026 update notice. A wiki build guide, Potential and Breakdown data are not available yet."}</p>
+      <p>{guide ? (vietnamese ? "Kit từ thông báo chính thức ngày 21/10/2026. Build và Deck là đề xuất theorycraft từ kit, chưa kiểm chứng thực chiến. Dữ liệu Tiềm năng và Suy sụp chưa được công bố." : "Kit from the official 21 October 2026 notice. Build and Deck recommendations are kit-based theorycraft, not combat-tested. Potential and Breakdown data have not been published.") : (vietnamese ? "Dữ liệu từ thông báo cập nhật chính thức ngày 21/10/2026. Chỉ hiển thị thông tin đã công bố; chưa có hướng dẫn build, Tiềm năng và Suy sụp từ wiki." : "Published kit from the official 21 October 2026 update notice. A wiki build guide, Potential and Breakdown data are not available yet.")}</p>
       {summary.mechanicsUrl && <Link href={summary.mechanicsUrl}>{vietnamese ? "Đọc cơ chế Rossweisse →" : "Rossweisse mechanics (Vietnamese) →"}</Link>}
       {summary.patchNoteUrl && <Link href={summary.patchNoteUrl}>{vietnamese ? "Xem patch note đầy đủ →" : "Full patch note (Vietnamese) →"}</Link>}
     </aside>}

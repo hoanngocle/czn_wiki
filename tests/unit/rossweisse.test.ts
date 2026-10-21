@@ -4,14 +4,12 @@ import { filterCombatants } from "../../lib/wiki/filters";
 import { getCombatants } from "../../lib/wiki/repository";
 import { indexCharacterCards } from "../../lib/wiki/character-guide";
 import { translateCharacterDetail } from "../../lib/wiki/translation";
-import { characterGuides } from "../../data/wiki/guides";
 
-it("finds officially announced Ross and exposes her published kit without an invented guide", () => {
+it("finds officially announced Ross and preserves her published kit without inventing unpublished data", () => {
   expect(filterCombatants(getCombatants(), { query: "Ross", rarities: [5], egos: ["narcissism"], jobs: ["striker"] }).map(item => item.id)).toContain("rossweisse");
   expect(getCharacter("rossweisse")?.source).toBe("stove");
   const detail = getCharacterDetail("rossweisse");
   expect(detail).toBeDefined();
-  expect(characterGuides.rossweisse).toBeUndefined();
   if (!detail) return;
   expect(detail.startCards.map(card => card.name)).toEqual(["Sword Slash", "Sword Slash", "Standing Blade", "Flicker Blade", "Shard:Light", "Shard:Dark"]);
   for (const card of [...detail.startCards.slice(3), ...detail.sparkCards.slice(0, 3)]) expect(card.variants).toHaveLength(5);

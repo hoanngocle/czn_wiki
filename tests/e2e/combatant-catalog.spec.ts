@@ -11,9 +11,9 @@ for (const character of roster.filter(item => item.kind === "combatant" && item.
     page.on("pageerror", error => errors.push(error.message));
     await page.goto(`/combatant/${combatantSlug(character)}`);
     const tabs = page.getByRole("tablist", { name: `${character.name} hướng dẫn` });
-    await expect(tabs.getByRole("tab")).toHaveText(["Thẻ bài", "Đánh giá", "Xây dựng", "Bộ bài"]);
-    await expect(page.getByRole("heading", { name: "Bài khởi đầu", exact: true })).toBeVisible();
-    for (const tab of ["Đánh giá", "Xây dựng", "Bộ bài"]) {
+    await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
+    await expect(page.getByRole("heading", { name: "Start Cards", exact: true })).toBeVisible();
+    for (const tab of ["Đánh giá", "Build", "Deck"]) {
       await tabs.getByRole("tab", { name: tab, exact: true }).click();
       for (const img of await page.getByRole("tabpanel").locator("img").filter({ visible: true }).all()) {
         await img.scrollIntoViewIfNeeded();
@@ -45,7 +45,7 @@ test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and sou
   await page.goto("/combatant/rossweisse");
   await expect(page.getByRole("heading", { level: 1, name: "Rossweisse", exact: true })).toBeVisible();
   const tabs = page.getByRole("tablist", { name: "Rossweisse guide", exact: true });
-  await expect(tabs.getByRole("tab")).toHaveText(["Card"]);
+  await expect(tabs.getByRole("tab")).toHaveText(["Card", "Review", "Build", "Deck"]);
   await expect(page.getByRole("button", { name: "Sword Tassel card", exact: true })).toBeVisible();
   const ego = page.getByRole("button", { name: "Flickering White Night card", exact: true });
   await expect(ego).toBeVisible();
@@ -79,7 +79,7 @@ for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(`/combatant/${combatantSlug({ name })}`);
     const tabs = page.getByRole("tablist", { name: `${name} hướng dẫn` });
-    for (const tab of ["Đánh giá", "Xây dựng", "Bộ bài"]) {
+    for (const tab of ["Đánh giá", "Build", "Deck"]) {
       await tabs.getByRole("tab", { name: tab, exact: true }).click();
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     }
@@ -98,7 +98,7 @@ for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
 
 test("Vanguard filter exposes all six combatants with working class icons", async ({ page }) => {
   await page.goto("/combatant");
-  await page.getByRole("button", { name: "Vai trò Tiên phong", exact: true }).click();
+  await page.getByRole("button", { name: "Vai trò vanguard", exact: true }).click();
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(6);
   await page.getByRole("link", { name: "Nine", exact: true }).click();
   await expect(page.getByRole("heading", { level: 1, name: "Nine" })).toBeVisible();

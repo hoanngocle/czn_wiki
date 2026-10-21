@@ -1,4 +1,5 @@
 import type { Card } from "./types";
+import { preserveGameTermNames } from "./labels";
 
 const inferredTerms = [
   { id: "TERM_EFFICIENCY", en: { title: "Efficiency", desc: "Activates the effect after Efficiency when the card is activated in a cost-reduced state, including reduction through Lead or Divine Epiphanies." }, vi: { title: "Hiệu suất", desc: "Kích hoạt phần hiệu ứng sau Hiệu suất khi lá bài được kích hoạt trong trạng thái chi phí đã được giảm, chẳng hạn nhờ Dẫn đầu hoặc Thức tỉnh thần thánh." } },
@@ -8,16 +9,19 @@ const inferredTerms = [
 const normalizeTitle = (title: string) => title.replace(/:$/, "").trim().toLowerCase();
 
 export function getCardTerms(card: Pick<Card, "description" | "talent" | "tooltips">, vietnamese = false) {
-  const definitions = inferredTerms.map(term => ({ id: term.id, ...term[vietnamese ? "vi" : "en"] }));
+  const definitions = inferredTerms.map(term => ({ id: term.id, title: term.en.title,
+    desc: vietnamese ? preserveGameTermNames(term.vi.desc) : term.en.desc }));
   const terms = new Map<string, Card["tooltips"][number]>();
   for (const term of [...card.talent, ...card.tooltips]) {
-    const definition = definitions.find(candidate => candidate.id === term.id || normalizeTitle(candidate.title) === normalizeTitle(term.title));
+    const definition = definitions.find(candidate => candidate.id === term.id || normalizeTitle(candidate.title) === normalizeTitle(term.title)
+      || inferredTerms.some(inferred => inferred.id === candidate.id && normalizeTitle(inferred.vi.title) === normalizeTitle(term.title)));
     const resolved = definition ?? term;
     terms.set(resolved.id, resolved);
   }
   const description = card.description.replace(/<br\s*\/?\s*>/gi, " ").replace(/<[^>]*>/g, "");
   for (const term of definitions) {
-    if (description.toLocaleLowerCase().includes(term.title.toLocaleLowerCase())) terms.set(term.id, term);
+    const legacyTitle = inferredTerms.find(inferred => inferred.id === term.id)!.vi.title;
+    if ([term.title, legacyTitle].some(title => description.toLocaleLowerCase().includes(title.toLocaleLowerCase()))) terms.set(term.id, term);
   }
   return [...terms.values()];
 }

@@ -1,0 +1,404 @@
+"use strict";(self.webpackChunkallyourbasedotgg=self.webpackChunkallyourbasedotgg||[]).push([[6886,7125],{2577(e,t,r){var a=r(15073),n=(r(27915),r(70247)),i=r(85724),l=r(95205),o=r(21591),s=r(45676),d=r(86031),c=r(70165),p=r(58468),m=r(31634),h=r(58683),g=r(81616),u=r(12434),y=r(63679);const f=y.I4.div`
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr) 260px;
+  gap: 14px;
+  align-items: start;
+
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: 120px minmax(0, 1fr);
+  }
+  @media only screen and (max-width: 520px) {
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 10px;
+  }
+`,b=y.I4.div`
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+`,v=y.I4.img`
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 6px;
+  border: 1px solid var(--theme-palette-color-5);
+  background-color: var(--theme-palette-color-8);
+  display: block;
+`,x=y.I4.div`
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+`,w=y.I4.button`
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--theme-palette-color-4);
+  background-color: var(--theme-palette-color-8);
+  border: 1px solid var(--theme-palette-color-5);
+
+  &:hover {
+    border-color: var(--theme-palette-color-1);
+  }
+`,Y=y.I4.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+`,k=y.I4.div`
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+`,D=y.I4.div`
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--theme-palette-color-4);
+`,N=y.I4.div`
+  font-size: 12.5px;
+  color: var(--theme-palette-color-3);
+`,F=y.I4.div`
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+
+  @media only screen and (max-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+  }
+`,I=y.I4.a`
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: var(--theme-palette-color-8);
+  border: 1px solid var(--theme-palette-color-5);
+  text-decoration: none !important;
+  min-width: 0;
+`,C=y.I4.img`
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex: 0 0 22px;
+`,T=y.I4.div`
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+`,S=y.I4.div`
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--theme-palette-color-4);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+`,_=y.I4.div`
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+
+  @media only screen and (max-width: 1100px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @media only screen and (max-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+  }
+`,A=y.I4.div`
+  font-size: 10.5px;
+  color: var(--theme-palette-color-3);
+  opacity: 0.75;
+  font-variant-numeric: tabular-nums;
+`,E=y.I4.div`
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: var(--theme-palette-color-8);
+  border: 1px solid var(--theme-palette-color-5);
+
+  @media only screen and (max-width: 900px) {
+    grid-column: 1 / -1;
+  }
+`,P=y.I4.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`,R=y.I4.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #10131a;
+  background-color: ${e=>e.$bg??"var(--theme-palette-color-5)"};
+`,$=y.I4.span`
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--theme-palette-color-4);
+  border: 1px dashed var(--theme-palette-color-5);
+`,O=y.I4.div`
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 60px 60px;
+  gap: 2px 10px;
+  font-size: 12.5px;
+  align-items: baseline;
+
+  @media only screen and (max-width: 520px) {
+    grid-template-columns: minmax(0, 1fr) 48px 48px;
+  }
+`,G=y.I4.div`
+  font-size: 9.5px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--theme-palette-color-3);
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--theme-palette-color-5);
+  margin-bottom: 3px;
+`,L=y.I4.div`
+  font-variant-numeric: tabular-nums;
+  color: var(--theme-palette-color-4);
+`,M=y.I4.div`
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  padding: 5px 0;
+
+  & + & {
+    border-top: 1px solid var(--theme-palette-color-5);
+  }
+`,J=y.I4.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--theme-palette-color-4);
+  background-color: var(--theme-palette-color-8);
+  border: 1px solid var(--theme-palette-color-5);
+`,j=y.I4.div`
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--theme-palette-color-3);
+`,U=y.I4.a`
+  color: var(--dotgg-accent-text, var(--theme-palette-color-1)) !important;
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+`;var z=r(6768),B=r(91543),q=r(28266);const K=({item:e,elementType:t})=>{const r=(0,q.d)(t,e),[n,i]=(0,p.J0)(0),l=r.selected?.image??("string"==typeof e.icon?e.icon:""),o=l?`https://static.dotgg.gg/${u.Ay.TheGame}/${l}`:"",s=String(e.name??"");return(0,a.FD)(b,{children:[o?(0,a.Y)(v,{src:o,alt:s,loading:"lazy",onClick:()=>i(e=>e+1)}):null,(0,a.FD)(x,{children:[(0,a.Y)(q.Z,{state:r,size:34,row:!0}),(0,a.Y)(w,{type:"button",title:"View full art","aria-label":"View full art",onClick:()=>i(e=>e+1),children:(0,a.Y)(z.jh,{size:16})})]}),(0,a.Y)(B.O,{imagePath:l,altText:s,show:n,variants:r})]})};var V=r(90653);const H=({item:e,elementType:t,fields:r})=>{const n=r.map(r=>({label:r.label,facet:(0,V.s)(e,t,r.field)})).filter(e=>null!==e.facet);return 0===n.length?null:(0,a.Y)(F,{children:n.map(({label:e,facet:t})=>t?(0,a.FD)(I,{href:t.href,"data-native":!0,children:[t.icon?(0,a.Y)(C,{src:t.icon,alt:"",loading:"lazy"}):null,(0,a.FD)(T,{children:[(0,a.Y)(h.fo,{children:e}),(0,a.Y)(S,{children:t.label})]})]},e):null)})},W=e=>String(e).replace(/^SKILL_EFF_/,"").split("_").map(e=>e.length<=2?e:e.charAt(0)+e.slice(1).toLowerCase()).join(" "),X=[{field:"type",label:"Type"},{field:"source",label:"Source"},{field:"attribute",label:"Attribute"}],Q={1:"Common",2:"Rare",3:"Legendary",4:"Mythic"},Z=e=>`${u.Ay.BASE_FOLDER}cards/${String(e.slug??"")}/`;var ee=r(95262);const te=[{key:"hp",label:"HP",pct:!1},{key:"atk",label:"ATK",pct:!1},{key:"def",label:"DEF",pct:!1},{key:"cri",label:"Crit Rate",pct:!0},{key:"cri_dmg",label:"Crit DMG",pct:!0}],re=[{key:"hp",label:"HP"},{key:"atk",label:"ATK"},{key:"def",label:"DEF"}],ae=[{field:"class",label:"Class"},{field:"attribute",label:"Attribute"},{field:"faction",label:"Faction"}],ne=e=>{if("object"!=typeof e||null===e)return{};const t={};for(const[r,a]of Object.entries(e))"number"==typeof a&&(t[r]=a);return t},ie=({stats:e})=>e.empty?(0,a.Y)(h.QX,{children:"Stats are not published for this combatant yet."}):(0,a.FD)(a.FK,{children:[(0,a.Y)(_,{children:te.map(({key:t,label:r,pct:n})=>{const i=e.l60[t],l=e.l1[t];if(void 0===i&&void 0===l)return null;const o=n?"%":"";return(0,a.Y)(I,{as:"div",children:(0,a.FD)(T,{children:[(0,a.Y)(h.fo,{children:r}),(0,a.Y)(S,{children:(0,a.FD)(h.q9,{children:[i??l,o]})}),void 0!==i&&void 0!==l&&(0,a.FD)(A,{children:["Lv.1 ",l,o]})]})},t)})}),e.nodes.length>0&&(0,a.FD)(h.Lj,{children:[(0,a.Y)(h.fo,{children:"Ascension"}),e.nodes.map(([e,t])=>(0,a.FD)(h.vw,{children:["Lv.",e," · ",t]},e))]})]}),le=[{field:"class",label:"Class"},{field:"faction",label:"Faction"}];var oe=r(8879),se=r(79063),de=r(46186);const ce=oe._H3({...de.w,faction:(0,se.RJ)(),class:(0,se.RJ)(),attribute:(0,se.RJ)(),type:(0,se.RJ)(),source:(0,se.RJ)(),variant:(0,se.RJ)(),base_card:(0,se.RJ)(),character_id:(0,se.RJ)(),character_name:(0,se.RJ)(),cost:(0,se.RJ)(),cost_type:(0,se.RJ)(),slot:(0,se.RJ)(),stat_type:(0,se.RJ)(),category:(0,se.RJ)(),effect:(0,se.RJ)(),obtain:(0,se.RJ)(),kind:(0,se.RJ)(),group_name:(0,se.RJ)(),term:(0,se.RJ)(),definition:(0,se.RJ)(),tags:(0,se.wG)(),keywords:(0,se.wG)(),allowed_classes:(0,se.wG)(),aliases:(0,se.wG)(),best_for:(0,se.wG)(),card_types:(0,se.wG)(),starting_cards:(0,se.wG)(),unique_cards:(0,se.wG)()}),pe=e=>-(Number(e.rarity)||0),me={Starting:0,Unique:1,Neutral:2,Support:3,Generated:4,Forbidden:5,Monster:6,Collapse:7,Formation:8},he=[{Name:"5",DisplayName:"5★",Icon:"",color:"#c9a227"},{Name:"4",DisplayName:"4★",Icon:"",color:"#7d5ba6"},{Name:"3",DisplayName:"3★",Icon:"",color:"#3f5762"}],ge=[{Name:"Terrascion",DisplayName:"Terrascion",Icon:"icons/factions/terrascion.webp"},{Name:"Ironrain",DisplayName:"Ironrain",Icon:"icons/factions/ironrain.webp"},{Name:"Stella Familia",DisplayName:"Stella Familia",Icon:"icons/factions/stella-familia.webp"},{Name:"Peltion",DisplayName:"Peltion",Icon:"icons/factions/peltion.webp"},{Name:"The Holy Crusaders",DisplayName:"The Holy Crusaders",Icon:"icons/factions/the-holy-crusaders.webp"},{Name:"Wanderer",DisplayName:"Wanderer",Icon:"icons/factions/wanderer.webp"},{Name:"Sileyma",DisplayName:"Sileyma",Icon:"icons/factions/sileyma.webp"}],ue=[{Name:"Striker",DisplayName:"Striker",Icon:"icons/classes/striker.webp"},{Name:"Hunter",DisplayName:"Hunter",Icon:"icons/classes/hunter.webp"},{Name:"Vanguard",DisplayName:"Vanguard",Icon:"icons/classes/vanguard.webp"},{Name:"Ranger",DisplayName:"Ranger",Icon:"icons/classes/ranger.webp"},{Name:"Psionic",DisplayName:"Psionic",Icon:"icons/classes/psionic.webp"},{Name:"Controller",DisplayName:"Controller",Icon:"icons/classes/controller.webp"}],ye=[{Name:"Instinct",DisplayName:"Instinct",Icon:"icons/attributes/instinct.webp"},{Name:"Void",DisplayName:"Void",Icon:"icons/attributes/void.webp"},{Name:"Justice",DisplayName:"Justice",Icon:"icons/attributes/justice.webp"},{Name:"Passion",DisplayName:"Passion",Icon:"icons/attributes/passion.webp"},{Name:"Order",DisplayName:"Order",Icon:"icons/attributes/order.webp"}],fe=[...ye,{Name:"Neutral",DisplayName:"Neutral",Icon:""}],be=[...["0","1","2","3","4","5","6","7","8","9"].map(e=>({Name:e,DisplayName:e,Icon:""})),{Name:"-1",DisplayName:"X",Icon:""},{Name:"⊘",DisplayName:"Unplayable",Icon:""},{Name:"-2",DisplayName:"—",Icon:""}];(0,c.j3)({classifications:{characters:[{name:"rarity",displayName:"Rarity",renderOnPortrait:!0,isBackgroundClassification:!0,details:he},{name:"class",displayName:"Class",renderOnPortrait:!0,details:ue},{name:"attribute",displayName:"Attribute",renderOnPortrait:!0,details:ye},{name:"faction",displayName:"Faction",renderOnPortrait:!1,details:ge}],partners:[{name:"rarity",displayName:"Rarity",renderOnPortrait:!0,isBackgroundClassification:!0,details:he},{name:"class",displayName:"Class",renderOnPortrait:!0,details:ue},{name:"faction",displayName:"Faction",renderOnPortrait:!1,details:ge}],cards:[{name:"character_name",displayName:"Combatant",renderOnPortrait:!1,autodetails:!0,details:[]},{name:"type",displayName:"Type",renderOnPortrait:!0,details:[{Name:"Attack",DisplayName:"Attack",Icon:""},{Name:"Skill",DisplayName:"Skill",Icon:""},{Name:"Upgrade",DisplayName:"Upgrade",Icon:""},{Name:"Ego",DisplayName:"Ego",Icon:""},{Name:"Status Ailment",DisplayName:"Status Ailment",Icon:""},{Name:"Curse",DisplayName:"Curse",Icon:""}]},{name:"cost",displayName:"Cost",renderOnPortrait:!1,details:be},{name:"attribute",displayName:"Attribute",renderOnPortrait:!1,details:fe},{name:"source",displayName:"Source",renderOnPortrait:!1,autodetails:!0,details:[]},{name:"variantLabel",displayName:"Variant",renderOnPortrait:!1,details:[{Name:"base",DisplayName:"Base card",Icon:""},{Name:"epiphany",DisplayName:"Epiphany",Icon:""},{Name:"potential",DisplayName:"Potential",Icon:""},{Name:"limit-break",DisplayName:"Limit Break",Icon:""},{Name:"mutation",DisplayName:"Mutation",Icon:""}]},{name:"rarity",displayName:"Rarity",renderOnPortrait:!1,details:[{Name:"1",DisplayName:"Common",Icon:""},{Name:"2",DisplayName:"Rare",Icon:""},{Name:"3",DisplayName:"Legendary",Icon:""},{Name:"4",DisplayName:"Mythic",Icon:""}]},{name:"tags",displayName:"Tag",renderOnPortrait:!1,isArray:!0,autodetails:!0,details:[]},{name:"allowed_classes",displayName:"Usable by",renderOnPortrait:!1,isArray:!0,details:ue}],equipment:[{name:"slot",displayName:"Slot",renderOnPortrait:!0,details:[{Name:"Weapon",DisplayName:"Weapon",Icon:""},{Name:"Armor",DisplayName:"Armor",Icon:""},{Name:"Trinket",DisplayName:"Trinket",Icon:""}]},{name:"rarity",displayName:"Rarity",renderOnPortrait:!1,autodetails:!0,details:[]},{name:"stat_type",displayName:"Main stat",renderOnPortrait:!1,details:[{Name:"ATK",DisplayName:"ATK",Icon:""},{Name:"DEF",DisplayName:"DEF",Icon:""},{Name:"HP",DisplayName:"HP",Icon:""}]}],fragments:[{name:"pieces",displayName:"Set size",renderOnPortrait:!0,details:[{Name:"2",DisplayName:"2-piece",Icon:""},{Name:"4",DisplayName:"4-piece",Icon:""}]}],items:[{name:"category",displayName:"Category",renderOnPortrait:!1,autodetails:!0,details:[]}],keywords:[{name:"category",displayName:"Category",renderOnPortrait:!1,autodetails:!0,details:[]}],epiphanies:[{name:"kind",displayName:"Kind",renderOnPortrait:!1,details:[{Name:"common",DisplayName:"Common",Icon:""},{Name:"divine",DisplayName:"Divine",Icon:""}]},{name:"group_name",displayName:"Group",renderOnPortrait:!1,autodetails:!0,details:[]}]}});var ve=r(85311);const xe=y.I4.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`,we=y.I4.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 8px;
+`,Ye=y.I4.div`
+  padding: 8px 10px;
+  border: 1px solid var(--theme-border-color, var(--theme-palette-color-5));
+  border-radius: 6px;
+  background: var(--theme-palette-color-8);
+`,ke=y.I4.div`
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.7;
+`,De=y.I4.div`
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+`,Ne=y.I4.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+`,Fe=y.I4.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--theme-border-color, var(--theme-palette-color-5));
+  background: var(--theme-palette-color-8);
+`,Ie=y.I4.div`
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 2px;
+`,Ce=y.I4.p`
+  margin: 0;
+  line-height: 1.55;
+  white-space: pre-wrap;
+`,Te=y.I4.div`
+  font-size: 13px;
+  opacity: 0.65;
+  font-style: italic;
+`,Se=y.I4.table`
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+
+  th,
+  td {
+    text-align: left;
+    padding: 5px 8px;
+    border-bottom: 1px solid var(--theme-border-color, var(--theme-palette-color-5));
+  }
+
+  th {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.7;
+  }
+
+  td:not(:first-child) {
+    font-variant-numeric: tabular-nums;
+  }
+`,_e=({defs:e})=>{const t=Array.isArray(e)?e:[];return 0===t.length?(0,a.Y)(Te,{children:"No effect data for this card."}):(0,a.FD)(Se,{children:[(0,a.Y)("thead",{children:(0,a.FD)("tr",{children:[(0,a.Y)("th",{children:"Effect"}),(0,a.Y)("th",{children:"Value"}),(0,a.Y)("th",{children:"Count"})]})}),(0,a.Y)("tbody",{children:t.map((e,t)=>(0,a.FD)("tr",{children:[(0,a.Y)("td",{children:W(e.eff)}),(0,a.Y)("td",{children:e.value??"—"}),(0,a.Y)("td",{children:e.count??"—"})]},`${e.eff}-${t}`))})]})},Ae=({parentEl:e})=>{const t=e?.id;if(!t)return null;let r=[];g.fS.cards?.mapState(e=>{r=e??[]});const n=r.filter(e=>e.base_card===t).sort((e,t)=>(Number(e.epiphany_level)||0)-(Number(t.epiphany_level)||0));return 0===n.length?null:(0,a.FD)(xe,{children:[(0,a.FD)(Ie,{children:[n.length," Epiphany levels"]}),(0,a.Y)(ve.q,{elementType:"cards",listOverride:n.map(e=>String(e.id)),showfilter:!1,embed:!0})]})};var Ee=r(88362);const Pe=({defs:e})=>e&&(e.l1||e.l60)?(0,a.FD)(xe,{children:[(0,a.Y)(we,{children:te.map(({key:t,label:r,pct:n})=>{const i=e.l1?.[t],l=e.l60?.[t];if(void 0===i&&void 0===l)return null;const o=n?"%":"";return(0,a.FD)(Ye,{children:[(0,a.Y)(ke,{children:r}),(0,a.FD)(De,{children:[l??i,o]}),void 0!==i&&void 0!==l&&(0,a.FD)(ke,{children:["Lv.1 ",i,o]})]},t)})}),e.nodes&&Object.keys(e.nodes).length>0&&(0,a.FD)("div",{children:[(0,a.Y)(Ie,{children:"Ascension nodes"}),(0,a.Y)(Ne,{children:Object.entries(e.nodes).map(([e,t])=>(0,a.FD)(Fe,{children:["Lv.",e," · ",t]},e))})]})]}):(0,a.Y)(Te,{children:"Stats are not published for this combatant yet."}),Re=({parentEl:e})=>e?(0,a.Y)($e,{item:e}):null,$e=({item:e})=>{const t=(0,ee.t)(e,void 0,"combatant");return t?(0,a.Y)(Ee.a,{title:"Measured verdict",note:t.letter?`Tier ${t.letter}`:void 0,children:(0,a.FD)(xe,{children:[(0,a.Y)(Ce,{children:t.reason}),(0,a.FD)(ke,{children:[t.rank?`#${t.rank} on the tier list · `:"","Great Rift usage",t.source?`, ${t.source}`:""," · ",(0,a.Y)("a",{href:`${u.Ay.BASE_FOLDER}tier-list/`,children:"See the tier list ›"})]})]})}):null},Oe=({defs:e,parentEl:t})=>{const r=Array.isArray(e)?e:[];return 0===r.length?(0,a.FD)(Te,{children:["The card list for ",t?.name??"this combatant"," is not published yet."]}):(0,a.Y)(ve.q,{elementType:"cards",listOverride:r,showfilter:!1,embed:!0})},Ge=({defs:e})=>e?.description||e?.card_id?(0,a.FD)(xe,{children:[e.description&&(0,a.Y)(Ce,{children:e.description}),e.card_id&&(0,a.Y)(ve.q,{elementType:"cards",listOverride:[e.card_id],showfilter:!1,embed:!0})]}):(0,a.Y)(Te,{children:"No Ego skill published yet."}),Le=({defs:e})=>{if(!e)return(0,a.Y)(Te,{children:"No recommended build published yet."});const t=(e.recommended_sets??[]).map(String),r=[["Slot 4",e.main_stat_4],["Slot 5",e.main_stat_5],["Slot 6",e.main_stat_6]];return(0,a.FD)(xe,{children:[t.length>0&&(0,a.FD)("div",{children:[(0,a.Y)(Ie,{children:"Recommended sets"}),(0,a.Y)(ve.q,{elementType:"fragments",listOverride:t,showfilter:!1,embed:!0})]}),r.some(([,e])=>e&&e.length>0)&&(0,a.FD)("div",{children:[(0,a.Y)(Ie,{children:"Main stats"}),(0,a.Y)(xe,{children:r.map(([e,t])=>t&&t.length>0?(0,a.FD)(Ne,{children:[(0,a.Y)(ke,{children:e}),t.map(e=>(0,a.Y)(Fe,{children:e},e))]},e):null)})]}),e.substats&&e.substats.length>0&&(0,a.FD)("div",{children:[(0,a.Y)(Ie,{children:"Substat priority"}),(0,a.Y)(Ne,{children:e.substats.map((e,t)=>(0,a.FD)(Fe,{children:[t+1,". ",e]},e))})]})]})},Me=({defs:e,parentEl:t})=>{const r=function(e){if("object"!=typeof e||null===e)return[];const t=[];for(const[r,a]of Object.entries(e))Array.isArray(a)&&a.every(e=>"number"==typeof e)&&t.push([r,a]);return t}(t?.passive_values);if(!e&&0===r.length)return(0,a.Y)(Te,{children:"No passive published for this partner yet."});const n=r.length>0?r[0]?.[1]?.length??0:0;return(0,a.FD)(xe,{children:[e&&(0,a.Y)(Ce,{children:e}),r.length>0&&n>0&&(0,a.FD)("div",{children:[(0,a.Y)(Ie,{children:"Scaling by Ego level"}),(0,a.FD)(Se,{children:[(0,a.Y)("thead",{children:(0,a.FD)("tr",{children:[(0,a.Y)("th",{children:"Stat"}),Array.from({length:n},(e,t)=>(0,a.FD)("th",{children:["E",t+1]},t))]})}),(0,a.Y)("tbody",{children:r.map(([e,t])=>(0,a.FD)("tr",{children:[(0,a.Y)("td",{children:e}),Array.from({length:n},(e,r)=>(0,a.Y)("td",{children:t[r]??"—"},r))]},e))})]})]})]})},Je=({defs:e,parentEl:t})=>{const r=t?.ego_card_id?String(t.ego_card_id):"";return e||r?(0,a.FD)(xe,{children:[e&&(0,a.Y)(Ce,{children:e}),r&&(0,a.Y)(ve.q,{elementType:"cards",listOverride:[r],showfilter:!1,embed:!0})]}):(0,a.Y)(Te,{children:"No Ego skill published yet."})},je=({defs:e})=>!e||void 0===e.hp&&void 0===e.atk&&void 0===e.def?(0,a.Y)(Te,{children:"Stats are not published for this partner yet."}):(0,a.Y)(we,{children:re.map(({key:t,label:r})=>void 0===e[t]?null:(0,a.FD)(Ye,{children:[(0,a.Y)(ke,{children:r}),(0,a.Y)(De,{children:e[t]})]},t))}),Ue=({defs:e,parentEl:t})=>{const r=Array.isArray(e)?e:[];if(0===r.length)return null;const n=(i=t?.bestForResolved,Array.isArray(i)?i.filter(e=>"object"==typeof e&&null!==e&&"id"in e):[]);var i;return 0===n.length?(0,a.Y)(Ce,{children:r.join(", ")}):(0,a.Y)(ve.q,{elementType:"characters",listOverride:n.map(e=>String(e.id)),showfilter:!1,embed:!0})};(0,c.j3)({extraComponentsToRender:{characters:[{label:"Measured verdict",field:"slug",type:"element",noWrapper:!0,element:e=>(0,a.Y)(Re,{parentEl:e.parentEl})},{label:"Stats",field:"stats",type:"element",showInPopup:!0,element:e=>(0,a.Y)(Pe,{defs:e.defs})},{label:"Starting cards",field:"starting_cards",type:"element",element:e=>(0,a.Y)(Oe,{...e})},{label:"Unique cards",field:"unique_cards",type:"element",element:e=>(0,a.Y)(Oe,{...e})},{label:"Ego skill",field:"ego_skill",type:"element",showInPopup:!0,element:e=>(0,a.Y)(Ge,{defs:e.defs})},{label:"Recommended build",field:"build",type:"element",element:e=>(0,a.Y)(Le,{defs:e.defs})}],cards:[{label:"Effects",field:"effects",type:"element",showInPopup:!0,element:e=>(0,a.Y)(_e,{defs:e.defs})},{label:"Epiphany levels",field:"id",type:"element",element:e=>(0,a.Y)(Ae,{...e})}],partners:[{label:"Stats",field:"stats",type:"element",showInPopup:!0,element:e=>(0,a.Y)(je,{defs:e.defs})},{label:"Passive",field:"passive_desc",type:"element",showInPopup:!0,element:e=>(0,a.Y)(Me,{...e})},{label:"Ego",field:"ego_desc",type:"element",element:e=>(0,a.Y)(Je,{...e})}],fragments:[{label:"Best for",field:"best_for",type:"element",element:e=>(0,a.Y)(Ue,{...e})}]}});const ze=({defs:e})=>{const t=e.cost;return null==t||""===t?null:(0,a.Y)(Ne,{children:(0,a.FD)(Fe,{children:[String(t),e.cost_type?` ${String(e.cost_type)}`:""]})})},Be=({values:e})=>{const t=Array.isArray(e)?e:[];return 0===t.length?null:(0,a.Y)(Ne,{children:t.map(e=>(0,a.Y)(Fe,{children:String(e)},String(e)))})},qe=({defs:e})=>{const t="string"==typeof e.stat_type?e.stat_type:"",r=Array.isArray(e.stats)?e.stats.map(String):[];return""===t&&0===r.length?null:(0,a.FD)(Ne,{children:[""!==t&&(0,a.Y)(Fe,{children:t}),r.length>0&&(0,a.Y)("span",{children:r.join(" / ")})]})};(0,c.j3)({extraFieldsToRender:{characters:[{label:"Japanese VA",field:"va_jp",type:"text"},{label:"Korean VA",field:"va_kr",type:"text"}],cards:[{label:"Cost",field:"cost",type:"element",element:e=>(0,a.Y)(ze,{defs:e.defs})},{label:"Type",field:"type",type:"text"},{label:"Source",field:"source",type:"text"},{label:"Attribute",field:"attribute",type:"text"},{label:"Combatant",field:"character_name",type:"text"},{label:"Tags",field:"tags",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.tags})},{label:"Keywords",field:"keywords",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.keywords})},{label:"Allowed classes",field:"allowed_classes",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.allowed_classes})}],partners:[{label:"Ego skill",field:"ego_name",type:"text"},{label:"EP cost",field:"ego_cost",type:"text"},{label:"Passive",field:"passive_name",type:"text"}],equipment:[{label:"Slot",field:"slot",type:"text"},{label:"Rarity",field:"rarity",type:"text"},{label:"Main stat",field:"stat_type",type:"element",element:e=>(0,a.Y)(qe,{defs:e.defs})},{label:"Effect",field:"effect",type:"text"},{label:"How to get",field:"obtain",type:"text"},{label:"Keywords",field:"keywords",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.keywords})}],fragments:[{label:"Set size",field:"pieces",type:"text"},{label:"Set effect",field:"effect",type:"text"},{label:"How to get",field:"obtain",type:"text"}],items:[{label:"Category",field:"category",type:"text"},{label:"Rarity",field:"rarity",type:"text"},{label:"Usage",field:"usage",type:"text"},{label:"How to get",field:"obtain",type:"text"},{label:"Price",field:"price",type:"text"},{label:"Effect",field:"effect",type:"text"}],keywords:[{label:"Category",field:"category",type:"text"},{label:"Definition",field:"definition",type:"text"},{label:"Also known as",field:"aliases",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.aliases})}],epiphanies:[{label:"Kind",field:"kind",type:"text"},{label:"Group",field:"group_name",type:"text"},{label:"Rarity",field:"rarity",type:"text"},{label:"Effect",field:"description",type:"text"},{label:"Card types",field:"card_types",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.card_types})},{label:"Allowed classes",field:"allowed_classes",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.allowed_classes})},{label:"Tags",field:"tags",type:"element",element:e=>(0,a.Y)(Be,{values:e.defs.tags})}]}}),(0,d.fZ)({core:{gameNameForTitle:"Chaos Zero Nightmare",userProfileTabs:["collection","decks","settings"]}}),(0,c.j3)({gameNameForTitle:"Chaos Zero Nightmare",gachaApiToLoad:["characters","cards","partners","equipment","fragments","items","keywords"],gachaApiReads:{fragments:["characters"]},primaryElementType:"characters",elementTypes:{characters:{displayNameForTitle:"Combatant",displayNameForTitlePlural:"Combatants",backgroundMode:"cover",imageDefaultArt:!0,imageToggleLabels:["Portrait","Splash"],sortBy:"sortindex",sortMethod:"number",popup:{component:({item:e,context:t})=>{const r=null===e.rarity||void 0===e.rarity?"":String(e.rarity),n=(e=>{const t="object"==typeof e&&null!==e?{...e}:{},r=ne(t.l1),a=ne(t.l60),n=[];if("object"==typeof t.nodes&&null!==t.nodes)for(const[e,r]of Object.entries(t.nodes))"string"==typeof r&&n.push([e,r]);return{l1:r,l60:a,nodes:n,empty:0===Object.keys(r).length&&0===Object.keys(a).length}})(e.stats),i=(e=>{if("object"!=typeof e||null===e)return"";const t={...e};return"string"==typeof t.description?t.description:""})(e.ego_skill),l=!0===e.isUnreleased,o=(0,ee.t)(e,t,"combatant");return(0,a.FD)(h.rk,{children:[(0,a.FD)(f,{children:[(0,a.Y)(K,{item:e,elementType:"characters"}),(0,a.FD)(Y,{children:[(0,a.FD)(k,{children:[(0,a.Y)(D,{children:String(e.name)}),""!==r&&(0,a.FD)(h.vw,{children:[r,"★"]}),l&&(0,a.Y)($,{children:"Coming soon"})]}),(0,a.Y)(H,{item:e,elementType:"characters",fields:ae})]}),o&&(0,a.FD)(E,{children:[(0,a.FD)(P,{children:[(0,a.Y)(R,{$bg:o.color,children:o.letter??"—"}),(0,a.FD)("div",{children:[(0,a.Y)(h.fo,{children:"Measured tier"}),(0,a.Y)(h.KT,{children:o.rank?`#${o.rank} · Great Rift usage`:"Great Rift usage"})]})]}),(0,a.Y)(h.s7,{children:o.reason})]})]}),(0,a.Y)(m.I,{title:"Combat",note:"Level 60 · Lv.1 below",empty:"",children:(0,a.Y)(ie,{stats:n})}),(0,a.Y)(m.I,{title:"Ego skill",text:i,empty:"No Ego skill published yet."})]})}},detailV2:{subtitle:["class","faction"],facets:[{field:"class",label:"Class"},{field:"attribute",label:"Attribute"},{field:"faction",label:"Faction"},{field:"rarity",label:"Rarity"}],claims:["id","released","icon","image"],verdict:{label:"Measured tier",byline:"Great Rift usage",measured:!0}}},cards:{displayNameForTitle:"Card",displayNameForTitlePlural:"Cards",backgroundMode:"contain",sortBy:"sortindex",sortMethod:"number",popup:{component:({item:e})=>{const t=null===e.cost||void 0===e.cost?"":String(e.cost),r="string"==typeof e.cost_type?e.cost_type:"",n="string"==typeof e.description?e.description:"",i=(e=>{if(!Array.isArray(e))return[];const t=[];for(const r of e){if("object"!=typeof r||null===r)continue;const e={...r};"string"==typeof e.eff&&t.push({eff:e.eff,count:"number"==typeof e.count?e.count:void 0,value:"number"==typeof e.value?e.value:void 0})}return t})(e.effects),l=Array.isArray(e.tags)?e.tags.map(String):[],o=Array.isArray(e.keywords)?e.keywords.map(String):[],s=Array.isArray(e.allowed_classes)?e.allowed_classes.map(String):[],d="string"==typeof e.character_name?e.character_name:"",c=null===e.rarity||void 0===e.rarity?"":String(e.rarity),u=(()=>{let e=[];return g.fS.cards?.mapState(t=>{e=t??[]}),e})(),y=u.filter(t=>t.base_card===e.id).sort((e,t)=>(Number(e.epiphany_level)||0)-(Number(t.epiphany_level)||0)),b=e.base_card?u.find(t=>t.id===e.base_card):void 0,v="string"==typeof e.variantLabel?e.variantLabel:"",x=null===e.epiphany_level||void 0===e.epiphany_level?"":String(e.epiphany_level);return(0,a.FD)(h.rk,{children:[(0,a.FD)(f,{children:[(0,a.Y)(K,{item:e,elementType:"cards"}),(0,a.FD)(Y,{children:[(0,a.FD)(k,{children:[(0,a.Y)(D,{children:String(e.name)}),""!==t&&(0,a.FD)(h.vw,{children:[t,r?` ${r}`:""]}),""!==c&&(0,a.Y)(h.vw,{children:Q[c]??c})]}),""!==d&&(0,a.Y)(N,{children:d}),(0,a.Y)(H,{item:e,elementType:"cards",fields:X}),(l.length>0||o.length>0)&&(0,a.FD)(h.Lj,{children:[l.map(e=>(0,a.Y)(h.vw,{children:e},`t-${e}`)),o.map(e=>(0,a.Y)(h.vw,{children:e},`k-${e}`))]}),s.length>0&&(0,a.FD)(h.Lj,{children:[(0,a.Y)(h.fo,{children:"Usable by"}),s.map(e=>(0,a.Y)(h.vw,{children:e},`c-${e}`))]})]})]}),(0,a.Y)(m.I,{title:"Card text",note:b?(0,a.FD)(a.FK,{children:["epiphany"===v&&""!==x?`Epiphany ${x} of `:"Variant of ",(0,a.Y)(U,{href:Z(b),"data-native":!0,children:String(b.name)})]}):void 0,text:n,empty:i.length>0?"No English text for this card — its effect values are below.":"This card has not been described yet."}),i.length>0&&(0,a.Y)(m.I,{title:"Effects",empty:"",children:(0,a.FD)(O,{children:[(0,a.Y)(G,{children:"Effect"}),(0,a.Y)(G,{children:"Value"}),(0,a.Y)(G,{children:"Count"}),i.map((e,t)=>(0,a.FD)(p.FK,{children:[(0,a.Y)("div",{children:W(e.eff)}),(0,a.Y)(L,{children:e.value??"—"}),(0,a.Y)(L,{children:e.count??"—"})]},`${e.eff}-${t}`))]})}),y.length>0&&(0,a.Y)(m.I,{title:"Epiphany levels",note:`${y.length} upgrades`,empty:"",children:y.map(e=>(0,a.FD)(M,{children:[(0,a.Y)(J,{children:String(e.epiphany_level??"•")}),(0,a.Y)(j,{children:"string"==typeof e.description&&""!==e.description?e.description:(0,a.Y)(U,{href:Z(e),"data-native":!0,children:String(e.name)})})]},String(e.id)))})]})}}},partners:{displayNameForTitle:"Partner",displayNameForTitlePlural:"Partners",backgroundMode:"cover",imageDefaultArt:!0,imageToggleLabels:["Icon","Ego card"],sortBy:"sortindex",sortMethod:"number",popup:{component:({item:e})=>{const t=null===e.rarity||void 0===e.rarity?"":String(e.rarity),r="string"==typeof e.passive_name?e.passive_name:"",n="string"==typeof e.passive_desc?e.passive_desc:"",i="string"==typeof e.ego_name?e.ego_name:"",l="string"==typeof e.ego_desc?e.ego_desc:"",o=null===e.ego_cost||void 0===e.ego_cost?"":String(e.ego_cost),s="object"==typeof e.stats&&null!==e.stats?{...e.stats}:{},d=re.map(({key:e,label:t})=>({key:e,label:t,value:s[e]})).filter(e=>"number"==typeof e.value);return(0,a.FD)(h.rk,{children:[(0,a.FD)(f,{children:[(0,a.Y)(K,{item:e,elementType:"partners"}),(0,a.FD)(Y,{children:[(0,a.FD)(k,{children:[(0,a.Y)(D,{children:String(e.name)}),""!==t&&(0,a.FD)(h.vw,{children:[t,"★"]})]}),(0,a.Y)(H,{item:e,elementType:"partners",fields:le}),d.length>0&&(0,a.Y)(_,{children:d.map(e=>(0,a.Y)(I,{as:"div",children:(0,a.FD)(T,{children:[(0,a.Y)(h.fo,{children:e.label}),(0,a.Y)(S,{children:String(e.value)}),(0,a.Y)(A,{children:"Level 60"})]})},e.key))})]})]}),(0,a.Y)(m.I,{title:"Passive",note:r,text:n,empty:"No passive published for this partner yet."}),(0,a.Y)(m.I,{title:"Ego",note:`${i}${""!==o?` · ${o} EP`:""}`,text:l,empty:"No Ego skill published yet."})]})}}},equipment:{displayNameForTitle:"Equipment",displayNameForTitlePlural:"Equipment",slugOverride:"equipments",backgroundMode:"contain",compactGrid:!0,sortBy:"sortindex",sortMethod:"number"},fragments:{displayNameForTitle:"Memory Fragment",displayNameForTitlePlural:"Memory Fragments",slugOverride:"memory-fragments",backgroundMode:"contain",compactGrid:!0,sortBy:"sortindex",sortMethod:"number"},items:{displayNameForTitle:"Item",displayNameForTitlePlural:"Items",backgroundMode:"contain",compactGrid:!0,sortBy:"sortindex",sortMethod:"number"},keywords:{displayNameForTitle:"Keyword",displayNameForTitlePlural:"Keywords",displayMode:"table",tableStacksOnMobile:!0,tableColumns:[{label:"Term",field:"name",width:"minmax(140px, 1fr)",sortable:!0},{label:"Category",field:"category",width:"140px",sortable:!0},{label:"Definition",field:"definition",width:"minmax(240px, 3fr)",wrap:!0}]},epiphanies:{displayNameForTitle:"Epiphany",displayNameForTitlePlural:"Epiphanies",displayMode:"table",tableStacksOnMobile:!0,tableColumns:[{label:"Epiphany",field:"name",width:"minmax(240px, 3fr)",wrap:!0},{label:"Kind",field:"kind",width:"100px",sortable:!0},{label:"Group",field:"group_name",width:"150px",sortable:!0},{label:"Rarity",field:"rarity",width:"110px",sortable:!0},{label:"Levels",field:"levels",width:"110px",render:e=>Array.isArray(e.levels)?e.levels.join(", "):""}]},monsters:{displayNameForTitle:"Monster",displayNameForTitlePlural:"Monsters",displayMode:"table",rowLinks:!1,tableColumns:[{label:"Name",field:"name",width:"minmax(110px, 2fr)",sortable:!0},{label:"DEF",field:"def",width:"64px",align:"center",sortable:!0},{label:"Weak",field:"has_weak",width:"70px",align:"center",sortable:!0,render:e=>"1"===String(e.has_weak)?"Yes":"—"}]}},tierlistCategories:{overall:{displayName:"Overall"}},defaultTierCategory:"overall",teamNoun:"Build",itemTiersDrawOptions:{names:["S","A","B","C","D"],colors:["#e5484d","#f5a524","#c4b52a","#4a9c5d","#5b7ca8"]},defaultFormat:"standard",teamBuildingRules:{standard:{displayName:"Standard",cardsInDeck:1,extraFieldsDefs:[{name:"weapon",displayName:"Weapon",type:"element",element:"equipment",staticFilter:"slot=Weapon",count:1},{name:"armor",displayName:"Armor",type:"element",element:"equipment",staticFilter:"slot=Armor",count:1},{name:"trinket",displayName:"Trinket",type:"element",element:"equipment",staticFilter:"slot=Trinket",count:1},{name:"fragments",displayName:"Memory Fragment",type:"element",element:"fragments",count:6}]}},getTeamBuildingRules:e=>{const t=c.yD.teamBuildingRules[e];return{displayName:t?.displayName??"Standard",cardsInDeck:t?.cardsInDeck??1,extraFieldsDefs:t?.extraFieldsDefs??[]}},processApiData:(e,t)=>{const r=function(e,t){return(0,se.z7)(ce,t,`czn:${e}`).map(e=>({...e,tiers:(0,de.U)(e.tiers)}))}(e,t);switch(e){case"characters":r.forEach(e=>{e.title=[e.class,e.faction].filter(Boolean).join(" · "),e.isUnreleased="1"!==String(e.released),e.sortindex=(e.isUnreleased?100:0)+pe(e)});break;case"partners":r.forEach(e=>{e.title=[e.class,e.faction].filter(Boolean).join(" · "),e.sortindex=pe(e),"string"==typeof e.ego_desc&&(e.ego_desc=e.ego_desc.replace(/\s*EP Cost:\s*\n?\s*\d+\s*EP\s*$/i,"").trim())});break;case"cards":r.forEach(e=>{if(e.title=e.character_name||e.type||"",!e.icon&&e.base_card){const t=r.find(t=>t.id===e.base_card);t?.icon&&(e.icon=t.icon)}const t=me[String(e.source)]??9,a=Number(e.epiphany_level)||0;e.sortindex=10*t+a,e.isBaseCard=!e.variant,e.variantLabel="string"==typeof e.variant&&""!==e.variant?e.variant:"base"});break;case"fragments":r.forEach(e=>{e.title=e.pieces?`${String(e.pieces)}-piece set`:"";let t=[];g.fS.characters?.mapState(e=>{t=e??[]});const r=Array.isArray(e.best_for)?e.best_for:[];e.bestForResolved=r.map(e=>t.find(t=>t.name===e)).filter(Boolean),e.sortindex=Number(e.pieces)||0});break;case"equipment":r.forEach(e=>{e.title=[e.slot,e.rarity].filter(Boolean).join(" · "),e.sortindex=pe(e)});break;case"keywords":r.forEach(e=>{e.name="string"==typeof e.term?e.term:"",e.slug=String(e.id),e.title="string"==typeof e.category?e.category:""});break;case"epiphanies":r.forEach(e=>{e.name="string"==typeof e.description?e.description:"",e.slug=String(e.id),e.title=[e.kind,e.rarity].filter(Boolean).join(" · ")});break;default:r.forEach(e=>{e.title||(e.title="string"==typeof e.category?e.category:"")})}return r}});var Ke=r(87250),Ve=r(80269),He=r(53828),We=r(30174),Xe=r(48724),Qe=r(93317),Ze=r(74806),et=r(20227),tt=r(72170),rt=r(7792),at=r(44501);const nt=e=>(0,a.Y)(Ve.a,{types:["epiphanies"],children:(0,a.Y)(Xe.Y,{elementType:"epiphanies"})}),it=({elementId:e})=>(0,a.Y)(Ve.a,{types:["epiphanies"],fallback:(0,a.Y)(We.l,{}),children:(0,a.Y)(Ze.I,{elementType:"epiphanies",elementId:e})}),lt=e=>(0,a.Y)(Ve.a,{types:["monsters"],children:(0,a.Y)(Xe.Y,{elementType:"monsters"})}),ot=({elementId:e})=>(0,a.Y)(Ve.a,{types:["monsters"],fallback:(0,a.Y)(We.l,{}),children:(0,a.Y)(Ze.I,{elementType:"monsters",elementId:e})});class st extends p.Ay.Component{render(){return(0,a.FD)(Ke.r,{children:[(0,a.Y)(Xe.Y,{path:"/characters/",elementType:"characters"}),(0,a.Y)(Ze.I,{path:"/characters/:elementId",elementType:"characters"}),(0,a.Y)(Xe.Y,{path:"/cards/",elementType:"cards"}),(0,a.Y)(Ze.I,{path:"/cards/:elementId",elementType:"cards"}),(0,a.Y)(Xe.Y,{path:"/partners/",elementType:"partners"}),(0,a.Y)(Ze.I,{path:"/partners/:elementId",elementType:"partners"}),(0,a.Y)(Xe.Y,{path:"/equipments/",elementType:"equipment"}),(0,a.Y)(Ze.I,{path:"/equipments/:elementId",elementType:"equipment"}),(0,a.Y)(Xe.Y,{path:"/memory-fragments/",elementType:"fragments"}),(0,a.Y)(Ze.I,{path:"/memory-fragments/:elementId",elementType:"fragments"}),(0,a.Y)(Xe.Y,{path:"/items/",elementType:"items"}),(0,a.Y)(Ze.I,{path:"/items/:elementId",elementType:"items"}),(0,a.Y)(Xe.Y,{path:"/keywords/",elementType:"keywords"}),(0,a.Y)(Ze.I,{path:"/keywords/:elementId",elementType:"keywords"}),(0,a.Y)(nt,{path:"/epiphanies/"}),(0,a.Y)(it,{path:"/epiphanies/:elementId"}),(0,a.Y)(lt,{path:"/monsters/"}),(0,a.Y)(ot,{path:"/monsters/:elementId"}),(0,a.Y)(He.F,{path:"/tier-list",facetNames:["attribute","class","rarity","faction"],unit:"combatant",units:"combatants",pendingText:"No grades yet: they publish once the Great Rift's top-ranked players are counted. Check back tomorrow."}),(0,a.Y)(Qe.e,{path:"/collection"}),(0,a.Y)(tt.n,{path:"/builder"}),(0,a.Y)(tt.n,{path:"/builder/:deckName"}),(0,a.Y)(rt.f,{path:"/teams"}),(0,a.Y)(et.w,{path:"/teams/:teamSlug"}),(0,a.Y)(at.p,{path:"/u"}),(0,a.Y)(at.p,{path:"/u/:userID/"}),(0,a.Y)(at.p,{path:"/u/:userID/:tab"}),(0,a.Y)(Xe.Y,{path:"/",elementType:"characters"})]})}}(0,n.tB)({gameKey:"czn",router:(0,a.Y)(st,{}),load:i.D,embeddings:["Grid","Item","Homecharacters","Tierlist"],alwaysMount:["Homecharacters","Tierlist"],renderEmbed:function(e){return"Tierlist"===e.embedding?(0,a.Y)(s.TierListGacha,{elementType:(0,o.r)(e.embedData)??"characters"}):(0,l.w)(e)}})},222(e,t,r){r.d(t,{Ax:()=>i,Bf:()=>l,Cx:()=>c,ZC:()=>s,f7:()=>o,nI:()=>d,r4:()=>p});var a=r(64833),n=r(55612);async function i(){const e="Could not sign you out. Check your connection and try again.";let t;try{t=(await async function(){return n.A.get("/do.php?cmd=logout",void 0,{retry:!1,url:"https://api.dotgg.gg/do.php?cmd=logout"})}())?.logout_token}catch{throw new Error(e)}if(!t)throw new Error(e);(0,a.Vd)(),window.location.href=`${window.location.origin}/?dotgg_logout=${encodeURIComponent(t)}`}async function l(e,t){return await n.A.post("/do.php?cmd=checknickunique",{nick:e,check:t})}async function o(e,t,r){return await n.A.post("/do.php?cmd="+(r?"edituser":"register"),{...e,recaptcha:t})}async function s(e,t,r){return await n.A.post("/do.php?cmd=site_login",{login:e,password:t,recaptcha:r})}async function d(e,t){const r=await n.A.post("/do.php?cmd=passgetkey",{login:e,recaptcha:t});return"object"==typeof r&&null!==r&&1===+(r.result??0)}async function c(e,t,r,a){return await n.A.post("/do.php?cmd=passreset",{password:e,uid:t,key:r,recaptcha:a})}async function p(e){const t=e?`&returl=${encodeURIComponent(e)}`:"";return await n.A.get(`/do.php?cmd=login_buttons${t}`)}r(21331)},48981(e,t,r){r.d(t,["L",0,"6LfJ590qAAAAAMcA3rZ4kcgwxlkiJHddg5Ly0yKY"])},21331(e,t,r){r.d(t,{T:()=>W});var a=r(15073),n=r(58468),i=r(70994);const l={login:{path:"/login/",title:"Login"},register:{path:"/register/",title:"Register"},reset:{path:"/reset/",title:"Password Reset"}};function o(){document.getElementById("ContentBeforeProContent")?.setAttribute("hidden","")}var s=r(15519),d=r(70213),c=r(63346),p=r(90023),m=r(41022),h=r(53794),g=r(222),u=r(48981),y=r(63679),f=r(28297),b=r(30821);const v=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 440px;
+  margin: 8px auto 32px;
+  @media only screen and ${f.E0} {
+    gap: 14px;
+    margin: 0 auto 24px;
+  }
+`,x=y.Ay.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--theme-palette-color-4);
+`,w=y.Ay.span`
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: var(--theme-palette-color-7);
+  box-shadow: inset 0 0 0 1px var(--theme-palette-color-5);
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--theme-palette-color-3);
+`,Y=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid var(--theme-palette-color-5);
+  border-radius: 8px;
+  background: var(--theme-palette-color-8);
+  @media only screen and ${f.E0} {
+    gap: 14px;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+`,k=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+`,D=y.Ay.h2`
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--theme-palette-color-4);
+  @media only screen and ${f.E0} {
+    display: none;
+  }
+`,N=(0,y.Ay)(D)`
+  @media only screen and ${f.E0} {
+    display: block;
+  }
+`,F=y.Ay.p`
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--theme-palette-color-3);
+  text-wrap: pretty;
+  @media only screen and ${f.E0} {
+    font-size: 14px;
+  }
+`,I=y.Ay.form`
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+`,C=y.Ay.p`
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  text-align: center;
+  color: ${b.Q.muted};
+  a {
+    color: var(--theme-palette-color-3);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+`,T=y.Ay.div`
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+`,S=y.Ay.div`
+  font-size: 13px;
+  line-height: 1.45;
+  color: ${b.Q.danger};
+`,_=(0,y.Ay)(c.jn)`
+  height: 48px;
+  font-size: 15px;
+  @media only screen and ${f.E0} {
+    height: 52px;
+    font-size: 16px;
+  }
+`;var A=r(97205),E=r(9019),P=r(29854);const R=({value:e,onUsernameChange:t,message:r,onPage:n})=>(0,a.Y)(P.A,{id:"reset-login",name:"login",label:"Email or username",autoComplete:"username",value:e,onValue:t,message:r,autoFocus:!0,onPage:n}),$=({loginButtons:e,mode:t,errors:r})=>{const[i,l]=(0,m.lm)(),o="register"===t?"Sign up with":"Continue with",s=t=>{const s=e[t];if(!s)return null;const d=r?.[t];return(0,a.FD)(n.Ay.Fragment,{children:[(0,a.Y)(m.SS,{provider:t,href:s,label:`${o} ${m.s_[t]}`,opening:i===t,onOpen:()=>l(t)}),d&&(0,a.Y)(m.mZ,{role:"alert",children:d})]},t)};return e.discord||e.google?(0,a.FD)(O,{children:[s("discord"),s("google")]}):null},O=y.Ay.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`;var G=r(28709);const L=e=>(0,a.FD)(I,{noValidate:!0,onSubmit:t=>{t.preventDefault(),e.onSubmit()},children:[!e.recovery&&(0,a.FD)(c.QW,{type:"button",onClick:e.onBack,children:[(0,a.Y)(d.gu,{size:16}),"Back"]}),(0,a.FD)(k,{children:[(0,a.Y)(N,{children:e.recovery?"Recovery code":"Enter your code"}),(0,a.Y)(F,{children:e.recovery?"Enter one of the codes you saved when you turned on two-factor. Each works once.":"Open your authenticator app and type the 6-digit code for DotGG. It submits when all six are in."})]}),(0,a.Y)(P.A,{id:"twofa-code",ariaLabel:e.recovery?"Recovery code":"Authenticator code",variant:e.recovery?"recovery":"code",inputMode:e.recovery?"text":"numeric",autoComplete:"one-time-code",autoCapitalize:"characters",spellCheck:!1,maxLength:e.recovery?16:6,placeholder:e.recovery?"XXXX-XXXX":"••••••",value:e.code,onValue:e.onCodeChange,autoFocus:!0,disabled:e.done,message:e.error?{tone:"error",text:e.error}:null,onPage:e.onPage},e.recovery?"recovery":"code"),!e.recovery&&(0,a.FD)(G.T,{id:"twofa-trust",checked:e.trust,onChange:e.onTrustChange,note:"Your password is still required every time. Only on a device that's yours; undo it in Settings ▸ Account & security.",children:["Trust this browser for ",e.trustedDays," days"]}),(0,a.FD)(_,{type:"submit",disabled:e.busy||e.done,"aria-busy":e.busy||e.done||void 0,children:[(e.busy||e.done)&&(0,a.Y)(c.az,{"aria-hidden":"true"}),e.done?"Signed in. Taking you back…":e.busy?"Verifying…":"Verify"]}),(0,a.Y)(c.QW,{type:"button",$center:!0,onClick:e.onToggleRecovery,children:e.recovery?"Use the authenticator code instead":"Lost your device? Use a recovery code"})]});var M=r(64833),J=r(75213),j=r(53887);const U=e=>({tone:"error",text:e});var z=r(44260);const B={unverified:"Your Discord account has no verified email. Verify it on Discord, or register with email.",cancelled:"Discord sign-in was cancelled.",expired:"That Discord sign-in expired. Please try again.",unavailable:"Discord sign-in is not available right now.",failed:"Discord sign-in failed. Please try again."},q={unverified:"Google hasn't verified this account's email, so it can't sign you in. Verify it with Google, or use email."};function K(){const e=new URLSearchParams(window.location.search),t=e.get("discord_error"),r=e.get("google_error");return{...t?{discord:B[t]??"Discord sign-in failed. Please try again."}:{},...r?{google:q[r]??"Google sign-in failed. Please try again."}:{}}}const V={login:{idle:"Sign in",busy:"Signing in…",done:"Signed in. Taking you back…"},register:{idle:"Create account",busy:"Creating account…",done:"Account created. Signing you in…"},reset:{idle:"Send reset link",busy:"Sending…",done:"Sent"}},H=({formType:e,comeback:t,comebackto:r,onSuccess:i})=>{const o=(0,h.WS)(),[y,f]=(0,n.J0)(e),[b,P]=(0,n.J0)({}),[O]=(0,n.J0)(K),[G,B]=(0,n.J0)(""),q=(H=t?r:null,(0,n.Kr)(()=>{if(!H)return null;try{const e=new URL(H).hostname.replace(/^www\./,"").toLowerCase(),t=e.split(".");if("dotgg.gg"===e||t.length<2)return null;const r=t[t.length-2]??"",a=t[t.length-1]??"";return{host:e,initials:`${r.charAt(0)}${a.charAt(0)}`.toUpperCase()}}catch{return null}},[H]));var H;const W=t&&r?r:"https://dotgg.gg/",X=r?`?returl=${encodeURIComponent(r)}`:"";(0,n.vJ)(()=>{(0,g.r4)(t&&r?r:void 0).then(P).catch(console.error)},[t,r]);const Q=function({active:e,redirectUrl:t,onExpired:r,onSuccess:a}){const[i,l]=(0,n.J0)(null),[o,s]=(0,n.J0)(""),[d,c]=(0,n.J0)(!1),[p,m]=(0,n.J0)(!1),[h,g]=(0,n.J0)(30),[u,y]=(0,n.J0)(!1),[f,b]=(0,n.J0)(!1),[v,x]=(0,n.J0)(""),w=(0,n.li)("");(0,n.vJ)(()=>{if(!e)return;const t=new URLSearchParams(window.location.search),r=t.get("twofa");r&&l(r);const a=Number(t.get("twofa_days"));a>0&&g(a)},[e]);const Y=(0,n.hb)(e=>{s(e),x("")},[]),k=(0,n.hb)((e,t)=>{l(e),s(""),x(""),c(!1),t&&t>0&&g(t)},[]),D=(0,n.hb)(()=>{l(null),s(""),x(""),c(!1)},[]),N=(0,n.hb)(()=>{c(e=>!e),s(""),x("")},[]),F=(0,n.hb)(()=>{if(!i||u||f)return;const e=o.trim();d||/^\d{6}$/.test(e)?d&&e.replace(/[^a-z0-9]/gi,"").length<8?x("Enter a recovery code: 8 letters and numbers, like 7F3K-Q2MD."):(y(!0),x(""),(0,z.go)(i,e,p).then(e=>{const n=e?.result;return n&&"object"==typeof n&&+n.DotGGUser>0?((0,M.MC)(n.DotGGUser,n.DotGGUserToken),b(!0),window.location.href=`https://api.dotgg.gg/auth.php?returl=${encodeURIComponent(t)}`,void a?.()):(y(!1),"expired"===e?.error?(D(),void r("That sign-in expired. Sign in again.")):void x(function(e,t){if("locked"===e?.error){const t=Math.max(1,Math.ceil((e.retry_in??900)/60));return`Too many incorrect codes. Try again in ${t} minute${1===t?"":"s"}.`}return"code_reused"===e?.error?"You already used that code. Wait for your app to show the next one.":t?"That code didn't match. Check for typos. Each code works only once.":"That code didn't work. Use the newest code your authenticator app shows for DotGG."}(e,d)))}).catch(e=>{console.error(e),y(!1),x("Couldn't reach the server. Check your connection and try again.")})):x("Enter the 6-digit code from your authenticator app.")},[i,o,p,d,u,f,t,a,r,D]);return(0,n.vJ)(()=>{const e=o.trim();i&&!d&&/^\d{6}$/.test(e)&&w.current!==e&&(w.current=e,F())},[i,d,o,F]),{challenge:i,beginChallenge:k,cancel:D,code:o,setCode:Y,recovery:d,toggleRecovery:N,trust:p,setTrust:m,trustedDays:h,busy:u,done:f,error:v,submit:F}}({active:"login"===y,redirectUrl:W,onExpired:B,onSuccess:i}),Z=e=>{e!==y&&(ee.clear(),B(""),"login"!==e||ee.login||ee.setLogin(ee.reg.email),"register"===e&&!ee.reg.email&&ee.login.includes("@")&&ee.setReg({...ee.reg,email:ee.login}),f(e),function(e){const t=l[e];window.history.replaceState(window.history.state,"",`${t.path}${window.location.search}`);const r=document.querySelector("h1.page-title");r&&(r.textContent=t.title);const a=document.querySelector(".ct-breadcrumbs .last-item [itemprop='name']");a&&(a.textContent=t.title),document.title=document.title.replace(/^[^|]*\|/,`${t.title} |`)}(e))},ee=function({mode:e,redirectUrl:t,beginChallenge:r,emailTakenNote:a,onSuccess:i}){const l=(0,n.li)(null),[o,s]=(0,n.J0)(""),[d,c]=(0,n.J0)(""),[p,m]=(0,n.J0)({email:"",password:"",nick:"",acceptedTerms:!1}),[h,u]=(0,n.J0)(""),[y,f]=(0,n.J0)(!1),[b,v]=(0,n.J0)(!1),[x,w]=(0,n.J0)(""),[Y,k]=(0,n.J0)(null),[D,N]=(0,n.J0)(null),[F,I]=(0,n.J0)({}),[C,T]=(0,n.J0)(null),S=(0,n.hb)(()=>{w(""),k(null),N(null),I({}),T(null)},[]),_=(0,n.hb)(e=>{f(!1),w(e)},[]),A=(0,n.hb)((e,r)=>{(0,M.MC)(e,r),v(!0),window.location.href=(e=>`https://api.dotgg.gg/auth.php?returl=${encodeURIComponent(e)}`)(t),i?.()},[t,i]),E=()=>{f(!0),l.current?.reset(),l.current?.execute()};return{recaptcha:l,login:o,setLogin:s,password:d,setPassword:c,reg:p,setReg:m,resetLogin:h,setResetLogin:u,busy:y,done:b,formError:x,setFormError:w,loginMsg:Y,passwordMsg:D,regMsgs:F,resetMsg:C,clear:S,submit:()=>{if(y||b)return;if(S(),"login"===e)return void(o.trim()?d?E():N(U("Enter your password.")):k(U("Enter your email or username.")));if("reset"===e)return void(h.trim()?E():T(U("Enter your email or username.")));const t={},r=(0,j.Xe)(p.nick);(0,J.as)(p.email)||(t.email=U("Enter a valid email address."));const n=""===r?"Pick a nickname.":(0,j.qK)(r);n&&(t.nick=U(n)),p.password.length<6&&(t.password=U("Use at least 6 characters.")),p.acceptedTerms||(t.terms=U("Please accept the terms of service before continuing.")),Object.keys(t).length?I(t):(f(!0),(0,g.Bf)(p.email.trim(),"email").then(e=>0!==+e.result?(f(!1),void I({email:U(a())})):(0,g.Bf)(r,"nick").then(e=>{0!==+e.result&&I({nick:{tone:"warning",text:"That nickname is taken. You can keep it, and a .NUMBER suffix will be added."}}),E()})).catch(E))},onCaptcha:t=>{t&&("login"===e?(0,g.ZC)(o.trim(),d,t).then(e=>{const t=e?.result;t&&"object"==typeof t&&"requires_2fa"in t?(f(!1),r(t.challenge,t.trusted_days)):t&&"object"==typeof t&&+t.DotGGUser>0?A(t.DotGGUser,t.DotGGUserToken):!1===e?.captcha?(f(!1),N(U("We couldn't verify you're not a robot. Please try again."))):(f(!1),N(U("Wrong email or password. Please try again.")))}).catch(()=>_("Sign-in failed: couldn't reach the server. Please try again.")):"register"===e?(0,g.f7)({...p,email:p.email.trim(),nick:(0,j.Xe)(p.nick)},t).then(e=>{if(e&&+e.result?.DotGGUser>0)return A(e.result.DotGGUser,e.result.DotGGUserToken);const t=function(e){const t={};let r="";for(const[a,n]of Object.entries(e??{})){const e=String(n?.[0]??"").replace(/<[^>]*>/g,"");e&&(/email/i.test(a)?t.email=U(e):/login|user|nick/i.test(a)?t.nick=U(e):r=e)}return t.email||t.nick||r||(r="Registration failed: this email may already be in use. Try signing in or resetting your password."),{fields:t,form:r}}(e?.message);I(e=>({...e,...t.fields})),_(t.form)}).catch(()=>_("Registration failed: couldn't reach the server. Please try again.")):(0,g.nI)(h.trim(),t).then(e=>{f(!1),T(e?{tone:"success",text:"Check your email for the reset link."}:U("We couldn't send the link. Check the email or username, or sign in with Google or Discord if you signed up that way."))}).catch(()=>_("Password reset failed: couldn't reach the server. Please try again.")))},onCaptchaError:()=>{y&&_("reCAPTCHA couldn't check this browser. Please try again.")}}}({mode:y,redirectUrl:W,beginChallenge:Q.beginChallenge,onSuccess:i,emailTakenNote:()=>(0,a.FD)(a.FK,{children:["This email is already registered."," ",(0,a.Y)("button",{type:"button",onClick:()=>Z("login"),children:"Sign in"})," ","or"," ",(0,a.Y)("a",{href:`/reset/${X}`,"data-native":!0,children:"reset the password"}),"."]})}),te=V[y],re=(0,a.FD)(_,{type:"submit",disabled:ee.busy||ee.done,"aria-busy":ee.busy||ee.done||void 0,children:[(ee.busy||ee.done)&&(0,a.Y)(c.az,{"aria-hidden":"true"}),ee.done?te.done:ee.busy?te.busy:te.idle]}),ae=e=>{e.preventDefault(),ee.submit()},ne=ee.formError||("login"===y?G:""),ie=Boolean(b.discord||b.google),le=`One account for ${q?`${q.host} and 30+ other`:"30+"} game sites. Your collection, decks and trades follow you to all of them.`,oe="login"===y&&null!==Q.challenge,se=oe?(0,a.Y)(L,{code:Q.code,recovery:Q.recovery,trust:Q.trust,trustedDays:Q.trustedDays,busy:Q.busy,done:Q.done,error:Q.error,onCodeChange:Q.setCode,onTrustChange:Q.setTrust,onToggleRecovery:Q.toggleRecovery,onBack:Q.cancel,onSubmit:Q.submit,onPage:o}):"reset"===y?(0,a.FD)(I,{noValidate:!0,onSubmit:ae,children:[(0,a.FD)(c.QW,{type:"button",onClick:()=>Z("login"),children:[(0,a.Y)(d.gu,{size:16}),"Back to sign in"]}),(0,a.FD)(k,{children:[(0,a.Y)(N,{children:"Reset your password"}),(0,a.Y)(F,{children:"Enter your email or username and we'll email you a link to set a new one."})]}),(0,a.Y)(R,{value:ee.resetLogin,onUsernameChange:ee.setResetLogin,message:ee.resetMsg,onPage:o}),ne&&(0,a.Y)(S,{role:"alert",children:ne}),re]}):(0,a.FD)(a.FK,{children:[(0,a.Y)(p.$,{ariaLabel:"Sign in or create an account",fill:!0,raised:!o,value:y,onChange:Z,options:[{value:"login",label:"Sign in"},{value:"register",label:"Create account"}]}),(0,a.FD)(k,{children:[(0,a.Y)(D,{children:"register"===y?"Create your DotGG account":"Sign in to DotGG"}),!(o&&"register"===y)&&(0,a.Y)(F,{children:le})]}),(0,a.Y)($,{loginButtons:b,mode:"register"===y?"register":"signin",errors:O}),ie&&(0,a.Y)(m.JE,{children:"or with email"}),(0,a.FD)(I,{noValidate:!0,onSubmit:ae,children:["login"===y?(0,a.Y)(A.Q,{login:ee.login,password:ee.password,onLoginChange:ee.setLogin,onPasswordChange:ee.setPassword,resetHref:`/reset/${X}`,loginMessage:ee.loginMsg,passwordMessage:ee.passwordMsg,onPage:o}):(0,a.Y)(E.s,{formData:ee.reg,onFormChange:ee.setReg,messages:ee.regMsgs,onPage:o}),ne&&(0,a.Y)(S,{role:"alert",children:ne}),re]})]});return(0,a.FD)(v,{children:[q&&(0,a.FD)(x,{children:[(0,a.Y)(w,{"aria-hidden":"true",children:q.initials}),"Continue to ",q.host]}),(0,a.FD)(Y,{children:[se,!oe&&(0,a.FD)(C,{children:["Protected by reCAPTCHA · Google"," ",(0,a.Y)("a",{href:"https://policies.google.com/privacy",target:"_blank",rel:"noopener noreferrer",children:"Privacy"})," ","and"," ",(0,a.Y)("a",{href:"https://policies.google.com/terms",target:"_blank",rel:"noopener noreferrer",children:"Terms"})," ","apply."]}),(0,a.Y)(T,{children:(0,a.Y)(s.A,{ref:ee.recaptcha,sitekey:u.L,size:"invisible",badge:"inline",onChange:ee.onCaptcha,onErrored:ee.onCaptchaError,onExpired:ee.onCaptchaError})})]})]})};function W(){const e=(0,i.zy)(),t=new URLSearchParams(e.search.replace("?","")).get("returl")??"";return(0,n.vJ)(o,[]),(0,a.Y)(H,{formType:(r=e.pathname,r.includes("register")?"register":r.includes("login")?"login":"reset"),comeback:e.search.includes("returl"),comebackto:t});var r}},64083(e,t,r){var a=r(15073),n=r(58468),i=r(63679);const l={error:"rgb(222, 71, 44)",info:"rgb(87, 138, 245)",success:"rgb(61, 168, 110)"},o=i.Ay.div`
+  color: ${({$kind:e})=>l[e]};
+  border-left: solid 5px ${({$kind:e})=>l[e]};
+  padding: 10px;
+  margin-top: 7px;
+`;r.d(t,["C",0,({message:e,className:t})=>{const r=(0,n.li)(null);return(0,n.vJ)(()=>{e&&r.current?.scrollIntoView({block:"center",behavior:"smooth"})},[e]),e?(0,a.Y)(o,{ref:r,className:t,role:"error"===e.kind?"alert":"status",$kind:e.kind,children:e.text}):null}])},97205(e,t,r){var a=r(15073),n=(r(58468),r(63679)),i=r(65057),l=r(29854),o=r(28297);const s=n.Ay.span`
+  @media only screen and ${o.E0} {
+    display: none;
+  }
+`,d=n.Ay.span`
+  display: none;
+  @media only screen and ${o.E0} {
+    display: inline;
+  }
+`;r.d(t,["Q",0,({login:e,password:t,onLoginChange:r,onPasswordChange:n,onEnterKey:o,resetHref:c,loginMessage:p,passwordMessage:m,onPage:h,loginLabel:g="Email or username"})=>{const u=e=>{o&&"Enter"===e.key&&o()};return(0,a.FD)(a.FK,{children:[(0,a.Y)(l.A,{id:"login-email",name:"login",label:g,autoComplete:"username",value:e,onValue:r,onKeyDown:u,message:p,onPage:h}),(0,a.Y)(l.s,{id:"login-password",name:"password",label:"Password",labelEnd:c&&(0,a.FD)(i.rm,{href:c,"data-native":!0,children:[(0,a.Y)(s,{children:"Forgot password?"}),(0,a.Y)(d,{children:"Forgot?"})]}),autoComplete:"current-password",value:t,onValue:n,onKeyDown:u,message:m,onPage:h})]})}])},9019(e,t,r){var a=r(15073),n=(r(58468),r(28709)),i=r(65057),l=r(29854);r(53887),r.d(t,["s",0,({formData:e,onFormChange:t,messages:r={},onPage:o})=>{const s=(r,a)=>t({...e,[r]:a});return(0,a.FD)(a.FK,{children:[(0,a.Y)(l.A,{id:"reg-email",name:"email",label:"Email",type:"email",inputMode:"email",autoComplete:"email",value:e.email,onValue:e=>s("email",e),message:r.email,onPage:o}),(0,a.Y)(l.A,{id:"reg-nick",name:"nick",label:"Nickname",autoComplete:"nickname",maxLength:32,value:e.nick,onValue:e=>s("nick",e),message:r.nick,onPage:o}),(0,a.Y)(l.s,{id:"reg-password",name:"password",label:"Password",autoComplete:"new-password",value:e.password,onValue:e=>s("password",e),message:r.password,onPage:o}),(0,a.FD)("div",{children:[(0,a.Y)(n.T,{id:"reg-terms",checked:e.acceptedTerms,onChange:e=>s("acceptedTerms",e),children:(0,a.FD)("span",{children:["I accept the"," ",(0,a.Y)("a",{href:"https://dotgg.gg/terms/",target:"_blank",rel:"noopener noreferrer",children:"Terms and Conditions"})," ","and"," ",(0,a.Y)("a",{href:"https://dotgg.gg/privacy/",target:"_blank",rel:"noopener noreferrer",children:"Privacy Policy"})]})}),r.terms&&(0,a.Y)(i.XE,{$tone:r.terms.tone,role:"alert",children:r.terms.text})]})]})}])},12434(e,t,r){const a="undefined"!=typeof window?window.DOTGG_GAME:void 0,n={apiUrl:a?.apiUrl??"",TheGame:a?.TheGame??"",BASE_URL:a?.BASE_URL??"",BASE_FOLDER:a?.BASE_FOLDER??"/",apiOrigin:a?.apiOrigin??"https://api.dotgg.gg",CardsDirName:a?.CardsDirName??"card",BlogID:a?.BlogID??"",mode:a?.mode??"prod",version:"0.4.875"};r.d(t,["Ay",0,n,"ff",0,1792501412,"jt",0,"85cbf580cbb0"])}},e=>{e.O(0,[2076,4121],()=>e(2577)),e.O()}]);

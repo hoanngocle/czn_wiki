@@ -1,8 +1,8 @@
 import type { CharacterTranslation } from "../../data/wiki/translations";
-import { label } from "./labels";
+import { preserveGameTermNames } from "./labels";
 
 type Definition = CharacterTranslation["terms"][number];
-export type GlossaryTerm = Definition & { aliases: string[]; definitions: Definition[] };
+export type GlossaryTerm = Definition & { aliases: string[]; definitions: Definition[]; searchText: string };
 
 const strip = (text: string) => text.replace(/<[^>]*>/g, "").toLocaleLowerCase().replace(/[\s.,:;]+/g, " ").trim();
 const numbers = (text: string) => text.replace(/<[^>]*>/g, "").match(/-?\d+(?:\.\d+)?/g)?.join("|") ?? "";
@@ -21,6 +21,7 @@ export function collectGlossary(translations: Record<string, CharacterTranslatio
     const key = title.toLocaleLowerCase();
     const group = groups.get(key) ?? { title, aliases: new Set<string>(), entries: [] };
     group.aliases.add(originalTitle);
+    group.aliases.add(term.title.replace(/:\s*$/, "").trim());
     group.entries.push(term);
     groups.set(key, group);
   }
@@ -37,12 +38,13 @@ export function collectGlossary(translations: Record<string, CharacterTranslatio
         // Older overlays have no English description; match their original ID and parameters.
         return numbers(existing.desc) === numbers(term.desc);
       });
-      if (index === -1) definitions.push(term);
-      else if (equivalents[term.id]) definitions[index] = term;
+      const definition = { ...term, title: group.title, desc: preserveGameTermNames(term.desc) };
+      if (index === -1) definitions.push(definition);
+      else if (equivalents[term.id]) definitions[index] = definition;
     }
     const primary = definitions[0];
-    const translatedTitle = label(group.title, true);
-    return { ...primary, title: translatedTitle !== group.title ? translatedTitle : primary.title.replace(/:\s*$/, "").trim(),
-      englishTitle: group.title, aliases: [...group.aliases], definitions };
+    return { ...primary, title: group.title,
+      englishTitle: group.title, aliases: [...group.aliases], definitions,
+      searchText: group.entries.map(term => term.desc).join(" ") };
   }).sort((a, b) => (a.englishTitle ?? a.title).localeCompare(b.englishTitle ?? b.title, "en", { numeric: true }));
 }

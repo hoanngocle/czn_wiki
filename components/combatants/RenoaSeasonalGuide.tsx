@@ -1,9 +1,10 @@
 "use client";
+import { preserveGameTermNames } from "../../lib/wiki/labels";
 import { VerticalTabs } from "./GuideTabs";
 import styles from "./RenoaBuildGuide.module.css";
 type Props = { vietnamese: boolean };
 export function RenoaSeasonalGuide({ vietnamese }: Props) {
-  const t = (en: string, vi: string) => vietnamese ? vi : en;
+  const t = (en: string, vi: string) => vietnamese ? preserveGameTermNames(vi) : en;
   return <VerticalTabs vietnamese={vietnamese} labels={[4, 3, 2, 1].map(n => `${t("Season", "Mùa")} ${n}`)} best={1} label={t("Seasonal powers", "Sức mạnh theo mùa")}>
     {[
       <div className={styles.prose} key="desire"><p><em>{t("Introduces Desire Cards. Desire Cards primarily give a strong passive buff by meeting Desire Thresholds (3/5/7), which requires multiple allies to also use decks made in Season 4.", "Giới thiệu Bài Khát vọng: những lá bài cung cấp hiệu ứng nội tại mạnh khi đạt các ngưỡng Khát vọng (3/5/7). Để đạt các ngưỡng này, nhiều đồng đội cũng cần dùng bộ bài được tạo trong Mùa 4.")}</em></p>

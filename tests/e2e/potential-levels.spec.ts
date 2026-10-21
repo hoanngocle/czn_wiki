@@ -14,11 +14,11 @@ test("inline Potential sliders update each node independently and retain levels 
   await expect(basic).toContainText("Tăng 20% sát thương");
   await slider.focus();
   await slider.press("End");
-  await expect(chance).toContainText("Tăng 10% Tỷ lệ chí mạng.");
-  await expect(damage).toContainText("Tăng 12% Sát thương chí mạng.");
+  await expect(chance).toContainText("Tăng 10% Critical Chance.");
+  await expect(damage).toContainText("Tăng 12% CRIT DMG.");
   await damage.getByRole("slider").focus();
   await damage.getByRole("slider").press("ArrowLeft");
-  await expect(damage).toContainText("Tăng 9.6% Sát thương chí mạng.");
+  await expect(damage).toContainText("Tăng 9.6% CRIT DMG.");
   await basic.getByRole("slider").focus();
   await basic.getByRole("slider").press("End");
   await expect(basic).toContainText("Tăng 32% sát thương");
@@ -34,6 +34,6 @@ test("inline Potential sliders update each node independently and retain levels 
   await slider.scrollIntoViewIfNeeded();
   const bounds = (await slider.boundingBox())!;
   await page.mouse.click(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
-  await expect(chance).toContainText("Tăng 6% Tỷ lệ chí mạng.");
+  await expect(chance).toContainText("Tăng 6% Critical Chance.");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });

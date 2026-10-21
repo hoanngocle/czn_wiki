@@ -37,6 +37,7 @@ import g1017 from "./1017.json";
 import g1028 from "./1028.json";
 import g1055 from "./1055.json";
 import g30047 from "./30047.json";
+import grossweisse from "./rossweisse.json";
 import { renoaEpiphanyReviews } from "./renoa-epiphany";
 import type { CharacterGuide } from "../../../lib/wiki/character-guide";
 export const characterGuides: Record<string, CharacterGuide> = {
@@ -78,4 +79,5 @@ export const characterGuides: Record<string, CharacterGuide> = {
   "1028": g1028 as CharacterGuide,
   "1055": g1055 as CharacterGuide,
   "30047": g30047 as CharacterGuide,
+  "rossweisse": grossweisse as CharacterGuide,
 };

@@ -17,7 +17,7 @@ export function GameCard({ card, animationEnabled, vietnameseEnabled = false, on
   const tooltip = useCardTooltip();
   const rarity = card.rarity.replace("RARITY_", "").toLowerCase();
   const category = card.category.replace("CARD_", "").toLowerCase();
-  const categoryLabels: Record<string, string> = { atk: "Attack", skill: "Skill", power: "Upgrade", collapse: vietnameseEnabled ? "Suy sụp" : "Collapse" };
+  const categoryLabels: Record<string, string> = { atk: "Attack", skill: "Skill", power: "Upgrade", collapse: "Collapse" };
   const categoryLabel = label(categoryLabels[category] ?? category, vietnameseEnabled);
   return <><span ref={surfaceRef} className={styles.cardSurface}
     onPointerEnter={event => { if (event.pointerType !== "touch") tooltip.show(); }}
