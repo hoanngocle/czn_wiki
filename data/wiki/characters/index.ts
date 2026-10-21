@@ -37,6 +37,7 @@ import c1017 from "./1017.json";
 import c1028 from "./1028.json";
 import c1055 from "./1055.json";
 import c30047 from "./30047.json";
+import crossweisse from "./rossweisse.json";
 import type { CharacterDetail } from "../../../lib/wiki/types";
 export const characterDetails: Record<string, CharacterDetail> = {
   "1003": c1003 as CharacterDetail,
@@ -77,4 +78,5 @@ export const characterDetails: Record<string, CharacterDetail> = {
   "1028": c1028 as CharacterDetail,
   "1055": c1055 as CharacterDetail,
   "30047": c30047 as CharacterDetail,
+  "rossweisse": crossweisse as CharacterDetail,
 };

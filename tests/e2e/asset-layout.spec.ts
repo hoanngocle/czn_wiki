@@ -18,7 +18,7 @@ test("every local asset is served with its original bytes", async ({ request }) 
   }
 });
 
-test("combatant pages use flat asset URLs and load their images", async ({ page }) => {
+test("combatant pages load imported and announcement images from local asset URLs", async ({ page }) => {
   for (const route of ["/combatant", "/combatant/renoa", "/combatant/nia"]) {
     const failures: string[] = [];
     const onResponse = (response: import("@playwright/test").Response) => {
@@ -26,11 +26,11 @@ test("combatant pages use flat asset URLs and load their images", async ({ page 
     };
     page.on("response", onResponse);
     await page.goto(route);
-    await expect(page.getByTestId("combatant-portrait")).toHaveCount(38);
+    await expect(page.getByTestId("combatant-portrait")).toHaveCount(39);
     const images = page.locator("img");
     await images.evaluateAll((elements) => (elements as HTMLImageElement[]).forEach((image) => image.loading = "eager"));
     await expect.poll(() => images.evaluateAll((elements) => (elements as HTMLImageElement[]).filter((image) => !image.complete || image.naturalWidth === 0).map((image) => image.src))).toEqual([]);
-    expect(await images.evaluateAll((elements) => (elements as HTMLImageElement[]).every((image) => /^\/assets\/[^/]+\/[^/]+$/.test(new URL(image.src).pathname)))).toBe(true);
+    expect(await images.evaluateAll((elements) => (elements as HTMLImageElement[]).every((image) => /^\/assets\/(?:[^/]+\/[^/]+|anni\/rossweisse\/[^/]+)$/.test(new URL(image.src).pathname)))).toBe(true);
     expect(failures).toEqual([]);
     page.off("response", onResponse);
   }

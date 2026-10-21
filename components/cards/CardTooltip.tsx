@@ -53,7 +53,7 @@ export function CardTooltip({ card, id, anchor, open, replaced, vietnamese = fal
   }, [anchor, onClose, open]);
 
   return createPortal(<div ref={ref} id={id} role="tooltip" aria-hidden={!open} data-open={open} data-replaced={replaced} className={styles.tooltip}>
-    <div className={styles.item}><div className={styles.title}>{label("Rarity", vietnamese)}</div><div>{label(rarityNames[card.rarity] ?? card.rarity, vietnamese)}</div></div>
+    <div className={styles.item}><div className={styles.title}>{label("Rarity", vietnamese)}</div><div>{card.rarity === "RARITY_UNKNOWN" ? (vietnamese ? "Chưa công bố" : "Not published") : label(rarityNames[card.rarity] ?? card.rarity, vietnamese)}</div></div>
     {terms.map(term => <div className={styles.item} key={term.id}>
       <div className={styles.title}>{term.title}</div>
       <div><Description text={term.desc} /></div>

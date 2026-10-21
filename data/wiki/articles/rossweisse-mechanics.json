@@ -1,0 +1,111 @@
+{
+  "slug": "rossweisse-mechanics",
+  "title": "Giới thiệu cơ chế của Rossweisse",
+  "description": "Bản dịch đầy đủ bài giới thiệu chính thức: cơ chế Ánh sáng và Bóng tối, Tua kiếm, Equilux cùng các cách phối hợp được đề xuất cho Rossweisse.",
+  "date": "2026-10-21",
+  "kind": "mechanics",
+  "sources": [
+    {
+      "name": "STOVE — Giới thiệu cơ chế của Rossweisse (nguồn chính thức)",
+      "url": "https://page.onstove.com/chaoszeronightmare/en/view/14590737"
+    },
+    {
+      "name": "CZN.gg — Bản lưu bài giới thiệu và ba ảnh gốc",
+      "url": "https://czn.gg/%E2%97%A4introducing-rossweisses-mechanics%E2%97%A2/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Rossweisse sắp xuất hiện",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rossweisse sắp đến với Chaos Zero Nightmare. Hãy tìm hiểu cơ chế độc đáo của Rossweisse và chuẩn bị thâm nhập Chaos!"
+        }
+      ]
+    },
+    {
+      "id": "combatant",
+      "title": "Nhân vật Rossweisse",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/anni/mechanics/4379438e95364ade96d19a65addae95e.jpg",
+          "alt": "Ảnh giới thiệu Rossweisse, thuộc tính Công lý và vai trò Đột kích, kèm lời thoại và mô tả cơ chế bằng tiếng Anh.",
+          "caption": "Ảnh gốc từ bài giới thiệu chính thức; toàn bộ nội dung chữ được dịch ngay bên dưới."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Khi chu kỳ đi đến hồi kết, vạn vật sẽ trở về nguyên trạng.”"
+        },
+        {
+          "type": "table",
+          "headers": ["Thông tin", "Nội dung"],
+          "rows": [
+            ["Nhân vật (Combatant)", "Rossweisse"],
+            ["Thuộc tính", "Công lý (Justice)"],
+            ["Vai trò", "Đột kích (Striker)"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Một nhân vật có khả năng cường hóa năng lực chiến đấu của bản thân và trực tiếp rút các lá bài Tấn công của chính mình."
+        }
+      ]
+    },
+    {
+      "id": "mechanics",
+      "title": "Cơ chế",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/anni/mechanics/1de02560ad504786976181056ce264d0.jpg",
+          "alt": "Infographic gốc giải thích cơ chế Ánh sáng, Bóng tối, Tua kiếm và Equilux của Rossweisse, với hai điểm cần chú ý.",
+          "caption": "Cơ chế (Mechanics) — bản dịch đầy đủ nội dung trong ảnh ở bên dưới."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rossweisse là một nhân vật thiên về tấn công. Cô nhận [Tua kiếm (Sword Tassel)] bằng cách kích hoạt hiệu ứng của các lá bài phân cực [Ánh sáng (Light)] và [Bóng tối (Dark)], sau đó hợp nhất chúng thành lá [Equilux] để gây sát thương lớn."
+        },
+        {
+          "type": "heading",
+          "text": "Điểm 1 — Tạo Tua kiếm và tăng sát thương cơ bản"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tạo các lá [Tua kiếm (Sword Tassel)] bằng các lá [Ánh sáng (Light)], [Bóng tối (Dark)] và lá [Cộng hưởng kiếm (Sword Resonance)]. Khi các lá [Ánh sáng] và [Bóng tối] hợp nhất, lá [Tua kiếm] cũng được hấp thụ trong quá trình này, tăng cộng dồn lượng sát thương cơ bản theo số tầng của nó."
+        },
+        {
+          "type": "heading",
+          "text": "Điểm 2 — Nhân lượng sát thương của Equilux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dùng lá [Tua kiếm (Sword Tassel)] để tăng lượng sát thương cơ bản của lá [Equilux], sau đó dùng các lá [Lưỡi kiếm chu kỳ (Blade of the Cycle)] và [Tông đồ Kyrken (Kyrken’s Apostle)] để tiếp tục nhân lượng sát thương của lá bài này lên cao hơn nữa."
+        }
+      ]
+    },
+    {
+      "id": "recommended-synergies",
+      "title": "Phối hợp được đề xuất",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/assets/anni/mechanics/3b3a2cb5a7c84ff5951d48f3f6331e9b.jpg",
+          "alt": "Ba đội hình phối hợp được đề xuất cho Rossweisse trong ảnh chính thức, lần lượt hỗ trợ AP và rút bài, số lượng bài Công lý và sát thương, rồi sát thương cùng hiệu ứng bất lợi và khả năng duy trì chiến đấu.",
+          "caption": "Phối hợp được đề xuất (Recommended Synergies). Các nhân vật được thể hiện bằng chân dung trong ảnh gốc; ba chú thích được dịch theo thứ tự từ trên xuống dưới."
+        },
+        {
+          "type": "table",
+          "headers": ["Đội hình trong ảnh", "Vai trò phối hợp"],
+          "rows": [
+            ["Hàng trên", "Hỗ trợ AP (điểm hành động) và rút bài, đồng thời tăng lượng sát thương Công lý."],
+            ["Hàng giữa", "Hỗ trợ số lượng lá bài Công lý và lượng sát thương."],
+            ["Hàng dưới", "Tăng lượng sát thương, áp dụng hiệu ứng bất lợi, đồng thời hỗ trợ AP và khả năng duy trì chiến đấu."]
+          ]
+        }
+      ]
+    }
+  ]
+}

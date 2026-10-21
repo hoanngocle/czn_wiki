@@ -1,14 +1,16 @@
 export type SourceRef = {
-  source: "e7bot";
+  source: "e7bot" | "stove";
   sourceId: string;
   sourceFile: string;
   sourceUpdatedAt?: string;
+  mechanicsUrl?: string;
+  patchNoteUrl?: string;
 };
 
 export type CharacterSummary = SourceRef & {
   id: string;
   name: string;
-  names: Record<string, string>;
+  names: Partial<Record<string, string>>;
   kind: "combatant" | "supporter";
   job: string;
   ego: string;
@@ -21,6 +23,7 @@ export type Card = {
   id: string;
   name: string;
   cost: number;
+  costLabel?: string;
   description: string;
   category: string;
   rarity: string;
@@ -38,7 +41,7 @@ export type Card = {
 export type CharacterDetail = SourceRef & {
   id: string;
   name: string;
-  names: Record<string, string>;
+  names: Partial<Record<string, string>>;
   job: string;
   ego: string;
   rarity: number;
@@ -46,6 +49,8 @@ export type CharacterDetail = SourceRef & {
   info: Record<string, unknown>;
   startCards: Card[];
   sparkCards: Card[];
+  generatedCards?: Card[];
+  egoSkillCard?: Card;
   collapseSkillCard: Card | null;
   collapseCards: Card[];
   collapsePassive: Record<string, unknown> | null;

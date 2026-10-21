@@ -1,0 +1,1331 @@
+{
+  "id": "rossweisse",
+  "name": "Rossweisse",
+  "names": {
+    "en": "Rossweisse",
+    "alias": "Ross"
+  },
+  "job": "striker",
+  "ego": "narcissism",
+  "rarity": 5,
+  "color": "#a50d60",
+  "source": "stove",
+  "sourceId": "rossweisse",
+  "sourceFile": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html",
+  "sourceUpdatedAt": "2026-10-21",
+  "mechanicsUrl": "/mechanics/rossweisse",
+  "patchNoteUrl": "/patch-note/2026-10-21-update#rossweisse",
+  "info": {
+    "background_text": "A Combatant who enhances her own combat abilities and directly draws her own Attack Cards.",
+    "officialStats": [
+      {
+        "criteria": "Level 1<br>Potential Stage 0<br>Ego Manifestation Stage 0<br>Affinity Level 1",
+        "attack": 160,
+        "defense": 45,
+        "hp": 90,
+        "criticalChance": "3%",
+        "criticalDamage": "125%"
+      },
+      {
+        "criteria": "Level 60<br>Potential Stage 7<br>Ego Manifestation Stage 6<br>Affinity Level 40",
+        "attack": 506,
+        "defense": 168,
+        "hp": 415,
+        "criticalChance": "13%",
+        "criticalDamage": "137%"
+      }
+    ],
+    "sourceNote": "Published announcement kit only. Card IDs use editorial slugs because the announcement does not provide official internal IDs. Card artwork, Potential nodes, and Collapse data were not supplied."
+  },
+  "startCards": [
+    {
+      "id": "rossweisse_srt1",
+      "name": "Sword Slash",
+      "cost": 1,
+      "description": "100% Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt1"
+    },
+    {
+      "id": "rossweisse_srt2",
+      "name": "Sword Slash",
+      "cost": 1,
+      "description": "100% Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt2"
+    },
+    {
+      "id": "rossweisse_srt3",
+      "name": "Standing Blade",
+      "cost": 1,
+      "description": "100% Shield",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt3"
+    },
+    {
+      "id": "rossweisse_srt4",
+      "name": "Flicker Blade",
+      "cost": 0,
+      "description": "400% Damage<br>On polarization, split into Shard:Light and Shard:Dark",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "rossweisse-effect-0",
+          "title": "Equilux",
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each Unique card can be included in the Deck"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "rossweisse-effect-1",
+          "title": "Light",
+          "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+        },
+        {
+          "id": "rossweisse-effect-2",
+          "title": "Dark",
+          "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "rossweisse_srt4_rsp1",
+          "name": "Flicker Blade (Amped)",
+          "cost": 0,
+          "description": "600% Damage<br>On polarization, split into Shard:Light (Amped) and Shard:Dark (Amped)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp1"
+        },
+        {
+          "id": "rossweisse_srt4_rsp2",
+          "name": "Flicker Blade (Cycle)",
+          "cost": 0,
+          "description": "600% Damage<br>On polarization, split into Shard:Light (Cycle) and Shard:Dark (Cycle)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp2"
+        },
+        {
+          "id": "rossweisse_srt4_rsp3",
+          "name": "Flicker Blade (Aegis)",
+          "cost": 0,
+          "description": "400% Damage<br>20% DMG-Based Shield<br>On polarization, split into Shard:Light (Aegis) and Shard:Dark (Aegis)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp3"
+        },
+        {
+          "id": "rossweisse_srt4_rsp4",
+          "name": "Flicker Blade (Blink)",
+          "cost": 0,
+          "description": "600% Damage<br>On polarization, split into Shard:Light (Blink) and Shard:Dark (Blink)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp4"
+        },
+        {
+          "id": "rossweisse_srt4_rsp5",
+          "name": "Flicker Blade (Unbound)",
+          "cost": -1,
+          "description": "400% Damage<br>+120% base Damage Amount for each X<br>On polarization, split into Shard:Light (Unbound) and Shard:Dark (Unbound)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_TERMINATION",
+              "title": "Finale",
+              "desc": "When this card is activated, end turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4"
+    },
+    {
+      "id": "rossweisse_light",
+      "name": "Shard:Light",
+      "cost": 2,
+      "description": "80% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 1 card of this unit is activated, activate effect (2 times per turn)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "rossweisse-effect-1",
+          "title": "Light",
+          "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each Unique card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "rossweisse_light_rsp1",
+          "name": "Shard:Light (Amped)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 1 card of this unit is activated, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp1"
+        },
+        {
+          "id": "rossweisse_light_rsp2",
+          "name": "Shard:Light (Cycle)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When a card is Discarded through an ability, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp2"
+        },
+        {
+          "id": "rossweisse_light_rsp3",
+          "name": "Shard:Light (Aegis)",
+          "cost": 2,
+          "description": "240% Damage to a random enemy<br>Create 1 Sword Tassel<br>When attacked, activate effect (1 time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp3"
+        },
+        {
+          "id": "rossweisse_light_rsp4",
+          "name": "Shard:Light (Blink)",
+          "cost": 0,
+          "description": "240% Damage<br>Create 1 Sword Tassel<br>Discard 1 random Status Ailment or Curse Card in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp4"
+        },
+        {
+          "id": "rossweisse_light_rsp5",
+          "name": "Shard:Light (Unbound)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When AP is gained through an ability, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light"
+    },
+    {
+      "id": "rossweisse_dark",
+      "name": "Shard:Dark",
+      "cost": 2,
+      "description": "80% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 2 cards of other Combatants are activated, activate effect (2 times per turn)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_START",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "rossweisse-effect-2",
+          "title": "Dark",
+          "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each Unique card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "rossweisse_dark_rsp1",
+          "name": "Shard:Dark (Amped)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 2 cards of other Combatants are activated, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp1"
+        },
+        {
+          "id": "rossweisse_dark_rsp2",
+          "name": "Shard:Dark (Cycle)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>On Draw through an ability, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp2"
+        },
+        {
+          "id": "rossweisse_dark_rsp3",
+          "name": "Shard:Dark (Aegis)",
+          "cost": 2,
+          "description": "240% Damage to a random enemy<br>Create 1 Sword Tassel<br>When Shield is gained through an ability, activate effect (1 time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp3"
+        },
+        {
+          "id": "rossweisse_dark_rsp4",
+          "name": "Shard:Dark (Blink)",
+          "cost": 0,
+          "description": "240% Damage<br>Create 1 Sword Tassel<br>Discard 1 card of a random different Combatant in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp4"
+        },
+        {
+          "id": "rossweisse_dark_rsp5",
+          "name": "Shard:Dark (Unbound)",
+          "cost": 2,
+          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When a 1-Cost or higher card is activated, activate effect (2 times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark"
+    }
+  ],
+  "sparkCards": [
+    {
+      "id": "rossweisse_uni1",
+      "name": "Sword Resonance",
+      "cost": 1,
+      "description": "Create 3 Sword Tassel",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "rossweisse_uni1_rsp1",
+          "name": "Sword Resonance",
+          "cost": 1,
+          "description": "Create 3 Sword Tassel<br>Activate effect for 1 random Light or Dark card",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp1"
+        },
+        {
+          "id": "rossweisse_uni1_rsp2",
+          "name": "Sword Resonance",
+          "cost": 1,
+          "description": "Create 3 Sword Tassel<br>Draw 1 card of this unit",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp2"
+        },
+        {
+          "id": "rossweisse_uni1_rsp3",
+          "name": "Sword Resonance",
+          "cost": 0,
+          "description": "Apply Retrieve to all Light and Dark cards in hand",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp3"
+        },
+        {
+          "id": "rossweisse_uni1_rsp4",
+          "name": "Sword Resonance",
+          "cost": 1,
+          "description": "Create 3 Sword Tassel<br>When the next Equilux card is coalesced, apply Pulverize to that card",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-0",
+              "title": "Equilux",
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp4"
+        },
+        {
+          "id": "rossweisse_uni1_rsp5",
+          "name": "Sword Resonance",
+          "cost": 1,
+          "description": "Activate effect for all Light and Dark cards in hand",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1"
+    },
+    {
+      "id": "rossweisse_uni2",
+      "name": "Radiant Sword Flow",
+      "cost": 1,
+      "description": "200% Damage<br>Discard up to 1 card in hand, and if Discarded, 150% Damage",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [],
+      "variants": [
+        {
+          "id": "rossweisse_uni2_rsp1",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "300% Damage<br>Discard up to 2 cards in hand, then that amount Discarded x 200% Damage",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp1"
+        },
+        {
+          "id": "rossweisse_uni2_rsp2",
+          "name": "Radiant Sword Flow",
+          "cost": 0,
+          "description": "200% Damage<br>Discard 1, and if that card is a Light or Dark card, proc then move to hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp2"
+        },
+        {
+          "id": "rossweisse_uni2_rsp3",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "300% Damage<br>Discard up to 1 card in hand<br>Decrease Cost of the next 2 Light or Dark cards by 2 until activated",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-1",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            },
+            {
+              "id": "rossweisse-effect-2",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp3"
+        },
+        {
+          "id": "rossweisse_uni2_rsp4",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "300% Damage<br>When a Bind card is stacked this turn, +50% base Damage Amount (max 500%)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp4"
+        },
+        {
+          "id": "rossweisse_uni2_rsp5",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "Increase Damage Amount of this unit by 15% for each Justice card in hand for 1 turn (max 75%)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each Unique card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2"
+    },
+    {
+      "id": "rossweisse_uni3",
+      "name": "Blade of the Cycle",
+      "cost": 1,
+      "description": "200% Damage<br>4 Brand of the Cycle",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "rossweisse-effect-3",
+          "title": "Brand of the Cycle",
+          "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+        }
+      ],
+      "variants": [
+        {
+          "id": "rossweisse_uni3_rsp1",
+          "name": "Blade of the Cycle",
+          "cost": 1,
+          "description": "300% Damage<br>6 Brand of the Cycle",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-3",
+              "title": "Brand of the Cycle",
+              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp1"
+        },
+        {
+          "id": "rossweisse_uni3_rsp2",
+          "name": "Blade of the Cycle",
+          "cost": 1,
+          "description": "300% Damage<br>2 Brand of the Cycle<br>Purity: Create 2 Sword Tassel<br>* Purity: When no cards of other Attributes are in hand, enable this effect",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-3",
+              "title": "Brand of the Cycle",
+              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp2"
+        },
+        {
+          "id": "rossweisse_uni3_rsp3",
+          "name": "Blade of the Cycle",
+          "cost": 1,
+          "description": "200% Damage<br>4 Brand of the Cycle<br>Draw 1 card of this unit, then decrease Cost of those cards by 1 for 1 turn",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-3",
+              "title": "Brand of the Cycle",
+              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp3"
+        },
+        {
+          "id": "rossweisse_uni3_rsp4",
+          "name": "Blade of the Cycle",
+          "cost": 1,
+          "description": "300% Damage<br>1 Brand of the Cycle for each Justice card in hand<br>Purity: Decrease Cost by 1<br>* Purity: When no cards of other Attributes are in hand, enable this effect",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-3",
+              "title": "Brand of the Cycle",
+              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp4"
+        },
+        {
+          "id": "rossweisse_uni3_rsp5",
+          "name": "Blade of the Cycle",
+          "cost": 2,
+          "description": "500% Damage<br>4 Brand of the Cycle<br>On Shield Break through this card, proc 1 more time (1 time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_UNKNOWN",
+          "artwork": null,
+          "video": null,
+          "artKey": "",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_SHIELD_DESTRUCT",
+              "title": "Pulverize",
+              "desc": "When hitting a target holding Shield, increase Damage Amount by 20%"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "rossweisse-effect-3",
+              "title": "Brand of the Cycle",
+              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+            }
+          ],
+          "variants": [],
+          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp5"
+        }
+      ],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3"
+    },
+    {
+      "id": "rossweisse_uni4",
+      "name": "Kyrken's Apostle",
+      "cost": 0,
+      "description": "Draw 2<br>1 Kyrken's Aegis",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each Unique card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_INNATE",
+          "title": "Initiation",
+          "desc": "At the start of battle, place this card at the top of Draw Pile"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "rossweisse-effect-4",
+          "title": "Kyrken's Aegis",
+          "desc": "Increase Damage Amount of Attack Cards by 20%, and increase final Damage Amount of Flicker Blade by 15%"
+        }
+      ],
+      "variants": [],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni4"
+    }
+  ],
+  "generatedCards": [
+    {
+      "id": "rossweisse_tassel",
+      "name": "Sword Tassel",
+      "cost": 0,
+      "costLabel": "Unactivatable",
+      "description": "When coalesced into the Equilux card, for each stack, +80% base Damage Amount to the Equilux card for 1 turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_UNKNOWN",
+      "artwork": null,
+      "video": null,
+      "artKey": "",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "rossweisse-bind",
+          "title": "Bind (1/20)",
+          "desc": "Bind (1/20)"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "rossweisse-effect-0",
+          "title": "Equilux",
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+        }
+      ],
+      "variants": [],
+      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_tassel"
+    }
+  ],
+  "egoSkillCard": {
+    "id": "rossweisse_ego",
+    "name": "Flickering White Night",
+    "cost": 6,
+    "description": "1,200% Damage<br>When the next Equilux card is activated, inflict Fixed Damage equal to 30% of Damage dealt to target",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNKNOWN",
+    "artwork": null,
+    "video": null,
+    "artKey": "",
+    "sort": "SORT_EGO",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "rossweisse-effect-0",
+        "title": "Equilux",
+        "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+      }
+    ],
+    "variants": [],
+    "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_ego",
+    "costLabel": "EP"
+  },
+  "collapseSkillCard": null,
+  "collapseCards": [],
+  "collapsePassive": null,
+  "manifestEgo": [
+    {
+      "id": "rossweisse_manifest_1",
+      "break_level": 1,
+      "title": "Sleeping Memory",
+      "sub_title": "",
+      "desc": "Adds the following effect to the Kyrken's Apostle card: Gain 1 AP. Changes the following effects for the Kyrken's Aegis effect : Increase Damage Amount of Attack Cards by 30%,<br>and increase final Damage Amount of Flicker Blade by 20%.",
+      "link_card_id": ""
+    },
+    {
+      "id": "rossweisse_manifest_2",
+      "break_level": 2,
+      "title": "Awakening Memory",
+      "sub_title": "",
+      "desc": "At the start of battle, increase Rossweisse's final Damage Amount by 20%.<br>At the start of the turn, gain 4 Blade Afterimage.<br>Blade Afterimage: When Rossweisse's Light or Dark cards are activated, 120% Damage to a random enemy, create 1 Sword Tassel, then decrease Blade Afterimage by 1 (max 8 stacks)",
+      "link_card_id": ""
+    },
+    {
+      "id": "rossweisse_manifest_3",
+      "break_level": 3,
+      "title": "Vivid Memory",
+      "sub_title": "",
+      "desc": "+400% Damage Amount to Flickering White Night, and changes the Fixed Damage inflicted to the target when the next Equilux card is activated from being equal to 30% Damage taken into being equal to 60% Damage taken.",
+      "link_card_id": ""
+    },
+    {
+      "id": "rossweisse_manifest_4",
+      "break_level": 4,
+      "title": "Inner Memory",
+      "sub_title": "",
+      "desc": "At the start of battle, gain 1 Precious Name.<br>Each time the effect of Rossweisse's Light or Dark cards activate, gain 1 Precious Name.<br>Precious Name: Increase Rossweisse's Damage Amount by 8% (max 5 stacks)<br>\"Sig, Siegrune, Gerhilde, Fricka... and you.\"",
+      "link_card_id": ""
+    },
+    {
+      "id": "rossweisse_manifest_5",
+      "break_level": 5,
+      "title": "Complete Memory",
+      "sub_title": "",
+      "desc": "Increase the level of [Basic Card Upgrade], [Signature Card Upgrade], and [Common Card Upgrade] in Potentials by 3.",
+      "link_card_id": ""
+    },
+    {
+      "id": "rossweisse_manifest_6",
+      "break_level": 6,
+      "title": "Liberated Memory",
+      "sub_title": "",
+      "desc": "When Rossweisse's Flicker Blade moves to hand, gain 1 Blade Poised Against the Cycle, and the Equilux, Light, and Dark cards are no longer included in the hand’s maximum capacity count.<br>Blade Poised Against the Cycle: Increase final Damage Amount of Rossweisse’s Attack Cards by 15%, and if that card is Flicker Blade, increase by 25% (max 2 stacks)",
+      "link_card_id": ""
+    }
+  ],
+  "potentialNodes": [],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": null,
+  "potentialTargetLinkCardIds": []
+}

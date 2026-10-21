@@ -33,7 +33,7 @@ export function PartnerWorkspace({ partners, children }: { partners: (PartnerSum
   const picker = useRef<HTMLElement>(null);
   const search = useRef<HTMLInputElement>(null);
   const query = filters.query.trim().toLocaleLowerCase();
-  const results = partners.filter(partner => (!query || [partner.name, ...Object.values(partner.names)].some(name => name.toLocaleLowerCase().includes(query))) && (!filters.rarity || partner.rarity === filters.rarity) && (!filters.job || partner.job === filters.job))
+  const results = partners.filter(partner => (!query || [partner.name, ...Object.values(partner.names)].some(name => name?.toLocaleLowerCase().includes(query))) && (!filters.rarity || partner.rarity === filters.rarity) && (!filters.job || partner.job === filters.job))
     .sort((a, b) => b.rarity - a.rarity || (jobs.indexOf(a.job) === -1 ? jobs.length : jobs.indexOf(a.job)) - (jobs.indexOf(b.job) === -1 ? jobs.length : jobs.indexOf(b.job)));
   const classes = [...new Set([...jobs, ...partners.map(partner => partner.job).filter(Boolean)])];
   const close = () => { setPickerOpen(false); opener.current?.focus(); };

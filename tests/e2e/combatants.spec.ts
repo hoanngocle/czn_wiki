@@ -4,9 +4,9 @@ test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
 });
 
-test("picker searches only 38 combatants and keeps filters during route changes", async ({ page }) => {
+test("picker searches all 39 combatants and keeps filters during route changes", async ({ page }) => {
   await page.goto("/combatant");
-  await expect(page.getByTestId("combatant-portrait")).toHaveCount(38);
+  await expect(page.getByTestId("combatant-portrait")).toHaveCount(39);
   await page.getByRole("textbox", { name: "Search combatants" }).fill(" RENOa ");
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(1);
   await page.getByRole("link", { name: /Renoa/ }).last().click();
@@ -17,7 +17,7 @@ test("picker searches only 38 combatants and keeps filters during route changes"
   await page.goBack();
   await expect(page.getByRole("textbox", { name: "Search combatants" })).toHaveValue(" RENOa ");
   await page.getByRole("button", { name: "Clear filters" }).click();
-  await expect(page.getByTestId("combatant-portrait")).toHaveCount(38);
+  await expect(page.getByTestId("combatant-portrait")).toHaveCount(39);
   const fiveStar = page.getByRole("button", { name: "5 stars" });
   await fiveStar.click();
   await expect(fiveStar).toHaveAttribute("aria-pressed", "true");

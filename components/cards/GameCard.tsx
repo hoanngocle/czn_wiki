@@ -29,9 +29,9 @@ export function GameCard({ card, animationEnabled, vietnameseEnabled = false, on
     onBlur={tooltip.hide}
     onClick={() => { tooltip.hide(); onClick(); }}>
     <CardArtwork card={card} animationEnabled={animationEnabled} vietnamese={vietnameseEnabled} />
-    <Image className={styles.frame} src={`${base}/card_rarity_${rarity}.webp`} alt="" width={14} height={37} unoptimized />
-      <div className={styles.top}><strong className={styles.cost}>{card.cost === -1 ? "X" : card.cost}</strong><span className={styles.title}>{card.name}</span><span className={styles.category}>{["atk", "skill", "power", "collapse"].includes(category) && <Image src={`${base}/icon_category_card_${category}.webp`} alt="" width={13} height={13} unoptimized />}{categoryLabel}</span></div>
-      <div className={styles.description}>{card.talent.length > 0 && <div className={styles.talents}>[{card.talent.map((talent) => talent.title).join("/")}]</div>}<Description text={card.description} /></div>
+    {rarity !== "unknown" && <Image className={styles.frame} src={`${base}/card_rarity_${rarity}.webp`} alt="" width={14} height={37} unoptimized />}
+      <div className={styles.top}><strong className={styles.cost}>{card.costLabel === "Unactivatable" ? "—" : card.cost === -1 ? "X" : card.cost}</strong><span className={styles.title}>{card.name}</span><span className={styles.category}>{["atk", "skill", "power", "collapse"].includes(category) && <Image src={`${base}/icon_category_card_${category}.webp`} alt="" width={13} height={13} unoptimized />}{categoryLabel}</span></div>
+      <div className={styles.description}>{card.costLabel && <div className={styles.talents}>{card.costLabel === "Unactivatable" ? "Unactivatable" : `${card.costLabel} ${card.cost}`}</div>}{card.talent.length > 0 && <div className={styles.talents}>[{card.talent.map((talent) => talent.title).join("/")}]</div>}<Description text={card.description} /></div>
     <span className={styles.shine} aria-hidden="true" />
     <span className={styles.holo} aria-hidden="true" />
   </button></span>

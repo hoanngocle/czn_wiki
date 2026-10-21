@@ -50,8 +50,9 @@ export function CharacterContent({ detail: originalDetail, guide, translation }:
   const linkedIds = new Set(detail.potentialTargetLinkCardIds ?? (detail.potentialTargetLinkCardId ?? "").replace(/^\[|\]$/g, "").split(",").map(id => id.trim()).filter(Boolean));
   const targets = detail.potentialTargetCards.filter(card => linkedIds.has(card.id));
   const startCards = [...new Map([...detail.startCards, ...targets].map(card => [card.id, card])).values()];
-  const listedIds = new Set([...startCards, ...detail.sparkCards, ...detail.collapseCards, ...(detail.collapseSkillCard ? [detail.collapseSkillCard] : [])].map(card => card.id));
-  const generatedCards = [...new Set(guide?.generatedCardIds ?? [])].filter(id => !listedIds.has(id)).map(id => cards.get(id)).filter((card): card is Card => !!card);
+  const egoSkill = detail.egoSkillCard ?? detail.collapseSkillCard;
+  const listedIds = new Set([...startCards, ...detail.sparkCards, ...detail.collapseCards, ...(egoSkill ? [egoSkill] : [])].map(card => card.id));
+  const generatedCards = [...new Set([...(detail.generatedCards ?? []).map(card => card.id), ...(guide?.generatedCardIds ?? [])])].filter(id => !listedIds.has(id)).map(id => cards.get(id)).filter((card): card is Card => !!card);
   const potentialVariant = (card: Card) => card.variants.find((variant) => /_(pot|lbk)$/.test(variant.id)) ?? card;
   const renderCards = (cards: Card[], awaken = false) => <div className={styles.grid}>{cards.map(card => {
     const display = awaken && !linkedIds.has(card.id) ? potentialVariant(card) : card;
@@ -77,8 +78,9 @@ export function CharacterContent({ detail: originalDetail, guide, translation }:
       {renderCards(startCards, true)}
       <h2 className={styles.heading}>{t("Unique Cards")}</h2>{renderCards(detail.sparkCards)}
       {generatedCards.length > 0 && <><h2 className={styles.heading}>{vietnameseEnabled ? "Bài được tạo" : "Generated Cards"}</h2>{renderCards(generatedCards)}</>}
-      {detail.collapseSkillCard && <><h2 className={styles.heading}>{t("Ego Skill")}</h2>{renderCards([detail.collapseSkillCard], true)}</>}
+      {egoSkill && <><h2 className={styles.heading}>{t("Ego Skill")}</h2>{renderCards([egoSkill], true)}</>}
       <h2 className={styles.heading}>{t("Collapse Cards")}</h2>{renderCards(detail.collapseCards)}
+      {detail.collapseCards.length === 0 && <p>{vietnameseEnabled ? "Chưa được công bố trong tài liệu nguồn." : "Not published in the source material yet."}</p>}
       {guide && <CharacterCardAdvice vietnamese={vietnameseEnabled} />}
     </div>
     <section className={styles.panel} data-mobile-active={section === "ego"} lang={vietnameseEnabled ? "vi" : "en"}><h2 className={styles.heading}>{t("Manifest Ego")}</h2>
@@ -87,6 +89,7 @@ export function CharacterContent({ detail: originalDetail, guide, translation }:
       </article>)}</div>
     </section>
     <section className={styles.panel} data-mobile-active={section === "potential"} lang={vietnameseEnabled ? "vi" : "en"}><h2 className={styles.heading}>{t("Potential")}</h2>
+      {detail.potentialNodes.length === 0 && <p>{vietnameseEnabled ? "Chưa được công bố trong tài liệu nguồn." : "Not published in the source material yet."}</p>}
       <div className={styles.potentialGrid}>{detail.potentialNodes.map(node => {
         const type = node.potential_node_type_define;
         const levels = [node, ...node.upgrade_nodes].sort((a, b) => Number(a.node_level) - Number(b.node_level));

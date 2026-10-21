@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import type { CharacterDetail, CharacterSummary } from "../../lib/wiki/types";
 import styles from "./CombatantWorkspace.module.css";
 import { CharacterContent } from "./CharacterContent";
@@ -34,6 +35,11 @@ export function CombatantDetail({ summary, detail, guide, translation }: { summa
         <span title={vietnamese ? "Thăm thị trấn không khả dụng ngoại tuyến" : "Town Visit unavailable offline"}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z" /><circle cx="12" cy="10" r="3" /></svg><b>{vietnamese ? "Thăm thị trấn" : "Town Visit"}</b></span>
       </div>}
     </header>
+    {summary.source === "stove" && <aside className={styles.sourceNotice}>
+      <p>{vietnamese ? "Dữ liệu từ thông báo cập nhật chính thức ngày 21/10/2026. Chỉ hiển thị thông tin đã công bố; chưa có hướng dẫn build, Tiềm năng và Suy sụp từ wiki." : "Published kit from the official 21 October 2026 update notice. A wiki build guide, Potential and Breakdown data are not available yet."}</p>
+      {summary.mechanicsUrl && <Link href={summary.mechanicsUrl}>{vietnamese ? "Đọc cơ chế Rossweisse →" : "Rossweisse mechanics (Vietnamese) →"}</Link>}
+      {summary.patchNoteUrl && <Link href={summary.patchNoteUrl}>{vietnamese ? "Xem patch note đầy đủ →" : "Full patch note (Vietnamese) →"}</Link>}
+    </aside>}
     {detail ? <CharacterContent detail={detail} guide={guide} translation={translation} /> : <section className={styles.missing}><h2>{vietnamese ? "Chưa có thông tin chi tiết" : "Detail not available"}</h2><p>{vietnamese ? `Bản lưu E7BOT có thông tin tổng quan về ${summary.name}, nhưng chưa có kỹ năng và thẻ bài chi tiết.` : `The saved E7BOT snapshot has a summary for ${summary.name}, but no detailed kit or cards.`}</p></section>}
   </article>;
 }

@@ -16,12 +16,14 @@ const icons = {
   Equipment: "relic",
   Items: "item",
   Terminology: "terminology",
+  "Patch note": "patch-note",
 };
-const nav = ["Combatant", "Partner", "Cards", "Deck Builder", "Equipment", "Items", "Terminology"] as const;
-const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/combatant", Partner: "/partner", "Deck Builder": "/deck-builder", Equipment: "/equipment", Terminology: "/terminology" };
+const nav = ["Combatant", "Partner", "Cards", "Deck Builder", "Equipment", "Items", "Terminology", "Patch note"] as const;
+const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/combatant", Partner: "/partner", "Deck Builder": "/deck-builder", Equipment: "/equipment", Terminology: "/terminology", "Patch note": "/patch-note" };
 const logo = "/assets/common/c1016_sd01_s-BmcFnoIZ.png";
 
 function NavIcon({ item }: { item: keyof typeof icons }) {
+  if (item === "Patch note") return <span className={styles.navIcon} aria-hidden="true"><svg width="52" height="44" viewBox="0 0 52 44" fill="none" stroke="currentColor" strokeWidth="1.7"><path d="M14 5h17l8 8v26H14V5Zm16 0v9h9M20 21h13m-13 6h13m-13 6h8" /></svg></span>;
   if (item === "Terminology") return <span className={styles.navIcon} aria-hidden="true"><svg width="52" height="44" viewBox="0 0 52 44" fill="none" stroke="currentColor" strokeWidth="1.7"><path d="M26 11c-5-4-12-4-18-2v25c6-2 13-2 18 2 5-4 12-4 18-2V9c-6-2-13-2-18 2Zm0 0v25M13 15h8m-8 6h8m10-6h8m-8 6h8" /></svg></span>;
   // Original E7BOT tab assets, including the PNGs embedded in its bundle.
   const category = { Combatant: "combatant", Partner: "partner", Cards: "card", "Deck Builder": "common", Equipment: "item", Items: "item" }[item];
@@ -73,7 +75,7 @@ export function WikiShell({ children }: { children: React.ReactNode }) {
       <Link className={styles.brand} href="/combatant" onClick={() => setMenuOpen(false)}><Image src={logo} alt="" width={42} height={42} unoptimized /><small>CZN</small></Link>
       <div className={styles.navItems}>{nav.map((item) => {
         const href = routes[item];
-        const active = href && (pathname === href || pathname.startsWith(`${href}/`));
+        const active = href && (pathname === href || pathname.startsWith(`${href}/`) || item === "Patch note" && pathname.startsWith("/mechanics/"));
         return href ? <Link key={item} href={href} aria-current={active ? "page" : undefined} className={`${styles.navItem} ${active ? styles.active : ""}`} onClick={() => setMenuOpen(false)}><NavIcon item={item} /><span>{t(item)}</span></Link> : <span key={item} className={`${styles.navItem} ${styles.disabled}`} aria-disabled="true" title={t("Coming soon")}><NavIcon item={item} /><span>{t(item)}</span></span>;
       })}</div>
       <div className={styles.bottom}><ThemeToggle /><button type="button" className={styles.utility} aria-label={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} title={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} onClick={() => storeValue(languageKey, String(!vietnamese))}>{vietnamese ? "VI" : "EN"}</button></div>

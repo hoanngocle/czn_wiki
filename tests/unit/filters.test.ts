@@ -16,5 +16,5 @@ it("uses AND across filters and OR within a filter", () => {
   expect(result.some((x) => x.id === "1041")).toBe(true);
   expect(result.every((x) => [4, 5].includes(x.rarity) && x.job === "hunter")).toBe(true);
   expect(filterCombatants(items, { ...empty, rarities: [5], jobs: ["hunter"] }).some((x) => x.id === "1041")).toBe(true);
-  expect(filterCombatants(items, empty)).toHaveLength(38);
+  expect(filterCombatants(items, empty)).toHaveLength(39);
 });

@@ -18,6 +18,8 @@ export function translateCharacterDetail(detail: CharacterDetail, translation?: 
   return {
     ...detail,
     startCards: detail.startCards.map(translate), sparkCards: detail.sparkCards.map(translate),
+    generatedCards: detail.generatedCards?.map(translate),
+    egoSkillCard: detail.egoSkillCard ? translate(detail.egoSkillCard) : undefined,
     collapseCards: detail.collapseCards.map(translate), potentialTargetCards: detail.potentialTargetCards.map(translate),
     collapseSkillCard: detail.collapseSkillCard ? translate(detail.collapseSkillCard) : null,
     manifestEgo: detail.manifestEgo.map(level => ({ ...level, title: label(level.title, true), desc: translation.manifestEgo[level.id] ?? level.desc })),

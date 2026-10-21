@@ -3,7 +3,7 @@ import { completeCombatantGuide } from "./complete-combatant-guide.mjs";
 import { cardVideoUrl } from "./card-videos.mjs";
 import { localizeGuideProse } from "./combatant-prose.mjs";
 const read = path => JSON.parse(readFileSync(path, "utf8"));
-const roster = read("data/wiki/characters.json").filter(c => c.kind === "combatant");
+const roster = read("data/wiki/characters.json").filter(c => c.kind === "combatant" && c.source === "e7bot");
 const sources = read("docs/combatant/prydwen/extracted.json");
 const editorial = read("docs/combatant/prydwen/editorial.json");
 const mappings = read("docs/combatant/prydwen/deck-mapping.json");

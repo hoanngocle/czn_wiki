@@ -37,7 +37,7 @@ it("covers every canonical card and progression effect without changing source n
       check(card.id, card.description, cards[card.id]);
       card.variants.forEach(variant => visit(variant as typeof card));
     };
-    [...detail.startCards, ...detail.sparkCards, ...detail.collapseCards, ...detail.potentialTargetCards, detail.collapseSkillCard].filter(Boolean).forEach(visit);
+    [...detail.startCards, ...detail.sparkCards, ...(detail.generatedCards ?? []), detail.egoSkillCard, ...detail.collapseCards, ...detail.potentialTargetCards, detail.collapseSkillCard].filter(Boolean).forEach(visit);
     for (const level of detail.manifestEgo) check(level.id, level.desc, progression.manifestEgo[level.id]);
     for (const node of detail.potentialNodes) {
       for (const level of [node, ...(node.upgrade_nodes ?? [])]) check(level.id, level.desc, progression.potentialNodes[level.id]);

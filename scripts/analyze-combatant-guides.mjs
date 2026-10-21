@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 const sources = JSON.parse(readFileSync("docs/combatant/prydwen/extracted.json", "utf8"));
-const roster = JSON.parse(readFileSync("data/wiki/characters.json", "utf8")).filter(x => x.kind === "combatant");
+const roster = JSON.parse(readFileSync("data/wiki/characters.json", "utf8")).filter(x => x.kind === "combatant" && x.source === "e7bot");
 const catalog = JSON.parse(readFileSync("data/deck-builder/catalog.json", "utf8"));
 export const key = name => name.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
 const roman = ["I", "II", "III", "IV", "V"];

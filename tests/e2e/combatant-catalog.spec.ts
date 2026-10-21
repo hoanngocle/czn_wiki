@@ -5,7 +5,7 @@ import { combatantSlug } from "../../lib/wiki/urls";
 
 test.describe.configure({ mode: "parallel" });
 
-for (const character of roster.filter(item => item.kind === "combatant")) {
+for (const character of roster.filter(item => item.kind === "combatant" && item.source === "e7bot")) {
   test(`${character.name} has four localized tabs, its own deck and working guide images`, async ({ page }) => {
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
@@ -39,6 +39,40 @@ for (const character of roster.filter(item => item.kind === "combatant")) {
     expect(errors).toEqual([]);
   });
 }
+
+test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and source articles", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
+  await page.goto("/combatant/rossweisse");
+  await expect(page.getByRole("heading", { level: 1, name: "Rossweisse", exact: true })).toBeVisible();
+  const tabs = page.getByRole("tablist", { name: "Rossweisse guide", exact: true });
+  await expect(tabs.getByRole("tab")).toHaveText(["Card"]);
+  await expect(page.getByRole("button", { name: "Sword Tassel card", exact: true })).toBeVisible();
+  const ego = page.getByRole("button", { name: "Flickering White Night card", exact: true });
+  await expect(ego).toBeVisible();
+  await expect(ego).toContainText(/EP\s+6/);
+  await expect(page.getByRole("link", { name: "Rossweisse mechanics (Vietnamese) →", exact: true })).toHaveAttribute("href", "/mechanics/rossweisse");
+  await expect(page.getByRole("link", { name: "Full patch note (Vietnamese) →", exact: true })).toHaveAttribute("href", "/patch-note/2026-10-21-update#rossweisse");
+  await expect(page.getByTestId("manifest-level")).toHaveCount(6);
+  await expect(page.getByTestId("manifest-level").first()).toContainText("Sleeping Memory");
+  await expect(page.getByTestId("manifest-level").last()).toContainText("Liberated Memory");
+  await page.getByRole("button", { name: "Flicker Blade card", exact: true }).click();
+  const dialog = page.getByRole("dialog", { name: "Flicker Blade", exact: true });
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByRole("button", { name: /^Flicker Blade(?: \([^)]*\))? card$/ })).toHaveCount(6);
+  for (const variant of ["Amped", "Cycle", "Aegis", "Blink", "Unbound"]) {
+    await expect(dialog.getByRole("button", { name: `Flicker Blade (${variant}) card`, exact: true })).toBeVisible();
+  }
+  await page.getByRole("button", { name: "Close dialog", exact: true }).click();
+  await page.getByRole("link", { name: "Full patch note (Vietnamese) →", exact: true }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("21/10");
+  await expect(page.locator('article[lang="vi"]').filter({ visible: true }).locator("table")).toHaveCount(20);
+  await expect(page.locator("#rossweisse")).toContainText("Rossweisse");
+  await page.getByRole("link", { name: "Cơ chế Rossweisse →", exact: true }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Giới thiệu cơ chế của Rossweisse");
+  await expect(page.locator('article[lang="vi"]').filter({ visible: true }).locator("figure")).toHaveCount(3);
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
 
 for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
   test(`${name} guide fits mobile and keeps deck effects in the card dialog`, async ({ page }) => {

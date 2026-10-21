@@ -113,6 +113,9 @@ import progression1055 from "./vi/1055.progression.json";
 import cards30047 from "./vi/30047.cards.json";
 import glossary30047 from "./vi/30047.glossary.json";
 import progression30047 from "./vi/30047.progression.json";
+import cardsrossweisse from "./vi/rossweisse.cards.json";
+import glossaryrossweisse from "./vi/rossweisse.glossary.json";
+import progressionrossweisse from "./vi/rossweisse.progression.json";
 import extraCards from "./vi/guide-extra.cards.json";
 import extraTerms from "./vi/guide-extra.terms.json";
 import type { Card } from "../../../lib/wiki/types";
@@ -161,4 +164,5 @@ export const characterTranslations: Record<string, CharacterTranslation> = {
   "1028": { cards: { ...extraCards, ...cards1028 }, terms: [...glossary1028.terms, ...extraTerms], ...progression1028 },
   "1055": { cards: { ...extraCards, ...cards1055 }, terms: [...glossary1055.terms, ...extraTerms], ...progression1055 },
   "30047": { cards: { ...extraCards, ...cards30047 }, terms: [...glossary30047.terms, ...extraTerms], ...progression30047 },
+  "rossweisse": { cards: { ...extraCards, ...cardsrossweisse }, terms: [...glossaryrossweisse.terms, ...extraTerms], ...progressionrossweisse },
 };

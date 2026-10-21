@@ -41,7 +41,8 @@ export type CharacterGuide = {
 export function indexCharacterCards(detail: CharacterDetail, extraCards: Card[] = []) {
   const cards = new Map<string, Card>();
   const visit = (card: Card) => { cards.set(card.id, card); card.variants.forEach(visit); };
-  [...detail.startCards, ...detail.sparkCards, ...detail.collapseCards, ...detail.potentialTargetCards, ...extraCards].forEach(visit);
+  [...detail.startCards, ...detail.sparkCards, ...(detail.generatedCards ?? []), ...detail.collapseCards, ...detail.potentialTargetCards, ...extraCards].forEach(visit);
+  if (detail.egoSkillCard) visit(detail.egoSkillCard);
   if (detail.collapseSkillCard) visit(detail.collapseSkillCard);
   return cards;
 }

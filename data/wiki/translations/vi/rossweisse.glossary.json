@@ -1,0 +1,89 @@
+{
+  "characterId": "rossweisse",
+  "terms": [
+    {
+      "id": "rossweisse-effect-0",
+      "title": "Equilux",
+      "englishTitle": "Equilux",
+      "desc": "Đầu lượt, đưa lá này lên tay.<br>Khi được đưa lên tay, phân cực thành các lá Ánh sáng và Bóng tối (1 lần mỗi lượt).<br>Số lần đánh của lá này cố định là 1.",
+      "englishDesc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+    },
+    {
+      "id": "rossweisse-effect-1",
+      "title": "Ánh sáng",
+      "englishTitle": "Light",
+      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên trái.<br>Nếu trên tay chỉ còn các lá Ánh sáng, Bóng tối và Liên kết, hợp nhất các lá Ánh sáng, Bóng tối và Tua kiếm thành lá Equilux.",
+      "englishDesc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+    },
+    {
+      "id": "rossweisse-effect-2",
+      "title": "Bóng tối",
+      "englishTitle": "Dark",
+      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên phải.<br>Nếu trên tay chỉ còn các lá Ánh sáng, Bóng tối và Liên kết, hợp nhất các lá Ánh sáng, Bóng tối và Tua kiếm thành lá Equilux.",
+      "englishDesc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+    },
+    {
+      "id": "rossweisse-effect-3",
+      "title": "Ấn luân hồi",
+      "englishTitle": "Brand of the Cycle",
+      "desc": "Tăng 20% lượng sát thương nhận từ Rossweisse; khi hiệu ứng kích hoạt, giảm Ấn luân hồi đi 1.",
+      "englishDesc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+    },
+    {
+      "id": "rossweisse-effect-4",
+      "title": "Sự bảo hộ của Kyrken",
+      "englishTitle": "Kyrken's Aegis",
+      "desc": "Tăng 20% lượng sát thương của Bài tấn công và tăng 15% lượng sát thương cuối cùng của Flicker Blade.",
+      "englishDesc": "Increase Damage Amount of Attack Cards by 20%, and increase final Damage Amount of Flicker Blade by 15%"
+    },
+    {
+      "id": "TALENT_ORIGIN",
+      "title": "Độc nhất",
+      "englishTitle": "Unique",
+      "desc": "Chỉ có thể đưa 1 lá của mỗi loại bài Độc nhất vào Bộ bài.",
+      "englishDesc": "Only 1 of each Unique card can be included in the Deck"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Giữ lại",
+      "englishTitle": "Retain",
+      "desc": "Lá này không bị loại bỏ vào cuối lượt.",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Khởi đầu",
+      "englishTitle": "Initiation",
+      "desc": "Khi bắt đầu trận, đặt lá này lên đầu Chồng rút.",
+      "englishDesc": "At the start of battle, place this card at the top of Draw Pile"
+    },
+    {
+      "id": "rossweisse-bind",
+      "title": "Liên kết (1/20)",
+      "englishTitle": "Bind (1/20)",
+      "desc": "Liên kết (1/20)",
+      "englishDesc": "Bind (1/20)"
+    },
+    {
+      "id": "TALENT_TERMINATION",
+      "title": "Kết thúc",
+      "englishTitle": "Finale",
+      "desc": "Khi kích hoạt lá này, kết thúc lượt.",
+      "englishDesc": "When this card is activated, end turn"
+    },
+    {
+      "id": "TALENT_RECALL",
+      "title": "Thu hồi",
+      "englishTitle": "Retrieve",
+      "desc": "Nếu lá này chuyển vào Mộ bài, đưa nó trở lại tay. Khi kích hoạt, xóa Thu hồi.",
+      "englishDesc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
+    },
+    {
+      "id": "TALENT_SHIELD_DESTRUCT",
+      "title": "Nghiền nát",
+      "englishTitle": "Pulverize",
+      "desc": "Khi đánh trúng mục tiêu có Lá chắn, tăng lượng sát thương thêm 20%.",
+      "englishDesc": "When hitting a target holding Shield, increase Damage Amount by 20%"
+    }
+  ]
+}

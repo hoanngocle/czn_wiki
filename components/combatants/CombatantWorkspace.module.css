@@ -77,3 +77,6 @@
   .detailHeader { padding-left: 0; flex-wrap: wrap; }
   .actions { flex-basis: 100%; justify-content: flex-end; }
 }
+.sourceNotice { margin: 0 24px 22px; padding: 16px 20px; border: 1px solid var(--border-primary); border-left: 3px solid var(--blue); border-radius: 6px; background: var(--bg-secondary); font-size: 13px; line-height: 1.8; }
+.sourceNotice p { margin: 0 0 8px; color: var(--text-secondary); }
+.sourceNotice a { display: inline-block; color: var(--blue); margin-right: 20px; }

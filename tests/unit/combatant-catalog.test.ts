@@ -11,9 +11,9 @@ import { inspectAsset } from "../../scripts/audit-reference-assets.mjs";
 const roster = getCombatants();
 const legacy = new Set(["1041", "1033", "1052", "30075"]);
 const numbers = (text: string) => (text.replace(/<[^>]*>/g, " ").match(/\d+(?:\.\d+)?/g) ?? []).sort();
-it("covers every released combatant with a distinct kit, guide, and Vietnamese overlay", () => {
-  expect(roster).toHaveLength(38);
-  expect(Object.keys(characterGuides).sort()).toEqual(roster.map(item => item.id).sort());
+it("covers imported combatants with guides and officially announced combatants with source kits", () => {
+  expect(roster).toHaveLength(39);
+  expect(Object.keys(characterGuides).sort()).toEqual(roster.filter(item => item.source === "e7bot").map(item => item.id).sort());
   expect(Object.keys(characterTranslations).sort()).toEqual(roster.map(item => item.id).sort());
 });
 describe.each(roster)("$name complete catalog", summary => {
@@ -24,6 +24,7 @@ describe.each(roster)("$name complete catalog", summary => {
     const cards = indexCharacterCards(detail);
     expect(cards.size).toBeGreaterThan(20);
     for (const card of cards.values()) {
+      if (summary.source === "stove" && !card.artwork) continue;
       expect(card.artwork, card.id).toBeTruthy();
       const path = join("public", card.artwork!);
       expect(existsSync(path), path).toBe(true);
@@ -37,7 +38,7 @@ describe.each(roster)("$name complete catalog", summary => {
     const localized = translateCharacterDetail(detail, translation);
     const translatedCards = indexCharacterCards(localized);
 
-    for (const card of indexCharacterCards(detail, characterGuides[summary.id].extraCards).values()) {
+    for (const card of indexCharacterCards(detail, characterGuides[summary.id]?.extraCards).values()) {
       expect(translation.cards[card.id], card.id).toBeTruthy();
       expect((translatedCards.get(card.id) ?? translateCard(card, translation)).name).toBe(card.name);
       expect(numbers(translation.cards[card.id]), card.id).toEqual(numbers(card.description));

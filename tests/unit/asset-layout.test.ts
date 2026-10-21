@@ -50,8 +50,8 @@ it("keeps every non-null deck builder asset reference connected to a real file",
   }
 });
 
-it("assigns combatants and partners to their own flat portrait directories", () => {
-  for (const character of characters) {
+it("assigns imported combatants and partners to their own flat portrait directories", () => {
+  for (const character of characters.filter(character => character.source === "e7bot")) {
     expect(character.portrait).toMatch(new RegExp(`^/assets/${character.kind === "combatant" ? "combatant" : "partner"}/[^/]+$`));
   }
   const imported = normalizeCharacters([
