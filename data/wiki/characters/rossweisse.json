@@ -3,20 +3,39 @@
   "name": "Rossweisse",
   "names": {
     "en": "Rossweisse",
-    "alias": "Ross"
+    "zhs": "羅斯薇瑟",
+    "zht": "羅斯薇瑟",
+    "alias": "Ross Rosswei"
   },
   "job": "striker",
   "ego": "narcissism",
   "rarity": 5,
-  "color": "#a50d60",
-  "source": "stove",
-  "sourceId": "rossweisse",
-  "sourceFile": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html",
-  "sourceUpdatedAt": "2026-10-21",
-  "mechanicsUrl": "/mechanics/rossweisse",
-  "patchNoteUrl": "/patch-note/2026-10-21-update#rossweisse",
+  "color": "#E20065",
   "info": {
-    "background_text": "A Combatant who enhances her own combat abilities and directly draws her own Attack Cards.",
+    "background_text": "<color_darkgray>Kyrken's Apostle who wanders the universe of her own accord.</><br>Chosen as Kyrken's Apostle, a wanderer who drifts through the cosmos. Those who saw her drifting through space without even a ship, unable to comprehend what they had witnessed, came to call her an \"Ill Omen.\" Despite being an Apostle, she shows no sign of sincerely serving Kyrken, merely carrying out the occasional decree or command she receives.",
+    "birth_day": "ui_label_day_14th",
+    "birth_month": "ui_label_month_august",
+    "cv_en": "Not included",
+    "cv_ja": "Ayaka Suwa",
+    "cv_ko": "Hayoung Kim",
+    "cv_zhs": "cv_zhs_0078",
+    "favorite_gift_link_item_id": "",
+    "gacha_link_combatant_voice_id": "30134_gacha_01",
+    "hospitalization_reason": "combatant_info@hospitalization_reason@30134_info",
+    "id": "30134_info",
+    "link_combatant_face_group": "30134_face",
+    "link_combatant_voice_group": "30134_voice",
+    "link_live_event_id": "live_event_30134",
+    "link_story_content_counseling_key": "story_counseling_30134",
+    "link_town_normal_visit_group": "normal_visit_30134",
+    "link_town_policy_reaction_id": "30134",
+    "link_town_story_visit_group": "",
+    "lobby_enter_link_combatant_voice_id": "30134_lobby_enter_01",
+    "race_type": "CHAR_INFO_RACE_TYPE_1",
+    "small_talk_link_combatant_voice_id": "[30134_small_talk_01,30134_small_talk_02,30134_small_talk_03,30134_small_talk_04]",
+    "specialty": "combatant_info@specialty@30134_info",
+    "stage_success_link_combatant_voice_id": "30134_stage_success_01",
+    "touch_link_combatant_voice_id": "[30134_touch_01,30134_touch_02]",
     "officialStats": [
       {
         "criteria": "Level 1<br>Potential Stage 0<br>Ego Manifestation Stage 0<br>Affinity Level 1",
@@ -35,707 +54,287 @@
         "criticalDamage": "137%"
       }
     ],
-    "sourceNote": "Published announcement kit only. Card IDs use editorial slugs because the announcement does not provide official internal IDs. Card artwork, Potential nodes, and Collapse data were not supplied."
+    "sourceNote": "Live E7BOT kit (30134), checked against Prydwen Cards on 2026-10-23. Stable local card IDs are retained; sourceId contains each official ID. Radiant Sword Flow V: removed a stray zero from the source description, verified against Prydwen."
   },
   "startCards": [
     {
       "id": "rossweisse_srt1",
       "name": "Sword Slash",
       "cost": 1,
-      "description": "100% Damage",
+      "description": "<color_orange>100%</> Damage",
       "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30134_01.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "start_30134_01",
       "sort": "SORT_START",
       "egoType": "EGO_OWNER",
       "talent": [],
       "tooltips": [],
-      "variants": [],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt1"
+      "variants": [
+        {
+          "id": "rossweisse_srt1_pot",
+          "name": "Sword Slash",
+          "cost": 0,
+          "description": "<color_orange>100%</> Damage",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30134_01.webp",
+          "video": null,
+          "artKey": "start_30134_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30134_srt1_pot"
+        }
+      ],
+      "sourceId": "c_30134_srt1"
     },
     {
       "id": "rossweisse_srt2",
       "name": "Sword Slash",
       "cost": 1,
-      "description": "100% Damage",
+      "description": "<color_orange>100%</> Damage",
       "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30134_01.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "start_30134_01",
       "sort": "SORT_START",
       "egoType": "EGO_OWNER",
       "talent": [],
       "tooltips": [],
-      "variants": [],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt2"
+      "variants": [
+        {
+          "id": "rossweisse_srt2_pot",
+          "name": "Sword Slash",
+          "cost": 0,
+          "description": "<color_orange>100%</> Damage",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_COMMON",
+          "artwork": "/assets/card/start_30134_01.webp",
+          "video": null,
+          "artKey": "start_30134_01",
+          "sort": "SORT_START",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30134_srt2_pot"
+        }
+      ],
+      "sourceId": "c_30134_srt2"
     },
     {
       "id": "rossweisse_srt3",
       "name": "Standing Blade",
       "cost": 1,
-      "description": "100% Shield",
+      "description": "<color_orange>100%</> <color_orange><u>Shield</u></>",
       "category": "CARD_SKILL",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_COMMON",
+      "artwork": "/assets/card/start_30134_02.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "start_30134_02",
       "sort": "SORT_START",
       "egoType": "EGO_OWNER",
       "talent": [],
-      "tooltips": [],
+      "tooltips": [
+        {
+          "id": "CARD_SHIELD",
+          "title": "Shield",
+          "desc": "Decrease Damage Amount taken until the next turn"
+        }
+      ],
       "variants": [],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt3"
+      "sourceId": "c_30134_srt3"
     },
     {
       "id": "rossweisse_srt4",
       "name": "Flicker Blade",
       "cost": 0,
-      "description": "400% Damage<br>On polarization, split into Shard:Light and Shard:Dark",
+      "description": "<color_orange>400%</> Damage<br>On polarization, split into <cc>Shard:Light</> and <cc>Shard:Dark</>",
       "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_01.webp",
       "video": null,
-      "artKey": "",
-      "sort": "SORT_START",
+      "artKey": "unique_30134_01",
+      "sort": "SORT_UNIQUE",
       "egoType": "EGO_OWNER",
       "talent": [
         {
-          "id": "rossweisse-effect-0",
+          "id": "TALENT_LIGHT_DARK",
           "title": "Equilux",
-          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
         },
         {
           "id": "TALENT_ORIGIN",
           "title": "Unique",
-          "desc": "Only 1 of each Unique card can be included in the Deck"
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
         }
       ],
-      "tooltips": [
-        {
-          "id": "rossweisse-effect-1",
-          "title": "Light",
-          "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-        },
-        {
-          "id": "rossweisse-effect-2",
-          "title": "Dark",
-          "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-        }
-      ],
+      "tooltips": [],
       "variants": [
         {
           "id": "rossweisse_srt4_rsp1",
           "name": "Flicker Blade (Amped)",
           "cost": 0,
-          "description": "600% Damage<br>On polarization, split into Shard:Light (Amped) and Shard:Dark (Amped)",
+          "description": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Amped)</> and <cc>Shard:Dark (Amped)</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_01.webp",
           "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
+          "artKey": "unique_30134_01",
+          "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             },
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
-          "tooltips": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            }
-          ],
+          "tooltips": [],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp1"
+          "sourceId": "c_30134_srt4_rsp1"
         },
         {
           "id": "rossweisse_srt4_rsp2",
           "name": "Flicker Blade (Cycle)",
           "cost": 0,
-          "description": "600% Damage<br>On polarization, split into Shard:Light (Cycle) and Shard:Dark (Cycle)",
+          "description": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Cycle)</> and <cc>Shard:Dark (Cycle)</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_01.webp",
           "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
+          "artKey": "unique_30134_01",
+          "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             },
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
-          "tooltips": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            }
-          ],
+          "tooltips": [],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp2"
+          "sourceId": "c_30134_srt4_rsp2"
         },
         {
           "id": "rossweisse_srt4_rsp3",
           "name": "Flicker Blade (Aegis)",
           "cost": 0,
-          "description": "400% Damage<br>20% DMG-Based Shield<br>On polarization, split into Shard:Light (Aegis) and Shard:Dark (Aegis)",
+          "description": "<color_orange>400%</> Damage<br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>On polarization, split into <cc>Shard:Light (Aegis)</> and <cc>Shard:Dark (Aegis)</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_01.webp",
           "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
+          "artKey": "unique_30134_01",
+          "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             },
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
           "tooltips": [
             {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "id": "CARD_LEECHSHIELD",
+              "title": "DMG-Based Shield",
+              "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp3"
+          "sourceId": "c_30134_srt4_rsp3"
         },
         {
           "id": "rossweisse_srt4_rsp4",
           "name": "Flicker Blade (Blink)",
           "cost": 0,
-          "description": "600% Damage<br>On polarization, split into Shard:Light (Blink) and Shard:Dark (Blink)",
+          "description": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Blink)</> and <cc>Shard:Dark (Blink)</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_01.webp",
           "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
+          "artKey": "unique_30134_01",
+          "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             },
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
-          "tooltips": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            }
-          ],
+          "tooltips": [],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp4"
+          "sourceId": "c_30134_srt4_rsp4"
         },
         {
           "id": "rossweisse_srt4_rsp5",
           "name": "Flicker Blade (Unbound)",
           "cost": -1,
-          "description": "400% Damage<br>+120% base Damage Amount for each X<br>On polarization, split into Shard:Light (Unbound) and Shard:Dark (Unbound)",
+          "description": "<color_orange>400%</> Damage<br>+<color_orange>120</>% base Damage Amount for each <color_orange><u>X</u></><br>On polarization, split into <cc>Shard:Light (Unbound)</> and <cc>Shard:Dark (Unbound)</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_01.webp",
           "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
+          "artKey": "unique_30134_01",
+          "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             },
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             },
             {
               "id": "TALENT_TERMINATION",
               "title": "Finale",
-              "desc": "When this card is activated, end turn"
+              "desc": "When this card is <color_orange><u>activate</u></>d, end turn"
             }
           ],
           "tooltips": [
             {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "id": "CARD_COST_X",
+              "title": "X",
+              "desc": "Consume all remaining <color_orange><u>Action Points</u></> and activate effects equal to that number"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4_rsp5"
+          "sourceId": "c_30134_srt4_rsp5"
         }
       ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_srt4"
-    },
-    {
-      "id": "rossweisse_light",
-      "name": "Shard:Light",
-      "cost": 2,
-      "description": "80% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 1 card of this unit is activated, activate effect (2 times per turn)",
-      "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
-      "video": null,
-      "artKey": "",
-      "sort": "SORT_START",
-      "egoType": "EGO_OWNER",
-      "talent": [
-        {
-          "id": "rossweisse-effect-1",
-          "title": "Light",
-          "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-        },
-        {
-          "id": "TALENT_ORIGIN",
-          "title": "Unique",
-          "desc": "Only 1 of each Unique card can be included in the Deck"
-        },
-        {
-          "id": "TALENT_RETAIN",
-          "title": "Retain",
-          "desc": "This card is not discarded at the end of the turn"
-        }
-      ],
-      "tooltips": [],
-      "variants": [
-        {
-          "id": "rossweisse_light_rsp1",
-          "name": "Shard:Light (Amped)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 1 card of this unit is activated, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp1"
-        },
-        {
-          "id": "rossweisse_light_rsp2",
-          "name": "Shard:Light (Cycle)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When a card is Discarded through an ability, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp2"
-        },
-        {
-          "id": "rossweisse_light_rsp3",
-          "name": "Shard:Light (Aegis)",
-          "cost": 2,
-          "description": "240% Damage to a random enemy<br>Create 1 Sword Tassel<br>When attacked, activate effect (1 time per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp3"
-        },
-        {
-          "id": "rossweisse_light_rsp4",
-          "name": "Shard:Light (Blink)",
-          "cost": 0,
-          "description": "240% Damage<br>Create 1 Sword Tassel<br>Discard 1 random Status Ailment or Curse Card in hand",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            },
-            {
-              "id": "TALENT_RECALL",
-              "title": "Retrieve",
-              "desc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp4"
-        },
-        {
-          "id": "rossweisse_light_rsp5",
-          "name": "Shard:Light (Unbound)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When AP is gained through an ability, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light_rsp5"
-        }
-      ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_light"
-    },
-    {
-      "id": "rossweisse_dark",
-      "name": "Shard:Dark",
-      "cost": 2,
-      "description": "80% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 2 cards of other Combatants are activated, activate effect (2 times per turn)",
-      "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
-      "video": null,
-      "artKey": "",
-      "sort": "SORT_START",
-      "egoType": "EGO_OWNER",
-      "talent": [
-        {
-          "id": "rossweisse-effect-2",
-          "title": "Dark",
-          "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-        },
-        {
-          "id": "TALENT_ORIGIN",
-          "title": "Unique",
-          "desc": "Only 1 of each Unique card can be included in the Deck"
-        },
-        {
-          "id": "TALENT_RETAIN",
-          "title": "Retain",
-          "desc": "This card is not discarded at the end of the turn"
-        }
-      ],
-      "tooltips": [],
-      "variants": [
-        {
-          "id": "rossweisse_dark_rsp1",
-          "name": "Shard:Dark (Amped)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When 2 cards of other Combatants are activated, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp1"
-        },
-        {
-          "id": "rossweisse_dark_rsp2",
-          "name": "Shard:Dark (Cycle)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>On Draw through an ability, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp2"
-        },
-        {
-          "id": "rossweisse_dark_rsp3",
-          "name": "Shard:Dark (Aegis)",
-          "cost": 2,
-          "description": "240% Damage to a random enemy<br>Create 1 Sword Tassel<br>When Shield is gained through an ability, activate effect (1 time per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp3"
-        },
-        {
-          "id": "rossweisse_dark_rsp4",
-          "name": "Shard:Dark (Blink)",
-          "cost": 0,
-          "description": "240% Damage<br>Create 1 Sword Tassel<br>Discard 1 card of a random different Combatant in hand",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            },
-            {
-              "id": "TALENT_RECALL",
-              "title": "Retrieve",
-              "desc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp4"
-        },
-        {
-          "id": "rossweisse_dark_rsp5",
-          "name": "Shard:Dark (Unbound)",
-          "cost": 2,
-          "description": "120% Damage to a random enemy<br>Create 1 Sword Tassel<br>When a 1-Cost or higher card is activated, activate effect (2 times per turn)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_START",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            },
-            {
-              "id": "TALENT_RETAIN",
-              "title": "Retain",
-              "desc": "This card is not discarded at the end of the turn"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark_rsp5"
-        }
-      ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_dark"
+      "sourceId": "c_30134_srt4"
     }
   ],
   "sparkCards": [
@@ -743,12 +342,12 @@
       "id": "rossweisse_uni1",
       "name": "Sword Resonance",
       "cost": 1,
-      "description": "Create 3 Sword Tassel",
+      "description": "Create <color_orange>3</> <cc>Sword Tassel</>",
       "category": "CARD_SKILL",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_02.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "unique_30134_02",
       "sort": "SORT_UNIQUE",
       "egoType": "EGO_OWNER",
       "talent": [],
@@ -758,296 +357,350 @@
           "id": "rossweisse_uni1_rsp1",
           "name": "Sword Resonance",
           "cost": 1,
-          "description": "Create 3 Sword Tassel<br>Activate effect for 1 random Light or Dark card",
+          "description": "Create <color_orange>3</> <cc>Sword Tassel</><br>Activate effect for <color_orange>1</> random <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> card",
           "category": "CARD_SKILL",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_02.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_02",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-1",
+              "id": "TALENT_LIGHT",
               "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
             },
             {
-              "id": "rossweisse-effect-2",
+              "id": "TALENT_DARK",
               "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp1"
+          "sourceId": "c_30134_uni1_rsp1"
         },
         {
           "id": "rossweisse_uni1_rsp2",
           "name": "Sword Resonance",
           "cost": 1,
-          "description": "Create 3 Sword Tassel<br>Draw 1 card of this unit",
+          "description": "Create <color_orange>3</> <cc>Sword Tassel</><br><color_orange><u>Draw</u></> <color_orange>1</> card(s) of this unit",
           "category": "CARD_SKILL",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_02.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_02",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
-          "tooltips": [],
+          "tooltips": [
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp2"
+          "sourceId": "c_30134_uni1_rsp2"
         },
         {
           "id": "rossweisse_uni1_rsp3",
           "name": "Sword Resonance",
           "cost": 0,
-          "description": "Apply Retrieve to all Light and Dark cards in hand",
+          "description": "Apply <color_orange><u>Retrieve</u></> to all <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards in hand",
           "category": "CARD_SKILL",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_02.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_02",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
           "tooltips": [
             {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
             },
             {
-              "id": "rossweisse-effect-2",
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_DARK",
               "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp3"
+          "sourceId": "c_30134_uni1_rsp3"
         },
         {
           "id": "rossweisse_uni1_rsp4",
           "name": "Sword Resonance",
           "cost": 1,
-          "description": "Create 3 Sword Tassel<br>When the next Equilux card is coalesced, apply Pulverize to that card",
+          "description": "Create <color_orange>3</> <cc>Sword Tassel</><br>When the next <color_orange><u>Equilux</u></> card is coalesced, apply <color_orange><u>Pulverize</u></> to that card",
           "category": "CARD_SKILL",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_02.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_02",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-0",
+              "id": "TALENT_SHIELD_DESTRUCT",
+              "title": "Pulverize",
+              "desc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%"
+            },
+            {
+              "id": "TALENT_LIGHT_DARK",
               "title": "Equilux",
-              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp4"
+          "sourceId": "c_30134_uni1_rsp4"
         },
         {
           "id": "rossweisse_uni1_rsp5",
           "name": "Sword Resonance",
           "cost": 1,
-          "description": "Activate effect for all Light and Dark cards in hand",
+          "description": "Activate effect for all <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards in hand",
           "category": "CARD_SKILL",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_02.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_02",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
               "id": "TALENT_ORIGIN",
               "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
             }
           ],
           "tooltips": [
             {
-              "id": "rossweisse-effect-1",
+              "id": "TALENT_LIGHT",
               "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
             },
             {
-              "id": "rossweisse-effect-2",
+              "id": "TALENT_DARK",
               "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1_rsp5"
+          "sourceId": "c_30134_uni1_rsp5"
         }
       ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni1"
+      "sourceId": "c_30134_uni1"
     },
     {
       "id": "rossweisse_uni2",
       "name": "Radiant Sword Flow",
       "cost": 1,
-      "description": "200% Damage<br>Discard up to 1 card in hand, and if Discarded, 150% Damage",
+      "description": "<color_orange>200%</> Damage<br><color_orange><u>Discard</u></> up to <color_orange>1</> card(s) in hand, and if Discarded, <color_orange>150%</> Damage",
       "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_03.webp",
       "video": null,
-      "artKey": "",
-      "sort": "SORT_UNIQUE",
-      "egoType": "EGO_OWNER",
-      "talent": [],
-      "tooltips": [],
-      "variants": [
-        {
-          "id": "rossweisse_uni2_rsp1",
-          "name": "Radiant Sword Flow",
-          "cost": 1,
-          "description": "300% Damage<br>Discard up to 2 cards in hand, then that amount Discarded x 200% Damage",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_UNIQUE",
-          "egoType": "EGO_OWNER",
-          "talent": [],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp1"
-        },
-        {
-          "id": "rossweisse_uni2_rsp2",
-          "name": "Radiant Sword Flow",
-          "cost": 0,
-          "description": "200% Damage<br>Discard 1, and if that card is a Light or Dark card, proc then move to hand",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_UNIQUE",
-          "egoType": "EGO_OWNER",
-          "talent": [],
-          "tooltips": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            }
-          ],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp2"
-        },
-        {
-          "id": "rossweisse_uni2_rsp3",
-          "name": "Radiant Sword Flow",
-          "cost": 1,
-          "description": "300% Damage<br>Discard up to 1 card in hand<br>Decrease Cost of the next 2 Light or Dark cards by 2 until activated",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_UNIQUE",
-          "egoType": "EGO_OWNER",
-          "talent": [],
-          "tooltips": [
-            {
-              "id": "rossweisse-effect-1",
-              "title": "Light",
-              "desc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            },
-            {
-              "id": "rossweisse-effect-2",
-              "title": "Dark",
-              "desc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-            }
-          ],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp3"
-        },
-        {
-          "id": "rossweisse_uni2_rsp4",
-          "name": "Radiant Sword Flow",
-          "cost": 1,
-          "description": "300% Damage<br>When a Bind card is stacked this turn, +50% base Damage Amount (max 500%)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_UNIQUE",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp4"
-        },
-        {
-          "id": "rossweisse_uni2_rsp5",
-          "name": "Radiant Sword Flow",
-          "cost": 1,
-          "description": "Increase Damage Amount of this unit by 15% for each Justice card in hand for 1 turn (max 75%)",
-          "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
-          "video": null,
-          "artKey": "",
-          "sort": "SORT_UNIQUE",
-          "egoType": "EGO_OWNER",
-          "talent": [
-            {
-              "id": "TALENT_ORIGIN",
-              "title": "Unique",
-              "desc": "Only 1 of each Unique card can be included in the Deck"
-            }
-          ],
-          "tooltips": [],
-          "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2_rsp5"
-        }
-      ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni2"
-    },
-    {
-      "id": "rossweisse_uni3",
-      "name": "Blade of the Cycle",
-      "cost": 1,
-      "description": "200% Damage<br>4 Brand of the Cycle",
-      "category": "CARD_ATK",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
-      "video": null,
-      "artKey": "",
+      "artKey": "unique_30134_03",
       "sort": "SORT_UNIQUE",
       "egoType": "EGO_OWNER",
       "talent": [],
       "tooltips": [
         {
-          "id": "rossweisse-effect-3",
+          "id": "CARD_DISCARD",
+          "title": "Discard",
+          "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+        }
+      ],
+      "variants": [
+        {
+          "id": "rossweisse_uni2_rsp1",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "<color_orange>300</>% Damage<br><color_orange><u>Discard</u></> up to <color_orange>2</> card(s) in hand, then that amount Discarded × <color_orange>200%</> Damage",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_03.webp",
+          "video": null,
+          "artKey": "unique_30134_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_uni2_rsp1"
+        },
+        {
+          "id": "rossweisse_uni2_rsp2",
+          "name": "Radiant Sword Flow",
+          "cost": 0,
+          "description": "<color_orange>200%</> Damage<br><color_orange><u>Discard</u></> <color_orange>1</>, and if that card is a <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> card, <color_orange><u>proc</u></> then move to hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_03.webp",
+          "video": null,
+          "artKey": "unique_30134_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "CARD_USE",
+              "title": "Proc",
+              "desc": "Activating a card through an effect"
+            },
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_uni2_rsp2"
+        },
+        {
+          "id": "rossweisse_uni2_rsp3",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "<color_orange>300</>% Damage<br><color_orange><u>Discard</u></> up to <color_orange>1</> card(s) in hand<br>Decrease Cost of the next <color_orange>2</> <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> cards by <cc>2</> until <color_orange><u>activate</u></>d",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_03.webp",
+          "video": null,
+          "artKey": "unique_30134_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [],
+          "tooltips": [
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            },
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            },
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_uni2_rsp3"
+        },
+        {
+          "id": "rossweisse_uni2_rsp4",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "<color_orange>300</>% Damage<br>When a <color_orange><u>Bind</u></> card is stacked this turn, +<cc>50</>% base Damage Amount (max <cc>500</>%)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_03.webp",
+          "video": null,
+          "artKey": "unique_30134_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_TALENT_BIND",
+              "title": "Bind",
+              "desc": "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_uni2_rsp4"
+        },
+        {
+          "id": "rossweisse_uni2_rsp5",
+          "name": "Radiant Sword Flow",
+          "cost": 1,
+          "description": "Increase Damage Amount of this unit by <color_orange>15</>% for each <color_ego_narcissism_light>Justice</> Card in hand for <cc>1</> turn (max <cc>75</>%)",
+          "category": "CARD_SKILL",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_03.webp",
+          "video": null,
+          "artKey": "unique_30134_03",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30134_uni2_rsp5"
+        }
+      ],
+      "sourceId": "c_30134_uni2"
+    },
+    {
+      "id": "rossweisse_uni3",
+      "name": "Blade of the Cycle",
+      "cost": 1,
+      "description": "<color_orange>200%</> Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></>",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_LEGEND",
+      "artwork": "/assets/card/unique_30134_04.webp",
+      "video": null,
+      "artKey": "unique_30134_04",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [],
+      "tooltips": [
+        {
+          "id": "T_CS_30134_02",
           "title": "Brand of the Cycle",
-          "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+          "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
         }
       ],
       "variants": [
@@ -1055,180 +708,1867 @@
           "id": "rossweisse_uni3_rsp1",
           "name": "Blade of the Cycle",
           "cost": 1,
-          "description": "300% Damage<br>6 Brand of the Cycle",
+          "description": "<color_orange>300</>% Damage<br><color_orange>6</> <color_orange><u>Brand of the Cycle</u></>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30134_04.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_04",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-3",
+              "id": "T_CS_30134_02",
               "title": "Brand of the Cycle",
-              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+              "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp1"
+          "sourceId": "c_30134_uni3_rsp1"
         },
         {
           "id": "rossweisse_uni3_rsp2",
           "name": "Blade of the Cycle",
           "cost": 1,
-          "description": "300% Damage<br>2 Brand of the Cycle<br>Purity: Create 2 Sword Tassel<br>* Purity: When no cards of other Attributes are in hand, enable this effect",
+          "description": "<color_orange>300</>% Damage<br><color_orange>2</> <color_orange><u>Brand of the Cycle</u></><br><color_orange>Purity:</> Create <color_orange>2</> <cc>Sword Tassel</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30134_04.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_04",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-3",
+              "id": "T_CS_30134_02",
               "title": "Brand of the Cycle",
-              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+              "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp2"
+          "sourceId": "c_30134_uni3_rsp2"
         },
         {
           "id": "rossweisse_uni3_rsp3",
           "name": "Blade of the Cycle",
           "cost": 1,
-          "description": "200% Damage<br>4 Brand of the Cycle<br>Draw 1 card of this unit, then decrease Cost of those cards by 1 for 1 turn",
+          "description": "<color_orange>200%</> Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></><br><color_orange><u>Draw</u></> <color_orange>1</> card(s) of this unit, then decrease Cost of those cards by <color_orange>1</> for <cc>1</> turn",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30134_04.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_04",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-3",
+              "id": "T_CS_30134_02",
               "title": "Brand of the Cycle",
-              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+              "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp3"
+          "sourceId": "c_30134_uni3_rsp3"
         },
         {
           "id": "rossweisse_uni3_rsp4",
           "name": "Blade of the Cycle",
           "cost": 1,
-          "description": "300% Damage<br>1 Brand of the Cycle for each Justice card in hand<br>Purity: Decrease Cost by 1<br>* Purity: When no cards of other Attributes are in hand, enable this effect",
+          "description": "<color_orange>300</>% Damage<br><color_orange>1</> <color_orange><u>Brand of the Cycle</u></> for each <color_ego_narcissism_light>Justice</> Card in hand<br><color_orange>Purity:</> Decrease Cost by <color_orange>1</>",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30134_04.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_04",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [],
           "tooltips": [
             {
-              "id": "rossweisse-effect-3",
+              "id": "T_CS_30134_02",
               "title": "Brand of the Cycle",
-              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+              "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp4"
+          "sourceId": "c_30134_uni3_rsp4"
         },
         {
           "id": "rossweisse_uni3_rsp5",
           "name": "Blade of the Cycle",
           "cost": 2,
-          "description": "500% Damage<br>4 Brand of the Cycle<br>On Shield Break through this card, proc 1 more time (1 time per turn)",
+          "description": "<color_orange>500</>% Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></><br>On <color_orange><u>Shield Break</u></> through this card, <color_orange><u>proc</u></> <cc>1</> more time (<cc>1</> time per turn)",
           "category": "CARD_ATK",
-          "rarity": "RARITY_UNKNOWN",
-          "artwork": null,
+          "rarity": "RARITY_LEGEND",
+          "artwork": "/assets/card/unique_30134_04.webp",
           "video": null,
-          "artKey": "",
+          "artKey": "unique_30134_04",
           "sort": "SORT_UNIQUE",
           "egoType": "EGO_OWNER",
           "talent": [
             {
               "id": "TALENT_SHIELD_DESTRUCT",
               "title": "Pulverize",
-              "desc": "When hitting a target holding Shield, increase Damage Amount by 20%"
+              "desc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%"
             }
           ],
           "tooltips": [
             {
-              "id": "rossweisse-effect-3",
+              "id": "CARD_SHIELD_DESTROY",
+              "title": "Shield Break",
+              "desc": "An effect that is activated when <color_orange><u>Shield</u></> of a target is removed through a card"
+            },
+            {
+              "id": "T_CS_30134_02",
               "title": "Brand of the Cycle",
-              "desc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
+              "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
+            },
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
             }
           ],
           "variants": [],
-          "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3_rsp5"
+          "sourceId": "c_30134_uni3_rsp5"
         }
       ],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni3"
+      "sourceId": "c_30134_uni3"
     },
     {
       "id": "rossweisse_uni4",
-      "name": "Kyrken's Apostle",
+      "name": "Kyrken’s Apostle",
       "cost": 0,
-      "description": "Draw 2<br>1 Kyrken's Aegis",
-      "category": "CARD_SKILL",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "description": "<color_orange><u>Draw</u></> <color_orange>2</><br><color_orange>1</> <color_orange><u>Kyrken’s Aegis</u></>",
+      "category": "CARD_POWER",
+      "rarity": "RARITY_UNIQUE",
+      "artwork": "/assets/card/unique_30134_05.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "unique_30134_05",
       "sort": "SORT_UNIQUE",
       "egoType": "EGO_OWNER",
       "talent": [
         {
           "id": "TALENT_ORIGIN",
           "title": "Unique",
-          "desc": "Only 1 of each Unique card can be included in the Deck"
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
         },
         {
           "id": "TALENT_INNATE",
           "title": "Initiation",
-          "desc": "At the start of battle, place this card at the top of Draw Pile"
+          "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
         }
       ],
       "tooltips": [
         {
-          "id": "rossweisse-effect-4",
-          "title": "Kyrken's Aegis",
-          "desc": "Increase Damage Amount of Attack Cards by 20%, and increase final Damage Amount of Flicker Blade by 15%"
+          "id": "T_CS_30134_03",
+          "title": "Kyrken’s Aegis",
+          "desc": "Increase Damage Amount of Attack Cards by <color_orange>20</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>15</>%"
+        },
+        {
+          "id": "CARD_DRAW",
+          "title": "Draw",
+          "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
         }
       ],
-      "variants": [],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_uni4"
+      "variants": [
+        {
+          "id": "rossweisse_uni4_lbk",
+          "name": "Kyrken’s Apostle",
+          "cost": 0,
+          "description": "<color_orange><u>Draw</u></> <color_orange>2</><br>Gain <color_orange>1</> <color_orange><u>AP</u></><br><color_orange>1</> <color_orange><u>Kyrken’s Aegis</u></>",
+          "category": "CARD_POWER",
+          "rarity": "RARITY_UNIQUE",
+          "artwork": "/assets/card/unique_30134_05.webp",
+          "video": null,
+          "artKey": "unique_30134_05",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_INNATE",
+              "title": "Initiation",
+              "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "T_CS_30134_04",
+              "title": "Kyrken’s Aegis",
+              "desc": "Increase Damage Amount of Attack Cards by <color_orange>30</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>20</>%"
+            },
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            },
+            {
+              "id": "CARD_ENERGY",
+              "title": "AP",
+              "desc": "The resource consumed when cards are <color_orange><u>use</u></>d"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_uni4_lbk"
+        }
+      ],
+      "sourceId": "c_30134_uni4"
     }
   ],
+  "collapseSkillCard": {
+    "id": "rossweisse_ego",
+    "name": "Flickering White Night",
+    "cost": 6,
+    "description": "<color_orange>1200%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>30</>% of Damage dealt to the target",
+    "category": "CARD_ATK",
+    "rarity": "RARITY_UNIQUE",
+    "artwork": "/assets/card/collapse_30134_01.webp",
+    "video": null,
+    "artKey": "collapse_30134_01",
+    "sort": "SORT_COLLAPSE_SKILL",
+    "egoType": "EGO_OWNER",
+    "talent": [],
+    "tooltips": [
+      {
+        "id": "CARD_FIXEDDAMAGE",
+        "title": "Fixed Damage",
+        "desc": "A damage that ignores persistent effects"
+      },
+      {
+        "id": "TALENT_LIGHT_DARK",
+        "title": "Equilux",
+        "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
+      },
+      {
+        "id": "CARD_ACTIVATE",
+        "title": "Activate",
+        "desc": "Using or proccing a card"
+      }
+    ],
+    "variants": [
+      {
+        "id": "rossweisse_ego_lbk",
+        "name": "Flickering White Night",
+        "cost": 6,
+        "description": "<color_orange>1600%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>60</>% of Damage dealt to the target",
+        "category": "CARD_ATK",
+        "rarity": "RARITY_UNIQUE",
+        "artwork": "/assets/card/collapse_30134_01.webp",
+        "video": null,
+        "artKey": "collapse_30134_01",
+        "sort": "SORT_COLLAPSE_SKILL",
+        "egoType": "EGO_OWNER",
+        "talent": [],
+        "tooltips": [
+          {
+            "id": "CARD_FIXEDDAMAGE",
+            "title": "Fixed Damage",
+            "desc": "A damage that ignores persistent effects"
+          },
+          {
+            "id": "TALENT_LIGHT_DARK",
+            "title": "Equilux",
+            "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
+          },
+          {
+            "id": "CARD_ACTIVATE",
+            "title": "Activate",
+            "desc": "Using or proccing a card"
+          }
+        ],
+        "variants": [],
+        "sourceId": "c_30134_eps_lbk",
+        "costLabel": "EP"
+      }
+    ],
+    "sourceId": "c_30134_eps",
+    "costLabel": "EP"
+  },
+  "collapseCards": [
+    {
+      "id": "rossweisse_col",
+      "name": "Despair",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_30134_02.webp",
+      "video": null,
+      "artKey": "collapse_30134_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30134_col"
+    },
+    {
+      "id": "rossweisse_col2",
+      "name": "Despair",
+      "cost": 0,
+      "description": "Has a low chance for unexpected results to occur on use.",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/collapse_2_30134_02.webp",
+      "video": null,
+      "artKey": "collapse_2_30134_02",
+      "sort": "SORT_COLLAPSE",
+      "egoType": "EGO_BASIC",
+      "talent": [],
+      "tooltips": [],
+      "variants": [],
+      "sourceId": "c_30134_col2"
+    }
+  ],
+  "collapsePassive": {
+    "collapse_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30134_col",
+        "name": "Despair",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_30134_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "Has a low chance for unexpected results to occur on use.",
+        "ego_type": "EGO_BASIC",
+        "id": "c_30134_col2",
+        "name": "Despair",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "collapse_2_30134_02",
+        "season_tags": [],
+        "skill_eff_ids": [],
+        "sort": "SORT_COLLAPSE",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      }
+    ],
+    "collapse_effect": "give_oneself_up",
+    "collapse_illustration": "collapse/collapse_illustration/give_oneself_up",
+    "collapse_need_count": 5,
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "narcissism",
+        "id": "30134",
+        "job": "striker",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 6,
+      "desc_display": "<color_orange>1200%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>30</>% of Damage dealt to the target",
+      "ego_type": "EGO_OWNER",
+      "id": "c_30134_eps",
+      "name": "Flickering White Night",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 6,
+          "desc_display": "<color_orange>1600%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>60</>% of Damage dealt to the target",
+          "ego_type": "EGO_OWNER",
+          "id": "c_30134_eps_lbk",
+          "name": "Flickering White Night",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_30134_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_30134_eps_lbk_01",
+            "c_30134_eps_lbk_02"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "A damage that ignores persistent effects",
+              "id": "CARD_FIXEDDAMAGE",
+              "title": "Fixed Damage"
+            },
+            {
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+              "id": "TALENT_LIGHT_DARK",
+              "title": "Equilux"
+            },
+            {
+              "desc": "Using or proccing a card",
+              "id": "CARD_ACTIVATE",
+              "title": "Activate"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_30134_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_30134_eps_01",
+        "c_30134_eps_02"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "A damage that ignores persistent effects",
+          "id": "CARD_FIXEDDAMAGE",
+          "title": "Fixed Damage"
+        },
+        {
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+          "id": "TALENT_LIGHT_DARK",
+          "title": "Equilux"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ]
+    },
+    "collapse_text": "collapse_text/collapse_text_give_oneself_up",
+    "desc": "Every time this character enters battle, their stress increases by <cc>10</>.",
+    "id": "collapse_30134",
+    "link_psychosis_id": "psychosis_1009_3",
+    "name": "Despair"
+  },
+  "manifestEgo": [
+    {
+      "break_level": 1,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "Adds the following effect to the <color_orange><u>Kyrken’s Apostle</u></> card: Gain <color_orange>1</> AP.<br>Changes the following effects for the Kyrken’s Aegis effect: Increase Damage Amount of Attack Cards of this unit by <color_orange>30</>%, and increase final Damage Amount of <color_orange><u>Flicker Blade</u></> by <color_orange>20</>%",
+      "group": "limit_30134",
+      "id": "limit_30134_1",
+      "illust": "unique_30134_05",
+      "link_card_id": "[rossweisse_uni4]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Mythic Card Upgrade",
+      "title": "Sleeping Memory"
+    },
+    {
+      "break_level": 2,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1,1]",
+      "desc": "At the start of battle, increase Rossweisse’s final Damage Amount by <color_orange>20</>%.<br>At the start of the turn, gain <color_orange>4 Blade Afterimage</>.<br><color_orange>Blade Afterimage</>: When Rossweisse’s Light or Dark cards are activated, <color_orange>120</>% Damage to a random enemy, create <color_orange>1</> <color_orange><u>Sword Tassel</u></>, then decrease <color_orange>Blade Afterimage</> by <color_orange>1</> (max <color_orange>8</> stacks)",
+      "group": "limit_30134",
+      "id": "limit_30134_2",
+      "illust": "unique_30134_01",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30134_10,cs_30134_11]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Awakening Memory"
+    },
+    {
+      "break_level": 3,
+      "break_type": "BREAK_TYPE_CARD_R_SPARK",
+      "break_value": "[]",
+      "desc": "+<color_orange>400</>% Damage Amount to <color_orange><u>Flickering White Night</u></>, and changes the Fixed Damage inflicted to the target when the next Equilux card is activated from being equal to <color_orange>30</>% Damage taken into being equal to <color_orange>60</>% Damage taken.",
+      "group": "limit_30134",
+      "id": "limit_30134_3",
+      "illust": "collapse_30134_01",
+      "link_card_id": "[rossweisse_ego]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[]",
+      "sub_title": "Ego Skill Upgrade",
+      "title": "Vivid Memory"
+    },
+    {
+      "break_level": 4,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1]",
+      "desc": "At the start of battle, gain <color_orange>1 Precious Name</>.<br>Each time the effect of Rossweisse’s Light or Dark cards activate, gain <color_orange>1 Precious Name</>.<br><color_orange>Precious Name</>: Increase Rossweisse’s Damage Amount by <color_orange>8</>% (max <color_orange>5</> stacks)<br><br><#DAA520><i>「Sig, Siegrune, Gerhilde, Fricka... and you.」</></>",
+      "group": "limit_30134",
+      "id": "limit_30134_4",
+      "illust": "unique_30134_02",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30134_13]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Inner Memory"
+    },
+    {
+      "break_level": 5,
+      "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+      "break_value": "[3]",
+      "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+      "group": "limit_30134",
+      "id": "limit_30134_5",
+      "illust": "unique_30134_03",
+      "link_card_id": "[]",
+      "link_cs_id": "[]",
+      "potential_node_num": "[2_0,3_0,4_0]",
+      "sub_title": "Stat Upgrade",
+      "title": "Complete Memory"
+    },
+    {
+      "break_level": 6,
+      "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+      "break_value": "[1,1]",
+      "desc": "When Rossweisse’s <color_orange><u>Flicker Blade</u></> moves to hand, gain <color_orange>1 Blade Poised Against the Cycle</>, and the Equilux, Light, and Dark cards are no longer included in the hand’s maximum capacity count.<br><color_orange>Blade Poised Against the Cycle</>: Increase final Damage Amount of Rossweisse’s Attack Cards by <color_orange>15</>%, and if that card is <color_orange><u>Flicker Blade</u></>, increase by <color_orange>25</>% (max <color_orange>2</> stacks)",
+      "group": "limit_30134",
+      "id": "limit_30134_6",
+      "illust": "unique_30134_04",
+      "link_card_id": "[]",
+      "link_cs_id": "[cs_30134_15,cs_30134_17]",
+      "potential_node_num": "[]",
+      "sub_title": "Battle Passive Upgrade",
+      "title": "Liberated Memory"
+    }
+  ],
+  "potentialNodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "301341001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "301342001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "301342002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "301342003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "301342004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "301342005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "301342006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "301342007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "301342008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "301342009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "301342010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "301342011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "301342012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "301342013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "301342014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "301342015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "301342016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "301343001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "301343002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "301343003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "301343004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "301343005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "301343006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "301343007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "301343008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "301343009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "301343010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "301343011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "301343012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "301343013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "301343014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "301343015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "301343016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Decrease Cost of the <color_orange><u>Sword Slash</u></> card by <color_orange>1</>.",
+      "id": "301343101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "301344001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "301344002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "301344003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "301344004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "301344005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "301344006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "301344007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "301344008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "301344009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "301344010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "301344011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "301344012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "301344013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "301344014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "301344015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "301344016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "301345001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "301345002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "301345003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "301345004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "301345005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Rossweisse's <color_orange><u>Sword Slash</u></>, and if Rossweisse's Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "301345101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "301345201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "301346001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "301346002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "301346003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "301346004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "301346005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Rossweisse's Attack is <color_orange>600</> or higher, +<color_orange>5</>% Justice Attribute Damage Amount, and for every <color_orange>20</> Attack exceeding 600, add an additional +<color_orange>2</>% to the modifier (additional +<color_orange>10</>% max)",
+      "id": "301347001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "potentialTargetCards": [],
+  "potentialTargetLinkCardId": "[]",
+  "potentialTargetLinkCardIds": [],
+  "source": "e7bot",
+  "sourceId": "30134",
+  "sourceFile": "docs/combatant/rossweisse/detail.json",
   "generatedCards": [
     {
-      "id": "rossweisse_tassel",
-      "name": "Sword Tassel",
-      "cost": 0,
-      "costLabel": "Unactivatable",
-      "description": "When coalesced into the Equilux card, for each stack, +80% base Damage Amount to the Equilux card for 1 turn",
-      "category": "CARD_SKILL",
-      "rarity": "RARITY_UNKNOWN",
-      "artwork": null,
+      "id": "rossweisse_light",
+      "name": "Shard:Light",
+      "cost": 2,
+      "description": "<color_orange>80%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <cc>1</> card of this unit is <color_orange><u>activate</u></>d, activate effect (<cc>2</> times per turn)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_06.webp",
       "video": null,
-      "artKey": "",
+      "artKey": "unique_30134_06",
       "sort": "SORT_UNIQUE",
       "egoType": "EGO_OWNER",
       "talent": [
         {
-          "id": "rossweisse-bind",
-          "title": "Bind (1/20)",
-          "desc": "Bind (1/20)"
+          "id": "TALENT_LIGHT",
+          "title": "Light",
+          "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
         },
         {
           "id": "TALENT_RETAIN",
@@ -1238,94 +2578,480 @@
       ],
       "tooltips": [
         {
-          "id": "rossweisse-effect-0",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "rossweisse_light_rsp1",
+          "name": "Shard:Light (Amped)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <cc>1</> card of this unit is <color_orange><u>activate</u></>d, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_06.webp",
+          "video": null,
+          "artKey": "unique_30134_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp1_mut1"
+        },
+        {
+          "id": "rossweisse_light_rsp2",
+          "name": "Shard:Light (Cycle)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When a card is Discarded through an ability, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_06.webp",
+          "video": null,
+          "artKey": "unique_30134_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp2_mut1"
+        },
+        {
+          "id": "rossweisse_light_rsp3",
+          "name": "Shard:Light (Aegis)",
+          "cost": 2,
+          "description": "<color_orange>240%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When attacked, activate effect (<cc>1</> time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_06.webp",
+          "video": null,
+          "artKey": "unique_30134_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp3_mut1"
+        },
+        {
+          "id": "rossweisse_light_rsp4",
+          "name": "Shard:Light (Blink)",
+          "cost": 0,
+          "description": "<color_orange>240%</> Damage<br>Create <color_orange>1</> <cc>Sword Tassel</><br><color_orange><u>Discard</u></> <color_orange>1</> random Status Ailment or Curse Card(s) in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_06.webp",
+          "video": null,
+          "artKey": "unique_30134_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp4_mut1"
+        },
+        {
+          "id": "rossweisse_light_rsp5",
+          "name": "Shard:Light (Unbound)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <color_orange><u>AP</u></> is gained through an ability, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_06.webp",
+          "video": null,
+          "artKey": "unique_30134_06",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_LIGHT",
+              "title": "Light",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ENERGY",
+              "title": "AP",
+              "desc": "The resource consumed when cards are <color_orange><u>use</u></>d"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp5_mut1"
+        }
+      ],
+      "sourceId": "c_30134_srt4_mut1"
+    },
+    {
+      "id": "rossweisse_dark",
+      "name": "Shard:Dark",
+      "cost": 2,
+      "description": "<color_orange>80%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <cc>2</> cards of other Combatants are <color_orange><u>activate</u></>d, activate effect (<cc>2</> times per turn)",
+      "category": "CARD_ATK",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_07.webp",
+      "video": null,
+      "artKey": "unique_30134_07",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_DARK",
+          "title": "Dark",
+          "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+        },
+        {
+          "id": "TALENT_ORIGIN",
+          "title": "Unique",
+          "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "CARD_ACTIVATE",
+          "title": "Activate",
+          "desc": "Using or proccing a card"
+        }
+      ],
+      "variants": [
+        {
+          "id": "rossweisse_dark_rsp1",
+          "name": "Shard:Dark (Amped)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <cc>2</> cards of other Combatants are <color_orange><u>activate</u></>d, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_07.webp",
+          "video": null,
+          "artKey": "unique_30134_07",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp1_mut2"
+        },
+        {
+          "id": "rossweisse_dark_rsp2",
+          "name": "Shard:Dark (Cycle)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>On <color_orange><u>Draw</u></> through an ability, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_07.webp",
+          "video": null,
+          "artKey": "unique_30134_07",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DRAW",
+              "title": "Draw",
+              "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp2_mut2"
+        },
+        {
+          "id": "rossweisse_dark_rsp3",
+          "name": "Shard:Dark (Aegis)",
+          "cost": 2,
+          "description": "<color_orange>240%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When <color_orange><u>Shield</u></> is gained through an ability, activate effect (<cc>1</> time per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_07.webp",
+          "video": null,
+          "artKey": "unique_30134_07",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_SHIELD",
+              "title": "Shield",
+              "desc": "Decrease Damage Amount taken until the next turn"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp3_mut2"
+        },
+        {
+          "id": "rossweisse_dark_rsp4",
+          "name": "Shard:Dark (Blink)",
+          "cost": 0,
+          "description": "<color_orange>240%</> Damage<br>Create <color_orange>1</> <cc>Sword Tassel</><br><color_orange><u>Discard</u></> <color_orange>1</> card(s) of a random different Combatant in hand",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_07.webp",
+          "video": null,
+          "artKey": "unique_30134_07",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            },
+            {
+              "id": "TALENT_RECALL",
+              "title": "Retrieve",
+              "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_DISCARD",
+              "title": "Discard",
+              "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp4_mut2"
+        },
+        {
+          "id": "rossweisse_dark_rsp5",
+          "name": "Shard:Dark (Unbound)",
+          "cost": 2,
+          "description": "<color_orange>120%</> Damage to a random enemy<br>Create <color_orange>1</> <cc>Sword Tassel</><br>When a <cc>1</>-Cost or higher card is <color_orange><u>activate</u></>d, activate effect (<cc>2</> times per turn)",
+          "category": "CARD_ATK",
+          "rarity": "RARITY_RARE",
+          "artwork": "/assets/card/unique_30134_07.webp",
+          "video": null,
+          "artKey": "unique_30134_07",
+          "sort": "SORT_UNIQUE",
+          "egoType": "EGO_OWNER",
+          "talent": [
+            {
+              "id": "TALENT_DARK",
+              "title": "Dark",
+              "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+            },
+            {
+              "id": "TALENT_ORIGIN",
+              "title": "Unique",
+              "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
+            },
+            {
+              "id": "TALENT_RETAIN",
+              "title": "Retain",
+              "desc": "This card is not discarded at the end of the turn"
+            }
+          ],
+          "tooltips": [
+            {
+              "id": "CARD_ACTIVATE",
+              "title": "Activate",
+              "desc": "Using or proccing a card"
+            }
+          ],
+          "variants": [],
+          "sourceId": "c_30134_srt4_rsp5_mut2"
+        }
+      ],
+      "sourceId": "c_30134_srt4_mut2"
+    },
+    {
+      "id": "rossweisse_tassel",
+      "name": "Sword Tassel",
+      "cost": 0,
+      "description": "When coalesced into the <color_orange><u>Equilux</u></> card, for each stack, +<color_orange>80</>% base Damage Amount to the Equilux card for <cc>1</> turn",
+      "category": "CARD_SKILL",
+      "rarity": "RARITY_RARE",
+      "artwork": "/assets/card/unique_30134_08.webp",
+      "video": null,
+      "artKey": "unique_30134_08",
+      "sort": "SORT_UNIQUE",
+      "egoType": "EGO_OWNER",
+      "talent": [
+        {
+          "id": "TALENT_UNPLAYABLE",
+          "title": "Unactivatable",
+          "desc": "This card cannot be activated"
+        },
+        {
+          "id": "TALENT_RETAIN",
+          "title": "Retain",
+          "desc": "This card is not discarded at the end of the turn"
+        }
+      ],
+      "tooltips": [
+        {
+          "id": "TALENT_LIGHT_DARK",
           "title": "Equilux",
-          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
         }
       ],
       "variants": [],
-      "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_tassel"
+      "sourceId": "c_30134_cre1",
+      "costLabel": "Unactivatable"
     }
   ],
-  "egoSkillCard": {
-    "id": "rossweisse_ego",
-    "name": "Flickering White Night",
-    "cost": 6,
-    "description": "1,200% Damage<br>When the next Equilux card is activated, inflict Fixed Damage equal to 30% of Damage dealt to target",
-    "category": "CARD_ATK",
-    "rarity": "RARITY_UNKNOWN",
-    "artwork": null,
-    "video": null,
-    "artKey": "",
-    "sort": "SORT_EGO",
-    "egoType": "EGO_OWNER",
-    "talent": [],
-    "tooltips": [
-      {
-        "id": "rossweisse-effect-0",
-        "title": "Equilux",
-        "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
-      }
-    ],
-    "variants": [],
-    "sourceId": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html#rossweisse_ego",
-    "costLabel": "EP"
-  },
-  "collapseSkillCard": null,
-  "collapseCards": [],
-  "collapsePassive": null,
-  "manifestEgo": [
-    {
-      "id": "rossweisse_manifest_1",
-      "break_level": 1,
-      "title": "Sleeping Memory",
-      "sub_title": "",
-      "desc": "Adds the following effect to the Kyrken's Apostle card: Gain 1 AP. Changes the following effects for the Kyrken's Aegis effect : Increase Damage Amount of Attack Cards by 30%,<br>and increase final Damage Amount of Flicker Blade by 20%.",
-      "link_card_id": ""
-    },
-    {
-      "id": "rossweisse_manifest_2",
-      "break_level": 2,
-      "title": "Awakening Memory",
-      "sub_title": "",
-      "desc": "At the start of battle, increase Rossweisse's final Damage Amount by 20%.<br>At the start of the turn, gain 4 Blade Afterimage.<br>Blade Afterimage: When Rossweisse's Light or Dark cards are activated, 120% Damage to a random enemy, create 1 Sword Tassel, then decrease Blade Afterimage by 1 (max 8 stacks)",
-      "link_card_id": ""
-    },
-    {
-      "id": "rossweisse_manifest_3",
-      "break_level": 3,
-      "title": "Vivid Memory",
-      "sub_title": "",
-      "desc": "+400% Damage Amount to Flickering White Night, and changes the Fixed Damage inflicted to the target when the next Equilux card is activated from being equal to 30% Damage taken into being equal to 60% Damage taken.",
-      "link_card_id": ""
-    },
-    {
-      "id": "rossweisse_manifest_4",
-      "break_level": 4,
-      "title": "Inner Memory",
-      "sub_title": "",
-      "desc": "At the start of battle, gain 1 Precious Name.<br>Each time the effect of Rossweisse's Light or Dark cards activate, gain 1 Precious Name.<br>Precious Name: Increase Rossweisse's Damage Amount by 8% (max 5 stacks)<br>\"Sig, Siegrune, Gerhilde, Fricka... and you.\"",
-      "link_card_id": ""
-    },
-    {
-      "id": "rossweisse_manifest_5",
-      "break_level": 5,
-      "title": "Complete Memory",
-      "sub_title": "",
-      "desc": "Increase the level of [Basic Card Upgrade], [Signature Card Upgrade], and [Common Card Upgrade] in Potentials by 3.",
-      "link_card_id": ""
-    },
-    {
-      "id": "rossweisse_manifest_6",
-      "break_level": 6,
-      "title": "Liberated Memory",
-      "sub_title": "",
-      "desc": "When Rossweisse's Flicker Blade moves to hand, gain 1 Blade Poised Against the Cycle, and the Equilux, Light, and Dark cards are no longer included in the hand’s maximum capacity count.<br>Blade Poised Against the Cycle: Increase final Damage Amount of Rossweisse’s Attack Cards by 15%, and if that card is Flicker Blade, increase by 25% (max 2 stacks)",
-      "link_card_id": ""
-    }
-  ],
-  "potentialNodes": [],
-  "potentialTargetCards": [],
-  "potentialTargetLinkCardId": null,
-  "potentialTargetLinkCardIds": []
+  "sourceUpdatedAt": "2026-10-23",
+  "mechanicsUrl": "/mechanics/rossweisse",
+  "patchNoteUrl": "/patch-note/2026-10-21-update#rossweisse"
 }

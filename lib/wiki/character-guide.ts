@@ -2,7 +2,7 @@ import type { Card, CharacterDetail } from "./types";
 
 export type GuideText = { en: string; vi: string };
 export type GuideImageAsset = { src: string; width: number; height: number };
-export type CardReview = { rating: number; review: GuideText };
+export type CardReview = { rating?: number; review?: GuideText };
 export type DeckCardReference = { cardId: string; count: number; draw?: number; costDelta?: number; effects?: GuideText };
 type Recommendation = { name: string; score: string; note: GuideText };
 export type CharacterGuide = {

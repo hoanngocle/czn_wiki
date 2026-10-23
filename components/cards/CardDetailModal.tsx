@@ -18,12 +18,15 @@ export function CardDetailModal({ card, initialId, animationEnabled, vietnameseE
       const advice = reviews[variant.id];
       const epiphanyNumber = variant.id.match(/_rsp([1-5])$/)?.[1];
       const epiphanyLabel = epiphanyNumber ? `${t("Epiphany")} ${["I", "II", "III", "IV", "V"][Number(epiphanyNumber) - 1]}` : t("Epiphany");
+      const reviewLabel = epiphanyNumber ? epiphanyLabel : vietnameseEnabled ? "Gợi ý lá bài" : "Card recommendation";
       return <div className={styles.variant} key={variant.id}>
       <div className={styles.card}><GameCard card={variant} animationEnabled={animationEnabled} vietnameseEnabled={vietnameseEnabled} onClick={() => setSelected(variant)} /></div>
       <button type="button" className={styles.label} aria-label={index === 0 && !epiphanyNumber ? t("Base") : variant.id.endsWith("_pot") ? t("Potential") : variant.id.endsWith("_lbk") ? t("Ego Upgrade") : `${t("Epiphany")} ${epiphanyNumber ?? index}`} aria-pressed={selected.id === variant.id} onClick={() => setSelected(variant)}>{index === 0 && !epiphanyNumber ? t("Base Card") : variant.id.endsWith("_pot") ? t("Potential") : variant.id.endsWith("_lbk") ? t("Ego Upgrade") : epiphanyLabel}</button>
-      {advice && <div className={styles.review} role="note" aria-label={`${epiphanyLabel} · Prydwen`} lang={vietnameseEnabled ? "vi" : "en"}>
-        <span className={styles.rating} role="img" aria-label={`Prydwen: ${advice.rating} / 5`}><span aria-hidden="true">{"★".repeat(advice.rating)}<span className={styles.emptyStars}>{"☆".repeat(5 - advice.rating)}</span></span></span>
-        <p>{vietnameseEnabled ? advice.review.vi : advice.review.en}</p>
+      {advice && <div className={styles.review} role="note" aria-label={reviewLabel} lang={vietnameseEnabled ? "vi" : "en"}>
+        {advice.rating !== undefined && (advice.rating > 0
+          ? <span className={styles.rating} role="img" aria-label={`${vietnameseEnabled ? "Đánh giá" : "Rating"}: ${advice.rating} / 5`}><span aria-hidden="true">{"★".repeat(advice.rating)}<span className={styles.emptyStars}>{"☆".repeat(5 - advice.rating)}</span></span></span>
+          : <span className={styles.rating} role="img" aria-label={vietnameseEnabled ? "Chưa chấm điểm" : "Not rated"}>—</span>)}
+        {advice.review && <p>{vietnameseEnabled ? advice.review.vi : advice.review.en}</p>}
       </div>}
     </div>})}</div>
     </div>

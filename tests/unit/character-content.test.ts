@@ -42,8 +42,16 @@ for (const [id, guide] of Object.entries(characterGuides)) {
       for (const ref of refs) expect(cards.has(ref.cardId), ref.cardId).toBe(true);
       for (const [cardId, review] of Object.entries(guide.epiphanyReviews)) {
         expect(cards.has(cardId), cardId).toBe(true);
-        expect(review.rating).toBeGreaterThanOrEqual(0);
-        expect(review.rating).toBeLessThanOrEqual(5);
+        if (review.review) {
+          expect(review.review.en, `${cardId}/en`).toBeTruthy();
+          expect(review.review.vi, `${cardId}/vi`).toBeTruthy();
+        } else {
+          expect(review.rating, `${cardId}/rating-only review`).toBeDefined();
+        }
+        if (review.rating !== undefined) {
+          expect(review.rating).toBeGreaterThanOrEqual(0);
+          expect(review.rating).toBeLessThanOrEqual(5);
+        }
       }
       for (const deck of guide.decks) for (const card of deck.cards) {
         expect(Number.isInteger(card.count)).toBe(true);

@@ -9,11 +9,11 @@
     "en": "Build Sword Tassel, clear the hand and coalesce a single-hit finisher. Kit-based theorycraft.",
     "vi": "Tích Sword Tassel, dọn tay bài và hợp nhất thành đòn kết liễu một hit. Theorycraft từ kit."
   },
-  "portrait": "/assets/anni/rossweisse/profile.jpg",
+  "portrait": "/assets/combatant/portrait_character_crop_half_30134.webp",
   "source": {
-    "name": "STOVE kit · Editorial theorycraft",
-    "url": "https://page.onstove.com/chaoszeronightmare/en/view/14590737",
-    "updated": "2026-10-21",
+    "name": "E7BOT kit · Prydwen Cards · Editorial teams",
+    "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rossweisse#cards",
+    "updated": "2026-10-23",
     "kind": "guide",
     "files": [
       "data/wiki/characters/rossweisse.json",
@@ -23,11 +23,14 @@
       "data/wiki/characters/1003.json",
       "data/wiki/characters/1040.json",
       "data/wiki/characters/1010.json",
-      "data/wiki/characters/30097.json"
+      "data/wiki/characters/30097.json",
+      "docs/combatant/rossweisse/detail.json",
+      "docs/combatant/rossweisse/cards.json",
+      "docs/combatant/rossweisse/prydwen-cards.json"
     ],
     "note": {
-      "en": "Theorycraft based on the published kit and saved ally data, not combat-tested rankings. Each team has exactly three Combatants: Rossweisse and two allies. Deck lists show only Rossweisse's core cards, not the full shared team deck; they assume no Ego duplicates or Divine modifiers.",
-      "vi": "Theorycraft dựa trên kit công bố và dữ liệu đồng đội đã lưu, chưa phải xếp hạng qua thực chiến. Mỗi đội có đúng 3 Combatant: Rossweisse và 2 đồng đội. Danh sách deck chỉ gồm bài lõi của Rossweisse, không phải toàn bộ bộ bài chung của đội; chưa tính bản sao Ego hoặc hiệu ứng Divine."
+      "en": "Kit and Potential data: E7BOT 30134. Card ratings: Prydwen Cards, checked 2026-10-23. Team examples remain editorial theorycraft, not combat-tested rankings; decks list only Rossweisse’s core cards and assume no Ego duplicates or Divine modifiers.",
+      "vi": "Bộ kỹ năng và Potential lấy từ E7BOT 30134. Điểm thẻ theo mục Cards của Prydwen, đối chiếu ngày 23/10/2026. Các đội hình vẫn là đề xuất lý thuyết, chưa phải xếp hạng qua thực chiến; deck chỉ liệt kê bài lõi của Rossweisse, chưa tính bản sao Ego hoặc hiệu ứng Divine."
     }
   },
   "images": {
@@ -42,9 +45,9 @@
       "height": 44
     },
     "Rossweisse": {
-      "src": "/assets/anni/rossweisse/profile.jpg",
-      "width": 340,
-      "height": 340
+      "src": "/assets/combatant/portrait_character_crop_half_30134.webp",
+      "width": 260,
+      "height": 460
     },
     "Mika": {
       "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
@@ -79,7 +82,92 @@
   },
   "extraCards": [],
   "generatedCardIds": [],
-  "epiphanyReviews": {},
+  "epiphanyReviews": {
+    "rossweisse_srt4_rsp1": {
+      "rating": 3
+    },
+    "rossweisse_srt4_rsp2": {
+      "rating": 4
+    },
+    "rossweisse_srt4_rsp3": {
+      "rating": 2
+    },
+    "rossweisse_srt4_rsp4": {
+      "rating": 2
+    },
+    "rossweisse_srt4_rsp5": {
+      "rating": 5
+    },
+    "rossweisse_uni1_rsp1": {
+      "rating": 3
+    },
+    "rossweisse_uni1_rsp2": {
+      "rating": 4
+    },
+    "rossweisse_uni1_rsp3": {
+      "rating": 4
+    },
+    "rossweisse_uni1_rsp4": {
+      "rating": 3
+    },
+    "rossweisse_uni1_rsp5": {
+      "rating": 5
+    },
+    "rossweisse_uni2_rsp1": {
+      "rating": 2
+    },
+    "rossweisse_uni2_rsp2": {
+      "rating": 5
+    },
+    "rossweisse_uni2_rsp3": {
+      "rating": 3
+    },
+    "rossweisse_uni2_rsp4": {
+      "rating": 5
+    },
+    "rossweisse_uni2_rsp5": {
+      "rating": 4
+    },
+    "rossweisse_uni3_rsp1": {
+      "rating": 4
+    },
+    "rossweisse_uni3_rsp2": {
+      "rating": 4
+    },
+    "rossweisse_uni3_rsp3": {
+      "rating": 5
+    },
+    "rossweisse_uni3_rsp4": {
+      "rating": 4
+    },
+    "rossweisse_uni3_rsp5": {
+      "rating": 4
+    },
+    "rossweisse_srt4": {
+      "review": {
+        "en": "Choose shard triggers that match your team: Cycle uses draw/discard, while Unbound converts remaining AP into damage.",
+        "vi": "Chọn điều kiện kích hoạt mảnh kiếm phù hợp với đội: Cycle dùng rút/bỏ bài, còn Unbound chuyển AP còn lại thành sát thương."
+      }
+    },
+    "rossweisse_uni1": {
+      "review": {
+        "en": "II adds self-draw; V activates both shards. III provides Retrieve instead of creating three Tassels.",
+        "vi": "II rút thêm bài của Rossweisse; V kích hoạt cả hai mảnh kiếm. III cấp Retrieve thay cho hiệu ứng tạo ba Sword Tassel."
+      }
+    },
+    "rossweisse_uni2": {
+      "review": {
+        "en": "II returns a discarded shard after triggering it. V rewards holding Justice cards before clearing your hand.",
+        "vi": "II kích hoạt rồi trả mảnh kiếm vừa bị bỏ lên tay. V tận dụng số bài Justice đang giữ, nên dùng trước khi dọn tay."
+      }
+    },
+    "rossweisse_uni3": {
+      "review": {
+        "en": "III combines Brand, self-draw and cost reduction. Resolve smaller hits before your finisher.",
+        "vi": "III kết hợp Brand, rút bài của bản thân và giảm chi phí. Xử lý các đòn nhỏ trước đòn kết liễu."
+      }
+    }
+  },
   "review": {
     "intro": {
       "en": "Rossweisse is a main damage dealer whose payoff depends on both Sword Tassel generation and clearing the hand. Start with Amped and resource supports; branch into Cycle or Justice once the team can reliably coalesce.",
@@ -225,10 +313,32 @@
     }
   ],
   "potentialIntro": {
-    "en": "Potential nodes are absent from the published data. Do not infer upgrade values or priorities from the announcement's Ego 5 description.",
-    "vi": "Dữ liệu công bố chưa có các nút Potential. Chưa suy đoán giá trị hoặc thứ tự nâng cấp từ mô tả Ego 5."
+    "en": "The released kit has 10 Potential nodes. Upgrade values for every level are available in Card → Potential.",
+    "vi": "Bộ dữ liệu chính thức có 10 nút Potential. Xem hiệu ứng của từng cấp trong Card → Potential."
   },
-  "potentialAdvice": [],
+  "potentialAdvice": [
+    {
+      "name": "Sword Slash",
+      "note": {
+        "en": "Its dedicated Potential reduces its cost by 1. A separate node adds 5% damage, plus another 5% at 500 ATK.",
+        "vi": "Nút riêng giảm 1 chi phí của Sword Slash. Một nút khác tăng 5% sát thương và thêm 5% khi đạt 500 ATK."
+      }
+    },
+    {
+      "name": "Justice Attribute Damage",
+      "note": {
+        "en": "At 600 ATK, gain 5% Justice damage. Each 20 ATK above 600 adds 2%, capped at an additional 10%; the cap is reached at 700 ATK.",
+        "vi": "Từ 600 ATK, nhận 5% sát thương Justice. Mỗi 20 ATK vượt 600 tăng thêm 2%, tối đa thêm 10%; đạt trần này ở 700 ATK."
+      }
+    },
+    {
+      "name": "Critical / Epiphany",
+      "note": {
+        "en": "Critical Chance reaches 10%, Critical Damage reaches 12%, and Divine Epiphany appearance chance increases by 25%.",
+        "vi": "Các nút tăng tối đa 10% Critical Chance, 12% Critical Damage và tăng 25% xác suất xuất hiện Divine Epiphany."
+      }
+    }
+  ],
   "equipment": [],
   "seasonal": [],
   "dupes": [
@@ -276,8 +386,8 @@
       "name": "E5",
       "score": "Potential",
       "note": {
-        "en": "Raises three Potential upgrade levels by 3; detailed Potential data is not published.",
-        "vi": "Tăng 3 cấp cho ba nhóm nâng cấp Potential; dữ liệu Potential chi tiết chưa công bố."
+        "en": "Raises Basic, Signature and Common Card Upgrade levels by 3. Full node data is now available under Potential.",
+        "vi": "Tăng 3 cấp cho Basic Card Upgrade, Signature Card Upgrade và Common Card Upgrade. Dữ liệu chi tiết đã có trong Potential."
       }
     },
     {

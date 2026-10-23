@@ -2,88 +2,172 @@
   "characterId": "rossweisse",
   "terms": [
     {
-      "id": "rossweisse-effect-0",
+      "id": "CARD_SHIELD",
+      "title": "Shield",
+      "desc": "Giảm sát thương nhận vào cho đến lượt tiếp theo.",
+      "englishTitle": "Shield",
+      "englishDesc": "Decrease Damage Amount taken until the next turn"
+    },
+    {
+      "id": "TALENT_LIGHT_DARK",
       "title": "Equilux",
+      "desc": "Đầu lượt, đưa lá này lên tay.<br>Khi được đưa lên tay, phân cực thành các lá Light và Dark (1 lần mỗi lượt).<br>Số lần đánh của lá này cố định là 1.",
       "englishTitle": "Equilux",
-      "desc": "Đầu lượt, đưa lá này lên tay.<br>Khi được đưa lên tay, phân cực thành các lá Ánh sáng và Bóng tối (1 lần mỗi lượt).<br>Số lần đánh của lá này cố định là 1.",
-      "englishDesc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into Light and Dark cards (1 time per turn)<br>Hit Count of this card is fixed to 1"
-    },
-    {
-      "id": "rossweisse-effect-1",
-      "title": "Ánh sáng",
-      "englishTitle": "Light",
-      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên trái.<br>Nếu trên tay chỉ còn các lá Ánh sáng, Bóng tối và Liên kết, hợp nhất các lá Ánh sáng, Bóng tối và Tua kiếm thành lá Equilux.",
-      "englishDesc": "At the start of the turn, move this card to hand and place it on the leftmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-    },
-    {
-      "id": "rossweisse-effect-2",
-      "title": "Bóng tối",
-      "englishTitle": "Dark",
-      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên phải.<br>Nếu trên tay chỉ còn các lá Ánh sáng, Bóng tối và Liên kết, hợp nhất các lá Ánh sáng, Bóng tối và Tua kiếm thành lá Equilux.",
-      "englishDesc": "At the start of the turn, move this card to hand and place it on the rightmost side of the hand<br>If Light, Dark, and Bind cards are the only cards remaining in hand, coalesce the Light, Dark, and Sword Tassel cards into the Equilux card"
-    },
-    {
-      "id": "rossweisse-effect-3",
-      "title": "Ấn luân hồi",
-      "englishTitle": "Brand of the Cycle",
-      "desc": "Tăng 20% lượng sát thương nhận từ Rossweisse; khi hiệu ứng kích hoạt, giảm Ấn luân hồi đi 1.",
-      "englishDesc": "Increase Damage Amount taken from Rossweisse by 20%, and when activated, decrease Brand of the Cycle by 1"
-    },
-    {
-      "id": "rossweisse-effect-4",
-      "title": "Sự bảo hộ của Kyrken",
-      "englishTitle": "Kyrken's Aegis",
-      "desc": "Tăng 20% lượng sát thương của Bài tấn công và tăng 15% lượng sát thương cuối cùng của Flicker Blade.",
-      "englishDesc": "Increase Damage Amount of Attack Cards by 20%, and increase final Damage Amount of Flicker Blade by 15%"
+      "englishDesc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>"
     },
     {
       "id": "TALENT_ORIGIN",
-      "title": "Độc nhất",
+      "title": "Unique",
+      "desc": "Chỉ có thể đưa 1 lá của mỗi loại bài Unique vào bộ bài.",
       "englishTitle": "Unique",
-      "desc": "Chỉ có thể đưa 1 lá của mỗi loại bài Độc nhất vào Bộ bài.",
-      "englishDesc": "Only 1 of each Unique card can be included in the Deck"
+      "englishDesc": "Only 1 of each <cc>Unique</> card can be included in the Deck"
     },
     {
-      "id": "TALENT_RETAIN",
-      "title": "Giữ lại",
-      "englishTitle": "Retain",
-      "desc": "Lá này không bị loại bỏ vào cuối lượt.",
-      "englishDesc": "This card is not discarded at the end of the turn"
-    },
-    {
-      "id": "TALENT_INNATE",
-      "title": "Khởi đầu",
-      "englishTitle": "Initiation",
-      "desc": "Khi bắt đầu trận, đặt lá này lên đầu Chồng rút.",
-      "englishDesc": "At the start of battle, place this card at the top of Draw Pile"
-    },
-    {
-      "id": "rossweisse-bind",
-      "title": "Liên kết (1/20)",
-      "englishTitle": "Bind (1/20)",
-      "desc": "Liên kết (1/20)",
-      "englishDesc": "Bind (1/20)"
+      "id": "CARD_LEECHSHIELD",
+      "title": "DMG-Based Shield",
+      "desc": "Nhận Fixed Shield dựa trên hệ số sát thương.<br>Không vượt quá 20% HP tối đa.",
+      "englishTitle": "DMG-Based Shield",
+      "englishDesc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP"
     },
     {
       "id": "TALENT_TERMINATION",
-      "title": "Kết thúc",
-      "englishTitle": "Finale",
+      "title": "Finale",
       "desc": "Khi kích hoạt lá này, kết thúc lượt.",
-      "englishDesc": "When this card is activated, end turn"
+      "englishTitle": "Finale",
+      "englishDesc": "When this card is <color_orange><u>activate</u></>d, end turn"
+    },
+    {
+      "id": "CARD_COST_X",
+      "title": "X",
+      "desc": "Tiêu toàn bộ AP còn lại và kích hoạt hiệu ứng tương ứng với lượng AP đã tiêu.",
+      "englishTitle": "X",
+      "englishDesc": "Consume all remaining <color_orange><u>Action Points</u></> and activate effects equal to that number"
+    },
+    {
+      "id": "TALENT_LIGHT",
+      "title": "Light",
+      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên trái.<br>Nếu trên tay chỉ còn các lá Light, Dark và Bind, hợp nhất các lá Light, Dark và Sword Tassel thành lá Equilux.",
+      "englishTitle": "Light",
+      "englishDesc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+    },
+    {
+      "id": "TALENT_DARK",
+      "title": "Dark",
+      "desc": "Đầu lượt, đưa lá này lên tay và đặt ở ngoài cùng bên phải.<br>Nếu trên tay chỉ còn các lá Light, Dark và Bind, hợp nhất các lá Light, Dark và Sword Tassel thành lá Equilux.",
+      "englishTitle": "Dark",
+      "englishDesc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card"
+    },
+    {
+      "id": "CARD_DRAW",
+      "title": "Draw",
+      "desc": "Đưa một lá từ Draw Pile lên tay.",
+      "englishTitle": "Draw",
+      "englishDesc": "Move a card from <color_orange><u>Draw Pile</u></> to hand"
     },
     {
       "id": "TALENT_RECALL",
-      "title": "Thu hồi",
+      "title": "Retrieve",
+      "desc": "Nếu lá này chuyển vào Graveyard, đưa nó trở lại tay.<br>Khi kích hoạt, xóa Retrieve.",
       "englishTitle": "Retrieve",
-      "desc": "Nếu lá này chuyển vào Mộ bài, đưa nó trở lại tay. Khi kích hoạt, xóa Thu hồi.",
-      "englishDesc": "If this card moves to the Graveyard, return it to hand. Upon activation, remove Retrieve."
+      "englishDesc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve"
     },
     {
       "id": "TALENT_SHIELD_DESTRUCT",
-      "title": "Nghiền nát",
+      "title": "Pulverize",
+      "desc": "Khi đánh trúng mục tiêu đang có Shield, tăng 20% sát thương.",
       "englishTitle": "Pulverize",
-      "desc": "Khi đánh trúng mục tiêu có Lá chắn, tăng lượng sát thương thêm 20%.",
-      "englishDesc": "When hitting a target holding Shield, increase Damage Amount by 20%"
+      "englishDesc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%"
+    },
+    {
+      "id": "CARD_DISCARD",
+      "title": "Discard",
+      "desc": "Đưa lá này từ tay vào Discard Pile.",
+      "englishTitle": "Discard",
+      "englishDesc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>"
+    },
+    {
+      "id": "CARD_USE",
+      "title": "Proc",
+      "desc": "Kích hoạt lá bài thông qua một hiệu ứng.",
+      "englishTitle": "Proc",
+      "englishDesc": "Activating a card through an effect"
+    },
+    {
+      "id": "CARD_ACTIVATE",
+      "title": "Activate",
+      "desc": "Sử dụng lá bài hoặc kích hoạt lá bài thông qua hiệu ứng.",
+      "englishTitle": "Activate",
+      "englishDesc": "Using or proccing a card"
+    },
+    {
+      "id": "CARD_TALENT_BIND",
+      "title": "Bind",
+      "desc": "Khi các lá Bind của cùng một nhân vật ở cùng chồng bài hoặc trên tay, chúng gộp thành 1 lá.",
+      "englishTitle": "Bind",
+      "englishDesc": "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card"
+    },
+    {
+      "id": "T_CS_30134_02",
+      "title": "Brand of the Cycle",
+      "desc": "Tăng 20% sát thương nhận từ Rossweisse; khi hiệu ứng kích hoạt, giảm Brand of the Cycle đi 1.",
+      "englishTitle": "Brand of the Cycle",
+      "englishDesc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>"
+    },
+    {
+      "id": "CARD_SHIELD_DESTROY",
+      "title": "Shield Break",
+      "desc": "Hiệu ứng kích hoạt khi Shield của mục tiêu bị phá bởi một lá bài.",
+      "englishTitle": "Shield Break",
+      "englishDesc": "An effect that is activated when <color_orange><u>Shield</u></> of a target is removed through a card"
+    },
+    {
+      "id": "TALENT_INNATE",
+      "title": "Initiation",
+      "desc": "Khi bắt đầu trận, đặt lá này lên đầu Draw Pile.",
+      "englishTitle": "Initiation",
+      "englishDesc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>"
+    },
+    {
+      "id": "T_CS_30134_03",
+      "title": "Kyrken’s Aegis",
+      "desc": "Tăng 20% sát thương của Attack Card và tăng 15% sát thương cuối cùng của Flicker Blade.",
+      "englishTitle": "Kyrken’s Aegis",
+      "englishDesc": "Increase Damage Amount of Attack Cards by <color_orange>20</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>15</>%"
+    },
+    {
+      "id": "T_CS_30134_04",
+      "title": "Kyrken’s Aegis",
+      "desc": "Tăng 30% sát thương của Attack Card và tăng 20% sát thương cuối cùng của Flicker Blade.",
+      "englishTitle": "Kyrken’s Aegis",
+      "englishDesc": "Increase Damage Amount of Attack Cards by <color_orange>30</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>20</>%"
+    },
+    {
+      "id": "CARD_ENERGY",
+      "title": "AP",
+      "desc": "Tài nguyên tiêu hao khi sử dụng bài.",
+      "englishTitle": "AP",
+      "englishDesc": "The resource consumed when cards are <color_orange><u>use</u></>d"
+    },
+    {
+      "id": "TALENT_RETAIN",
+      "title": "Retain",
+      "desc": "Lá này không bị loại bỏ vào cuối lượt.",
+      "englishTitle": "Retain",
+      "englishDesc": "This card is not discarded at the end of the turn"
+    },
+    {
+      "id": "TALENT_UNPLAYABLE",
+      "title": "Unactivatable",
+      "desc": "Không thể kích hoạt lá này.",
+      "englishTitle": "Unactivatable",
+      "englishDesc": "This card cannot be activated"
+    },
+    {
+      "id": "CARD_FIXEDDAMAGE",
+      "title": "Fixed Damage",
+      "desc": "Sát thương bỏ qua các hiệu ứng duy trì.",
+      "englishTitle": "Fixed Damage",
+      "englishDesc": "A damage that ignores persistent effects"
     }
   ]
 }

@@ -1570,18 +1570,20 @@
     "name": "Rossweisse",
     "names": {
       "en": "Rossweisse",
-      "alias": "Ross"
+      "zhs": "羅斯薇瑟",
+      "zht": "羅斯薇瑟",
+      "alias": "Ross Rosswei"
     },
     "kind": "combatant",
     "job": "striker",
     "ego": "narcissism",
     "rarity": 5,
-    "portrait": "/assets/anni/rossweisse/profile.jpg",
-    "color": "#a50d60",
-    "source": "stove",
-    "sourceId": "rossweisse",
-    "sourceFile": "docs/anni/10_21(Wed) Update Notice - Chaos Zero Nightmare (CZN).html",
-    "sourceUpdatedAt": "2026-10-21",
+    "portrait": "/assets/combatant/portrait_character_crop_half_30134.webp",
+    "color": "#E20065",
+    "source": "e7bot",
+    "sourceId": "30134",
+    "sourceFile": "docs/combatant/rossweisse/roster.json",
+    "sourceUpdatedAt": "2026-10-23",
     "mechanicsUrl": "/mechanics/rossweisse",
     "patchNoteUrl": "/patch-note/2026-10-21-update#rossweisse"
   }

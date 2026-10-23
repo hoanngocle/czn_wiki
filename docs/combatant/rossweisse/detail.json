@@ -1,0 +1,3273 @@
+{
+  "card_icon_name": "",
+  "char_type": "CHAR_COMBATANT",
+  "color": "#E20065",
+  "combatant": {
+    "card_factor_link_item_id": "5201084",
+    "collapse_passive": {
+      "collapse_cards": [
+        {
+          "animation": false,
+          "base_combatant": {
+            "ego": "narcissism",
+            "id": "30134",
+            "job": "striker",
+            "rarity": 5
+          },
+          "card_category": "CARD_ATK",
+          "chaos_id": "",
+          "chaos_name": "",
+          "cost": 0,
+          "desc_display": "Has a low chance for unexpected results to occur on use.",
+          "ego_type": "EGO_BASIC",
+          "id": "c_30134_col",
+          "name": "Despair",
+          "ownable_job": [],
+          "r_spark_cards": [],
+          "rarity": "RARITY_RARE",
+          "reward_tag": [],
+          "sct_name": "collapse_30134_02",
+          "season_tags": [],
+          "skill_eff_ids": [],
+          "sort": "SORT_COLLAPSE",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": []
+        },
+        {
+          "animation": false,
+          "base_combatant": {
+            "ego": "narcissism",
+            "id": "30134",
+            "job": "striker",
+            "rarity": 5
+          },
+          "card_category": "CARD_ATK",
+          "chaos_id": "",
+          "chaos_name": "",
+          "cost": 0,
+          "desc_display": "Has a low chance for unexpected results to occur on use.",
+          "ego_type": "EGO_BASIC",
+          "id": "c_30134_col2",
+          "name": "Despair",
+          "ownable_job": [],
+          "r_spark_cards": [],
+          "rarity": "RARITY_RARE",
+          "reward_tag": [],
+          "sct_name": "collapse_2_30134_02",
+          "season_tags": [],
+          "skill_eff_ids": [],
+          "sort": "SORT_COLLAPSE",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": []
+        }
+      ],
+      "collapse_effect": "give_oneself_up",
+      "collapse_illustration": "collapse/collapse_illustration/give_oneself_up",
+      "collapse_need_count": 5,
+      "collapse_skill_card": {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 6,
+        "desc_display": "<color_orange>1200%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>30</>% of Damage dealt to the target",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_eps",
+        "name": "Flickering White Night",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 6,
+            "desc_display": "<color_orange>1600%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>60</>% of Damage dealt to the target",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_eps_lbk",
+            "name": "Flickering White Night",
+            "ownable_job": [],
+            "rarity": "RARITY_UNIQUE",
+            "reward_tag": [],
+            "sct_name": "collapse_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_eps_lbk_01",
+              "c_30134_eps_lbk_02"
+            ],
+            "sort": "SORT_COLLAPSE_SKILL",
+            "spine_model": "",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "A damage that ignores persistent effects",
+                "id": "CARD_FIXEDDAMAGE",
+                "title": "Fixed Damage"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Using or proccing a card",
+                "id": "CARD_ACTIVATE",
+                "title": "Activate"
+              }
+            ]
+          }
+        ],
+        "rarity": "RARITY_UNIQUE",
+        "reward_tag": [],
+        "sct_name": "collapse_30134_01",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_eps_01",
+          "c_30134_eps_02"
+        ],
+        "sort": "SORT_COLLAPSE_SKILL",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": [
+          {
+            "desc": "A damage that ignores persistent effects",
+            "id": "CARD_FIXEDDAMAGE",
+            "title": "Fixed Damage"
+          },
+          {
+            "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+            "id": "TALENT_LIGHT_DARK",
+            "title": "Equilux"
+          },
+          {
+            "desc": "Using or proccing a card",
+            "id": "CARD_ACTIVATE",
+            "title": "Activate"
+          }
+        ]
+      },
+      "collapse_text": "collapse_text/collapse_text_give_oneself_up",
+      "desc": "Every time this character enters battle, their stress increases by <cc>10</>.",
+      "id": "collapse_30134",
+      "link_psychosis_id": "psychosis_1009_3",
+      "name": "Despair"
+    },
+    "collapse_skill_card": {
+      "animation": false,
+      "base_combatant": {
+        "ego": "narcissism",
+        "id": "30134",
+        "job": "striker",
+        "rarity": 5
+      },
+      "card_category": "CARD_ATK",
+      "chaos_id": "",
+      "chaos_name": "",
+      "cost": 6,
+      "desc_display": "<color_orange>1200%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>30</>% of Damage dealt to the target",
+      "ego_type": "EGO_OWNER",
+      "id": "c_30134_eps",
+      "name": "Flickering White Night",
+      "ownable_job": [],
+      "r_spark_cards": [
+        {
+          "animation": false,
+          "card_category": "CARD_ATK",
+          "cost": 6,
+          "desc_display": "<color_orange>1600%</> Damage<br>When the next <color_orange><u>Equilux</u></> card is <color_orange><u>activate</u></>d, inflict <color_orange><u>Fixed Damage</u></> equal to <cc>60</>% of Damage dealt to the target",
+          "ego_type": "EGO_OWNER",
+          "id": "c_30134_eps_lbk",
+          "name": "Flickering White Night",
+          "ownable_job": [],
+          "rarity": "RARITY_UNIQUE",
+          "reward_tag": [],
+          "sct_name": "collapse_30134_01",
+          "season_tags": [],
+          "skill_eff_ids": [
+            "c_30134_eps_lbk_01",
+            "c_30134_eps_lbk_02"
+          ],
+          "sort": "SORT_COLLAPSE_SKILL",
+          "spine_model": "",
+          "talent": [],
+          "tooltips": [
+            {
+              "desc": "A damage that ignores persistent effects",
+              "id": "CARD_FIXEDDAMAGE",
+              "title": "Fixed Damage"
+            },
+            {
+              "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+              "id": "TALENT_LIGHT_DARK",
+              "title": "Equilux"
+            },
+            {
+              "desc": "Using or proccing a card",
+              "id": "CARD_ACTIVATE",
+              "title": "Activate"
+            }
+          ]
+        }
+      ],
+      "rarity": "RARITY_UNIQUE",
+      "reward_tag": [],
+      "sct_name": "collapse_30134_01",
+      "season_tags": [],
+      "skill_eff_ids": [
+        "c_30134_eps_01",
+        "c_30134_eps_02"
+      ],
+      "sort": "SORT_COLLAPSE_SKILL",
+      "spine_model": "",
+      "talent": [],
+      "tooltips": [
+        {
+          "desc": "A damage that ignores persistent effects",
+          "id": "CARD_FIXEDDAMAGE",
+          "title": "Fixed Damage"
+        },
+        {
+          "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+          "id": "TALENT_LIGHT_DARK",
+          "title": "Equilux"
+        },
+        {
+          "desc": "Using or proccing a card",
+          "id": "CARD_ACTIVATE",
+          "title": "Activate"
+        }
+      ]
+    },
+    "combatant_friendship_bonuses": [
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_2",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_3",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_4",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_5",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_6",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_7",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_8",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_9",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_10",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_11",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_12",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_13",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_14",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_15",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_16",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_17",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_18",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_19",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_20",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_21",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_22",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_23",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_24",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_25",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_26",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_27",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_28",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_29",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_30",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_31",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_32",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_33",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_34",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_35",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_36",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_37",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_38",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "3",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_39",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "1",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "",
+        "unlock_text": ""
+      },
+      {
+        "group": "friendship_bonus_no_bg",
+        "id": "friendship_bonus_no_bg_40",
+        "item0_count": "5",
+        "reward0_link_item_id": "2000004",
+        "stat0_link_stat_list_id": "S_ATK_INC_ADD_OUT",
+        "stat0_value": "",
+        "stat1_link_stat_list_id": "S_DEF_INC_ADD_OUT",
+        "stat1_value": "",
+        "stat2_link_stat_list_id": "S_HP_INC_ADD_OUT",
+        "stat2_value": "3",
+        "unlock_text": ""
+      }
+    ],
+    "combatant_info": {
+      "background_text": "<color_darkgray>Kyrken's Apostle who wanders the universe of her own accord.</><br>Chosen as Kyrken's Apostle, a wanderer who drifts through the cosmos. Those who saw her drifting through space without even a ship, unable to comprehend what they had witnessed, came to call her an \"Ill Omen.\" Despite being an Apostle, she shows no sign of sincerely serving Kyrken, merely carrying out the occasional decree or command she receives.",
+      "birth_day": "ui_label_day_14th",
+      "birth_month": "ui_label_month_august",
+      "cv_en": "Not included",
+      "cv_ja": "Ayaka Suwa",
+      "cv_ko": "Hayoung Kim",
+      "cv_zhs": "cv_zhs_0078",
+      "favorite_gift_link_item_id": "",
+      "gacha_link_combatant_voice_id": "30134_gacha_01",
+      "hospitalization_reason": "combatant_info@hospitalization_reason@30134_info",
+      "id": "30134_info",
+      "link_combatant_face_group": "30134_face",
+      "link_combatant_voice_group": "30134_voice",
+      "link_live_event_id": "live_event_30134",
+      "link_story_content_counseling_key": "story_counseling_30134",
+      "link_town_normal_visit_group": "normal_visit_30134",
+      "link_town_policy_reaction_id": "30134",
+      "link_town_story_visit_group": "",
+      "lobby_enter_link_combatant_voice_id": "30134_lobby_enter_01",
+      "race_type": "CHAR_INFO_RACE_TYPE_1",
+      "small_talk_link_combatant_voice_id": "[30134_small_talk_01,30134_small_talk_02,30134_small_talk_03,30134_small_talk_04]",
+      "specialty": "combatant_info@specialty@30134_info",
+      "stage_success_link_combatant_voice_id": "30134_stage_success_01",
+      "touch_link_combatant_voice_id": "[30134_touch_01,30134_touch_02]"
+    },
+    "combatant_limit_breaks": [
+      {
+        "break_level": 1,
+        "break_type": "BREAK_TYPE_CARD_R_SPARK",
+        "break_value": "[]",
+        "desc": "Adds the following effect to the <color_orange><u>Kyrken’s Apostle</u></> card: Gain <color_orange>1</> AP.<br>Changes the following effects for the Kyrken’s Aegis effect: Increase Damage Amount of Attack Cards of this unit by <color_orange>30</>%, and increase final Damage Amount of <color_orange><u>Flicker Blade</u></> by <color_orange>20</>%",
+        "group": "limit_30134",
+        "id": "limit_30134_1",
+        "illust": "unique_30134_05",
+        "link_card_id": "[c_30134_uni4]",
+        "link_cs_id": "[]",
+        "potential_node_num": "[]",
+        "sub_title": "Mythic Card Upgrade",
+        "title": "Sleeping Memory"
+      },
+      {
+        "break_level": 2,
+        "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+        "break_value": "[1,1]",
+        "desc": "At the start of battle, increase Rossweisse’s final Damage Amount by <color_orange>20</>%.<br>At the start of the turn, gain <color_orange>4 Blade Afterimage</>.<br><color_orange>Blade Afterimage</>: When Rossweisse’s Light or Dark cards are activated, <color_orange>120</>% Damage to a random enemy, create <color_orange>1</> <color_orange><u>Sword Tassel</u></>, then decrease <color_orange>Blade Afterimage</> by <color_orange>1</> (max <color_orange>8</> stacks)",
+        "group": "limit_30134",
+        "id": "limit_30134_2",
+        "illust": "unique_30134_01",
+        "link_card_id": "[]",
+        "link_cs_id": "[cs_30134_10,cs_30134_11]",
+        "potential_node_num": "[]",
+        "sub_title": "Battle Passive Upgrade",
+        "title": "Awakening Memory"
+      },
+      {
+        "break_level": 3,
+        "break_type": "BREAK_TYPE_CARD_R_SPARK",
+        "break_value": "[]",
+        "desc": "+<color_orange>400</>% Damage Amount to <color_orange><u>Flickering White Night</u></>, and changes the Fixed Damage inflicted to the target when the next Equilux card is activated from being equal to <color_orange>30</>% Damage taken into being equal to <color_orange>60</>% Damage taken.",
+        "group": "limit_30134",
+        "id": "limit_30134_3",
+        "illust": "collapse_30134_01",
+        "link_card_id": "[c_30134_eps]",
+        "link_cs_id": "[]",
+        "potential_node_num": "[]",
+        "sub_title": "Ego Skill Upgrade",
+        "title": "Vivid Memory"
+      },
+      {
+        "break_level": 4,
+        "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+        "break_value": "[1]",
+        "desc": "At the start of battle, gain <color_orange>1 Precious Name</>.<br>Each time the effect of Rossweisse’s Light or Dark cards activate, gain <color_orange>1 Precious Name</>.<br><color_orange>Precious Name</>: Increase Rossweisse’s Damage Amount by <color_orange>8</>% (max <color_orange>5</> stacks)<br><br><#DAA520><i>「Sig, Siegrune, Gerhilde, Fricka... and you.」</></>",
+        "group": "limit_30134",
+        "id": "limit_30134_4",
+        "illust": "unique_30134_02",
+        "link_card_id": "[]",
+        "link_cs_id": "[cs_30134_13]",
+        "potential_node_num": "[]",
+        "sub_title": "Battle Passive Upgrade",
+        "title": "Inner Memory"
+      },
+      {
+        "break_level": 5,
+        "break_type": "BREAK_TYPE_POTENTIAL_LEVEL_UP",
+        "break_value": "[3]",
+        "desc": "Increase the level of <color_orange>[Basic Card Upgrade]</>, <color_orange>[Signature Card Upgrade]</>, and <color_orange>[Common Card Upgrade]</> in Potentials by <color_orange>3</>.",
+        "group": "limit_30134",
+        "id": "limit_30134_5",
+        "illust": "unique_30134_03",
+        "link_card_id": "[]",
+        "link_cs_id": "[]",
+        "potential_node_num": "[2_0,3_0,4_0]",
+        "sub_title": "Stat Upgrade",
+        "title": "Complete Memory"
+      },
+      {
+        "break_level": 6,
+        "break_type": "BREAK_TYPE_BATTLE_CS_ADD",
+        "break_value": "[1,1]",
+        "desc": "When Rossweisse’s <color_orange><u>Flicker Blade</u></> moves to hand, gain <color_orange>1 Blade Poised Against the Cycle</>, and the Equilux, Light, and Dark cards are no longer included in the hand’s maximum capacity count.<br><color_orange>Blade Poised Against the Cycle</>: Increase final Damage Amount of Rossweisse’s Attack Cards by <color_orange>15</>%, and if that card is <color_orange><u>Flicker Blade</u></>, increase by <color_orange>25</>% (max <color_orange>2</> stacks)",
+        "group": "limit_30134",
+        "id": "limit_30134_6",
+        "illust": "unique_30134_04",
+        "link_card_id": "[]",
+        "link_cs_id": "[cs_30134_15,cs_30134_17]",
+        "potential_node_num": "[]",
+        "sub_title": "Battle Passive Upgrade",
+        "title": "Liberated Memory"
+      }
+    ],
+    "dice_technique": {
+      "trickery": 3
+    },
+    "ego": "narcissism",
+    "gacha_dup_link_item_id": "5100079",
+    "id": "30134",
+    "job": "striker",
+    "potential_cards": [],
+    "potential_target_cards": [],
+    "potential_target_link_card_id": "[]",
+    "s_addi_atk_dmg_rate": 0,
+    "s_atk": 160,
+    "s_blue_dmg_rate": 0,
+    "s_charging_power": 0,
+    "s_cri": 3,
+    "s_cri_dmg_rate": 125,
+    "s_def": 45,
+    "s_dot_atk_dmg_rate": 0,
+    "s_green_dmg_rate": 0,
+    "s_hp": 90,
+    "s_orange_dmg_rate": 0,
+    "s_purple_dmg_rate": 0,
+    "s_red_dmg_rate": 0,
+    "s_weak_ego_dmg_rate": 125,
+    "spark_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "Create <color_orange>3</> <cc>Sword Tassel</>",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_uni1",
+        "name": "Sword Resonance",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 1,
+            "desc_display": "Create <color_orange>3</> <cc>Sword Tassel</><br>Activate effect for <color_orange>1</> random <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> card",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni1_rsp1",
+            "name": "Sword Resonance",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_02",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni1_rsp1_01",
+              "c_30134_uni1_rsp1_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_02",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_LIGHT",
+                "title": "Light"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_DARK",
+                "title": "Dark"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 1,
+            "desc_display": "Create <color_orange>3</> <cc>Sword Tassel</><br><color_orange><u>Draw</u></> <color_orange>1</> card(s) of this unit",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni1_rsp2",
+            "name": "Sword Resonance",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_02",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni1_rsp2_01",
+              "c_30134_uni1_rsp2_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_02",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+                "id": "CARD_DRAW",
+                "title": "Draw"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 0,
+            "desc_display": "Apply <color_orange><u>Retrieve</u></> to all <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards in hand",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni1_rsp3",
+            "name": "Sword Resonance",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_02",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni1_rsp3_01",
+              "c_30134_uni1_rsp3_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_02",
+            "talent": [
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "If this card moves to the <color_orange><u>Graveyard</u></>, return it to hand<br>Upon activation, remove Retrieve",
+                "id": "TALENT_RECALL",
+                "title": "Retrieve"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_LIGHT",
+                "title": "Light"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_DARK",
+                "title": "Dark"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 1,
+            "desc_display": "Create <color_orange>3</> <cc>Sword Tassel</><br>When the next <color_orange><u>Equilux</u></> card is coalesced, apply <color_orange><u>Pulverize</u></> to that card",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni1_rsp4",
+            "name": "Sword Resonance",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_02",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni1_rsp4_01",
+              "c_30134_uni1_rsp4_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_02",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%",
+                "id": "TALENT_SHIELD_DESTRUCT",
+                "title": "Pulverize"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 1,
+            "desc_display": "Activate effect for all <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards in hand",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni1_rsp5",
+            "name": "Sword Resonance",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_02",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni1_rsp5_01",
+              "c_30134_uni1_rsp5_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_02",
+            "talent": [
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_LIGHT",
+                "title": "Light"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_DARK",
+                "title": "Dark"
+              }
+            ]
+          }
+        ],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "unique_30134_02",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_uni1_01"
+        ],
+        "sort": "SORT_UNIQUE",
+        "spine_model": "unique_30134_02",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "<color_orange>200%</> Damage<br><color_orange><u>Discard</u></> up to <color_orange>1</> card(s) in hand, and if Discarded, <color_orange>150%</> Damage",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_uni2",
+        "name": "Radiant Sword Flow",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br><color_orange><u>Discard</u></> up to <color_orange>2</> card(s) in hand, then that amount Discarded × <color_orange>200%</> Damage",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni2_rsp1",
+            "name": "Radiant Sword Flow",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_03",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni2_rsp1_01",
+              "c_30134_uni2_rsp1_02",
+              "c_30134_uni2_rsp1_03"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_03",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+                "id": "CARD_DISCARD",
+                "title": "Discard"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>200%</> Damage<br><color_orange><u>Discard</u></> <color_orange>1</>, and if that card is a <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> card, <color_orange><u>proc</u></> then move to hand",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni2_rsp2",
+            "name": "Radiant Sword Flow",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_03",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni2_rsp2_01",
+              "c_30134_uni2_rsp2_02",
+              "c_30134_uni2_rsp2_03",
+              "c_30134_uni2_rsp2_04"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_03",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+                "id": "CARD_DISCARD",
+                "title": "Discard"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_DARK",
+                "title": "Dark"
+              },
+              {
+                "desc": "Activating a card through an effect",
+                "id": "CARD_USE",
+                "title": "Proc"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_LIGHT",
+                "title": "Light"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br><color_orange><u>Discard</u></> up to <color_orange>1</> card(s) in hand<br>Decrease Cost of the next <color_orange>2</> <color_orange><u>Light</u></> or <color_orange><u>Dark</u></> cards by <cc>2</> until <color_orange><u>activate</u></>d",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni2_rsp3",
+            "name": "Radiant Sword Flow",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_03",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni2_rsp3_01",
+              "c_30134_uni2_rsp3_02",
+              "c_30134_uni2_rsp3_03"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_03",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+                "id": "CARD_DISCARD",
+                "title": "Discard"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>rightmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_DARK",
+                "title": "Dark"
+              },
+              {
+                "desc": "Using or proccing a card",
+                "id": "CARD_ACTIVATE",
+                "title": "Activate"
+              },
+              {
+                "desc": "At the start of the turn, move this card to hand and place it on the <cc>leftmost</> side of the hand<br>If <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <color_orange><u>Bind</u></> are the only cards remaining in hand, coalesce the <color_orange><u>Light</u></>, <color_orange><u>Dark</u></>, and <cc>Sword Tassel</> cards into the <color_orange><u>Equilux</u></> card",
+                "id": "TALENT_LIGHT",
+                "title": "Light"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br>When a <color_orange><u>Bind</u></> card is stacked this turn, +<cc>50</>% base Damage Amount (max <cc>500</>%)",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni2_rsp4",
+            "name": "Radiant Sword Flow",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_03",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni2_rsp4_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_03",
+            "talent": [
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "When Bind cards of a given unit are in the same Pile or in hand, stack into <cc>1</> card",
+                "id": "CARD_TALENT_BIND",
+                "title": "Bind"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_SKILL",
+            "cost": 1,
+            "desc_display": "Increase Damage Amount of this unit by <color_orange>15</>% for each<color_orange>0</> <color_ego_narcissism_light>Justice</> Card in hand for <cc>1</> turn (max <cc>75</>%)",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni2_rsp5",
+            "name": "Radiant Sword Flow",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_03",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni2_rsp5_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_03",
+            "talent": [
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": []
+          }
+        ],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "unique_30134_03",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_uni2_01",
+          "c_30134_uni2_02",
+          "c_30134_uni2_03"
+        ],
+        "sort": "SORT_UNIQUE",
+        "spine_model": "unique_30134_03",
+        "talent": [],
+        "tooltips": [
+          {
+            "desc": "Discard this card from hand to <color_orange><u>Discard Pile</u></>",
+            "id": "CARD_DISCARD",
+            "title": "Discard"
+          }
+        ]
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "<color_orange>200%</> Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></>",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_uni3",
+        "name": "Blade of the Cycle",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br><color_orange>6</> <color_orange><u>Brand of the Cycle</u></>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni3_rsp1",
+            "name": "Blade of the Cycle",
+            "ownable_job": [],
+            "rarity": "RARITY_LEGEND",
+            "reward_tag": [],
+            "sct_name": "unique_30134_04",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni3_rsp1_01",
+              "c_30134_uni3_rsp1_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_04",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+                "id": "T_CS_30134_02",
+                "title": "Brand of the Cycle"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br><color_orange>2</> <color_orange><u>Brand of the Cycle</u></><br><color_orange>Purity:</> Create <color_orange>2</> <cc>Sword Tassel</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni3_rsp2",
+            "name": "Blade of the Cycle",
+            "ownable_job": [],
+            "rarity": "RARITY_LEGEND",
+            "reward_tag": [],
+            "sct_name": "unique_30134_04",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni3_rsp2_01",
+              "c_30134_uni3_rsp2_02",
+              "c_30134_uni3_rsp2_03"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_04",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+                "id": "T_CS_30134_02",
+                "title": "Brand of the Cycle"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>200%</> Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></><br><color_orange><u>Draw</u></> <color_orange>1</> card(s) of this unit, then decrease Cost of those cards by <color_orange>1</> for <cc>1</> turn",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni3_rsp3",
+            "name": "Blade of the Cycle",
+            "ownable_job": [],
+            "rarity": "RARITY_LEGEND",
+            "reward_tag": [],
+            "sct_name": "unique_30134_04",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni3_rsp3_01",
+              "c_30134_uni3_rsp3_02",
+              "c_30134_uni3_rsp3_03",
+              "c_30134_uni3_rsp3_04"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_04",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+                "id": "T_CS_30134_02",
+                "title": "Brand of the Cycle"
+              },
+              {
+                "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+                "id": "CARD_DRAW",
+                "title": "Draw"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 1,
+            "desc_display": "<color_orange>300</>% Damage<br><color_orange>1</> <color_orange><u>Brand of the Cycle</u></> for each <color_ego_narcissism_light>Justice</> Card in hand<br><color_orange>Purity:</> Decrease Cost by <color_orange>1</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni3_rsp4",
+            "name": "Blade of the Cycle",
+            "ownable_job": [],
+            "rarity": "RARITY_LEGEND",
+            "reward_tag": [],
+            "sct_name": "unique_30134_04",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni3_rsp4_01",
+              "c_30134_uni3_rsp4_02",
+              "c_30134_uni3_rsp4_03"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_04",
+            "talent": [],
+            "tooltips": [
+              {
+                "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+                "id": "T_CS_30134_02",
+                "title": "Brand of the Cycle"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 2,
+            "desc_display": "<color_orange>500</>% Damage<br><color_orange>4</> <color_orange><u>Brand of the Cycle</u></><br>On <color_orange><u>Shield Break</u></> through this card, <color_orange><u>proc</u></> <cc>1</> more time (<cc>1</> time per turn)",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni3_rsp5",
+            "name": "Blade of the Cycle",
+            "ownable_job": [],
+            "rarity": "RARITY_LEGEND",
+            "reward_tag": [],
+            "sct_name": "unique_30134_04",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni3_rsp5_01",
+              "c_30134_uni3_rsp5_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_04",
+            "talent": [
+              {
+                "desc": "When hitting a target holding <color_orange><u>Shield</u></>, increase Damage Amount by <cc>20</>%",
+                "id": "TALENT_SHIELD_DESTRUCT",
+                "title": "Pulverize"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "An effect that is activated when <color_orange><u>Shield</u></> of a target is removed through a card",
+                "id": "CARD_SHIELD_DESTROY",
+                "title": "Shield Break"
+              },
+              {
+                "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+                "id": "T_CS_30134_02",
+                "title": "Brand of the Cycle"
+              },
+              {
+                "desc": "Using or proccing a card",
+                "id": "CARD_ACTIVATE",
+                "title": "Activate"
+              }
+            ]
+          }
+        ],
+        "rarity": "RARITY_LEGEND",
+        "reward_tag": [],
+        "sct_name": "unique_30134_04",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_uni3_01",
+          "c_30134_uni3_02"
+        ],
+        "sort": "SORT_UNIQUE",
+        "spine_model": "unique_30134_04",
+        "talent": [],
+        "tooltips": [
+          {
+            "desc": "Increase Damage Amount taken from <cc>Rossweisse</> by <cc>20</>%, and when activated, decrease <color_orange><u>Brand of the Cycle</u></> by <cc>1</>",
+            "id": "T_CS_30134_02",
+            "title": "Brand of the Cycle"
+          }
+        ]
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_POWER",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "<color_orange><u>Draw</u></> <color_orange>2</><br><color_orange>1</> <color_orange><u>Kyrken’s Aegis</u></>",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_uni4",
+        "name": "Kyrken’s Apostle",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_POWER",
+            "cost": 0,
+            "desc_display": "<color_orange><u>Draw</u></> <color_orange>2</><br>Gain <color_orange>1</> <color_orange><u>AP</u></><br><color_orange>1</> <color_orange><u>Kyrken’s Aegis</u></>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_uni4_lbk",
+            "name": "Kyrken’s Apostle",
+            "ownable_job": [],
+            "rarity": "RARITY_UNIQUE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_05",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_uni4_lbk_01",
+              "c_30134_uni4_lbk_02",
+              "c_30134_uni4_lbk_03"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_05",
+            "talent": [
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              },
+              {
+                "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+                "id": "TALENT_INNATE",
+                "title": "Initiation"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "Increase Damage Amount of Attack Cards by <color_orange>30</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>20</>%",
+                "id": "T_CS_30134_04",
+                "title": "Kyrken’s Aegis"
+              },
+              {
+                "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+                "id": "CARD_DRAW",
+                "title": "Draw"
+              },
+              {
+                "desc": "The resource consumed when cards are <color_orange><u>use</u></>d",
+                "id": "CARD_ENERGY",
+                "title": "AP"
+              }
+            ]
+          }
+        ],
+        "rarity": "RARITY_UNIQUE",
+        "reward_tag": [],
+        "sct_name": "unique_30134_05",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_uni4_01",
+          "c_30134_uni4_02"
+        ],
+        "sort": "SORT_UNIQUE",
+        "spine_model": "unique_30134_05",
+        "talent": [
+          {
+            "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+            "id": "TALENT_ORIGIN",
+            "title": "Unique"
+          },
+          {
+            "desc": "At the start of battle, place this card at the top of <color_orange><u>Draw Pile</u></>",
+            "id": "TALENT_INNATE",
+            "title": "Initiation"
+          }
+        ],
+        "tooltips": [
+          {
+            "desc": "Increase Damage Amount of Attack Cards by <color_orange>20</>%, and increase final Damage Amount of <cc>Flicker Blade</> by <color_orange>15</>%",
+            "id": "T_CS_30134_03",
+            "title": "Kyrken’s Aegis"
+          },
+          {
+            "desc": "Move a card from <color_orange><u>Draw Pile</u></> to hand",
+            "id": "CARD_DRAW",
+            "title": "Draw"
+          }
+        ]
+      }
+    ],
+    "start_cards": [
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "<color_orange>100%</> Damage",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_srt1",
+        "name": "Sword Slash",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>100%</> Damage",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt1_pot",
+            "name": "Sword Slash",
+            "ownable_job": [],
+            "rarity": "RARITY_COMMON",
+            "reward_tag": [],
+            "sct_name": "start_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt1_pot_01"
+            ],
+            "sort": "SORT_START",
+            "spine_model": "",
+            "talent": [],
+            "tooltips": []
+          }
+        ],
+        "rarity": "RARITY_COMMON",
+        "reward_tag": [],
+        "sct_name": "start_30134_01",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_srt1_01"
+        ],
+        "sort": "SORT_START",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "<color_orange>100%</> Damage",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_srt2",
+        "name": "Sword Slash",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>100%</> Damage",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt2_pot",
+            "name": "Sword Slash",
+            "ownable_job": [],
+            "rarity": "RARITY_COMMON",
+            "reward_tag": [],
+            "sct_name": "start_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt2_pot_01"
+            ],
+            "sort": "SORT_START",
+            "spine_model": "",
+            "talent": [],
+            "tooltips": []
+          }
+        ],
+        "rarity": "RARITY_COMMON",
+        "reward_tag": [],
+        "sct_name": "start_30134_01",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_srt2_01"
+        ],
+        "sort": "SORT_START",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": []
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_SKILL",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 1,
+        "desc_display": "<color_orange>100%</> <color_orange><u>Shield</u></>",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_srt3",
+        "name": "Standing Blade",
+        "ownable_job": [],
+        "r_spark_cards": [],
+        "rarity": "RARITY_COMMON",
+        "reward_tag": [],
+        "sct_name": "start_30134_02",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_srt3_01"
+        ],
+        "sort": "SORT_START",
+        "spine_model": "",
+        "talent": [],
+        "tooltips": [
+          {
+            "desc": "Decrease Damage Amount taken until the next turn",
+            "id": "CARD_SHIELD",
+            "title": "Shield"
+          }
+        ]
+      },
+      {
+        "animation": false,
+        "base_combatant": {
+          "ego": "narcissism",
+          "id": "30134",
+          "job": "striker",
+          "rarity": 5
+        },
+        "card_category": "CARD_ATK",
+        "chaos_id": "",
+        "chaos_name": "",
+        "cost": 0,
+        "desc_display": "<color_orange>400%</> Damage<br>On polarization, split into <cc>Shard:Light</> and <cc>Shard:Dark</>",
+        "ego_type": "EGO_OWNER",
+        "id": "c_30134_srt4",
+        "name": "Flicker Blade",
+        "ownable_job": [],
+        "r_spark_cards": [
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Amped)</> and <cc>Shard:Dark (Amped)</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt4_rsp1",
+            "name": "Flicker Blade (Amped)",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt4_rsp1_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_01",
+            "talent": [
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": []
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Cycle)</> and <cc>Shard:Dark (Cycle)</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt4_rsp2",
+            "name": "Flicker Blade (Cycle)",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt4_rsp2_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_01",
+            "talent": [
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": []
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>400%</> Damage<br><color_orange>20</>% <color_orange><u>DMG-Based Shield</u></><br>On polarization, split into <cc>Shard:Light (Aegis)</> and <cc>Shard:Dark (Aegis)</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt4_rsp3",
+            "name": "Flicker Blade (Aegis)",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt4_rsp3_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_01",
+            "talent": [
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "Gain <color_orange><u>Fixed Shield</u></> based on the Damage coefficient<br>Cannot exceed <cc>20</>% of Max HP",
+                "id": "CARD_LEECHSHIELD",
+                "title": "DMG-Based Shield"
+              }
+            ]
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": 0,
+            "desc_display": "<color_orange>600</>% Damage<br>On polarization, split into <cc>Shard:Light (Blink)</> and <cc>Shard:Dark (Blink)</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt4_rsp4",
+            "name": "Flicker Blade (Blink)",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt4_rsp4_01"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_01",
+            "talent": [
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              }
+            ],
+            "tooltips": []
+          },
+          {
+            "animation": false,
+            "card_category": "CARD_ATK",
+            "cost": -1,
+            "desc_display": "<color_orange>400%</> Damage<br>+<color_orange>120</>% base Damage Amount for each <color_orange><u>X</u></><br>On polarization, split into <cc>Shard:Light (Unbound)</> and <cc>Shard:Dark (Unbound)</>",
+            "ego_type": "EGO_OWNER",
+            "id": "c_30134_srt4_rsp5",
+            "name": "Flicker Blade (Unbound)",
+            "ownable_job": [],
+            "rarity": "RARITY_RARE",
+            "reward_tag": [],
+            "sct_name": "unique_30134_01",
+            "season_tags": [],
+            "skill_eff_ids": [
+              "c_30134_srt4_rsp5_01",
+              "c_30134_srt4_rsp5_02"
+            ],
+            "sort": "SORT_UNIQUE",
+            "spine_model": "unique_30134_01",
+            "talent": [
+              {
+                "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+                "id": "TALENT_LIGHT_DARK",
+                "title": "Equilux"
+              },
+              {
+                "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+                "id": "TALENT_ORIGIN",
+                "title": "Unique"
+              },
+              {
+                "desc": "When this card is <color_orange><u>activate</u></>d, end turn",
+                "id": "TALENT_TERMINATION",
+                "title": "Finale"
+              }
+            ],
+            "tooltips": [
+              {
+                "desc": "Consume all remaining <color_orange><u>Action Points</u></> and activate effects equal to that number",
+                "id": "CARD_COST_X",
+                "title": "X"
+              }
+            ]
+          }
+        ],
+        "rarity": "RARITY_RARE",
+        "reward_tag": [],
+        "sct_name": "unique_30134_01",
+        "season_tags": [],
+        "skill_eff_ids": [
+          "c_30134_srt4_01"
+        ],
+        "sort": "SORT_UNIQUE",
+        "spine_model": "unique_30134_01",
+        "talent": [
+          {
+            "desc": "At the start of the turn, move this card to hand<br>When moved to hand, polarize into <color_orange><u>Light</u></> and <color_orange><u>Dark</u></> cards (<cc>1</> time per turn)<br>Hit Count of this card is fixed to <cc>1</>",
+            "id": "TALENT_LIGHT_DARK",
+            "title": "Equilux"
+          },
+          {
+            "desc": "Only 1 of each <cc>Unique</> card can be included in the Deck",
+            "id": "TALENT_ORIGIN",
+            "title": "Unique"
+          }
+        ],
+        "tooltips": []
+      }
+    ]
+  },
+  "ego": "narcissism",
+  "faction": "",
+  "gender_type": "GENDER_FEMALE",
+  "id": "30134",
+  "job": "striker",
+  "live_event_id": "live_event_30134",
+  "map_portrait_name": "",
+  "model": "30134",
+  "name": "Rossweisse",
+  "names": {
+    "en": "Rossweisse",
+    "zhs": "羅斯薇瑟",
+    "zht": "羅斯薇瑟"
+  },
+  "portrait_ani": "face/portrait/30134",
+  "portrait_name": "",
+  "potential_nodes": [
+    {
+      "desc": "When entering Chaos, obtain 1 random Rare Card with an activated Epiphany.",
+      "id": "301341001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_10_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "1_0",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_FIRST_SPARK_R_CARD_GET_UNLOCK",
+        "icon": "icon_comm/icon_comm_card_unique",
+        "id": "N_FIRST_SP_CDGET_UNLOCK_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Combatant Epiphany",
+        "sub_title": "Epiphany Bonus"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>2</>%",
+      "id": "301342001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_20_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "2_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_START",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_BASIC",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Basic Card Upgrade"
+      },
+      "unlock_combatant_ascend": "1",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>4</>%",
+          "id": "301342002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>6</>%",
+          "id": "301342003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>8</>%",
+          "id": "301342004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>10</>%",
+          "id": "301342005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "1",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>12</>%",
+          "id": "301342006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>14</>%",
+          "id": "301342007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>16</>%",
+          "id": "301342008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>18</>%",
+          "id": "301342009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>20</>%",
+          "id": "301342010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_20_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>22</>%",
+          "id": "301342011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>24</>%",
+          "id": "301342012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>26</>%",
+          "id": "301342013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>28</>%",
+          "id": "301342014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>30</>%",
+          "id": "301342015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Basic Cards</> by <color_orange>32</>%",
+          "id": "301342016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "2_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_START",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_BASIC",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Basic Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>2</>%",
+      "id": "301343001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_30_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "3_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_NEUTRAL",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Common Card Upgrade"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>4</>%",
+          "id": "301343002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "2",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>6</>%",
+          "id": "301343003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>8</>%",
+          "id": "301343004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>10</>%",
+          "id": "301343005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>12</>%",
+          "id": "301343006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>14</>%",
+          "id": "301343007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>16</>%",
+          "id": "301343008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>18</>%",
+          "id": "301343009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>20</>%",
+          "id": "301343010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_30_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>22</>%",
+          "id": "301343011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>24</>%",
+          "id": "301343012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>26</>%",
+          "id": "301343013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>28</>%",
+          "id": "301343014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>30</>%",
+          "id": "301343015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Common Cards</> by <color_orange>32</>%",
+          "id": "301343016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "3_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_NEUTRAL",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_NEUTRAL",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Common Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "Decrease Cost of the <color_orange><u>Sword Slash</u></> card by <color_orange>1</>.",
+      "id": "301343101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_31_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "3_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "2",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>2</>%",
+      "id": "301344001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_40_1",
+      "max_level": "10",
+      "node_level": "1",
+      "node_num": "4_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_UNIQUE",
+        "link_stat_list_id": "",
+        "main_title": "Upgrade Card",
+        "sub_title": "Signature Card Upgrade"
+      },
+      "unlock_combatant_ascend": "3",
+      "upgrade_nodes": [
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>4</>%",
+          "id": "301344002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_2",
+          "max_level": "10",
+          "node_level": "2",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>6</>%",
+          "id": "301344003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_3",
+          "max_level": "10",
+          "node_level": "3",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>8</>%",
+          "id": "301344004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_4",
+          "max_level": "10",
+          "node_level": "4",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>10</>%",
+          "id": "301344005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_5",
+          "max_level": "10",
+          "node_level": "5",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "3",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>12</>%",
+          "id": "301344006",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_6",
+          "max_level": "10",
+          "node_level": "6",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>14</>%",
+          "id": "301344007",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_7",
+          "max_level": "10",
+          "node_level": "7",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>16</>%",
+          "id": "301344008",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_8",
+          "max_level": "10",
+          "node_level": "8",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>18</>%",
+          "id": "301344009",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_9",
+          "max_level": "10",
+          "node_level": "9",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>20</>%",
+          "id": "301344010",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_40_10",
+          "max_level": "10",
+          "node_level": "10",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>22</>%",
+          "id": "301344011",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "11",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>24</>%",
+          "id": "301344012",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "12",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>26</>%",
+          "id": "301344013",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "13",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>28</>%",
+          "id": "301344014",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "14",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>30</>%",
+          "id": "301344015",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "15",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "Increase Damage, Shield Gain, and Heal Amounts of <color_orange>Signature Cards</> by <color_orange>32</>%",
+          "id": "301344016",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "",
+          "max_level": "10",
+          "node_level": "16",
+          "node_num": "4_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_REINFORCE_CARD_UNIQUE",
+            "icon": "icon_comm/icon_comm_card_reinforce",
+            "id": "N_CARD_UNIQUE",
+            "link_stat_list_id": "",
+            "main_title": "Upgrade Card",
+            "sub_title": "Signature Card Upgrade"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>2</>% Critical Chance",
+      "id": "301345001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_50_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "5_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical",
+        "id": "N_ADD_S_CRI_INC_ADD",
+        "link_stat_list_id": "S_CRI_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Chance Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4</>% Critical Chance",
+          "id": "301345002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "4",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>6</>% Critical Chance",
+          "id": "301345003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>8</>% Critical Chance",
+          "id": "301345004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>10</>% Critical Chance",
+          "id": "301345005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_50_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "5_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical",
+            "id": "N_ADD_S_CRI_INC_ADD",
+            "link_stat_list_id": "S_CRI_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Chance Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "+<color_orange>5</>% Damage Amount to Rossweisse's <color_orange><u>Sword Slash</u></>, and if Rossweisse's Attack is <color_orange>500</> or higher, add an additional +<color_orange>5</>% to the modifier",
+      "id": "301345101",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_51_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_1",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_CARD_R_SPARK",
+        "icon": "icon_comm/icon_comm_card_reinforce",
+        "id": "N_CARD_R_SP_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Basic Card",
+        "sub_title": "Basic Card Proficiency"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "Increases the chance for a Divine Epiphany to appear by <color_orange>25</>%.",
+      "id": "301345201",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_52_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "5_2",
+      "node_shape_type": "SHAPE_BIG_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_R_SPARK_GOD_ADD",
+        "icon": "icon_comm/icon_comm_card_spark",
+        "id": "N_G_SP_PCT_ADD_NONE",
+        "link_stat_list_id": "",
+        "main_title": "Card Epiphany",
+        "sub_title": "Divine Epiphany Adaptation"
+      },
+      "unlock_combatant_ascend": "4",
+      "upgrade_nodes": []
+    },
+    {
+      "desc": "+<color_orange>2.4</>% Critical Damage",
+      "id": "301346001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_60_1",
+      "max_level": "5",
+      "node_level": "1",
+      "node_num": "6_0",
+      "node_shape_type": "SHAPE_CIRCLE",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_comm/icon_comm_critical_dmg_rate",
+        "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+        "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+        "main_title": "Stats",
+        "sub_title": "Critical Damage Proficiency"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": [
+        {
+          "desc": "+<color_orange>4.8</>% Critical Damage",
+          "id": "301346002",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_2",
+          "max_level": "5",
+          "node_level": "2",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>7.2</>% Critical Damage",
+          "id": "301346003",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_3",
+          "max_level": "5",
+          "node_level": "3",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>9.6</>% Critical Damage",
+          "id": "301346004",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_4",
+          "max_level": "5",
+          "node_level": "4",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        },
+        {
+          "desc": "+<color_orange>12</>% Critical Damage",
+          "id": "301346005",
+          "link_potential_node_effect_id": "",
+          "link_potential_node_require_id": "potential_node_require_60_5",
+          "max_level": "5",
+          "node_level": "5",
+          "node_num": "6_0",
+          "node_shape_type": "SHAPE_CIRCLE",
+          "potential_node_type_define": {
+            "define_node_type": "NODE_STAT_ADD",
+            "icon": "icon_comm/icon_comm_critical_dmg_rate",
+            "id": "N_ADD_S_CRI_DMG_RATE_INC_ADD",
+            "link_stat_list_id": "S_CRI_DMG_RATE_INC_ADD",
+            "main_title": "Stats",
+            "sub_title": "Critical Damage Proficiency"
+          },
+          "unlock_combatant_ascend": "5",
+          "upgrade_nodes": []
+        }
+      ]
+    },
+    {
+      "desc": "If Rossweisse's Attack is <color_orange>600</> or higher, +<color_orange>5</>% Justice Attribute Damage Amount, and for every <color_orange>20</> Attack exceeding 600, add an additional +<color_orange>2</>% to the modifier (additional +<color_orange>10</>% max)",
+      "id": "301347001",
+      "link_potential_node_effect_id": "",
+      "link_potential_node_require_id": "potential_node_require_70_1",
+      "max_level": "1",
+      "node_level": "1",
+      "node_num": "7_0",
+      "node_shape_type": "SHAPE_SPECIAL",
+      "potential_node_type_define": {
+        "define_node_type": "NODE_STAT_ADD",
+        "icon": "icon_potential_rare",
+        "id": "N_UNIQUE",
+        "link_stat_list_id": "S_ADDI_ATK_DMG_RATE",
+        "main_title": "Unique Stats",
+        "sub_title": "Unique Stat Upgrade"
+      },
+      "unlock_combatant_ascend": "5",
+      "upgrade_nodes": []
+    }
+  ],
+  "rarity": 5
+}
