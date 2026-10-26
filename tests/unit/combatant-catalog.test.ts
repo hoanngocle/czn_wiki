@@ -58,10 +58,10 @@ it("preserves independent modifiers and aliases in source decks", () => {
   const nia = characterGuides["1003"];
   const chord = nia.decks[0].cards.find(card => card.cardId === "c_1003_srt4")!;
   expect(chord.draw).toBe(1);
-  expect(chord.effects?.vi).toBe("Nhận 2 Sĩ khí trong 1 lượt");
+  expect(chord.effects?.vi).toBe("Nhận 2 Morale trong 1 lượt");
   const cards = indexCharacterCards(getCharacterDetail("1003")!, nia.extraCards);
   const displayed = resolveDeckCard(cards, chord, true);
-  expect(displayed.description).toContain("Nhận 2 Sĩ khí trong 1 lượt");
+  expect(displayed.description).toContain("Nhận 2 Morale trong 1 lượt");
   expect(displayed.description).toContain("Rút <color_orange>1</> lá");
   expect(nia.decks[0].cards.some(card => card.cardId === "c_1003_uni2")).toBe(true);
   const luke = characterGuides["1004"].decks[0];

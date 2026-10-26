@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Blessing converts routine card use into Shield, while Protect Us keeps cards moving through the deck.",
-    "vi": "Phước lành biến việc sử dụng bài thành lá chắn, còn Protect Us giúp luân chuyển bộ bài."
+    "vi": "Blessing biến việc sử dụng bài thành Shield, còn Protect Us giúp luân chuyển bộ bài."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1055.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -734,19 +734,19 @@
   "review": {
     "intro": {
       "en": "Blessing converts routine card use into Shield, while Protect Us keeps cards moving through the deck.",
-      "vi": "Phước lành biến việc sử dụng bài thành lá chắn, còn Protect Us giúp luân chuyển bộ bài."
+      "vi": "Blessing biến việc sử dụng bài thành Shield, còn Protect Us giúp luân chuyển bộ bài."
     },
     "profile": [],
     "pros": [
       {
         "en": "Low AP demand with steady protection and useful card draw.",
-        "vi": "Ít tốn Điểm hành động, bảo vệ ổn định và hỗ trợ rút bài."
+        "vi": "Ít tốn AP, bảo vệ ổn định và hỗ trợ Draw."
       }
     ],
     "cons": [
       {
         "en": "Damage is modest; specialists can offer stronger buffs or draw.",
-        "vi": "Sát thương vừa phải; nhân vật chuyên hỗ trợ có thể tăng sức mạnh hoặc rút bài tốt hơn."
+        "vi": "Sát thương vừa phải; nhân vật chuyên hỗ trợ có thể tăng sức mạnh hoặc Draw tốt hơn."
       }
     ],
     "mechanics": [
@@ -754,7 +754,7 @@
         "title": "Protect Us",
         "body": {
           "en": "For the next 2 Blessing cards activated, Draw 1 Blessing card",
-          "vi": "Với 2 lá có Phước lành tiếp theo được Kích hoạt, Rút bài 1 lá có Phước lành"
+          "vi": "Với 2 lá có Blessing tiếp theo được Kích hoạt, Draw 1 lá có Blessing"
         },
         "cardId": "c_1055_uni1"
       },
@@ -770,7 +770,7 @@
         "title": "Truth Behind A Story",
         "body": {
           "en": "200% Defense-Based Damage; +100% Damage Amount taken by the target for 1 turn",
-          "vi": "200% Sát thương theo Phòng thủ; Tăng 100% lượng sát thương mục tiêu nhận vào trong 1 lượt"
+          "vi": "200% Defense-Based Damage; Tăng 100% lượng sát thương mục tiêu nhận vào trong 1 lượt"
         },
         "cardId": "c_1055_uni3"
       }
@@ -789,11 +789,11 @@
       "preferred": "II",
       "note": {
         "en": "II selects an opening card at zero cost; use it to organize the first turn and spread Blessing.",
-        "vi": "II chọn bài mở đầu với chi phí 0; dùng để sắp xếp lượt đầu và lan Phước lành."
+        "vi": "II chọn bài mở đầu với chi phí 0; dùng để sắp xếp lượt đầu và lan Blessing."
       },
       "divine": {
         "en": "Prefer AP, cost reduction or draw; Common Draw supports specific II combos.",
-        "vi": "Ưu tiên Điểm hành động, giảm chi phí hoặc rút bài; Rút Bài chung hỗ trợ một số tổ hợp với II."
+        "vi": "Ưu tiên AP, giảm chi phí hoặc Draw; Draw chung hỗ trợ một số tổ hợp với II."
       }
     },
     {
@@ -808,11 +808,11 @@
       "preferred": "I",
       "note": {
         "en": "I provides three staggered Blessing draws; IV trades certainty for zero cost and improves with Ego 4.",
-        "vi": "I rút ba lá Phước lành theo từng lần; IV đổi độ ổn định lấy chi phí 0 và mạnh hơn khi có Ego 4."
+        "vi": "I rút ba lá Blessing theo từng lần; IV đổi độ ổn định lấy chi phí 0 và mạnh hơn khi có Ego 4."
       },
       "divine": {
         "en": "Draw or cost reduction; AP fits IV. Neutral options are low priority.",
-        "vi": "Chọn rút bài hoặc giảm chi phí; Điểm hành động phù hợp IV. Thức tỉnh trung lập ít được ưu tiên."
+        "vi": "Chọn Draw hoặc giảm chi phí; AP phù hợp IV. Epiphany Neutral ít được ưu tiên."
       }
     },
     {
@@ -831,7 +831,7 @@
       },
       "divine": {
         "en": "Prefer draw or cost reduction; neutral options rarely justify replacing these variants.",
-        "vi": "Ưu tiên rút bài hoặc giảm chi phí; lựa chọn trung lập hiếm khi đáng đổi các biến thể này."
+        "vi": "Ưu tiên Draw hoặc giảm chi phí; lựa chọn Neutral hiếm khi đáng đổi các biến thể này."
       }
     },
     {
@@ -846,11 +846,11 @@
       "preferred": "I",
       "note": {
         "en": "I preserves the buff and adds Weaken; III strengthens Teddy's shield. Duplicate buffs extend duration rather than increase strength.",
-        "vi": "I giữ hiệu ứng tăng sức mạnh và thêm Suy nhược; III tăng Lá chắn của Teddy. Bản sao chỉ kéo dài thời gian hiệu lực, không tăng độ mạnh."
+        "vi": "I giữ hiệu ứng tăng sức mạnh và thêm Weaken; III tăng Shield của Teddy. Bản sao chỉ kéo dài thời gian hiệu lực, không tăng độ mạnh."
       },
       "divine": {
         "en": "Common-card draw, own-card draw or cost reduction suit the retained support role.",
-        "vi": "Rút Bài chung, rút bài của bản thân hoặc giảm chi phí phù hợp vai trò hỗ trợ."
+        "vi": "Draw chung, Draw của bản thân hoặc giảm chi phí phù hợp vai trò hỗ trợ."
       }
     }
   ],
@@ -860,7 +860,7 @@
       "score": "—",
       "note": {
         "en": "Clara supplies team buffs that the other Vanguard partners lack, making her the strongest support fit.",
-        "vi": "Clara tăng sức mạnh toàn đội, lợi ích các Đối tác Tiên phong khác thiếu, nên hợp vai trò hỗ trợ nhất."
+        "vi": "Clara tăng sức mạnh toàn đội, lợi ích các Partner Vanguard khác thiếu, nên hợp vai trò hỗ trợ nhất."
       }
     },
     {
@@ -868,7 +868,7 @@
       "score": "—",
       "note": {
         "en": "Without Clara, Eishlen prioritizes defense and sustain through her stats and Shield-retaining Ego skill.",
-        "vi": "Khi thiếu Clara, Eishlen bổ sung Phòng thủ và khả năng trụ trận nhờ chỉ số cùng kỹ năng Ego giữ Lá chắn."
+        "vi": "Khi thiếu Clara, Eishlen bổ sung DEF và khả năng trụ trận nhờ chỉ số cùng kỹ năng Ego giữ Shield."
       }
     },
     {
@@ -884,7 +884,7 @@
       "score": "—",
       "note": {
         "en": "Rachel trades raw stats for useful draw from an inexpensive Ego skill.",
-        "vi": "Rachel đánh đổi chỉ số để lấy khả năng Rút bài từ kỹ năng Ego ít tốn năng lượng."
+        "vi": "Rachel đánh đổi chỉ số để lấy khả năng Draw từ kỹ năng Ego ít tốn năng lượng."
       }
     },
     {
@@ -892,7 +892,7 @@
       "score": "—",
       "note": {
         "en": "Yuri offers inexpensive draw despite being outside the Vanguard class, at the cost of class stat benefits.",
-        "vi": "Yuri cho Rút bài ít tốn năng lượng dù khác lớp Tiên phong, đổi lại mất lợi ích chỉ số theo lớp."
+        "vi": "Yuri cho Draw ít tốn năng lượng dù khác lớp Vanguard, đổi lại mất lợi ích chỉ số theo lớp."
       }
     }
   ],
@@ -902,7 +902,7 @@
       "score": "—",
       "note": {
         "en": "The flexible 2/2/2 setup supplies reliable DEF and HP; specialized teams may prefer a support set.",
-        "vi": "Bộ 2/2/2 linh hoạt tăng Phòng thủ và Máu ổn định; đội chuyên biệt có thể ưu tiên bộ hỗ trợ."
+        "vi": "Bộ 2/2/2 linh hoạt tăng DEF và HP ổn định; đội chuyên biệt có thể ưu tiên bộ hỗ trợ."
       }
     },
     {
@@ -910,7 +910,7 @@
       "score": "—",
       "note": {
         "en": "Use this for Counterattack or Extra Attack teams; its damage bonus is wasted on other attack types.",
-        "vi": "Dùng cho đội Phản công hoặc Đòn đánh thêm; mức tăng sát thương không giúp các loại đòn khác."
+        "vi": "Dùng cho đội Counterattack hoặc Extra Attack; mức tăng sát thương không giúp các loại đòn khác."
       }
     },
     {
@@ -918,7 +918,7 @@
       "score": "—",
       "note": {
         "en": "Use only when the team lacks Glory's Reign coverage, since Exhaust is not central to Adelheid's kit.",
-        "vi": "Chỉ nên dùng khi đội chưa có Glory's Reign, vì Kiệt sức không phải cơ chế chính của Adelheid."
+        "vi": "Chỉ nên dùng khi đội chưa có Glory's Reign, vì Exhaust không phải cơ chế chính của Adelheid."
       }
     }
   ],
@@ -926,11 +926,11 @@
     {
       "name": {
         "en": "Adelheid Stats — Support · Ideal",
-        "vi": "Hỗ trợ · Lý tưởng"
+        "vi": "Hỗ trợ · Ideal"
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
@@ -940,67 +940,67 @@
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Support · Imagination",
-        "vi": "Hỗ trợ · Tưởng tượng"
+        "vi": "Hỗ trợ · Imagination"
       },
       "value": {
         "en": "DEF%",
-        "vi": "Phòng thủ%"
+        "vi": "DEF%"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Support · Substats",
-        "vi": "Hỗ trợ · Chỉ số phụ"
+        "vi": "Hỗ trợ · Substats"
       },
       "value": {
         "en": "DEF > DEF% > HP > HP% > Ego Regen",
-        "vi": "Phòng thủ > Phòng thủ% > Máu > Máu% > Hồi năng lượng Ego"
+        "vi": "DEF > DEF% > HP > HP% > Hồi năng lượng Ego"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Offensive · Ideal",
-        "vi": "Tấn công · Lý tưởng"
+        "vi": "Attack · Ideal"
       },
       "value": {
         "en": "CRIT Rate",
-        "vi": "Tỷ lệ chí mạng"
+        "vi": "Critical Chance"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Offensive · Desire",
-        "vi": "Tấn công · Khao khát"
+        "vi": "Attack · Khao khát"
       },
       "value": {
         "en": "Void DMG%",
-        "vi": "Sát thương Hư vô%"
+        "vi": "Void DMG%"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Offensive · Imagination",
-        "vi": "Tấn công · Tưởng tượng"
+        "vi": "Attack · Imagination"
       },
       "value": {
         "en": "DEF%",
-        "vi": "Phòng thủ%"
+        "vi": "DEF%"
       }
     },
     {
       "name": {
         "en": "Adelheid Stats — Offensive · Substats",
-        "vi": "Tấn công · Chỉ số phụ"
+        "vi": "Attack · Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ% >>> Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > DEF > DEF% >>> ATK > ATK%"
       }
     }
   ],
@@ -1010,35 +1010,35 @@
   },
   "potentialIntro": {
     "en": "DEFENSE% = HEALTH% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Adelheid’s 3-1 Ego grants her starting Basic Cards “Gather Around” and “Fairy’s Protection” the [Blessing] tag. A pretty solid Potential to unlock to assist with some extra Shielding when starting Chaos/Sortie runs.5-1: Adelheid’s 5-1 Ego increases the Shield provided by her “Fairy’s Protection” card by +5%. If her Defense is greater than 250, it applies an additional +5% to that modifier. A small increase to her defensive capabilities early in Chaos/Sortie, prior to having her Basic Cards removed.7: Adelheid’s Potential 7 increases her Void-Attribute damage modifier by +5% if her Defense is greater than 300, for every 10 Defense exceeding 300 - add an additional 2% to that value up to a maximum of +10%, for a total of +15% Void-Attribute damage. Overall, a relatively lackluster Potential for Adelheid as she primarily fills a support role in a team and won’t be a primary Damage Dealer, but still provides a decent damage increase when played as a sub-DPS role.",
-    "vi": "Ưu tiên % phòng thủ = % máu ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Phước lành cho Gather Around và Fairy’s Protection, còn 5-1 tăng lá chắn của Fairy’s Protection thêm 5%, cộng thêm 5% khi phòng thủ >250, chủ yếu hữu ích đầu chuyến thám hiểm trước khi xóa bài cơ bản. Tiềm năng 7 cho 5% sát thương Hư vô khi phòng thủ >300, thêm 2% mỗi 10 phòng thủ vượt 300, tối đa thêm 10% (tổng 15%); giá trị thấp với vai trò hỗ trợ nhưng hữu ích khi gây sát thương phụ."
+    "vi": "Ưu tiên % DEF = % máu ≥ sát thương Signature Cards > Common Cards = Basic Cards; 3-1 thêm Blessing cho Gather Around và Fairy’s Protection, còn 5-1 tăng Shield của Fairy’s Protection thêm 5%, cộng thêm 5% khi DEF >250, chủ yếu hữu ích đầu chuyến thám hiểm trước khi xóa Basic Cards. Potential 7 cho 5% sát thương Void khi DEF >300, thêm 2% mỗi 10 DEF vượt 300, tối đa thêm 10% (tổng 15%); giá trị thấp với vai trò hỗ trợ nhưng hữu ích khi gây sát thương phụ."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add Blessing to Gather Around and Fairy’s Protection cards.",
-        "vi": "Thêm Phước lành cho các lá Gather Around và Fairy’s Protection."
+        "vi": "Thêm Blessing cho các lá Gather Around và Fairy’s Protection."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Shield Gain Amount to Adelheid’s Fairy’s Protection; If Adelheid’s Defense is 250 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng Lá chắn nhận được của Fairy’s Protection thuộc Adelheid; Nếu Phòng thủ của Adelheid đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng Shield nhận được của Fairy’s Protection thuộc Adelheid; Nếu DEF của Adelheid đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Adelheid’s Defense is 300 or higher, +5% Void-Attribute Damage Amount, and for every 10 Defense exceeding 300, add an additional 2% to the modifier; (additional +10% max)",
-        "vi": "Nếu Phòng thủ của Adelheid từ 300 trở lên, tăng 5% lượng sát thương hệ Hư vô; với mỗi 10 Phòng thủ vượt 300, tăng thêm 2% cho chỉ số này; (tăng thêm tối đa 10%)"
+        "vi": "Nếu DEF của Adelheid từ 300 trở lên, tăng 5% lượng sát thương hệ Void; với mỗi 10 DEF vượt 300, tăng thêm 2% cho chỉ số này; (tăng thêm tối đa 10%)"
       }
     }
   ],
@@ -1046,7 +1046,7 @@
     {
       "name": {
         "en": "Season 1: Lab-Zero",
-        "vi": "Mùa 1: Lab-Zero"
+        "vi": "Season 1: Lab-Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1065,7 +1065,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (CURRENT)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1088,7 +1088,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1113,7 +1113,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1137,42 +1137,42 @@
   "seasonal": [
     {
       "name": {
-        "en": "Season 4 (source current season)",
-        "vi": "Mùa 4 (mùa hiện tại theo nguồn)"
+        "en": "Season 4",
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards thường chọn mỗi Lux Engraving tăng 15% sát thương Attack Card của đồng đội trong 1 lượt, hoặc Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -1190,7 +1190,7 @@
       "score": "—",
       "note": {
         "en": "Adelheid’s first Ego to be unlocked increases the Shield amount of her Mythic card “Garden of Secrets” by 100% and also reduces the cost by 1. A decent increase to the upfront Shield granted whilst also increasing her AP efficiency slightly, overall not incredibly impactful.",
-        "vi": "Garden of Secrets tăng thêm 100% lá chắn và giảm 1 chi phí. Cải thiện phòng thủ tức thời và tiết kiệm điểm hành động, nhưng tác động tổng thể vừa phải."
+        "vi": "Garden of Secrets tăng thêm 100% Shield và giảm 1 chi phí. Cải thiện DEF tức thời và tiết kiệm AP, nhưng tác động tổng thể vừa phải."
       }
     },
     {
@@ -1198,7 +1198,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego grants the buff “Bliss of Dreams” at the start of battle for each card anywhere (hand/deck/graveyard) that has the [Blessing] tag and whenever Adelheid applies the [Blessing] tag to a card or creates a card that has the [Blessing] tag. Bliss of Dreams can stack up to 10 times and lasts indefinitely. It provides a 3% multiplicative damage buff for each stack to her allies. This is a strong Ego that provides a solid, persistent damage buff to all allies.",
-        "vi": "Bliss of Dreams nhận cộng dồn từ các lá có Phước lành ở đầu trận, cũng như mỗi lần gắn Phước lành hoặc tạo bài mang hiệu ứng này. Tối đa 10 cộng dồn tồn tại vô hạn, mỗi cộng dồn tăng sát thương đồng đội 3% theo hệ số nhân: một nâng cấp hỗ trợ mạnh và ổn định."
+        "vi": "Bliss of Dreams nhận cộng dồn từ các lá có Blessing ở đầu trận, cũng như mỗi lần gắn Blessing hoặc tạo bài mang hiệu ứng này. Tối đa 10 cộng dồn tồn tại vô hạn, mỗi cộng dồn tăng sát thương đồng đội 3% theo hệ số nhân: một nâng cấp hỗ trợ mạnh và ổn định."
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "score": "—",
       "note": {
         "en": "Adelheid’s third Ego increases the Shield amount of her Ego Skill by an additional +200% and increases the heal amount cap to 50% of your Max HP, opposed to 30%. A relatively minor power increase, but it does increase her defensive and healing output provided by her Ego Skill.",
-        "vi": "Kỹ năng Ego tăng thêm 200% lá chắn; giới hạn hồi máu tăng từ 30% lên 50% máu tối đa. Chủ yếu cải thiện phòng thủ và hồi phục."
+        "vi": "Ego Skill tăng thêm 200% Shield; giới hạn hồi HP tăng từ 30% lên 50% HP tối đa. Chủ yếu cải thiện DEF và hồi phục."
       }
     },
     {
@@ -1214,7 +1214,7 @@
       "score": "—",
       "note": {
         "en": "Her fourth Ego grants an additional start-of-battle effect; it will apply the [Blessing] tag to any number of cards in your hand. When an Upgrade card is played that has the [Blessing] tag, it will also apply the [Blessing] tag to 1 random card in the Draw Pile. Provides some additional synergy with some of her draw power offered via “Protect Us” in its base variant and some of its offered Epiphanies, whilst also bolstering her defensive output.",
-        "vi": "Đầu trận gắn Phước lành lên các lá trên tay; dùng bài cường hóa có Phước lành còn gắn hiệu ứng này cho 1 lá ngẫu nhiên trong chồng rút. Tăng khả năng phòng thủ và phối hợp với khả năng rút bài của Protect Us."
+        "vi": "Đầu trận gắn Blessing lên các lá trên tay; dùng bài Upgrade có Blessing còn gắn hiệu ứng này cho 1 lá ngẫu nhiên trong chồng rút. Tăng khả năng DEF và phối hợp với khả năng Draw của Protect Us."
       }
     },
     {
@@ -1222,7 +1222,7 @@
       "score": "—",
       "note": {
         "en": "This Ego node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] potentials by 3. As the majority of Adelheid’s Shielding capabilities come from the [Blessing] tag and not from her cards, this doesn’t provide a huge increase to her defensive capabilities and is relatively minor.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của tiềm năng nâng cấp bài cơ bản, đặc trưng và chung. Vì phần lớn lá chắn đến từ Phước lành, mức cải thiện phòng thủ khá nhỏ."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của Potential Basic Card Upgrade, đặc trưng và chung. Vì phần lớn Shield đến từ Blessing, mức cải thiện DEF khá nhỏ."
       }
     },
     {
@@ -1230,7 +1230,7 @@
       "score": "—",
       "note": {
         "en": "Her final Ego reduces the maximum stack count of “Bliss of Dreams” by 5, but increases the buff value to 8% per stack instead of the standard 3%. When fully stacked, this provides a 40% multiplicative damage buff instead of the usual 30% while also allowing it to fully stack faster. Additionally, at the start of the turn, if you have 5 stacks of “Bliss of Dreams”, she will also draw 1 card that has the [Blessing] tag. A solid overall final Ego for Adelheid that provides some very consistent draw power, as most Adelheid decks will have at least 5 cards that have the [Blessing] tag to allow this to work even on turn 1. The draw effect on this, as it is easy to have 1 [Blessing] card in your deck with Adelheid, is effectively +1 start-of-turn draw, which increases Adelheid’s potency as a draw engine quite a bit.",
-        "vi": "Bliss of Dreams giảm giới hạn từ 10 xuống 5 cộng dồn nhưng tăng giá trị mỗi cộng dồn từ 3% lên 8%, đạt 40% sát thương theo hệ số nhân thay vì 30% và tích nhanh hơn. Khi đủ 5 cộng dồn ở đầu lượt, rút 1 lá có Phước lành; bộ bài phù hợp có thể hưởng ngay từ lượt đầu."
+        "vi": "Bliss of Dreams giảm giới hạn từ 10 xuống 5 cộng dồn nhưng tăng giá trị mỗi cộng dồn từ 3% lên 8%, đạt 40% sát thương theo hệ số nhân thay vì 30% và tích nhanh hơn. Khi đủ 5 cộng dồn ở đầu lượt, rút 1 lá có Blessing; bộ bài phù hợp có thể hưởng ngay từ lượt đầu."
       }
     }
   ],
@@ -1238,11 +1238,11 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Opening-hand setup and AP support",
-        "vi": "Chuẩn bị bài đầu trận và hỗ trợ Điểm hành động"
+        "vi": "Chuẩn bị bài đầu trận và hỗ trợ AP"
       },
       "partner": "",
       "cards": [
@@ -1251,7 +1251,7 @@
           "count": 3,
           "effects": {
             "en": "1 AP",
-            "vi": "Nhận 1 Điểm hành động"
+            "vi": "Nhận 1 AP"
           }
         },
         {
@@ -1259,7 +1259,7 @@
           "count": 1,
           "effects": {
             "en": "1 AP",
-            "vi": "Nhận 1 Điểm hành động"
+            "vi": "Nhận 1 AP"
           }
         },
         {
@@ -1289,7 +1289,7 @@
       "code": "v6l7NBZz5YZG6d-GDdybhmibocfen5l0aBqdIOZ3aURPgSdv4vApU-wGZBW6ObrPMRCm4tzPixXL0gMAost-kJOYTT47cTA",
       "note": {
         "en": "Choose three opening cards and supply AP on turns 1–2. Adjust duplicate counts and Divine Epiphanies to the team's draw or AP needs. Lab-0 offers useful support equipment; other zones work if its Forbidden card and equipment are omitted.",
-        "vi": "Chọn ba lá trên tay khi bắt đầu giao tranh và cung cấp nhiều Điểm hành động trong lượt 1–2. Điều chỉnh số bản sao và Thức tỉnh thần thánh theo nhu cầu rút bài hoặc Điểm hành động của đội. Nên thu thập bộ bài tại Lab-0 để lấy trang bị hỗ trợ phù hợp; vẫn có thể thu thập bộ bài ở khu khác nếu bỏ lá Cấm kỵ và trang bị riêng của khu này."
+        "vi": "Chọn ba lá trên tay khi bắt đầu giao tranh và cung cấp nhiều AP trong lượt 1–2. Điều chỉnh số bản sao và Divine Epiphany theo nhu cầu Draw hoặc AP của đội. Nên thu thập bộ bài tại Lab-0 để lấy trang bị hỗ trợ phù hợp; vẫn có thể thu thập bộ bài ở khu khác nếu bỏ lá Cấm kỵ và trang bị riêng của khu này."
       }
     }
   ],
@@ -1298,35 +1298,35 @@
       "name": "Amir",
       "note": {
         "en": "Blessing activates Metallization while Truth Behind a Story adds a damage buff.",
-        "vi": "Phước lành kích hoạt Kim loại hóa, còn Truth Behind a Story bổ sung tăng sát thương."
+        "vi": "Blessing kích hoạt Metallization, còn Truth Behind a Story bổ sung tăng sát thương."
       }
     },
     {
       "name": "Magna",
       "note": {
         "en": "Counterattack retention and retained Shields help Magna start turns with stronger counters.",
-        "vi": "Giữ Phản công và Lá chắn giúp Magna bắt đầu lượt với các đòn phản công mạnh hơn."
+        "vi": "Giữ Counterattack và Shield giúp Magna bắt đầu lượt với các đòn Counterattack mạnh hơn."
       }
     },
     {
       "name": "Heidemarie",
       "note": {
         "en": "Blessed blades generate draw and Shields, while recovering discarded blades enables extra activations.",
-        "vi": "Gắn Phước lành lên kiếm tạo Rút bài và Lá chắn; lấy lại kiếm đã bỏ giúp kích hoạt thêm."
+        "vi": "Gắn Blessing lên kiếm tạo Draw và Shield; lấy lại kiếm đã bỏ giúp kích hoạt thêm."
       }
     },
     {
       "name": "Nine",
       "note": {
         "en": "Blessing efficiently triggers Counterblade, while Nine strengthens Adelheid's Shield skills but not Blessing itself.",
-        "vi": "Phước lành dễ kích hoạt Counterblade; Nine tăng Lá chắn từ kỹ năng của Adelheid nhưng không tăng chính Phước lành."
+        "vi": "Blessing dễ kích hoạt Counterblade; Nine tăng Shield từ kỹ năng của Adelheid nhưng không tăng chính Blessing."
       }
     },
     {
       "name": "Haru",
       "note": {
         "en": "Haru repeatedly triggers Blessing through Retrieve and movement effects, while her own buffs cover Adelheid's weaker buffing.",
-        "vi": "Haru liên tục kích hoạt Phước lành nhờ Thu hồi và chuyển bài, đồng thời tự tăng sức mạnh để bù phần hỗ trợ sát thương còn yếu."
+        "vi": "Haru liên tục kích hoạt Blessing nhờ Retrieve và chuyển bài, đồng thời tự tăng sức mạnh để bù phần hỗ trợ sát thương còn yếu."
       }
     }
   ],
@@ -1343,8 +1343,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

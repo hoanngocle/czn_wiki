@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -389,7 +389,7 @@
     "cons": [
       {
         "en": "Wisp generation and Inhibit constrain teammates; there is no AoE.",
-        "vi": "Cơ chế tạo Ma trơi và Ức chế hạn chế lựa chọn đồng đội; không có sát thương diện rộng."
+        "vi": "Cơ chế tạo Will-O’-Wisp và Inhibit hạn chế lựa chọn đồng đội; không có sát thương diện rộng."
       }
     ],
     "mechanics": [
@@ -397,7 +397,7 @@
         "title": "Tsukuyomi",
         "body": {
           "en": "3 Will-O’-Wisp for each Hit of the next Attack Card of this unit activated",
-          "vi": "Nhận 3 Ma trơi với mỗi lần đánh của bài Tấn công tiếp theo thuộc nhân vật này được Kích hoạt"
+          "vi": "Nhận 3 Will-O’-Wisp với mỗi lần đánh của bài Attack tiếp theo thuộc nhân vật này được Kích hoạt"
         },
         "cardId": "c_1060_uni1"
       },
@@ -405,7 +405,7 @@
         "title": "Bound At Dusk",
         "body": {
           "en": "At the start of the turn, gain Inhibit; Decrease Cost of 2 random card(s) of other Combatants by 1 until activated",
-          "vi": "Đầu lượt, nhận Ức chế; Giảm 1 chi phí của 2 lá ngẫu nhiên thuộc nhân vật khác cho đến khi được Kích hoạt"
+          "vi": "Đầu lượt, nhận Inhibit; Giảm 1 chi phí của 2 lá ngẫu nhiên thuộc nhân vật khác cho đến khi được Kích hoạt"
         },
         "cardId": "c_1060_uni2"
       },
@@ -413,7 +413,7 @@
         "title": "Oni Hunt",
         "body": {
           "en": "70% Damage; +80% Damage Amount to the next Bind card activated",
-          "vi": "Gây 70% sát thương; Tăng 80% lượng sát thương của lá Ràng buộc được Kích hoạt tiếp theo"
+          "vi": "Gây 70% sát thương; Tăng 80% lượng sát thương của lá Bind được Kích hoạt tiếp theo"
         },
         "cardId": "c_1060_uni3"
       }
@@ -432,11 +432,11 @@
       "preferred": "V",
       "note": {
         "en": "V is a zero-cost Exhaust option that can return after enemy deaths; I's extra hit needs Cursed Shackles setup.",
-        "vi": "V là lựa chọn Kiệt sức chi phí 0, có thể tạo lại khi kẻ địch chết; lần đánh thêm của I cần thiết lập Xiềng xích nguyền rủa."
+        "vi": "V là lựa chọn Exhaust chi phí 0, có thể tạo lại khi kẻ địch chết; lần đánh thêm của I cần thiết lập Cursed Shackles."
       },
       "divine": {
         "en": "Neutral 1 AP is strong; consider cost reduction or Draw 1 on IV.",
-        "vi": "1 Điểm hành động trung lập mạnh; cân nhắc giảm chi phí hoặc Rút 1 cho IV."
+        "vi": "1 AP Neutral mạnh; cân nhắc giảm chi phí hoặc Rút 1 cho IV."
       }
     },
     {
@@ -451,11 +451,11 @@
       "preferred": "V",
       "note": {
         "en": "V supplies reliable Wisps and clears itself from the deck. III instead supports accumulating Shadow of the Moon hits across skipped turns.",
-        "vi": "V cung cấp Ma trơi ổn định và tự rời vòng bài. III hỗ trợ tích số lần đánh của Shadow of the Moon qua các lượt bỏ qua."
+        "vi": "V cung cấp Will-O’-Wisp ổn định và tự rời vòng bài. III hỗ trợ tích số lần đánh của Shadow of the Moon qua các lượt bỏ qua."
       },
       "divine": {
         "en": "III favors draw or AP; V favors Morale/Resolve. Neutral effects lose the key specialization.",
-        "vi": "III hợp rút bài hoặc Điểm hành động; V hợp Sĩ khí/Quyết tâm. Trung lập làm mất cơ chế chuyên biệt."
+        "vi": "III hợp Draw hoặc AP; V hợp Morale/Resolve. Neutral làm mất cơ chế chuyên biệt."
       }
     },
     {
@@ -470,11 +470,11 @@
       "preferred": "I",
       "note": {
         "en": "I's zero cost eases turn-one setup. II can outperform it with several Shadow of the Moon creations, but needs reliable sequencing.",
-        "vi": "Chi phí 0 của I giúp thiết lập lượt đầu. II có thể vượt hơn khi tạo nhiều Shadow of the Moon, nhưng cần thứ tự dùng bài ổn định."
+        "vi": "Cost 0 của I giúp thiết lập lượt đầu. II có thể vượt hơn khi tạo nhiều Shadow of the Moon, nhưng cần thứ tự dùng bài ổn định."
       },
       "divine": {
         "en": "Neutral 1 Morale or Morale/Resolve divines provide lasting multihit support.",
-        "vi": "1 Sĩ khí trung lập hoặc thần thánh Sĩ khí/Quyết tâm hỗ trợ lâu dài cho nhiều lần đánh."
+        "vi": "1 Morale Neutral hoặc Divine Morale/Resolve hỗ trợ lâu dài cho nhiều lần đánh."
       }
     },
     {
@@ -489,11 +489,11 @@
       "preferred": "IV / V",
       "note": {
         "en": "IV suits consistent Moonslash/basic-attack damage. V fits hit-stacking setups and avoids consuming next-attack buffs with unwanted attacks.",
-        "vi": "IV hợp sát thương ổn định bằng Moonslash/Bài tấn công cơ bản. V hợp tích lần đánh và tránh tiêu hao hiệu ứng tăng đòn kế tiếp bằng đòn không mong muốn."
+        "vi": "IV hợp sát thương ổn định bằng Moonslash/Attack Card cơ bản. V hợp tích lần đánh và tránh tiêu hao hiệu ứng tăng đòn kế tiếp bằng đòn không mong muốn."
       },
       "divine": {
         "en": "Neutral AP, draw or cost reduction address resources; V can use Morale/Resolve.",
-        "vi": "Điểm hành động trung lập, rút bài hoặc giảm chi phí giải quyết tài nguyên; V có thể dùng Sĩ khí/Quyết tâm."
+        "vi": "AP Neutral, Draw hoặc giảm chi phí giải quyết tài nguyên; V có thể dùng Morale/Resolve."
       }
     }
   ],
@@ -527,7 +527,7 @@
       "score": "116.04%",
       "note": {
         "en": "Anteia provides solid stats without a signature investment, though her Ego skill is unimpressive.",
-        "vi": "Anteia cho chỉ số khá mà không cần đầu tư Đối tác đặc trưng, nhưng kỹ năng Ego ít nổi bật."
+        "vi": "Anteia cho chỉ số khá mà không cần đầu tư Partner đặc trưng, nhưng kỹ năng Ego ít nổi bật."
       }
     },
     {
@@ -535,7 +535,7 @@
       "score": "112.96%",
       "note": {
         "en": "Eloise is an accessible damage choice for Exhaust decks, with notably weaker results at lower Ego levels.",
-        "vi": "Eloise là lựa chọn sát thương dễ tiếp cận cho bộ bài Kiệt sức, nhưng yếu hơn rõ ở Ego thấp."
+        "vi": "Eloise là lựa chọn sát thương dễ tiếp cận cho bộ bài Exhaust, nhưng yếu hơn rõ ở Ego thấp."
       }
     },
     {
@@ -543,7 +543,7 @@
       "score": "100.00%",
       "note": {
         "en": "Zatera is a free temporary fallback when stronger damage partners are unavailable.",
-        "vi": "Zatera là phương án miễn phí tạm thời khi chưa có Đối tác sát thương mạnh hơn."
+        "vi": "Zatera là phương án miễn phí tạm thời khi chưa có Partner sát thương mạnh hơn."
       }
     }
   ],
@@ -561,7 +561,7 @@
       "score": "—",
       "note": {
         "en": "Its bonus overlaps with readily available Morale and other buffs, usually leaving it behind 2/2/2.",
-        "vi": "Hiệu ứng trùng với Sĩ khí và các nguồn tăng sức mạnh dễ có, nên thường thua 2/2/2."
+        "vi": "Hiệu ứng trùng với Morale và các nguồn tăng sức mạnh dễ có, nên thường thua 2/2/2."
       }
     },
     {
@@ -569,7 +569,7 @@
       "score": "—",
       "note": {
         "en": "This can beat 2/2/2 only when discard teammates or effects consistently activate it.",
-        "vi": "Chỉ có thể vượt 2/2/2 khi đồng đội hoặc hiệu ứng Bỏ bài kích hoạt bộ ổn định."
+        "vi": "Chỉ có thể vượt 2/2/2 khi đồng đội hoặc hiệu ứng Discard kích hoạt bộ ổn định."
       }
     },
     {
@@ -577,7 +577,7 @@
       "score": "—",
       "note": {
         "en": "Choose this when 1-cost cards, commonly Shadow of the Moon+, supply most damage.",
-        "vi": "Chọn khi lá Chi phí 1, thường là Shadow of the Moon+, gây phần lớn sát thương."
+        "vi": "Chọn khi lá Cost 1, thường là Shadow of the Moon+, gây phần lớn sát thương."
       }
     }
   ],
@@ -585,11 +585,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -599,37 +599,37 @@
       },
       "value": {
         "en": "Void DMG% > ATK%",
-        "vi": "Sát thương Hư vô% > Tấn công%"
+        "vi": "Void DMG% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "When playing builds that focus on Chizuru's Bind cards to deal the majority of the damage, try to ensure she has at least 601+ ATK in the character screen to activate the first stage of her Potential 7, but if possible, aiming for even higher ATK amounts is ideal to push Potential 7's bonus even further. For Chizuru's Moon Slash build, the ATK breakpoint is only 501 to activate Potential 5-1's boost to Moon Slash damage, which is quite easy to achieve.",
-    "vi": "Bộ bài gây sát thương chủ yếu bằng Trói buộc nên có ít nhất 601+ tấn công trên màn hình nhân vật để kích hoạt bước đầu của tiềm năng 7, và tăng thêm nếu có thể. Với bộ Moon Slash, ngưỡng 501 tấn công đủ kích hoạt tiềm năng 5-1."
+    "vi": "Deck gây sát thương chủ yếu bằng Trói buộc nên có ít nhất 601+ ATK trên màn hình nhân vật để kích hoạt bước đầu của Potential 7, và tăng thêm nếu có thể. Với bộ Moon Slash, ngưỡng 501 ATK đủ kích hoạt Potential 5-1."
   },
   "potentialIntro": {
     "en": "Chizuru’s Signature Potentials are a mixed bag, with some being all-around strong, while others are only strong in specific game modes.3-1: Converts Chizuru’s Basic Attacks from attacks that deal 100% of her attack in a single hit to attacks that deal 60% of her attack twice (2 hits). This is a significant upgrade as not only is the damage higher, but the higher hit count generates more Will-O’-Wisps thanks to Cursed Shackles. A must-have for Chaos, but as basics are usually removed in Save, it's less impactful there.5-1: Increase the base damage of Chizuru’s Basic Attack, Moonslash, by +5% Base damage and another 5% if her Attack is greater than 500. The gain for Chizuru’s basics from this Potential is significant, thanks to their multi-hit nature, making this a high-priority target to fully activate when using Chizuru in Chaos. Holds less value in Save Data game modes for the same reason as 3-1.7: Increase the base damage of both Shadow of the Moon Baseline and + by 5% Base Damage, with an additional increase of 1% per 40 attack she has over 600, up to an additional +10% at 1000. A must-have Potential that significantly improves the output of Chizuru in both Save and Chaos game modes, as Shadow of the Moon makes up a huge chunk of her damage.",
-    "vi": "Ưu tiên 3-1 và 5-1 trong Chaos: bài cơ bản đổi từ 1 lần đánh 100% sang 2 lần 60%, tạo thêm Will-O’-Wisps qua Xiềng xích nguyền rủa; 5-1 tăng Moon Slash thêm 5% và thêm 5% khi tấn công >500, nhưng cả hai giảm giá trị khi xóa bài cơ bản trong dữ liệu lưu. Tiềm năng 7 rất quan trọng ở mọi chế độ: Shadow of the Moon và bản + tăng 5% sát thương cơ bản, thêm 1% mỗi 40 tấn công vượt 600, tối đa thêm 10% ở 1000 tấn công."
+    "vi": "Ưu tiên 3-1 và 5-1 trong Chaos: Basic Cards đổi từ 1 lần đánh 100% sang 2 lần 60%, tạo thêm Will-O’-Wisps qua Cursed Shackles; 5-1 tăng Moon Slash thêm 5% và thêm 5% khi Attack >500, nhưng cả hai giảm giá trị khi xóa Basic Cards trong Save Data. Potential 7 rất quan trọng ở mọi chế độ: Shadow of the Moon và bản + tăng 5% sát thương cơ bản, thêm 1% mỗi 40 Attack vượt 600, tối đa thêm 10% ở 1000 Attack."
   },
   "potentialAdvice": [
     {
@@ -643,21 +643,21 @@
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Chizuru’s Moonslash; If Chizuru’s Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Moonslash của Chizuru; Nếu Tấn công của Chizuru đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Moonslash của Chizuru; Nếu Attack của Chizuru đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Chizuru’s Attack is 600 or higher, +5% Damage Amount to Bind cards; For every 10 Attack above 600, add an additional +1% to the modifier (additional +10% max)",
-        "vi": "Nếu Tấn công của Chizuru từ 600 trở lên, tăng 5% lượng sát thương của bài Ràng buộc; Với mỗi 10 Tấn công vượt 600, tăng thêm 1% cho chỉ số này (tăng thêm tối đa 10%)"
+        "vi": "Nếu Attack của Chizuru từ 600 trở lên, tăng 5% lượng sát thương của bài Bind; Với mỗi 10 Attack vượt 600, tăng thêm 1% cho chỉ số này (tăng thêm tối đa 10%)"
       }
     }
   ],
@@ -665,7 +665,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -687,7 +687,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -709,7 +709,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -730,7 +730,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -749,7 +749,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -772,41 +772,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -848,7 +848,7 @@
       "score": "—",
       "note": {
         "en": "Grants a buff that offers a 10% (additive) damage bonus to Chizuru’s Attack Cards every time she creates or upgrades Shadow of the Moon, stackable up to 3 times with no duration. This buff is fairly easy to stack and is a notable damage increase to Chizuru’s overall output, thanks to her high hit count and low base multiplier kit, which favors any additive damage she can get her hands on.",
-        "vi": "Mỗi lần tạo hoặc nâng Shadow of the Moon, bài tấn công được thêm 10% sát thương theo phép cộng, tối đa 3 cộng dồn không giới hạn thời gian. Dễ tích và rất phù hợp bộ kỹ năng nhiều lần đánh, hệ số cơ bản thấp."
+        "vi": "Mỗi lần tạo hoặc nâng Shadow of the Moon, Attack Card được thêm 10% sát thương theo phép cộng, tối đa 3 cộng dồn không giới hạn thời gian. Dễ tích và rất phù hợp bộ kỹ năng nhiều lần đánh, hệ số cơ bản thấp."
       }
     },
     {
@@ -856,7 +856,7 @@
       "score": "—",
       "note": {
         "en": "Boosts the base damage increase of Chizuru’s Potentials from 20% to 26%. A small damage increase, but nothing major.",
-        "vi": "Mức tăng sát thương cơ bản từ tiềm năng tăng từ 20% lên 26%; cải thiện nhỏ."
+        "vi": "Mức tăng sát thương cơ bản từ Potential tăng từ 20% lên 26%; cải thiện nhỏ."
       }
     },
     {
@@ -864,7 +864,7 @@
       "score": "—",
       "note": {
         "en": "After hitting 3 stacks of the E4 buff, gain a new effect which increases the hit count of Shadow of the Moon+ by 1, improving it from the usual baseline of 2 (3 with Inhibit) to 3 (4 with Inhibit). Just like E4, this is a strong damage boost for Chizuru, offering equal or slightly better damage amplification than it, depending on the deck you’re using for her.",
-        "vi": "Đủ 3 cộng dồn hiệu ứng Ego 4 thì Shadow of the Moon+ thêm 1 lần đánh: từ 2 lên 3, hoặc từ 3 lên 4 khi có Ức chế. Tăng sát thương mạnh, ngang hoặc nhỉnh hơn Ego 4 tùy bộ bài."
+        "vi": "Đủ 3 cộng dồn hiệu ứng Ego 4 thì Shadow of the Moon+ thêm 1 lần đánh: từ 2 lên 3, hoặc từ 3 lên 4 khi có Inhibit. Tăng sát thương mạnh, ngang hoặc nhỉnh hơn Ego 4 tùy bộ bài."
       }
     }
   ],
@@ -876,7 +876,7 @@
       },
       "role": {
         "en": "Hugo attack driver",
-        "vi": "Kích hoạt đòn đánh thêm cho Hugo"
+        "vi": "Kích hoạt Extra Attack cho Hugo"
       },
       "partner": "Itsuku",
       "cards": [
@@ -908,7 +908,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Pair with Hugo because Chizuru's own damage tends to clear slowly. Psionic neutral Morale and neutral cards can add team buffs, but the simpler setup uses four Oni Hunt copies with draw or cost-reduction Divines for a more reliable rotation.",
-        "vi": "Nên đi cùng Hugo vì chỉ dựa vào sát thương riêng của Chizuru thường sẽ hạ địch chậm. Thức tỉnh bài Sĩ khí trung lập và các lá trung lập của Ngoại cảm cho phép kiêm tăng sức mạnh đội. Để dễ chơi và ổn định hơn, dùng bốn Oni Hunt với Thức tỉnh thần thánh rút bài hoặc giảm chi phí thay cho gói lá trung lập tăng Sĩ khí."
+        "vi": "Nên đi cùng Hugo vì chỉ dựa vào sát thương riêng của Chizuru thường sẽ hạ địch chậm. Epiphany Morale Neutral và các lá Neutral của Psionic cho phép kiêm tăng sức mạnh đội. Để dễ chơi và ổn định hơn, dùng bốn Oni Hunt với Divine Epiphany Draw hoặc giảm chi phí thay cho gói lá Neutral tăng Morale."
       }
     },
     {
@@ -954,18 +954,18 @@
         0
       ],
       "note": {
-        "en": "After deploying all Tsukuyomi copies, pass turns to add up to eight Shadow of the Moon hits each turn. The eventual burst can be large, but sacrificed early damage hurts short fights and respawning bosses. Consider it only for long, uncapped encounters without Elasticity; the source notes that bosses from season 2 onward commonly have it.",
-        "vi": "Sau khi dùng đủ các bản Tsukuyomi, kết thúc lượt để mỗi lượt tích thêm tối đa tám nhịp đánh cho Shadow of the Moon. Cú đánh cuối có thể rất lớn, nhưng mất sát thương ở các lượt chuẩn bị nên kém hiệu quả trong trận ngắn hoặc trùm hồi sinh. Chỉ nên cân nhắc cho trận dài không giới hạn lượt và không có Đàn hồi; nguồn lưu ý trùm từ mùa 2 trở đi thường có cơ chế này."
+        "en": "After deploying all Tsukuyomi copies, pass turns to add up to eight Shadow of the Moon hits each turn. The eventual burst can be large, but sacrificed early damage hurts short fights and respawning bosses. Consider it only for long, uncapped encounters without Elasticity; note that bosses from season 2 onward commonly have it.",
+        "vi": "Sau khi dùng đủ các bản Tsukuyomi, kết thúc lượt để mỗi lượt tích thêm tối đa tám nhịp đánh cho Shadow of the Moon. Cú đánh cuối có thể rất lớn, nhưng mất sát thương ở các lượt chuẩn bị nên kém hiệu quả trong trận ngắn hoặc trùm hồi sinh. Chỉ nên cân nhắc cho trận dài không giới hạn lượt và không có Elasticity; lưu ý trùm từ Season 2 trở đi thường có cơ chế này."
       }
     },
     {
       "name": {
         "en": "Bound Support",
-        "vi": "Cấp Điểm hành động bằng Bound At Dusk"
+        "vi": "Level AP bằng Bound At Dusk"
       },
       "role": {
         "en": "Minimal AP battery",
-        "vi": "Nguồn Điểm hành động với bộ bài tối giản"
+        "vi": "Nguồn AP với bộ bài tối giản"
       },
       "partner": "",
       "cards": [
@@ -981,7 +981,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Remove every card except Bound At Dusk to turn Chizuru into an AP provider. Its ceiling is low: a typical turn totals 5–6 AP from three base AP, two from Chizuru, and possibly one from Ravage. It fits low-spending carries such as Mei Lin with Veronica rather than AP-hungry teams.",
-        "vi": "Loại mọi lá trừ Bound At Dusk để Chizuru chuyên cung cấp Điểm hành động. Giới hạn khá thấp: thường chỉ có 5–6 Điểm hành động mỗi lượt, gồm 3 Điểm hành động cơ bản, 2 từ Chizuru và có thể thêm 1 từ Suy yếu. Phù hợp với chủ lực tiêu ít Điểm hành động như Mei Lin đi cùng Veronica hơn là đội cần lượng Điểm hành động lớn."
+        "vi": "Loại mọi lá trừ Bound At Dusk để Chizuru chuyên cung cấp AP. Giới hạn khá thấp: thường chỉ có 5–6 AP mỗi lượt, gồm 3 AP cơ bản, 2 từ Chizuru và có thể thêm 1 từ Ravage. Phù hợp với chủ lực tiêu ít AP như Mei Lin đi cùng Veronica hơn là đội cần lượng AP lớn."
       }
     }
   ],
@@ -990,21 +990,21 @@
       "name": "Rei",
       "note": {
         "en": "Low-cost and Void buffs suit Chizuru, while Dark Condensation IV scales alongside her long-fight hit stacking.",
-        "vi": "Tăng sức mạnh cho bài rẻ và Hư vô hợp Chizuru; Dark Condensation IV cùng tăng giá trị theo số lần đánh tích lũy trong trận dài."
+        "vi": "Tăng sức mạnh cho bài rẻ và Void hợp Chizuru; Dark Condensation IV cùng tăng giá trị theo số lần đánh tích lũy trong trận dài."
       }
     },
     {
       "name": "Narja",
       "note": {
         "en": "Basic Attack buffs and persistent cost reduction support Chizuru even when Inhibition restricts AP gains.",
-        "vi": "Tăng Tấn công cơ bản và giảm Chi phí kéo dài hỗ trợ Chizuru ngay cả khi Ức chế hạn chế nhận Điểm hành động."
+        "vi": "Tăng Attack cơ bản và giảm Cost kéo dài hỗ trợ Chizuru ngay cả khi Inhibit hạn chế nhận AP."
       }
     },
     {
       "name": "Hugo",
       "note": {
         "en": "Moonslash builds supply skills and attacks for Commence the Hunt, while Hugo adds useful draw.",
-        "vi": "Hướng Moonslash cung cấp Kỹ năng và Tấn công cho Bắt đầu cuộc săn, còn Hugo bổ sung Rút bài."
+        "vi": "Hướng Moonslash cung cấp Skill và Attack cho Commence the Hunt, còn Hugo bổ sung Draw."
       }
     },
     {
@@ -1018,7 +1018,7 @@
       "name": "Cassius",
       "note": {
         "en": "Attack-based Morale buffs also trigger Wisps, but combining buffs and draw often needs discounted Devil Dice.",
-        "vi": "Bài Tấn công tăng Sĩ khí đồng thời kích hoạt linh hỏa, nhưng muốn vừa tăng sức mạnh vừa Rút thường cần Devil Dice giảm Chi phí."
+        "vi": "Bài Attack tăng Morale đồng thời kích hoạt linh hỏa, nhưng muốn vừa tăng sức mạnh vừa Rút thường cần Devil Dice giảm Cost."
       }
     }
   ],
@@ -1035,8 +1035,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1052,8 +1052,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

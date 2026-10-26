@@ -31494,7 +31494,7 @@
         }
       },
       {
-        "label": "Season 4: Kaleidoscope Hatchery (Current)",
+        "label": "Season 4: Kaleidoscope Hatchery",
         "slots": {
           "Weapons": [
             "Criticism of Discord",
@@ -31733,6 +31733,358 @@
         "fragments": [],
         "code": "",
         "notesSource": "Call & Response helps support draw and Encore IV is the finisher. Because of the high AP and draw requirements, it’s generally recommended to be played with Nia (Forbidden One, Double Funger, etc.) who can support both draw and AP via Forbidden: Hunger or playing high-cost cards for cheaper via Adagio + G-Chord activation."
+      },
+      {
+        "name": "Encore! Encore!",
+        "cards": [
+          {
+            "name": "Sound Check",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "100% Damage",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Music, Start! V",
+            "count": 1,
+            "cost": "0",
+            "type": "Upgrade",
+            "tags": [
+              "Unique",
+              "Opener"
+            ],
+            "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+            "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Spotlight IV",
+            "count": 1,
+            "cost": "0",
+            "type": "Skill",
+            "tags": [],
+            "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+            "divine": "1 AP",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Call & Response I",
+            "count": 1,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [
+              "Haste"
+            ],
+            "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore III",
+            "count": 2,
+            "cost": "1",
+            "type": "Skill",
+            "tags": [],
+            "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+            "divine": "Draw 1",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore I",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+            "divine": "2 Vulnerable to the target",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          }
+        ],
+        "partner": "Aria",
+        "equipment": [
+          "Criticism of Discord",
+          "Fairy King's Crown",
+          "Verdant Night"
+        ],
+        "fragments": [],
+        "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z7yZIljEl3hgC3IOEtIF_jbJlc-czlVR0YpynIrZNOPeWmVp7odVce7mnVzySKUgXxmdorUhM7onnUoJW_ZAiTpcBuALHSMp1jFwR5WVTFi",
+        "notesSource": "Rei buffs → Nia resources → Arpeggio → Encore I. Keep the 5-cost Arpeggio as the last activated card before each replay."
+      },
+      {
+        "name": "TeneBRICK",
+        "cards": [
+          {
+            "name": "Sound Check",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "100% Damage",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Music, Start! V",
+            "count": 1,
+            "cost": "0",
+            "type": "Upgrade",
+            "tags": [
+              "Unique",
+              "Opener"
+            ],
+            "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+            "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Spotlight III",
+            "count": 4,
+            "cost": "2",
+            "type": "Attack",
+            "tags": [],
+            "description": "350% Damage Select and move up to 2 Rhythm cards to hand, then proc those cards",
+            "divine": "2 Vulnerable to the target",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Call & Response I",
+            "count": 1,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [
+              "Haste"
+            ],
+            "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore III",
+            "count": 1,
+            "cost": "1",
+            "type": "Skill",
+            "tags": [],
+            "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+            "divine": "Draw 1",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          }
+        ],
+        "partner": "Aria",
+        "equipment": [
+          "Criticism of Discord",
+          "Fairy King's Crown",
+          "Verdant Night"
+        ],
+        "fragments": [],
+        "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z6SZ4lLWnwFZ0tP2kpIE-u6syeZtQ7d5FxNiPopgN5PSHPwpxwMQr4okd7im4wsKsMgdCGke9VKiMKr",
+        "notesSource": "Four Spotlight III copies apply Vulnerable. Music, Start! V creates Arpeggios; Nia supplies draw and AP."
+      },
+      {
+        "name": "Common-Core Rhythm",
+        "cards": [
+          {
+            "name": "Sound Check",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "100% Damage",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Music, Start! V",
+            "count": 1,
+            "cost": "0",
+            "type": "Upgrade",
+            "tags": [
+              "Unique",
+              "Opener"
+            ],
+            "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+            "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Spotlight IV",
+            "count": 1,
+            "cost": "0",
+            "type": "Skill",
+            "tags": [],
+            "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+            "divine": "1 AP",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Call & Response I",
+            "count": 1,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [
+              "Haste"
+            ],
+            "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore I",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+            "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore III",
+            "count": 2,
+            "cost": "1",
+            "type": "Skill",
+            "tags": [],
+            "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+            "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          }
+        ],
+        "partner": "Aria",
+        "equipment": [
+          "Criticism of Discord",
+          "Fairy King's Crown",
+          "Verdant Night"
+        ],
+        "fragments": [],
+        "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+        "notesSource": "Common Card divines on both Encore variants improve draw consistency at the expense of damage."
+      },
+      {
+        "name": "Common-Core Magna-tude",
+        "cards": [
+          {
+            "name": "Sound Check",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "100% Damage",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Music, Start! V",
+            "count": 1,
+            "cost": "0",
+            "type": "Upgrade",
+            "tags": [
+              "Unique",
+              "Opener"
+            ],
+            "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+            "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Spotlight IV",
+            "count": 1,
+            "cost": "0",
+            "type": "Skill",
+            "tags": [],
+            "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+            "divine": "1 AP",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Call & Response I",
+            "count": 1,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [
+              "Haste"
+            ],
+            "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+            "divine": "",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore I",
+            "count": 2,
+            "cost": "1",
+            "type": "Attack",
+            "tags": [],
+            "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+            "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          },
+          {
+            "name": "Encore III",
+            "count": 2,
+            "cost": "1",
+            "type": "Skill",
+            "tags": [],
+            "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+            "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+            "classRestriction": "",
+            "epiphanyEffect": "",
+            "image": ""
+          }
+        ],
+        "partner": "Aria",
+        "equipment": [
+          "Criticism of Discord",
+          "Fairy King's Crown",
+          "Verdant Night"
+        ],
+        "fragments": [],
+        "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+        "notesSource": "The Tenebria deck matches Common-Core Rhythm. Trigger Magna's Vulnerable before the damage sequence."
       }
     ],
     "synergies": [
@@ -32256,6 +32608,20 @@
           "Tenebria",
           "Rei",
           "Nia"
+        ],
+        "steps": [
+          {
+            "en": "Apply Rei buffs.",
+            "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+          },
+          {
+            "en": "Use Nia for draw and AP.",
+            "vi": "Dùng Nia để Draw và tạo AP."
+          },
+          {
+            "en": "Activate the 5-cost Rhythm: Arpeggio immediately before Encore I.",
+            "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I để kích hoạt lại lá đó."
+          }
         ]
       },
       {
@@ -32264,6 +32630,20 @@
           "Tenebria",
           "Rei",
           "Nia"
+        ],
+        "steps": [
+          {
+            "en": "Apply Rei buffs.",
+            "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+          },
+          {
+            "en": "Use Nia for draw and AP.",
+            "vi": "Dùng Nia để Draw và tạo AP."
+          },
+          {
+            "en": "Use Spotlight III to activate Rhythm cards.",
+            "vi": "Dùng Spotlight III kích hoạt các lá Rhythm."
+          }
         ]
       },
       {
@@ -32272,6 +32652,16 @@
           "Tenebria",
           "Rei",
           "Nia"
+        ],
+        "steps": [
+          {
+            "en": "Chain Common Card draws to find Rei buffs and Encore.",
+            "vi": "Liên tục Draw Common Card để tìm các lá tăng sức mạnh của Rei và các lá Encore."
+          },
+          {
+            "en": "Activate the 5-cost Rhythm: Arpeggio, then Encore I.",
+            "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I."
+          }
         ]
       },
       {
@@ -32280,9 +32670,25 @@
           "Tenebria",
           "Rei",
           "Magna"
+        ],
+        "steps": [
+          {
+            "en": "Play upgrades and Rei buffs.",
+            "vi": "Dùng các lá Upgrade và hiệu ứng tăng sức mạnh của Rei."
+          },
+          {
+            "en": "Take one hit to trigger Magna's Vulnerable.",
+            "vi": "Nhận một đòn đánh để kích hoạt Vulnerable của Magna."
+          },
+          {
+            "en": "Start Tenebria's Rhythm combo.",
+            "vi": "Triển khai combo Rhythm của Tenebria."
+          }
         ]
       }
-    ]
+    ],
+    "verifiedAt": "2026-10-26",
+    "updated": "2026-10-25"
   },
   {
     "name": "Tiphera",

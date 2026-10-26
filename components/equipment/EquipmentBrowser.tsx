@@ -10,8 +10,8 @@ type Equipment = {
   id: string; name: string; names: Record<string, string>; type: string;
   rarity: string; image: string; description: string; chaos: string | null;
 };
-const types: Record<string, string> = { EQUIP_WEAPON: "Vũ khí", EQUIP_ARMOR: "Giáp", EQUIP_ACC: "Phụ kiện" };
-const rarities: Record<string, string> = { RARITY_LEGEND: "Huyền thoại", RARITY_UNIQUE: "Độc nhất", RARITY_RARE: "Hiếm", RARITY_COMMON: "Thường" };
+const types: Record<string, string> = { EQUIP_WEAPON: "Weapon", EQUIP_ARMOR: "Armor", EQUIP_ACC: "Accessory" };
+const rarities: Record<string, string> = { RARITY_LEGEND: "Legendary", RARITY_UNIQUE: "Unique", RARITY_RARE: "Rare", RARITY_COMMON: "Common" };
 const rarityOrder = Object.keys(rarities);
 const batchSize = 48;
 const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/gi, "d").toLowerCase().trim();
@@ -32,7 +32,7 @@ export function EquipmentBrowser({ equipment }: { equipment: Equipment[] }) {
 
   return <div className={styles.page} lang="vi">
     <header className={styles.header}>
-      <div><span className={styles.eyebrow}>CHAOS ZERO NIGHTMARE</span><h1>Trang bị</h1><p>Tra cứu vũ khí, giáp và phụ kiện. Chọn trang bị để xem đầy đủ hiệu ứng.</p></div>
+      <div><span className={styles.eyebrow}>CHAOS ZERO NIGHTMARE</span><h1>Equipment</h1><p>Tra cứu Weapon, Armor và Accessory. Chọn Equipment để xem đầy đủ hiệu ứng.</p></div>
       <span className={styles.total}><strong>{equipment.length}</strong> trang bị</span>
     </header>
     <section className={styles.toolbar} aria-label="Bộ lọc trang bị">
@@ -41,7 +41,7 @@ export function EquipmentBrowser({ equipment }: { equipment: Equipment[] }) {
       </div>
       <div className={styles.filters}>
         <label className={styles.search}>Tìm kiếm<input type="search" placeholder="Tên hoặc hiệu ứng trang bị…" value={query} onChange={event => { setQuery(event.target.value); setLimit(batchSize); }} /></label>
-        <label>Độ hiếm<select value={rarity} onChange={event => { setRarity(event.target.value); setLimit(batchSize); }}><option value="">Tất cả độ hiếm</option>{Object.entries(rarities).map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label>
+        <label>Rarity<select value={rarity} onChange={event => { setRarity(event.target.value); setLimit(batchSize); }}><option value="">Tất cả Rarity</option>{Object.entries(rarities).map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label>
         <label>Khu vực<select value={chaos} onChange={event => { setChaos(event.target.value); setLimit(batchSize); }}><option value="">Tất cả khu vực</option>{areas.map(area => <option key={area}>{area}</option>)}</select></label>
       </div>
     </section>

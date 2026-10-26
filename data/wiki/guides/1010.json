@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Crystallization supplies passive Shield, enabling Counterattacks and Vulnerable support after setup.",
-    "vi": "Kết tinh tạo Lá chắn thụ động, hỗ trợ Phản công và Dễ tổn thương sau khi thiết lập."
+    "vi": "Crystallization tạo Shield thụ động, hỗ trợ Counterattack và Vulnerable sau khi thiết lập."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1010.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -278,7 +278,7 @@
   "review": {
     "intro": {
       "en": "Crystallization supplies passive Shield, enabling Counterattacks and Vulnerable support after setup.",
-      "vi": "Kết tinh tạo Lá chắn thụ động, hỗ trợ Phản công và Dễ tổn thương sau khi thiết lập."
+      "vi": "Crystallization tạo Shield thụ động, hỗ trợ Counterattack và Vulnerable sau khi thiết lập."
     },
     "profile": [],
     "pros": [
@@ -290,7 +290,7 @@
     "cons": [
       {
         "en": "Expensive cards consume AP, and damage falls when enemies attack infrequently.",
-        "vi": "Bài đắt tiêu hao nhiều Điểm hành động; sát thương giảm nếu kẻ địch ít tấn công."
+        "vi": "Bài đắt tiêu hao nhiều AP; sát thương giảm nếu kẻ địch ít Attack."
       }
     ],
     "mechanics": [
@@ -298,7 +298,7 @@
         "title": "Glacial Iron Fist",
         "body": {
           "en": "300% Defense-Based Damage; 50% DMG-Based Shield",
-          "vi": "300% Sát thương theo Phòng thủ; 50% Lá chắn theo sát thương"
+          "vi": "300% Defense-Based Damage; 50% DMG-Based Shield"
         },
         "cardId": "c_1010_uni1"
       },
@@ -306,7 +306,7 @@
         "title": "Frost Charge",
         "body": {
           "en": "140% Shield; 3 Vulnerable to all enemies",
-          "vi": "140% Lá chắn; Gây 3 Dễ tổn thương lên tất cả kẻ địch"
+          "vi": "140% Shield; Gây 3 Vulnerable lên tất cả kẻ địch"
         },
         "cardId": "c_1010_uni3"
       },
@@ -314,7 +314,7 @@
         "title": "Ice Wall",
         "body": {
           "en": "200% Shield; 2 Counterattack; Set the target of Counterattack to all enemies for 2 turn(s)",
-          "vi": "200% Lá chắn; 2 Phản công; Đổi mục tiêu của Phản công thành tất cả kẻ địch trong 2 lượt"
+          "vi": "200% Shield; 2 Counterattack; Đổi mục tiêu của Counterattack thành tất cả kẻ địch trong 2 lượt"
         },
         "cardId": "c_1010_uni2"
       }
@@ -333,11 +333,11 @@
       "preferred": "III",
       "note": {
         "en": "III supports Counterattack damage with Initiation. II supplies recurring Counterattack; I instead emphasizes passive shielding.",
-        "vi": "III hỗ trợ sát thương Phản công với Khởi đầu. II cung cấp Phản công định kỳ; I nghiêng về Lá chắn thụ động."
+        "vi": "III hỗ trợ sát thương Counterattack với Initiation. II cung cấp Counterattack định kỳ; I nghiêng về Shield thụ động."
       },
       "divine": {
         "en": "Cost reduction or Morale/Resolve are useful; V can use Draw 1.",
-        "vi": "Giảm chi phí hoặc Sĩ khí/Quyết tâm hữu ích; V có thể dùng Rút 1."
+        "vi": "Giảm chi phí hoặc Morale/Resolve hữu ích; V có thể dùng Rút 1."
       }
     },
     {
@@ -352,11 +352,11 @@
       "preferred": "I / II / III / IV / V",
       "note": {
         "en": "I improves the attack ratio, while II supplies three Vulnerable. Both remain expensive compared with cheaper shielding or debuff options.",
-        "vi": "I tăng hệ số đòn đánh, còn II tạo ba Dễ tổn thương. Cả hai vẫn tốn kém so với lựa chọn Lá chắn hoặc hiệu ứng bất lợi rẻ hơn."
+        "vi": "I tăng hệ số đòn đánh, còn II tạo ba Vulnerable. Cả hai vẫn tốn kém so với lựa chọn Shield hoặc hiệu ứng bất lợi rẻ hơn."
       },
       "divine": {
         "en": "Consider 2 Vulnerable or cost reduction; no neutral effect is a priority.",
-        "vi": "Cân nhắc 2 Dễ tổn thương hoặc giảm chi phí; không ưu tiên trung lập cụ thể."
+        "vi": "Cân nhắc 2 Vulnerable hoặc giảm chi phí; không ưu tiên Neutral cụ thể."
       }
     },
     {
@@ -371,11 +371,11 @@
       "preferred": "III",
       "note": {
         "en": "III permanently makes Counterattacks hit all enemies. IV instead converts held shield into area damage and can complement Maribell.",
-        "vi": "III giúp Phản công đánh toàn bộ kẻ địch lâu dài. IV đổi lượng Lá chắn đang có thành sát thương diện rộng và có thể phối hợp Maribell."
+        "vi": "III giúp Counterattack đánh toàn bộ kẻ địch lâu dài. IV đổi lượng Shield đang có thành sát thương diện rộng và có thể phối hợp Maribell."
       },
       "divine": {
         "en": "Prioritize cost reduction, or Morale/Resolve on III; base neutral is difficult to justify.",
-        "vi": "Ưu tiên giảm chi phí, hoặc Sĩ khí/Quyết tâm cho III; bản trung lập gốc khó đáng giá."
+        "vi": "Ưu tiên giảm chi phí, hoặc Morale/Resolve cho III; bản Neutral gốc khó đáng giá."
       }
     },
     {
@@ -390,11 +390,11 @@
       "preferred": "III",
       "note": {
         "en": "III applies Vulnerable through Counterattacks and supplies passive shielding. I's large shield depends on how many enemies are present.",
-        "vi": "III gây Dễ tổn thương qua Phản công và cung cấp Lá chắn thụ động. Lá chắn lớn của I phụ thuộc số kẻ địch hiện có."
+        "vi": "III gây Vulnerable qua Counterattack và cung cấp Shield thụ động. Shield lớn của I phụ thuộc số kẻ địch hiện có."
       },
       "divine": {
         "en": "Draw 1 or cost reduction are the main targets; neutral options are weak.",
-        "vi": "Rút 1 hoặc giảm chi phí là ưu tiên chính; trung lập ít giá trị."
+        "vi": "Rút 1 hoặc giảm chi phí là ưu tiên chính; Neutral ít giá trị."
       }
     }
   ],
@@ -404,7 +404,7 @@
       "score": "—",
       "note": {
         "en": "Reliable Counterattack generation and rare counter-specific damage bonuses suit offensive counter builds.",
-        "vi": "Tạo Phản công ổn định và tăng sát thương riêng cho Phản công vốn hiếm phù hợp hướng phản công tấn công."
+        "vi": "Tạo Counterattack ổn định và tăng sát thương riêng cho Counterattack vốn hiếm phù hợp hướng Counterattack tấn công."
       }
     },
     {
@@ -412,7 +412,7 @@
       "score": "—",
       "note": {
         "en": "Higher combat defense improves Shields and survival, with accessible value for card-damage builds as well.",
-        "vi": "Phòng thủ chiến đấu cao tăng Lá chắn và khả năng sống sót, đồng thời dễ tiếp cận cho hướng sát thương từ lá bài."
+        "vi": "DEF chiến đấu cao tăng Shield và khả năng sống sót, đồng thời dễ tiếp cận cho hướng sát thương từ lá bài."
       }
     },
     {
@@ -420,7 +420,7 @@
       "score": "—",
       "note": {
         "en": "Counterattack generation becomes unreliable at E0, so E4 Wilhelmina's defense often provides more overall value.",
-        "vi": "Tạo Phản công thiếu chắc chắn ở E0, nên Phòng thủ của Wilhelmina E4 thường cho tổng giá trị cao hơn."
+        "vi": "Tạo Counterattack thiếu chắc chắn ở E0, nên DEF của Wilhelmina E4 thường cho tổng giá trị cao hơn."
       }
     },
     {
@@ -446,11 +446,11 @@
     {
       "name": {
         "en": "Magna Stats — DPS-Lite · Ideal",
-        "vi": "Sát thương phụ · Lý tưởng"
+        "vi": "Sát thương phụ · Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -460,37 +460,37 @@
       },
       "value": {
         "en": "Justice DMG%",
-        "vi": "Sát thương Công lý%"
+        "vi": "Sát thương Justice%"
       }
     },
     {
       "name": {
         "en": "Magna Stats — DPS-Lite · Imagination",
-        "vi": "Sát thương phụ · Tưởng tượng"
+        "vi": "Sát thương phụ · Imagination"
       },
       "value": {
         "en": "DEF%",
-        "vi": "Phòng thủ%"
+        "vi": "DEF%"
       }
     },
     {
       "name": {
         "en": "Magna Stats — DPS-Lite · Substats",
-        "vi": "Sát thương phụ · Chỉ số phụ"
+        "vi": "Sát thương phụ · Substats"
       },
       "value": {
         "en": "CRIT Rate% > CRIT DMG% > DEF > DEF%",
-        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Phòng thủ > Phòng thủ%"
+        "vi": "Critical Chance% > CRIT DMG% > DEF > DEF%"
       }
     },
     {
       "name": {
         "en": "Magna Stats — Support · Ideal",
-        "vi": "Hỗ trợ · Lý tưởng"
+        "vi": "Hỗ trợ · Ideal"
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
@@ -500,65 +500,65 @@
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
       "name": {
         "en": "Magna Stats — Support · Imagination",
-        "vi": "Hỗ trợ · Tưởng tượng"
+        "vi": "Hỗ trợ · Imagination"
       },
       "value": {
         "en": "DEF%",
-        "vi": "Phòng thủ%"
+        "vi": "DEF%"
       }
     },
     {
       "name": {
         "en": "Magna Stats — Support · Substats",
-        "vi": "Hỗ trợ · Chỉ số phụ"
+        "vi": "Hỗ trợ · Substats"
       },
       "value": {
         "en": "DEF > DEF% > EGO Regen = HP > HP%",
-        "vi": "Phòng thủ > Phòng thủ% > Hồi năng lượng Ego = Máu > Máu%"
+        "vi": "DEF > DEF% > Hồi năng lượng Ego = HP > HP%"
       }
     }
   ],
   "critNote": {
     "en": "When playing Magna with a focus on damage, it's important to max out the value from her Potential 7 to gain as much Justice DMG% as possible. To start with, aim at getting to 301 DEF in the character screen, but later, with proper gear, get as close to 350 as you can to fully cap out the potential.",
-    "vi": "Với hướng gây sát thương, nguồn khuyên đầu tư phòng thủ để tăng sát thương Công lý từ tiềm năng 7. Tuy nhiên phần chỉ số ghi 301–350 phòng thủ, còn phần tiềm năng ghi trên 350 và tối đa ở 450; cần đối chiếu ngưỡng thực tế trước khi tối ưu."
+    "vi": "Với hướng gây sát thương, nên đầu tư DEF để tăng sát thương Justice từ Potential 7. Tuy nhiên phần chỉ số ghi 301–350 DEF, còn phần Potential ghi trên 350 và tối đa ở 450; cần đối chiếu ngưỡng thực tế trước khi tối ưu."
   },
   "potentialIntro": {
     "en": "Magna’s Signature Potentials are must-haves for improving her performance in her role and for the additional functionality they provide.3-1: Adds the Counterattackeffect to her starter Attack and Shield cards, boosting their power and her access to Counterattackconsiderably.5-1: Increases the Shield gain of her basic Shield Skill card by 5%. Increases by another 5% if her Defense is higher than 250.7: Increases her Justice Attribute Damage by 5% if her Defense is higher than 350, increasing by 1% per 10 points of Defense up to a total of 15% at 450.",
-    "vi": "Tiềm năng 3-1 thêm Phản công cho bài tấn công và lá chắn khởi đầu, nên rất quan trọng; 5-1 tăng lá chắn bài kỹ năng cơ bản 5% và thêm 5% khi phòng thủ >250. Theo phần tiềm năng của nguồn, nút 7 cho 5% sát thương Công lý khi phòng thủ >350, thêm 1% mỗi 10 phòng thủ để đạt tổng 15% ở 450; con số này khác phần chỉ số."
+    "vi": "Potential 3-1 thêm Counterattack cho Attack Card và Shield khởi đầu, nên rất quan trọng; 5-1 tăng Shield Skill Card cơ bản 5% và thêm 5% khi DEF >250. Potential 7 cho 5% sát thương Justice khi DEF >350, thêm 1% mỗi 10 DEF để đạt tổng 15% ở 450; con số này khác phần chỉ số."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add 1 Counterattack to Frozen Fist and Frost Shield.",
-        "vi": "Thêm 1 Phản công cho Frozen Fist và Frost Shield."
+        "vi": "Thêm 1 Counterattack cho Frozen Fist và Frost Shield."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Shield Gain Amount to Magna's Frost Shield; If Magna's Defense is 250 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng Lá chắn nhận được của Frost Shield của Magna; Nếu Phòng thủ của Magna đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng Shield nhận được của Frost Shield của Magna; Nếu DEF của Magna đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Magna’s Defense is 300 or higher, +5% Justice-Attribute Damage Amount; For every 10 Defense exceeding 300, add an additional 2% to the modifier; (additional +10% max)",
-        "vi": "Nếu Phòng thủ của Magna đạt ít nhất 300, tăng 5% lượng sát thương thuộc tính Công lý; Với mỗi 10 Phòng thủ vượt quá 300, tăng thêm 2% vào mức cộng thêm; (tăng thêm tối đa 10%)"
+        "vi": "Nếu DEF của Magna đạt ít nhất 300, tăng 5% lượng sát thương thuộc tính Justice; Với mỗi 10 DEF vượt quá 300, tăng thêm 2% vào mức cộng thêm; (tăng thêm tối đa 10%)"
       }
     }
   ],
@@ -566,7 +566,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -594,7 +594,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -617,7 +617,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -637,7 +637,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -662,41 +662,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3",
-        "vi": "Mùa 3"
+        "vi": "Season 3"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards thường chọn mỗi Lux Engraving tăng 15% sát thương Attack Card của đồng đội trong 1 lượt, hoặc Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.+30% Defense-Based Damage Amount.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 30% sát thương theo phòng thủ. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 30% Defense-Based Damage. Attack Card đánh mục tiêu Vulnerable được thêm 15% Critical Chance. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -714,7 +714,7 @@
       "score": "—",
       "note": {
         "en": "This node grants Magna’s “Storm of Bitter Cold” card the [Initiation] tag. An okay first point for consistency, but overall doesn’t increase her power substantially.",
-        "vi": "Storm of Bitter Cold có Khởi đầu, tăng tính ổn định nhưng không tăng sức mạnh quá nhiều."
+        "vi": "Storm of Bitter Cold có Initiation, tăng tính ổn định nhưng không tăng sức mạnh quá nhiều."
       }
     },
     {
@@ -722,7 +722,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego point grants Magna a passive effect that triggers whenever she Counterattacks an enemy. When Magna Counterattacks, she inflicts 1 stack of “Freeze” on the target. “Freeze” is consumed whenever a target affected by Freeze is dealt damage from Magna’s Attack Cards. Monsters adjacent to that target take 50% Defense-Based Damage. This is a decent node for Magna that further enhances her AoE damage.",
-        "vi": "Phản công áp 1 Đóng băng lên mục tiêu. Khi bài tấn công của Magna gây sát thương lên mục tiêu đó, tiêu hao Đóng băng và gây 50% sát thương theo phòng thủ lên các địch bên cạnh, tăng sát thương diện rộng."
+        "vi": "Counterattack áp 1 Đóng băng lên mục tiêu. Khi Attack Card của Magna gây sát thương lên mục tiêu đó, tiêu hao Đóng băng và gây 50% Defense-Based Damage lên các địch bên cạnh, tăng sát thương diện rộng."
       }
     },
     {
@@ -730,7 +730,7 @@
       "score": "—",
       "note": {
         "en": "The third Ego point increases the amount of damage her Ego skill deals per stack of Counterattack from 20% to 30% per stack held. A fairly substantial damage increase, as this is a multiplicative buff.",
-        "vi": "Kỹ năng Ego tăng sát thương theo mỗi Phản công đang giữ từ 20% lên 30%. Vì là hệ số nhân nên cải thiện đáng kể."
+        "vi": "Ego Skill tăng sát thương theo mỗi Counterattack đang giữ từ 20% lên 30%. Vì là hệ số nhân nên cải thiện đáng kể."
       }
     },
     {
@@ -738,7 +738,7 @@
       "score": "—",
       "note": {
         "en": "This node changes the way her Counterattack interacts with Vulnerable. Whenever Magna Counterattacks an enemy unit affected by Vulnerable, it will no longer remove a stack. This is an amazing point for Magna that helps maintain Vulnerable on enemies to ensure that her allies can take advantage of the debuff instead of consuming it when not necessarily wanted.",
-        "vi": "Phản công không còn tiêu hao cộng dồn Dễ tổn thương trên địch. Rất hữu ích để giữ hiệu ứng cho đồng đội tận dụng."
+        "vi": "Counterattack không còn tiêu hao cộng dồn Vulnerable trên địch. Rất hữu ích để giữ hiệu ứng cho đồng đội tận dụng."
       }
     },
     {
@@ -746,7 +746,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. A solid node that provides a sizeable increase to the shielding and damage from her attack/skill cards, however will not affect her shielding/damage from Crystallization or Counterattacks.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; tăng sát thương và lá chắn từ bài, nhưng không ảnh hưởng phần từ Kết tinh hoặc Phản công."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài; tăng sát thương và Shield từ bài, nhưng không ảnh hưởng phần từ Crystallization hoặc Counterattack."
       }
     },
     {
@@ -754,7 +754,7 @@
       "score": "—",
       "note": {
         "en": "Her 6th and final Ego node grants Magna 1 stack of “Enhanced Counterattack” at the start of each turn. Enhanced Counterattack increases the damage amount of Counterattack by 30% and is removed whenever she Counterattacks. A strong node that overall improves her damage output when Counterattacking.",
-        "vi": "Đầu mỗi lượt nhận 1 Phản công cường hóa, tăng sát thương Phản công 30% rồi bị tiêu hao sau khi phản công. Cải thiện sát thương khá tốt."
+        "vi": "Đầu mỗi lượt nhận 1 Counterattack cường hóa, tăng sát thương Counterattack 30% rồi bị tiêu hao sau khi Counterattack. Cải thiện sát thương khá tốt."
       }
     }
   ],
@@ -762,11 +762,11 @@
     {
       "name": {
         "en": "Vulnerable Debuffer",
-        "vi": "Hỗ trợ gây Dễ tổn thương"
+        "vi": "Hỗ trợ gây Vulnerable"
       },
       "role": {
         "en": "Reactive Vulnerable support",
-        "vi": "Gây Dễ tổn thương khi địch tấn công"
+        "vi": "Gây Vulnerable khi địch tấn công"
       },
       "partner": "Eishlen",
       "cards": [
@@ -808,17 +808,17 @@
       ],
       "note": {
         "en": "The enemy must attack before the carry's damage window for Magna to apply Vulnerable in time. Adjust upgrade count to the debuff amount required; the listed setup maximizes stacks from few enemy hits. E4 substantially improves this role.",
-        "vi": "Kẻ địch phải tấn công trước thời điểm chủ lực dồn sát thương thì Magna mới kịp gắn Dễ tổn thương. Điều chỉnh số lá nâng cấp theo lượng hiệu ứng cần dùng; bản đề xuất hướng tới nhiều cộng dồn nhất từ ít đòn địch nhất. E4 cải thiện đáng kể hiệu quả của hướng này."
+        "vi": "Kẻ địch phải Attack trước thời điểm chủ lực dồn sát thương thì Magna mới kịp gắn Vulnerable. Điều chỉnh số lá nâng cấp theo lượng hiệu ứng cần dùng; bản đề xuất hướng tới nhiều cộng dồn nhất từ ít đòn địch nhất. E4 cải thiện đáng kể hiệu quả của hướng này."
       }
     },
     {
       "name": {
         "en": "Vulnerable Debuffer + Counterattacker",
-        "vi": "Gây Dễ tổn thương kết hợp phản công"
+        "vi": "Gây Vulnerable kết hợp phản công"
       },
       "role": {
         "en": "Counterattack and debuff hybrid",
-        "vi": "Kết hợp phản công và gây hiệu ứng bất lợi"
+        "vi": "Kết hợp Counterattack và gây hiệu ứng bất lợi"
       },
       "partner": "Eishlen",
       "cards": [
@@ -861,7 +861,7 @@
       ],
       "note": {
         "en": "Use counters for personal damage while supplying Vulnerable to allies. The number of upgrades is flexible and similar variants remain viable. E4 is a major improvement because Magna stops consuming her own Vulnerable stacks.",
-        "vi": "Dùng phản công để gây sát thương cá nhân đồng thời cung cấp Dễ tổn thương cho đồng đội. Số lượng lá nâng cấp có thể thay đổi mà vẫn giữ hiệu quả tương đương. E4 là mốc tăng sức mạnh lớn vì Magna không còn tự tiêu thụ cộng dồn Dễ tổn thương của mình."
+        "vi": "Dùng phản công để gây sát thương cá nhân đồng thời cung cấp Vulnerable cho đồng đội. Số lượng lá nâng cấp có thể thay đổi mà vẫn giữ hiệu quả tương đương. E4 là mốc tăng sức mạnh lớn vì Magna không còn tự tiêu thụ cộng dồn Vulnerable của mình."
       }
     }
   ],
@@ -870,14 +870,14 @@
       "name": "Nine",
       "note": {
         "en": "Counterattack builds can complement each other and Magna supplies Vulnerable, but consistent activation is demanding.",
-        "vi": "Các hướng Phản công có thể bổ trợ nhau và Magna cung cấp Dễ tổn thương, nhưng kích hoạt ổn định đòi hỏi nhiều điều kiện."
+        "vi": "Các hướng Counterattack có thể bổ trợ nhau và Magna cung cấp Vulnerable, nhưng kích hoạt ổn định đòi hỏi nhiều điều kiện."
       }
     },
     {
       "name": "Maribell",
       "note": {
         "en": "Magna supplies Shields for Maribell's scaling and possible counter synergy, though counter-focused teams remain conditional.",
-        "vi": "Magna cấp Lá chắn tăng sát thương Maribell và có thể phối hợp phản công, dù đội chuyên phản công vẫn nhiều điều kiện."
+        "vi": "Magna cấp Shield tăng sát thương Maribell và có thể phối hợp phản công, dù đội chuyên phản công vẫn nhiều điều kiện."
       }
     }
   ],
@@ -885,7 +885,7 @@
     {
       "name": {
         "en": "Common-Core Magna-tude",
-        "vi": "Magna với bài chung"
+        "vi": "Magna với Common Cards"
       },
       "members": [
         "Tenebria",
@@ -894,8 +894,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

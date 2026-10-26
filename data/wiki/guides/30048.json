@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Drawing builds Descent for Heavensfall, while Inferno Rhapsody fuels Flame Arts and further cycling.",
-    "vi": "Rút bài tích Giáng lâm để tạo Heavensfall; Inferno Rhapsody tích Hỏa thuật và tiếp tục luân chuyển bài."
+    "vi": "Draw tích Descent để tạo Heavensfall; Inferno Rhapsody tích Flame Arts và tiếp tục luân chuyển bài."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_30048.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -387,19 +387,19 @@
   "review": {
     "intro": {
       "en": "Drawing builds Descent for Heavensfall, while Inferno Rhapsody fuels Flame Arts and further cycling.",
-      "vi": "Rút bài tích Giáng lâm để tạo Heavensfall; Inferno Rhapsody tích Hỏa thuật và tiếp tục luân chuyển bài."
+      "vi": "Draw tích Descent để tạo Heavensfall; Inferno Rhapsody tích Flame Arts và tiếp tục luân chuyển bài."
     },
     "profile": [],
     "pros": [
       {
         "en": "Strong personal draw and early burst from her signature card and Ego skill.",
-        "vi": "Tự rút bài tốt và có sát thương bùng nổ đầu trận từ bài đặc trưng cùng kỹ năng Ego."
+        "vi": "Tự Draw tốt và có sát thương bùng nổ đầu trận từ Signature Cards cùng kỹ năng Ego."
       }
     ],
     "cons": [
       {
         "en": "Needs buffs for low base multipliers; X-cost cards and hand space require planning.",
-        "vi": "Cần hiệu ứng tăng sát thương do hệ số cơ bản thấp; bài có chi phí X Điểm hành động và giới hạn bài trên tay đòi hỏi tính toán."
+        "vi": "Cần hiệu ứng tăng sát thương do hệ số cơ bản thấp; bài có chi phí X AP và giới hạn bài trên tay đòi hỏi tính toán."
       }
     ],
     "mechanics": [
@@ -407,7 +407,7 @@
         "title": "Soliloquy",
         "body": {
           "en": "Draw 2; Of those Drawn cards, Discard all 1-Cost or higher cards",
-          "vi": "Rút bài 2 lá; Trong các lá vừa rút, Bỏ bài tất cả lá có chi phí từ 1 trở lên"
+          "vi": "Draw 2 lá; Trong các lá vừa rút, Discard tất cả lá có chi phí từ 1 trở lên"
         },
         "cardId": "c_30048_uni1"
       },
@@ -415,7 +415,7 @@
         "title": "Night Rain",
         "body": {
           "en": "1 Flame Arts; Streak: Draw 1 Inferno Rhapsody",
-          "vi": "1 Hỏa thuật; Liên tiếp: Rút bài 1 Inferno Rhapsody"
+          "vi": "1 Flame Arts; Liên tiếp: Draw 1 Inferno Rhapsody"
         },
         "cardId": "c_30048_uni2"
       },
@@ -423,7 +423,7 @@
         "title": "Soulfire Dance",
         "body": {
           "en": "100% Damage × X+1; Draw X",
-          "vi": "Gây 100% sát thương × X+1; Rút bài X"
+          "vi": "Gây 100% sát thương × X+1; Draw X"
         },
         "cardId": "c_30048_uni3"
       }
@@ -442,11 +442,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV adds an Extra Attack to Flame Arts for more hits. V supports Descent builds, especially with higher Ego; II prioritizes draw consistency.",
-        "vi": "IV thêm Đòn đánh thêm cho Hỏa thuật để tăng số lần đánh. V hỗ trợ Giáng lâm, nhất là khi Ego cao; II ưu tiên rút bài ổn định."
+        "vi": "IV thêm Extra Attack cho Flame Arts để tăng số lần đánh. V hỗ trợ Descent, nhất là khi Ego cao; II ưu tiên Draw ổn định."
       },
       "divine": {
         "en": "Look for next-turn Draw 2, Ego-skill cost reduction, or Morale/Resolve; neutrals are weak.",
-        "vi": "Tìm Rút 2 đầu lượt, giảm chi phí kỹ năng Ego hoặc Sĩ khí/Quyết tâm; trung lập ít giá trị."
+        "vi": "Tìm Rút 2 đầu lượt, giảm chi phí kỹ năng Ego hoặc Morale/Resolve; Neutral ít giá trị."
       }
     },
     {
@@ -461,11 +461,11 @@
       "preferred": "I / II / III / IV / V",
       "note": {
         "en": "I works in mostly zero-cost or discard teams. II reliably finds Fei's zero-cost cards; III supports Descent at a higher cost.",
-        "vi": "I hợp đội gần như toàn bài chi phí 0 hoặc đội bỏ bài. II tìm bài Fei chi phí 0 ổn định; III hỗ trợ Giáng lâm nhưng tốn chi phí hơn."
+        "vi": "I hợp đội gần như toàn bài chi phí 0 hoặc đội Discard. II tìm bài Fei chi phí 0 ổn định; III hỗ trợ Descent nhưng tốn chi phí hơn."
       },
       "divine": {
         "en": "Prioritize draw or AP; neutral options offer little to this draw card.",
-        "vi": "Ưu tiên rút bài hoặc Điểm hành động; trung lập ít đóng góp cho lá rút bài này."
+        "vi": "Ưu tiên Draw hoặc AP; Neutral ít đóng góp cho lá Draw này."
       }
     },
     {
@@ -480,11 +480,11 @@
       "preferred": "II / IV",
       "note": {
         "en": "II efficiently increases Flame Arts activations; IV returns at turn start for reliable cycling. V specifically supports X-cost builds.",
-        "vi": "II tăng số lần kích hoạt Hỏa thuật hiệu quả; IV trở lại đầu lượt để luân chuyển ổn định. V chuyên hỗ trợ bộ bài chi phí X."
+        "vi": "II tăng số lần kích hoạt Flame Arts hiệu quả; IV trở lại đầu lượt để luân chuyển ổn định. V chuyên hỗ trợ bộ bài chi phí X."
       },
       "divine": {
         "en": "Draw or AP are useful; III benefits from cost reduction.",
-        "vi": "Rút bài hoặc Điểm hành động hữu ích; III hưởng lợi từ giảm chi phí."
+        "vi": "Draw hoặc AP hữu ích; III hưởng lợi từ giảm chi phí."
       }
     },
     {
@@ -499,11 +499,11 @@
       "preferred": "IV / V",
       "note": {
         "en": "V permanently adds a hit to Flame Arts but is Unique. Pair IV with it for additional attacks and Heavensfall generation.",
-        "vi": "V thêm lâu dài một lần đánh cho Hỏa thuật nhưng mang Độc nhất. Phối hợp IV để tăng đòn đánh và tạo Heavensfall."
+        "vi": "V thêm lâu dài một lần đánh cho Flame Arts nhưng mang Unique. Phối hợp IV để tăng đòn đánh và tạo Heavensfall."
       },
       "divine": {
         "en": "Prefer draw, Common-card draw or own-card draw; base/neutral remains a situational utility option.",
-        "vi": "Ưu tiên rút bài, rút Bài chung hoặc bài bản thân; bản gốc/trung lập vẫn có ích tùy tình huống."
+        "vi": "Ưu tiên Draw, rút Common Cards hoặc bài bản thân; bản gốc/Neutral vẫn có ích tùy tình huống."
       }
     }
   ],
@@ -513,7 +513,7 @@
       "score": "145.00%",
       "note": {
         "en": "Large immediate critical-damage bonuses and premium stats reward heavy Fei investment.",
-        "vi": "Tăng Sát thương chí mạng lớn ngay lập tức cùng chỉ số cao phù hợp đầu tư sâu cho Fei."
+        "vi": "Tăng CRIT DMG lớn ngay lập tức cùng chỉ số cao phù hợp đầu tư sâu cho Fei."
       }
     },
     {
@@ -521,7 +521,7 @@
       "score": "133.21%",
       "note": {
         "en": "Strong stats and a critical-damage Ego buff compete well, but full use requires Link effects or another Sylvia.",
-        "vi": "Chỉ số cao và Ego tăng Sát thương chí mạng có sức cạnh tranh, nhưng cần Liên kết hoặc thêm một Sylvia để tận dụng hết."
+        "vi": "Chỉ số cao và Ego tăng CRIT DMG có sức cạnh tranh, nhưng cần Bind hoặc thêm một Sylvia để tận dụng hết."
       }
     },
     {
@@ -529,7 +529,7 @@
       "score": "123.46%",
       "note": {
         "en": "Ruixiang offers immediate critical damage and strong stats without Sylvia's specialized setup requirements.",
-        "vi": "Ruixiang cho Sát thương chí mạng ngay và chỉ số mạnh mà không cần cách bố trí riêng như Sylvia."
+        "vi": "Ruixiang cho Critical Damage ngay và chỉ số mạnh mà không cần cách bố trí riêng như Sylvia."
       }
     },
     {
@@ -537,7 +537,7 @@
       "score": "118.23%",
       "note": {
         "en": "Sylvia is competitive when Link effects or a second Sylvia enable proper use of her Ego buff.",
-        "vi": "Sylvia có sức cạnh tranh khi Liên kết hoặc Sylvia thứ hai giúp tận dụng hiệu ứng Ego."
+        "vi": "Sylvia có sức cạnh tranh khi Bind hoặc Sylvia thứ hai giúp tận dụng hiệu ứng Ego."
       }
     },
     {
@@ -545,7 +545,7 @@
       "score": "112.31%",
       "note": {
         "en": "High-Ego Solia is a lower-investment alternative when stronger five-star partners are unavailable.",
-        "vi": "Solia Ego cao là lựa chọn đầu tư nhẹ hơn khi chưa có Đối tác năm sao mạnh hơn."
+        "vi": "Solia Ego cao là lựa chọn đầu tư nhẹ hơn khi chưa có Partner năm sao mạnh hơn."
       }
     },
     {
@@ -553,7 +553,7 @@
       "score": "109.19%",
       "note": {
         "en": "Frequent skills give chances to buff team Morale, favoring support Fei but remaining dependent on luck.",
-        "vi": "Dùng nhiều Kỹ năng tạo cơ hội tăng Sĩ khí toàn đội, hợp Fei hỗ trợ nhưng phụ thuộc may mắn."
+        "vi": "Dùng nhiều Skill tạo cơ hội tăng Morale toàn đội, hợp Fei hỗ trợ nhưng phụ thuộc may mắn."
       }
     },
     {
@@ -561,7 +561,7 @@
       "score": "100%",
       "note": {
         "en": "Nakia is a free stopgap rather than a strong long-term damage partner.",
-        "vi": "Nakia là giải pháp miễn phí tạm thời thay vì Đối tác sát thương mạnh để dùng lâu dài."
+        "vi": "Nakia là giải pháp miễn phí tạm thời thay vì Partner sát thương mạnh để dùng lâu dài."
       }
     }
   ],
@@ -571,7 +571,7 @@
       "score": "—",
       "note": {
         "en": "Fei can readily activate the full critical-damage bonus, making this a strong default.",
-        "vi": "Fei dễ kích hoạt đầy đủ tăng Sát thương chí mạng, nên đây là lựa chọn mặc định mạnh."
+        "vi": "Fei dễ kích hoạt đầy đủ tăng CRIT DMG, nên đây là lựa chọn mặc định mạnh."
       }
     },
     {
@@ -587,7 +587,7 @@
       "score": "—",
       "note": {
         "en": "Use only with consistent discard activation, most easily supplied by Cassius or Nia.",
-        "vi": "Chỉ dùng khi kích hoạt Bỏ bài ổn định, dễ nhất nhờ Cassius hoặc Nia."
+        "vi": "Chỉ dùng khi kích hoạt Discard ổn định, dễ nhất nhờ Cassius hoặc Nia."
       }
     }
   ],
@@ -595,11 +595,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -609,65 +609,65 @@
       },
       "value": {
         "en": "ATK% >= VOID DMG%",
-        "vi": "Tấn công% >= Sát thương Hư vô%"
+        "vi": "ATK% >= Void DMG%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% > CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "Maxing out Fei's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 700 ATK, which almost all Fei builds can accomplish.",
-    "vi": "Mốc chính là 700 tấn công để tối đa hóa tiềm năng 7; đa số cách xây dựng dễ đạt."
+    "vi": "Mốc chính là 700 ATK để tối đa hóa Potential 7; đa số cách xây dựng dễ đạt."
   },
   "potentialIntro": {
     "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Fei’s 3-1 Potential grants her starting Basic Attack-Card an additional effect of granting 1 “Flame Arts” stack upon use. Not overly important as Fei will be removing this card, but it will help with Chaos or Sortie content early on.5-1: Fei’s 5-1 Potential grants an additional +5% damage to Fei’s starting Basic Attack-Card Azure Flame. Additionally, if Fei’s attack is 500 or greater, it adds another +5% for a total of +10%. Again, not overly impactful, but will assist with early Chaos or Sortie runs.7: Fei’s 7 Potential grants Fei +5% Void-Attribute damage if her attack is 600 or greater, increasing by 2% for each 20 Attack past 600 up to a maximum of +10%, for a total of +15%. A substantial damage increase that should be unlocked ASAP.",
-    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 giúp bài tấn công cơ bản tạo 1 Hỏa thuật, còn 5-1 tăng Azure Flame 5% sát thương và thêm 5% nếu tấn công ≥500, chủ yếu hỗ trợ đầu Chaos trước khi xóa bài. Mở tiềm năng 7 sớm: ≥600 tấn công nhận 5% sát thương Hư vô, thêm 2% mỗi 20 tấn công vượt 600, tối đa thêm 10% ở 700 tấn công, tổng 15%."
+    "vi": "Ưu tiên Critical Chance = CRIT DMG ≥ sát thương Signature Cards > Common Cards = Basic Card; 3-1 giúp Attack Card cơ bản tạo 1 Flame Arts, còn 5-1 tăng Azure Flame 5% sát thương và thêm 5% nếu Attack ≥500, chủ yếu hỗ trợ đầu Chaos trước khi xóa bài. Mở Potential 7 sớm: ≥600 Attack nhận 5% sát thương Void, thêm 2% mỗi 20 Attack vượt 600, tối đa thêm 10% ở 700 Attack, tổng 15%."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Adds the following effect to the Azure Flame card: 1 Flame Arts",
-        "vi": "Thêm hiệu ứng sau vào lá Azure Flame: 1 Hỏa thuật"
+        "vi": "Thêm hiệu ứng sau vào lá Azure Flame: 1 Flame Arts"
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Fei’s Azure Flame, and if Fei's Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "+5% sát thương cho Azure Flame của Fei; nếu Tấn công của Fei từ 500 trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% sát thương cho Azure Flame của Fei; nếu Attack của Fei từ 500 trở lên, cộng thêm +5% vào hệ số"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Fei’s Attack is 600 or higher, +5% Void Attribute Damage Amount, and for every 20 Attack exceeding 600, add an additional +2% to the modifier; (additional +10% max)",
-        "vi": "Nếu Tấn công của Fei từ 600 trở lên, +5% sát thương hệ Hư vô; mỗi 20 Tấn công vượt quá 600 cộng thêm +2% vào hệ số; (Tối đa thêm 10%)"
+        "vi": "Nếu Attack của Fei từ 600 trở lên, +5% sát thương hệ Void; mỗi 20 Attack vượt quá 600 cộng thêm +2% vào hệ số; (Tối đa thêm 10%)"
       }
     }
   ],
@@ -675,7 +675,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -697,7 +697,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -719,7 +719,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -740,7 +740,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -759,7 +759,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -782,41 +782,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Persona Cards kỹ năng nên chọn tự kích hoạt khi Discarded nếu đội có cách chủ động Discard. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. Tăng 25% sát thương Extra Attacks. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -842,7 +842,7 @@
       "score": "—",
       "note": {
         "en": "Fei’s next Ego to be unlocked grants Fei 6 Stacks of “Descent” at the start of battle. Alongside this, the first time each turn Fei creates a “Heavensfall” card, Fei will re-gain 2 stacks of Descent. Not only that, when an “Inferno Rhapsody” card is activated, it deals 30% of the damage dealt as extra fixed damage. An incredibly powerful Ego for Fei that really allows her to get rolling much quicker thanks to the start of battle “Descent” stacks granted and whenever she creates the first “Heavensfall” card, whilst also boosting her damage output.",
-        "vi": "Nhận 6 Giáng lâm đầu trận và hồi 2 cộng dồn khi tạo Heavensfall lần đầu mỗi lượt. Inferno Rhapsody còn gây sát thương cố định thêm bằng 30% sát thương đã gây; đây là Ego rất mạnh cho cả tốc độ khởi động và sát thương."
+        "vi": "Nhận 6 Descent đầu trận và hồi 2 cộng dồn khi tạo Heavensfall lần đầu mỗi lượt. Inferno Rhapsody còn gây Fixed Damage thêm bằng 30% sát thương đã gây; đây là Ego rất mạnh cho cả tốc độ khởi động và sát thương."
       }
     },
     {
@@ -850,7 +850,7 @@
       "score": "—",
       "note": {
         "en": "Fei’s third Ego increases her Ego Skill’s effectiveness, increasing the amount of Descent granted by 2 (to a total of 12), and also increases the hit count of the next “Heavensfall” card by an additional 2 (to a total of 7). Not overly important or game changing due to the nature of Ego Skills being a one time use, but still improves Fei’s potential damage output after playing her Ego Skill.",
-        "vi": "Kỹ năng Ego cho thêm 2 Giáng lâm, tổng 12, và thêm 2 lần đánh cho Heavensfall kế tiếp, tổng 7. Tăng sức mạnh sau khi dùng Ego nhưng không thay đổi lớn cách chơi."
+        "vi": "Ego Skill cho thêm 2 Descent, tổng 12, và thêm 2 lần đánh cho Heavensfall kế tiếp, tổng 7. Tăng sức mạnh sau khi dùng Ego nhưng không thay đổi lớn cách chơi."
       }
     },
     {
@@ -866,7 +866,7 @@
       "score": "—",
       "note": {
         "en": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Fei’s damage output",
-        "vi": "Giới hạn tiềm năng bài cơ bản, chung và đặc trưng tăng 3 cấp; tăng sát thương theo cơ chế thông thường."
+        "vi": "Giới hạn Potential Basic Cards, chung và đặc trưng tăng 3 cấp; tăng sát thương theo cơ chế thông thường."
       }
     },
     {
@@ -874,7 +874,7 @@
       "score": "—",
       "note": {
         "en": "Fei’s Final Ego to be unlocked grants two effects at the start of battle, firstly it will increase the damage dealt by “Flame Arts” by +120%, and will also grant 1 Stack of “Exorcism Judgment”. While Fei has “Exorcism Judgment”, Fei’s “Heavensfall” card deals an additional 3 hits, bringing it to a total of 6. “Exorcism Judgment” can also be gained after Fei has used “Heavensfall” three times and is removed after Fei plays “Heavensfall”. An incredibly powerful final Ego node to be unlocked that really ramps up Fei’s potential damage output.",
-        "vi": "Đầu trận Hỏa thuật tăng 120% sát thương và nhận 1 Exorcism Judgment; hiệu ứng này thêm 3 lần đánh cho Heavensfall, tổng 6, rồi bị tiêu hao. Sau mỗi 3 lần dùng Heavensfall lại nhận Exorcism Judgment; là nâng cấp sát thương rất mạnh."
+        "vi": "Đầu trận Flame Arts tăng 120% sát thương và nhận 1 Exorcism Judgment; hiệu ứng này thêm 3 lần đánh cho Heavensfall, tổng 6, rồi bị tiêu hao. Sau mỗi 3 lần dùng Heavensfall lại nhận Exorcism Judgment; là nâng cấp sát thương rất mạnh."
       }
     }
   ],
@@ -886,7 +886,7 @@
       },
       "role": {
         "en": "Flame Art extra-attack carry",
-        "vi": "Chủ lực đánh thêm qua Hỏa thuật"
+        "vi": "Chủ lực đánh thêm qua Flame Arts"
       },
       "partner": "Ruixiang",
       "cards": [
@@ -899,7 +899,7 @@
           "count": 1,
           "effects": {
             "en": "Treated as a Common Card Draw 1 Common Card(s)",
-            "vi": "Được xem là Bài thường. Rút 1 lá Bài thường"
+            "vi": "Được xem là Common Cards. Rút 1 lá Common Cards"
           }
         },
         {
@@ -907,7 +907,7 @@
           "count": 1,
           "effects": {
             "en": "Treated as a Common Card Draw 1 Common Card(s)",
-            "vi": "Được xem là Bài thường. Rút 1 lá Bài thường"
+            "vi": "Được xem là Common Cards. Rút 1 lá Common Cards"
           }
         },
         {
@@ -915,7 +915,7 @@
           "count": 2,
           "effects": {
             "en": "Treated as a Common Card Draw 1 Common Card(s)",
-            "vi": "Được xem là Bài thường. Rút 1 lá Bài thường"
+            "vi": "Được xem là Common Cards. Rút 1 lá Common Cards"
           }
         },
         {
@@ -948,17 +948,17 @@
       ],
       "note": {
         "en": "Exorcist’s Formation IV supplies two extra attacks per three Inferno Rhapsody uses; Soulfire Dance V raises that to three, making half the hits extra attacks. Night Rain IV stabilizes opening access but needs Common Draw targets. Nia with Forbidden: Eternal Hunger or Tiphera can fund the X-cost. Swap draw Divines for AP when needed, or remove one Night Rain IV for neutral cards.",
-        "vi": "Exorcist’s Formation IV tạo hai đòn đánh thêm sau mỗi ba Inferno Rhapsody; Soulfire Dance V nâng lên ba, tức một nửa số nhịp đánh là đánh thêm và tận dụng hệ số tăng sát thương riêng tốt hơn. Night Rain IV ổn định bài đầu lượt nhưng cần các mục tiêu cho hiệu ứng rút Bài chung. Nên ghép Nia có Forbidden: Eternal Hunger hoặc Tiphera để trả chi phí X. Có thể đổi Thức tỉnh thần thánh rút bài lấy Điểm hành động, hoặc bỏ một Night Rain IV để thêm lá trung lập."
+        "vi": "Exorcist’s Formation IV tạo hai Extra Attacks sau mỗi ba Inferno Rhapsody; Soulfire Dance V nâng lên ba, tức một nửa số nhịp đánh là đánh thêm và tận dụng hệ số tăng sát thương riêng tốt hơn. Night Rain IV ổn định bài đầu lượt nhưng cần các mục tiêu cho hiệu ứng rút Common Cards. Nên ghép Nia có Forbidden: Eternal Hunger hoặc Tiphera để trả chi phí X. Có thể đổi Divine Epiphany Draw lấy AP, hoặc bỏ một Night Rain IV để thêm lá Neutral."
       }
     },
     {
       "name": {
         "en": "Twist of Fei-t (Draw Support)",
-        "vi": "Fei: Hỗ trợ rút bài"
+        "vi": "Fei: Hỗ trợ Draw"
       },
       "role": {
         "en": "Reliable start-of-turn draw",
-        "vi": "Rút bài ổn định ngay đầu lượt"
+        "vi": "Draw ổn định ngay đầu lượt"
       },
       "partner": "Ruixiang",
       "cards": [
@@ -967,7 +967,7 @@
           "count": 1,
           "effects": {
             "en": "Treated as a Common Card Draw 1 Common Card(s)",
-            "vi": "Được xem là Bài thường. Rút 1 lá Bài thường"
+            "vi": "Được xem là Common Cards. Rút 1 lá Common Cards"
           }
         },
         {
@@ -975,7 +975,7 @@
           "count": 2,
           "effects": {
             "en": "Treated as a Common Card Draw 1 Common Card(s)",
-            "vi": "Được xem là Bài thường. Rút 1 lá Bài thường"
+            "vi": "Được xem là Common Cards. Rút 1 lá Common Cards"
           }
         },
         {
@@ -983,7 +983,7 @@
           "count": 1,
           "effects": {
             "en": "1 AP",
-            "vi": "Nhận 1 Điểm hành động"
+            "vi": "Nhận 1 AP"
           }
         },
         {
@@ -996,7 +996,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Night Rain IV moves into hand automatically, so its draw Divine is a net gain without spending a draw to find it. It helps carries such as Tenebria that are vulnerable to bad opening draws. Avoid excessive Retain or start-of-turn creation/movement, and provide enough Common cards or Common-tag Divines for valid draw targets.",
-        "vi": "Night Rain IV tự chuyển lên tay đầu lượt nên Thức tỉnh thần thánh rút bài trên nó tạo lợi ích rút bài thực sự, không cần tốn lượt rút để tìm chính lá đó. Hợp với chủ lực như Tenebria dễ mắc kẹt vì bài đầu lượt xấu. Tránh đội giữ quá nhiều lá có Giữ lại hoặc tạo/chuyển nhiều lá đầu lượt; cần đủ lá thuộc loại Bài chung hay Thức tỉnh thần thánh gắn loại Bài chung để luôn có mục tiêu rút."
+        "vi": "Night Rain IV tự chuyển lên tay đầu lượt nên Divine Epiphany Draw trên nó tạo lợi ích Draw thực sự, không cần tốn lượt rút để tìm chính lá đó. Hợp với chủ lực như Tenebria dễ mắc kẹt vì bài đầu lượt xấu. Tránh đội giữ quá nhiều lá có Retain hoặc tạo/chuyển nhiều lá đầu lượt; cần đủ lá thuộc loại Common Cards hay Divine Epiphany gắn loại Common Cards để luôn có mục tiêu rút."
       }
     }
   ],
@@ -1005,28 +1005,28 @@
       "name": "Hugo",
       "note": {
         "en": "Fei supplies both skills and attacks for Hugo, though buff coverage and card-generation requirements can complicate the team.",
-        "vi": "Fei cung cấp cả Kỹ năng và Tấn công cho Hugo, nhưng thiếu tăng sức mạnh và yêu cầu tạo bài có thể làm đội khó vận hành."
+        "vi": "Fei cung cấp cả Skill và Attack cho Hugo, nhưng thiếu tăng sức mạnh và yêu cầu tạo bài có thể làm đội khó vận hành."
       }
     },
     {
       "name": "Nia",
       "note": {
         "en": "Nia supplies draw and AP for X-cost play, while Adagio can arrange Fei's next draw.",
-        "vi": "Nia cung cấp Rút bài và Điểm hành động cho bài Chi phí X, còn Adagio có thể sắp lá Fei sẽ Rút tiếp theo."
+        "vi": "Nia cung cấp Draw và AP cho bài Cost X, còn Adagio có thể sắp lá Fei sẽ Rút tiếp theo."
       }
     },
     {
       "name": "Cassius",
       "note": {
         "en": "Strong additive buffs suit multiple hits, and opening-turn quest draw improves Inferno Rhapsody consistency.",
-        "vi": "Tăng sát thương cộng thêm mạnh hợp nhiều lần đánh; Rút đầu lượt từ nhiệm vụ giúp Inferno Rhapsody ổn định hơn."
+        "vi": "Tăng sát thương cộng thêm mạnh hợp nhiều lần đánh; Turn Draw từ nhiệm vụ giúp Inferno Rhapsody ổn định hơn."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Void and low-cost buffs fit Fei, with especially strong opening turns despite a lower late-fight ceiling.",
-        "vi": "Tăng sức mạnh Hư vô và bài rẻ hợp Fei, đặc biệt mạnh ở lượt đầu dù trần sức mạnh về sau thấp hơn."
+        "vi": "Tăng sức mạnh Void và bài rẻ hợp Fei, đặc biệt mạnh ở lượt đầu dù trần sức mạnh về sau thấp hơn."
       }
     }
   ],
@@ -1043,8 +1043,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1060,8 +1060,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

@@ -28,12 +28,11 @@ function Item({ name, kind = "equipment", vietnamese = false }: { name: string; 
 
 export function CharacterBuild({ vietnamese }: Props) {
   const { guide } = useCharacterGuide();
-  const { partners, fragments, stats, critNote, potentialAdvice, equipment, dupes, source: renoaSource } = guide!;
+  const { partners, fragments, stats, critNote, potentialAdvice, equipment, dupes } = guide!;
   const Seasonal = seasonalGuideExtensions[guide!.characterId];
-  const t = (en: string, vi: string) => vietnamese ? preserveGameTermNames(vi) : en;
-  const localize = (value: Translation) => vietnamese ? preserveGameTermNames(value.vi) : value.en;
+  const t = (en: string, vi: string) => vietnamese ? preserveGameTermNames(vi, en) : en;
+  const localize = (value: Translation) => vietnamese ? preserveGameTermNames(value.vi, value.en) : value.en;
   return <div className={styles.guide}>
-    {renoaSource.note && <p className={styles.investmentNote}>{localize(renoaSource.note)}</p>}
     <h2 className={styles.heading}>{t(`${guide!.name} BUILD`, `XÂY DỰNG ${guide!.name}`)}</h2>
     {Boolean(guide!.buildAdvice?.length) && <Section eyebrow="Build" title={t("Build priorities", "Ưu tiên xây dựng")}>
       <div className={styles.prose}>{guide!.buildAdvice!.map(item => <section key={item.title.en}><h4>{localize(item.title)}</h4><p>{localize(item.body)}</p></section>)}</div>
@@ -61,21 +60,20 @@ export function CharacterBuild({ vietnamese }: Props) {
     <Section eyebrow={t("Investment", "Đầu tư")} title={t(`${guide!.name} Potential`, `Tiềm năng của ${guide!.name}`)}>
       <div className={styles.investmentNote}><p>{localize(guide!.potentialIntro)}</p><ul>{potentialAdvice.map(item => <li key={item.name}><strong>{label(item.name, vietnamese)}:</strong> {localize(item.note)}</li>)}</ul></div>
     </Section>
-    {equipment.length > 0 && <Section eyebrow={t("Equipment", "Trang bị")} title={t(`${guide!.name} Equipment`, `Trang bị của ${guide!.name}`)}>
+    {equipment.length > 0 && <Section eyebrow="Equipment" title={t(`${guide!.name} Equipment`, `Equipment của ${guide!.name}`)}>
       <VerticalTabs vietnamese={vietnamese} labels={equipment.map(item => item.name.en)} best={0} label={t("Equipment groups", "Trang bị theo khu vực")}>
         {equipment.map(item => <div key={item.name.en}>{item.note && <p className={styles.investmentNote}>{localize(item.note)}</p>}<div className={styles.equipmentColumns}>{[
-          { title: t("Weapons", "Vũ khí"), entries: item.weapons },
-          { title: t("Armor", "Giáp"), entries: item.armor },
-          { title: t("Trinkets", "Phụ kiện"), entries: item.trinkets },
+          { title: "Weapon", entries: item.weapons },
+          { title: "Armor", entries: item.armor },
+          { title: "Accessory", entries: item.trinkets },
         ].map(group => <div key={group.title}><h4>{group.title}</h4><div className={styles.equipmentItems}>{group.entries.map(name => <Item key={name} name={name} />)}</div></div>)}</div></div>)}
       </VerticalTabs>
     </Section>}
-    {(Seasonal || guide!.seasonal.length > 0) && <Section eyebrow={t("Seasonal", "Theo mùa")} title={t(`${guide!.name} Seasonal Powers`, `Sức mạnh theo mùa của ${guide!.name}`)}>{guide!.seasonal.length === 0 && Seasonal ? <Seasonal vietnamese={vietnamese} /> : <div className={styles.prose}>{guide!.seasonal.map(item => <section key={item.name.en}><h4>{localize(item.name)}</h4><p>{localize(item.note)}</p></section>)}</div>}</Section>}
+    {(Seasonal || guide!.seasonal.length > 0) && <Section eyebrow={t("Seasonal", "Theo mùa")} title={t(`${guide!.name} Seasonal Powers`, `Sức mạnh theo mùa của ${guide!.name}`)}>{guide!.seasonal.length === 0 && Seasonal ? <Seasonal vietnamese={vietnamese} /> : <div className={styles.prose}>{guide!.seasonal.map(item => <section key={item.name.en}><h4>{item.name.en}</h4><p>{localize(item.note)}</p></section>)}</div>}</Section>}
     {dupes.length > 0 && <Section eyebrow={t("Dupes", "Bản sao")} title={t(`${guide!.name} Dupes`, `Bản sao ${guide!.name}`)}>
       <div className={styles.dupeTable} role="table" aria-label={t("Manifest Ego performance", "Hiệu suất thức tỉnh Ego")}><div className={styles.dupeHead} role="row"><span role="columnheader">{t("Dupe", "Bản sao")}</span><span role="columnheader">{t("Performance", "Hiệu suất")}</span><span role="columnheader">{t("Notes", "Nhận xét")}</span></div>
         {dupes.map((dupe, i) => <div className={styles.dupeRow} role="row" key={dupe.name}><strong role="cell">{i ? `Ego ${i}` : t("Base", "Cơ bản")}</strong><strong role="cell">{i ? dupe.score : "—"}</strong><div role="cell">{localize(dupe.note)}</div></div>)}
       </div>
     </Section>}
-    <p className={styles.source}>{t("Source", "Nguồn")}: <a href={renoaSource.url} target="_blank" rel="noreferrer">{renoaSource.name}</a>{renoaSource.updated && <> · <time dateTime={renoaSource.updated}>{renoaSource.updated.split("-").reverse().join("/")}</time></>}</p>
   </div>;
 }

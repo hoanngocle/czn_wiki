@@ -14,7 +14,7 @@ import styles from "./RenoaGuide.module.css";
 export { CharacterBuild } from "./CharacterBuildGuide";
 
 type Props = { vietnamese: boolean };
-const localize = (value: GuideText | string, vietnamese: boolean) => typeof value === "string" ? value : vietnamese ? preserveGameTermNames(value.vi) : value.en;
+const localize = (value: GuideText | string, vietnamese: boolean) => typeof value === "string" ? value : vietnamese ? preserveGameTermNames(value.vi, value.en) : value.en;
 
 function ItemLabel({ name, vietnamese = false, pieces }: { name: string; vietnamese?: boolean; pieces?: number }) {
   return <span className={styles.itemLabel}><GuideImage name={name} /><span>{label(name, vietnamese)}{Boolean(pieces) && <small> [{pieces}{vietnamese ? " món" : "-PC"}]</small>}</span></span>;
@@ -22,17 +22,6 @@ function ItemLabel({ name, vietnamese = false, pieces }: { name: string; vietnam
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return <section className={styles.section}><h2>{title}</h2>{children}</section>;
-}
-
-export function GuideSource({ vietnamese }: Props) {
-  const { guide } = useCharacterGuide();
-  if (!guide) return null;
-  const renoaSource = guide.source;
-  return <p className={styles.source}>
-    {vietnamese ? "Tổng hợp từ bản lưu " : "Summarized from the saved "}<a href={renoaSource.url} target="_blank" rel="noreferrer">{renoaSource.name}</a>
-    {renoaSource.updated && <>{vietnamese ? " · Cập nhật nguồn: " : " · Source updated: "}<time dateTime={renoaSource.updated}>{renoaSource.updated.split("-").reverse().join("/")}</time></>}
-    {renoaSource.note && <><br />{localize(renoaSource.note, vietnamese)}</>}
-  </p>;
 }
 
 export function CharacterReview({ vietnamese }: Props) {
@@ -52,7 +41,6 @@ export function CharacterReview({ vietnamese }: Props) {
         <span>{t(item.label)}</span><strong>{item.score}<small> / 5</small></strong>
         <meter min={0} max={5} value={item.score} aria-label={t(item.label)} />
       </div>)}</div>
-      {review.profile.length > 0 && <p className={styles.muted}>{vietnamese ? `Điểm đánh giá theo bản lưu ${guide!.source.name}.` : `Performance ratings from the saved ${guide!.source.name} guide.`}</p>}
     </Section>
     <div className={styles.columns}>
       <Section title={vietnamese ? "Điểm mạnh" : "Strengths"}><ul>{review.pros.map(item => <li key={item.en}>{t(item)}</li>)}</ul></Section>
@@ -64,25 +52,6 @@ export function CharacterReview({ vietnamese }: Props) {
         <div><h3>{localize(item.title, false)}</h3><p>{t(item.body)}</p></div>
       </article>)}</div>
     </Section>
-    <GuideSource vietnamese={vietnamese} />
-  </div>;
-}
-
-export function CharacterCardAdvice({ vietnamese }: Props) {
-  const { guide, cards } = useCharacterGuide();
-  const { cardAdvice } = guide!;
-  const t = (value: GuideText | string) => localize(value, vietnamese);
-  if (!cardAdvice.length) return null;
-  return <div className={styles.guide}>
-    <Section title={vietnamese ? "Gợi ý chọn Epiphany" : "Epiphany recommendations"}>
-      <p className={styles.muted}>{vietnamese ? "Đánh giá I–V theo nguồn; lựa chọn tốt nhất còn phụ thuộc bộ bài." : "Source ratings for I–V; the best choice still depends on the deck."}</p>
-      <div className={styles.stack}>{cardAdvice.map(item => <details className={styles.disclosure} key={item.cardId}>
-        <summary><span className={styles.cardSummary}><GuideImage cardId={item.cardId} className={styles.cardArtwork} /><span>{cards.get(item.cardId)?.name}</span>{item.preferred && <span className={styles.badge}>{item.preferred}</span>}</span></summary>
-        <div className={styles.ratings}>{item.ratings.map((rating, index) => <span key={index}><b>{["I", "II", "III", "IV", "V"][index]}</b><span aria-label={rating ? `${rating} / 5` : vietnamese ? "Nguồn chưa chấm điểm" : "Not rated by source"}>{rating ? <>{"★".repeat(rating)}<span className={styles.emptyStars} aria-hidden="true">{"☆".repeat(5 - rating)}</span></> : "—"}</span></span>)}</div>
-        <p>{t(item.note)}</p><p><strong>Divine / Neutral: </strong>{t(item.divine)}</p>
-      </details>)}</div>
-    </Section>
-    <GuideSource vietnamese={vietnamese} />
   </div>;
 }
 
@@ -110,8 +79,8 @@ export function CharacterDecks({ vietnamese }: Props) {
             <div className={styles.setupBody}>
               <div className={styles.setupGroup}><h5>{vietnamese ? "Nhân vật" : "Character"}</h5><GuideImage name={guide!.name} className={styles.setupPortrait} alt={guide!.name} /></div>
               {deck.partner && <div className={styles.setupGroup}><h5>Partner</h5><GuideImage name={deck.partner} className={styles.setupPortrait} alt={deck.partner} /></div>}
-              <div className={styles.setupGroup}><h5>{vietnamese ? "Trang bị" : "Equipment"}</h5><div className={styles.setupItems}>{deck.gear.length ? deck.gear.map(name => <ItemLabel name={name} key={name} />) : <span className={styles.muted}>{vietnamese ? "Chưa chọn trang bị" : "No equipment"}</span>}</div></div>
-              <div className={styles.setupGroup}><h5>Fragments</h5><div className={styles.setupItems}>{deck.fragments.length ? deck.fragments.map((name, index) => <ItemLabel name={name} key={name} pieces={deck.fragmentPieces?.[index]} vietnamese={vietnamese} />) : <span className={styles.muted}>{vietnamese ? "Chưa chọn mảnh ký ức" : "No Fragments"}</span>}</div></div>
+              <div className={styles.setupGroup}><h5>Equipment</h5><div className={styles.setupItems}>{deck.gear.length ? deck.gear.map(name => <ItemLabel name={name} key={name} />) : <span className={styles.muted}>{vietnamese ? "Chưa chọn Equipment" : "No equipment"}</span>}</div></div>
+              <div className={styles.setupGroup}><h5>Memory Fragments</h5><div className={styles.setupItems}>{deck.fragments.length ? deck.fragments.map((name, index) => <ItemLabel name={name} key={name} pieces={deck.fragmentPieces?.[index]} vietnamese={vietnamese} />) : <span className={styles.muted}>{vietnamese ? "Chưa chọn Memory Fragments" : "No Memory Fragments"}</span>}</div></div>
             </div>
           </aside>
           <div className={styles.deckCards}><h4>{vietnamese ? "Danh sách bài" : "Cards Summary"} <span>[{deck.cards.reduce((sum, card) => sum + card.count, 0)} {vietnamese ? "lá" : "selected"}]</span></h4>
@@ -126,7 +95,7 @@ export function CharacterDecks({ vietnamese }: Props) {
           </div>
         </div>
         <p className={styles.deckNotes}>{t(deck.note)}</p>
-        {deck.code && <details className={styles.deckCode}><summary>{vietnamese ? "Mã bộ bài từ nguồn" : "Source deck code"}</summary><textarea readOnly aria-label={vietnamese ? "Mã bộ bài" : "Deck code"} value={deck.code} onFocus={event => event.currentTarget.select()} /></details>}
+        {deck.code && <details className={styles.deckCode}><summary>{vietnamese ? "Mã bộ bài" : "Deck code"}</summary><textarea readOnly aria-label={vietnamese ? "Mã bộ bài" : "Deck code"} value={deck.code} onFocus={event => event.currentTarget.select()} /></details>}
       </article>)}
     </Section>
     {synergies.length > 0 && <Section title={vietnamese ? "Đồng đội phù hợp" : "Synergies"}><div className={styles.columns}>{synergies.map(item => <article className={styles.box} key={item.name}><h3 className={styles.allyHeading}><GuideImage name={item.name} className={styles.portrait} />{item.name}</h3><p>{t(item.note)}</p></article>)}</div></Section>}
@@ -135,6 +104,5 @@ export function CharacterDecks({ vietnamese }: Props) {
       {team.steps.length > 1 ? <ol>{team.steps.map(step => <li key={step.en}>{t(step)}</li>)}</ol> : <p>{t(team.steps[0])}</p>}
     </article>)}</div></Section>}
     {selectedCard && <CardDetailModal card={selectedCard} initialId={selectedCard.id} animationEnabled={animationEnabled} vietnameseEnabled={vietnamese} reviews={guide?.epiphanyReviews} onClose={() => setSelectedCard(null)} />}
-    <GuideSource vietnamese={vietnamese} />
   </div>;
 }

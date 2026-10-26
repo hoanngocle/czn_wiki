@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Extended Magazine generates Launcher Bullets; his upgrades turn those bullets into repeated AoE pressure.",
-    "vi": "Extended Magazine tạo Đạn súng phóng; các bài Cường hóa biến chúng thành nguồn sát thương diện rộng liên tục."
+    "vi": "Extended Magazine tạo Launcher Bullet; các bài Upgrade biến chúng thành nguồn sát thương diện rộng liên tục."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1021.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -483,19 +483,19 @@
   "review": {
     "intro": {
       "en": "Extended Magazine generates Launcher Bullets; his upgrades turn those bullets into repeated AoE pressure.",
-      "vi": "Extended Magazine tạo Đạn súng phóng; các bài Cường hóa biến chúng thành nguồn sát thương diện rộng liên tục."
+      "vi": "Extended Magazine tạo Launcher Bullet; các bài Upgrade biến chúng thành nguồn sát thương diện rộng liên tục."
     },
     "profile": [],
     "pros": [
       {
         "en": "Offers several bullet debuffs, hand cycling and support for Bullet-focused teams.",
-        "vi": "Có nhiều hiệu ứng đạn, luân chuyển tay bài và hỗ trợ đội hình dùng Đạn."
+        "vi": "Có nhiều hiệu ứng Bullet, luân chuyển tay bài và hỗ trợ đội hình dùng Bullet."
       }
     ],
     "cons": [
       {
         "en": "Launcher Bullets need AP and cannot be discounted; upgrades also require setup resources.",
-        "vi": "Đạn súng phóng cần Điểm hành động và không thể giảm chi phí; các bài Cường hóa cũng cần tài nguyên để thiết lập."
+        "vi": "Launcher Bullet cần AP và không thể giảm chi phí; các bài Upgrade cũng cần tài nguyên để thiết lập."
       }
     ],
     "mechanics": [
@@ -503,7 +503,7 @@
         "title": "S.S.S",
         "body": {
           "en": "100% Damage; For 1 turn, +40% Bullet card Damage",
-          "vi": "Gây 100% sát thương; Trong 1 lượt, tăng 40% sát thương của các lá Đạn"
+          "vi": "Gây 100% sát thương; Trong 1 lượt, tăng 40% sát thương của các lá Bullet"
         },
         "cardId": "c_1021_uni1"
       },
@@ -511,7 +511,7 @@
         "title": "Flame Thrower",
         "body": {
           "en": "180% Damage to all enemies; Draw 1; Discard 1",
-          "vi": "Gây 180% sát thương lên tất cả kẻ địch; Rút bài 1; Bỏ bài 1"
+          "vi": "Gây 180% sát thương lên tất cả kẻ địch; Draw 1; Discard 1"
         },
         "cardId": "c_1021_uni2"
       },
@@ -519,7 +519,7 @@
         "title": "Flashbang",
         "body": {
           "en": "120% Damage to all enemies; 2 Weaken; If the target has Shield, +50% Damage",
-          "vi": "Gây 120% sát thương lên tất cả kẻ địch; 2 Suy nhược; Nếu mục tiêu có Lá chắn, tăng 50% sát thương"
+          "vi": "Gây 120% sát thương lên tất cả kẻ địch; 2 Weaken; Nếu mục tiêu có Shield, tăng 50% sát thương"
         },
         "cardId": "c_1021_uni3"
       }
@@ -538,11 +538,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV turns copies into a probabilistic start-turn draw engine. III's occasional free bullets do not reliably solve Lucas's low damage efficiency.",
-        "vi": "IV biến các bản sao thành cơ chế rút đầu lượt theo xác suất. Đạn miễn phí đôi lúc của III không giải quyết ổn định hiệu suất sát thương thấp của Lucas."
+        "vi": "IV biến các bản sao thành cơ chế Turn Draw theo xác suất. Bullet miễn phí đôi lúc của III không giải quyết ổn định hiệu suất sát thương thấp của Lucas."
       },
       "divine": {
         "en": "Consider cost reduction or Morale/Resolve; no neutral effect is central to the build.",
-        "vi": "Cân nhắc giảm chi phí hoặc Sĩ khí/Quyết tâm; không có trung lập cốt lõi cho bộ bài."
+        "vi": "Cân nhắc giảm chi phí hoặc Morale/Resolve; không có Neutral cốt lõi cho bộ bài."
       }
     },
     {
@@ -576,11 +576,11 @@
       "preferred": "II",
       "note": {
         "en": "II is useful when the draw/discard cycle matters. I adds more discard but also produces bullets that consume valuable hand space.",
-        "vi": "II hữu ích khi cần chu trình rút/bỏ bài. I tăng bỏ bài nhưng đồng thời tạo đạn chiếm chỗ quý giá trên tay."
+        "vi": "II hữu ích khi cần chu trình rút/Discard. I tăng Discard nhưng đồng thời tạo đạn chiếm chỗ quý giá trên tay."
       },
       "divine": {
         "en": "Cost reduction is the useful divine; neutral/base remains reasonable for cycling.",
-        "vi": "Giảm chi phí là thần thánh hữu ích; bản trung lập/gốc vẫn hợp để luân chuyển."
+        "vi": "Giảm chi phí là Divine hữu ích; bản Neutral/gốc vẫn hợp để luân chuyển."
       }
     },
     {
@@ -595,11 +595,11 @@
       "preferred": "III",
       "note": {
         "en": "III supplies retained Passion weakness support. V mainly removes itself from the draw cycle when further card removal is unavailable.",
-        "vi": "III hỗ trợ điểm yếu Đam mê bằng Giữ lại. V chủ yếu tự rời vòng rút khi không thể loại thêm bài."
+        "vi": "III hỗ trợ điểm yếu Passion bằng Retain. V chủ yếu tự rời vòng rút khi không thể loại thêm bài."
       },
       "divine": {
         "en": "Neutral Draw 1 improves usability; 2 Vulnerable is the damage-support divine.",
-        "vi": "Rút 1 trung lập giúp dễ dùng; 2 Dễ tổn thương là thần thánh hỗ trợ sát thương."
+        "vi": "Rút 1 Neutral giúp dễ dùng; 2 Vulnerable là Divine hỗ trợ sát thương."
       }
     }
   ],
@@ -635,11 +635,11 @@
     {
       "name": {
         "en": "Lucas Stats — Support · Ideal",
-        "vi": "Hỗ trợ · Lý tưởng"
+        "vi": "Hỗ trợ · Ideal"
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
@@ -649,37 +649,37 @@
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
       "name": {
         "en": "Lucas Stats — Support · Imagination",
-        "vi": "Hỗ trợ · Tưởng tượng"
+        "vi": "Hỗ trợ · Imagination"
       },
       "value": {
         "en": "HP% = EGO Regen%",
-        "vi": "Máu% = Hồi năng lượng Ego%"
+        "vi": "HP% = Hồi năng lượng Ego%"
       }
     },
     {
       "name": {
         "en": "Lucas Stats — Support · Substats",
-        "vi": "Hỗ trợ · Chỉ số phụ"
+        "vi": "Hỗ trợ · Substats"
       },
       "value": {
         "en": "HP > HP% > EGO Regen > CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Máu > Máu% > Hồi năng lượng Ego > Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "HP > HP% > Hồi năng lượng Ego > Critical Chance% > CRIT DMG% > ATK > ATK%"
       }
     },
     {
       "name": {
         "en": "Lucas Stats — DPS-Lite · Ideal",
-        "vi": "Sát thương phụ · Lý tưởng"
+        "vi": "Sát thương phụ · Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -689,65 +689,65 @@
       },
       "value": {
         "en": "Passion DMG > ATK%",
-        "vi": "Sát thương Đam mê > Tấn công%"
+        "vi": "Sát thương Passion > ATK%"
       }
     },
     {
       "name": {
         "en": "Lucas Stats — DPS-Lite · Imagination",
-        "vi": "Sát thương phụ · Tưởng tượng"
+        "vi": "Sát thương phụ · Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Lucas Stats — DPS-Lite · Substats",
-        "vi": "Sát thương phụ · Chỉ số phụ"
+        "vi": "Sát thương phụ · Substats"
       },
       "value": {
         "en": "CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% > CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
-    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
-    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+    "en": "Priority symbols compare stats rather than prescribing a universal target value.",
+    "vi": "Các dấu so sánh thể hiện thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
   },
   "potentialIntro": {
     "en": "3-1: Adds the [Bullet] tag to his Basic Attack Card, Machine Gun. This makes S.S.S and his E2’s BulletDMG buffs apply to his Basic Attacks. However, this cannot activate R.P.G-7 because they do not [Exhaust]. Improves his Bulletsynergy.5-1: Increases Machine Gun damage by +5% and increases it by another +5% if Lucas has >160% Critical DMG. Lucas has innate Critical Rate/DMG through Potentials 5/6, but you’ll likely need a boost from equipment or gear to reach the 160% threshold.7:Increases Launcher Bullet damage by +5% and increases it by another +5% if Lucas has >240% Critical DMG. Incentivises building his Crit stats even further.",
-    "vi": "Tiềm năng 3-1 thêm Đạn cho Machine Gun để nhận tăng cường từ S.S.S và Ego 2, nhưng không kích hoạt R.P.G-7 vì bài không có Kiệt sức; 5-1 tăng Machine Gun 5% sát thương và thêm 5% khi sát thương chí mạng >160%, thường cần bổ sung từ trang bị. Tiềm năng 7 tăng Đạn súng phóng 5% sát thương và thêm 5% khi sát thương chí mạng >240%, khuyến khích đầu tư thêm chí mạng."
+    "vi": "Potential 3-1 thêm Bullet cho Machine Gun để nhận tăng cường từ S.S.S và Ego 2, nhưng không kích hoạt R.P.G-7 vì bài không có Exhaust; 5-1 tăng Machine Gun 5% sát thương và thêm 5% khi CRIT DMG >160%, thường cần bổ sung từ trang bị. Potential 7 tăng Launcher Bullet 5% sát thương và thêm 5% khi CRIT DMG >240%, khuyến khích đầu tư thêm chí mạng."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add Bullet to the Machine Gun card.",
-        "vi": "Thêm Đạn cho lá Machine Gun."
+        "vi": "Thêm Bullet cho lá Machine Gun."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Lucas’s Machine Gun; If Lucas’s Critical Damage is 160% or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Machine Gun của Lucas; Nếu Sát thương chí mạng của Lucas đạt ít nhất 160%, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Machine Gun của Lucas; Nếu Critical Damage của Lucas đạt ít nhất 160%, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+5% Damage Amount to Launcher Bullet; If Lucas’s Critical Damage is 240% or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Đạn súng phóng; Nếu Sát thương chí mạng của Lucas đạt ít nhất 240%, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Launcher Bullet; Nếu Critical Damage của Lucas đạt ít nhất 240%, tăng thêm 5% vào mức cộng thêm"
       }
     }
   ],
@@ -755,7 +755,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -774,7 +774,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos"
@@ -794,7 +794,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -813,7 +813,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -838,41 +838,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Persona Cards kỹ năng nên chọn tự kích hoạt khi Discarded nếu đội có cách chủ động Discard. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1 — Recommended",
-        "vi": "Mùa 1 — Đề xuất"
+        "vi": "Season 1 — Đề xuất"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -890,7 +890,7 @@
       "score": "—",
       "note": {
         "en": "Lucas’ first Ego node increases the Fixed Damage dealt by their “R.P.G-7” Upgrade card from 40% to 50%. A decent first point that buffs his AoE damage even further.",
-        "vi": "R.P.G-7 tăng sát thương cố định từ 40% lên 50%, cải thiện sát thương diện rộng."
+        "vi": "R.P.G-7 tăng Fixed Damage từ 40% lên 50%, cải thiện sát thương diện rộng."
       }
     },
     {
@@ -898,7 +898,7 @@
       "score": "—",
       "note": {
         "en": "His second Ego node increases the damage dealt by their Bullet cards by +20%. A great unlock for Lucas, further juicing his damage output.",
-        "vi": "Bài Đạn tăng 20% sát thương, là nâng cấp mạnh cho Lucas."
+        "vi": "Bài Bullet tăng 20% sát thương, là nâng cấp mạnh cho Lucas."
       }
     },
     {
@@ -906,7 +906,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. An overall solid Potential bump for Lucas’ damage output.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp bài cơ bản, đặc trưng và chung, cải thiện sát thương tốt."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential Basic Card Upgrade, đặc trưng và chung, cải thiện sát thương tốt."
       }
     },
     {
@@ -914,7 +914,7 @@
       "score": "—",
       "note": {
         "en": "Lucas’ E4 increases the damage and utility provided from their Ego Skill, increasing the damage dealt by +50% and also increasing the amount of cards drawn by 1. This takes his Ego Skill from good to amazing, drawing 3 cards is nothing to scoff at.",
-        "vi": "Kỹ năng Ego tăng 50% sát thương và rút thêm 1 lá, tổng 3 lá. Cải thiện mạnh cả sát thương và tiện ích."
+        "vi": "Ego Skill tăng 50% sát thương và rút thêm 1 lá, tổng 3 lá. Cải thiện mạnh cả sát thương và tiện ích."
       }
     },
     {
@@ -922,7 +922,7 @@
       "score": "—",
       "note": {
         "en": "This node again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Similar to their E3, it provides a solid bump for Lucas’ damage output.",
-        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, tương tự Ego 3."
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài, tương tự Ego 3."
       }
     },
     {
@@ -930,7 +930,7 @@
       "score": "—",
       "note": {
         "en": "Lucas’ final node is definitely his best, when unlocked - the cost of the first Launcher Bullet used each turn is reduced by 1. This is an amazing unlock that allows Luke to really start cycling through his Bullets and helps alleviate some of the AP demand he requires.",
-        "vi": "Đạn súng phóng đầu tiên mỗi lượt giảm 1 chi phí. Đây là Ego tốt nhất, giúp quay vòng Đạn và giảm áp lực điểm hành động."
+        "vi": "Launcher Bullet đầu tiên mỗi lượt giảm 1 chi phí. Đây là Ego tốt nhất, giúp quay vòng Bullet và giảm áp lực AP."
       }
     }
   ],
@@ -938,11 +938,11 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Probabilistic opening draw support",
-        "vi": "Hỗ trợ rút bài đầu lượt theo xác suất"
+        "vi": "Hỗ trợ Draw đầu lượt theo xác suất"
       },
       "partner": "Yuri",
       "cards": [
@@ -975,7 +975,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Duplicate the draw-enabling card twice for three copies, increasing the chance of gaining up to two extra draws each turn. More copies also make more Bullets, which can obstruct drawing, so three balances consistency against congestion. The draw bonus remains random.",
-        "vi": "Nhân lá kích hoạt rút bài thêm hai lần để có tổng ba bản, tăng khả năng nhận tối đa hai lượt rút thêm đầu mỗi lượt. Quá nhiều bản cũng tạo thêm Đạn, dễ cản trở việc rút bài, nên ba bản là điểm cân bằng giữa độ ổn định và độ nghẽn bộ bài. Hiệu ứng rút thêm vẫn phụ thuộc xác suất."
+        "vi": "Nhân lá kích hoạt Draw thêm hai lần để có tổng ba bản, tăng khả năng nhận tối đa hai lượt rút thêm đầu mỗi lượt. Quá nhiều bản cũng tạo thêm Bullet, dễ cản trở việc Draw, nên ba bản là điểm cân bằng giữa độ ổn định và độ nghẽn bộ bài. Hiệu ứng rút thêm vẫn phụ thuộc xác suất."
       }
     }
   ],
@@ -984,14 +984,14 @@
       "name": "Luke",
       "note": {
         "en": "Bullet buffs work on Luke, but shared AP demands make this harder and usually weaker than generic buffers.",
-        "vi": "Tăng sức mạnh Đạn áp dụng cho Luke, nhưng cả hai tốn Điểm hành động nên khó dùng và thường kém nhân vật tăng sức mạnh đa dụng."
+        "vi": "Tăng sức mạnh Bullet áp dụng cho Luke, nhưng cả hai tốn AP nên khó dùng và thường kém nhân vật tăng sức mạnh đa dụng."
       }
     },
     {
       "name": "Renoa",
       "note": {
         "en": "Bullet buffs work on Renoa, but both spend heavily on bullets and generic buffers usually perform better.",
-        "vi": "Tăng sức mạnh Đạn áp dụng cho Renoa, nhưng cả hai tốn tài nguyên cho Đạn và nhân vật tăng sức mạnh đa dụng thường tốt hơn."
+        "vi": "Tăng sức mạnh Bullet áp dụng cho Renoa, nhưng cả hai tốn tài nguyên cho Bullet và nhân vật tăng sức mạnh đa dụng thường tốt hơn."
       }
     }
   ],
@@ -1008,8 +1008,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

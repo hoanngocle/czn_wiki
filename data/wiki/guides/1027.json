@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Applies Passion Weakness and chains attacks with self-buffs, search and cost reduction.",
-    "vi": "Gây điểm yếu Đam mê rồi nối chuỗi tấn công nhờ tự tăng sức mạnh, tìm bài và giảm chi phí."
+    "vi": "Gây điểm yếu Passion rồi nối chuỗi tấn công nhờ tự tăng sức mạnh, tìm bài và giảm chi phí."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1027.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -357,19 +357,19 @@
   "review": {
     "intro": {
       "en": "Applies Passion Weakness and chains attacks with self-buffs, search and cost reduction.",
-      "vi": "Gây điểm yếu Đam mê rồi nối chuỗi tấn công nhờ tự tăng sức mạnh, tìm bài và giảm chi phí."
+      "vi": "Gây điểm yếu Passion rồi nối chuỗi tấn công nhờ tự tăng sức mạnh, tìm bài và giảm chi phí."
     },
     "profile": [],
     "pros": [
       {
         "en": "Strong single-target burst with good AP efficiency and limited support requirements.",
-        "vi": "Bùng nổ đơn mục tiêu mạnh, tiết kiệm Điểm hành động và ít đòi hỏi hỗ trợ."
+        "vi": "Bùng nổ đơn mục tiêu mạnh, tiết kiệm AP và ít đòi hỏi hỗ trợ."
       }
     ],
     "cons": [
       {
         "en": "No AoE; her Ego skill is costly and external draw still helps.",
-        "vi": "Không có sát thương diện rộng; kỹ năng Ego đắt và vẫn hưởng lợi từ hỗ trợ rút bài."
+        "vi": "Không có sát thương diện rộng; kỹ năng Ego đắt và vẫn hưởng lợi từ hỗ trợ Draw."
       }
     ],
     "mechanics": [
@@ -377,7 +377,7 @@
         "title": "Rising Dragon Spire",
         "body": {
           "en": "100% Damage; 2 Ember; Streak: Add 1 Hit(s)",
-          "vi": "Gây 100% sát thương; 2 Tàn lửa; Liên tiếp: thêm 1 lần đánh"
+          "vi": "Gây 100% sát thương; 2 Ember; Liên tiếp: thêm 1 lần đánh"
         },
         "cardId": "c_1027_uni1"
       },
@@ -385,7 +385,7 @@
         "title": "Unity of Attack and Defense",
         "body": {
           "en": "Draw 2 Basic Card(s) of this unit, then decrease Cost of those cards by 1 for 1 turn until activated",
-          "vi": "Rút bài 2 Bài cơ bản của Nhân vật này, sau đó giảm Chi phí của các lá đó đi 1 trong 1 lượt hoặc đến khi Kích hoạt"
+          "vi": "Draw 2 Basic Card của Combatant này, sau đó giảm Cost của các lá đó đi 1 trong 1 lượt hoặc đến khi Kích hoạt"
         },
         "cardId": "c_1027_uni2"
       },
@@ -393,7 +393,7 @@
         "title": "Spirit of the Aromata",
         "body": {
           "en": "For 1 turn, when a card of this unit is activated, +20% Damage Amount to this unit",
-          "vi": "Trong 1 lượt, khi lá của Nhân vật này được Kích hoạt, tăng 20% lượng sát thương của Nhân vật này"
+          "vi": "Trong 1 lượt, khi lá của Combatant này được Kích hoạt, tăng 20% lượng sát thương của Combatant này"
         },
         "cardId": "c_1027_uni3"
       }
@@ -412,11 +412,11 @@
       "preferred": "I / III",
       "note": {
         "en": "I and III retain the essential Passion weakness effect. III also builds Embers from attacks; prioritize other cards if neither appears.",
-        "vi": "I và III giữ hiệu ứng điểm yếu Đam mê thiết yếu. III còn tích Tàn lửa qua đòn đánh; nếu không gặp hai bản này, ưu tiên hoàn thiện lá khác."
+        "vi": "I và III giữ hiệu ứng điểm yếu Passion thiết yếu. III còn tích Ember qua đòn đánh; nếu không gặp hai bản này, ưu tiên hoàn thiện lá khác."
       },
       "divine": {
         "en": "Morale/Resolve is useful; a neutral retaining Passion weakness is acceptable.",
-        "vi": "Sĩ khí/Quyết tâm hữu ích; bản trung lập giữ điểm yếu Đam mê vẫn chấp nhận được."
+        "vi": "Morale/Resolve hữu ích; bản Neutral giữ điểm yếu Passion vẫn chấp nhận được."
       }
     },
     {
@@ -431,11 +431,11 @@
       "preferred": "V",
       "note": {
         "en": "V gains hits from every preceding Passion card, including allies. Enemy Elasticity can sharply limit the payoff from long hit chains.",
-        "vi": "V thêm lần đánh theo mọi lá Đam mê đã dùng trước đó, kể cả đồng đội. Đàn hồi của địch có thể hạn chế mạnh hiệu quả chuỗi đánh dài."
+        "vi": "V thêm lần đánh theo mọi lá Passion đã dùng trước đó, kể cả đồng đội. Elasticity của địch có thể hạn chế mạnh hiệu quả chuỗi đánh dài."
       },
       "divine": {
         "en": "Prioritize damage multiplication; cost reduction is useful when not using Line Memory Fragment.",
-        "vi": "Ưu tiên nhân sát thương; giảm chi phí hữu ích khi không dùng Mảnh ký ức Line."
+        "vi": "Ưu tiên nhân sát thương; giảm chi phí hữu ích khi không dùng Fragment Line."
       }
     },
     {
@@ -450,11 +450,11 @@
       "preferred": "II",
       "note": {
         "en": "II lets Basic Attacks be played again and feeds both Spirit of the Aromata and Rising Dragon Spire V. III's extra setup and cost are much harder to justify.",
-        "vi": "II cho dùng lại Bài tấn công cơ bản, đồng thời hỗ trợ Spirit of the Aromata và Rising Dragon Spire V. Việc chuẩn bị và chi phí thêm của III khó đáng giá hơn."
+        "vi": "II cho dùng lại Attack Card cơ bản, đồng thời hỗ trợ Spirit of the Aromata và Rising Dragon Spire V. Việc chuẩn bị và chi phí thêm của III khó đáng giá hơn."
       },
       "divine": {
         "en": "1 AP is the main divine recommendation.",
-        "vi": "1 Điểm hành động là thần thánh ưu tiên."
+        "vi": "1 AP là Divine ưu tiên."
       }
     },
     {
@@ -469,11 +469,11 @@
       "preferred": "I",
       "note": {
         "en": "I scales with allied Passion cards as well as Mei Lin's. II is mainly preferable when she is the team's only Passion character.",
-        "vi": "I tăng theo bài Đam mê của cả đồng đội lẫn Mei Lin. II chủ yếu tốt hơn khi cô là nhân vật Đam mê duy nhất trong đội."
+        "vi": "I tăng theo bài Passion của cả đồng đội lẫn Mei Lin. II chủ yếu tốt hơn khi cô là nhân vật Passion duy nhất trong đội."
       },
       "divine": {
         "en": "Prefer Draw 1 or cost reduction; neutral utility usually gives up stronger scaling.",
-        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tiện ích trung lập thường đánh đổi khả năng tích sức mạnh tốt hơn."
+        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tiện ích Neutral thường đánh đổi khả năng tích sức mạnh tốt hơn."
       }
     }
   ],
@@ -482,32 +482,32 @@
       "name": "Scarlet E4",
       "score": "135.16%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Scarlet E0",
       "score": "120.70%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Priscilla E4",
       "score": "114.18%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Lilian E4",
       "score": "110.41%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -515,7 +515,7 @@
       "score": "100.00%",
       "note": {
         "en": "Douglas is a free temporary fallback when stronger damage partners are unavailable.",
-        "vi": "Douglas là phương án miễn phí tạm thời khi thiếu Đối tác sát thương mạnh hơn."
+        "vi": "Douglas là phương án miễn phí tạm thời khi thiếu Partner sát thương mạnh hơn."
       }
     }
   ],
@@ -533,7 +533,7 @@
       "score": "—",
       "note": {
         "en": "Its damage bonuses overlap with plentiful team, partner and stage buffs, reducing its relative value.",
-        "vi": "Tăng sát thương trùng với nhiều hiệu ứng từ đội, Đối tác và màn chơi, làm giảm giá trị tương đối."
+        "vi": "Tăng sát thương trùng với nhiều hiệu ứng từ đội, Partner và màn chơi, làm giảm giá trị tương đối."
       }
     },
     {
@@ -541,7 +541,7 @@
       "score": "—",
       "note": {
         "en": "A critical-focused option requiring teammates or mechanics that discard Mei Lin's cards.",
-        "vi": "Lựa chọn chuyên Chí mạng cần đồng đội hoặc cơ chế Bỏ bài của Mei Lin."
+        "vi": "Lựa chọn chuyên Chí mạng cần đồng đội hoặc cơ chế Discard của Mei Lin."
       }
     },
     {
@@ -549,7 +549,7 @@
       "score": "—",
       "note": {
         "en": "Use for Dragon Spire V decks dealing much of their damage through undiscounted 2-plus-cost cards.",
-        "vi": "Dùng cho bộ Dragon Spire V gây nhiều sát thương bằng lá Chi phí từ 2 trở lên không được giảm."
+        "vi": "Dùng cho bộ Dragon Spire V gây nhiều sát thương bằng lá Cost từ 2 trở lên không được giảm."
       }
     },
     {
@@ -557,7 +557,7 @@
       "score": "—",
       "note": {
         "en": "This can improve decks whose damage primarily comes from exactly 1-cost cards.",
-        "vi": "Có thể cải thiện bộ bài gây sát thương chủ yếu bằng lá đúng Chi phí 1."
+        "vi": "Có thể cải thiện bộ bài gây sát thương chủ yếu bằng lá đúng Cost 1."
       }
     }
   ],
@@ -565,11 +565,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -579,65 +579,65 @@
       },
       "value": {
         "en": "Passion DMG% >= ATK%",
-        "vi": "Sát thương Đam mê% >= Tấn công%"
+        "vi": "Sát thương Passion% >= ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To activate Mei Lin's potential 7, ensure she has at least 601 ATK in the character screen, but ideally aim for much more than this to get as close to maxing out its effect as possible. The Weak Point Damage from Potential 7 is one of the strongest multipliers available to Mei Lin, so getting more of it is ideal.",
-    "vi": "Đạt tối thiểu 601 tấn công trên màn hình nhân vật để kích hoạt tiềm năng 7, rồi tăng thêm nếu có thể. Sát thương điểm yếu từ nút này là một trong các hệ số mạnh nhất của Mei Lin."
+    "vi": "Đạt tối thiểu 601 ATK trên màn hình nhân vật để kích hoạt Potential 7, rồi tăng thêm nếu có thể. Sát thương điểm yếu từ nút này là một trong các hệ số mạnh nhất của Mei Lin."
   },
   "potentialIntro": {
     "en": "Mei Lin’s 3-1 is one you’ll want to pick up quickly, while her other signature Potentials add damage stats to her kit based on her Attack stat. If you’re hitting those stat thresholds, they are also definitely worth grabbing.3-1: Causes Striketo add 1 Emberstack to the enemy on use. Makes it easier to generate stacks of Emberfor more bonus damage when breaking or hitting broken enemies.5-1: Adds an extra 5% base damage to Strike. Additionally, if Mei Lin’s Attack is greater than 500, an additional 5% is added, for 10% total.7: Adds 4% Weak Point Damage if Mei Lin’s Attack is greater than 600. For every 50 Attack over 600, +1% Weak Point Damage is added, up to 8% extra. Mei Lin is almost always dealing Weak Point Damage, so the extra damage here adds up fast.",
-    "vi": "Mở 3-1 sớm để Strike áp 1 Tàn lửa, tăng khả năng khai thác mục tiêu vừa bị phá hoặc đang vỡ sức bền; 5-1 tăng Strike 5% sát thương cơ bản và thêm 5% nếu tấn công >500, tổng 10%. Tiềm năng 7 cho 4% sát thương điểm yếu khi tấn công >600, thêm 1% mỗi 50 tấn công vượt 600, tối đa thêm 8%; rất có giá trị vì Mei Lin gần như luôn gây sát thương điểm yếu."
+    "vi": "Mở 3-1 sớm để Strike áp 1 Ember, tăng khả năng khai thác mục tiêu vừa bị phá hoặc đang vỡ Tenacity; 5-1 tăng Strike 5% sát thương cơ bản và thêm 5% nếu Attack >500, tổng 10%. Potential 7 cho 4% sát thương điểm yếu khi Attack >600, thêm 1% mỗi 50 Attack vượt 600, tối đa thêm 8%; rất có giá trị vì Mei Lin gần như luôn gây sát thương điểm yếu."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Strike cards gain an additional 1 stack of Ember",
-        "vi": "Các lá Strike nhận thêm 1 cộng dồn Tàn lửa"
+        "vi": "Các lá Strike nhận thêm 1 cộng dồn Ember"
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Mei Lin’s Strike; If Mei Lin’s Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Strike của Mei Lin; Nếu Tấn công của Mei Lin đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Strike của Mei Lin; Nếu Attack của Mei Lin đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Mei Lin’s Attack is 600 or higher, +4% Weakness Damage Amount; For every 50 Attack exceeding 600, add an additional +1% to the modifier; (additional +8% max)",
-        "vi": "Nếu Tấn công của Mei Lin đạt ít nhất 600, tăng 4% lượng sát thương điểm yếu; Với mỗi 50 Tấn công vượt quá 600, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 8%)"
+        "vi": "Nếu Attack của Mei Lin đạt ít nhất 600, tăng 4% lượng sát thương điểm yếu; Với mỗi 50 Attack vượt quá 600, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 8%)"
       }
     }
   ],
@@ -645,7 +645,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -667,7 +667,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -690,7 +690,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -711,7 +711,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -729,7 +729,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -751,41 +751,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The recommended Card Engraving is [Umbra Engraving 5: Add 2 Hit(s) [Exhaust +2]]as it increases the [Exhaust] count of the recommended Persona Card (which is [Exhaust 5] base but goes up to [Exhaust 9] with both Engravings) but also makes the Attack Card much stronger, as well).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Ưu tiên khắc ấn bài Umbra 5: thêm 2 lần đánh và +2 Kiệt sức. Bài Nhân cách đề xuất từ Kiệt sức 5 lên Kiệt sức 9 khi có cả hai khắc ấn, đồng thời đánh mạnh hơn. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Ưu tiên Engraving bài Umbra 5: thêm 2 lần đánh và +2 Exhaust. Persona Cards đề xuất từ Exhaust 5 lên Exhaust 9 khi có cả hai Engraving, đồng thời đánh mạnh hơn. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -803,7 +803,7 @@
       "score": "—",
       "note": {
         "en": "Mei Lin’s first Ego to be unlocked buffs her “Flame Dragon’s Sovereignty” card, which now causes it to always Critical Hit when hitting a Ravaged Target. Not a terrible first node, but in hyper-optimized Mei Lin decks, this card is often removed. Unfortunately, this will mostly help with some extra damage when completing Chaos runs with Mei Lin, whilst this card is still in your deck. Note: Our calculations for Mei Lin do not have Flame Dragon’s Sovereignty present, so this Ego Point cannot be calculated.",
-        "vi": "Flame Dragon’s Sovereignty luôn chí mạng khi đánh mục tiêu đã vỡ sức bền. Chủ yếu giúp trong Chaos vì bộ bài tối ưu thường xóa lá này; nguồn không đưa nó vào phép tính sát thương."
+        "vi": "Flame Dragon’s Sovereignty luôn chí mạng khi đánh mục tiêu đã vỡ Tenacity. Chủ yếu giúp trong Chaos vì bộ bài tối ưu thường xóa lá này; không đưa nó vào phép tính sát thương."
       }
     },
     {
@@ -811,7 +811,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego now grants any of Mei Lin’s cards that deal damage the extra effect of inflicting 1 “Ember” stack on the target. This helps maintain Emberon enemy units, further increasing her potential damage output. As the majority of Mei Lin’s Embergeneration comes from her Basic Attacks, it almost functions as doubling the Embergeneration. Note: How valuable this Ego Point is depends wildly on how you align the extra EmberStacks you’ll have access to and whether or not you can line both a Ravage plus optimal stack size of Emberalongside one or all Dragon Spire V attacks. Because of this variability we’ve held off calculating it as this Ego Skill is either a solid damage increase or very easily wasted depending on the fight and the player.",
-        "vi": "Mọi lá gây sát thương của Mei Lin áp thêm 1 Tàn lửa, gần như nhân đôi khả năng tạo so với khi chủ yếu dựa bài cơ bản. Giá trị phụ thuộc việc canh phá sức bền, số Tàn lửa và Dragon Spire V; nguồn không tính con số tăng cố định vì dễ bị lãng phí nếu lệch nhịp."
+        "vi": "Mọi lá gây sát thương của Mei Lin áp thêm 1 Ember, gần như nhân đôi khả năng tạo so với khi chủ yếu dựa Basic Cards. Giá trị phụ thuộc việc canh phá Tenacity, số Ember và Dragon Spire V; không tính con số tăng cố định vì dễ bị lãng phí nếu lệch nhịp."
       }
     },
     {
@@ -819,7 +819,7 @@
       "score": "—",
       "note": {
         "en": "The third Ego to be unlocked increases the number of Basic Cards to be buffed by her Ego Skill from 4 to 6. As Mei Lin’s Ego Skill is rather expensive, this can often go underutilized; however, it is still a boost that you can reliably access every fight.",
-        "vi": "Kỹ năng Ego tăng số bài cơ bản được cường hóa từ 4 lên 6. Có ích mỗi trận nhưng đôi khi khó tận dụng vì chi phí Ego cao."
+        "vi": "Ego Skill tăng số Basic Cards được cường hóa từ 4 lên 6. Có ích mỗi trận nhưng đôi khi khó tận dụng vì chi phí Ego cao."
       }
     },
     {
@@ -827,7 +827,7 @@
       "score": "—",
       "note": {
         "en": "The fourth node to be unlocked grants Mei Lin a 1-turn buff “Flame Dragon Awakens” whenever she Ravages an enemy via an attack. This buff grants Mei Lin +20% Damage to all of Mei Lin’s Attack Cards and +20% damage amount to enemies who are in a Ravaged State. This is an absolutely amazing node for Mei Lin, thanks to how consistently she can Ravage enemies. Additionally, as there is no limit to how frequently she can gain this buff, it can be extremely powerful in some cases where you’re able to Ravage multiple enemies in a single turn. Note: Our calculations are single target so Mei Lin is only able to maintain a single stack of this buff at one time.",
-        "vi": "Mỗi lần tấn công làm vỡ sức bền địch, nhận Flame Dragon Awakens trong 1 lượt: tăng 20% sát thương bài tấn công và 20% sát thương lên địch đã vỡ sức bền. Không giới hạn số lần nhận nên rất mạnh khi phá nhiều mục tiêu cùng lượt; tính toán đơn mục tiêu của nguồn chỉ dùng 1 cộng dồn."
+        "vi": "Mỗi lần Attack làm vỡ Tenacity địch, nhận Flame Dragon Awakens trong 1 lượt: tăng 20% sát thương Attack Card và 20% sát thương lên địch đã vỡ Tenacity. Không giới hạn số lần nhận nên rất mạnh khi phá nhiều mục tiêu cùng lượt; tính toán đơn mục tiêu chỉ dùng 1 cộng dồn."
       }
     },
     {
@@ -835,7 +835,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. This is a strong Potential Node increase for Mei Lin, as a significant portion of their damage comes from Basic cards.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Hiệu quả tốt vì phần lớn sát thương của Mei Lin đến từ bài cơ bản."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Hiệu quả tốt vì phần lớn sát thương của Mei Lin đến từ Basic Cards."
       }
     },
     {
@@ -843,7 +843,7 @@
       "score": "—",
       "note": {
         "en": "Mei Lin’s final Ego node to be unlocked interacts with her 4th Ego node. Whenever Mei Lin is granted “Flame Dragon Awakens” twice (1, 2, apply. 3, 4 - apply etc.), she deals 100% Fixed Damage to all enemies and inflicts 3 Ember. This provides a small amount of AoE damage that she’s definitely missing in her kit; however, as it's Fixed Damage, there isn’t much scaling Potential for this to enable Mei Lin to function as an AoE unit and should be considered as a nice occasional benefit, opposed to reworking her playstyle. Note: How powerful this Ego Point is, is completely reliant on how easy enemies' Tenacity Gauges are to deplete and how many enemies are present in the fight. Because of how variable this is, we haven’t opted to calculate this Ego Point as any result likely wouldn’t be an accurate representation of its power.",
-        "vi": "Cứ nhận Flame Dragon Awakens 2 lần thì gây 100% sát thương cố định lên toàn bộ địch và áp 3 Tàn lửa. Thêm sát thương diện rộng nhưng không biến Mei Lin thành nhân vật chuyên đánh diện rộng; giá trị phụ thuộc số địch và độ dễ phá sức bền nên nguồn không đưa con số tính cố định."
+        "vi": "Cứ nhận Flame Dragon Awakens 2 lần thì gây 100% Fixed Damage lên toàn bộ địch và áp 3 Ember. Thêm sát thương diện rộng nhưng không biến Mei Lin thành nhân vật chuyên đánh diện rộng; giá trị phụ thuộc số địch và độ dễ phá Tenacity nên không đưa con số tính cố định."
       }
     }
   ],
@@ -855,7 +855,7 @@
       },
       "role": {
         "en": "Passion-stacking multi-hit carry",
-        "vi": "Chủ lực nhiều nhịp đánh tích sức mạnh qua Đam mê"
+        "vi": "Chủ lực nhiều nhịp đánh tích sức mạnh qua Passion"
       },
       "partner": "Scarlet",
       "cards": [
@@ -904,13 +904,13 @@
       ],
       "note": {
         "en": "Play Passion cards to stack Spirit of the Aromata and Flame Dragon's Jewel, then use Unity of Attack and Defense II to bring basic attacks back to hand. Veronica and other Passion supports add more stacks. Save the Rising Dragon Spire for the end of the buff sequence as multi-hit finishers.",
-        "vi": "Dùng các lá Đam mê để tích Spirit of the Aromata và Flame Dragon's Jewel, sau đó dùng Unity of Attack and Defense II đưa đòn đánh cơ bản trở lại tay. Veronica và hỗ trợ hệ Đam mê khác giúp tăng thêm cộng dồn. Để các Rising Dragon Spire cuối chuỗi hiệu ứng tăng sức mạnh nhằm tận dụng chúng làm đòn kết liễu nhiều nhịp đánh."
+        "vi": "Dùng các lá Passion để tích Spirit of the Aromata và Flame Dragon's Jewel, sau đó dùng Unity of Attack and Defense II đưa đòn đánh cơ bản trở lại tay. Veronica và hỗ trợ hệ Passion khác giúp tăng thêm cộng dồn. Để các Rising Dragon Spire cuối chuỗi hiệu ứng tăng sức mạnh nhằm tận dụng chúng làm đòn kết liễu nhiều nhịp đánh."
       }
     },
     {
       "name": {
         "en": "Elasticity Build (OTK)",
-        "vi": "Đánh Đàn hồi: Kết liễu trong một lượt"
+        "vi": "Đánh Elasticity: Kết liễu trong một lượt"
       },
       "role": {
         "en": "Four-Rising Dragon Spire burst carry",
@@ -940,7 +940,7 @@
           "count": 1,
           "effects": {
             "en": "Apply Initiation to this card",
-            "vi": "Áp dụng Khởi đầu cho lá này"
+            "vi": "Áp dụng Initiation cho lá này"
           }
         },
         {
@@ -963,13 +963,13 @@
       ],
       "note": {
         "en": "Use four Rising Dragon Spire for the one-turn burst, accepting AP costs that are difficult to sustain without Divines. Follow the usual Passion-stacking plan, leaning more on allied Passion cards, such as Owen with Residual Herb, to prepare the finishers.",
-        "vi": "Dùng bốn Rising Dragon Spire để dồn sát thương trong một lượt, chấp nhận chi phí Điểm hành động khó duy trì nếu thiếu Thức tỉnh thần thánh. Vẫn tích sức mạnh qua Đam mê như bản tiêu chuẩn nhưng dựa nhiều hơn vào lá Đam mê của đồng đội, chẳng hạn Owen dùng Residual Herb, trước khi tung các đòn kết liễu."
+        "vi": "Dùng bốn Rising Dragon Spire để dồn sát thương trong một lượt, chấp nhận chi phí AP khó duy trì nếu thiếu Divine Epiphany. Vẫn tích sức mạnh qua Passion như bản tiêu chuẩn nhưng dựa nhiều hơn vào lá Passion của đồng đội, chẳng hạn Owen dùng Residual Herb, trước khi tung các đòn kết liễu."
       }
     },
     {
       "name": {
         "en": "Elasticity Build",
-        "vi": "Đánh Đàn hồi duy trì"
+        "vi": "Đánh Elasticity duy trì"
       },
       "role": {
         "en": "Three-Rising Dragon Spire sustained carry",
@@ -1003,7 +1003,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1<br>Apply Initiation to this card",
-            "vi": "Nhận 1 Sĩ khí<br>Áp dụng Khởi đầu cho lá này"
+            "vi": "Nhận 1 Morale<br>Áp dụng Initiation cho lá này"
           }
         },
         {
@@ -1026,7 +1026,7 @@
       ],
       "note": {
         "en": "Reduce the one-turn-kill version from four Rising Dragon Spire to three. The Passion buff sequence is unchanged, but the lower AP requirement is easier to sustain across turns.",
-        "vi": "Giảm số Rising Dragon Spire từ bốn ở bản kết liễu một lượt xuống còn ba. Chuỗi tích hiệu ứng tăng sức mạnh Đam mê giữ nguyên, nhưng nhu cầu Điểm hành động thấp hơn giúp duy trì vòng đánh qua nhiều lượt dễ hơn."
+        "vi": "Giảm số Rising Dragon Spire từ bốn ở bản kết liễu một lượt xuống còn ba. Chuỗi tích hiệu ứng tăng sức mạnh Passion giữ nguyên, nhưng nhu cầu AP thấp hơn giúp duy trì vòng đánh qua nhiều lượt dễ hơn."
       }
     }
   ],
@@ -1035,7 +1035,7 @@
       "name": "Veronica",
       "note": {
         "en": "Repeated Passion cards stack Aromata while high draw and possible Rosaria buffs support Mei Lin's full turn.",
-        "vi": "Liên tục dùng bài Đam mê tích Aromata, còn Rút nhiều và khả năng tăng sức mạnh từ Rosaria hỗ trợ trọn lượt Mei Lin."
+        "vi": "Liên tục dùng bài Passion tích Aromata, còn Rút nhiều và khả năng tăng sức mạnh từ Rosaria hỗ trợ trọn lượt Mei Lin."
       }
     },
     {
@@ -1049,7 +1049,7 @@
       "name": "Cassius",
       "note": {
         "en": "Efficient Morale supports repeated hits, but combining buffs and draw often requires discounted Devil Dice.",
-        "vi": "Sĩ khí tiết kiệm hỗ trợ đánh nhiều lần, nhưng kết hợp tăng sức mạnh và Rút thường cần Devil Dice giảm Chi phí."
+        "vi": "Morale tiết kiệm hỗ trợ đánh nhiều lần, nhưng kết hợp tăng sức mạnh và Rút thường cần Devil Dice giảm Cost."
       }
     },
     {
@@ -1063,7 +1063,7 @@
       "name": "Narja",
       "note": {
         "en": "Basic Attack buffs suit relevant builds, while Spire discounts unlock equipment effects restricted to zero-cost cards.",
-        "vi": "Tăng Tấn công cơ bản hợp các hướng tương ứng, còn giảm Chi phí Spire mở hiệu ứng trang bị chỉ dành cho bài Chi phí 0."
+        "vi": "Tăng Attack cơ bản hợp các hướng tương ứng, còn giảm Cost Spire mở hiệu ứng trang bị chỉ dành cho bài Cost 0."
       }
     }
   ],
@@ -1080,8 +1080,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1097,15 +1097,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Spire Fire (No Elasticity)",
-        "vi": "Dragon Spire — địch không có Đàn hồi"
+        "vi": "Dragon Spire — địch không có Elasticity"
       },
       "members": [
         "Mei Lin",
@@ -1114,8 +1114,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

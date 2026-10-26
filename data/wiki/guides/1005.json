@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Allied targeted attacks drive her coordinated damage; specialized Epiphanies also support repeated Ravage setups.",
-    "vi": "Đòn chỉ định mục tiêu của đồng đội kích hoạt sát thương phối hợp; Thức tỉnh bài chuyên biệt còn hỗ trợ Suy yếu lặp lại."
+    "vi": "Đòn chỉ định mục tiêu của đồng đội kích hoạt sát thương phối hợp; Epiphanies chuyên biệt còn hỗ trợ Ravage lặp lại."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1005.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -349,19 +349,19 @@
   "review": {
     "intro": {
       "en": "Allied targeted attacks drive her coordinated damage; specialized Epiphanies also support repeated Ravage setups.",
-      "vi": "Đòn chỉ định mục tiêu của đồng đội kích hoạt sát thương phối hợp; Thức tỉnh bài chuyên biệt còn hỗ trợ Suy yếu lặp lại."
+      "vi": "Đòn chỉ định mục tiêu của đồng đội kích hoạt sát thương phối hợp; Epiphanies chuyên biệt còn hỗ trợ Ravage lặp lại."
     },
     "profile": [],
     "pros": [
       {
         "en": "Several support and damage paths, including Tenacity restoration and Passion Weakness.",
-        "vi": "Có nhiều hướng hỗ trợ lẫn sát thương, gồm khôi phục Sức bền của địch và gây điểm yếu Đam mê."
+        "vi": "Có nhiều hướng hỗ trợ lẫn sát thương, gồm khôi phục Tenacity của địch và gây điểm yếu Passion."
       }
     ],
     "cons": [
       {
         "en": "Key builds require specific Epiphanies and teammates that trigger her effects.",
-        "vi": "Các bộ bài quan trọng cần Thức tỉnh bài cụ thể và đồng đội kích hoạt hiệu ứng."
+        "vi": "Các bộ bài quan trọng cần Epiphanies cụ thể và đồng đội kích hoạt hiệu ứng."
       }
     ],
     "mechanics": [
@@ -369,7 +369,7 @@
         "title": "Target Spotted",
         "body": {
           "en": "150% Damage; Attunement: 1 Mark to a random enemy",
-          "vi": "Gây 150% sát thương; Điều hòa: gây 1 Dấu ấn lên một kẻ địch ngẫu nhiên"
+          "vi": "Gây 150% sát thương; Attunement: gây 1 Mark lên một kẻ địch ngẫu nhiên"
         },
         "cardId": "c_1005_uni1"
       },
@@ -377,7 +377,7 @@
         "title": "Drone Bombing",
         "body": {
           "en": "120% Damage to all enemies, 1 Passion Weakness",
-          "vi": "Gây 120% sát thương và 1 Điểm yếu Đam mê lên tất cả kẻ địch"
+          "vi": "Gây 120% sát thương và 1 Passion Weakness lên tất cả kẻ địch"
         },
         "cardId": "c_1005_uni2"
       },
@@ -385,7 +385,7 @@
         "title": "Tactical Maneuver",
         "body": {
           "en": "150% Shield; 2 Tenacity Damage",
-          "vi": "150% Lá chắn; 2 Sát thương sức bền"
+          "vi": "150% Shield; 2 Tenacity Damage"
         },
         "cardId": "c_1005_uni3"
       }
@@ -404,11 +404,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV follows allied attacks with Extra Attacks; duplicate casts extend duration, not damage. II mainly supports a dedicated Selena carry.",
-        "vi": "IV dùng Đòn đánh thêm theo đòn đồng đội; dùng bản sao chỉ tăng thời gian, không tăng sát thương. II chủ yếu hỗ trợ Selena làm chủ lực."
+        "vi": "IV dùng Extra Attacks theo đòn đồng đội; dùng bản sao chỉ tăng thời gian, không tăng sát thương. II chủ yếu hỗ trợ Selena làm chủ lực."
       },
       "divine": {
         "en": "Consider draw or cost reduction; neutral draw is usable but loses IV's core damage effect.",
-        "vi": "Cân nhắc rút bài hoặc giảm chi phí; rút trung lập dùng được nhưng mất sát thương cốt lõi của IV."
+        "vi": "Cân nhắc Draw hoặc giảm chi phí; rút Neutral dùng được nhưng mất sát thương cốt lõi của IV."
       }
     },
     {
@@ -423,11 +423,11 @@
       "preferred": "V",
       "note": {
         "en": "V supplies passive Extra Attacks on Ravage and clears itself from the cycle. IV can support an Attunement draw engine with more setup.",
-        "vi": "V tạo Đòn đánh thêm thụ động khi Suy yếu và tự rời vòng bài. IV hỗ trợ cơ chế rút Điều hòa nhưng cần chuẩn bị hơn."
+        "vi": "V tạo Extra Attacks thụ động khi Ravage và tự rời vòng bài. IV hỗ trợ cơ chế rút Attunement nhưng cần chuẩn bị hơn."
       },
       "divine": {
         "en": "Draw or cost reduction is useful; V can take Morale/Resolve, while neutral draw is a fallback.",
-        "vi": "Rút bài hoặc giảm chi phí hữu ích; V có thể lấy Sĩ khí/Quyết tâm, còn rút trung lập là phương án dự phòng."
+        "vi": "Draw hoặc giảm chi phí hữu ích; V có thể lấy Morale/Resolve, còn rút Neutral là phương án dự phòng."
       }
     },
     {
@@ -442,11 +442,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV follows allied Weakness Attacks and combines with High-Power Scope IV. I supplies Passion weakness when the team lacks another source.",
-        "vi": "IV đánh theo Tấn công điểm yếu của đồng đội và phối hợp High-Power Scope IV. I cung cấp điểm yếu Đam mê khi đội thiếu nguồn khác."
+        "vi": "IV đánh theo Weakness Attack của đồng đội và phối hợp High-Power Scope IV. I cung cấp điểm yếu Passion khi đội thiếu nguồn khác."
       },
       "divine": {
         "en": "Draw 1 is the main divine target.",
-        "vi": "Rút 1 là thần thánh ưu tiên."
+        "vi": "Rút 1 là Divine ưu tiên."
       }
     },
     {
@@ -461,11 +461,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV restores enemy Tenacity at zero cost, enabling another planned Ravage. If this utility is not needed, removal is usually preferable.",
-        "vi": "IV khôi phục Sức bền địch với chi phí 0, giúp gây Suy yếu tiếp theo đúng kế hoạch. Nếu không cần tiện ích này, thường nên loại lá."
+        "vi": "IV khôi phục Tenacity địch với chi phí 0, giúp gây Ravage tiếp theo đúng kế hoạch. Nếu không cần tiện ích này, thường nên loại lá."
       },
       "divine": {
         "en": "Prefer Draw 1; base/neutral Tenacity damage can disrupt planned Ravage timing.",
-        "vi": "Ưu tiên Rút 1; sát thương Sức bền bản gốc/trung lập có thể làm lệch thời điểm Suy yếu."
+        "vi": "Ưu tiên Rút 1; sát thương Tenacity bản gốc/Neutral có thể làm lệch thời điểm Ravage."
       }
     }
   ],
@@ -474,24 +474,24 @@
       "name": "Sylvia E0",
       "score": "118.14%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Solia E4",
       "score": "117.34%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Rosaria E4",
       "score": "115.60%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -499,7 +499,7 @@
       "score": "100.00%",
       "note": {
         "en": "A free fallback when none of the stronger listed Partners is available.",
-        "vi": "Phương án miễn phí dự phòng khi chưa có Đối tác mạnh hơn trong danh sách."
+        "vi": "Phương án miễn phí dự phòng khi chưa có Partner mạnh hơn trong danh sách."
       }
     }
   ],
@@ -533,11 +533,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -547,44 +547,44 @@
       },
       "value": {
         "en": "Passion DMG% > ATK%",
-        "vi": "Sát thương Đam mê% > Tấn công%"
+        "vi": "Sát thương Passion% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "Extra ATK DMG% > CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Sát thương đòn đánh thêm% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Extra ATK DMG% > Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To fully activate Selena's Potential 7, aim to reach higher than 30% Extra DMG% from sub stats. Doing this will cause major damage increase for her.",
-    "vi": "Nhắm trên 30% sát thương bổ sung từ chỉ số phụ để kích hoạt đầy đủ tiềm năng 7 và tăng đáng kể sát thương."
+    "vi": "Nhắm trên 30% Extra Damage từ chỉ số phụ để kích hoạt đầy đủ Potential 7 và tăng đáng kể sát thương."
   },
   "potentialIntro": {
     "en": "Selena’s Signature Potentials offer significant damage boosts as well as some additional functionality, making them a high priority to unlock.3-1: Causes Engagement Fire to deal Piercing Damage, which ignores enemy shields.5-1: Increases Engagement Fire’s damage multiplier by +5% with an additional +5% bonus granted if Bonus Additional Damage exceeds 15%.7: Increases Passion DMG% by +4% passively, with a further +4% increase unlocked if Bonus Additional Damage exceeds 30%.",
-    "vi": "Các tiềm năng có ưu tiên cao: 3-1 giúp Engagement Fire gây sát thương xuyên lá chắn, còn 5-1 tăng hệ số bài này 5%, thêm 5% khi sát thương bổ sung >15%. Tiềm năng 7 cho 4% sát thương Đam mê, cộng thêm 4% khi sát thương bổ sung >30%."
+    "vi": "Các Potential có ưu tiên cao: 3-1 giúp Engagement Fire gây Piercing Damage Shield, còn 5-1 tăng hệ số bài này 5%, thêm 5% khi Extra Damage >15%. Potential 7 cho 4% sát thương Passion, cộng thêm 4% khi Extra Damage >30%."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Changes Engagement Fire to Piercing Damage.",
-        "vi": "Đổi Engagement Fire thành Sát thương xuyên."
+        "vi": "Đổi Engagement Fire thành Piercing Damage."
       }
     },
     {
@@ -598,14 +598,14 @@
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+4% Passion Attribute Damage Amount; If Selena's Extra Damage (stat) is 30% or higher, add an additional +4% to the modifier",
-        "vi": "Tăng 4% lượng sát thương thuộc tính Đam mê; Nếu chỉ số Sát thương thêm của Selena đạt ít nhất 30%, tăng thêm 4% vào mức cộng thêm"
+        "vi": "Tăng 4% lượng sát thương thuộc tính Passion; Nếu chỉ số Sát thương thêm của Selena đạt ít nhất 30%, tăng thêm 4% vào mức cộng thêm"
       }
     }
   ],
@@ -613,7 +613,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -635,7 +635,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -657,7 +657,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -680,7 +680,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -700,7 +700,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -723,41 +723,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Persona Cards kỹ năng nên chọn tự kích hoạt khi Discarded nếu đội có cách chủ động Discard. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 25% sát thương Extra Attacks. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -775,7 +775,7 @@
       "score": "—",
       "note": {
         "en": "Selena’s first Ego node to be unlocked adds the [Initiation] tag to her “Sniper’s Domain”. This is a decent first node that boosts Selena’s damage output right away, as she’ll always start with this card in her opening hand most useful in situations where Selena’s Mark playstyle is pursued, compared to when she’s played as a Ravage support.",
-        "vi": "Sniper’s Domain có Khởi đầu, bảo đảm xuất hiện trên tay đầu trận. Hữu ích hơn khi chơi Dấu ấn so với vai trò hỗ trợ phá sức bền."
+        "vi": "Sniper’s Domain có Initiation, bảo đảm xuất hiện trên tay đầu trận. Hữu ích hơn khi chơi Mark so với vai trò hỗ trợ phá Tenacity."
       }
     },
     {
@@ -783,7 +783,7 @@
       "score": "—",
       "note": {
         "en": "Her second node provides a passive +20% damage increase to Selena’s Mark damage. A decent second node that again, further boosts her Mark playstyle.",
-        "vi": "Tăng 20% sát thương Dấu ấn, tiếp tục củng cố lối chơi này."
+        "vi": "Tăng 20% sát thương Mark, tiếp tục củng cố lối chơi này."
       }
     },
     {
@@ -791,7 +791,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Overall, not a majorly impactful node for Selena due to the majority of their damage coming from Extra/Co-ordinated attacks, really only providing power before she unlocks various Epiphanies for her cards.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Ít tác động vì sát thương chủ yếu đến từ đòn đánh thêm/phối hợp, rõ nhất trước khi có các thức tỉnh cần thiết."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Ít tác động vì sát thương chủ yếu đến từ Extra Attack/phối hợp, rõ nhất trước khi có các Epiphany cần thiết."
       }
     },
     {
@@ -799,7 +799,7 @@
       "score": "—",
       "note": {
         "en": "Her fourth Ego increases the effectiveness of their Ego Skill, adding +50% damage to the amount dealt and also increasing the amount of Mark applied by 1. Not a bad upgrade to have, the extra damage and additional Mark stack can provide useful, but otherwise not majorly required.",
-        "vi": "Kỹ năng Ego thêm 50% sát thương và áp thêm 1 Dấu ấn. Có ích nhưng không thiết yếu."
+        "vi": "Ego Skill thêm 50% sát thương và áp thêm 1 Mark. Có ích nhưng không thiết yếu."
       }
     },
     {
@@ -807,7 +807,7 @@
       "score": "—",
       "note": {
         "en": "This node again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Similar to her 3rd Ego node, as not much of Selena's damage comes directly from her cards, another relatively low-power Ego node is to be unlocked.",
-        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; giá trị thấp tương tự Ego 3 do ít sát thương trực tiếp từ bài."
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài; giá trị thấp tương tự Ego 3 do ít sát thương trực tiếp từ bài."
       }
     },
     {
@@ -815,7 +815,7 @@
       "score": "—",
       "note": {
         "en": "Selena’s final Ego gives Selena a 30% chance to deal 100% extra damage whenever her Mark is triggered. This further boosts Selena’s Mark playstyle.",
-        "vi": "Khi Dấu ấn kích hoạt có 30% cơ hội gây thêm 100% sát thương, tiếp tục tăng sức mạnh lối chơi Dấu ấn."
+        "vi": "Khi Mark kích hoạt có 30% cơ hội gây thêm 100% sát thương, tiếp tục tăng sức mạnh lối chơi Mark."
       }
     }
   ],
@@ -827,7 +827,7 @@
       },
       "role": {
         "en": "Repeated Ravage and coordinated attacks",
-        "vi": "Lặp Suy yếu và tấn công phối hợp"
+        "vi": "Lặp Ravage và tấn công phối hợp"
       },
       "partner": "Sylvia",
       "cards": [
@@ -872,7 +872,7 @@
       ],
       "note": {
         "en": "Tactical Maneuver IV restores enemy Tenacity so the team can Ravage repeatedly. Sereniel recovers and creates Homing Lasers on each Ravage; some Mei Lin builds also benefit. Selena adds up to two extra attacks per attack and can contribute more damage than the nominal carry in an optimized team.",
-        "vi": "Tactical Maneuver IV hồi Sức bền cho địch để đội có thể gây Suy yếu nhiều lần. Sereniel lấy lại và tạo Homing Laser sau mỗi lần gây Suy yếu; một số bản Mei Lin cũng tận dụng tốt. Selena bổ sung tối đa hai đòn đánh thêm cho mỗi đòn tấn công và trong đội tối ưu có thể gây sát thương vượt cả nhân vật được xem là chủ lực."
+        "vi": "Tactical Maneuver IV hồi Tenacity cho địch để đội có thể gây Ravage nhiều lần. Sereniel lấy lại và tạo Homing Laser sau mỗi lần gây Ravage; một số bản Mei Lin cũng tận dụng tốt. Selena bổ sung tối đa hai Extra Attacks cho mỗi đòn Attack và trong đội tối ưu có thể gây sát thương vượt cả nhân vật được xem là chủ lực."
       }
     },
     {
@@ -909,7 +909,7 @@
           "count": 2,
           "effects": {
             "en": "Apply 1 Mark to the target",
-            "vi": "Gây 1 Dấu ấn lên mục tiêu"
+            "vi": "Gây 1 Mark lên mục tiêu"
           }
         }
       ],
@@ -930,7 +930,7 @@
       ],
       "note": {
         "en": "Pair Selena with a carry that can perform Weakness attacks to obtain two extra attacks per carry attack. Her damage can rival or exceed the carry's. Without elemental advantage she loses much of her value relative to Hugo; Passion carries should also consider the 6-Star variant.",
-        "vi": "Ghép Selena với chủ lực có thể đánh trúng điểm yếu để tạo hai đòn đánh thêm cho mỗi đòn của chủ lực. Sát thương của cô có thể ngang hoặc vượt chủ lực. Khi không có lợi thế hệ, hiệu quả giảm mạnh so với Hugo; chủ lực Đam mê nên cân nhắc thêm bản 6 sao."
+        "vi": "Ghép Selena với chủ lực có thể đánh trúng điểm yếu để tạo hai Extra Attacks cho mỗi đòn của chủ lực. Sát thương của cô có thể ngang hoặc vượt chủ lực. Khi không có lợi thế hệ, hiệu quả giảm mạnh so với Hugo; chủ lực Passion nên cân nhắc thêm bản 6 sao."
       }
     },
     {
@@ -940,7 +940,7 @@
       },
       "role": {
         "en": "Passion-specific coordinated attacker",
-        "vi": "Tấn công phối hợp chuyên cho Đam mê"
+        "vi": "Coordinated Attack chuyên cho Passion"
       },
       "partner": "",
       "cards": [
@@ -984,7 +984,7 @@
           "count": 2,
           "effects": {
             "en": "Apply 1 Mark to the target",
-            "vi": "Gây 1 Dấu ấn lên mục tiêu"
+            "vi": "Gây 1 Mark lên mục tiêu"
           }
         },
         {
@@ -1001,7 +1001,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Combine all three coordinate types with the Passion-weakness imprint. Passion carries gain three extra hits per hit, and Mark buffs/interactions can produce up to five added hits per attack. Frequent low-cost attackers such as Diana and Heidemarie exploit this best.",
-        "vi": "Kết hợp cả ba loại tọa độ với dấu ấn điểm yếu Đam mê. Chủ lực Đam mê nhận thêm ba nhịp đánh cho mỗi nhịp đánh; hiệu ứng tăng sức mạnh Dấu ấn và tương tác liên quan có thể nâng lên tối đa năm nhịp đánh bổ sung trên mỗi đòn tấn công. Diana và Heidemarie tận dụng đặc biệt tốt nhờ liên tục dùng đòn giá rẻ."
+        "vi": "Kết hợp cả ba loại tọa độ với Mark điểm yếu Passion. Chủ lực Passion nhận thêm ba nhịp đánh cho mỗi nhịp đánh; hiệu ứng tăng sức mạnh Mark và tương tác liên quan có thể nâng lên tối đa năm nhịp đánh bổ sung trên mỗi đòn Attack. Diana và Heidemarie tận dụng đặc biệt tốt nhờ liên tục dùng đòn giá rẻ."
       }
     }
   ],
@@ -1010,28 +1010,28 @@
       "name": "Sereniel",
       "note": {
         "en": "Additional Ravages enable more Homing Lasers, while coordinated attacks multiply hits after Selena sets them up.",
-        "vi": "Thêm lần Phá vỡ tạo cơ hội dùng thêm Homing Laser; đòn phối hợp tăng số lần đánh sau khi Selena thiết lập."
+        "vi": "Thêm lần Destroy tạo cơ hội dùng thêm Homing Laser; đòn phối hợp tăng số lần đánh sau khi Selena thiết lập."
       }
     },
     {
       "name": "Cassius",
       "note": {
         "en": "Morale buffs and draw fit Selena; Sereniel teams gain extra synergy, but Divine AP or discounts often matter.",
-        "vi": "Hiệu ứng tăng cường Sĩ khí và rút bài hợp Selena; đội Sereniel có thêm tương tác, nhưng thường cần Thần thánh Điểm hành động hoặc giảm chi phí."
+        "vi": "Hiệu ứng tăng cường Morale và Draw hợp Selena; đội Sereniel có thêm tương tác, nhưng thường cần Divine AP hoặc giảm chi phí."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Accessible Morale buffs help both Selena and Sereniel without requiring Divine Epiphanies.",
-        "vi": "Hiệu ứng tăng cường Sĩ khí dễ tiếp cận hỗ trợ cả Selena lẫn Sereniel mà không cần Thức tỉnh thần thánh."
+        "vi": "Hiệu ứng tăng cường Morale dễ tiếp cận hỗ trợ cả Selena lẫn Sereniel mà không cần Divine Epiphany."
       }
     },
     {
       "name": "Heidemarie",
       "note": {
         "en": "Repeated blade attacks trigger Selena's coordinated attacks, and Passion Weakness Imprint improves their synergy.",
-        "vi": "Các đòn kiếm liên tục kích hoạt đòn phối hợp Selena; Khắc Điểm yếu Đam mê tăng hiệu quả phối hợp."
+        "vi": "Các đòn kiếm liên tục kích hoạt đòn phối hợp Selena; Khắc Passion Weakness tăng hiệu quả phối hợp."
       }
     }
   ],
@@ -1048,15 +1048,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Ravager",
-        "vi": "Đội khai thác Suy yếu"
+        "vi": "Đội khai thác Ravage"
       },
       "members": [
         "Sereniel",
@@ -1065,15 +1065,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Ravager (Anika Variant)",
-        "vi": "Đội khai thác Suy yếu — biến thể Anika"
+        "vi": "Đội khai thác Ravage — biến thể Anika"
       },
       "members": [
         "Sereniel",
@@ -1082,8 +1082,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1099,8 +1099,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1116,8 +1116,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

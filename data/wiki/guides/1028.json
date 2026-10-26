@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Turns Shield into offense through Counterattacks and Shelter Strike, while Weaken reduces incoming damage.",
-    "vi": "Biến Lá chắn thành sát thương qua Phản công và Shelter Strike, còn Suy nhược giảm sát thương nhận."
+    "vi": "Biến Shield thành sát thương qua Counterattack và Shelter Strike, còn Weaken giảm sát thương nhận."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1028.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -198,19 +198,19 @@
   "review": {
     "intro": {
       "en": "Turns Shield into offense through Counterattacks and Shelter Strike, while Weaken reduces incoming damage.",
-      "vi": "Biến Lá chắn thành sát thương qua Phản công và Shelter Strike, còn Suy nhược giảm sát thương nhận."
+      "vi": "Biến Shield thành sát thương qua Counterattack và Shelter Strike, còn Weaken giảm sát thương nhận."
     },
     "profile": [],
     "pros": [
       {
         "en": "A flexible defensive slot that can also contribute damage.",
-        "vi": "Lựa chọn phòng thủ linh hoạt vẫn đóng góp được sát thương."
+        "vi": "Lựa chọn DEF linh hoạt vẫn đóng góp được sát thương."
       }
     ],
     "cons": [
       {
         "en": "Shield buildup can be slow under turn limits; counter damage depends on enemy attacks.",
-        "vi": "Tích Lá chắn có thể chậm khi giới hạn lượt; sát thương phản công phụ thuộc đòn đánh của địch."
+        "vi": "Tích Shield có thể chậm khi giới hạn lượt; sát thương phản công phụ thuộc đòn đánh của địch."
       }
     ],
     "mechanics": [
@@ -218,7 +218,7 @@
         "title": "Maribell Shelter MK.II",
         "body": {
           "en": "120% Defense-Based Damage; 100% DMG-Based Shield",
-          "vi": "Gây 120% Sát thương theo Phòng thủ; 100% Lá chắn theo sát thương"
+          "vi": "Gây 120% Defense-Based Damage; 100% DMG-Based Shield"
         },
         "cardId": "c_1028_uni1"
       },
@@ -226,7 +226,7 @@
         "title": "Wolves’ Dome",
         "body": {
           "en": "2 Counterattack; At the start of the turn, 1 Counterattack; 2 Crystallization",
-          "vi": "2 Phản công; Đầu lượt, nhận 1 Phản công; 2 Kết tinh"
+          "vi": "2 Counterattack; Đầu lượt, nhận 1 Counterattack; 2 Crystallization"
         },
         "cardId": "c_1028_uni2"
       },
@@ -234,7 +234,7 @@
         "title": "Oh... I see.",
         "body": {
           "en": "100% Shield; 1 Counterattack; 1 Weaken to all enemies",
-          "vi": "Nhận 100% Lá chắn; 1 Phản công; Gây 1 Suy nhược lên tất cả kẻ địch"
+          "vi": "Nhận 100% Shield; 1 Counterattack; Gây 1 Weaken lên tất cả kẻ địch"
         },
         "cardId": "c_1028_uni3"
       }
@@ -253,11 +253,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV converts held shield into additional damage and complements Shelter Strike. I/II instead support less common Counterattack builds.",
-        "vi": "IV chuyển Lá chắn đang có thành sát thương bổ sung và phối hợp Shelter Strike. I/II dành cho hướng Phản công ít phổ biến hơn."
+        "vi": "IV chuyển Shield đang có thành Extra Damage và phối hợp Shelter Strike. I/II dành cho hướng Counterattack ít phổ biến hơn."
       },
       "divine": {
         "en": "Consider cost reduction, damage increase or Weakness Attack.",
-        "vi": "Cân nhắc giảm chi phí, tăng sát thương hoặc Tấn công điểm yếu."
+        "vi": "Cân nhắc giảm chi phí, tăng sát thương hoặc Weakness Attack."
       }
     },
     {
@@ -272,11 +272,11 @@
       "preferred": "V",
       "note": {
         "en": "V's zero cost supports shield generation efficiently; I's area damage is less valuable once the shield cap is easy to reach.",
-        "vi": "Chi phí 0 của V giúp tạo Lá chắn hiệu quả; sát thương diện rộng của I ít giá trị khi đã dễ đạt trần Lá chắn."
+        "vi": "Cost 0 của V giúp tạo Shield hiệu quả; sát thương diện rộng của I ít giá trị khi đã dễ đạt trần Shield."
       },
       "divine": {
         "en": "Cost reduction helps other variants; V can take 1 AP.",
-        "vi": "Giảm chi phí giúp các biến thể khác; V có thể lấy 1 Điểm hành động."
+        "vi": "Giảm chi phí giúp các biến thể khác; V có thể lấy 1 AP."
       }
     },
     {
@@ -291,11 +291,11 @@
       "preferred": "II",
       "note": {
         "en": "II adds free start-turn shielding for shield-based damage. I offers Initiation while retaining Crystallization.",
-        "vi": "II thêm Lá chắn miễn phí đầu lượt cho sát thương dựa vào Lá chắn. I có Khởi đầu và giữ Kết tinh."
+        "vi": "II thêm Shield miễn phí đầu lượt cho sát thương dựa vào Shield. I có Initiation và giữ Crystallization."
       },
       "divine": {
         "en": "Consider cost reduction or Draw 1 on II; base neutral can preserve passive shielding.",
-        "vi": "Cân nhắc giảm chi phí hoặc Rút 1 cho II; bản trung lập gốc có thể giữ Lá chắn thụ động."
+        "vi": "Cân nhắc giảm chi phí hoặc Rút 1 cho II; bản Neutral gốc có thể giữ Shield thụ động."
       }
     },
     {
@@ -310,11 +310,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV passively deals damage based on shield and suits most Maribell builds. V instead adds shield from Counterattack stacks.",
-        "vi": "IV thụ động gây sát thương theo Lá chắn, phù hợp phần lớn bộ bài Maribell. V thay vào đó thêm Lá chắn theo cộng dồn Phản công."
+        "vi": "IV thụ động gây sát thương theo Shield, phù hợp phần lớn bộ bài Maribell. V thay vào đó thêm Shield theo cộng dồn Counterattack."
       },
       "divine": {
         "en": "Cost reduction is the useful divine; neutral base is low priority.",
-        "vi": "Giảm chi phí là thần thánh hữu ích; bản gốc trung lập ít ưu tiên."
+        "vi": "Giảm chi phí là Divine hữu ích; bản gốc Neutral ít ưu tiên."
       }
     }
   ],
@@ -324,7 +324,7 @@
       "score": "—",
       "note": {
         "en": "Combat defense increases Shields for Shelter Strike, whose damage depends on Shield size rather than ordinary card-damage buffs.",
-        "vi": "Phòng thủ chiến đấu tăng Lá chắn cho Shelter Strike, vốn dựa vào lượng Lá chắn thay vì tăng sát thương lá bài thông thường."
+        "vi": "DEF chiến đấu tăng Shield cho Shelter Strike, vốn dựa vào lượng Shield thay vì tăng sát thương lá bài thông thường."
       }
     },
     {
@@ -332,7 +332,7 @@
       "score": "—",
       "note": {
         "en": "Multiplicative Shield gain and Shield retention preserve Shelter Strike damage across turns, with extra value for counter builds.",
-        "vi": "Tăng lượng Lá chắn theo phép nhân và giữ Lá chắn duy trì sát thương Shelter Strike qua lượt, thêm giá trị cho hướng phản công."
+        "vi": "Tăng lượng Shield theo phép nhân và giữ Shield duy trì sát thương Shelter Strike qua lượt, thêm giá trị cho hướng phản công."
       }
     },
     {
@@ -348,7 +348,7 @@
       "score": "—",
       "note": {
         "en": "Consider Eishlen when Shield retention and potentially stronger shielding matter more than Wilhelmina's simpler stats.",
-        "vi": "Cân nhắc Eishlen khi giữ Lá chắn và tiềm năng tạo Lá chắn mạnh quan trọng hơn chỉ số đơn giản của Wilhelmina."
+        "vi": "Cân nhắc Eishlen khi giữ Shield và Potential tạo Shield mạnh quan trọng hơn chỉ số đơn giản của Wilhelmina."
       }
     }
   ],
@@ -358,7 +358,7 @@
       "score": "—",
       "note": {
         "en": "This suits Shelter Strike's reliance on critical stats and Shield size better than ordinary damage sets.",
-        "vi": "Bộ này hợp việc Shelter Strike dựa vào chỉ số Chí mạng và lượng Lá chắn hơn các bộ sát thương thông thường."
+        "vi": "Bộ này hợp việc Shelter Strike dựa vào chỉ số Chí mạng và lượng Shield hơn các bộ sát thương thông thường."
       }
     },
     {
@@ -374,11 +374,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -388,65 +388,65 @@
       },
       "value": {
         "en": "Passion DMG%",
-        "vi": "Sát thương Đam mê%"
+        "vi": "Sát thương Passion%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "DEF% = HP%",
-        "vi": "Phòng thủ% = Máu%"
+        "vi": "DEF% = HP%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% > CRIT DMG% > DEF = HP > DEF% = HP%",
-        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Phòng thủ = Máu > Phòng thủ% = Máu%"
+        "vi": "Critical Chance% > CRIT DMG% > DEF = HP > DEF% = HP%"
       }
     }
   ],
   "critNote": {
-    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
-    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+    "en": "Priority symbols compare stats rather than prescribing a universal target value.",
+    "vi": "Các dấu so sánh thể hiện thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
   },
   "potentialIntro": {
     "en": "Maribell’s first Signature Potential is a priority early pickup, as it adds more Counterattackto her kit, increasing her utility and offense on the team. You can invest in her other signatures if you want more shields or damage and can meet the stat requirements to get their full benefit.3-1:Adds Counterattackto her basic shield cards: Shelter Defense and Shelter Hold. This is a great upgrade to her kit, allowing her to expand on her offensive capability while still maintaining the shield you’re bringing her to the party for.5-1: Continues to improve her basic shield cards by adding an extra 5% shield to them. Additionally, if Maribell’s HP is greater than 600, an additional 5% is added, for 10% total. More shield is always nice, but this doesn’t feel as impactful as her 3-1.7: Similar to 5-1, but adds 5% to her Defense-based Attack Damage for cards such as Shelter Kick. If her HP is greater than 800, it adds an additional 5% for 10% total. In most cases, if Maribell is on your team, it’s for shield. Some strategies for Maribell lean into Defense-based attacking as shield generation, which can make them easier to execute.",
-    "vi": "Ưu tiên mở 3-1 sớm vì thêm Phản công cho Shelter Defense và Shelter Hold, vừa giữ khả năng che chắn vừa tăng tấn công; 5-1 tăng hai lá này 5% lá chắn, thêm 5% khi máu >600, tổng 10%. Tiềm năng 7 tăng 5% sát thương bài đánh theo phòng thủ như Shelter Kick, thêm 5% khi máu >800, tổng 10%; đầu tư hai nút sau khi cần thêm lá chắn/sát thương và đạt được ngưỡng, nhất là cách chơi biến tấn công thành lá chắn."
+    "vi": "Ưu tiên mở 3-1 sớm vì thêm Counterattack cho Shelter Defense và Shelter Hold, vừa giữ khả năng che chắn vừa tăng Attack; 5-1 tăng hai lá này 5% Shield, thêm 5% khi HP >600, tổng 10%. Potential 7 tăng 5% sát thương bài đánh theo DEF như Shelter Kick, thêm 5% khi HP >800, tổng 10%; đầu tư hai nút sau khi cần thêm Shield/sát thương và đạt được ngưỡng, nhất là cách chơi biến Attack thành Shield."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add the following effect to the Shelter Defense and Shelter Hold cards: 1 Counterattack",
-        "vi": "Thêm hiệu ứng sau vào các lá Shelter Defense và Shelter Hold: 1 Phản công"
+        "vi": "Thêm hiệu ứng sau vào các lá Shelter Defense và Shelter Hold: 1 Counterattack"
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Shield Amount to Maribell's Shelter Defense and Shelter Hold; If Maribell's Health is 600 or higher, add an additional +5% to the modifier",
-        "vi": "+5% lượng Lá chắn cho Shelter Defense và Shelter Hold của Maribell; Nếu Máu của Maribell từ 600 trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% lượng Shield cho Shelter Defense và Shelter Hold của Maribell; Nếu HP của Maribell từ 600 trở lên, cộng thêm +5% vào hệ số"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+5% Damage Amount to Basic Cards and Signature Cards; If Maribell’s Health is 800 or higher, add an additional +5% to the modifier",
-        "vi": "+5% sát thương cho Bài cơ bản và Bài đặc trưng; Nếu Máu của Maribell từ 800 trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% sát thương cho Basic Cards và Signature Cards; Nếu HP của Maribell từ 800 trở lên, cộng thêm +5% vào hệ số"
       }
     }
   ],
@@ -454,7 +454,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Dagger That Tricked the Shadow"
@@ -469,7 +469,7 @@
       ],
       "note": {
         "en": "Maribell's Main Method of increasing damage is just increasing crit/cdmg, so the recommended equipment options is much more limited than most units.",
-        "vi": "Maribell chủ yếu tăng sát thương bằng tỷ lệ và sát thương chí mạng, nên lựa chọn trang bị phù hợp hạn chế hơn nhiều nhân vật khác."
+        "vi": "Maribell chủ yếu tăng sát thương bằng tỷ lệ và CRIT DMG, nên lựa chọn trang bị phù hợp hạn chế hơn nhiều nhân vật khác."
       }
     },
     {
@@ -484,7 +484,7 @@
       "trinkets": [],
       "note": {
         "en": "Maribell's Main Method of increasing damage is just increasing crit/cdmg, so the recommended equipment options is much more limited than most units.",
-        "vi": "Maribell chủ yếu tăng sát thương bằng tỷ lệ và sát thương chí mạng, nên lựa chọn trang bị phù hợp hạn chế hơn nhiều nhân vật khác."
+        "vi": "Maribell chủ yếu tăng sát thương bằng tỷ lệ và CRIT DMG, nên lựa chọn trang bị phù hợp hạn chế hơn nhiều nhân vật khác."
       }
     }
   ],
@@ -492,41 +492,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3",
-        "vi": "Mùa 3"
+        "vi": "Season 3"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Attack Card đánh mục tiêu Vulnerable được thêm 15% Critical Chance. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -544,7 +544,7 @@
       "score": "—",
       "note": {
         "en": "Maribell’s first Ego point, when unlocked, increases the amount of damage her “Shelter Strike” does from 100% of owned shield to 150%. A pretty good overall first ego point that gives her a solid damage boost.",
-        "vi": "Shelter Strike tăng sát thương từ 100% lên 150% lượng lá chắn đang có, là nâng cấp sát thương tốt."
+        "vi": "Shelter Strike tăng sát thương từ 100% lên 150% lượng Shield đang có, là nâng cấp sát thương tốt."
       }
     },
     {
@@ -552,7 +552,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego node passively boosts the amount of shield Maribell gains by 10%. A really good second point that further boosts her survivability alongside damage output, thanks to her “Shelter Strike” card.",
-        "vi": "Tăng 10% lượng lá chắn nhận được, vừa tăng sinh tồn vừa tăng sát thương Shelter Strike."
+        "vi": "Tăng 10% lượng Shield nhận được, vừa tăng sinh tồn vừa tăng sát thương Shelter Strike."
       }
     },
     {
@@ -560,7 +560,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. As usual, provides solid increases to her damage and shielding capabilities.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, cải thiện cả sát thương lẫn lá chắn."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài, cải thiện cả sát thương lẫn Shield."
       }
     },
     {
@@ -568,7 +568,7 @@
       "score": "—",
       "note": {
         "en": "Maribell’s fourth Ego node increases the amount of shield granted by her Ego skill by +100%. Nothing major, but it can help even further when in a pinch.",
-        "vi": "Kỹ năng Ego tăng thêm 100% lá chắn, hữu ích khi cần cứu nguy nhưng không thay đổi lớn lối chơi."
+        "vi": "Ego Skill tăng thêm 100% Shield, hữu ích khi cần cứu nguy nhưng không thay đổi lớn lối chơi."
       }
     },
     {
@@ -576,7 +576,7 @@
       "score": "—",
       "note": {
         "en": "This node again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3.",
-        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp bài cơ bản, đặc trưng và chung."
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các Potential Basic Card Upgrade, đặc trưng và chung."
       }
     },
     {
@@ -584,7 +584,7 @@
       "score": "—",
       "note": {
         "en": "Maribell’s final Ego node is extremely strong, granting her first Counterattack each turn, an extra damage equal to 20% of her current shield. This node enables Maribell to fit into a DPS role when combined with other Vanguards to stack your shield to the moon.",
-        "vi": "Phản công đầu tiên mỗi lượt gây thêm sát thương bằng 20% lá chắn hiện tại. Rất mạnh và mở hướng gây sát thương chính khi đi cùng các nhân vật Tiên phong tích nhiều lá chắn."
+        "vi": "Counterattack đầu tiên mỗi lượt gây thêm sát thương bằng 20% Shield hiện tại. Rất mạnh và mở hướng gây sát thương chính khi đi cùng các nhân vật Knight tích nhiều Shield."
       }
     }
   ],
@@ -592,11 +592,11 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Shield-based damage carry",
-        "vi": "Chủ lực gây sát thương theo lá chắn"
+        "vi": "Chủ lực gây sát thương theo Shield"
       },
       "partner": "Eishlen",
       "cards": [
@@ -609,7 +609,7 @@
           "count": 1,
           "effects": {
             "en": "1 Morale, 1 Resolve",
-            "vi": "Nhận 1 Sĩ khí và 1 Quyết tâm"
+            "vi": "Nhận 1 Morale và 1 Resolve"
           }
         },
         {
@@ -621,7 +621,7 @@
           "count": 1,
           "effects": {
             "en": "1 Morale, 1 Resolve",
-            "vi": "Nhận 1 Sĩ khí và 1 Quyết tâm"
+            "vi": "Nhận 1 Morale và 1 Resolve"
           }
         }
       ],
@@ -639,7 +639,7 @@
       ],
       "note": {
         "en": "Stack as much shielding as possible before Shelter Strike. Its damage scales only with shield amount, critical stats, and Passion damage, but bypasses damage reduction, including the common 65% Distortion-boss reduction. An Owen one-turn-kill variant works because Shelter Strike also ignores the penalty attached to his added hit.",
-        "vi": "Tạo càng nhiều lá chắn càng tốt trước khi dùng Shelter Strike. Sát thương chỉ tăng theo lượng lá chắn, chỉ số chí mạng và sát thương Đam mê, nhưng bỏ qua giảm sát thương, kể cả mức 65% thường gặp ở trùm Biến dạng. Có thể ghép Owen để kết liễu trong một lượt vì Shelter Strike cũng bỏ qua phần giảm sát thương đi kèm hiệu ứng thêm nhịp đánh của Owen."
+        "vi": "Tạo càng nhiều Shield càng tốt trước khi dùng Shelter Strike. Sát thương chỉ tăng theo lượng Shield, chỉ số chí mạng và sát thương Passion, nhưng bỏ qua Damage Reduction, kể cả mức 65% thường gặp ở trùm Biến dạng. Có thể ghép Owen để kết liễu trong một lượt vì Shelter Strike cũng bỏ qua phần Damage Reduction đi kèm hiệu ứng thêm nhịp đánh của Owen."
       }
     }
   ],
@@ -648,28 +648,28 @@
       "name": "Khalipe",
       "note": {
         "en": "Large Shields from selected epiphanies directly increase Maribell's Shield-based damage.",
-        "vi": "Lá chắn lớn từ các Thức tỉnh phù hợp trực tiếp tăng sát thương theo Lá chắn của Maribell."
+        "vi": "Shield lớn từ các Epiphany phù hợp trực tiếp tăng sát thương theo Shield của Maribell."
       }
     },
     {
       "name": "Narja",
       "note": {
         "en": "Discounts ease expensive Vanguard teams, but can disrupt Khalipe's Celestial play and do not directly buff Shelter Strike.",
-        "vi": "Giảm Chi phí giúp đội Tiên phong đắt đỏ, nhưng có thể cản lối Thiên thể của Khalipe và không trực tiếp tăng Shelter Strike."
+        "vi": "Giảm Cost giúp đội Vanguard đắt đỏ, nhưng có thể cản lối Celestial của Khalipe và không trực tiếp tăng Shelter Strike."
       }
     },
     {
       "name": "Mika",
       "note": {
         "en": "AP generation funds expensive Shield teams, particularly Khalipe builds using Vulture Ejection.",
-        "vi": "Tạo Điểm hành động chi trả đội Lá chắn đắt, nhất là hướng Khalipe dùng Vulture Ejection."
+        "vi": "Tạo AP chi trả đội Shield đắt, nhất là hướng Khalipe dùng Vulture Ejection."
       }
     },
     {
       "name": "Veronica",
       "note": {
         "en": "Draw solves hand access, but the team may lack enough AP without significant Divine investment.",
-        "vi": "Rút bài giải quyết việc tiếp cận lá cần dùng, nhưng đội có thể thiếu Điểm hành động nếu không đầu tư nhiều Thức tỉnh thần thánh."
+        "vi": "Draw giải quyết việc tiếp cận lá cần dùng, nhưng đội có thể thiếu AP nếu không đầu tư nhiều Divine Epiphany."
       }
     }
   ],
@@ -677,7 +677,7 @@
     {
       "name": {
         "en": "Shelter Striker",
-        "vi": "Maribell gây sát thương theo lá chắn"
+        "vi": "Maribell gây sát thương theo Shield"
       },
       "members": [
         "Maribell",
@@ -686,8 +686,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

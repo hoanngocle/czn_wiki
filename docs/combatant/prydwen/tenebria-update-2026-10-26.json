@@ -1,0 +1,522 @@
+{
+  "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+  "verifiedAt": "2026-10-26",
+  "sourceUpdated": "2026-10-25",
+  "method": "Live Prydwen page including all four expanded team panels; deck codes copied from each Tenebria button.",
+  "profile": [
+    {
+      "label": {
+        "en": "ST Damage",
+        "vi": "Sát thương đơn mục tiêu"
+      },
+      "score": 5
+    },
+    {
+      "label": {
+        "en": "AoE Damage",
+        "vi": "Sát thương diện rộng"
+      },
+      "score": 2
+    },
+    {
+      "label": {
+        "en": "AP Efficiency",
+        "vi": "Hiệu quả AP"
+      },
+      "score": 3
+    },
+    {
+      "label": {
+        "en": "Draw Efficiency",
+        "vi": "Hiệu quả Draw"
+      },
+      "score": 2
+    }
+  ],
+  "decks": [
+    {
+      "name": {
+        "en": "Move to the Rhythm!",
+        "vi": "Hòa nhịp Rhythm"
+      },
+      "role": {
+        "en": "Replayed basic-attack carry",
+        "vi": "Chủ lực liên tục kích hoạt lại bài tấn công cơ bản"
+      },
+      "partner": "Aria",
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "costDelta": -1
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Use the discounted Spotlight III to activate Rhythm cards, with Rei supplying Basic Attack buffs. Arpeggio combos require replacing Music, Start! with Music, Start! V; the team decks below include that variant.",
+        "vi": "Dùng Spotlight III đã giảm chi phí để kích hoạt Rhythm, kết hợp hiệu ứng tăng sức mạnh cho bài tấn công cơ bản từ Rei. Muốn chơi combo Arpeggio, cần đổi Music, Start! sang bản V. Các bộ bài đội hình bên dưới đã dùng biến thể này."
+      }
+    },
+    {
+      "name": {
+        "en": "Ballad of Vulnerability",
+        "vi": "Khúc nhạc Vulnerable"
+      },
+      "role": {
+        "en": "High-resource finisher carry",
+        "vi": "Chủ lực dồn sát thương, cần nhiều AP và khả năng Draw"
+      },
+      "partner": "Aria",
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": [],
+      "note": {
+        "en": "Spotlight III applies Vulnerable; Call & Response I supports draw and Encore III discounts the next three Rhythm activations while adding a hit. Pair with Nia for AP and draw. TeneBRICK is the Arpeggio variant of this setup.",
+        "vi": "Spotlight III gây Vulnerable; Call & Response I hỗ trợ Draw. Encore III giảm chi phí và thêm một lần đánh cho ba lần kích hoạt Rhythm tiếp theo. Ghép Nia để có thêm AP và Draw. Nếu muốn dùng Arpeggio, chọn cấu hình TeneBRICK bên dưới."
+      }
+    },
+    {
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Encore! Encore!"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z7yZIljEl3hgC3IOEtIF_jbJlc-czlVR0YpynIrZNOPeWmVp7odVce7mnVzySKUgXxmdorUhM7onnUoJW_ZAiTpcBuALHSMp1jFwR5WVTFi",
+      "note": {
+        "en": "Rei buffs → Nia resources → Arpeggio → Encore I. Keep the 5-cost Arpeggio as the last activated card before each replay.",
+        "vi": "Dùng hiệu ứng tăng sức mạnh của Rei, rồi dùng Nia để Draw và tạo AP. Sau đó kích hoạt Arpeggio và dùng Encore I để đánh lại. Trước mỗi Encore I, bảo đảm lá vừa kích hoạt là Arpeggio có chi phí gốc 5 AP."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "TeneBRICK"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z6SZ4lLWnwFZ0tP2kpIE-u6syeZtQ7d5FxNiPopgN5PSHPwpxwMQr4okd7im4wsKsMgdCGke9VKiMKr",
+      "note": {
+        "en": "Four Spotlight III copies apply Vulnerable. Music, Start! V creates Arpeggios; Nia supplies draw and AP.",
+        "vi": "Dùng bốn bản Spotlight III có hiệu ứng gây Vulnerable để liên tục kích hoạt Rhythm. Music, Start! V tạo bộ Arpeggio; Nia cung cấp AP và giúp Draw thêm bài."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Common-Core Rhythm"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T1",
+        "vi": "Tenebria / Rei / Nia · T1"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+      "note": {
+        "en": "Common Card divines on both Encore variants improve draw consistency at the expense of damage.",
+        "vi": "Gắn Divine Epiphany chuyển thành Common Card kèm Draw 1 Common Card lên cả Encore I và Encore III. Cách này giúp Draw ổn định hơn, đổi lại giảm sát thương tối đa."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "Common-Core Magna-tude",
+        "vi": "Common-Core Magna-tude"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Magna · T1.5",
+        "vi": "Tenebria / Rei / Magna · T1.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+      "note": {
+        "en": "The Tenebria deck matches Common-Core Rhythm. Trigger Magna's Vulnerable before the damage sequence.",
+        "vi": "Dùng cùng bộ bài Tenebria như Common-Core Rhythm, nhưng thay Nia bằng Magna. Kích hoạt Vulnerable của Magna trước khi bắt đầu chuỗi gây sát thương."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    }
+  ],
+  "teams": [
+    {
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Encore! Encore!"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Apply Rei buffs.",
+          "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+        },
+        {
+          "en": "Use Nia for draw and AP.",
+          "vi": "Dùng Nia để Draw và tạo AP."
+        },
+        {
+          "en": "Activate the 5-cost Rhythm: Arpeggio immediately before Encore I.",
+          "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I để kích hoạt lại lá đó."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "TeneBRICK"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Apply Rei buffs.",
+          "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+        },
+        {
+          "en": "Use Nia for draw and AP.",
+          "vi": "Dùng Nia để Draw và tạo AP."
+        },
+        {
+          "en": "Use Spotlight III to activate Rhythm cards.",
+          "vi": "Dùng Spotlight III kích hoạt các lá Rhythm."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Common-Core Rhythm"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Nia"
+      ],
+      "steps": [
+        {
+          "en": "Chain Common Card draws to find Rei buffs and Encore.",
+          "vi": "Liên tục Draw Common Card để tìm các lá tăng sức mạnh của Rei và các lá Encore."
+        },
+        {
+          "en": "Activate the 5-cost Rhythm: Arpeggio, then Encore I.",
+          "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Common-Core Magna-tude",
+        "vi": "Common-Core Magna-tude"
+      },
+      "members": [
+        "Tenebria",
+        "Rei",
+        "Magna"
+      ],
+      "steps": [
+        {
+          "en": "Play upgrades and Rei buffs.",
+          "vi": "Dùng các lá Upgrade và hiệu ứng tăng sức mạnh của Rei."
+        },
+        {
+          "en": "Take one hit to trigger Magna's Vulnerable.",
+          "vi": "Nhận một đòn đánh để kích hoạt Vulnerable của Magna."
+        },
+        {
+          "en": "Start Tenebria's Rhythm combo.",
+          "vi": "Triển khai combo Rhythm của Tenebria."
+        }
+      ]
+    }
+  ],
+  "seasonal": {
+    "name": {
+      "en": "Season 5",
+      "vi": "Season 5"
+    },
+    "note": {
+      "en": "Prioritize Memory: Lady; choose self ATK% or damage buffs for Tenebria. Memory cards are 0-cost Opener upgrades.",
+      "vi": "Ưu tiên Memory: Lady với hiệu ứng tăng ATK% hoặc sát thương cho chính Tenebria. Memory Card là bài Upgrade tốn 0 AP và có Opener, nên tự kích hoạt đầu trận."
+    }
+  },
+  "egoPerformance": [
+    "—",
+    "100.00%",
+    "100.97%",
+    "104.20%",
+    "108.55%",
+    "113.75%",
+    "157.04%"
+  ],
+  "potential7": {
+    "en": "Prydwen: 600 ATK grants 5% Passion damage, then +2% per 20 ATK, up to 15% at 700 ATK. The saved E7BOT kit still lists +1%; verify against the in-game tooltip.",
+    "vi": "Prydwen: 600 ATK cho 5% sát thương Passion, thêm 2% mỗi 20 ATK, đạt 15% ở 700 ATK. Kit E7BOT đã lưu vẫn ghi +1%; cần đối chiếu tooltip trong game."
+  },
+  "discrepancies": [
+    {
+      "en": "Source discrepancy: the displayed list uses base Music, Start!, while its strategy requires Arpeggio from Music, Start! V. For a complete Arpeggio setup, use one of the team decks below.",
+      "vi": "Nguồn chưa thống nhất: danh sách dùng Music, Start! bản gốc, nhưng combo mô tả cần Arpeggio từ Music, Start! V. Dùng một trong các deck đội hình bên dưới để có cấu hình Arpeggio đầy đủ."
+    },
+    {
+      "en": "Source discrepancy: the displayed list uses Encore III, while the prose mentions Encore IV. This list follows the displayed cards. TeneBRICK below supplies an explicit Arpeggio setup.",
+      "vi": "Nguồn chưa thống nhất: danh sách dùng Encore III nhưng mô tả nhắc Encore IV. Danh sách này giữ theo các lá được hiển thị. TeneBRICK bên dưới có cấu hình Arpeggio cụ thể."
+    },
+    {
+      "en": "Prydwen: 600 ATK grants 5% Passion damage, then +2% per 20 ATK, up to 15% at 700 ATK. The saved E7BOT kit still lists +1%; verify against the in-game tooltip.",
+      "vi": "Prydwen: 600 ATK cho 5% sát thương Passion, thêm 2% mỗi 20 ATK, đạt 15% ở 700 ATK. Kit E7BOT đã lưu vẫn ghi +1%; cần đối chiếu tooltip trong game."
+    }
+  ]
+}

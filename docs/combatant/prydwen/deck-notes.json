@@ -1375,30 +1375,90 @@
       "sourceName": "Move to the Rhythm!",
       "name": {
         "en": "Move to the Rhythm!",
-        "vi": "Chuỗi Rhythm: Arpeggio theo nhịp"
+        "vi": "Hòa nhịp Rhythm"
       },
       "role": {
         "en": "Replayed basic-attack carry",
-        "vi": "Chủ lực lặp đòn đánh cơ bản"
+        "vi": "Chủ lực liên tục kích hoạt lại bài tấn công cơ bản"
       },
       "note": {
-        "en": "Use Spotlight for the two cheapest Rhythm: Arpeggio, then Rei's Strike of Darkness V to activate the newly drawn expensive Rhythm: Arpeggio for free. Follow with Rhythm: Arpeggio to replay the two with the highest original cost. Cost reduction stabilizes the loop; Rei's basic-attack buffs and free activation are strongly recommended.",
-        "vi": "Dùng Spotlight kích hoạt hai Rhythm: Arpeggio rẻ nhất, rồi dùng Strike of Darkness V của Rei để kích hoạt miễn phí các Rhythm: Arpeggio đắt vừa rút. Sau đó dùng Rhythm: Arpeggio để lặp hai lá có chi phí gốc cao nhất. Giảm chi phí giúp vòng đánh ổn định; rất nên ghép Rei theo bản tăng sức mạnh cho đòn đánh cơ bản để vừa dùng bài miễn phí vừa tăng sát thương mạnh."
+        "en": "Use the discounted Spotlight III to activate Rhythm cards, with Rei supplying Basic Attack buffs. Arpeggio combos require replacing Music, Start! with Music, Start! V; the team decks below include that variant.",
+        "vi": "Dùng Spotlight III đã giảm chi phí để kích hoạt Rhythm, kết hợp hiệu ứng tăng sức mạnh cho bài tấn công cơ bản từ Rei. Muốn chơi combo Arpeggio, cần đổi Music, Start! sang bản V. Các bộ bài đội hình bên dưới đã dùng biến thể này."
       }
     },
     {
       "sourceName": "Ballad of Vulnerability",
       "name": {
         "en": "Ballad of Vulnerability",
-        "vi": "Khúc nhạc Dễ tổn thương"
+        "vi": "Khúc nhạc Vulnerable"
       },
       "role": {
         "en": "High-resource finisher carry",
-        "vi": "Chủ lực kết liễu cần nhiều tài nguyên"
+        "vi": "Chủ lực dồn sát thương, cần nhiều AP và khả năng Draw"
       },
       "note": {
-        "en": "Use Call & Response for draw and hold Encore IV as the finisher. The rotation needs both AP and draw, making Nia's Forbidden: Eternal Hunger builds a strong fit. Adagio plus G Chord can also activate expensive cards more cheaply.",
-        "vi": "Dùng Call & Response hỗ trợ rút bài và để Encore IV làm đòn kết liễu. Vòng đánh cần nhiều Điểm hành động lẫn rút bài, nên rất hợp Nia theo các bản Forbidden: Eternal Hunger để lặp một hoặc hai bản lá này. Adagio kết hợp G Chord cũng giúp kích hoạt các lá đắt với chi phí thấp hơn."
+        "en": "Spotlight III applies Vulnerable; Call & Response I supports draw and Encore III discounts the next three Rhythm activations while adding a hit. Pair with Nia for AP and draw. TeneBRICK is the Arpeggio variant of this setup.",
+        "vi": "Spotlight III gây Vulnerable; Call & Response I hỗ trợ Draw. Encore III giảm chi phí và thêm một lần đánh cho ba lần kích hoạt Rhythm tiếp theo. Ghép Nia để có thêm AP và Draw. Nếu muốn dùng Arpeggio, chọn cấu hình TeneBRICK bên dưới."
+      }
+    },
+    {
+      "sourceName": "Encore! Encore!",
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Encore! Encore!"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "note": {
+        "en": "Rei buffs → Nia resources → Arpeggio → Encore I. Keep the 5-cost Arpeggio as the last activated card before each replay.",
+        "vi": "Dùng hiệu ứng tăng sức mạnh của Rei, rồi dùng Nia để Draw và tạo AP. Sau đó kích hoạt Arpeggio và dùng Encore I để đánh lại. Trước mỗi Encore I, bảo đảm lá vừa kích hoạt là Arpeggio có chi phí gốc 5 AP."
+      }
+    },
+    {
+      "sourceName": "TeneBRICK",
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "TeneBRICK"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "note": {
+        "en": "Four Spotlight III copies apply Vulnerable. Music, Start! V creates Arpeggios; Nia supplies draw and AP.",
+        "vi": "Dùng bốn bản Spotlight III có hiệu ứng gây Vulnerable để liên tục kích hoạt Rhythm. Music, Start! V tạo bộ Arpeggio; Nia cung cấp AP và giúp Draw thêm bài."
+      }
+    },
+    {
+      "sourceName": "Common-Core Rhythm",
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Common-Core Rhythm"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T1",
+        "vi": "Tenebria / Rei / Nia · T1"
+      },
+      "note": {
+        "en": "Common Card divines on both Encore variants improve draw consistency at the expense of damage.",
+        "vi": "Gắn Divine Epiphany chuyển thành Common Card kèm Draw 1 Common Card lên cả Encore I và Encore III. Cách này giúp Draw ổn định hơn, đổi lại giảm sát thương tối đa."
+      }
+    },
+    {
+      "sourceName": "Common-Core Magna-tude",
+      "name": {
+        "en": "Common-Core Magna-tude",
+        "vi": "Common-Core Magna-tude"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Magna · T1.5",
+        "vi": "Tenebria / Rei / Magna · T1.5"
+      },
+      "note": {
+        "en": "The Tenebria deck matches Common-Core Rhythm. Trigger Magna's Vulnerable before the damage sequence.",
+        "vi": "Dùng cùng bộ bài Tenebria như Common-Core Rhythm, nhưng thay Nia bằng Magna. Kích hoạt Vulnerable của Magna trước khi bắt đầu chuỗi gây sát thương."
       }
     }
   ],

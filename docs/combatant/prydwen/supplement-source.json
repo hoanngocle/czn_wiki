@@ -6686,6 +6686,10 @@
     ],
     "seasonal": [
       {
+        "name": "Season 5",
+        "text": "Prioritize Memory: Lady; choose self ATK% or damage buffs for Tenebria. Memory cards are 0-cost Opener upgrades."
+      },
+      {
         "name": "Season 4",
         "text": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry."
       },
@@ -6705,31 +6709,38 @@
     "dupes": [
       {
         "name": "Base",
-        "text": "Base performance of the character."
+        "text": "Base performance of the character.",
+        "performance": "—"
       },
       {
         "name": "Ego 1",
-        "text": "Tenebria’s first Ego to be unlocked increases the damage dealt by her “Performance Buzz” at the end of the turn to 150%. A fairly minor upgrade that doesn’t provide any extra utility, just some extra damage output. As the majority of Tenebria’s damage comes from her Rhythm cards themselves, this doesn’t do much for her. Note: In our calculations, we aren’t using Photo Time in order to boost deck consistency. Because of this, the listed gain for this Ego Point is 0%; however, if you are using it, it will be a very small increase."
+        "text": "Tenebria’s first Ego to be unlocked increases the damage dealt by her “Performance Buzz” at the end of the turn to 150%. A fairly minor upgrade that doesn’t provide any extra utility, just some extra damage output. As the majority of Tenebria’s damage comes from her Rhythm cards themselves, this doesn’t do much for her. Note: In our calculations, we aren’t using Photo Time in order to boost deck consistency. Because of this, the listed gain for this Ego Point is 0%; however, if you are using it, it will be a very small increase.",
+        "performance": "100.00%"
       },
       {
         "name": "Ego 2",
-        "text": "Tenebria’s next Ego creates a “Photo Card” card at the start of battle. “Photo Card” is a 0-Cost Skill Card that has the [Exhaust] and [Retain] tags and grants 2 Ego Points when used. Additionally, whenever an Ego Skill is used by any combatant, Tenebria will deal 200% damage to random enemies for each Ego Point that the Ego Skill required to be used. (Eg, Tenebria’s “Everyone’s Idol” costs 7 EP to use; Tenebria will deal 200% Damage to random enemies 7 times.) The main benefit of this Ego is the EP it gains, as the total damage contribution the hits deal aren’t too impactful in optimized Tenebra decks."
+        "text": "Tenebria’s next Ego creates a “Photo Card” card at the start of battle. “Photo Card” is a 0-Cost Skill Card that has the [Exhaust] and [Retain] tags and grants 2 Ego Points when used. Additionally, whenever an Ego Skill is used by any combatant, Tenebria will deal 200% damage to random enemies for each Ego Point that the Ego Skill required to be used. (Eg, Tenebria’s “Everyone’s Idol” costs 7 EP to use; Tenebria will deal 200% Damage to random enemies 7 times.) The main benefit of this Ego is the EP it gains, as the total damage contribution the hits deal aren’t too impactful in optimized Tenebra decks.",
+        "performance": "100.97%"
       },
       {
         "name": "Ego 3",
-        "text": "Tenebria’s third Ego increases the damage buff granted from her Ego Skill “Everyone’s Idol” from 7% per Rhythm card used to 11% per Rhythm card used. A solid overall increase to her potential damage output, as this will now provide a permanent 77% multiplicative damage buff to Rhythm cards played"
+        "text": "Tenebria’s third Ego increases the damage buff granted from her Ego Skill “Everyone’s Idol” from 7% per Rhythm card used to 11% per Rhythm card used. A solid overall increase to her potential damage output, as this will now provide a permanent 77% multiplicative damage buff to Rhythm cards played",
+        "performance": "104.20%"
       },
       {
         "name": "Ego 4",
-        "text": "Tenebria’s fourth Ego grants the buff “Everyone’s Cheer” whenever a Rhythm card is activated or moved to the hand. For each stack held, up to a maximum of 20 - increases Tenebria’s damage by 1%. When 20 Stacks of “Everyone’s Cheer” are obtained, it increases the damage dealt by “Rhythm” cards by 10%. Enhances Tenebria’s damage output slightly but nothing ultimately game-changing or worth investing for."
+        "text": "Tenebria’s fourth Ego grants the buff “Everyone’s Cheer” whenever a Rhythm card is activated or moved to the hand. For each stack held, up to a maximum of 20 - increases Tenebria’s damage by 1%. When 20 Stacks of “Everyone’s Cheer” are obtained, it increases the damage dealt by “Rhythm” cards by 10%. Enhances Tenebria’s damage output slightly but nothing ultimately game-changing or worth investing for.",
+        "performance": "108.55%"
       },
       {
         "name": "Ego 5",
-        "text": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Tenebria’s damage output"
+        "text": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Tenebria’s damage output",
+        "performance": "113.75%"
       },
       {
         "name": "Ego 6",
-        "text": "Tenebria’s final Ego to be unlocked grants an additional effect when “Photo Card” is played. When “Photo Card” is played, it decreases the cost of Tenebria’s next Ego Skill by 3 EP. When a Rhythm card is activated, Tenebria inflicts the {All Eyes on You} debuff to the target. {All Eyes on You} increases the damage taken by “Rhythm” cards on that target by 40% FINAL Damage (Same mult type as Vulnerable & Spore). If a Rhythm card is activated outside of manual use, an enemy that is inflicted with {All Eyes on You} will become the target of that card. Only 1 enemy can hold the {All Eyes on You} debuff at any given time."
+        "text": "Tenebria’s final Ego to be unlocked grants an additional effect when “Photo Card” is played. When “Photo Card” is played, it decreases the cost of Tenebria’s next Ego Skill by 3 EP. When a Rhythm card is activated, Tenebria inflicts the {All Eyes on You} debuff to the target. {All Eyes on You} increases the damage taken by “Rhythm” cards on that target by 40% FINAL Damage (Same mult type as Vulnerable & Spore). If a Rhythm card is activated outside of manual use, an enemy that is inflicted with {All Eyes on You} will become the target of that card. Only 1 enemy can hold the {All Eyes on You} debuff at any given time.",
+        "performance": "157.04%"
       }
     ],
     "cards": [

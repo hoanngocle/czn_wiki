@@ -7,22 +7,23 @@
   ],
   "subtitle": {
     "en": "Transforms Basic Attacks into Rhythm cards, then recycles them through Spotlight and Encore.",
-    "vi": "Biến bài Tấn công Cơ bản thành Rhythm, rồi tái sử dụng qua Spotlight và Encore."
+    "vi": "Biến các lá tấn công cơ bản thành Rhythm, rồi dùng Spotlight và Encore để kích hoạt chúng nhiều lần."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1069.webp",
   "source": {
     "name": "Prydwen + E7BOT",
     "url": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
-    "updated": "",
+    "updated": "2026-10-25",
     "kind": "guide",
     "files": [
       "docs/combatant/prydwen/tenebria.json",
       "docs/combatant/current/api/czn/characters/1069.html",
-      "data/deck-builder/catalog.json"
+      "data/deck-builder/catalog.json",
+      "docs/combatant/prydwen/tenebria-update-2026-10-26.json"
     ],
     "note": {
-      "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "en": "Checked on 26 October 2026 against Prydwen's 25 October update, including expanded team decks. Card text remains from E7BOT. Conflicting source recommendations are identified in the relevant notes.",
+      "vi": "Đối chiếu ngày 26/10/2026 với bản Prydwen cập nhật 25/10, gồm các deck trong phần đội hình mở rộng. Nội dung lá bài vẫn theo E7BOT. Các điểm nguồn chưa thống nhất được ghi tại mục tương ứng."
     }
   },
   "images": {
@@ -990,27 +991,72 @@
   "review": {
     "intro": {
       "en": "Transforms Basic Attacks into Rhythm cards, then recycles them through Spotlight and Encore.",
-      "vi": "Biến bài Tấn công Cơ bản thành Rhythm, rồi tái sử dụng qua Spotlight và Encore."
+      "vi": "Biến các lá tấn công cơ bản thành Rhythm, rồi dùng Spotlight và Encore để kích hoạt chúng nhiều lần."
     },
-    "profile": [],
+    "profile": [
+      {
+        "label": {
+          "en": "ST Damage",
+          "vi": "Sát thương đơn mục tiêu"
+        },
+        "score": 5
+      },
+      {
+        "label": {
+          "en": "AoE Damage",
+          "vi": "Sát thương diện rộng"
+        },
+        "score": 2
+      },
+      {
+        "label": {
+          "en": "AP Efficiency",
+          "vi": "Hiệu quả AP"
+        },
+        "score": 3
+      },
+      {
+        "label": {
+          "en": "Draw Efficiency",
+          "vi": "Hiệu quả Draw"
+        },
+        "score": 2
+      }
+    ],
     "pros": [
       {
         "en": "Strong Basic-card synergy and rapid combo damage once the loop is established.",
-        "vi": "Phối hợp tốt với hiệu ứng tăng sức mạnh cho bài cơ bản và gây sát thương liên hoàn nhanh khi đã thiết lập vòng lặp."
+        "vi": "Kết hợp tốt với các hiệu ứng tăng sức mạnh cho bài cơ bản. Gây sát thương nhanh khi đã chuẩn bị đủ bài cho chuỗi combo."
       }
     ],
     "cons": [
       {
         "en": "No AoE; high AP needs and extra Basic cards can reduce opening consistency.",
-        "vi": "Không có sát thương diện rộng; cần nhiều Điểm hành động và thêm bài Cơ bản có thể làm lượt mở đầu kém ổn định."
+        "vi": "Thiếu sát thương diện rộng và tiêu hao nhiều AP. Các lá bài cơ bản được tạo thêm có thể khiến bạn khó Draw đúng bài ở lượt đầu."
       }
     ],
     "mechanics": [
       {
+        "title": "Music, Start! V",
+        "cardId": "c_1069_srt4_rsp5",
+        "body": {
+          "en": "Creates six Arpeggio variants, all owned by Tenebria.",
+          "vi": "Tạo sáu biến thể Rhythm: Arpeggio. Cả sáu lá đều thuộc Tenebria."
+        }
+      },
+      {
+        "title": "Performance Burnout",
+        "cardId": "c_1069_cre1",
+        "body": {
+          "en": "30 stacks block further Rhythm activations until the turn ends.",
+          "vi": "Khi Performance Burnout đạt 30 cộng dồn, bạn không thể kích hoạt thêm lá Rhythm trong lượt đó."
+        }
+      },
+      {
         "title": "Spotlight",
         "body": {
           "en": "140% Damage; Move 1 Rhythm card(s) to hand; Decrease Cost of those cards by 2 until activated",
-          "vi": "Gây 140% sát thương; Đưa 1 Bài Nhịp điệu lên tay; Giảm 2 chi phí của các lá đó cho đến khi được kích hoạt"
+          "vi": "Gây 140% sát thương, đưa 1 lá Rhythm lên tay và giảm 2 AP cho lá đó cho đến khi được kích hoạt."
         },
         "cardId": "c_1069_uni1"
       },
@@ -1018,7 +1064,7 @@
         "title": "Call & Response",
         "body": {
           "en": "200% Damage; If in hand, treat as a Rhythm card; Attunement: Draw 1 Rhythm card(s)",
-          "vi": "Gây 200% sát thương; Khi trên tay, được xem là Bài Nhịp điệu; Điều hòa: Rút 1 Bài Nhịp điệu"
+          "vi": "Gây 200% sát thương. Khi nằm trên tay, lá này được tính là Rhythm. Hiệu ứng Attunement cho phép Draw thêm 1 lá Rhythm."
         },
         "cardId": "c_1069_uni2"
       },
@@ -1026,7 +1072,7 @@
         "title": "Encore",
         "body": {
           "en": "120% Damage; If the last card activated was a Rhythm card, proc that card",
-          "vi": "Gây 120% sát thương; Nếu lá được kích hoạt gần nhất là Bài Nhịp điệu, kích hoạt qua hiệu ứng lá đó"
+          "vi": "Gây 120% sát thương. Nếu lá vừa được kích hoạt trước đó là Rhythm, kích hoạt lại lá ấy thông qua hiệu ứng."
         },
         "cardId": "c_1069_uni3"
       }
@@ -1045,11 +1091,11 @@
       "preferred": "V",
       "note": {
         "en": "V creates the flexible Arpeggio set, combining a scaling expensive attack with cheaper utility. IV offers controlled conversion and recurring Rhythm draw.",
-        "vi": "V tạo bộ Arpeggio linh hoạt, kết hợp đòn đắt có thể giảm chi phí với tiện ích rẻ. IV cho đổi dạng có kiểm soát và rút bài Nhịp điệu định kỳ."
+        "vi": "Bản V tạo bộ Arpeggio gồm các lá gây sát thương mạnh có thể giảm chi phí và các lá hỗ trợ tốn ít AP. Bản IV cho phép chọn dạng Rhythm phù hợp và Draw thêm Rhythm."
       },
       "divine": {
         "en": "Morale neutral can preserve a useful base route; target Morale/Resolve or start-turn Draw 2 divines.",
-        "vi": "Sĩ khí trung lập có thể giữ hướng bản gốc hữu ích; thần thánh nhắm Sĩ khí/Quyết tâm hoặc Rút 2 đầu lượt."
+        "vi": "Có thể chọn Neutral Epiphany có Morale nếu muốn giữ cách chơi của bản gốc. Với Divine Epiphany, ưu tiên Morale/Resolve hoặc hiệu ứng Draw 2 lá khi đáp ứng điều kiện đầu lượt."
       }
     },
     {
@@ -1064,11 +1110,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV arranges three Rhythm cards at the top of the deck for consistent setup. III automatically activates moved cards but needs more AP upfront.",
-        "vi": "IV xếp ba lá Nhịp điệu lên đầu bộ bài để thiết lập ổn định. III tự kích hoạt bài đã di chuyển nhưng cần thêm Điểm hành động ban đầu."
+        "vi": "Bản IV sắp xếp ba lá Rhythm lên đầu Draw Pile, giúp chuẩn bị combo ổn định hơn. Bản III tự kích hoạt các lá vừa đưa lên tay, nhưng cần nhiều AP hơn để sử dụng."
       },
       "divine": {
         "en": "IV/V can take AP; consider targeted draw, Common conversion/draw, or Vulnerable as needed.",
-        "vi": "IV/V có thể lấy Điểm hành động; cân nhắc rút chọn lọc, chuyển thành Bài chung/rút bài hoặc Dễ tổn thương theo nhu cầu."
+        "vi": "Bản IV/V có thể chọn hiệu ứng tạo AP. Các lựa chọn khác gồm Draw theo điều kiện, chuyển thành Common Card kèm Draw, hoặc gây Vulnerable."
       }
     },
     {
@@ -1083,11 +1129,11 @@
       "preferred": "III",
       "note": {
         "en": "III draws Rhythm cards while activating from the draw pile. I provides strong Attunement draw but needs more free hand space.",
-        "vi": "III rút bài Nhịp điệu khi kích hoạt từ Chồng bài rút. I rút mạnh qua Điều hòa nhưng cần nhiều chỗ trống trên tay hơn."
+        "vi": "Bản III Draw thêm Rhythm và có thể tự kích hoạt khi còn trong Draw Pile. Bản I Draw tốt nhờ Attunement, nhưng cần chừa nhiều chỗ trống trên tay hơn."
       },
       "divine": {
         "en": "Consider draw on III, targeted/Common draw, or cost reduction.",
-        "vi": "Cân nhắc rút bài cho III, rút có chọn lọc/Bài chung hoặc giảm chi phí."
+        "vi": "Cân nhắc hiệu ứng Draw thêm bài cho bản III, Draw theo điều kiện, Draw Common Card hoặc giảm chi phí."
       }
     },
     {
@@ -1102,11 +1148,11 @@
       "preferred": "I / III",
       "note": {
         "en": "I repeats the last Rhythm twice but does not trigger Call & Response's in-hand Rhythm condition. III reduces upcoming Rhythm costs and adds a hit.",
-        "vi": "I lặp lá Nhịp điệu cuối hai lần nhưng không kích hoạt điều kiện Nhịp điệu trên tay của Call & Response. III giảm chi phí Nhịp điệu sắp dùng và thêm lần đánh."
+        "vi": "Bản I kích hoạt lại lá Rhythm vừa dùng hai lần, nhưng không lặp được Call & Response chỉ nhờ điều kiện được tính là Rhythm khi nằm trên tay. Bản III giảm chi phí và thêm một lần đánh cho các lá Rhythm tiếp theo."
       },
       "divine": {
         "en": "Targeted/Common draw and cost reduction are useful; III/IV can use ordinary draw, with Vulnerable for damage support.",
-        "vi": "Rút có chọn lọc/Bài chung và giảm chi phí hữu ích; III/IV có thể dùng rút thông thường, thêm Dễ tổn thương để hỗ trợ sát thương."
+        "vi": "Ưu tiên Draw theo điều kiện, Draw Common Card hoặc giảm chi phí. Bản III/IV cũng có thể chọn Draw thêm bài; hiệu ứng gây Vulnerable giúp tăng sát thương."
       }
     }
   ],
@@ -1116,7 +1162,7 @@
       "score": "149.72%",
       "note": {
         "en": "Strengthens the same signature benefits as E0 for a substantial improvement at high investment.",
-        "vi": "Tăng mạnh các hiệu ứng trấn sẵn có ở E0, đem lại cải thiện lớn khi đầu tư cao."
+        "vi": "Giữ các lợi ích của Aria E0 nhưng tăng mạnh giá trị hiệu ứng, phù hợp khi muốn đầu tư thêm cho Tenebria."
       }
     },
     {
@@ -1124,7 +1170,7 @@
       "score": "127.63%",
       "note": {
         "en": "The signature's varied damage bonuses make it the strongest listed option even at E0.",
-        "vi": "Nhiều loại hiệu ứng tăng cường sát thương từ Đối tác trấn giúp đây là lựa chọn mạnh nhất được liệt kê, ngay ở E0."
+        "vi": "Aria là Partner phù hợp nhất cho Tenebria nhờ nhiều hiệu ứng tăng sát thương, ngay cả ở E0."
       }
     },
     {
@@ -1132,7 +1178,7 @@
       "score": "111.10%",
       "note": {
         "en": "Chosen mainly for higher base stats; Bria, Ivy and Itsuku provide little meaningful passive synergy here.",
-        "vi": "Chủ yếu chọn vì chỉ số nền cao; Bria, Ivy và Itsuku ít có tương tác nội tại đáng kể trong trường hợp này."
+        "vi": "Bria, Ivy và Itsuku chủ yếu hữu ích nhờ chỉ số cơ bản cao. Nội tại của họ ít hỗ trợ trực tiếp cho lối chơi Tenebria."
       }
     },
     {
@@ -1140,7 +1186,7 @@
       "score": "106.22%",
       "note": {
         "en": "An accessible stat option when avoiding higher-rarity pulls; her passive and Ego skill have little synergy.",
-        "vi": "Lựa chọn lấy chỉ số dễ tiếp cận khi không muốn quay Đối tác hiếm hơn; nội tại và kỹ năng Ego ít tương tác."
+        "vi": "Lựa chọn dễ tiếp cận nếu không muốn quay Partner 5 sao. Giá trị chính nằm ở chỉ số; nội tại và kỹ năng Ego ít hỗ trợ Tenebria."
       }
     },
     {
@@ -1148,7 +1194,7 @@
       "score": "100.00%",
       "note": {
         "en": "A free stopgap if none of the stronger listed Partners is available.",
-        "vi": "Phương án miễn phí tạm thời nếu chưa có Đối tác mạnh hơn trong danh sách."
+        "vi": "Lựa chọn miễn phí để dùng tạm khi chưa có Partner tốt hơn trong danh sách."
       }
     },
     {
@@ -1156,17 +1202,17 @@
       "score": "98.78%",
       "note": {
         "en": "Weak initially but a better long-term investment than Zatera as additional Ego copies become available.",
-        "vi": "Ban đầu yếu nhưng đáng đầu tư lâu dài hơn Zatera khi có thêm bản để nâng Ego."
+        "vi": "Khá yếu ở E0, nhưng đáng đầu tư lâu dài hơn Zatera nếu có thêm bản sao để nâng Ego."
       }
     }
   ],
   "fragments": [
     {
       "name": "Black Wing (2) + Executioner's Tool (2) + Seth's Scarab (2)",
-      "score": "—",
+      "score": "100.00%",
       "note": {
         "en": "The reliable general damage setup; only particular specialist scenarios favor alternatives.",
-        "vi": "Bộ sát thương phổ thông đáng tin cậy; chỉ một số tình huống chuyên biệt ưu tiên phương án khác."
+        "vi": "Bộ tăng sát thương ổn định, dùng được với nhiều cách chơi. Chỉ nên đổi khi đội hình có nhu cầu riêng."
       }
     },
     {
@@ -1174,7 +1220,7 @@
       "score": "—",
       "note": {
         "en": "Extra Crit Rate when allied discard or Rhythm Fortissimo's Linked effect can activate the set.",
-        "vi": "Thêm Tỷ lệ bạo kích khi bỏ bài từ đồng đội hoặc Liên kết của Rhythm Fortissimo có thể kích hoạt bộ."
+        "vi": "Tăng tỉ lệ chí mạng nếu đồng đội có thể bỏ bài hoặc nếu dùng hiệu ứng Linked của Rhythm: Fortissimo để kích hoạt bộ."
       }
     }
   ],
@@ -1182,31 +1228,31 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "CRIT Rate > CRIT DMG"
       }
     },
     {
       "name": {
         "en": "Desire",
-        "vi": "Khao khát"
+        "vi": "Desire"
       },
       "value": {
         "en": "ATK% >= PASSION DMG%",
-        "vi": "Tấn công% >= Sát thương Đam mê%"
+        "vi": "ATK% ≥ Passion DMG%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
@@ -1216,45 +1262,45 @@
       },
       "value": {
         "en": "CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "CRIT Rate% > CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
-    "en": "Maxing out Tenebria's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 700 ATK, which almost all Tenebria builds can accomplish.",
-    "vi": "Đạt 700 tấn công để tối đa hóa tiềm năng 7; gần như mọi cách xây dựng đều dễ chạm mốc."
+    "en": "Target 700 ATK if Potential 7 grants +2% per 20 ATK; if your in-game tooltip says +1%, the corresponding cap is 800 ATK. Ego comparisons assume Photo Time is removed.",
+    "vi": "Nhắm mốc 700 ATK nếu Potential 7 tăng thêm 2% sát thương mỗi 20 ATK. Nếu mô tả trong game ghi 1%, mốc đạt hiệu ứng tối đa là 800 ATK. Bảng hiệu năng Ego được tính với bộ bài không dùng Photo Time."
   },
   "potentialIntro": {
-    "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Adds an [Incinerate] effect to Tenebria’s Basic-Attack Cards, providing a 50% heal. This ultimately does absolutely nothing outside of providing a small heal at the start of combat. Can be skipped.5-1: Tenebria’s 5-1 Potential grants a 10% multiplicative damage buff to Tenebria’s Rhythm cards, additionally - if her attack is 500 or higher, will provide a 10% multiplicative damage buff to her allies Rhythm cards too. A substantial damage boost, as Tenebria’s damage scaling is Base ratio, making this quite a potent potential to unlock.7: Tenebria’s 7 Potential grants Tenebria +5% Passion Attribute damage, and for every 20 Attack exceeding 600, will grant an additional +2% up to a maximum of 15% Passion Attribute Damage at 700 Attack. Definitely worth picking up.",
-    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Thiêu hủy hồi 50% vào bài cơ bản, lợi ích nhỏ nên có thể bỏ qua, còn 5-1 tăng sát thương bài Nhịp điệu của Tenebria 10% theo hệ số nhân và của đồng đội thêm 10% nếu tấn công ≥500, rất đáng mở. Tiềm năng 7 tăng 5% sát thương Đam mê, thêm 2% mỗi 20 tấn công vượt 600, đạt tối đa 15% ở 700 tấn công."
+    "en": "CRIT Rate = CRIT DMG ≥ Unique Card DMG > Common Card DMG = Basic Card DMG. Prioritize 5-1 for Rhythm damage and Potential 7 for Passion damage. Node 3-1 only adds a small opening heal.",
+    "vi": "Ưu tiên CRIT Rate = CRIT DMG ≥ sát thương Unique Card > sát thương Common Card = sát thương Basic Card. Mở nút 5-1 để tăng sát thương Rhythm và Potential 7 để tăng sát thương hệ Passion. Nút 3-1 chỉ hồi một lượng máu nhỏ đầu trận."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add the following effect to Sound Check: Incinerate: Heal 50%.",
-        "vi": "Thêm hiệu ứng sau cho Sound Check: Thiêu hủy: Hồi máu 50%."
+        "vi": "Thêm hiệu ứng Incinerate cho Sound Check: hồi máu 50%."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "At the start of battle, increase Damage Amount of Tenebria’s Rhythm cards by 10%, and if Tenebria’s Attack is 500 or higher, increase Damage Amount of other Combatants’ Rhythm cards by 10% as well",
-        "vi": "Đầu trận, tăng 10% sát thương các lá Nhịp điệu của Tenebria; nếu Tấn công của Tenebria từ 500 trở lên, cũng tăng 10% sát thương các lá Nhịp điệu của nhân vật khác"
+        "vi": "Đầu trận, tăng 10% sát thương các lá Rhythm của Tenebria. Nếu Tenebria có ít nhất 500 ATK, các lá Rhythm của đồng đội cũng được tăng 10% sát thương."
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
-        "en": "If Tenebria’s Attack is 600 or higher, +5% Passion Attribute Damage Amount, and for every 20 Attack exceeding 600, add an additional +1% (additional +10% max)",
-        "vi": "Nếu Tấn công của Tenebria từ 600 trở lên, +5% sát thương hệ Đam mê; mỗi 20 Tấn công vượt quá 600 cộng thêm +1% (tối đa cộng thêm +10%)"
+        "en": "At 600 ATK: +5% Passion damage. Each additional 20 ATK adds +2%, up to +10% extra at 700 ATK. Check the in-game scaling before choosing the breakpoint.",
+        "vi": "Từ 600 ATK, nhận thêm 5% sát thương hệ Passion. Mỗi 20 ATK vượt mốc này tăng thêm 2%, tối đa cộng thêm 10% ở 700 ATK. Kiểm tra hệ số trong mô tả kỹ năng ở game trước khi chọn mốc chỉ số."
       }
     }
   ],
@@ -1262,7 +1308,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -1284,8 +1330,8 @@
     },
     {
       "name": {
-        "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "en": "Season 4: Kaleidoscope Hatchery",
+        "vi": "Season 4: Kaleidoscope Hatchery"
       },
       "weapons": [
         "Criticism of Discord",
@@ -1307,7 +1353,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -1330,7 +1376,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -1349,7 +1395,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -1371,42 +1417,52 @@
   "seasonal": [
     {
       "name": {
+        "en": "Season 5",
+        "vi": "Season 5"
+      },
+      "note": {
+        "en": "Prioritize Memory: Lady; choose self ATK% or damage buffs for Tenebria. Memory cards are 0-cost Opener upgrades.",
+        "vi": "Ưu tiên Memory: Lady với hiệu ứng tăng ATK% hoặc sát thương cho chính Tenebria. Memory Card là bài Upgrade tốn 0 AP và có Opener, nên tự kích hoạt đầu trận."
+      }
+    },
+    {
+      "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Card cho hiệu ứng nội tại khi cả đội đạt ngưỡng 3/5/7; cần phối hợp các bộ bài được tạo trong Season 4. Có thể chọn 1 Claim / 1 Survival / 1 Inquiry để dùng linh hoạt, 3 lá cùng loại để dễ đạt ngưỡng, hoặc 2 lá cùng loại + 1 Inquiry để giữ Sample Collection. Chọn theo Desire của đồng đội và ngưỡng muốn đạt. Ví dụ, khi nhắm 7 Claim cho cả đội, Tenebria có thể dùng 2 Claim + 1 Inquiry."
       }
     },
     {
       "name": {
         "en": "Season 3",
-        "vi": "Mùa 3"
+        "vi": "Season 3"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Persona Card mở thêm cách chơi và các hiệu ứng hỗ trợ. Engraving gắn lên Persona Card hoặc trang bị, tương tự Refinement của Season 2 nhưng có hiệu ứng khác. Chọn Engraving cho bài theo nhu cầu đội hình; cũng có thể tập trung vào trang bị. Một lựa chọn phổ biến là tăng 15% sát thương chí mạng cho bài tấn công khi có ít nhất 15 lá trong Graveyard. Hiệu ứng này không cộng dồn với chính nó."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinement bổ sung hiệu ứng trang bị mà không tốn Faint Memory sau Season 2. Các hiệu ứng đáng cân nhắc: tăng 20% sát thương bài tấn công; tăng 15% tỉ lệ chí mạng khi dùng bài tấn công đánh mục tiêu có Vulnerable; tăng 25% sát thương đòn đánh thêm. God’s Hammer nhận từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác và tốn 10 Faint Memory. Vì không thể chọn chính xác hiệu ứng, thường ưu tiên ATK% cho nhân vật gây sát thương theo ATK và DEF% cho nhân vật gây sát thương theo DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Card chỉ nhận được một lần mỗi lượt khám phá; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của một lá; cần sắp xếp để chọn đúng lá muốn giảm. Forbidden: Portrait of Fury hỗ trợ Draw và tăng sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger hỗ trợ Draw và tạo nhiều AP, nhưng phụ thuộc đồng đội."
       }
     }
   ],
@@ -1421,50 +1477,50 @@
     },
     {
       "name": "Ego 1",
-      "score": "—",
+      "score": "100.00%",
       "note": {
         "en": "Tenebria’s first Ego to be unlocked increases the damage dealt by her “Performance Buzz” at the end of the turn to 150%. A fairly minor upgrade that doesn’t provide any extra utility, just some extra damage output. As the majority of Tenebria’s damage comes from her Rhythm cards themselves, this doesn’t do much for her. Note: In our calculations, we aren’t using Photo Time in order to boost deck consistency. Because of this, the listed gain for this Ego Point is 0%; however, if you are using it, it will be a very small increase.",
-        "vi": "Sức nóng sân khấu tăng sát thương cuối lượt lên 150%, không thêm tiện ích. Nguồn không dùng Photo Time để ổn định vòng bài nên tính tăng 0%; nếu giữ lá đó thì có tăng nhẹ, vì sát thương chính vẫn từ bài Nhịp điệu."
+        "vi": "Tăng hệ số sát thương của Performance Buzz lên 150%. Đây là nâng cấp nhỏ vì sát thương chính đến từ Rhythm. Nếu bộ bài không dùng Photo Time thì Ego này không tăng sát thương; giữ Photo Time sẽ có thêm một ít sát thương."
       }
     },
     {
       "name": "Ego 2",
-      "score": "—",
+      "score": "100.97%",
       "note": {
         "en": "Tenebria’s next Ego creates a “Photo Card” card at the start of battle. “Photo Card” is a 0-Cost Skill Card that has the [Exhaust] and [Retain] tags and grants 2 Ego Points when used. Additionally, whenever an Ego Skill is used by any combatant, Tenebria will deal 200% damage to random enemies for each Ego Point that the Ego Skill required to be used. (Eg, Tenebria’s “Everyone’s Idol” costs 7 EP to use; Tenebria will deal 200% Damage to random enemies 7 times.) The main benefit of this Ego is the EP it gains, as the total damage contribution the hits deal aren’t too impactful in optimized Tenebra decks.",
-        "vi": "Đầu trận tạo Photo Card, kỹ năng 0 chi phí có Kiệt sức/Giữ lại, cho 2 điểm Ego. Khi bất kỳ nhân vật dùng kỹ năng Ego, Tenebria đánh 200% vào địch ngẫu nhiên số lần bằng chi phí Ego của kỹ năng, ví dụ 7 lần với Everyone’s Idol; giá trị chính là điểm Ego hơn là sát thương trong bộ tối ưu."
+        "vi": "Đầu trận tạo Photo Card: bài kỹ năng tốn 0 AP, có Exhaust và Retain, cho 2 Ego Points. Khi một nhân vật dùng kỹ năng Ego, Tenebria gây 200% sát thương lên địch ngẫu nhiên; số lần đánh bằng chi phí Ego gốc của kỹ năng. Ví dụ, Everyone’s Idol tạo 7 lần đánh. Với bộ bài tối ưu, lợi ích chính là 2 Ego Points từ Photo Card."
       }
     },
     {
       "name": "Ego 3",
-      "score": "—",
+      "score": "104.20%",
       "note": {
         "en": "Tenebria’s third Ego increases the damage buff granted from her Ego Skill “Everyone’s Idol” from 7% per Rhythm card used to 11% per Rhythm card used. A solid overall increase to her potential damage output, as this will now provide a permanent 77% multiplicative damage buff to Rhythm cards played",
-        "vi": "Everyone’s Idol tăng mức thưởng mỗi bài Nhịp điệu đã dùng từ 7% lên 11%, đạt 77% tăng sát thương theo hệ số nhân vĩnh viễn. Là nâng cấp tổng thể tốt."
+        "vi": "Everyone’s Idol tăng mức cộng sát thương cho mỗi lần kích hoạt Rhythm từ 7% lên 11%, đạt tổng cộng 77%. Đây là một nâng cấp sát thương đáng kể."
       }
     },
     {
       "name": "Ego 4",
-      "score": "—",
+      "score": "108.55%",
       "note": {
         "en": "Tenebria’s fourth Ego grants the buff “Everyone’s Cheer” whenever a Rhythm card is activated or moved to the hand. For each stack held, up to a maximum of 20 - increases Tenebria’s damage by 1%. When 20 Stacks of “Everyone’s Cheer” are obtained, it increases the damage dealt by “Rhythm” cards by 10%. Enhances Tenebria’s damage output slightly but nothing ultimately game-changing or worth investing for.",
-        "vi": "Bài Nhịp điệu được kích hoạt hoặc đưa lên tay cho Everyone’s Cheer, tối đa 20; mỗi cộng dồn tăng 1% sát thương. Đủ 20 cộng dồn tăng sát thương bài Nhịp điệu 10%; có ích nhưng không phải mốc đáng chủ động đầu tư."
+        "vi": "Mỗi lần kích hoạt hoặc đưa một lá Rhythm lên tay, nhận Everyone’s Cheer, tối đa 20 cộng dồn. Mỗi cộng dồn tăng 1% sát thương của Tenebria; đủ 20 cộng dồn tăng thêm 10% sát thương Rhythm. Có ích nhưng chưa phải mốc cần ưu tiên đầu tư."
       }
     },
     {
       "name": "Ego 5",
-      "score": "—",
+      "score": "113.75%",
       "note": {
         "en": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Tenebria’s damage output",
-        "vi": "Giới hạn tiềm năng bài cơ bản, chung và đặc trưng tăng 3 cấp, cải thiện sát thương theo cơ chế thông thường."
+        "vi": "Tăng 3 cấp cho các nút Potential nâng cấp Basic Card, Common Card và Unique Card, giúp cải thiện sát thương."
       }
     },
     {
       "name": "Ego 6",
-      "score": "—",
+      "score": "157.04%",
       "note": {
         "en": "Tenebria’s final Ego to be unlocked grants an additional effect when “Photo Card” is played. When “Photo Card” is played, it decreases the cost of Tenebria’s next Ego Skill by 3 EP. When a Rhythm card is activated, Tenebria inflicts the {All Eyes on You} debuff to the target. {All Eyes on You} increases the damage taken by “Rhythm” cards on that target by 40% FINAL Damage (Same mult type as Vulnerable & Spore). If a Rhythm card is activated outside of manual use, an enemy that is inflicted with {All Eyes on You} will become the target of that card. Only 1 enemy can hold the {All Eyes on You} debuff at any given time.",
-        "vi": "Photo Card giảm 3 điểm Ego cho kỹ năng Ego kế tiếp của Tenebria. Bài Nhịp điệu áp All Eyes on You, khiến mục tiêu nhận thêm 40% sát thương cuối cùng từ Nhịp điệu, cùng nhóm hệ số với Dễ tổn thương/Bào tử; bài Nhịp điệu tự kích hoạt ưu tiên mục tiêu này và chỉ một địch được mang dấu cùng lúc."
+        "vi": "Photo Card giảm 3 Ego Points cho kỹ năng Ego tiếp theo của Tenebria. Khi Rhythm được kích hoạt, áp dụng All Eyes on You lên mục tiêu: mục tiêu nhận thêm 40% sát thương cuối cùng từ Rhythm, cùng nhóm hệ số với Vulnerable và Spore. Các lá Rhythm tự kích hoạt sẽ ưu tiên đánh mục tiêu này. Chỉ một kẻ địch có thể mang hiệu ứng tại một thời điểm."
       }
     }
   ],
@@ -1472,11 +1528,11 @@
     {
       "name": {
         "en": "Move to the Rhythm!",
-        "vi": "Chuỗi Rhythm: Arpeggio theo nhịp"
+        "vi": "Hòa nhịp Rhythm"
       },
       "role": {
         "en": "Replayed basic-attack carry",
-        "vi": "Chủ lực lặp đòn đánh cơ bản"
+        "vi": "Chủ lực liên tục kích hoạt lại bài tấn công cơ bản"
       },
       "partner": "Aria",
       "cards": [
@@ -1489,7 +1545,7 @@
           "count": 1,
           "effects": {
             "en": "At the start of each turn, when this card is the first card used, Draw 2",
-            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được sử dụng, Rút 2 lá"
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
           }
         },
         {
@@ -1515,18 +1571,18 @@
       "fragments": [],
       "fragmentPieces": [],
       "note": {
-        "en": "Use Spotlight for the two cheapest Rhythm: Arpeggio, then Rei's Strike of Darkness V to activate the newly drawn expensive Rhythm: Arpeggio for free. Follow with Rhythm: Arpeggio to replay the two with the highest original cost. Cost reduction stabilizes the loop; Rei's basic-attack buffs and free activation are strongly recommended.",
-        "vi": "Dùng Spotlight kích hoạt hai Rhythm: Arpeggio rẻ nhất, rồi dùng Strike of Darkness V của Rei để kích hoạt miễn phí các Rhythm: Arpeggio đắt vừa rút. Sau đó dùng Rhythm: Arpeggio để lặp hai lá có chi phí gốc cao nhất. Giảm chi phí giúp vòng đánh ổn định; rất nên ghép Rei theo bản tăng sức mạnh cho đòn đánh cơ bản để vừa dùng bài miễn phí vừa tăng sát thương mạnh."
+        "en": "Use the discounted Spotlight III to activate Rhythm cards, with Rei supplying Basic Attack buffs. Arpeggio combos require replacing Music, Start! with Music, Start! V; the team decks below include that variant.",
+        "vi": "Dùng Spotlight III đã giảm chi phí để kích hoạt Rhythm, kết hợp hiệu ứng tăng sức mạnh cho bài tấn công cơ bản từ Rei. Muốn chơi combo Arpeggio, cần đổi Music, Start! sang bản V. Các bộ bài đội hình bên dưới đã dùng biến thể này."
       }
     },
     {
       "name": {
         "en": "Ballad of Vulnerability",
-        "vi": "Khúc nhạc Dễ tổn thương"
+        "vi": "Khúc nhạc Vulnerable"
       },
       "role": {
         "en": "High-resource finisher carry",
-        "vi": "Chủ lực kết liễu cần nhiều tài nguyên"
+        "vi": "Chủ lực dồn sát thương, cần nhiều AP và khả năng Draw"
       },
       "partner": "Aria",
       "cards": [
@@ -1539,7 +1595,7 @@
           "count": 1,
           "effects": {
             "en": "At the start of each turn, when this card is the first card used, Draw 2",
-            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được sử dụng, Rút 2 lá"
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
           }
         },
         {
@@ -1547,7 +1603,7 @@
           "count": 4,
           "effects": {
             "en": "2 Vulnerable to the target",
-            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
           }
         },
         {
@@ -1568,9 +1624,255 @@
       "fragments": [],
       "fragmentPieces": [],
       "note": {
-        "en": "Use Call & Response for draw and hold Encore IV as the finisher. The rotation needs both AP and draw, making Nia's Forbidden: Eternal Hunger builds a strong fit. Adagio plus G Chord can also activate expensive cards more cheaply.",
-        "vi": "Dùng Call & Response hỗ trợ rút bài và để Encore IV làm đòn kết liễu. Vòng đánh cần nhiều Điểm hành động lẫn rút bài, nên rất hợp Nia theo các bản Forbidden: Eternal Hunger để lặp một hoặc hai bản lá này. Adagio kết hợp G Chord cũng giúp kích hoạt các lá đắt với chi phí thấp hơn."
+        "en": "Spotlight III applies Vulnerable; Call & Response I supports draw and Encore III discounts the next three Rhythm activations while adding a hit. Pair with Nia for AP and draw. TeneBRICK is the Arpeggio variant of this setup.",
+        "vi": "Spotlight III gây Vulnerable; Call & Response I hỗ trợ Draw. Encore III giảm chi phí và thêm một lần đánh cho ba lần kích hoạt Rhythm tiếp theo. Ghép Nia để có thêm AP và Draw. Nếu muốn dùng Arpeggio, chọn cấu hình TeneBRICK bên dưới."
       }
+    },
+    {
+      "name": {
+        "en": "Encore! Encore!",
+        "vi": "Encore! Encore!"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "draw": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z7yZIljEl3hgC3IOEtIF_jbJlc-czlVR0YpynIrZNOPeWmVp7odVce7mnVzySKUgXxmdorUhM7onnUoJW_ZAiTpcBuALHSMp1jFwR5WVTFi",
+      "note": {
+        "en": "Rei buffs → Nia resources → Arpeggio → Encore I. Keep the 5-cost Arpeggio as the last activated card before each replay.",
+        "vi": "Dùng hiệu ứng tăng sức mạnh của Rei, rồi dùng Nia để Draw và tạo AP. Sau đó kích hoạt Arpeggio và dùng Encore I để đánh lại. Trước mỗi Encore I, bảo đảm lá vừa kích hoạt là Arpeggio có chi phí gốc 5 AP."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "TeneBRICK",
+        "vi": "TeneBRICK"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T0.5",
+        "vi": "Tenebria / Rei / Nia · T0.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp3",
+          "count": 4,
+          "effects": {
+            "en": "2 Vulnerable to the target",
+            "vi": "Áp dụng 2 Vulnerable lên mục tiêu."
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 1,
+          "draw": 1
+        }
+      ],
+      "code": "v6l88NW5avzR9FHP15nUimIDIwLgeKk1OiCtNil0WYO-WYd7DFMV5i5mBWuWqIou6Z6SZ4lLWnwFZ0tP2kpIE-u6syeZtQ7d5FxNiPopgN5PSHPwpxwMQr4okd7im4wsKsMgdCGke9VKiMKr",
+      "note": {
+        "en": "Four Spotlight III copies apply Vulnerable. Music, Start! V creates Arpeggios; Nia supplies draw and AP.",
+        "vi": "Dùng bốn bản Spotlight III có hiệu ứng gây Vulnerable để liên tục kích hoạt Rhythm. Music, Start! V tạo bộ Arpeggio; Nia cung cấp AP và giúp Draw thêm bài."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "Common-Core Rhythm",
+        "vi": "Common-Core Rhythm"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Nia · T1",
+        "vi": "Tenebria / Rei / Nia · T1"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+      "note": {
+        "en": "Common Card divines on both Encore variants improve draw consistency at the expense of damage.",
+        "vi": "Gắn Divine Epiphany chuyển thành Common Card kèm Draw 1 Common Card lên cả Encore I và Encore III. Cách này giúp Draw ổn định hơn, đổi lại giảm sát thương tối đa."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
+    },
+    {
+      "name": {
+        "en": "Common-Core Magna-tude",
+        "vi": "Common-Core Magna-tude"
+      },
+      "role": {
+        "en": "Tenebria / Rei / Magna · T1.5",
+        "vi": "Tenebria / Rei / Magna · T1.5"
+      },
+      "cards": [
+        {
+          "cardId": "c_1069_srt1",
+          "count": 2
+        },
+        {
+          "cardId": "c_1069_srt4_rsp5",
+          "count": 1,
+          "effects": {
+            "en": "At the start of each turn, when this card is the first card used, Draw 2",
+            "vi": "Đầu mỗi lượt, nếu đây là lá đầu tiên được dùng, Draw 2 lá."
+          }
+        },
+        {
+          "cardId": "c_1069_uni1_rsp4",
+          "count": 1,
+          "effects": {
+            "en": "1 AP",
+            "vi": "Nhận 1 AP"
+          }
+        },
+        {
+          "cardId": "c_1069_uni2_rsp1",
+          "count": 1
+        },
+        {
+          "cardId": "c_1069_uni3_rsp1",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        },
+        {
+          "cardId": "c_1069_uni3_rsp3",
+          "count": 2,
+          "effects": {
+            "en": "Treated as a Common Card Draw 1 Common Card(s)",
+            "vi": "Được xem là Common Card. Draw 1 Common Card."
+          }
+        }
+      ],
+      "code": "v6l88NW5avzT9FHP15nUjcK6_-I9fJBwzmQaMTc3x-d0ukuNYhVAirTxgnFkrCmtEGaKcRkqqHaVzYqJN6pV7LVQ274NlVsdpp0lruDnPwLX6zoW77RK4XBnSCOt6oX78MY1E-yvu_15cqj5ttT_Lkm2vt4siRFYlsBIBQAG",
+      "note": {
+        "en": "The Tenebria deck matches Common-Core Rhythm. Trigger Magna's Vulnerable before the damage sequence.",
+        "vi": "Dùng cùng bộ bài Tenebria như Common-Core Rhythm, nhưng thay Nia bằng Magna. Kích hoạt Vulnerable của Magna trước khi bắt đầu chuỗi gây sát thương."
+      },
+      "partner": "Aria",
+      "gear": [
+        "Criticism of Discord",
+        "Fairy King's Crown",
+        "Verdant Night"
+      ],
+      "fragments": [],
+      "fragmentPieces": []
     }
   ],
   "synergies": [
@@ -1578,35 +1880,35 @@
       "name": "Rei",
       "note": {
         "en": "Activates Basics together and supplies multipliers; different buff variants are needed, and later turns still need draw support.",
-        "vi": "Kích hoạt bài Cơ bản cùng lúc và cung cấp hiệu ứng tăng cường nhân; cần các biến thể hiệu ứng tăng cường khác nhau, các lượt sau vẫn cần hỗ trợ rút bài."
+        "vi": "Rei có thể kích hoạt cùng lúc các lá bài cơ bản trên tay và tăng sát thương theo hệ số nhân. Cần kết hợp các biến thể buff khác nhau vì cùng một buff không cộng dồn. Ở những lượt sau, đội vẫn cần thêm nhân vật hỗ trợ Draw."
       }
     },
     {
       "name": "Nia",
       "note": {
         "en": "Forbidden: Hunger supports AP and draw; Adagio into G-Chord can play expensive cards more cheaply.",
-        "vi": "Forbidden: Hunger hỗ trợ Điểm hành động và rút bài; Adagio nối G-Chord có thể dùng bài đắt với chi phí thấp hơn."
+        "vi": "Forbidden: Hunger cung cấp AP và hỗ trợ Draw. Kết hợp Adagio với G-Chord để kích hoạt các lá có chi phí cao mà tốn ít AP hơn."
       }
     },
     {
       "name": "Veronica",
       "note": {
         "en": "Draw and Divine AP address both resource needs, though further AP Divines may still be necessary.",
-        "vi": "Rút bài và Thần thánh Điểm hành động đáp ứng cả hai nhu cầu tài nguyên, nhưng có thể vẫn cần thêm Thần thánh Điểm hành động."
+        "vi": "Veronica hỗ trợ Draw và tạo AP qua Divine Epiphany. Đội có thể vẫn cần thêm hiệu ứng tạo AP trên các nhân vật khác."
       }
     },
     {
       "name": "Narja",
       "note": {
         "en": "Basic Attack buffs and persistent discounts reward repeated expensive plays, but Narja provides no innate draw.",
-        "vi": "Hiệu ứng tăng cường Tấn công cơ bản và giảm chi phí duy trì hỗ trợ dùng lại bài đắt, nhưng Narja không có rút bài sẵn trong bộ kỹ năng."
+        "vi": "Narja tăng sức mạnh cho bài tấn công cơ bản và giảm chi phí trong cả lượt, phù hợp khi liên tục kích hoạt lại các lá tốn nhiều AP. Tuy nhiên, bộ kỹ năng của Narja không có sẵn khả năng Draw."
       }
     },
     {
       "name": "Mei Lin",
       "note": {
         "en": "Rhythm conversion and frequent Passion plays enable dual damage, but AP, draw and boss Elasticity constrain the setup.",
-        "vi": "Chuyển đổi Rhythm và dùng nhiều bài Đam mê hỗ trợ hai chủ lực, nhưng Điểm hành động, rút bài và Đàn hồi của trùm hạn chế bộ này."
+        "vi": "Rhythm thay thế bài cơ bản và giúp dùng nhiều lá hệ Passion, tạo điều kiện cho cả Tenebria lẫn Mei Lin gây sát thương. Đội cần nhiều AP và Draw; hiệu ứng Elasticity của trùm cũng hạn chế cách chơi này."
       }
     }
   ],
@@ -1614,7 +1916,7 @@
     {
       "name": {
         "en": "Encore! Encore!",
-        "vi": "Tenebria và Nia đánh liên tiếp"
+        "vi": "Encore! Encore!"
       },
       "members": [
         "Tenebria",
@@ -1623,15 +1925,23 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "Apply Rei buffs.",
+          "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+        },
+        {
+          "en": "Use Nia for draw and AP.",
+          "vi": "Dùng Nia để Draw và tạo AP."
+        },
+        {
+          "en": "Activate the 5-cost Rhythm: Arpeggio immediately before Encore I.",
+          "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I để kích hoạt lại lá đó."
         }
       ]
     },
     {
       "name": {
         "en": "TeneBRICK",
-        "vi": "Tenebria tập trung sát thương"
+        "vi": "TeneBRICK"
       },
       "members": [
         "Tenebria",
@@ -1640,15 +1950,23 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "Apply Rei buffs.",
+          "vi": "Dùng các hiệu ứng tăng sức mạnh của Rei trước."
+        },
+        {
+          "en": "Use Nia for draw and AP.",
+          "vi": "Dùng Nia để Draw và tạo AP."
+        },
+        {
+          "en": "Use Spotlight III to activate Rhythm cards.",
+          "vi": "Dùng Spotlight III kích hoạt các lá Rhythm."
         }
       ]
     },
     {
       "name": {
         "en": "Common-Core Rhythm",
-        "vi": "Tenebria với bài chung"
+        "vi": "Common-Core Rhythm"
       },
       "members": [
         "Tenebria",
@@ -1657,15 +1975,19 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "Chain Common Card draws to find Rei buffs and Encore.",
+          "vi": "Liên tục Draw Common Card để tìm các lá tăng sức mạnh của Rei và các lá Encore."
+        },
+        {
+          "en": "Activate the 5-cost Rhythm: Arpeggio, then Encore I.",
+          "vi": "Kích hoạt Rhythm: Arpeggio có chi phí gốc 5 AP, rồi dùng Encore I."
         }
       ]
     },
     {
       "name": {
         "en": "Common-Core Magna-tude",
-        "vi": "Magna với bài chung"
+        "vi": "Common-Core Magna-tude"
       },
       "members": [
         "Tenebria",
@@ -1674,8 +1996,16 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "Play upgrades and Rei buffs.",
+          "vi": "Dùng các lá Upgrade và hiệu ứng tăng sức mạnh của Rei."
+        },
+        {
+          "en": "Take one hit to trigger Magna's Vulnerable.",
+          "vi": "Nhận một đòn đánh để kích hoạt Vulnerable của Magna."
+        },
+        {
+          "en": "Start Tenebria's Rhythm combo.",
+          "vi": "Triển khai combo Rhythm của Tenebria."
         }
       ]
     }

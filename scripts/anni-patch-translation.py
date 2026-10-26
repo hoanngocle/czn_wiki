@@ -651,7 +651,7 @@ TRANSLATIONS = r"""
 1099|Xin cảm ơn.
 """
 
-# Dictionary for labels and named game objects; identifiers remain available in parentheses.
+# Legacy spellings are retained here for recognizing old authored translations.
 NAMED={
 'Tear of God':'Nước Mắt Thần',
 'Core of the Reverse':'Lõi Nghịch Chuyển',
@@ -727,13 +727,13 @@ LABELS={
 }
 def fallback(s):
  if s in LABELS:return LABELS[s]
- if s in NAMED:return NAMED[s]+' ('+s+')'
+ if s in NAMED:return s
  if re.fullmatch(r'\d+ times per account',s):return s.split()[0]+' lần mỗi tài khoản'
  # Item names followed by quantities, expiry labels, or epiphany variant names.
  for key in sorted(NAMED,key=len,reverse=True):
   if s.startswith(key) and (not s[len(key):] or s[len(key)] in ' ([x'):
    rest=s[len(key):].replace('Time-Limited','Có Thời Hạn')
-   return NAMED[key]+' ('+key+')'+rest
+   return key+rest
  s=s.replace('Crystal (Paid)','Pha Lê (Trả Phí)').replace('Crystal x','Pha Lê x')
  s=re.sub(r'(\d{2}/\d{2}/\d{4}) after the maintenance',r'sau bảo trì ngày \1',s)
  s=re.sub(r'(\d{2}/\d{2}/\d{4}) before the maintenance',r'trước bảo trì ngày \1',s)
@@ -748,6 +748,12 @@ def localize_dates(text):
  # Match actual source calendar dates, never the Bind stack limit (1/20).
  return re.sub(r'(?<!\d)(10/21|10/28|11/04|11/03|11/24|11/11|12/02|12/23|9/30)(/2026)?(?!\d)',lambda m: m[1].split('/')[1].zfill(2)+'/'+m[1].split('/')[0].zfill(2)+(m[2] or ''),text)
 
+def normalize_names(value,pairs=False):
+ import subprocess
+ command=['node',str(ROOT/'scripts/normalize-game-terms.mjs')]+(['--pairs'] if pairs else [])
+ result=subprocess.run(command,input=json.dumps(value,ensure_ascii=False),text=True,encoding='utf-8',capture_output=True,check=True,cwd=ROOT)
+ return json.loads(result.stdout)
+
 def build():
  import shutil
  source_html=SOURCE.read_text(encoding='utf-8').split('<div class="entry-content is-layout-flow">',1)[1].split('Read the full article on the official site',1)[0]
@@ -760,6 +766,11 @@ def build():
  for line in TRANSLATIONS.splitlines():
   if '|' in line:
    key,value=line.split('|',1);translated[int(key)]=value.replace('\\n','\n')
+ # Normalize in one batch with each original English cell as context. This
+ # distinguishes Bind from Linked and Memory Fragments from Shards of Memory.
+ original_entries=[text for block in extract() for text in ([block['text']] if block['type']=='paragraph' else [cell for row in block['rows'] for cell in row] if block['type']=='table' else [])]
+ normalized=normalize_names([{'source':original,'text':localize_dates(translated.get(index,fallback(original)))} for index,original in enumerate(original_entries)],True)
+ protected_names=set(NAMED)|set(LABELS)|set(json.loads((ROOT/'data/wiki/translations/game-term-aliases.json').read_text(encoding='utf-8')))|set(json.loads((ROOT/'data/wiki/translations/vi/terminology.json').read_text(encoding='utf-8')))
  article={'slug':'2026-10-21-update','title':'Thông báo cập nhật 21/10 (Thứ Tư)','description':'Bản dịch đầy đủ thông báo cập nhật 21/10/2026: Thảm Họa Thiên Hà Mùa 5, Rossweisse, Sig, Lễ Hội Ác Mộng, hệ thống mới, cải tiến và sửa lỗi.','date':'2026-10-21','kind':'patch-note','sources':[{'name':'STOVE — thông báo chính thức','url':'https://page.onstove.com/chaoszeronightmare/en/view/14593128'},{'name':'CZN.gg — bản lưu nguồn','url':'https://czn.gg/10-21wed-update-notice/'}],'sections':[{'id':'overview','title':'Thông báo cập nhật','blocks':[{'type':'paragraph','text':'Ngày trong bản dịch được trình bày theo thứ tự ngày/tháng/năm. Các mốc giờ ghi UTC được giữ nguyên theo thông báo nguồn.'}]}]}
  i=0;section_count=0;checks=[];untranslated=[];imgcount=0
  target=ROOT/'public/assets/anni/patch-note';target.mkdir(parents=True,exist_ok=True)
@@ -769,16 +780,21 @@ def build():
   assert re.fullmatch(r'[a-f0-9]{32}\.(jpg|png|webp)',name),name
   source=SOURCE.parent/src.removeprefix('./')
   assert source.is_file(),source
-  shutil.copyfile(source,target/name);imgcount+=1
+  destination=target/name
+  if not destination.exists() or source.read_bytes()!=destination.read_bytes():shutil.copyfile(source,destination)
+  imgcount+=1
   result={'type':'image','src':'/assets/anni/patch-note/'+name,'alt':alt or 'Hình minh họa: '+article['sections'][-1]['title']}
   if name in IMAGE_CAPTIONS:result['caption']=IMAGE_CAPTIONS[name]
   return result
  def translate(original):
   nonlocal i
   index=i;i+=1
-  result=localize_dates(translated.get(index,fallback(original)))
+  result=normalized[index]
   # Prose is explicitly translated. Unchanged proper names, numbers and symbols are valid.
-  if result==original and re.search(r'\b(the|when|will|increase|after|before|per|with|and|times)\b',original,re.I):untranslated.append((index,original))
+  prose=original
+  if result==original:
+   for name in sorted(protected_names,key=len,reverse=True):prose=prose.replace(name,'')
+   if re.search(r'\b(the|when|will|increase|after|before|per|with|and|times)\b',prose,re.I):untranslated.append((index,original))
   oldnums=re.findall(r'\d+(?:[,.]\d+)*',original)
   newnums=re.findall(r'\d+(?:[,.]\d+)*',result)
   oldnums=[str(int(n)) if n.isdigit() else n for n in oldnums]
@@ -817,6 +833,7 @@ def build():
  assert section_count==len(SECTION_IDS),(section_count,len(SECTION_IDS))
  assert not untranslated,untranslated
  assert not checks,checks
+ article=normalize_names(article)
  out=ROOT/'data/wiki/articles/2026-10-21-update.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(article,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(json.dumps({'text_entries':i,'sections':len(article['sections']),'tables':sum(b['type']=='table' for s in article['sections'] for b in s['blocks']),'images':imgcount,'output':str(out)},ensure_ascii=False))
 if __name__=='__main__':build()

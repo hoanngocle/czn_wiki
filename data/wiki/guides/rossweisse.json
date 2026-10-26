@@ -49,6 +49,11 @@
       "width": 260,
       "height": 460
     },
+    "Rossweisse artwork": {
+      "src": "/assets/combatant/portrait_character_crop_half_30134.webp",
+      "width": 260,
+      "height": 460
+    },
     "Mika": {
       "src": "/assets/combatant/portrait_character_crop_half_1039.webp",
       "width": 260,
@@ -187,7 +192,7 @@
     "cons": [
       {
         "en": "An unplayable non-Light/Dark/Bind card can prevent coalescence.",
-        "vi": "Một lá không thuộc Light/Dark/Bind mà không xử lý được có thể chặn hợp nhất."
+        "vi": "Một lá không thuộc Light/Dark/Bind mà không xử lý được có thể chặn Coalescence."
       },
       {
         "en": "Random shard hits and extra attacks can spend debuff or next-attack buff charges before the finisher.",
@@ -228,7 +233,7 @@
     {
       "name": {
         "en": "Attack",
-        "vi": "Tấn công"
+        "vi": "Attack"
       },
       "value": {
         "en": "Prioritize ATK for damage scaling.",
@@ -238,7 +243,7 @@
     {
       "name": {
         "en": "Critical Chance",
-        "vi": "Tỷ lệ chí mạng"
+        "vi": "Critical Chance"
       },
       "value": {
         "en": "Favor consistency for the single-hit finisher; no fixed target is established.",
@@ -248,11 +253,11 @@
     {
       "name": {
         "en": "Critical Damage",
-        "vi": "Sát thương chí mạng"
+        "vi": "Critical Damage"
       },
       "value": {
         "en": "Balance with Critical Chance and available buffs.",
-        "vi": "Cân bằng với tỷ lệ chí mạng và buff sẵn có."
+        "vi": "Cân bằng với Critical Chance và buff sẵn có."
       }
     }
   ],
@@ -294,7 +299,7 @@
     {
       "title": {
         "en": "4. Prepare buffs before coalescence",
-        "vi": "4. Chuẩn bị buff trước hợp nhất"
+        "vi": "4. Chuẩn bị buff trước Coalescence"
       },
       "body": {
         "en": "Use Kyrken's Apostle and preserve Brand for the finisher. Tiphera's first-hit buffs should follow smaller attacks and shard triggers. A targeted buff card still in hand can block Flicker Blade from forming; do not assume it can target the future Equilux.",
@@ -308,7 +313,7 @@
       },
       "body": {
         "en": "Flickering White Night costs 6 EP, not AP; use it before the intended Equilux. Unbound has Finale. Mika's Blessing of Waves V also ends the turn. Normal discard does not guarantee a shard returns; verify Blink/Retrieve behavior before attempting repeated coalescence.",
-        "vi": "Flickering White Night tốn 6 EP, không phải AP; dùng trước Equilux muốn cường hóa. Unbound có Finale. Blessing of Waves V của Mika cũng kết thúc lượt. Discard thông thường không bảo đảm trả mảnh kiếm; cần kiểm chứng Blink/Retrieve trước khi thử hợp nhất nhiều lần."
+        "vi": "Flickering White Night tốn 6 EP, không phải AP; dùng trước Equilux muốn cường hóa. Unbound có Finale. Blessing of Waves V của Mika cũng kết thúc lượt. Discard thông thường không bảo đảm trả mảnh kiếm; cần kiểm chứng Blink/Retrieve trước khi thử Coalescence nhiều lần."
       }
     }
   ],
@@ -355,7 +360,7 @@
       "score": "AP / Buff",
       "note": {
         "en": "Kyrken's Apostle gains 1 AP; Aegis becomes 30% Attack Card damage and 20% final Flicker Blade damage. Improves resource flow.",
-        "vi": "Kyrken’s Apostle thêm 1 AP; Aegis thành 30% sát thương bài tấn công và 20% sát thương cuối Flicker Blade. Hỗ trợ vận hành tài nguyên."
+        "vi": "Kyrken’s Apostle thêm 1 AP; Aegis thành 30% sát thương Attack Card và 20% sát thương cuối Flicker Blade. Hỗ trợ vận hành tài nguyên."
       }
     },
     {
@@ -371,7 +376,7 @@
       "score": "Ego",
       "note": {
         "en": "Ego damage increases by 400%; the follow-up Fixed Damage ratio increases from 30% to 60%.",
-        "vi": "Sát thương Ego thêm 400%; tỷ lệ sát thương cố định đi kèm tăng từ 30% lên 60%."
+        "vi": "Sát thương Ego thêm 400%; tỷ lệ Fixed Damage đi kèm tăng từ 30% lên 60%."
       }
     },
     {
@@ -395,7 +400,7 @@
       "score": "Hand / Damage",
       "note": {
         "en": "Equilux, Light and Dark no longer count toward hand capacity; Blade Poised Against the Cycle adds final-damage buffs. Hand-cap relief does not remove the coalescence condition.",
-        "vi": "Equilux, Light và Dark không còn chiếm giới hạn tay bài; Blade Poised Against the Cycle tăng sát thương cuối. Giảm áp lực giới hạn tay không xóa điều kiện hợp nhất."
+        "vi": "Equilux, Light và Dark không còn chiếm giới hạn tay bài; Blade Poised Against the Cycle tăng sát thương cuối. Giảm áp lực giới hạn tay không xóa điều kiện Coalescence."
       }
     }
   ],
@@ -442,7 +447,7 @@
     {
       "name": {
         "en": "Cycle — Draw / Discard",
-        "vi": "Cycle — rút / bỏ bài"
+        "vi": "Cycle — rút / Discard"
       },
       "role": {
         "en": "Rossweisse + Mika + Nia · Hand control",
@@ -475,7 +480,7 @@
       "fragments": [],
       "note": {
         "en": "Use Adagio to trigger skill-based Draw and Discard, each shard capped at two passive triggers per turn. Discard spare cards deliberately. Radiant Sword Flow II can discard a shard, proc it and return it; ordinary discard cannot be treated as equivalent.",
-        "vi": "Dùng Adagio tạo sự kiện Draw và Discard qua kỹ năng; mỗi mảnh giới hạn 2 trigger thụ động/lượt. Chủ động bỏ bài thừa. Radiant Sword Flow II có thể bỏ mảnh kiếm, proc rồi trả về; không áp dụng giả định này cho discard thông thường."
+        "vi": "Dùng Adagio tạo sự kiện Draw và Discard qua kỹ năng; mỗi mảnh giới hạn 2 trigger thụ động/lượt. Chủ động Discard thừa. Radiant Sword Flow II có thể bỏ mảnh kiếm, proc rồi trả về; không áp dụng giả định này cho discard thông thường."
       }
     },
     {
@@ -514,7 +519,7 @@
       "fragments": [],
       "note": {
         "en": "Radiant Sword Flow V gives 15% damage per Justice card in hand, capped at 75%; use it before clearing Justice cards. Blade of the Cycle IV is cheaper with Purity. All three allies are Justice, but neutral/generated cards still require attention. Beryl focuses on Guilty Pleasure and Unlimited Firepower IV rather than retaining expensive attacks.",
-        "vi": "Radiant Sword Flow V tăng 15% sát thương mỗi bài Justice trên tay, tối đa 75%; dùng trước khi dọn bài Justice. Blade of the Cycle IV giảm cost khi đạt Purity. Ba Combatant đều Justice nhưng vẫn phải xét bài trung lập/được tạo. Beryl tập trung Guilty Pleasure và Unlimited Firepower IV, hạn chế giữ bài tấn công đắt."
+        "vi": "Radiant Sword Flow V tăng 15% sát thương mỗi bài Justice trên tay, tối đa 75%; dùng trước khi dọn bài Justice. Blade of the Cycle IV giảm cost khi đạt Purity. Ba Combatant đều Justice nhưng vẫn phải xét bài Neutral/được tạo. Beryl tập trung Guilty Pleasure và Unlimited Firepower IV, hạn chế giữ Attack Card đắt."
       }
     },
     {
@@ -592,7 +597,7 @@
       "fragments": [],
       "note": {
         "en": "Blink shards cost 0 and have Retrieve. Light removes a random Status Ailment/Curse; Dark discards a random other-Combatant card. Resolve valuable ally cards first. Sword Resonance III applies Retrieve but does not create three Tassel. Verify return timing and avoid replaying away the only shard needed for coalescence; no infinite loop is assumed.",
-        "vi": "Shard Blink tốn 0 và có Retrieve. Light bỏ ngẫu nhiên một Status Ailment/Curse; Dark bỏ ngẫu nhiên bài Combatant khác. Chơi bài hỗ trợ quan trọng trước. Sword Resonance III cấp Retrieve nhưng không tạo 3 Tassel. Kiểm chứng thời điểm trả bài, tránh đánh mất mảnh duy nhất cần hợp nhất; không giả định combo vô hạn."
+        "vi": "Shard Blink tốn 0 và có Retrieve. Light bỏ ngẫu nhiên một Status Ailment/Curse; Dark bỏ ngẫu nhiên bài Combatant khác. Chơi bài hỗ trợ quan trọng trước. Sword Resonance III cấp Retrieve nhưng không tạo 3 Tassel. Kiểm chứng thời điểm trả bài, tránh đánh mất mảnh duy nhất cần Coalescence; không giả định combo vô hạn."
       }
     },
     {
@@ -602,7 +607,7 @@
       },
       "role": {
         "en": "Rossweisse + Mika + Magna · Defensive alternative",
-        "vi": "Rossweisse + Mika + Magna · Phương án phòng thủ"
+        "vi": "Rossweisse + Mika + Magna · Phương án DEF"
       },
       "partner": "",
       "cards": [
@@ -661,14 +666,14 @@
       "name": "Beryl",
       "note": {
         "en": "Justice support: Guilty Pleasure draws cheaply; Unlimited Firepower IV buffs the next Attack Card without restricting its owner. Other self-only variants do not buff Ross.",
-        "vi": "Hỗ trợ Justice: Guilty Pleasure rút bài rẻ; Unlimited Firepower IV buff bài tấn công kế tiếp không giới hạn chủ sở hữu. Các bản chỉ buff bản thân không tăng sát thương Ross."
+        "vi": "Hỗ trợ Justice: Guilty Pleasure rút bài rẻ; Unlimited Firepower IV buff Attack Card kế tiếp không giới hạn chủ sở hữu. Các bản chỉ buff bản thân không tăng sát thương Ross."
       }
     },
     {
       "name": "Magna",
       "note": {
         "en": "Justice defender with Shield and Vulnerable. Useful for difficult incoming damage, but her expensive cards and debuff consumption must fit the rotation.",
-        "vi": "Phòng thủ Justice với Shield và Vulnerable. Hợp màn áp lực sát thương, nhưng cần cân đối bài đắt và số tầng debuff bị tiêu trong chuỗi."
+        "vi": "DEF Justice với Shield và Vulnerable. Hợp màn áp lực sát thương, nhưng cần cân đối bài đắt và số tầng debuff bị tiêu trong chuỗi."
       }
     },
     {
@@ -722,7 +727,7 @@
         },
         {
           "en": "Discard spare cards; use Radiant Sword Flow II when discarding a shard so its return is explicitly supported.",
-          "vi": "Bỏ bài thừa; nếu bỏ Shard, dùng Radiant Sword Flow II để có hiệu ứng trả về rõ ràng."
+          "vi": "Discard thừa; nếu bỏ Shard, dùng Radiant Sword Flow II để có hiệu ứng trả về rõ ràng."
         },
         {
           "en": "Stop drawing when both passive trigger caps are met and the hand can be cleared. Preserve Brand for Flicker Blade.",
@@ -751,7 +756,7 @@
         },
         {
           "en": "Resolve smaller attacks before Unlimited Firepower IV. Clear Beryl's remaining cards and finish with Ross; do not keep a Beryl Retain stack at the expense of coalescence.",
-          "vi": "Xử lý đòn nhỏ trước Unlimited Firepower IV. Dọn bài Beryl rồi kết liễu bằng Ross; không giữ bài Retain Beryl đến mức chặn hợp nhất."
+          "vi": "Xử lý đòn nhỏ trước Unlimited Firepower IV. Dọn bài Beryl rồi kết liễu bằng Ross; không giữ bài Retain Beryl đến mức chặn Coalescence."
         }
       ]
     },

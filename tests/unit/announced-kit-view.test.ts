@@ -16,6 +16,6 @@ it("shows published generated and Ego cards without a guide or fabricated Potent
   expect(html).toContain('aria-label="Flickering White Night card"');
   expect(html).toContain("Unactivatable");
   expect(html).toContain("EP");
-  expect(html).toContain("Chưa được công bố");
+  expect(html).toContain("Chưa có thông tin.");
   expect(html).not.toContain("card_rarity_unknown.webp");
 });

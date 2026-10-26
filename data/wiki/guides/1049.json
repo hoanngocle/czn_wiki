@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Quest generation combines additive damage buffs, draw and defensive effects in one support package.",
-    "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, rút bài và hiệu ứng phòng thủ trong một bộ hỗ trợ."
+    "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, Draw và hiệu ứng DEF trong một bộ hỗ trợ."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1049.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -1065,19 +1065,19 @@
   "review": {
     "intro": {
       "en": "Quest generation combines additive damage buffs, draw and defensive effects in one support package.",
-      "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, rút bài và hiệu ứng phòng thủ trong một bộ hỗ trợ."
+      "vi": "Tạo bài phần thưởng nhiệm vụ để kết hợp tăng sát thương cộng thêm, Draw và hiệu ứng DEF trong một bộ hỗ trợ."
     },
     "profile": [],
     "pros": [
       {
         "en": "Exhaust Quests quickly enable Glory's Reign; common Epiphanies ease deck editing.",
-        "vi": "Bài phần thưởng nhiệm vụ có Kiệt sức giúp kích hoạt Glory’s Reign nhanh; nhiều Thức tỉnh bài hữu dụng giúp điều chỉnh bộ bài dễ hơn."
+        "vi": "Bài phần thưởng nhiệm vụ có Exhaust giúp kích hoạt Glory’s Reign nhanh; nhiều Epiphanies hữu dụng giúp điều chỉnh bộ bài dễ hơn."
       }
     ],
     "cons": [
       {
         "en": "Pop-Eyed Piper makes players choose between Initiation and selecting a Quest, weakening opening consistency.",
-        "vi": "Pop-Eyed Piper buộc chọn giữa Khởi đầu và khả năng chọn phần thưởng nhiệm vụ, khiến lượt đầu kém ổn định."
+        "vi": "Pop-Eyed Piper buộc chọn giữa Initiation và khả năng chọn phần thưởng nhiệm vụ, khiến lượt đầu kém ổn định."
       }
     ],
     "mechanics": [
@@ -1085,7 +1085,7 @@
         "title": "Devil Dice",
         "body": {
           "en": "160% Damage; Draw 1",
-          "vi": "Gây 160% sát thương; Rút bài 1"
+          "vi": "Gây 160% sát thương; Draw 1"
         },
         "cardId": "c_1049_uni1"
       },
@@ -1093,7 +1093,7 @@
         "title": "Shuffle",
         "body": {
           "en": "Discard all cards in hand; Draw for each Discarded",
-          "vi": "Bỏ bài toàn bộ bài trên tay; Rút bài với mỗi lá đã bỏ"
+          "vi": "Discard toàn bộ bài trên tay; Draw với mỗi lá đã bỏ"
         },
         "cardId": "c_1049_uni2"
       },
@@ -1101,7 +1101,7 @@
         "title": "Dice Trick",
         "body": {
           "en": "240% Damage; Decrease Morale by 1 for 1 turn; Decrease Cost by the number of completed Quests",
-          "vi": "Gây 240% sát thương; Giảm Sĩ khí đi 1 trong 1 lượt; Giảm chi phí bằng số Nhiệm vụ đã hoàn thành"
+          "vi": "Gây 240% sát thương; Giảm Morale đi 1 trong 1 lượt; Giảm chi phí bằng số Mission đã hoàn thành"
         },
         "cardId": "c_1049_uni3"
       }
@@ -1120,11 +1120,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV lets you select a Quest and avoids repeated resets. I is reasonable only when restarting for favorable outcomes is easy.",
-        "vi": "IV cho chọn Nhiệm vụ, giảm nhu cầu khởi động lại. I hợp lý khi có thể dễ dàng chơi lại để tìm kết quả thuận lợi."
+        "vi": "IV cho chọn Mission, giảm nhu cầu khởi động lại. I hợp lý khi có thể dễ dàng chơi lại để tìm kết quả thuận lợi."
       },
       "divine": {
         "en": "Prefer Morale/Resolve; neutral bonuses generally do not compensate for lost consistency.",
-        "vi": "Ưu tiên Sĩ khí/Quyết tâm; phần thưởng trung lập thường không bù được độ ổn định bị mất."
+        "vi": "Ưu tiên Morale/Resolve; phần thưởng Neutral thường không bù được độ ổn định bị mất."
       }
     },
     {
@@ -1143,7 +1143,7 @@
       },
       "divine": {
         "en": "Neutral 2 Morale is strong; cost reduction, AP or Vulnerable depend on the chosen variant.",
-        "vi": "2 Sĩ khí trung lập mạnh; giảm chi phí, Điểm hành động hoặc Dễ tổn thương tùy biến thể đã chọn."
+        "vi": "2 Morale Neutral mạnh; giảm chi phí, AP hoặc Vulnerable tùy biến thể đã chọn."
       }
     },
     {
@@ -1158,11 +1158,11 @@
       "preferred": "III",
       "note": {
         "en": "III refills five cards after the hand is spent and reshuffles the deck. II preserves selected cards; IV helps when AP is limited.",
-        "vi": "III rút bù năm lá sau khi dùng hết bài trên tay và xáo lại bộ bài. II giữ lá được chọn; IV phù hợp khi thiếu Điểm hành động."
+        "vi": "III rút bù năm lá sau khi dùng hết bài trên tay và xáo lại bộ bài. II giữ lá được chọn; IV phù hợp khi thiếu AP."
       },
       "divine": {
         "en": "Neutral 1 AP saves Faint Memory; cost reduction or 2 Vulnerable are useful divines.",
-        "vi": "1 Điểm hành động trung lập tiết kiệm Ký ức phai nhạt nhạt; giảm chi phí hoặc 2 Dễ tổn thương là thần thánh hữu ích."
+        "vi": "1 AP Neutral tiết kiệm Faint Memory nhạt; giảm chi phí hoặc 2 Vulnerable là Divine hữu ích."
       }
     },
     {
@@ -1177,11 +1177,11 @@
       "preferred": "V",
       "note": {
         "en": "V adds draw when a Quest reward draws; III improves first-turn affordability when cost reductions have not started.",
-        "vi": "V thêm rút bài khi phần thưởng Nhiệm vụ có rút bài; III dễ dùng ở lượt đầu khi chưa bắt đầu giảm chi phí."
+        "vi": "V thêm Draw khi phần thưởng Mission có Draw; III dễ dùng ở lượt đầu khi chưa bắt đầu giảm chi phí."
       },
       "divine": {
         "en": "Neutral AP, Draw 1 or 3 Morale exploits the original cost pool; 2 Vulnerable is a useful divine.",
-        "vi": "Điểm hành động, Rút 1 hoặc 3 Sĩ khí trung lập tận dụng nhóm chi phí gốc; 2 Dễ tổn thương là thần thánh hữu ích."
+        "vi": "AP, Rút 1 hoặc 3 Morale Neutral tận dụng nhóm chi phí gốc; 2 Vulnerable là Divine hữu ích."
       }
     }
   ],
@@ -1191,7 +1191,7 @@
       "score": "—",
       "note": {
         "en": "Nyx combines draw/discard utility, supportive stats and a small team buff at any Ego level.",
-        "vi": "Nyx kết hợp Rút/Bỏ bài, chỉ số hỗ trợ và tăng sức mạnh nhẹ toàn đội ở mọi cấp Ego."
+        "vi": "Nyx kết hợp Rút/Discard, chỉ số hỗ trợ và tăng sức mạnh nhẹ toàn đội ở mọi cấp Ego."
       }
     },
     {
@@ -1199,7 +1199,7 @@
       "score": "—",
       "note": {
         "en": "Yuri's off-class passives do not work, but her inexpensive draw Ego remains a strong free alternative.",
-        "vi": "Nội tại Yuri không hoạt động do khác lớp, nhưng kỹ năng Ego Rút bài ít tốn năng lượng vẫn là lựa chọn miễn phí tốt."
+        "vi": "Nội tại Yuri không hoạt động do khác lớp, nhưng kỹ năng Ego Draw ít tốn năng lượng vẫn là lựa chọn miễn phí tốt."
       }
     },
     {
@@ -1207,7 +1207,7 @@
       "score": "—",
       "note": {
         "en": "Arwen trades utility for strong survivability through passive incoming-damage reduction.",
-        "vi": "Arwen đánh đổi tiện ích để tăng khả năng sống sót bằng nội tại giảm sát thương phải chịu."
+        "vi": "Arwen đánh đổi tiện ích để tăng khả năng sống sót bằng nội tại Damage Reduction phải chịu."
       }
     },
     {
@@ -1215,7 +1215,7 @@
       "score": "—",
       "note": {
         "en": "Alyssa offers defense and passive healing instead of Arwen's mitigation, useful when defense scaling matters.",
-        "vi": "Alyssa tăng Phòng thủ và hồi máu nội tại thay cho giảm sát thương của Arwen, hữu ích khi đội cần chỉ số Phòng thủ."
+        "vi": "Alyssa tăng DEF và hồi máu nội tại thay cho giảm sát thương của Arwen, hữu ích khi đội cần chỉ số DEF."
       }
     },
     {
@@ -1223,7 +1223,7 @@
       "score": "—",
       "note": {
         "en": "Choose Yvonne over Yuri when a free stat bonus matters more than draw utility.",
-        "vi": "Chọn Yvonne thay Yuri khi cần thưởng chỉ số miễn phí hơn là tiện ích Rút bài."
+        "vi": "Chọn Yvonne thay Yuri khi cần thưởng chỉ số miễn phí hơn là tiện ích Draw."
       }
     }
   ],
@@ -1233,7 +1233,7 @@
       "score": "—",
       "note": {
         "en": "Core Exhaust cards keep Glory's Reign useful, provided no teammate already supplies its buff.",
-        "vi": "Các lá Kiệt sức chủ lực tận dụng tốt Glory's Reign nếu chưa có đồng đội cung cấp hiệu ứng này."
+        "vi": "Các lá Exhaust chủ lực tận dụng tốt Glory's Reign nếu chưa có đồng đội cung cấp hiệu ứng này."
       }
     },
     {
@@ -1249,11 +1249,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
@@ -1263,65 +1263,65 @@
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "DEF% = HP% > EGO Regen",
-        "vi": "Phòng thủ% = Máu% > Hồi năng lượng Ego"
+        "vi": "DEF% = HP% > Hồi năng lượng Ego"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "DEF > DEF% = HP > HP% > EGO Regen",
-        "vi": "Phòng thủ > Phòng thủ% = Máu > Máu% > Hồi năng lượng Ego"
+        "vi": "DEF > DEF% = HP > HP% > Hồi năng lượng Ego"
       }
     }
   ],
   "critNote": {
     "en": "When playing Cassius as a support, if possible, we recommend building him toward having 701+ HP in the character screen so that his Potential 7 is fully active and grants Fortitude every time a Quest is activated. This isn't a mandatory stat goal, but in certain Cassius builds and encounters is an incredibly potent defensive tool.",
-    "vi": "Khi chơi hỗ trợ, có thể hướng tới 701+ máu trên màn hình nhân vật để tiềm năng 7 cấp Kiên cường mỗi lần hoàn thành nhiệm vụ. Không bắt buộc, nhưng rất mạnh về phòng thủ trong một số bộ bài và trận đấu."
+    "vi": "Khi chơi hỗ trợ, có thể hướng tới 701+ HP trên màn hình nhân vật để Potential 7 cấp Fortitude mỗi lần hoàn thành nhiệm vụ. Không bắt buộc, nhưng rất mạnh về DEF trong một số bộ bài và trận đấu."
   },
   "potentialIntro": {
     "en": "3-1: Grants a 30% chance to Draw 1 to both of Cassius’ Basic Attacks. 30% isn’t enough to count on, but it can help a little bit early in your run if you draw poorly. It’s not as impactful as some other Combatants’ 3-1s can be.5-1: Increases his Basic Attacks’ damage. Makes them a little better to play in conjunction with 3-1, but you’ll likely still end up removing them from your deck.7: Incredible. Getting Morale and Fortitude for a turn every time you complete a Quest makes Cassius an even more potent support. You already want to complete Quests early in a turn, but this makes it even more important if you want to take advantage of Morale.",
-    "vi": "Tiềm năng 3-1 cho hai bài tấn công cơ bản 30% cơ hội rút 1 lá, hữu ích khi rút bài kém nhưng thiếu ổn định; 5-1 tăng sát thương bài cơ bản, thường vẫn xóa về cuối chuyến thám hiểm. Ưu tiên tiềm năng 7 vì hoàn thành nhiệm vụ cho Sĩ khí và Kiên cường trong 1 lượt, nên hoàn thành nhiệm vụ sớm trong lượt để tận dụng hiệu ứng."
+    "vi": "Potential 3-1 cho hai Attack Card cơ bản 30% cơ hội rút 1 lá, hữu ích khi rút bài kém nhưng thiếu ổn định; 5-1 tăng sát thương Basic Cards, thường vẫn xóa về cuối chuyến thám hiểm. Ưu tiên Potential 7 vì hoàn thành nhiệm vụ cho Morale và Fortitude trong 1 lượt, nên hoàn thành nhiệm vụ sớm trong lượt để tận dụng hiệu ứng."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add a 30% chance to draw 1 card to Card and Wild Card.",
-        "vi": "Thêm 30% xác suất rút 1 lá cho Thẻ bài và Wild Card."
+        "vi": "Thêm 30% xác suất rút 1 lá cho Card và Wild Card."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Cassius's Cards and Wild Card; If Cassius's Health is 600 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Cards và Wild Card của Cassius; Nếu Máu của Cassius từ 600 trở lên, tăng thêm 5% cho chỉ số này"
+        "vi": "Tăng 5% lượng sát thương của Cards và Wild Card của Cassius; Nếu HP của Cassius từ 600 trở lên, tăng thêm 5% cho chỉ số này"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "Upon completing a Quest, gain 1 Morale for 1 turn; If Cassius’s Health is 700 or higher, when a Quest is completed, 1 Fortitude for 1 turn",
-        "vi": "Khi hoàn thành Nhiệm vụ, nhận 1 Sĩ khí trong 1 lượt; Nếu Máu của Cassius từ 700 trở lên, khi hoàn thành Nhiệm vụ, nhận 1 Kiên cường trong 1 lượt"
+        "vi": "Khi hoàn thành Mission, nhận 1 Morale trong 1 lượt; Nếu HP của Cassius từ 700 trở lên, khi hoàn thành Mission, nhận 1 Fortitude trong 1 lượt"
       }
     }
   ],
@@ -1329,7 +1329,7 @@
     {
       "name": {
         "en": "Swamp ()",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1347,7 +1347,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (CURRENT)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1370,7 +1370,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1393,7 +1393,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1414,7 +1414,7 @@
     {
       "name": {
         "en": "Season 1: Laboratory Zero",
-        "vi": "Mùa 1: Laboratory Zero"
+        "vi": "Season 1: Laboratory Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -1434,42 +1434,42 @@
   "seasonal": [
     {
       "name": {
-        "en": "Season 4 (source current season)",
-        "vi": "Mùa 4 (mùa hiện tại theo nguồn)"
+        "en": "Season 4",
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards thường chọn mỗi Lux Engraving tăng 15% sát thương Attack Card của đồng đội trong 1 lượt, hoặc Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -1487,7 +1487,7 @@
       "score": "—",
       "note": {
         "en": "Cassius' 1st Ego node now grants Joker to be able to retrieve a card from your Discard Pile as well. This is an extremely strong first Ego node that increases consistency and provides further utility to Cassius.",
-        "vi": "Joker có thể thu hồi cả bài trong chồng bỏ, tăng mạnh tính ổn định và công dụng hỗ trợ."
+        "vi": "Joker có thể Retrieve cả bài trong chồng bỏ, tăng mạnh tính ổn định và công dụng hỗ trợ."
       }
     },
     {
@@ -1502,8 +1502,8 @@
       "name": "Ego 3",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -1511,15 +1511,15 @@
       "score": "—",
       "note": {
         "en": "E4 buffs his Ego Skill by increasing/further reducing the amount of Ego on enemies by an additional 2, going from 3 stacks of Morale Reduction to 5.",
-        "vi": "Kỹ năng Ego tăng hiệu quả thêm 2 bậc, nâng mức giảm Sĩ khí của địch từ 3 lên 5 cộng dồn."
+        "vi": "Ego Skill tăng hiệu quả thêm 2 bậc, nâng mức giảm Morale của địch từ 3 lên 5 cộng dồn."
       }
     },
     {
       "name": "Ego 5",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -1527,7 +1527,7 @@
       "score": "—",
       "note": {
         "en": "Effectively doubles the strength of the tankiness aspect of Cassius' Pot-7, extremely strong at mitigating enemy damage.",
-        "vi": "Gần như nhân đôi phần phòng thủ của tiềm năng 7, giảm sát thương nhận vào rất mạnh."
+        "vi": "Gần như nhân đôi phần DEF của Potential 7, giảm sát thương nhận vào rất mạnh."
       }
     }
   ],
@@ -1535,11 +1535,11 @@
     {
       "name": {
         "en": "Cassius: Generic Buffer (Season-3)",
-        "vi": "Cassius: Tăng sức mạnh đa dụng mùa 3"
+        "vi": "Cassius: Tăng sức mạnh đa dụng Season 3"
       },
       "role": {
         "en": "Additive Morale buffer",
-        "vi": "Tăng sát thương cộng dồn qua Sĩ khí"
+        "vi": "Tăng sát thương cộng dồn qua Morale"
       },
       "partner": "Nyx",
       "cards": [
@@ -1553,7 +1553,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -1561,7 +1561,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1",
-            "vi": "Nhận 1 Sĩ khí"
+            "vi": "Nhận 1 Morale"
           }
         },
         {
@@ -1569,7 +1569,7 @@
           "count": 1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -1581,7 +1581,7 @@
           "count": 1,
           "effects": {
             "en": "1 AP<br>Apply Initiation to this card",
-            "vi": "Nhận 1 Điểm hành động<br>Áp dụng Khởi đầu cho lá này"
+            "vi": "Nhận 1 AP<br>Áp dụng Initiation cho lá này"
           }
         }
       ],
@@ -1600,17 +1600,17 @@
       ],
       "note": {
         "en": "Combine neutral Morale Epiphanies and useful neutral cards with Pop Eyed Popper quests for additional buffs. This supports many damage patterns, including Diana, Hugo drivers, Fei, and Heidemarie; those team examples do not limit where it can be used.",
-        "vi": "Kết hợp Thức tỉnh bài trung lập tăng Sĩ khí, các lá trung lập hữu ích và nhiệm vụ do Pop Eyed Popper tạo để bổ sung hiệu ứng tăng sức mạnh. Dùng được với nhiều kiểu chủ lực như Diana, các đội kích hoạt Hugo, Fei hoặc Heidemarie; danh sách đội trong nguồn chỉ mang tính tham khảo."
+        "vi": "Kết hợp Epiphanies Neutral tăng Morale, các lá Neutral hữu ích và nhiệm vụ do Pop Eyed Popper tạo để bổ sung hiệu ứng tăng sức mạnh. Dùng được với nhiều kiểu chủ lực như Diana, các đội kích hoạt Hugo, Fei hoặc Heidemarie."
       }
     },
     {
       "name": {
         "en": "Cassius: Sereniel Support (Season-3)",
-        "vi": "Cassius: Hỗ trợ Sereniel mùa 3"
+        "vi": "Cassius: Hỗ trợ Sereniel Season 3"
       },
       "role": {
         "en": "High-cost Morale support",
-        "vi": "Tăng Sĩ khí bằng các lá chi phí cao"
+        "vi": "Tăng Morale bằng các lá chi phí cao"
       },
       "partner": "Nyx",
       "cards": [
@@ -1627,7 +1627,7 @@
           "count": 3,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -1635,7 +1635,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1",
-            "vi": "Nhận 1 Sĩ khí"
+            "vi": "Nhận 1 Morale"
           }
         },
         {
@@ -1643,7 +1643,7 @@
           "count": 1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -1655,7 +1655,7 @@
           "count": 3,
           "effects": {
             "en": "Morale 1",
-            "vi": "Nhận 1 Sĩ khí"
+            "vi": "Nhận 1 Morale"
           }
         },
         {
@@ -1663,7 +1663,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1<br>Apply Initiation to this card",
-            "vi": "Nhận 1 Sĩ khí<br>Áp dụng Khởi đầu cho lá này"
+            "vi": "Nhận 1 Morale<br>Áp dụng Initiation cho lá này"
           }
         },
         {
@@ -1675,7 +1675,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 2",
-            "vi": "Nhận 2 Sĩ khí"
+            "vi": "Nhận 2 Morale"
           }
         }
       ],
@@ -1688,17 +1688,17 @@
       "fragmentPieces": [],
       "note": {
         "en": "Keep the generic buffer's quest and Morale engine, but spend Sereniel's abundant AP on higher-cost cards. This version can avoid cost-reduction Divines on Cassius because Sereniel supplies the resources.",
-        "vi": "Giữ cách tạo Sĩ khí và hoàn thành nhiệm vụ của bản hỗ trợ đa dụng, nhưng tận dụng lượng Điểm hành động dồi dào từ Sereniel để dùng các lá đắt hơn. Nhờ nguồn Điểm hành động này, Cassius không nhất thiết phải dùng Thức tỉnh thần thánh giảm chi phí."
+        "vi": "Giữ cách tạo Morale và hoàn thành nhiệm vụ của bản hỗ trợ đa dụng, nhưng tận dụng lượng AP dồi dào từ Sereniel để dùng các lá đắt hơn. Nhờ nguồn AP này, Cassius không nhất thiết phải dùng Divine Epiphany giảm chi phí."
       }
     },
     {
       "name": {
         "en": "Cassius: Heidemarie Shuffler (Season-3)",
-        "vi": "Cassius: Xào kiếm cho Heidemarie mùa 3"
+        "vi": "Cassius: Xào kiếm cho Heidemarie Season 3"
       },
       "role": {
         "en": "Mass-discard burst enabler",
-        "vi": "Chuẩn bị lượt bùng nổ bằng bỏ bài hàng loạt"
+        "vi": "Chuẩn bị lượt bùng nổ bằng Discard hàng loạt"
       },
       "partner": "Nyx",
       "cards": [
@@ -1712,7 +1712,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -1729,7 +1729,7 @@
           "costDelta": -1,
           "effects": {
             "en": "Gain 2 Ego Points",
-            "vi": "Nhận 2 Điểm Ego"
+            "vi": "Nhận 2 Ego Points"
           }
         },
         {
@@ -1737,7 +1737,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1",
-            "vi": "Nhận 1 Sĩ khí"
+            "vi": "Nhận 1 Morale"
           }
         },
         {
@@ -1754,7 +1754,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Accumulate Heidemarie's swords, then use Shuffle to move them from discard to the draw pile. Nia's Ego discards that pile and triggers their extra attacks together. Extra Shuffle III copies suit bosses that cause frequent stress or mindbreak, enabling repeated Nia Ego bursts after mindbreak.",
-        "vi": "Tích nhiều kiếm của Heidemarie, rồi dùng Shuffle chuyển chúng từ chồng bài bỏ sang chồng bài rút. Kỹ năng Ego của Nia bỏ toàn bộ chồng bài rút để kích hoạt hàng loạt đòn đánh thêm của kiếm. Có thể thêm Shuffle III khi gặp trùm gây nhiều Căng thẳng hoặc Suy sụp tinh thần, nhằm dùng kỹ năng Ego của Nia nhiều lần sau Suy sụp tinh thần."
+        "vi": "Tích nhiều kiếm của Heidemarie, rồi dùng Shuffle chuyển chúng từ chồng bài bỏ sang Draw Pile. Ego Skill của Nia bỏ toàn bộ Draw Pile để kích hoạt hàng loạt Extra Attacks của kiếm. Có thể thêm Shuffle III khi gặp trùm gây nhiều Căng thẳng hoặc Suy sụp tinh thần, nhằm dùng kỹ năng Ego của Nia nhiều lần sau Suy sụp tinh thần."
       }
     }
   ],
@@ -1763,21 +1763,21 @@
       "name": "Sereniel",
       "note": {
         "en": "Instinct attacks help break Tenacity, while Sereniel's low draw needs and AP support suit Cassius's buffs.",
-        "vi": "Đòn Bản năng giúp phá Sức bền; nhu cầu Rút bài thấp và hỗ trợ Điểm hành động của Sereniel hợp các hiệu ứng Cassius."
+        "vi": "Đòn Instinct giúp phá Tenacity; nhu cầu Draw thấp và hỗ trợ AP của Sereniel hợp các hiệu ứng Cassius."
       }
     },
     {
       "name": "Hugo",
       "note": {
         "en": "Created skills maintain Commence the Hunt, and frequent attacks trigger it while additive buffs strengthen Extra Attacks.",
-        "vi": "Bài Kỹ năng được tạo duy trì Bắt đầu cuộc săn; nhiều đòn đánh kích hoạt nó và tăng sát thương cộng thêm khuếch đại Đòn đánh thêm."
+        "vi": "Bài Skill được tạo duy trì Commence the Hunt; nhiều đòn đánh kích hoạt nó và tăng sát thương cộng thêm khuếch đại Extra Attacks."
       }
     },
     {
       "name": "Selena",
       "note": {
         "en": "Joker helps sequence Selena's cards, while additive buffs strongly improve her frequent Extra Attacks.",
-        "vi": "Joker giúp sắp thứ tự bài Selena, còn tăng sát thương cộng thêm cải thiện mạnh các Đòn đánh thêm liên tục."
+        "vi": "Joker giúp sắp thứ tự bài Selena, còn tăng sát thương cộng thêm cải thiện mạnh các Extra Attacks liên tục."
       }
     },
     {
@@ -1791,7 +1791,7 @@
       "name": "Diana",
       "note": {
         "en": "Quietus cards advance Straight Quest, while discard tools and additive buffs support Diana's Extra Attacks.",
-        "vi": "Bài Tịch diệt thúc đẩy Straight Nhiệm vụ; công cụ Bỏ bài và tăng sát thương cộng thêm hỗ trợ Đòn đánh thêm của Diana."
+        "vi": "Bài Quietus thúc đẩy Straight Mission; công cụ Discard và tăng sát thương cộng thêm hỗ trợ Extra Attacks của Diana."
       }
     }
   ],
@@ -1808,8 +1808,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1825,8 +1825,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1842,8 +1842,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1859,15 +1859,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Ravager",
-        "vi": "Đội khai thác Suy yếu"
+        "vi": "Đội khai thác Ravage"
       },
       "members": [
         "Sereniel",
@@ -1876,8 +1876,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1893,15 +1893,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Fractured But Whole",
-        "vi": "Đội khai thác Rạn nứt"
+        "vi": "Đội khai thác Fracture"
       },
       "members": [
         "Arabella",
@@ -1910,8 +1910,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1927,8 +1927,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1944,8 +1944,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1961,8 +1961,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1978,15 +1978,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "The Thinker, The Inspired",
-        "vi": "Đội Cảm hứng và Tư duy"
+        "vi": "Đội Inspiration và Tư duy"
       },
       "members": [
         "Yuki",
@@ -1995,15 +1995,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Narja Hyper (Season-3)",
-        "vi": "Narja chủ lực — Mùa 3"
+        "vi": "Narja chủ lực — Season 3"
       },
       "members": [
         "Narja",
@@ -2012,8 +2012,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -2029,15 +2029,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Fractured But Whole (AOE)",
-        "vi": "Đội khai thác Rạn nứt — diện rộng"
+        "vi": "Đội khai thác Fracture — diện rộng"
       },
       "members": [
         "Arabella",
@@ -2046,8 +2046,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { Card } from "../../lib/wiki/types";
 import type { CardReview } from "../../lib/wiki/character-guide";
-import { label } from "../../lib/wiki/labels";
+import { label, preserveGameTermNames } from "../../lib/wiki/labels";
 import { Dialog } from "../ui/Dialog";
 import { GameCard } from "./GameCard";
 import styles from "./CardDetailModal.module.css";
@@ -26,7 +26,7 @@ export function CardDetailModal({ card, initialId, animationEnabled, vietnameseE
         {advice.rating !== undefined && (advice.rating > 0
           ? <span className={styles.rating} role="img" aria-label={`${vietnameseEnabled ? "Đánh giá" : "Rating"}: ${advice.rating} / 5`}><span aria-hidden="true">{"★".repeat(advice.rating)}<span className={styles.emptyStars}>{"☆".repeat(5 - advice.rating)}</span></span></span>
           : <span className={styles.rating} role="img" aria-label={vietnameseEnabled ? "Chưa chấm điểm" : "Not rated"}>—</span>)}
-        {advice.review && <p>{vietnameseEnabled ? advice.review.vi : advice.review.en}</p>}
+        {advice.review && <p>{vietnameseEnabled ? preserveGameTermNames(advice.review.vi, advice.review.en) : advice.review.en}</p>}
       </div>}
     </div>})}</div>
     </div>

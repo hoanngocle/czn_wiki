@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Free Shadow Daggers build Agony, while Cursed Gouge can trigger its damage ahead of schedule.",
-    "vi": "Shadow Dagger miễn phí tích Thống khổ; Cursed Gouge có thể kích hoạt sát thương sớm."
+    "vi": "Shadow Dagger miễn phí tích Agony; Cursed Gouge có thể kích hoạt sát thương sớm."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1009.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -335,13 +335,13 @@
   "review": {
     "intro": {
       "en": "Free Shadow Daggers build Agony, while Cursed Gouge can trigger its damage ahead of schedule.",
-      "vi": "Shadow Dagger miễn phí tích Thống khổ; Cursed Gouge có thể kích hoạt sát thương sớm."
+      "vi": "Shadow Dagger miễn phí tích Agony; Cursed Gouge có thể kích hoạt sát thương sớm."
     },
     "profile": [],
     "pros": [
       {
         "en": "Frequent attacks benefit from additive buffs and Exhaust synergies.",
-        "vi": "Đánh liên tục tận dụng hiệu ứng tăng cường cộng thêm và phối hợp Kiệt sức."
+        "vi": "Đánh liên tục tận dụng hiệu ứng tăng cường cộng thêm và phối hợp Exhaust."
       }
     ],
     "cons": [
@@ -355,7 +355,7 @@
         "title": "Curse",
         "body": {
           "en": "For 1 turn, when an Attack Card is activated, 1 Agony to the target",
-          "vi": "Trong 1 lượt, khi một lá Tấn công được Kích hoạt, gây 1 Thống khổ lên mục tiêu"
+          "vi": "Trong 1 lượt, khi một lá Attack được Kích hoạt, gây 1 Agony lên mục tiêu"
         },
         "cardId": "c_1009_uni1"
       },
@@ -363,7 +363,7 @@
         "title": "Shadow Reload",
         "body": {
           "en": "Heal 100%; Create 1 Advanced Shadow Dagger",
-          "vi": "Hồi máu 100%; Tạo 1 Advanced Shadow Dagger"
+          "vi": "Healing 100%; Tạo 1 Advanced Shadow Dagger"
         },
         "cardId": "c_1009_uni2"
       },
@@ -371,7 +371,7 @@
         "title": "Vital Attack",
         "body": {
           "en": "80% Damage × 3; If the target is in an Agony state, +50% Damage Amount",
-          "vi": "Gây 80% sát thương × 3; Nếu mục tiêu đang có Thống khổ, tăng 50% lượng sát thương"
+          "vi": "Gây 80% sát thương × 3; Nếu mục tiêu đang có Agony, tăng 50% lượng sát thương"
         },
         "cardId": "c_1009_uni3"
       }
@@ -394,7 +394,7 @@
       },
       "divine": {
         "en": "Neutral 2 Morale adds support; consider draw or cost reduction.",
-        "vi": "2 Sĩ khí trung lập thêm hỗ trợ; cân nhắc rút bài hoặc giảm chi phí."
+        "vi": "2 Morale Neutral thêm hỗ trợ; cân nhắc Draw hoặc giảm chi phí."
       }
     },
     {
@@ -409,11 +409,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV passively establishes Agony for Vital Attack IV at low setup cost. V also builds stacks reliably but requires more upfront AP.",
-        "vi": "IV thụ động tạo Thống khổ cho Vital Attack IV với chi phí thiết lập thấp. V cũng tích cộng dồn ổn định nhưng cần nhiều Điểm hành động ban đầu hơn."
+        "vi": "IV thụ động tạo Agony cho Vital Attack IV với chi phí thiết lập thấp. V cũng tích cộng dồn ổn định nhưng cần nhiều AP ban đầu hơn."
       },
       "divine": {
         "en": "Neutral 1 Morale is usable; draw or Morale/Resolve on IV/V are divine targets.",
-        "vi": "1 Sĩ khí trung lập dùng được; thần thánh nhắm rút bài hoặc Sĩ khí/Quyết tâm cho IV/V."
+        "vi": "1 Morale Neutral dùng được; Divine nhắm Draw hoặc Morale/Resolve cho IV/V."
       }
     },
     {
@@ -428,11 +428,11 @@
       "preferred": "III / IV",
       "note": {
         "en": "III converts spare AP into more daggers. IV upgrades existing Shadow Dagger cards even outside hand, but requires careful setup.",
-        "vi": "III đổi Điểm hành động dư thành thêm dao găm. IV nâng Shadow Dagger kể cả ngoài tay nhưng cần chuẩn bị kỹ."
+        "vi": "III đổi AP dư thành thêm dao găm. IV nâng Shadow Dagger kể cả ngoài tay nhưng cần chuẩn bị kỹ."
       },
       "divine": {
         "en": "Neutral 2 Morale supports allies; Draw 1 improves cycling.",
-        "vi": "2 Sĩ khí trung lập hỗ trợ đồng đội; Rút 1 cải thiện luân chuyển."
+        "vi": "2 Morale Neutral hỗ trợ đồng đội; Rút 1 cải thiện luân chuyển."
       }
     },
     {
@@ -447,11 +447,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV reactivates its two-hit attack against sufficient Agony, repeating attached use effects as well. III is cheaper but loses that synergy.",
-        "vi": "IV tái kích hoạt đòn hai lần đánh khi đủ Thống khổ, đồng thời lặp hiệu ứng gắn với sử dụng. III rẻ hơn nhưng mất sự phối hợp đó."
+        "vi": "IV tái kích hoạt đòn hai lần đánh khi đủ Agony, đồng thời lặp hiệu ứng gắn với sử dụng. III rẻ hơn nhưng mất sự phối hợp đó."
       },
       "divine": {
         "en": "Neutral 3 Morale supports a buffing role; 2 Vulnerable benefits from IV's reactivation.",
-        "vi": "3 Sĩ khí trung lập hỗ trợ hướng tăng sức mạnh; 2 Dễ tổn thương hưởng lợi từ tái kích hoạt của IV."
+        "vi": "3 Morale Neutral hỗ trợ hướng tăng sức mạnh; 2 Vulnerable hưởng lợi từ tái kích hoạt của IV."
       }
     }
   ],
@@ -460,8 +460,8 @@
       "name": "Bria E0",
       "score": "116.15%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -469,7 +469,7 @@
       "score": "116.06%",
       "note": {
         "en": "Solid base and passive stats offer a non-signature option despite an unimpressive Ego skill.",
-        "vi": "Chỉ số nền và thụ động tốt tạo phương án ngoài Đối tác trấn, dù kỹ năng Ego không nổi bật."
+        "vi": "Chỉ số nền và thụ động tốt tạo phương án ngoài Partner trấn, dù kỹ năng Ego không nổi bật."
       }
     },
     {
@@ -477,7 +477,7 @@
       "score": "110.02%",
       "note": {
         "en": "An accessible Exhaust-compatible choice with useful multipliers; lower Ego levels perform considerably worse.",
-        "vi": "Lựa chọn dễ tiếp cận hợp Kiệt sức với hệ số hiệu ứng tăng cường hữu ích; cấp Ego thấp hiệu quả kém đáng kể."
+        "vi": "Lựa chọn dễ tiếp cận hợp Exhaust với hệ số hiệu ứng tăng cường hữu ích; cấp Ego thấp hiệu quả kém đáng kể."
       }
     },
     {
@@ -485,7 +485,7 @@
       "score": "100.00%",
       "note": {
         "en": "A free temporary Partner when no stronger listed option is available.",
-        "vi": "Đối tác miễn phí tạm dùng khi chưa có lựa chọn mạnh hơn trong danh sách."
+        "vi": "Partner miễn phí tạm dùng khi chưa có lựa chọn mạnh hơn trong danh sách."
       }
     }
   ],
@@ -495,7 +495,7 @@
       "score": "—",
       "note": {
         "en": "A Crit Rate option if an ally or mechanic can discard Tressa's cards to activate it.",
-        "vi": "Lựa chọn Tỷ lệ bạo kích nếu đồng đội hoặc cơ chế có thể bỏ bài Tressa để kích hoạt."
+        "vi": "Lựa chọn Tỷ lệ bạo kích nếu đồng đội hoặc cơ chế có thể Discard Tressa để kích hoạt."
       }
     },
     {
@@ -511,11 +511,11 @@
     {
       "name": {
         "en": "Tressa Stats — Crit Variant · Ideal",
-        "vi": "Chí mạng · Lý tưởng"
+        "vi": "Chí mạng · Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -525,84 +525,84 @@
       },
       "value": {
         "en": "Void DMG% > ATK%",
-        "vi": "Sát thương Hư vô% > Tấn công%"
+        "vi": "Void DMG% > ATK%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Crit Variant · Imagination",
-        "vi": "Chí mạng · Tưởng tượng"
+        "vi": "Chí mạng · Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Crit Variant · Substats",
-        "vi": "Chí mạng · Chỉ số phụ"
+        "vi": "Chí mạng · Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK% = DoT DMG%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công% = Sát thương theo thời gian%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK% = Sát thương theo thời gian%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Pure Attack · Ideal",
-        "vi": "Thuần Tấn công · Lý tưởng"
+        "vi": "Thuần Attack · Ideal"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Pure Attack · Desire",
-        "vi": "Thuần Tấn công · Khao khát"
+        "vi": "Thuần Attack · Khao khát"
       },
       "value": {
         "en": "Void DMG% > ATK%",
-        "vi": "Sát thương Hư vô% > Tấn công%"
+        "vi": "Void DMG% > ATK%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Pure Attack · Imagination",
-        "vi": "Thuần Tấn công · Tưởng tượng"
+        "vi": "Thuần Attack · Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Tressa Stats — Pure Attack · Substats",
-        "vi": "Thuần Tấn công · Chỉ số phụ"
+        "vi": "Thuần Attack · Substats"
       },
       "value": {
         "en": "DoT DMG% > ATK > ATK% > CRIT Rate% = CRIT DMG%",
-        "vi": "Sát thương theo thời gian% > Tấn công > Tấn công% > Tỷ lệ chí mạng% = Sát thương chí mạng%"
+        "vi": "Sát thương theo thời gian% > ATK > ATK% > Critical Chance% = CRIT DMG%"
       }
     }
   ],
   "critNote": {
-    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
-    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+    "en": "Priority symbols compare stats rather than prescribing a universal target value.",
+    "vi": "Các dấu so sánh thể hiện thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
   },
   "potentialIntro": {
     "en": "3-1: A must-have Potential Node when playing Tressa. Causes Dagger Throw to apply 2 Agony to the target on use. This is a huge upgrade to Tressa’s Basic Attack and gives them far more value in Chaos based game modes and even some play Potential in Save as well.5-1: Adds +5% extra damage to Dagger Throw. Additionally, if Tressa’s Damage Over Time is greater than 15%, an additional +5% is added. A standard Base Damage increase to Tressa’s Basics is welcome, but not a game-changer like her 3-1 Potential. If you have the materials and you want a boost in Chaos or if you’re using Basics in Save Data game modes, you can pick it up, but it’s not a must-have node.7: Grants +4% Void Attribute Damage when unlocked. If Tressa’s Damage Over Time is greater than 30%, another +4% is added. This is another must-have Potential Node for all Tressa builds.Note:The Void Attribute Damage stacks additively with Void Attribute DMG% from Memory Fragments.",
-    "vi": "Ưu tiên 3-1 vì Dagger Throw áp 2 Thống khổ, rất mạnh trong Chaos và có chỗ dùng trong một số bộ lưu; 5-1 tăng 5% sát thương và thêm 5% khi sát thương theo thời gian >15%, chỉ cần nếu dùng bài cơ bản hoặc còn tài nguyên. Tiềm năng 7 quan trọng cho mọi hướng: tăng 4% sát thương Hư vô, thêm 4% khi sát thương theo thời gian >30%; cộng cùng nhóm với % sát thương Hư vô trên mảnh ký ức."
+    "vi": "Ưu tiên 3-1 vì Dagger Throw áp 2 Agony, rất mạnh trong Chaos và có chỗ dùng trong một số bộ lưu; 5-1 tăng 5% sát thương và thêm 5% khi sát thương theo thời gian >15%, chỉ cần nếu dùng Basic Cards hoặc còn tài nguyên. Potential 7 quan trọng cho mọi hướng: tăng 4% sát thương Void, thêm 4% khi sát thương theo thời gian >30%; cộng cùng nhóm với % sát thương Void trên Memory Fragments."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
-        "en": "The Dagger Throw card gains the effect 2 Agony .",
-        "vi": "Lá Dagger Throw nhận hiệu ứng 2 Thống khổ ."
+        "en": "The Dagger Throw card gains the effect 2 Agony.",
+        "vi": "Lá Dagger Throw nhận hiệu ứng 2 Agony."
       }
     },
     {
@@ -616,14 +616,14 @@
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+4% Void Attribute Damage Amount; If Tressa's Damage over Time is 30% or higher, add an additional +4% to the modifier",
-        "vi": "Tăng 4% lượng sát thương thuộc tính Hư vô; Nếu Sát thương theo thời gian của Tressa đạt ít nhất 30%, tăng thêm 4% vào mức cộng thêm"
+        "vi": "Tăng 4% lượng sát thương thuộc tính Void; Nếu Sát thương theo thời gian của Tressa đạt ít nhất 30%, tăng thêm 4% vào mức cộng thêm"
       }
     }
   ],
@@ -631,7 +631,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -657,7 +657,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -684,7 +684,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -710,7 +710,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -733,7 +733,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -760,41 +760,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -812,7 +812,7 @@
       "score": "—",
       "note": {
         "en": "Tressa’s first Ego node reduces the cost of Cursed Gouge from 1 to 0. This is a solid first Ego node that removes some AP pressure on Tressa to be able to cycle through all of her cards in a turn.",
-        "vi": "Cursed Gouge giảm từ 1 xuống 0 chi phí, giúp quay hết bài trong lượt với ít áp lực điểm hành động hơn."
+        "vi": "Cursed Gouge giảm từ 1 xuống 0 chi phí, giúp quay hết bài trong lượt với ít áp lực AP hơn."
       }
     },
     {
@@ -820,7 +820,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego node provides a +20% additive damage buff to both her Shadow and Advanced Dagger cards to enemies when they're inflicted with Agony. This is also a decent node that provides a moderate damage increase to her Dagger cards.",
-        "vi": "Shadow Dagger và Advanced Dagger tăng 20% sát thương theo phép cộng lên địch có Thống khổ. Mức tăng vừa phải cho bài dao."
+        "vi": "Shadow Dagger và Advanced Dagger tăng 20% sát thương theo phép cộng lên địch có Agony. Mức tăng vừa phải cho bài dao."
       }
     },
     {
@@ -828,7 +828,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides a small increase to damage and healing.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, tăng nhẹ sát thương và hồi phục."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài, tăng nhẹ sát thương và hồi phục."
       }
     },
     {
@@ -836,7 +836,7 @@
       "score": "—",
       "note": {
         "en": "Tressa's E4 increases the amount of Agony her Ego skill applies. It adds 2 Agony stacks to the target you use this skill on, which increases the total Agony applied from 4 to 8 total. This is a great 4th node for Tressa, which further enhances her ability to apply Agony to targets.",
-        "vi": "Kỹ năng Ego áp thêm Thống khổ; nguồn mô tả thêm 2 cộng dồn lên mục tiêu và tổng lượng áp tăng từ 4 lên 8. Là nâng cấp tốt để duy trì hiệu ứng."
+        "vi": "Ego Skill áp thêm Agony; thêm 2 cộng dồn lên mục tiêu và tổng lượng áp tăng từ 4 lên 8. Là nâng cấp tốt để duy trì hiệu ứng."
       }
     },
     {
@@ -844,7 +844,7 @@
       "score": "—",
       "note": {
         "en": "This node again increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides another small increase to damage and healing.",
-        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, tăng nhẹ sát thương/hồi phục."
+        "vi": "Tăng thêm 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài, tăng nhẹ sát thương/hồi phục."
       }
     },
     {
@@ -852,7 +852,7 @@
       "score": "—",
       "note": {
         "en": "Tressa's last Ego node now allows Tressa to create Shadow Dagger cards when defeating an enemy that is inflicted with Agony. This will also create a Shadow Dagger if you killed the target with a card that would inflict Agony if they had no prior Agony stacks inflicted. If an enemy is killed whilst they have Agony at the end of the turn, the dagger created will also stay in your hand until the next turn. A very good Ego node for Tressa.",
-        "vi": "Hạ địch có Thống khổ sẽ tạo Shadow Dagger, kể cả đòn kết liễu là bài sẽ áp Thống khổ lên mục tiêu chưa có hiệu ứng. Nếu địch chết cuối lượt trong khi mang Thống khổ, dao tạo ra vẫn giữ trên tay sang lượt kế tiếp."
+        "vi": "Hạ địch có Agony sẽ tạo Shadow Dagger, kể cả đòn kết liễu là bài sẽ áp Agony lên mục tiêu chưa có hiệu ứng. Nếu địch chết cuối lượt trong khi mang Agony, dao tạo ra vẫn giữ trên tay sang lượt kế tiếp."
       }
     }
   ],
@@ -881,7 +881,7 @@
           "count": 4,
           "effects": {
             "en": "2 Vulnerable to the target",
-            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+            "vi": "Gây 2 Vulnerable lên mục tiêu"
           }
         }
       ],
@@ -902,13 +902,13 @@
       ],
       "note": {
         "en": "The attack triggers twice for two hits each, rather than once for four hits. This also activates Divines and Hugo/Selena follow-ups twice per use. Additive buffers such as Cassius or Rei help its four total hits remain effective after Tressa's nerfs.",
-        "vi": "Vital Attack kích hoạt hai lần, mỗi lần gây hai nhịp sát thương, thay vì chỉ kích hoạt một lần với bốn nhịp. Vì vậy, Thức tỉnh thần thánh và các đòn đánh thêm của Hugo hoặc Selena cũng kích hoạt hai lần khi dùng lá này. Mức tăng sát thương cộng dồn từ Cassius hoặc Rei giúp cả bốn nhịp vẫn gây sát thương tốt sau các đợt giảm sức mạnh của Tressa."
+        "vi": "Vital Attack kích hoạt hai lần, mỗi lần gây hai nhịp sát thương, thay vì chỉ kích hoạt một lần với bốn nhịp. Vì vậy, Divine Epiphany và các Extra Attack của Hugo hoặc Selena cũng kích hoạt hai lần khi dùng lá này. Mức tăng sát thương cộng dồn từ Cassius hoặc Rei giúp cả bốn nhịp vẫn gây sát thương tốt sau các đợt giảm sức mạnh của Tressa."
       }
     },
     {
       "name": {
         "en": "Hugo Driver",
-        "vi": "Kích hoạt đòn đánh thêm của Hugo"
+        "vi": "Kích hoạt Extra Attack của Hugo"
       },
       "role": {
         "en": "Skill-to-attack Hugo driver",
@@ -926,7 +926,7 @@
           "count": 2,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -942,7 +942,7 @@
           "count": 1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -950,7 +950,7 @@
           "count": 2,
           "effects": {
             "en": "Morale 2",
-            "vi": "Nhận 2 Sĩ khí"
+            "vi": "Nhận 2 Morale"
           }
         }
       ],
@@ -969,7 +969,7 @@
       ],
       "note": {
         "en": "Use skills to create many attack cards, building and spending Hugo's Commence the Hunt efficiently. Psionic Morale neutrals provide a buffing advantage over alternatives such as Luke. For easier execution with less buffing, instead use four Unsheathe Dagger II copies with draw or cost-reduction Divines.",
-        "vi": "Dùng kỹ năng tạo nhiều lá tấn công, vừa tích vừa tiêu thụ Bắt đầu cuộc săn của Hugo hiệu quả. Thức tỉnh bài trung lập tăng Sĩ khí là lợi thế hỗ trợ so với lựa chọn như Luke. Nếu muốn dễ vận hành hơn và chấp nhận ít hiệu ứng tăng sức mạnh, dùng bốn Unsheathe Dagger II gắn Thức tỉnh thần thánh rút bài hoặc giảm chi phí."
+        "vi": "Dùng kỹ năng tạo nhiều lá Attack, vừa tích vừa tiêu thụ Commence the Hunt của Hugo hiệu quả. Epiphany Neutral tăng Morale là lợi thế hỗ trợ so với lựa chọn như Luke. Nếu muốn dễ vận hành hơn và chấp nhận ít hiệu ứng tăng sức mạnh, dùng bốn Unsheathe Dagger II gắn Divine Epiphany Draw hoặc giảm chi phí."
       }
     }
   ],
@@ -978,21 +978,21 @@
       "name": "Cassius",
       "note": {
         "en": "Morale or Agony Epiphanies support different builds; Divine cost reduction helps Cassius also supply draw.",
-        "vi": "Thức tỉnh bài Sĩ khí hoặc Thống khổ hỗ trợ các lối chơi khác nhau; Thần thánh giảm chi phí giúp Cassius đồng thời cung cấp rút bài."
+        "vi": "Epiphanies Morale hoặc Agony hỗ trợ các lối chơi khác nhau; Divine giảm chi phí giúp Cassius đồng thời cung cấp Draw."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Combines useful 1-cost, Void and Morale buffs with the team bonus from Glory's Reign.",
-        "vi": "Kết hợp hiệu ứng tăng cường bài chi phí 1, Hư vô và Sĩ khí hữu ích cùng hiệu ứng tăng cường đội từ Glory's Reign."
+        "vi": "Kết hợp hiệu ứng tăng cường bài chi phí 1, Void và Morale hữu ích cùng hiệu ứng tăng cường đội từ Glory's Reign."
       }
     },
     {
       "name": "Hugo",
       "note": {
         "en": "Skill-generated attacks build and trigger Hugo's Extra Attacks, while his draw supports Tressa's rotation.",
-        "vi": "Tấn công tạo từ kỹ năng tích và kích hoạt Đòn đánh thêm của Hugo; rút bài của anh hỗ trợ chuỗi hành động Tressa."
+        "vi": "Attack tạo từ kỹ năng tích và kích hoạt Extra Attacks của Hugo; Draw của anh hỗ trợ chuỗi hành động Tressa."
       }
     }
   ],
@@ -1009,8 +1009,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

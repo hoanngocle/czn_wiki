@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "A Void Hunter who turns discarded Dirge Bullets into Extra Attacks. Renoa rewards planning: generate bullets, amplify their damage, then discard them before cleaning up the deck.",
-    "vi": "Thợ săn hệ Hư vô, biến những lá Dirge Bullet bị bỏ thành đòn đánh thêm. Renoa cần sắp xếp lượt chơi: tạo đạn, tăng sát thương, bỏ đạn để kích hoạt đòn đánh rồi dọn bớt đạn trong bộ bài."
+    "vi": "Hunter hệ Void, biến những lá Dirge Bullet Discarded thành Extra Attacks. Renoa cần sắp xếp lượt chơi: tạo đạn, tăng sát thương, bỏ đạn để kích hoạt đòn đánh rồi dọn bớt đạn trong bộ bài."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1041.webp",
   "source": {
@@ -26,7 +26,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -368,7 +368,7 @@
   "review": {
     "intro": {
       "en": "A Void Hunter who turns discarded Dirge Bullets into Extra Attacks. Renoa rewards planning: generate bullets, amplify their damage, then discard them before cleaning up the deck.",
-      "vi": "Thợ săn hệ Hư vô, biến những lá Dirge Bullet bị bỏ thành đòn đánh thêm. Renoa cần sắp xếp lượt chơi: tạo đạn, tăng sát thương, bỏ đạn để kích hoạt đòn đánh rồi dọn bớt đạn trong bộ bài."
+      "vi": "Hunter hệ Void, biến những lá Dirge Bullet Discarded thành Extra Attacks. Renoa cần sắp xếp lượt chơi: tạo đạn, tăng sát thương, bỏ đạn để kích hoạt đòn đánh rồi dọn bớt đạn trong bộ bài."
     },
     "profile": [
       {
@@ -388,14 +388,14 @@
       {
         "label": {
           "en": "AP efficiency",
-          "vi": "Hiệu quả Điểm hành động"
+          "vi": "Hiệu quả AP"
         },
         "score": 4
       },
       {
         "label": {
           "en": "Draw efficiency",
-          "vi": "Hiệu quả rút bài"
+          "vi": "Hiệu quả Draw"
         },
         "score": 4
       }
@@ -407,11 +407,11 @@
       },
       {
         "en": "Several Epiphanies unlock substantially different playstyles.",
-        "vi": "Nhiều Thức tỉnh bài có thể thay đổi hẳn cách chơi."
+        "vi": "Nhiều Epiphanies có thể thay đổi hẳn cách chơi."
       },
       {
         "en": "Frequent hits and Extra Attacks benefit greatly from Morale and additive buffs.",
-        "vi": "Nhiều lần đánh và Đòn đánh thêm tận dụng rất tốt Sĩ khí cùng các hiệu ứng tăng cường cộng sát thương."
+        "vi": "Nhiều lần đánh và Extra Attacks tận dụng rất tốt Morale cùng các hiệu ứng tăng cường cộng sát thương."
       }
     ],
     "cons": [
@@ -425,7 +425,7 @@
       },
       {
         "en": "Needs careful timing between bullet generation, Ego Skill and damage payoffs.",
-        "vi": "Cần căn thời điểm tạo đạn, dùng Kỹ năng Ego và tung lá bài gây sát thương."
+        "vi": "Cần căn thời điểm tạo Bullet, dùng Ego Skill và tung lá bài gây sát thương."
       }
     ],
     "mechanics": [
@@ -433,29 +433,29 @@
         "title": "Dirge Bullet",
         "body": {
           "en": "The base card costs 1 AP, deals 160% damage and Exhausts when played. Discarding it instead triggers a 120% Extra Attack on a random enemy, including the end-of-turn discard. Potential upgrades can raise these values.",
-          "vi": "Lá bài gốc tốn 1 điểm hành động, gây 160% sát thương và kiệt sức khi được sử dụng. Khi bị bỏ, kể cả cuối lượt, nó kích hoạt đòn đánh thêm 120% lên kẻ địch ngẫu nhiên. Nâng cấp tiềm năng có thể tăng các giá trị này."
+          "vi": "Lá bài gốc tốn 1 AP, gây 160% sát thương và Exhausts khi được sử dụng. Khi Discarded, kể cả cuối lượt, nó kích hoạt Extra Attack 120% lên kẻ địch ngẫu nhiên. Nâng cấp Potential có thể tăng các giá trị này."
         },
         "cardId": "c_1041_cre1"
       },
       {
         "title": {
           "en": "Generate → Discard → Clear",
-          "vi": "Tạo đạn → Bỏ bài → Dọn bài"
+          "vi": "Tạo đạn → Discard → Dọn bài"
         },
         "body": {
           "en": "Generate bullets with Echo of Sorrow and Flower of Devoured Fate. Discard them to trigger Extra Attacks, then use Ballad of Pitch Black V to Exhaust bullets in the Graveyard before they cycle back into your hand.",
-          "vi": "Dùng Echo of Sorrow và Flower of Devoured Fate để tạo đạn. Bỏ đạn để kích hoạt đòn đánh thêm, sau đó dùng Ballad of Pitch Black V để làm kiệt sức đạn trong Mộ bài trước khi chúng quay lại tay."
+          "vi": "Dùng Echo of Sorrow và Flower of Devoured Fate để tạo đạn. Bỏ đạn để kích hoạt Extra Attacks, sau đó dùng Ballad of Pitch Black V để làm Exhaust đạn trong Graveyard trước khi chúng quay lại tay."
         },
         "cardId": "c_1041_srt4"
       },
       {
         "title": {
           "en": "Damage carry or draw support",
-          "vi": "Gây sát thương hoặc hỗ trợ rút bài"
+          "vi": "Gây sát thương hoặc hỗ trợ Draw"
         },
         "body": {
           "en": "Carry builds emphasize repeated discards and additive buffs. Draw builds use Echo V to maintain a bullet in hand and Flower IV to draw three cards; reducing Flower IV's cost is highly recommended.",
-          "vi": "Lối chơi chủ lực tập trung bỏ bài liên tục và nhận hiệu ứng cộng sát thương. Lối chơi hỗ trợ rút bài dùng Echo V để duy trì đạn trên tay, giúp Flower IV rút 3 lá; nên ưu tiên giảm chi phí cho Flower IV."
+          "vi": "Lối chơi chủ lực tập trung bỏ bài liên tục và nhận hiệu ứng cộng sát thương. Lối chơi hỗ trợ Draw dùng Echo V để duy trì Bullet trên tay, giúp Flower IV rút 3 lá; nên ưu tiên giảm chi phí cho Flower IV."
         },
         "cardId": "c_1041_uni3"
       }
@@ -474,11 +474,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV creates three Dirge Bullet cards for the standard carry engine. II has a high attack-based ceiling but needs access to bullets placed in discard.",
-        "vi": "IV tạo ba Dirge Bullet cho cơ chế chủ lực thông thường. II có tiềm năng cao theo hướng tấn công nhưng cần lấy được đạn đặt ở Chồng bài bỏ."
+        "vi": "IV tạo ba Dirge Bullet cho cơ chế chủ lực thông thường. II có Potential cao theo hướng Attack nhưng cần lấy được Bullet đặt ở Discard Pile."
       },
       "divine": {
         "en": "Draw 1 on IV or cost reduction is useful; neutral utility sacrifices bullet output.",
-        "vi": "Rút 1 cho IV hoặc giảm chi phí hữu ích; tiện ích trung lập đánh đổi lượng đạn."
+        "vi": "Rút 1 cho IV hoặc giảm chi phí hữu ích; tiện ích Neutral đánh đổi lượng Bullet."
       }
     },
     {
@@ -493,11 +493,11 @@
       "preferred": "V",
       "note": {
         "en": "V gives passive Extra Attacks and clears itself after setup. IV instead supports repeated discard loops with cards such as Adagio.",
-        "vi": "V tạo Đòn đánh thêm thụ động và tự rời vòng bài sau thiết lập. IV hỗ trợ vòng bỏ bài lặp với các lá như Adagio."
+        "vi": "V tạo Extra Attacks thụ động và tự rời vòng bài sau thiết lập. IV hỗ trợ vòng Discard lặp với các lá như Adagio."
       },
       "divine": {
         "en": "Neutral Draw 1 is competitive; use cost reduction or Morale/Resolve on V.",
-        "vi": "Rút 1 trung lập đáng cân nhắc; dùng giảm chi phí hoặc Sĩ khí/Quyết tâm cho V."
+        "vi": "Rút 1 Neutral đáng cân nhắc; dùng giảm chi phí hoặc Morale/Resolve cho V."
       }
     },
     {
@@ -512,11 +512,11 @@
       "preferred": "V",
       "note": {
         "en": "V exhausts graveyard bullets to control overflow in sustained loops. III or IV serves specialized burst plans where overflow matters less.",
-        "vi": "V làm đạn trong Mộ bài Kiệt sức để kiểm soát dư thừa trong vòng lặp dài. III hoặc IV dành cho dồn sát thương khi ít lo tràn bài."
+        "vi": "V làm đạn trong Graveyard Exhausts để kiểm soát dư thừa trong vòng lặp dài. III hoặc IV dành cho dồn sát thương khi ít lo tràn bài."
       },
       "divine": {
         "en": "Choose the variant for the rotation; neutral and divine effects are low priority.",
-        "vi": "Chọn biến thể theo chu trình; trung lập và thần thánh ít ưu tiên."
+        "vi": "Chọn biến thể theo chu trình; Neutral và Divine ít ưu tiên."
       }
     },
     {
@@ -535,7 +535,7 @@
       },
       "divine": {
         "en": "Draw or AP is useful; II/IV can benefit from cost reduction. Avoid losing the core variant to neutral effects.",
-        "vi": "Rút bài hoặc Điểm hành động hữu ích; II/IV hưởng lợi từ giảm chi phí. Tránh đổi cơ chế chính lấy trung lập."
+        "vi": "Draw hoặc AP hữu ích; II/IV hưởng lợi từ giảm chi phí. Tránh đổi cơ chế chính lấy Neutral."
       }
     }
   ],
@@ -544,8 +544,8 @@
       "name": "Kiara E4",
       "score": "123.00%",
       "note": {
-        "en": "The source lists a performance comparison without a separate explanation.",
-        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -553,23 +553,23 @@
       "score": "119.71%",
       "note": {
         "en": "Crit Rate and Crit Damage make this Battle Pass partner a strong general alternative to low-Ego signatures.",
-        "vi": "Tỷ lệ và Sát thương chí mạng giúp đối tác Vé chiến đấu này cạnh tranh tốt với đối tác đặc trưng ở cấp Ego thấp."
+        "vi": "Tỷ lệ và Crit Damage giúp Partner Battle Pass này cạnh tranh tốt với Partner đặc trưng ở cấp Ego thấp."
       }
     },
     {
       "name": "Kiara E0",
       "score": "111.51%",
       "note": {
-        "en": "The source lists a performance comparison without a separate explanation.",
-        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Akad E4",
       "score": "107.85%",
       "note": {
-        "en": "The source lists a performance comparison without a separate explanation.",
-        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -577,15 +577,15 @@
       "score": "100.00%",
       "note": {
         "en": "An accessible starting option with useful utility; she can move to a support character after a stronger partner becomes available.",
-        "vi": "Lựa chọn khởi đầu dễ tiếp cận, có tiện ích hỗ trợ; có thể chuyển sang nhân vật hỗ trợ sau khi bạn có đối tác mạnh hơn."
+        "vi": "Lựa chọn khởi đầu dễ tiếp cận, có tiện ích hỗ trợ; có thể chuyển sang nhân vật hỗ trợ sau khi bạn có Partner mạnh hơn."
       }
     },
     {
       "name": "Akad E0",
       "score": "98.96%",
       "note": {
-        "en": "The source lists a performance comparison without a separate explanation.",
-        "vi": "Nguồn cung cấp số liệu so sánh hiệu suất nhưng không có nhận xét riêng."
+        "en": "",
+        "vi": ""
       }
     }
   ],
@@ -595,7 +595,7 @@
       "score": "—",
       "note": {
         "en": "Dirge Bullet retains its 1-cost classification when discarded and gains this Crit Damage bonus, though Prelude to a Hero usually wins through Crit Rate.",
-        "vi": "Dirge Bullet vẫn được tính là lá Chi phí 1 khi bị bỏ nên hưởng hiệu ứng Sát thương chí mạng; tuy nhiên, Tỷ lệ chí mạng từ Prelude to a Hero thường hiệu quả hơn."
+        "vi": "Dirge Bullet vẫn được tính là lá Cost 1 khi Discarded nên hưởng hiệu ứng Crit Damage; tuy nhiên, Critical Chance từ Prelude to a Hero thường hiệu quả hơn."
       }
     },
     {
@@ -603,7 +603,7 @@
       "score": "—",
       "note": {
         "en": "Renoa naturally meets the discard condition, making this a strong Crit Rate set across modes.",
-        "vi": "Renoa dễ đáp ứng điều kiện bỏ bài, nhờ đó đây là bộ tăng Tỷ lệ chí mạng tốt trong nhiều chế độ."
+        "vi": "Renoa dễ đáp ứng điều kiện Discard, nhờ đó đây là bộ tăng Critical Chance tốt trong nhiều chế độ."
       }
     },
     {
@@ -619,11 +619,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -633,65 +633,65 @@
       },
       "value": {
         "en": "Void DMG% > ATK%",
-        "vi": "Sát thương Hư vô% > Tấn công%"
+        "vi": "Void DMG% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "Extra ATK DMG% >= CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Sát thương đòn đánh thêm% >= Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Extra ATK DMG% >= Critical Chance% > CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To fully activate Renoa's Potential 7, she needs 60% Crit Rate in the character screen. This is a difficult but achievable goal with good memory fragments. If you can, try to hit it as the Base Damage increase on her Dirge Bullets is a notable damage increase overall and Crit Rate is one of Renoa's top stats anyway.",
-    "vi": "Nhắm 60% tỷ lệ chí mạng trên màn hình nhân vật để kích hoạt đầy đủ tiềm năng 7. Cần mảnh ký ức tốt nhưng đáng theo đuổi vì tăng rõ rệt sát thương cơ bản của Dirge Bullet, đồng thời chí mạng vốn là chỉ số hàng đầu của Renoa."
+    "vi": "Nhắm 60% Critical Chance trên màn hình nhân vật để kích hoạt đầy đủ Potential 7. Cần Memory Fragments tốt nhưng đáng theo đuổi vì tăng rõ rệt sát thương cơ bản của Dirge Bullet, đồng thời chí mạng vốn là chỉ số hàng đầu của Renoa."
   },
   "potentialIntro": {
     "en": "Renoa’s Potentials all increase her damage, with none offering mechanical changes.3-1: Offers a huge +40% to Dirge Bullet’s multiplier and a further +20% multiplier to Extra Attacks, buffing Dirge Bullet’s overall damage output even further.5-1: Increases her Basic Attack damage. Incentivizes hitting the Critical Chance threshold, but her Basic Attacks are still one of the least important parts of her kit.7: Even more Dirge Bullet damage, which further incentivizes building her Critical Chance.",
-    "vi": "Mọi tiềm năng đều tăng sát thương, không đổi cơ chế: 3-1 tăng hệ số Dirge Bullet 40% và đòn đánh thêm 20%, nên rất đáng ưu tiên; 5-1 tăng sát thương bài cơ bản nhưng nhóm bài này ít quan trọng hơn. Tiềm năng 7 tiếp tục tăng Dirge Bullet và khuyến khích đạt ngưỡng tỷ lệ chí mạng, với mục tiêu 60% theo phần chỉ số."
+    "vi": "Mọi Potential đều tăng sát thương, không đổi cơ chế: 3-1 tăng hệ số Dirge Bullet 40% và Extra Attacks 20%, nên rất đáng ưu tiên; 5-1 tăng sát thương Basic Cards nhưng nhóm bài này ít quan trọng hơn. Potential 7 tiếp tục tăng Dirge Bullet và khuyến khích đạt ngưỡng Critical Chance, với mục tiêu 60% theo phần chỉ số."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "+40% Damage Amount to Dirge Bullet, +20% Damage Amount to Extra Attacks",
-        "vi": "Tăng 40% lượng sát thương của Dirge Bullet và tăng 20% lượng sát thương của Đòn đánh thêm."
+        "vi": "Tăng 40% lượng sát thương của Dirge Bullet và tăng 20% lượng sát thương của Extra Attacks."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Renoa’s Annihilation Shot; If Renoa’s Critical Chance is 20% or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Annihilation Shot của Renoa.; Nếu Tỷ lệ chí mạng của Renoa đạt 20% trở lên, tăng thêm 5% vào hệ số."
+        "vi": "Tăng 5% lượng sát thương của Annihilation Shot của Renoa.; Nếu Critical Chance của Renoa đạt 20% trở lên, tăng thêm 5% vào hệ số."
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+5% Damage Amount to Dirge Bullet; If Renoa’s Critical Chance is 60% or higher, add an additional +10% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Dirge Bullet.; Nếu Tỷ lệ chí mạng của Renoa đạt 60% trở lên, tăng thêm 10% vào hệ số."
+        "vi": "Tăng 5% lượng sát thương của Dirge Bullet.; Nếu Critical Chance của Renoa đạt 60% trở lên, tăng thêm 10% vào hệ số."
       }
     }
   ],
@@ -699,7 +699,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -721,7 +721,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -743,7 +743,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -766,7 +766,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -786,7 +786,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -810,41 +810,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Persona Cards kỹ năng nên chọn tự kích hoạt khi Discarded nếu đội có cách chủ động Discard. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. Tăng 25% sát thương Extra Attacks. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -862,7 +862,7 @@
       "score": "—",
       "note": {
         "en": "Renoa’s first Ego unlocked increases the damage scaling on her Last-Ditch Assault card by +20% for each Dirge Bullet Discarded. This is a solid damage boost that can add up quickly due to how many Dirge Bullets Renoa is able to create.",
-        "vi": "Last-Ditch Assault tăng hệ số thêm 20% cho mỗi Dirge Bullet bị bỏ. Với số Đạn Renoa tạo được, mức tăng cộng dồn nhanh."
+        "vi": "Last-Ditch Assault tăng hệ số thêm 20% cho mỗi Dirge Bullet Discarded. Với số Bullet Renoa tạo được, mức tăng cộng dồn nhanh."
       }
     },
     {
@@ -878,7 +878,7 @@
       "score": "—",
       "note": {
         "en": "Her third Ego node boosts her Ego Skill, increasing the damage dealt by an additional +200%. A substantial damage boost to her Ego skill, but otherwise relatively unremarkable.",
-        "vi": "Kỹ năng Ego tăng thêm 200% sát thương. Tăng mạnh riêng kỹ năng nhưng không đổi cơ chế."
+        "vi": "Ego Skill tăng thêm 200% sát thương. Tăng mạnh riêng kỹ năng nhưng không đổi cơ chế."
       }
     },
     {
@@ -886,7 +886,7 @@
       "score": "—",
       "note": {
         "en": "The fourth Ego when unlocked grants Renoa 1 stack of “Rose’s Resolve” whenever Dirge Bullet is Discarded. Rose’s Resolve stacks up to 4 times and increases Renoa’s damage by 10% for each stack and is removed whenever a shuffle occurs. Another Ego that further pushes Renoa’s damage output.",
-        "vi": "Mỗi Dirge Bullet bị bỏ cho 1 Quyết tâm hoa hồng, tối đa 4; mỗi cộng dồn tăng 10% sát thương và bị xóa khi xáo bài. Tiếp tục nâng sát thương cá nhân."
+        "vi": "Mỗi Dirge Bullet Discarded cho 1 Rose’s Resolve, tối đa 4; mỗi cộng dồn tăng 10% sát thương và bị xóa khi Shuffle. Tiếp tục nâng sát thương cá nhân."
       }
     },
     {
@@ -894,7 +894,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. A solid potential boost for Renoa’s damage output.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài, cải thiện sát thương khá tốt."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài, cải thiện sát thương khá tốt."
       }
     },
     {
@@ -902,7 +902,7 @@
       "score": "—",
       "note": {
         "en": "Renoa’s final Ego point when unlocked now causes Renoa to do a 50% Extra-Attack to a random enemy whenever Dirge Bullet is drawn. This is a strong final Ego that helps slightly offset the downside of drawing unwanted Dirge Bullets. As this is an Extra-attack, this damage can be scaled as well.",
-        "vi": "Mỗi lần rút Dirge Bullet, đánh thêm 50% vào địch ngẫu nhiên. Giảm phần nào bất lợi khi rút phải Đạn và vẫn được hưởng tăng cường đòn đánh thêm."
+        "vi": "Mỗi lần rút Dirge Bullet, đánh thêm 50% vào địch ngẫu nhiên. Giảm phần nào bất lợi khi rút phải Bullet và vẫn được hưởng tăng cường Extra Attack."
       }
     }
   ],
@@ -910,11 +910,11 @@
     {
       "name": {
         "en": "Daughters of Discard (Diana Support)",
-        "vi": "Phối hợp bỏ bài: Phối hợp Diana"
+        "vi": "Phối hợp Discard: Phối hợp Diana"
       },
       "role": {
         "en": "Dirge Bullet generator and discard carry",
-        "vi": "Tạo Dirge Bullet và gây sát thương khi bỏ bài"
+        "vi": "Tạo Dirge Bullet và gây sát thương khi Discard"
       },
       "partner": "Janet",
       "cards": [
@@ -954,8 +954,8 @@
         0
       ],
       "note": {
-        "en": "Renoa supplies Dirge Bullets while Diana uses With All My Heart! IV to apply Quietus. Flower of Devoured Fate I with a draw Divine discards With All My Heart! IV, creating Bullets and their self-exhaust property together. Prefer Nia over Cassius to supply enough discard triggers for both carries. The source credits Upi for the pairing.",
-        "vi": "Renoa tạo Dirge Bullet, còn Diana dùng With All My Heart! IV để gắn Tịch diệt. Flower of Devoured Fate I có Thức tỉnh thần thánh rút bài bỏ With All My Heart! IV, vừa tạo đạn vừa giúp đạn tự bị Kiệt sức sau khi dùng để tránh nghẽn bộ bài. Ưu tiên Nia hơn Cassius nhằm có đủ nguồn bỏ bài cho cả hai chủ lực. Nguồn ghi nhận Upi là người xây dựng đội hình này."
+        "en": "Renoa supplies Dirge Bullets while Diana uses With All My Heart! IV to apply Quietus. Flower of Devoured Fate I with a draw Divine discards With All My Heart! IV, creating Bullets and their self-exhaust property together. Prefer Nia over Cassius to supply enough discard triggers for both carries.",
+        "vi": "Renoa tạo Dirge Bullet, còn Diana dùng With All My Heart! IV để gắn Quietus. Flower of Devoured Fate I có Divine Epiphany Draw bỏ With All My Heart! IV, vừa tạo đạn vừa giúp đạn tự bị Exhaust sau khi dùng để tránh nghẽn bộ bài. Ưu tiên Nia hơn Cassius nhằm có đủ nguồn Discard cho cả hai chủ lực."
       }
     },
     {
@@ -1006,13 +1006,13 @@
       ],
       "note": {
         "en": "Flower of Devoured Fate I discards three Dirge Bullets for three extra attacks, then creates three replacements. Repeat the cycle with its copies to obtain twelve extra attacks from Flower of Devoured Fate alone.",
-        "vi": "Flower of Devoured Fate I bỏ ba Dirge Bullet để tạo ba đòn đánh thêm, sau đó tạo lại ba đạn mới. Lặp chuỗi bằng các bản sao để riêng Flower of Devoured Fate đã tạo được mười hai đòn đánh thêm."
+        "vi": "Flower of Devoured Fate I bỏ ba Dirge Bullet để tạo ba Extra Attacks, sau đó tạo lại ba đạn mới. Lặp chuỗi bằng các bản sao để riêng Flower of Devoured Fate đã tạo được mười hai Extra Attacks."
       }
     },
     {
       "name": {
         "en": "Draw Renoa",
-        "vi": "Renoa hỗ trợ rút bài"
+        "vi": "Renoa hỗ trợ Draw"
       },
       "role": {
         "en": "Net-draw support",
@@ -1039,7 +1039,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Echo of Sorrow V supplies a Dirge Bullet at turn start so Flower of Devoured Fate IV can activate its large draw effect. This competes with Veronica's draw and can exceed it in some setups. Cost-reduction Divines are strongly recommended because Flower of Devoured Fate IV otherwise costs 1 AP per use.",
-        "vi": "Echo of Sorrow V cấp một Dirge Bullet đầu lượt để Flower of Devoured Fate IV kích hoạt hiệu ứng rút nhiều bài. Lượng rút cạnh tranh với Veronica và có thể cao hơn trong một số đội. Rất nên dùng Thức tỉnh thần thánh giảm chi phí vì Flower of Devoured Fate IV mặc định tốn 1 Điểm hành động mỗi lần, khiến chuỗi rút bài khó vận hành nếu thiếu giảm chi phí."
+        "vi": "Echo of Sorrow V cấp một Dirge Bullet đầu lượt để Flower of Devoured Fate IV kích hoạt hiệu ứng rút nhiều bài. Lượng rút cạnh tranh với Veronica và có thể cao hơn trong một số đội. Rất nên dùng Divine Epiphany giảm chi phí vì Flower of Devoured Fate IV mặc định tốn 1 AP mỗi lần, khiến chuỗi Draw khó vận hành nếu thiếu giảm chi phí."
       }
     }
   ],
@@ -1048,28 +1048,28 @@
       "name": "Nia",
       "note": {
         "en": "Soul Riff III adds attacks when Renoa discards, while Adagio recycles bullets. E2 Rhythm Boost adds a team buff; the Ego can discard a large stock of bullets from the draw pile.",
-        "vi": "Soul Riff III thêm đòn đánh khi Renoa bỏ bài, còn Adagio giúp tái sử dụng đạn. Ở E2, Nhịp điệu tăng cường tăng sức mạnh đồng đội; kỹ năng Ego có thể bỏ lượng lớn đạn đã tích trong Chồng bài rút."
+        "vi": "Soul Riff III thêm đòn đánh khi Renoa Discard, còn Adagio giúp tái sử dụng đạn. Ở E2, Nhịp điệu tăng cường tăng sức mạnh đồng đội; kỹ năng Ego có thể bỏ lượng lớn đạn đã tích trong Draw Pile."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Rei supports Renoa through 1-cost and Void buffs, Glory’s Reign, and Morale.",
-        "vi": "Rei hỗ trợ Renoa bằng hiệu ứng tăng sát thương lá Chi phí 1, lá hệ Hư vô, Glory’s Reign và Sĩ khí."
+        "vi": "Rei hỗ trợ Renoa bằng hiệu ứng tăng sát thương lá Cost 1, lá hệ Void, Glory’s Reign và Morale."
       }
     },
     {
       "name": "Cassius",
       "note": {
         "en": "Morale epiphanies provide cheap buffs, but Devil Dice often needs a divine discount to support both drawing and buffing. Shuffle and Devil Dice IV also help discard.",
-        "vi": "Thức tỉnh Sĩ khí tăng sức mạnh với chi phí thấp, nhưng Devil Dice thường cần giảm Chi phí thần thánh để vừa rút bài vừa hỗ trợ. Xáo bài và Devil Dice IV cũng giúp bỏ bài."
+        "vi": "Epiphany Morale tăng sức mạnh với chi phí thấp, nhưng Devil Dice thường cần giảm Cost Divine để vừa rút bài vừa hỗ trợ. Shuffle và Devil Dice IV cũng giúp Discard."
       }
     },
     {
       "name": "Diana",
       "note": {
         "en": "Quietus can Exhaust Dirge Bullet and add an extra hit. Both characters benefit from discard, extra attacks and shared supports such as Nia.",
-        "vi": "Tịch diệt có thể khiến Dirge Bullet Kiệt sức và thêm một lần đánh. Cả hai cùng hưởng lợi từ bỏ bài, đòn đánh thêm và những hỗ trợ chung như Nia."
+        "vi": "Quietus có thể khiến Dirge Bullet Exhaust và thêm một lần đánh. Cả hai cùng hưởng lợi từ Discard, Extra Attacks và những hỗ trợ chung như Nia."
       }
     }
   ],
@@ -1077,7 +1077,7 @@
     {
       "name": {
         "en": "Daughters of Discard",
-        "vi": "Đội phối hợp bỏ bài"
+        "vi": "Đội phối hợp Discard"
       },
       "members": [
         "Diana",
@@ -1086,8 +1086,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1103,8 +1103,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

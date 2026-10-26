@@ -49,9 +49,9 @@ test("Sereniel saved decks preserve copies and additional effects in the modal",
     await expect(page.getByRole("list", { name: "Các lá trong bộ bài" }).getByRole("listitem")).toHaveCount(count);
   }
   const plasma = page.getByRole("button", { name: "Plasma Missile III card", exact: true });
-  await expect(plasma).toContainText("Giảm 2 Kiên cường trong 1 lượt");
+  await expect(plasma).toContainText("Giảm 2 Fortitude trong 1 lượt");
   await plasma.click();
-  await expect(page.getByRole("dialog")).toContainText("Giảm 2 Kiên cường trong 1 lượt");
+  await expect(page.getByRole("dialog")).toContainText("Giảm 2 Fortitude trong 1 lượt");
   await page.getByRole("button", { name: "Đóng hộp thoại" }).click();
   await page.getByRole("checkbox", { name: "Tiếng Việt" }).uncheck();
   await expect(page.getByRole("button", { name: "Plasma Missile III card", exact: true })).toContainText("Decrease Fortitude by 2 for 1 turn");

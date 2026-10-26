@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Playing a card costing at least 2 AP triggers Celestial cards, combining Vulture Ejection damage with Shield.",
-    "vi": "Dùng bài tốn ít nhất 2 Điểm hành động kích hoạt bài Thiên thể, kết hợp sát thương Vulture Ejection với Lá chắn."
+    "vi": "Dùng bài tốn ít nhất 2 AP kích hoạt bài Celestial, kết hợp sát thương Vulture Ejection với Shield."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1008.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -281,19 +281,19 @@
   "review": {
     "intro": {
       "en": "Playing a card costing at least 2 AP triggers Celestial cards, combining Vulture Ejection damage with Shield.",
-      "vi": "Dùng bài tốn ít nhất 2 Điểm hành động kích hoạt bài Thiên thể, kết hợp sát thương Vulture Ejection với Lá chắn."
+      "vi": "Dùng bài tốn ít nhất 2 AP kích hoạt bài Celestial, kết hợp sát thương Vulture Ejection với Shield."
     },
     "profile": [],
     "pros": [
       {
         "en": "Provides AoE, targeted draw and protection in the same sequence.",
-        "vi": "Cung cấp sát thương diện rộng, rút bài chỉ định và bảo vệ trong cùng chuỗi hành động."
+        "vi": "Cung cấp sát thương diện rộng, Draw chỉ định và bảo vệ trong cùng chuỗi hành động."
       }
     ],
     "cons": [
       {
         "en": "Without reliable Celestial triggers, her high printed costs become inefficient.",
-        "vi": "Nếu không kích hoạt Thiên thể ổn định, chi phí cơ bản cao khiến bài kém hiệu quả."
+        "vi": "Nếu không kích hoạt Celestial ổn định, chi phí cơ bản cao khiến bài kém hiệu quả."
       }
     ],
     "mechanics": [
@@ -301,7 +301,7 @@
         "title": "Greatsword Aquila",
         "body": {
           "en": "150% Defense-Based Damage to all enemies; If Vulture Ejection is in hand, increase Cost by 1, +120% Damage Amount",
-          "vi": "Gây 150% Sát thương theo Phòng thủ lên tất cả kẻ địch; Nếu Vulture Ejection ở trên tay, tăng Chi phí thêm 1 và tăng 120% lượng sát thương"
+          "vi": "Gây 150% Defense-Based Damage lên tất cả kẻ địch; Nếu Vulture Ejection ở trên tay, tăng Cost thêm 1 và tăng 120% lượng sát thương"
         },
         "cardId": "c_1008_uni1"
       },
@@ -309,7 +309,7 @@
         "title": "Overpower",
         "body": {
           "en": "250% Shield; 1 Tenacity Damage to all enemies",
-          "vi": "250% Lá chắn; Gây 1 Sát thương sức bền lên tất cả kẻ địch"
+          "vi": "250% Shield; Gây 1 Tenacity Damage lên tất cả kẻ địch"
         },
         "cardId": "c_1008_uni2"
       },
@@ -317,7 +317,7 @@
         "title": "Rally",
         "body": {
           "en": "120% Shield; Draw 1 highest-cost card(s)",
-          "vi": "120% Lá chắn; Rút 1 lá có Chi phí cao nhất"
+          "vi": "120% Shield; Rút 1 lá có Cost cao nhất"
         },
         "cardId": "c_1008_uni3"
       }
@@ -336,11 +336,11 @@
       "preferred": "I / II / V",
       "note": {
         "en": "II removes damage to emphasize shielding and enables Draw 1. I instead maximizes direct damage at the cost of its shield.",
-        "vi": "II bỏ sát thương để tăng Lá chắn và mở lựa chọn Rút 1. I tăng sát thương trực tiếp nhưng mất Lá chắn."
+        "vi": "II bỏ sát thương để tăng Shield và mở lựa chọn Rút 1. I tăng sát thương trực tiếp nhưng mất Shield."
       },
       "divine": {
         "en": "Draw 1 on II or 2 Vulnerable are priorities; neutral resource effects can support Celestial triggers.",
-        "vi": "Ưu tiên Rút 1 cho II hoặc 2 Dễ tổn thương; hiệu ứng tài nguyên trung lập có thể hỗ trợ kích hoạt Thiên thể."
+        "vi": "Ưu tiên Rút 1 cho II hoặc 2 Vulnerable; hiệu ứng tài nguyên Neutral có thể hỗ trợ kích hoạt Celestial."
       }
     },
     {
@@ -355,11 +355,11 @@
       "preferred": "III",
       "note": {
         "en": "III adds Silver Veil for the main damage engine. IV occupies hand space for a small retained buff and is harder to justify.",
-        "vi": "III thêm Màn bạc cho cơ chế sát thương chính. IV chiếm chỗ trên tay để tạo hiệu ứng Giữ lại nhỏ nên khó đáng giá hơn."
+        "vi": "III thêm Silver Veil cho cơ chế sát thương chính. IV chiếm chỗ trên tay để tạo hiệu ứng Retain nhỏ nên khó đáng giá hơn."
       },
       "divine": {
         "en": "Do not prioritize divines or neutral effects on this low-priority card.",
-        "vi": "Không ưu tiên thần thánh hoặc trung lập trên lá có mức ưu tiên thấp này."
+        "vi": "Không ưu tiên Divine hoặc Neutral trên lá có mức ưu tiên thấp này."
       }
     },
     {
@@ -374,11 +374,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV scales its shield with hand size and is the preferred version when retained in the deck. The other effects struggle to justify the cost.",
-        "vi": "IV tăng Lá chắn theo số bài trên tay, là bản ưu tiên nếu giữ trong bộ bài. Các hiệu ứng khác khó bù được chi phí."
+        "vi": "IV tăng Shield theo số bài trên tay, là bản ưu tiên nếu giữ trong bộ bài. Các hiệu ứng khác khó bù được chi phí."
       },
       "divine": {
         "en": "Consider cost reduction or 2 Vulnerable; neutral versions retain the expensive base effect.",
-        "vi": "Cân nhắc giảm chi phí hoặc 2 Dễ tổn thương; bản trung lập vẫn giữ hiệu ứng gốc tốn kém."
+        "vi": "Cân nhắc giảm chi phí hoặc 2 Vulnerable; bản Neutral vẫn giữ hiệu ứng gốc tốn kém."
       }
     },
     {
@@ -393,11 +393,11 @@
       "preferred": "III",
       "note": {
         "en": "III gains Celestial and Silver Veil, making it efficient with expensive allied cards. Other versions depend on the desired draw target.",
-        "vi": "III có Thiên thể và Màn bạc, hiệu quả khi đồng đội dùng bài đắt. Các bản khác tùy loại bài muốn rút."
+        "vi": "III có Celestial và Silver Veil, hiệu quả khi đồng đội dùng bài đắt. Các bản khác tùy loại bài muốn rút."
       },
       "divine": {
         "en": "Select the draw behavior that fits the team; divines and neutrals are secondary.",
-        "vi": "Chọn cách rút bài phù hợp đội; thần thánh và trung lập là ưu tiên sau."
+        "vi": "Chọn cách Draw phù hợp đội; Divine và Neutral là ưu tiên sau."
       }
     }
   ],
@@ -407,7 +407,7 @@
       "score": "—",
       "note": {
         "en": "Strong damage and Shield multipliers combine with draw utility that is especially valuable in Chaos.",
-        "vi": "Tăng sát thương và Lá chắn mạnh kết hợp tiện ích Rút bài đặc biệt hữu ích trong Chaos."
+        "vi": "Tăng sát thương và Shield mạnh kết hợp tiện ích Draw đặc biệt hữu ích trong Chaos."
       }
     },
     {
@@ -415,7 +415,7 @@
       "score": "—",
       "note": {
         "en": "High combat defense improves damage and Shields, with further damage value when Vulnerable is maintained.",
-        "vi": "Phòng thủ chiến đấu cao tăng sát thương và Lá chắn, thêm giá trị sát thương khi duy trì Dễ tổn thương."
+        "vi": "DEF chiến đấu cao tăng sát thương và Shield, thêm giá trị sát thương khi duy trì Vulnerable."
       }
     },
     {
@@ -449,7 +449,7 @@
       "score": "—",
       "note": {
         "en": "A consistent damage-and-support default; dedicated Counterattack or Extra Attack teams may favor Starlight and Dreams.",
-        "vi": "Bộ mặc định ổn định cho cả sát thương lẫn hỗ trợ; đội chuyên Phản công hoặc Đòn đánh thêm có thể thích Starlight and Dreams."
+        "vi": "Bộ mặc định ổn định cho cả sát thương lẫn hỗ trợ; đội chuyên Counterattack hoặc Extra Attack có thể thích Starlight and Dreams."
       }
     }
   ],
@@ -457,11 +457,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -471,65 +471,65 @@
       },
       "value": {
         "en": "Instinct DMG%",
-        "vi": "Sát thương Bản năng%"
+        "vi": "Sát thương Instinct%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "DEF%",
-        "vi": "Phòng thủ%"
+        "vi": "DEF%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > DEF > DEF%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Phòng thủ > Phòng thủ%"
+        "vi": "Critical Chance% = CRIT DMG% > DEF > DEF%"
       }
     }
   ],
   "critNote": {
     "en": "To activate the shielding portion of Khalipe's Potential 7, ensure you have at least 301 Defense. Khalipe can also gain a damage increase from her Potential,7, but she needs to reach 701 ATK something, which is quite difficult for her without compromising her main and sub stats, which usually makes this breakpoint not worth going for unless you can hit it without losing too much elsewhere.",
-    "vi": "Đạt ít nhất 301 phòng thủ để kích hoạt phần lá chắn của tiềm năng 7. Mốc 701 tấn công còn tăng sát thương nhưng thường khó đạt nếu không hy sinh chỉ số tốt; chỉ nhắm tới khi không phải đánh đổi nhiều."
+    "vi": "Đạt ít nhất 301 DEF để kích hoạt phần Shield của Potential 7. Mốc 701 ATK còn tăng sát thương nhưng thường khó đạt nếu không hy sinh chỉ số tốt; chỉ nhắm tới khi không phải đánh đổi nhiều."
   },
   "potentialIntro": {
     "en": "Khalipe’s signature Potential unlocks are strong but not transformational. Here is a breakdown of what to expect.3-1: Converts Upward Slash from single target to AoE, at the cost of dealing -40% less damage. Improving its late-game staying power, substantially elevating it to a card worth keeping around even in high-end Khalipe decks.5-1: A small increase in damage to Upward Slash and Lashing. Khalipe can easily reach the DEF stat threshold.7: Meaningful increase in both damage and shielding for Vulture Ejection. Requires investment into Khalipe’s ATK.",
-    "vi": "Tiềm năng 3-1 biến Upward Slash thành đánh diện rộng nhưng giảm 40% sát thương, giúp lá này đáng giữ cả trong bộ bài tối ưu; 5-1 tăng nhẹ sát thương Upward Slash và Lashing, với ngưỡng phòng thủ dễ đạt. Tiềm năng 7 tăng đáng kể sát thương và lá chắn Vulture Ejection, nhưng phần sát thương đòi hỏi đầu tư tấn công."
+    "vi": "Potential 3-1 biến Upward Slash thành đánh diện rộng nhưng giảm 40% sát thương, giúp lá này đáng giữ cả trong bộ bài tối ưu; 5-1 tăng nhẹ sát thương Upward Slash và Lashing, với ngưỡng DEF dễ đạt. Potential 7 tăng đáng kể sát thương và Shield Vulture Ejection, nhưng phần sát thương đòi hỏi đầu tư ATK."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Upward Slash Cards deal -40% Damage but attack all enemies.",
-        "vi": "Các lá Upward Slash giảm 40% sát thương nhưng tấn công tất cả kẻ địch."
+        "vi": "Các lá Upward Slash giảm 40% sát thương nhưng Attack tất cả kẻ địch."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Khalipe's Lashing and Upward Slash; If Khalipe's Defense is 250 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Lashing và Upward Slash của Khalipe; Nếu Phòng thủ của Khalipe đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Lashing và Upward Slash của Khalipe; Nếu DEF của Khalipe đạt ít nhất 250, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+10% Damage and Shield Gain Amounts to Vulture Ejection; If Khalipe’s Attack is 700 or higher, add an additional +20% Damage Amount to Vulture Ejection; If Khalipe’s Defense is 300 or higher, add an additional +20% Shield Amount to Vulture Ejection",
-        "vi": "Tăng 10% sát thương và lượng Lá chắn nhận được của Vulture Ejection; Nếu Tấn công của Khalipe đạt ít nhất 700, tăng thêm 20% lượng sát thương của Vulture Ejection; Nếu Phòng thủ của Khalipe đạt ít nhất 300, tăng thêm 20% lượng Lá chắn của Vulture Ejection"
+        "vi": "Tăng 10% sát thương và lượng Shield nhận được của Vulture Ejection; Nếu Attack của Khalipe đạt ít nhất 700, tăng thêm 20% lượng sát thương của Vulture Ejection; Nếu DEF của Khalipe đạt ít nhất 300, tăng thêm 20% lượng Shield của Vulture Ejection"
       }
     }
   ],
@@ -537,7 +537,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -564,7 +564,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -586,7 +586,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -604,7 +604,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -628,41 +628,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards thường chọn mỗi Lux Engraving tăng 15% sát thương Attack Card của đồng đội trong 1 lượt, hoặc Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -680,7 +680,7 @@
       "score": "—",
       "note": {
         "en": "Khalipe’s first Ego to be unlocked adds the [Retain] tag to her Absolute Protection Skill card and increases the amount of shield given by +20%. This is a really good first Ego to help with ensuring you’re able to hold onto Absolute Protection for maximum value, whilst also improving her shielding capabilities.",
-        "vi": "Absolute Protection có Giữ lại và tăng thêm 20% lá chắn, giúp giữ đúng thời điểm để đạt giá trị cao nhất."
+        "vi": "Absolute Protection có Retain và tăng thêm 20% Shield, giúp giữ đúng thời điểm để đạt giá trị cao nhất."
       }
     },
     {
@@ -688,7 +688,7 @@
       "score": "—",
       "note": {
         "en": "Her second Ego, when unlocked, moves 1 Vulture Ejection card from their Draw Pile to the top of the Draw Pile at the start of the battle or whenever the Discard Pile is shuffled into the main deck. This helps with Khalipes cycling to ensure she always has copies of Vulture Ejection in her hand to start her chain reaction of [Celestial] cards.",
-        "vi": "Đầu trận hoặc khi xáo chồng bỏ vào bộ bài, đưa 1 Vulture Ejection từ chồng rút lên trên cùng. Giúp ổn định vòng bài và khởi động chuỗi bài Thiên thể."
+        "vi": "Đầu trận hoặc khi xáo chồng bỏ vào bộ bài, đưa 1 Vulture Ejection từ chồng rút lên trên cùng. Giúp ổn định vòng bài và khởi động chuỗi bài Celestial."
       }
     },
     {
@@ -696,7 +696,7 @@
       "score": "—",
       "note": {
         "en": "Khalipe’s Ego3 increases the amount of damage her Ego Skill deals by an additional +50% and will also now grant 1 stack of Silver Veil when used. The best part of this Ego, when unlocked, is the stack of Silver Veil granted when used, which could potentially be the last stack required to blow up your enemies. Overall, a solid Ego node for Khalipe.",
-        "vi": "Kỹ năng Ego tăng thêm 50% sát thương và cho 1 Màn bạc. Cộng dồn này có thể hoàn thành điều kiện kích nổ, nên là nâng cấp khá tốt."
+        "vi": "Ego Skill tăng thêm 50% sát thương và cho 1 Silver Veil. Cộng dồn này có thể hoàn thành điều kiện kích nổ, nên là nâng cấp khá tốt."
       }
     },
     {
@@ -704,7 +704,7 @@
       "score": "—",
       "note": {
         "en": "Their fourth Ego node grants Khalipe “Deploy Veil” whenever her Silver Veil effect activates. Deploy Veil can stack up to twice and lasts indefinitely - providing +10% damage and shielding per stack. This is a fantastic buff that is incredibly easy to stack by turn 2 with a decent save file.",
-        "vi": "Khi Màn bạc kích hoạt, nhận Deploy Veil, tối đa 2 cộng dồn vô thời hạn; mỗi cộng dồn cho 10% sát thương và lá chắn. Bộ bài lưu tốt dễ tích đủ ở lượt 2."
+        "vi": "Khi Silver Veil kích hoạt, nhận Deploy Veil, tối đa 2 cộng dồn vô thời hạn; mỗi cộng dồn cho 10% sát thương và Shield. Deck lưu tốt dễ tích đủ ở lượt 2."
       }
     },
     {
@@ -712,7 +712,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. This is a strong Potential boost for Khalipe as her most important cards all shield and deal damage simultaneously.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Rất có ích vì các lá quan trọng của Khalipe đồng thời gây sát thương và tạo lá chắn."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Rất có ích vì các lá quan trọng của Khalipe đồng thời gây sát thương và tạo Shield."
       }
     },
     {
@@ -720,7 +720,7 @@
       "score": "—",
       "note": {
         "en": "Khalipe's final Ego node gives Khalipe 2 stacks of Silver Veil at the start of battle, while also increasing the amount of damage Silver Veil does by +100%. This is yet another great Ego node for Khalipe that can really take her to the next level, accelerating her damage output by only needing 1 stack of Silver Veil before detonating the field, whilst also dealing more damage whenever doing so. This also accelerates her Deploy Veil gain as it now becomes possible to fully stack it by turn 1.",
-        "vi": "Đầu trận nhận 2 Màn bạc và tăng sát thương Màn bạc 100%. Chỉ cần thêm 1 cộng dồn để kích nổ, đồng thời có thể tích đủ Deploy Veil ngay lượt đầu."
+        "vi": "Đầu trận nhận 2 Silver Veil và tăng sát thương Silver Veil 100%. Chỉ cần thêm 1 cộng dồn để kích nổ, đồng thời có thể tích đủ Deploy Veil ngay lượt đầu."
       }
     }
   ],
@@ -728,11 +728,11 @@
     {
       "name": {
         "en": "Shieldmax Khalipe",
-        "vi": "Khalipe tối đa hóa lá chắn"
+        "vi": "Khalipe tối đa hóa Shield"
       },
       "role": {
         "en": "High-output shield support",
-        "vi": "Hỗ trợ tạo lượng lá chắn lớn"
+        "vi": "Hỗ trợ tạo lượng Shield lớn"
       },
       "partner": "Zeta",
       "cards": [
@@ -759,17 +759,17 @@
       "fragmentPieces": [],
       "note": {
         "en": "Use Vulture Ejection V and Overpower IV to add 40% shielding per card in hand. Preserve a large hand when generating shields. This suits survival-heavy fights or shield-based damage dealers such as Maribell.",
-        "vi": "Dùng Vulture Ejection V và Overpower IV để tăng 40% lượng lá chắn cho mỗi lá trên tay. Giữ nhiều bài trên tay trước khi tạo lá chắn nhằm tận dụng tối đa hiệu ứng. Phù hợp khi cần chống chịu cao hoặc hỗ trợ chủ lực tính sát thương theo lá chắn như Maribell."
+        "vi": "Dùng Vulture Ejection V và Overpower IV để tăng 40% lượng Shield cho mỗi lá trên tay. Giữ nhiều bài trên tay trước khi tạo Shield nhằm tận dụng tối đa hiệu ứng. Phù hợp khi cần chống chịu cao hoặc hỗ trợ chủ lực tính sát thương theo Shield như Maribell."
       }
     },
     {
       "name": {
         "en": "Vulnerable Debuffer",
-        "vi": "Gây Dễ tổn thương"
+        "vi": "Gây Vulnerable"
       },
       "role": {
         "en": "Passive area Vulnerable support",
-        "vi": "Gây Dễ tổn thương diện rộng thụ động"
+        "vi": "Gây Vulnerable diện rộng thụ động"
       },
       "partner": "Zeta",
       "cards": [
@@ -778,7 +778,7 @@
           "count": 3,
           "effects": {
             "en": "Apply Vulnerable 2 to all enemies<br>2 Vulnerable to the target",
-            "vi": "Gây 2 Dễ tổn thương lên toàn bộ kẻ địch<br>Gây 2 Dễ tổn thương lên mục tiêu"
+            "vi": "Gây 2 Vulnerable lên toàn bộ kẻ địch<br>Gây 2 Vulnerable lên mục tiêu"
           }
         },
         {
@@ -787,7 +787,7 @@
           "draw": 1,
           "effects": {
             "en": "Apply Vulnerable 1 to all enemies",
-            "vi": "Gây 1 Dễ tổn thương lên toàn bộ kẻ địch"
+            "vi": "Gây 1 Vulnerable lên toàn bộ kẻ địch"
           }
         },
         {
@@ -796,7 +796,7 @@
           "draw": 1,
           "effects": {
             "en": "Apply Vulnerable 1 to all enemies",
-            "vi": "Gây 1 Dễ tổn thương lên toàn bộ kẻ địch"
+            "vi": "Gây 1 Vulnerable lên toàn bộ kẻ địch"
           }
         },
         {
@@ -811,7 +811,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Combine Vulture Ejection's Divine and neutral area-Vulnerable options. Celestial repeatedly applies the debuff through the team's normal actions. Only use this with allies that can activate Celestial by playing cards costing at least 2 AP.",
-        "vi": "Kết hợp Thức tỉnh thần thánh của Vulture Ejection với Thức tỉnh bài trung lập gây Dễ tổn thương diện rộng. Thiên thể giúp liên tục đặt hiệu ứng bất lợi qua các hành động thông thường của đội. Chỉ nên dùng khi đồng đội có thể kích hoạt Thiên thể bằng các lá giá từ 2 Điểm hành động trở lên."
+        "vi": "Kết hợp Divine Epiphany của Vulture Ejection với Epiphany Neutral gây Vulnerable diện rộng. Celestial giúp liên tục đặt hiệu ứng bất lợi qua các hành động thông thường của đội. Chỉ nên dùng khi đồng đội có thể kích hoạt Celestial bằng các lá giá từ 2 AP trở lên."
       }
     }
   ],
@@ -820,14 +820,14 @@
       "name": "Maribell",
       "note": {
         "en": "High-ratio Shield epiphanies increase the Shield total that drives Maribell's damage.",
-        "vi": "Thức tỉnh tạo Lá chắn hệ số cao tăng tổng Lá chắn quyết định sát thương Maribell."
+        "vi": "Epiphany tạo Shield hệ số cao tăng tổng Shield quyết định sát thương Maribell."
       }
     },
     {
       "name": "Nine",
       "note": {
         "en": "Nine's multiplicative Shield buffs make especially good use of Khalipe's high Shield ratios.",
-        "vi": "Tăng Lá chắn theo phép nhân của Nine tận dụng tốt hệ số Lá chắn cao của Khalipe."
+        "vi": "Tăng Shield theo phép nhân của Nine tận dụng tốt hệ số Shield cao của Khalipe."
       }
     }
   ],

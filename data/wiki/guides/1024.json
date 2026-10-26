@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Creates zero-cost companions and repeatedly triggers Retain for healing, Shield and damage buffs.",
-    "vi": "Tạo các bạn nhỏ có chi phí 0 Điểm hành động và kích hoạt Giữ lại nhiều lần để hồi máu, tạo lá chắn và tăng sát thương."
+    "vi": "Tạo các bạn nhỏ có chi phí 0 AP và kích hoạt Retain nhiều lần để hồi máu, tạo Shield và tăng sát thương."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1024.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -454,7 +454,7 @@
   "review": {
     "intro": {
       "en": "Creates zero-cost companions and repeatedly triggers Retain for healing, Shield and damage buffs.",
-      "vi": "Tạo các bạn nhỏ có chi phí 0 Điểm hành động và kích hoạt Giữ lại nhiều lần để hồi máu, tạo lá chắn và tăng sát thương."
+      "vi": "Tạo các bạn nhỏ có chi phí 0 AP và kích hoạt Retain nhiều lần để hồi máu, tạo Shield và tăng sát thương."
     },
     "profile": [],
     "pros": [
@@ -466,7 +466,7 @@
     "cons": [
       {
         "en": "No natural draw; keeping Creations can consume hand space and delay payoff.",
-        "vi": "Không có sẵn khả năng rút bài; giữ Tạo vật có thể chiếm chỗ trên tay và chậm phát huy hiệu quả."
+        "vi": "Không có sẵn khả năng Draw; giữ Creation có thể chiếm chỗ trên tay và chậm phát huy hiệu quả."
       }
     ],
     "mechanics": [
@@ -474,7 +474,7 @@
         "title": "Growth Acceleration",
         "body": {
           "en": "Heal 100%; Select 1 card of this unit in hand, then activate the Retain effect 2 time(s)",
-          "vi": "Hồi máu 100%; Chọn 1 lá của Nhân vật này trên tay, sau đó kích hoạt hiệu ứng Giữ lại 2 lần"
+          "vi": "Healing 100%; Chọn 1 lá của Combatant này trên tay, sau đó kích hoạt hiệu ứng Retain 2 lần"
         },
         "cardId": "c_1024_uni1"
       },
@@ -482,7 +482,7 @@
         "title": "Annoying",
         "body": {
           "en": "For each card in hand, 40% Fixed Damage and Heal 20%",
-          "vi": "Với mỗi lá trên tay, gây 40% Sát thương cố định và Hồi máu 20%"
+          "vi": "Với mỗi lá trên tay, gây 40% Fixed Damage và Healing 20%"
         },
         "cardId": "c_1024_uni2"
       },
@@ -490,7 +490,7 @@
         "title": "Growing Creature",
         "body": {
           "en": "Create 1 Creation★; Retain: Change this card to Creation★★★",
-          "vi": "Tạo 1 Tạo vật★; Giữ lại: đổi lá này thành Tạo vật★★★"
+          "vi": "Tạo 1 Creation★; Retain: đổi lá này thành Creation★★★"
         },
         "cardId": "c_1024_uni3"
       }
@@ -509,11 +509,11 @@
       "preferred": "II",
       "note": {
         "en": "II becomes a recurring creation engine after one expensive setup. III more reliably creates Softie but needs repeated use.",
-        "vi": "II thành cơ chế tạo vật định kỳ sau một lần thiết lập tốn chi phí. III tạo Softie ổn định hơn nhưng cần dùng lặp lại."
+        "vi": "II thành cơ chế Creation định kỳ sau một lần thiết lập tốn chi phí. III tạo Softie ổn định hơn nhưng cần dùng lặp lại."
       },
       "divine": {
         "en": "Consider draw or cost reduction; neutral efficiency usually loses useful creation effects.",
-        "vi": "Cân nhắc rút bài hoặc giảm chi phí; hiệu suất trung lập thường đánh đổi hiệu ứng tạo vật hữu ích."
+        "vi": "Cân nhắc Draw hoặc giảm chi phí; hiệu suất Neutral thường đánh đổi hiệu ứng Creation hữu ích."
       }
     },
     {
@@ -528,11 +528,11 @@
       "preferred": "I",
       "note": {
         "en": "I costs zero and triggers allied Retain effects. II immediately advances a creation for specialized burst plans but costs more and exhausts.",
-        "vi": "I có chi phí 0 và kích hoạt Giữ lại của đồng đội. II nâng tạo vật ngay cho kế hoạch dồn sát thương chuyên biệt nhưng tốn hơn và Kiệt sức."
+        "vi": "I có chi phí 0 và kích hoạt Retain của đồng đội. II nâng Creation ngay cho kế hoạch dồn sát thương chuyên biệt nhưng tốn hơn và Exhausts."
       },
       "divine": {
         "en": "Draw or cost reduction are useful; neutral draw can help when drawing is the main constraint.",
-        "vi": "Rút bài hoặc giảm chi phí hữu ích; rút trung lập phù hợp khi thiếu khả năng rút là trở ngại chính."
+        "vi": "Draw hoặc giảm chi phí hữu ích; rút Neutral phù hợp khi thiếu khả năng rút là trở ngại chính."
       }
     },
     {
@@ -551,7 +551,7 @@
       },
       "divine": {
         "en": "Neutral 1 Morale is usable; spend Faint Memory elsewhere rather than chasing divines.",
-        "vi": "1 Sĩ khí trung lập dùng được; nên dành Ký ức phai nhạt nhạt cho lá khác thay vì tìm thần thánh."
+        "vi": "1 Morale Neutral dùng được; nên dành Faint Memory nhạt cho lá khác thay vì tìm Divine."
       }
     },
     {
@@ -566,11 +566,11 @@
       "preferred": "III",
       "note": {
         "en": "III guarantees a three-star Softie and applies Vulnerable. V instead guarantees Sturdie for healing and shielding; IV favors damage.",
-        "vi": "III đảm bảo Softie ba sao và gây Dễ tổn thương. V đảm bảo Sturdie để hồi máu/Lá chắn; IV thiên về sát thương."
+        "vi": "III đảm bảo Softie ba sao và gây Vulnerable. V đảm bảo Sturdie để hồi máu/Shield; IV thiên về sát thương."
       },
       "divine": {
         "en": "Do not invest in neutral or divine effects: the Retain transformation removes them.",
-        "vi": "Không đầu tư trung lập hoặc thần thánh: biến đổi qua Giữ lại sẽ xóa chúng."
+        "vi": "Không đầu tư Neutral hoặc Divine: biến đổi qua Retain sẽ xóa chúng."
       }
     }
   ],
@@ -580,7 +580,7 @@
       "score": "—",
       "note": {
         "en": "Adds draw/discard utility, support stats and a modest team buff at any Ego level.",
-        "vi": "Thêm tiện ích rút/bỏ bài, chỉ số hỗ trợ và một ít hiệu ứng tăng cường toàn đội ở mọi cấp Ego."
+        "vi": "Thêm tiện ích rút/Discard, chỉ số hỗ trợ và một ít hiệu ứng tăng cường toàn đội ở mọi cấp Ego."
       }
     },
     {
@@ -596,7 +596,7 @@
       "score": "—",
       "note": {
         "en": "After the nerfs, mainly considered for Chaos and Sortie; save-based modes generally favor Nyx or Yuri's draw.",
-        "vi": "Sau giảm sức mạnh, chủ yếu cân nhắc cho Chaos và Xuất kích; chế độ dùng bản lưu thường chuộng rút bài từ Nyx hoặc Yuri."
+        "vi": "Sau giảm sức mạnh, chủ yếu cân nhắc cho Chaos và Xuất kích; chế độ dùng bản lưu thường chuộng Draw từ Nyx hoặc Yuri."
       }
     },
     {
@@ -604,7 +604,7 @@
       "score": "—",
       "note": {
         "en": "Choose her passive damage reduction when surviving matters more than extra utility.",
-        "vi": "Chọn giảm sát thương thụ động khi ưu tiên sống sót hơn tiện ích bổ sung."
+        "vi": "Chọn Damage Reduction thụ động khi ưu tiên sống sót hơn tiện ích bổ sung."
       }
     },
     {
@@ -612,7 +612,7 @@
       "score": "—",
       "note": {
         "en": "Trades Arwen's mitigation for DEF and passive healing; useful when DEF scaling matters or Arwen is unavailable.",
-        "vi": "Đổi giảm sát thương của Arwen lấy Phòng thủ và hồi máu thụ động; hữu ích khi cần hệ số Phòng thủ hoặc chưa có Arwen."
+        "vi": "Đổi giảm sát thương của Arwen lấy DEF và hồi máu thụ động; hữu ích khi cần hệ số DEF hoặc chưa có Arwen."
       }
     },
     {
@@ -620,7 +620,7 @@
       "score": "—",
       "note": {
         "en": "A free alternative to Yuri when extra stats matter more than an Ego draw skill.",
-        "vi": "Thay thế Yuri miễn phí khi coi trọng chỉ số hơn kỹ năng Ego rút bài."
+        "vi": "Thay thế Yuri miễn phí khi coi trọng chỉ số hơn kỹ năng Ego Draw."
       }
     }
   ],
@@ -630,7 +630,7 @@
       "score": "—",
       "note": {
         "en": "Core Exhaust and Creation cards activate the team buff easily, unless another ally already supplies it.",
-        "vi": "Các lá Kiệt sức và Tạo vật cốt lõi dễ kích hoạt hiệu ứng tăng cường đội, trừ khi đồng đội đã đảm nhiệm bộ này."
+        "vi": "Các lá Exhaust và Creation cốt lõi dễ kích hoạt hiệu ứng tăng cường đội, trừ khi đồng đội đã đảm nhiệm bộ này."
       }
     },
     {
@@ -646,11 +646,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
@@ -660,44 +660,44 @@
       },
       "value": {
         "en": "HP%",
-        "vi": "Máu%"
+        "vi": "HP%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "DEF% = EGO Regen >= HP%",
-        "vi": "Phòng thủ% = Hồi năng lượng Ego >= Máu%"
+        "vi": "DEF% = Hồi năng lượng Ego >= HP%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "DEF > DEF% > EGO Regen = HP > HP%",
-        "vi": "Phòng thủ > Phòng thủ% > Hồi năng lượng Ego = Máu > Máu%"
+        "vi": "DEF > DEF% > Hồi năng lượng Ego = HP > HP%"
       }
     }
   ],
   "critNote": {
     "en": "To activate Orlea's incredibly potent Potential 7, she either needs 300 DEF or 700 ATK (in the stat screen). Usually targeting DEF is both easier and more productive given Orlea's usual supportive role, so prioritize reaching above 300 DEF above all else. If you're playing Orlea witha focus on damage though, you can instead go for 700 ATK.",
-    "vi": "Để kích hoạt tiềm năng 7, ưu tiên phòng thủ trên 300 khi chơi hỗ trợ; thường dễ và hữu ích hơn tăng tấn công. Nếu chơi gây sát thương, có thể nhắm trên 700 tấn công thay thế; kiểm tra trên màn hình nhân vật."
+    "vi": "Để kích hoạt Potential 7, ưu tiên DEF trên 300 khi chơi hỗ trợ; thường dễ và hữu ích hơn tăng ATK. Nếu chơi gây sát thương, có thể nhắm trên 700 ATK thay thế; kiểm tra trên màn hình nhân vật."
   },
   "potentialIntro": {
     "en": "3-1: Adds a 50% chance to generate 1 Creation(★) card to her healing cards. Decent for [Creation] generation, but won’t trigger very often and you realistically want to remove these Basic Cards anyway.5-1: Orlea’s 5-1 Potential Node provides an additional 10% healing to her Basic Healing Card “Healing of Light”. An okay node for helping out with sustain early in Chaos, but not a must-have if you’re looking to save resources.7: Gives allies a +6% Critical Chance at the start of battle if Orlea’s Attack is above 700, orher Defense is above 300. An extremely powerful node for any Combatant when paired with Orlea. A must-have unlock and a stat target you absolutely need to fulfill, as 6% Crit Rate is a huge buff to the team.",
-    "vi": "Tiềm năng 3-1 cho bài hồi máu 50% cơ hội tạo Tạo vật (★), nhưng bài cơ bản thường bị xóa; 5-1 tăng Healing of Light 10% hồi máu, có thể bỏ qua để tiết kiệm tài nguyên nếu không cần hồi phục đầu Chaos. Tiềm năng 7 rất quan trọng: tấn công >700 hoặc phòng thủ >300 sẽ cho toàn đội 6% tỷ lệ chí mạng đầu trận, nên cần mở và đạt ít nhất một ngưỡng."
+    "vi": "Potential 3-1 cho bài hồi máu 50% cơ hội tạo Creation (★), nhưng Basic Cards thường bị xóa; 5-1 tăng Healing of Light 10% hồi máu, có thể bỏ qua để tiết kiệm tài nguyên nếu không cần hồi phục đầu Chaos. Potential 7 rất quan trọng: Attack >700 hoặc DEF >300 sẽ cho toàn đội 6% Critical Chance đầu trận, nên cần mở và đạt ít nhất một ngưỡng."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add 50% chance to Heaven's Healing card to create 1 Creation★ card in hand.",
-        "vi": "Thêm 50% xác suất cho lá Heaven's Hồi máu tạo 1 lá Tạo vật★ trên tay."
+        "vi": "Thêm 50% xác suất cho lá Heaven's Healing tạo 1 lá Creation★ trên tay."
       }
     },
     {
@@ -711,14 +711,14 @@
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Orlea's Attack is 700 or higher, or her Defense is 300 or higher, then at the start of battle, +6% Critical Chance to allies",
-        "vi": "Nếu Tấn công của Orlea đạt ít nhất 700 hoặc Phòng thủ đạt ít nhất 300, đầu trận tăng 6% Tỷ lệ chí mạng cho đồng minh"
+        "vi": "Nếu Attack của Orlea đạt ít nhất 700 hoặc DEF đạt ít nhất 300, đầu trận tăng 6% Critical Chance cho đồng minh"
       }
     }
   ],
@@ -726,7 +726,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -741,13 +741,13 @@
       ],
       "note": {
         "en": "Swamp is typically the go-to choice for any support that can trigger ‘Recover’ through a Card, which is all Controllers and some Psionics, because of the access to ‘Clover of the Forest’ at fairly high odds (+10% ATK% for all allies on Recover from Card).",
-        "vi": "Đầm lầy thường là lựa chọn đầu tiên cho hỗ trợ có bài hồi phục, gồm mọi nhân vật Điều khiển và một số Ngoại cảm, vì dễ lấy Clover of the Forest. Trang bị này tăng 10% tấn công cho toàn đội khi hồi phục bằng bài."
+        "vi": "Swamp thường là lựa chọn đầu tiên cho hỗ trợ có bài hồi phục, gồm mọi nhân vật Controller và một số Psionic, vì dễ lấy Clover of the Forest. Trang bị này tăng 10% ATK cho toàn đội khi hồi phục bằng bài."
       }
     },
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -770,7 +770,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -790,7 +790,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -812,7 +812,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -837,41 +837,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is [For each Lux Engraving, +15% Damage Amount to ally Attack Cards for 1 turn] and/or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách thường chọn mỗi Khắc ấn Lux tăng 15% sát thương bài tấn công của đồng đội trong 1 lượt, và/hoặc Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards thường chọn mỗi Lux Engraving tăng 15% sát thương Attack Card của đồng đội trong 1 lượt, và/hoặc Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -889,7 +889,7 @@
       "score": "—",
       "note": {
         "en": "Orlea’s first Ego node grants the [Retain] to “Will of Light”, allowing you to hold it across turns you don’t use it. In hyper-optimized Orlea strategies that play through all her cards each turn, this Ego isn’t that powerful, but in Chaos or slower strategies that can’t do that or are looking to time cards instead of playing them all out every turn, the addition of [Retain] can be a useful bonus.",
-        "vi": "Will of Light có Giữ lại. Ít tác động với bộ bài tối ưu dùng hết mỗi lượt, nhưng hữu ích trong Chaos hoặc khi cần giữ lá để canh thời điểm."
+        "vi": "Will of Light có Retain. Ít tác động với bộ bài tối ưu dùng hết mỗi lượt, nhưng hữu ích trong Chaos hoặc khi cần giữ lá để canh thời điểm."
       }
     },
     {
@@ -897,7 +897,7 @@
       "score": "—",
       "note": {
         "en": "Upgrades Orlea’s Creation card to also trigger their [Retain] effects whenever they Evolve, granting Orlea even more avenues to trigger [Retain] effects mid-turn without having to wait. This Ego skill isn’t a game-changer for Orlea, but is certainly a nice bonus which can net you some extra damage, healing and buffing for free.",
-        "vi": "Tạo vật kích hoạt hiệu ứng Giữ lại cả khi tiến hóa, cho thêm cơ hội gây sát thương, hồi máu và tăng cường giữa lượt mà không cần chờ."
+        "vi": "Creation kích hoạt hiệu ứng Retain cả khi tiến hóa, cho thêm cơ hội gây sát thương, hồi máu và tăng cường giữa lượt mà không cần chờ."
       }
     },
     {
@@ -905,7 +905,7 @@
       "score": "—",
       "note": {
         "en": "Orlea’s E3 improves her Ego Skill. It will now also evolve the Creations made, which, due to her last Ego node, will trigger the [Retain] effect. Creating 3 individual Creations at their highest level whilst also triggering their [Retain] effect can be a huge swing in a battle, which now makes her Ego skill a proper cooldown-like ability, which is far more worth the 6EP it costs to use.",
-        "vi": "Kỹ năng Ego tiến hóa các Tạo vật vừa tạo, đồng thời kích hoạt hiệu ứng Giữ lại nhờ Ego 2. Tạo 3 Tạo vật cấp cao nhất và kích hoạt hiệu ứng ngay, giúp kỹ năng xứng đáng hơn với chi phí 6 điểm Ego."
+        "vi": "Ego Skill tiến hóa các Creation vừa tạo, đồng thời kích hoạt hiệu ứng Retain nhờ Ego 2. Tạo 3 Creation cấp cao nhất và kích hoạt hiệu ứng ngay, giúp kỹ năng xứng đáng hơn với chi phí 6 Ego Points."
       }
     },
     {
@@ -913,7 +913,7 @@
       "score": "—",
       "note": {
         "en": "Orlea’s fourth Ego level provides a passive 10% (multiplicative) damage buff to all allies while she holds a Creation in her hand. This boost is almost always going to be active and is entirely passive, making it a potent inclusion for almost any team and a notable boost to Orlea’s Potential.",
-        "vi": "Khi giữ Tạo vật trên tay, toàn đội tăng 10% sát thương theo hệ số nhân. Gần như luôn hoạt động, là nâng cấp hỗ trợ đáng kể."
+        "vi": "Khi giữ Creation trên tay, toàn đội tăng 10% sát thương theo hệ số nhân. Gần như luôn hoạt động, là nâng cấp hỗ trợ đáng kể."
       }
     },
     {
@@ -921,7 +921,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of Orlea’s [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Provides small increases to damage, healing and shielding, but definitely not a meaningful increase to Orlea’s power.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; tăng nhẹ sát thương, hồi máu và lá chắn, nhưng không tăng mạnh sức hỗ trợ."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài; tăng nhẹ sát thương, hồi máu và Shield, nhưng không tăng mạnh sức hỗ trợ."
       }
     },
     {
@@ -929,7 +929,7 @@
       "score": "—",
       "note": {
         "en": "Orlea’s final Ego point adds an additional effect to her Creation cards, causing them to deal 50% Fixed Damage per ★ in their name, resulting in 50 - 150% Fixed Damage each creation used. This doesn’t help Orlea’s Supportive role at all, but does allow her to deal a little extra damage, which can help out in Chaos and sometimes Save Data as well.",
-        "vi": "Tạo vật gây thêm 50% sát thương cố định cho mỗi ★ trong tên, tức 50–150% mỗi lá. Không giúp vai trò hỗ trợ, nhưng thêm chút sát thương trong Chaos và đôi khi trong dữ liệu lưu."
+        "vi": "Creation gây thêm 50% Fixed Damage cho mỗi ★ trong tên, tức 50–150% mỗi lá. Không giúp vai trò hỗ trợ, nhưng thêm chút sát thương trong Chaos và đôi khi trong Save Data."
       }
     }
   ],
@@ -980,7 +980,7 @@
       ],
       "note": {
         "en": "Draw Will of Light and all four Growing Creature. Play Will of Light, then all four Creatures, then the carry's attacks. The sequence supplies eight Vulnerable and 155% multiplicative buffing for that turn, useful for Nine, Kayron, or Heidemarie. Consuming the Creatures leaves weak follow-up buffing after turn 1.",
-        "vi": "Rút Will of Light cùng cả bốn Growing Creature. Dùng Will of Light trước, tiếp theo cả bốn Growing Creature, rồi mới dùng đòn của chủ lực. Chuỗi này cho tám cộng dồn Dễ tổn thương và tăng 155% sát thương theo phép nhân trong lượt đó, phù hợp Nine, Kayron hoặc Heidemarie. Vì Growing Creature bị tiêu thụ, khả năng tăng sức mạnh sau lượt đầu rất hạn chế."
+        "vi": "Rút Will of Light cùng cả bốn Growing Creature. Dùng Will of Light trước, tiếp theo cả bốn Growing Creature, rồi mới dùng đòn của chủ lực. Chuỗi này cho tám cộng dồn Vulnerable và tăng 155% sát thương theo phép nhân trong lượt đó, phù hợp Nine, Kayron hoặc Heidemarie. Vì Growing Creature bị tiêu thụ, khả năng tăng sức mạnh sau lượt đầu rất hạn chế."
       }
     },
     {
@@ -1022,7 +1022,7 @@
       ],
       "note": {
         "en": "Use each Sacred Censer and immediately play its Softies. Each Sacred Censer supplies two 10% buffs, reaching roughly 80–120% multiplicative buffing across the deck. Plan enough draw and AP support, since both commonly constrain this setup.",
-        "vi": "Dùng từng Sacred Censer rồi lập tức dùng các Softie nó tạo ra. Mỗi Sacred Censer cung cấp hai lần tăng 10% sát thương, giúp cả bộ bài được tăng khoảng 80–120% sát thương theo phép nhân. Cần chuẩn bị đủ hỗ trợ rút bài và Điểm hành động vì cả hai đều thường là điểm nghẽn của bản này."
+        "vi": "Dùng từng Sacred Censer rồi lập tức dùng các Softie nó tạo ra. Mỗi Sacred Censer cung cấp hai lần tăng 10% sát thương, giúp cả bộ bài được tăng khoảng 80–120% sát thương theo phép nhân. Cần chuẩn bị đủ hỗ trợ Draw và AP vì cả hai đều thường là điểm nghẽn của bản này."
       }
     },
     {
@@ -1067,7 +1067,7 @@
           "count": 1,
           "effects": {
             "en": "Gain 2 Ego Points",
-            "vi": "Nhận 2 Điểm Ego"
+            "vi": "Nhận 2 Ego Points"
           }
         }
       ],
@@ -1085,7 +1085,7 @@
       ],
       "note": {
         "en": "Combine Will of Light with Sacred Censer's passive upgrade or manual Softie creation. This can outperform the original OTK setup but needs much more draw and AP. Remove unwanted Swifties, often via Tiphera's Exhaust, so they do not consume buffs; Softie randomness may require resets. It is demanding to reproduce consistently.",
-        "vi": "Kết hợp Will of Light với Sacred Censer dạng nâng cấp tạo Softie thụ động hoặc dạng chủ động tạo Softie. Trần tăng sát thương cao hơn bản kết liễu trong một lượt ban đầu nhưng cần nhiều Điểm hành động và rút bài hơn. Phải loại các Swiftie không mong muốn, thường bằng Kiệt sức của Tiphera, để chúng không tiêu thụ hiệu ứng tăng sức mạnh; kết quả tạo Softie ngẫu nhiên có thể khiến phải làm lại lượt. Đây là bản đòi hỏi thiết lập kỹ để đạt hiệu quả ổn định."
+        "vi": "Kết hợp Will of Light với Sacred Censer dạng nâng cấp tạo Softie thụ động hoặc dạng chủ động tạo Softie. Trần tăng sát thương cao hơn bản kết liễu trong một lượt ban đầu nhưng cần nhiều AP và Draw hơn. Phải loại các Swiftie không mong muốn, thường bằng Exhaust của Tiphera, để chúng không tiêu thụ hiệu ứng tăng sức mạnh; kết quả tạo Softie ngẫu nhiên có thể khiến phải làm lại lượt. Đây là bản đòi hỏi thiết lập kỹ để đạt hiệu quả ổn định."
       }
     },
     {
@@ -1133,7 +1133,7 @@
           "count": 2,
           "effects": {
             "en": "Gain 2 Ego Points",
-            "vi": "Nhận 2 Điểm Ego"
+            "vi": "Nhận 2 Ego Points"
           }
         }
       ],
@@ -1145,7 +1145,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "An alternative to OTK-Lea 2.0 when four Will of Light copies are impractical. Zero-cost cards are easier to fit into sustained rotations, while concentrated buffs still suit Heidemarie's nuke, Tiphera's nuke, and Kayron's scaling Echo of Futility.",
-        "vi": "Thay thế Orlea dồn sát thương 2.0 khi khó dùng đủ bốn Will of Light. Các lá 0 Điểm hành động dễ kết hợp vào vòng sát thương duy trì hơn, trong khi hiệu ứng tăng sức mạnh tập trung vẫn phù hợp với Heidemarie dồn một đòn, Tiphera dồn sát thương hoặc Kayron tích hệ số Echo of Futility."
+        "vi": "Thay thế Orlea dồn sát thương 2.0 khi khó dùng đủ bốn Will of Light. Các lá 0 AP dễ kết hợp vào vòng sát thương duy trì hơn, trong khi hiệu ứng tăng sức mạnh tập trung vẫn phù hợp với Heidemarie dồn một đòn, Tiphera dồn sát thương hoặc Kayron tích hệ số Echo of Futility."
       }
     }
   ],
@@ -1154,14 +1154,14 @@
       "name": "Nine",
       "note": {
         "en": "Vulnerable, Softie buffs and Glory's Reign amplify Nine, but the team still needs enough draw and AP.",
-        "vi": "Dễ tổn thương, hiệu ứng tăng cường Softie và Glory's Reign tăng sát thương Nine, nhưng đội vẫn phải đủ rút bài và Điểm hành động."
+        "vi": "Vulnerable, hiệu ứng tăng cường Softie và Glory's Reign tăng sát thương Nine, nhưng đội vẫn phải đủ Draw và AP."
       }
     },
     {
       "name": "Kayron",
       "note": {
         "en": "Vulnerable and Softie strongly reward Kayron's scaling, though both characters compete for draw and AP.",
-        "vi": "Dễ tổn thương và Softie hỗ trợ mạnh khả năng tăng tiến của Kayron, nhưng cả hai cạnh tranh tài nguyên rút bài và Điểm hành động."
+        "vi": "Vulnerable và Softie hỗ trợ mạnh khả năng tăng tiến của Kayron, nhưng cả hai cạnh tranh tài nguyên Draw và AP."
       }
     },
     {
@@ -1175,21 +1175,21 @@
       "name": "Beryl",
       "note": {
         "en": "Orlea activates Beryl's Retain effects; their distinct damage buffs can also support another carry together.",
-        "vi": "Orlea kích hoạt hiệu ứng Giữ lại của Beryl; các loại hiệu ứng tăng cường sát thương khác nhau của họ cũng có thể cùng hỗ trợ chủ lực khác."
+        "vi": "Orlea kích hoạt hiệu ứng Retain của Beryl; các loại hiệu ứng tăng cường sát thương khác nhau của họ cũng có thể cùng hỗ trợ chủ lực khác."
       }
     },
     {
       "name": "Rin",
       "note": {
         "en": "Retained skills keep Black Dance's hand requirement active, while Orlea's buffs also increase Rin's damage.",
-        "vi": "Kỹ năng được Giữ lại duy trì điều kiện bài trên tay của Black Dance; hiệu ứng tăng cường Orlea cũng tăng sát thương Rin."
+        "vi": "Skill được Retain duy trì điều kiện bài trên tay của Black Dance; hiệu ứng tăng cường Orlea cũng tăng sát thương Rin."
       }
     },
     {
       "name": "Tiphera",
       "note": {
         "en": "Strong AP generation supports Orlea, but combining it with reliable draw requires managing Event Horizon's randomness.",
-        "vi": "Tạo nhiều Điểm hành động hỗ trợ Orlea, nhưng muốn đồng thời rút bài ổn định phải xử lý tính ngẫu nhiên của Event Horizon."
+        "vi": "Tạo nhiều AP hỗ trợ Orlea, nhưng muốn đồng thời Draw ổn định phải xử lý tính ngẫu nhiên của Event Horizon."
       }
     }
   ],
@@ -1197,7 +1197,7 @@
     {
       "name": {
         "en": "Fractured But Whole",
-        "vi": "Đội khai thác Rạn nứt"
+        "vi": "Đội khai thác Fracture"
       },
       "members": [
         "Arabella",
@@ -1206,8 +1206,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1223,8 +1223,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1240,8 +1240,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1257,8 +1257,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1274,15 +1274,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Fractured But Whole (AOE)",
-        "vi": "Đội khai thác Rạn nứt — diện rộng"
+        "vi": "Đội khai thác Fracture — diện rộng"
       },
       "members": [
         "Arabella",
@@ -1291,8 +1291,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

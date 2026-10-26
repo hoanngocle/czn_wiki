@@ -10,9 +10,9 @@ import { indexCharacterCards } from "../../lib/wiki/character-guide";
 const capturedGuides = Object.values(characterGuides).filter(guide => sources.some(source => source.name === guide.name));
 
 describe("complete captured Prydwen decks", () => {
-  it("imports all 98 decks for all 38 released combatants", () => {
+  it("imports all 102 decks for all 38 released combatants", () => {
     expect(sources).toHaveLength(38);
-    expect(capturedGuides.reduce((sum, guide) => sum + guide.decks.length, 0)).toBe(98);
+    expect(capturedGuides.reduce((sum, guide) => sum + guide.decks.length, 0)).toBe(102);
     for (const source of sources) {
       const guide = Object.values(characterGuides).find(item => item.name === source.name)!;
       expect(guide.decks.map(deck => deck.name.en), source.name).toEqual(source.decks.map(deck => deck.name));
@@ -56,20 +56,30 @@ describe("complete captured Prydwen decks", () => {
   });
 
   it("includes every captured card advice, season and Ego commentary", () => {
-    expect(capturedGuides.reduce((count, guide) => count + guide.cardAdvice.length, 0)).toBe(152);
+    expect(Object.values(characterGuides).every(guide => guide.cardAdvice.length === 0)).toBe(true);
     for (const source of supplement) {
       const guide = Object.values(characterGuides).find(item => item.name === source.name)!;
-      expect(guide.cardAdvice, source.name).toHaveLength(source.cards.length);
       expect(guide.seasonal, source.name).toHaveLength(source.seasonal.length);
       expect(guide.dupes, source.name).toHaveLength(source.dupes.length);
-      for (const [index, advice] of guide.cardAdvice.entries()) {
-        expect(advice.ratings).toEqual(source.cards[index].variants.slice(1).map(variant => variant.rating));
-        if (advice.ratings.every(rating => rating === 0)) expect(advice.preferred).toBe("");
-        expect(advice.note.vi.length).toBeGreaterThan(20);
-        expect(advice.divine.vi.length).toBeGreaterThan(10);
+      expect(guide.cardAdvice, source.name).toEqual([]);
+      const baseIds = Object.entries(guide.epiphanyReviews)
+        .filter(([id, review]) => !/_rsp[1-5]$/.test(id) && review.review?.en.includes("Neutral / Divine:"))
+        .map(([id]) => id);
+      expect(baseIds, source.name).toHaveLength(source.cards.length);
+      for (const [index, group] of source.cards.entries()) {
+        const baseId = baseIds[index];
+        const baseReview = guide.epiphanyReviews[baseId];
+        expect(baseReview?.rating, `${source.name}/${group.name}/base rating`).toBeUndefined();
+        expect(baseReview?.review?.en, `${source.name}/${group.name}/base EN`).toContain("Neutral / Divine:");
+        expect(baseReview?.review?.vi, `${source.name}/${group.name}/base VI`).toMatch(/(?:Trung lập \/ Thần thánh|Neutral \/ Divine):/);
+        const ratings = [1, 2, 3, 4, 5].map(epiphany => guide.epiphanyReviews[`${baseId}_rsp${epiphany}`]?.rating);
+        expect(ratings, `${source.name}/${group.name}`).toEqual(group.variants.slice(1).map(variant => variant.rating));
       }
       for (const season of guide.seasonal) expect(season.note.vi.length).toBeGreaterThan(20);
-      for (const ego of guide.dupes) expect(ego.note.vi).toBeTruthy();
+      for (const [index, ego] of guide.dupes.entries()) {
+        if (["", "-"].includes(source.dupes[index].text)) expect(ego.note).toEqual({ en: "", vi: "" });
+        else expect(ego.note.vi).toBeTruthy();
+      }
     }
   });
 });

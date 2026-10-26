@@ -68,7 +68,6 @@ export function PartnerDetail({ partner, detail: originalDetail, translation, me
         </div>
         {media?.artwork ? <figure className={styles.artwork}><div className={styles.fullArtwork}><Image src={media.artwork} alt={t(`Full artwork of ${partner.name}`, `Hình ảnh toàn thân của ${partner.name}`)} fill sizes="(max-width: 767px) 95vw, 700px" unoptimized /></div><figcaption><a href={media.artwork} target="_blank" rel="noreferrer">{t("View full image", "Xem ảnh đầy đủ")}</a></figcaption></figure> : <p className={styles.muted}>{t("Full artwork is not available yet.", "Chưa có hình ảnh toàn thân.")}</p>}
       </section>
-      <footer className={styles.sources}><span>{t("Sources", "Nguồn")}:</span> <a href={detail.sourceUrl} target="_blank" rel="noreferrer">E7BOT</a>{media?.sourceUrl && <> · <a href={media.sourceUrl} target="_blank" rel="noreferrer">Prydwen</a></>}</footer>
     </>}
   </article>;
 }

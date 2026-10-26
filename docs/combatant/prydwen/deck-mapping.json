@@ -9134,5 +9134,383 @@
         "external": false
       }
     ]
+  },
+  {
+    "id": "1069",
+    "name": "Tenebria",
+    "sourceUrl": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+    "deckIndex": 2,
+    "deck": "Encore! Encore!",
+    "entries": [
+      {
+        "name": "Sound Check",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "100% Damage",
+        "divine": "",
+        "cardId": "c_1069_srt1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Music, Start! V",
+        "count": 1,
+        "cost": "0",
+        "type": "Upgrade",
+        "tags": [
+          "Unique",
+          "Opener"
+        ],
+        "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+        "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+        "cardId": "c_1069_srt4_rsp5",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Spotlight IV",
+        "count": 1,
+        "cost": "0",
+        "type": "Skill",
+        "tags": [],
+        "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+        "divine": "1 AP",
+        "cardId": "c_1069_uni1_rsp4",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Call & Response I",
+        "count": 1,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [
+          "Haste"
+        ],
+        "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+        "divine": "",
+        "cardId": "c_1069_uni2_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore III",
+        "count": 2,
+        "cost": "1",
+        "type": "Skill",
+        "tags": [],
+        "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+        "divine": "Draw 1",
+        "cardId": "c_1069_uni3_rsp3",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore I",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+        "divine": "2 Vulnerable to the target",
+        "cardId": "c_1069_uni3_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "id": "1069",
+    "name": "Tenebria",
+    "sourceUrl": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+    "deckIndex": 3,
+    "deck": "TeneBRICK",
+    "entries": [
+      {
+        "name": "Sound Check",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "100% Damage",
+        "divine": "",
+        "cardId": "c_1069_srt1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Music, Start! V",
+        "count": 1,
+        "cost": "0",
+        "type": "Upgrade",
+        "tags": [
+          "Unique",
+          "Opener"
+        ],
+        "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+        "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+        "cardId": "c_1069_srt4_rsp5",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Spotlight III",
+        "count": 4,
+        "cost": "2",
+        "type": "Attack",
+        "tags": [],
+        "description": "350% Damage Select and move up to 2 Rhythm cards to hand, then proc those cards",
+        "divine": "2 Vulnerable to the target",
+        "cardId": "c_1069_uni1_rsp3",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Call & Response I",
+        "count": 1,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [
+          "Haste"
+        ],
+        "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+        "divine": "",
+        "cardId": "c_1069_uni2_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore III",
+        "count": 1,
+        "cost": "1",
+        "type": "Skill",
+        "tags": [],
+        "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+        "divine": "Draw 1",
+        "cardId": "c_1069_uni3_rsp3",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "id": "1069",
+    "name": "Tenebria",
+    "sourceUrl": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+    "deckIndex": 4,
+    "deck": "Common-Core Rhythm",
+    "entries": [
+      {
+        "name": "Sound Check",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "100% Damage",
+        "divine": "",
+        "cardId": "c_1069_srt1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Music, Start! V",
+        "count": 1,
+        "cost": "0",
+        "type": "Upgrade",
+        "tags": [
+          "Unique",
+          "Opener"
+        ],
+        "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+        "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+        "cardId": "c_1069_srt4_rsp5",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Spotlight IV",
+        "count": 1,
+        "cost": "0",
+        "type": "Skill",
+        "tags": [],
+        "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+        "divine": "1 AP",
+        "cardId": "c_1069_uni1_rsp4",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Call & Response I",
+        "count": 1,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [
+          "Haste"
+        ],
+        "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+        "divine": "",
+        "cardId": "c_1069_uni2_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore I",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+        "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+        "cardId": "c_1069_uni3_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore III",
+        "count": 2,
+        "cost": "1",
+        "type": "Skill",
+        "tags": [],
+        "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+        "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+        "cardId": "c_1069_uni3_rsp3",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "id": "1069",
+    "name": "Tenebria",
+    "sourceUrl": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria",
+    "deckIndex": 5,
+    "deck": "Common-Core Magna-tude",
+    "entries": [
+      {
+        "name": "Sound Check",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "100% Damage",
+        "divine": "",
+        "cardId": "c_1069_srt1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Music, Start! V",
+        "count": 1,
+        "cost": "0",
+        "type": "Upgrade",
+        "tags": [
+          "Unique",
+          "Opener"
+        ],
+        "description": "Exhaust all Basic Attack Cards Create 1 of each Rhythm: Arpeggio in Draw Pile",
+        "divine": "At the start of each turn, when this card is the first card used, Draw 2",
+        "cardId": "c_1069_srt4_rsp5",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Spotlight IV",
+        "count": 1,
+        "cost": "0",
+        "type": "Skill",
+        "tags": [],
+        "description": "Select up to 3 Rhythm cards from among Draw Pile and Graveyard and move those cards to the top of Draw Pile Draw 1 of those cards",
+        "divine": "1 AP",
+        "cardId": "c_1069_uni1_rsp4",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Call & Response I",
+        "count": 1,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [
+          "Haste"
+        ],
+        "description": "250% Damage If in hand, treat as a Rhythm card Attunement: Draw 2 Rhythm card(s)",
+        "divine": "",
+        "cardId": "c_1069_uni2_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore I",
+        "count": 2,
+        "cost": "1",
+        "type": "Attack",
+        "tags": [],
+        "description": "120% Damage If the last card activated was a Rhythm card, proc that card 2 times",
+        "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+        "cardId": "c_1069_uni3_rsp1",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      },
+      {
+        "name": "Encore III",
+        "count": 2,
+        "cost": "1",
+        "type": "Skill",
+        "tags": [],
+        "description": "For the next 3 Rhythm card(s) activated, decrease Cost by 1 and add 1 Hit",
+        "divine": "Treated as a Common Card Draw 1 Common Card(s)",
+        "cardId": "c_1069_uni3_rsp3",
+        "external": false,
+        "classRestriction": "",
+        "epiphanyEffect": "",
+        "image": ""
+      }
+    ]
   }
 ]

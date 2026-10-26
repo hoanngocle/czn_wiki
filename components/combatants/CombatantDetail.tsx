@@ -31,15 +31,14 @@ export function CombatantDetail({ summary, detail, guide, translation }: { summa
         <div className={styles.nameRow}><h1>{summary.name}</h1><span className={styles.rarityStars} aria-label={`${summary.rarity} ${vietnamese ? "sao" : "stars"}`}>{Array.from({ length: summary.rarity }, (_, index) => <Image key={index} src="/assets/combatant/combatant-rarity.png" alt="" width={24} height={24} unoptimized />)}</span></div>
         <p>{guide ? guide.subtitle[vietnamese ? "vi" : "en"] : !vietnamese && detail?.info?.title ? String(detail.info.title) : `${summary.rarity} ${vietnamese ? "sao" : "stars"}`}</p>
       </div>
-      {detail && <div className={styles.actions} aria-label={vietnamese ? "Chức năng nguồn không khả dụng ngoại tuyến" : "Source actions unavailable offline"}>
+      {detail && <div className={styles.actions} aria-label={vietnamese ? "Chức năng chưa khả dụng" : "Unavailable actions"}>
         <span title={vietnamese ? "Thăm thị trấn không khả dụng ngoại tuyến" : "Town Visit unavailable offline"}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z" /><circle cx="12" cy="10" r="3" /></svg><b>{vietnamese ? "Thăm thị trấn" : "Town Visit"}</b></span>
       </div>}
     </header>
     {summary.source === "stove" && <aside className={styles.sourceNotice}>
-      <p>{guide ? (vietnamese ? "Kit từ thông báo chính thức ngày 21/10/2026. Build và Deck là đề xuất theorycraft từ kit, chưa kiểm chứng thực chiến. Dữ liệu Tiềm năng và Suy sụp chưa được công bố." : "Kit from the official 21 October 2026 notice. Build and Deck recommendations are kit-based theorycraft, not combat-tested. Potential and Breakdown data have not been published.") : (vietnamese ? "Dữ liệu từ thông báo cập nhật chính thức ngày 21/10/2026. Chỉ hiển thị thông tin đã công bố; chưa có hướng dẫn build, Tiềm năng và Suy sụp từ wiki." : "Published kit from the official 21 October 2026 update notice. A wiki build guide, Potential and Breakdown data are not available yet.")}</p>
       {summary.mechanicsUrl && <Link href={summary.mechanicsUrl}>{vietnamese ? "Đọc cơ chế Rossweisse →" : "Rossweisse mechanics (Vietnamese) →"}</Link>}
       {summary.patchNoteUrl && <Link href={summary.patchNoteUrl}>{vietnamese ? "Xem patch note đầy đủ →" : "Full patch note (Vietnamese) →"}</Link>}
     </aside>}
-    {detail ? <CharacterContent detail={detail} guide={guide} translation={translation} /> : <section className={styles.missing}><h2>{vietnamese ? "Chưa có thông tin chi tiết" : "Detail not available"}</h2><p>{vietnamese ? `Bản lưu E7BOT có thông tin tổng quan về ${summary.name}, nhưng chưa có kỹ năng và thẻ bài chi tiết.` : `The saved E7BOT snapshot has a summary for ${summary.name}, but no detailed kit or cards.`}</p></section>}
+    {detail ? <CharacterContent detail={detail} guide={guide} translation={translation} /> : <section className={styles.missing}><h2>{vietnamese ? "Chưa có thông tin chi tiết" : "Detail not available"}</h2><p>{vietnamese ? `Chưa có kỹ năng và thẻ bài chi tiết cho ${summary.name}.` : `Detailed skills and cards are not available for ${summary.name} yet.`}</p></section>}
   </article>;
 }

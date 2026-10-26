@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Homing Arrows activate when drawn, cycling the deck while Ionization supports repeated attacks.",
-    "vi": "Homing Arrow kích hoạt khi được rút, luân chuyển bộ bài trong khi Ion hóa hỗ trợ các đòn đánh liên tục."
+    "vi": "Homing Arrow kích hoạt khi được rút, luân chuyển bộ bài trong khi Ionization hỗ trợ các đòn đánh liên tục."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_30113.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -455,13 +455,13 @@
   "review": {
     "intro": {
       "en": "Homing Arrows activate when drawn, cycling the deck while Ionization supports repeated attacks.",
-      "vi": "Homing Arrow kích hoạt khi được rút, luân chuyển bộ bài trong khi Ion hóa hỗ trợ các đòn đánh liên tục."
+      "vi": "Homing Arrow kích hoạt khi được rút, luân chuyển bộ bài trong khi Ionization hỗ trợ các đòn đánh liên tục."
     },
     "profile": [],
     "pros": [
       {
         "en": "AP-efficient support with substantial draw and useful AoE damage.",
-        "vi": "Hỗ trợ tiết kiệm Điểm hành động, rút nhiều bài và gây sát thương diện rộng hữu ích."
+        "vi": "Hỗ trợ tiết kiệm AP, rút nhiều bài và gây sát thương diện rộng hữu ích."
       }
     ],
     "cons": [
@@ -475,7 +475,7 @@
         "title": "Plasma Rain",
         "body": {
           "en": "60% Damage and 2 Ionization to all enemies",
-          "vi": "Gây 60% sát thương và 2 Ion hóa lên tất cả kẻ địch"
+          "vi": "Gây 60% sát thương và 2 Ionization lên tất cả kẻ địch"
         },
         "cardId": "c_30113_uni1"
       },
@@ -483,7 +483,7 @@
         "title": "Draw & Release",
         "body": {
           "en": "Draw 2 Attack Card(s) of this unit; +50% Damage Amount to those cards for 1 turn until activated",
-          "vi": "Rút bài 2 Bài tấn công của bản thân; +50% sát thương cho các lá đó trong 1 lượt, cho đến khi được kích hoạt"
+          "vi": "Draw 2 Attack Card của bản thân; +50% sát thương cho các lá đó trong 1 lượt, cho đến khi được kích hoạt"
         },
         "cardId": "c_30113_uni2"
       },
@@ -491,7 +491,7 @@
         "title": "Big Game Ranger",
         "body": {
           "en": "On Hit, 2 Zero In",
-          "vi": "Khi đánh trúng, nhận 2 Ngắm chuẩn"
+          "vi": "Khi đánh trúng, nhận 2 Zero In"
         },
         "cardId": "c_30113_uni3"
       }
@@ -510,11 +510,11 @@
       "preferred": "I / II",
       "note": {
         "en": "I creates four Homing Arrow cards and draws immediately; II emphasizes Fracture. III trades quantity for a stronger single arrow.",
-        "vi": "I tạo bốn Homing Arrow và rút ngay; II tập trung Rạn nứt. III đổi số lượng lấy một mũi tên mạnh hơn."
+        "vi": "I tạo bốn Homing Arrow và rút ngay; II tập trung Fracture. III đổi số lượng lấy một mũi tên mạnh hơn."
       },
       "divine": {
         "en": "Neutral draw or Mark is useful; consider cost reduction or targeted draw, with ordinary draw except on I.",
-        "vi": "Rút bài hoặc Dấu ấn trung lập hữu ích; cân nhắc giảm chi phí hay rút có chọn lọc, còn rút thông thường dành cho biến thể ngoài I."
+        "vi": "Draw hoặc Mark Neutral hữu ích; cân nhắc giảm chi phí hay rút có chọn lọc, còn rút thông thường dành cho biến thể ngoài I."
       }
     },
     {
@@ -529,11 +529,11 @@
       "preferred": "I / II",
       "note": {
         "en": "I increases Ionization through Attunement. II drops minor direct damage to strengthen the effect and add draw.",
-        "vi": "I tăng Ion hóa qua Điều hòa. II bỏ phần sát thương trực tiếp nhỏ để tăng hiệu ứng và thêm rút bài."
+        "vi": "I tăng Ionization qua Attunement. II bỏ phần sát thương trực tiếp nhỏ để tăng hiệu ứng và thêm Draw."
       },
       "divine": {
         "en": "Neutral draw or Mark can compete; Common-card or own-card draw are divine targets.",
-        "vi": "Rút bài hoặc Dấu ấn trung lập đáng cân nhắc; thần thánh ưu tiên rút Bài chung hoặc bài bản thân."
+        "vi": "Draw hoặc Mark Neutral đáng cân nhắc; Divine ưu tiên rút Common Cards hoặc bài bản thân."
       }
     },
     {
@@ -548,11 +548,11 @@
       "preferred": "I",
       "note": {
         "en": "II adds Fracture through subsequent Extra Attacks; I is a modest damage buff mainly for specific neutral multihit builds.",
-        "vi": "II thêm Rạn nứt qua các Đòn đánh thêm tiếp theo; I tăng sát thương vừa phải, chủ yếu cho bộ bài nhiều lần đánh bằng bài trung lập."
+        "vi": "II thêm Fracture qua các Extra Attacks tiếp theo; I tăng sát thương vừa phải, chủ yếu cho bộ bài nhiều lần đánh bằng bài Neutral."
       },
       "divine": {
         "en": "Neutral Mark often beats I's small buff; consider cost reduction or targeted draw.",
-        "vi": "Dấu ấn trung lập thường hơn phần tăng nhỏ của I; cân nhắc giảm chi phí hoặc rút có chọn lọc."
+        "vi": "Mark Neutral thường hơn phần tăng nhỏ của I; cân nhắc giảm chi phí hoặc rút có chọn lọc."
       }
     },
     {
@@ -567,11 +567,11 @@
       "preferred": "II",
       "note": {
         "en": "II combines zero cost, Initiation and Draw 2 for easy setup. I adds stacks only when the team cannot already reach the cap.",
-        "vi": "II kết hợp chi phí 0, Khởi đầu và Rút 2 để thiết lập dễ dàng. I chỉ cần khi đội chưa tự đạt giới hạn cộng dồn."
+        "vi": "II kết hợp chi phí 0, Initiation và Rút 2 để thiết lập dễ dàng. I chỉ cần khi đội chưa tự đạt giới hạn cộng dồn."
       },
       "divine": {
         "en": "Use Morale/Resolve; start-turn Agony neutral is specific to debuff or damage-over-time teams.",
-        "vi": "Dùng Sĩ khí/Quyết tâm; Thống khổ đầu lượt trung lập dành riêng cho đội hiệu ứng bất lợi hoặc sát thương theo thời gian."
+        "vi": "Dùng Morale/Resolve; Agony đầu lượt Neutral dành riêng cho đội hiệu ứng bất lợi hoặc sát thương theo thời gian."
       }
     }
   ],
@@ -596,8 +596,8 @@
       "name": "Sylvia E0",
       "score": "116.95%",
       "note": {
-        "en": "The captured source provides no explanatory partner note.",
-        "vi": "Nguồn đã lưu chưa có giải thích cho Đối tác này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -605,7 +605,7 @@
       "score": "115.91%",
       "note": {
         "en": "Marin mainly contributes premium base stats; comparable five-star partners can fill a similar role.",
-        "vi": "Marin chủ yếu đóng góp chỉ số cơ bản cao; Đối tác năm sao tương đương có thể đảm nhiệm vai trò tương tự."
+        "vi": "Marin chủ yếu đóng góp chỉ số cơ bản cao; Partner năm sao tương đương có thể đảm nhiệm vai trò tương tự."
       }
     },
     {
@@ -621,7 +621,7 @@
       "score": "106.89%",
       "note": {
         "en": "Frequent skills can generate substantial team Morale, especially for support Hilde, but activation is random.",
-        "vi": "Nhiều Kỹ năng có thể tạo Sĩ khí đáng kể cho đội, nhất là Hilde hỗ trợ, nhưng kích hoạt ngẫu nhiên."
+        "vi": "Nhiều Skill có thể tạo Morale đáng kể cho đội, nhất là Hilde hỗ trợ, nhưng kích hoạt ngẫu nhiên."
       }
     },
     {
@@ -629,7 +629,7 @@
       "score": "100.00%",
       "note": {
         "en": "Nakia is a free temporary fallback when no stronger listed partner is available.",
-        "vi": "Nakia là lựa chọn miễn phí tạm thời khi chưa có Đối tác mạnh hơn trong danh sách."
+        "vi": "Nakia là lựa chọn miễn phí tạm thời khi chưa có Partner mạnh hơn trong danh sách."
       }
     }
   ],
@@ -639,7 +639,7 @@
       "score": "—",
       "note": {
         "en": "Hilde readily activates every stack, making the full critical-damage bonus a strong default.",
-        "vi": "Hilde dễ kích hoạt đủ cộng dồn, nên mức tăng Sát thương chí mạng đầy đủ là lựa chọn mặc định mạnh."
+        "vi": "Hilde dễ kích hoạt đủ cộng dồn, nên mức tăng CRIT DMG đầy đủ là lựa chọn mặc định mạnh."
       }
     },
     {
@@ -655,7 +655,7 @@
       "score": "—",
       "note": {
         "en": "Reserve Sanguine Thorn for builds that actively use Fracture.",
-        "vi": "Chỉ dùng Sanguine Thorn cho cách xây dựng thực sự khai thác Rạn nứt."
+        "vi": "Chỉ dùng Sanguine Thorn cho cách xây dựng thực sự khai thác Fracture."
       }
     }
   ],
@@ -663,11 +663,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -677,37 +677,37 @@
       },
       "value": {
         "en": "ATK% >= Instinct DMG%",
-        "vi": "Tấn công% >= Sát thương Bản năng%"
+        "vi": "ATK% >= Sát thương Instinct%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "Extra DMG% > CRIT Rate% > CRIT DMG% > ATK > ATK%",
-        "vi": "Sát thương bổ sung% > Tỷ lệ chí mạng% > Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Extra Damage% > Critical Chance% > CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "Maxing out Hilde's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 6% Extra DMG, which can be achieved from one memory fragment's substats alone.",
-    "vi": "Chỉ cần 6% sát thương bổ sung để tối đa hóa tiềm năng 7; có thể đạt từ chỉ số phụ của một mảnh ký ức."
+    "vi": "Chỉ cần 6% Extra Damage để tối đa hóa Potential 7; có thể đạt từ Substats của một Fragment."
   },
   "potentialIntro": {
     "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Hilde’s 3-1 Potential increases the damage dealt by Multishot by an additional +20%. Primarily useful for some extra-damage when early in Chaos or Sortie prior to Multishot being removed.5-1: Hilde’s 5-1 Potential grants an additional +5% Damage to Multishot, and if Hilde’s Extra-Damage Stat is 6% or higher, adds an additional +5% to that modifier for a total of +10%. Again, primarily useful for Sortie and Chaos.7: Hilde’s 7 Potential grants +7% Instinct Attribute Damage, increasing by an additional +8% if her Extra-Damage stat is 6% or higher. Quite a solid damage increase that should be prioritized.",
-    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 tăng Multishot 20%, còn 5-1 tăng 5% và thêm 5% khi sát thương bổ sung ≥6%, tổng 10%, chủ yếu hữu ích trước khi xóa Multishot trong Chaos. Ưu tiên tiềm năng 7 vì tăng 7% sát thương Bản năng, cộng thêm 8% khi sát thương bổ sung ≥6%, tổng 15%."
+    "vi": "Ưu tiên Critical Chance = CRIT DMG ≥ sát thương Signature Cards > Common Cards = Basic Card; 3-1 tăng Multishot 20%, còn 5-1 tăng 5% và thêm 5% khi Extra Damage ≥6%, tổng 10%, chủ yếu hữu ích trước khi xóa Multishot trong Chaos. Ưu tiên Potential 7 vì tăng 7% sát thương Instinct, cộng thêm 8% khi Extra Damage ≥6%, tổng 15%."
   },
   "potentialAdvice": [
     {
@@ -721,21 +721,21 @@
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Hilde’s Multishot; If Hilde’s Extra Damage (stat) is 6% or higher, add an additional +5% to the modifier",
-        "vi": "+5% sát thương cho Multishot của Hilde; Nếu chỉ số Sát thương bổ sung của Hilde từ 6% trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% sát thương cho Multishot của Hilde; Nếu chỉ số Extra Damage của Hilde từ 6% trở lên, cộng thêm +5% vào hệ số"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+7% Instinct Attribute Damage Amount; If Hilde's Extra Damage (stat) is 6% or higher, add an additional +8% to the modifier",
-        "vi": "+7% sát thương hệ Bản năng; Nếu chỉ số Sát thương bổ sung của Hilde từ 6% trở lên, cộng thêm +8% vào hệ số"
+        "vi": "+7% sát thương hệ Instinct; Nếu chỉ số Extra Damage của Hilde từ 6% trở lên, cộng thêm +8% vào hệ số"
       }
     }
   ],
@@ -743,7 +743,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -768,7 +768,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -794,7 +794,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -820,7 +820,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -843,7 +843,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -870,41 +870,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].For Skill Persona Cards [When this card is Discarded, activate this card] is the recommended choice, provided you are playing this unit with a way to facilitate its discard.The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Bài Nhân cách kỹ năng nên chọn tự kích hoạt khi bị bỏ nếu đội có cách chủ động bỏ bài. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Persona Cards kỹ năng nên chọn tự kích hoạt khi Discarded nếu đội có cách chủ động Discard. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. Tăng 25% sát thương Extra Attacks. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -922,7 +922,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s Sleeping Memory Ego Manifestation improves her Mythic Card, increasing the draw count by 1 and increasing the damage scaling value for each card drawn this turn by an extra +30%. A pretty solid increase to her damage scaling whilst further improving the already incredible draw power.",
-        "vi": "Bài thần thoại rút thêm 1 lá và tăng hệ số sát thương theo mỗi lá đã rút trong lượt thêm 30%. Cải thiện cả khả năng rút và sát thương."
+        "vi": "Bài Mythic rút thêm 1 lá và tăng hệ số sát thương theo mỗi lá đã rút trong lượt thêm 30%. Cải thiện cả khả năng rút và sát thương."
       }
     },
     {
@@ -930,7 +930,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s Awakening Memory Ego Manifestation provides her passive effects during the battle, Firstly this grants Hilde an additional +10% critical strike chance at the start of battle, additionally it grants Hilde a stack of “Double Tap” at the start of the turn or whenever an enemy is defeated. “Double Tap” triggers when “Homing Arrow” activates, Hilde will fire a 300% Damage Extra-Attack at the enemy with the lowest health and removes 1 stack of Double Tap. Provides a decent amount of critical strike chance and improves Hilde’s damage even further. “Double Tap” will prove most useful in Chaos or Sortie content.",
-        "vi": "Đầu trận thêm 10% tỷ lệ chí mạng; đầu mỗi lượt hoặc khi hạ địch nhận Double Tap. Homing Arrow kích hoạt sẽ tiêu hao 1 cộng dồn để đánh thêm 300% vào địch ít máu nhất, đặc biệt hữu ích trong Chaos."
+        "vi": "Đầu trận thêm 10% Critical Chance; đầu mỗi lượt hoặc khi hạ địch nhận Double Tap. Homing Arrow kích hoạt sẽ tiêu hao 1 cộng dồn để đánh thêm 300% vào địch ít máu nhất, đặc biệt hữu ích trong Chaos."
       }
     },
     {
@@ -938,7 +938,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s Vivid Memory Ego Manifestation bolsters her Ego Skill, increasing the Weakness Damage bonus from +15% to +25%. Nothing overly game changing but slightly amplifies Hilde’s team's damage capabilities.",
-        "vi": "Kỹ năng Ego tăng mức thưởng sát thương điểm yếu từ 15% lên 25%, hỗ trợ sát thương toàn đội."
+        "vi": "Ego Skill tăng mức thưởng sát thương điểm yếu từ 15% lên 25%, hỗ trợ sát thương toàn đội."
       }
     },
     {
@@ -946,7 +946,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s Inner Memory Ego Manifestation provides a passive effect during the battle, whenever an Ally performs a Hit - Hilde gains 1 stack of “Find the Gap”. “Find the Gap” increases the damage dealt by Hilde’s Extra-Attacks by 5% per stack, up to a maximum of 8. Again, nothing overly game changing but increases Hilde’s own damage output decently.",
-        "vi": "Mỗi lần đồng đội đánh trúng, Hilde nhận Find the Gap, tối đa 8. Mỗi cộng dồn tăng 5% sát thương đòn đánh thêm; nâng sát thương cá nhân khá tốt."
+        "vi": "Mỗi lần đồng đội đánh trúng, Hilde nhận Find the Gap, tối đa 8. Mỗi cộng dồn tăng 5% sát thương Extra Attack; nâng sát thương cá nhân khá tốt."
       }
     },
     {
@@ -954,7 +954,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s Complete Memory Ego Manifestation is your standard Potential increase. Provides some slight extra damage output.",
-        "vi": "Nâng tiềm năng theo cơ chế thông thường, tăng nhẹ sát thương."
+        "vi": "Nâng Potential theo cơ chế thông thường, tăng nhẹ sát thương."
       }
     },
     {
@@ -962,7 +962,7 @@
       "score": "—",
       "note": {
         "en": "Hilde’s final Ego to be unlocked, Liberated Memory - provides Hilde’s “Find the Gap” buff an additional effect upon reaching 8 stacks, granting +15% additional critical strike chance to all Instinct-Attribute allies. Furthermore, increases the maximum stack count of “Zero In” to 100 and grants 15 stacks of “Zero In” at the start of each turn. Finally, it also provides +1% critical damage per stack of “Zero in” to “Zero In”s end of turn damage. A pretty stacked Ego that provides a huge amount of crit while also increasing her single target damage.",
-        "vi": "Đủ 8 Find the Gap cho đồng đội hệ Bản năng thêm 15% tỷ lệ chí mạng. Ngắm chuẩn tăng giới hạn lên 100, nhận 15 đầu mỗi lượt và mỗi cộng dồn cho đòn sát thương cuối lượt của Ngắm chuẩn thêm 1% sát thương chí mạng; rất mạnh cho sát thương đơn mục tiêu."
+        "vi": "Đủ 8 Find the Gap cho đồng đội hệ Instinct thêm 15% Critical Chance. Zero In tăng giới hạn lên 100, nhận 15 đầu mỗi lượt và mỗi cộng dồn cho đòn sát thương cuối lượt của Zero In thêm 1% Critical Damage; rất mạnh cho sát thương đơn mục tiêu."
       }
     }
   ],
@@ -970,7 +970,7 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Signature-card and extra-attack engine",
@@ -1013,7 +1013,7 @@
       ],
       "note": {
         "en": "Duplicate Quiver Reload I to create many signature cards. Hugo is a natural partner because the skills build Commence the Hunt stacks and subsequent attacks trigger his follow-ups. Solo-carry Hilde also works: apply Nia/Cassius buffs early and use Nia's Adagio to loop Attunement: Ionization.",
-        "vi": "Nhân bản Quiver Reload I để tạo nhiều lá đặc trưng. Hugo là đồng đội phù hợp vì các kỹ năng tích Bắt đầu cuộc săn, còn các đòn đánh sau đó kích hoạt đánh thêm. Hilde vẫn có thể làm chủ lực riêng: dùng hiệu ứng tăng sức mạnh của Nia hoặc Cassius sớm và tận dụng Adagio của Nia để lặp lại Điều hòa: Ion hóa."
+        "vi": "Nhân bản Quiver Reload I để tạo nhiều lá đặc trưng. Hugo là đồng đội phù hợp vì các kỹ năng tích Commence the Hunt, còn các đòn đánh sau đó kích hoạt đánh thêm. Hilde vẫn có thể làm chủ lực riêng: dùng hiệu ứng tăng sức mạnh của Nia hoặc Cassius sớm và tận dụng Adagio của Nia để lặp lại Attunement: Ionization."
       }
     }
   ],
@@ -1022,21 +1022,21 @@
       "name": "Hugo",
       "note": {
         "en": "Skills create attacks that both build and consume Commence, while Big Game Hunter can ease opening-turn draw pressure.",
-        "vi": "Kỹ năng tạo Tấn công vừa tích vừa dùng cộng dồn Săn đuổi; Big Game Thợ săn có thể giảm áp lực Rút bài lượt đầu."
+        "vi": "Skill tạo Attack vừa tích vừa dùng cộng dồn Săn đuổi; Big Game Hunter có thể giảm áp lực Draw lượt đầu."
       }
     },
     {
       "name": "Nia",
       "note": {
         "en": "Nia adds Extra Attacks and can repeat Plasma Rain's Attunement effect through Adagio.",
-        "vi": "Nia bổ sung Đòn đánh thêm và có thể lặp hiệu ứng Điều hòa của Plasma Rain qua Adagio."
+        "vi": "Nia bổ sung Extra Attacks và có thể lặp hiệu ứng Attunement của Plasma Rain qua Adagio."
       }
     },
     {
       "name": "Cassius",
       "note": {
         "en": "Morale boosts Hilde's multiple hits, while generated skills and attacks also support teams with Hugo.",
-        "vi": "Sĩ khí tăng sức mạnh nhiều lần đánh của Hilde; Kỹ năng và Tấn công được tạo còn hỗ trợ đội có Hugo."
+        "vi": "Morale tăng sức mạnh nhiều lần đánh của Hilde; Skill và Attack được tạo còn hỗ trợ đội có Hugo."
       }
     }
   ],
@@ -1053,8 +1053,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1070,8 +1070,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1087,8 +1087,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1104,8 +1104,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

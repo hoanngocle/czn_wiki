@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -327,13 +327,13 @@
     "pros": [
       {
         "en": "Strong self-scaling, single-target burst and some AoE; can retrieve her signature attack.",
-        "vi": "Tự tăng sát thương tốt, bùng nổ đơn mục tiêu và có sát thương diện rộng; có thể lấy lại bài đặc trưng."
+        "vi": "Tự tăng sát thương tốt, bùng nổ đơn mục tiêu và có sát thương diện rộng; có thể lấy lại Signature Cards."
       }
     ],
     "cons": [
       {
         "en": "High AP demand and repeated cycling delay full damage potential.",
-        "vi": "Cần nhiều Điểm hành động và luân chuyển bài nhiều lần để đạt sát thương tối đa."
+        "vi": "Cần nhiều AP và luân chuyển bài nhiều lần để đạt sát thương tối đa."
       }
     ],
     "mechanics": [
@@ -341,7 +341,7 @@
         "title": "Anchor Pointer",
         "body": {
           "en": "Move Anchor Shot from Draw Pile or Graveyard to hand",
-          "vi": "Chuyển Anchor Shot từ Chồng bài rút hoặc Mộ bài lên tay"
+          "vi": "Chuyển Anchor Shot từ Draw Pile hoặc Graveyard lên tay"
         },
         "cardId": "c_1062_uni1"
       },
@@ -357,7 +357,7 @@
         "title": "Charge Energy",
         "body": {
           "en": "Increase Damage Amount of Attack Cards of this unit by 50% for 1 turn",
-          "vi": "Tăng 50% lượng sát thương của bài Tấn công thuộc nhân vật này trong 1 lượt"
+          "vi": "Tăng 50% lượng sát thương của bài Attack thuộc nhân vật này trong 1 lượt"
         },
         "cardId": "c_1062_uni3"
       }
@@ -380,7 +380,7 @@
       },
       "divine": {
         "en": "Prioritize 2 Vulnerable; neutral 1 Vulnerable is a strong fallback.",
-        "vi": "Ưu tiên 2 Dễ tổn thương; 1 Dễ tổn thương trung lập là phương án thay thế tốt."
+        "vi": "Ưu tiên 2 Vulnerable; 1 Vulnerable Neutral là phương án thay thế tốt."
       }
     },
     {
@@ -399,7 +399,7 @@
       },
       "divine": {
         "en": "Prefer Draw 1; neutral Morale usually offers less than the specialized variants.",
-        "vi": "Ưu tiên Rút 1; Sĩ khí trung lập thường kém giá trị hơn biến thể chuyên dụng."
+        "vi": "Ưu tiên Rút 1; Morale Neutral thường kém giá trị hơn biến thể chuyên dụng."
       }
     },
     {
@@ -418,7 +418,7 @@
       },
       "divine": {
         "en": "Neutral 1 Vulnerable improves uptime; 2 Vulnerable or cost reduction are useful divines.",
-        "vi": "1 Dễ tổn thương trung lập duy trì hiệu ứng; 2 Dễ tổn thương hoặc giảm chi phí là thần thánh hữu ích."
+        "vi": "1 Vulnerable Neutral duy trì hiệu ứng; 2 Vulnerable hoặc giảm chi phí là Divine hữu ích."
       }
     },
     {
@@ -437,7 +437,7 @@
       },
       "divine": {
         "en": "Prefer Draw 1 or cost reduction; avoid sacrificing IV for neutral effects.",
-        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tránh đổi IV lấy hiệu ứng trung lập."
+        "vi": "Ưu tiên Rút 1 hoặc giảm chi phí; tránh đổi IV lấy hiệu ứng Neutral."
       }
     }
   ],
@@ -446,32 +446,32 @@
       "name": "Scarlet E4",
       "score": "123.70%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Asteria E4",
       "score": "122.95%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Scarlet E0",
       "score": "113.73%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Asteria E0",
       "score": "112.87%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -479,15 +479,15 @@
       "score": "111.25%",
       "note": {
         "en": "Priscilla enables persistent Weakness Attacks on most Anchor Shot hits despite lower raw damage bonuses.",
-        "vi": "Priscilla giúp phần lớn lần đánh Anchor Shot duy trì Đánh điểm yếu dù mức tăng sát thương thuần thấp hơn."
+        "vi": "Priscilla giúp phần lớn lần đánh Anchor Shot duy trì Weakness Attack dù mức tăng sát thương thuần thấp hơn."
       }
     },
     {
       "name": "Lilian E4",
       "score": "105.90%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -495,7 +495,7 @@
       "score": "100.00%",
       "note": {
         "en": "Douglas is a free temporary fallback when stronger damage partners are unavailable.",
-        "vi": "Douglas là lựa chọn miễn phí tạm thời khi chưa có Đối tác sát thương mạnh hơn."
+        "vi": "Douglas là lựa chọn miễn phí tạm thời khi chưa có Partner sát thương mạnh hơn."
       }
     }
   ],
@@ -505,7 +505,7 @@
       "score": "—",
       "note": {
         "en": "A consistent general setup, with specialized alternatives for particular Anchor Shot costs.",
-        "vi": "Bộ tổng quát ổn định, có lựa chọn chuyên biệt tùy Chi phí của Anchor Shot."
+        "vi": "Bộ tổng quát ổn định, có lựa chọn chuyên biệt tùy Cost của Anchor Shot."
       }
     },
     {
@@ -513,7 +513,7 @@
       "score": "—",
       "note": {
         "en": "Use when Anchor Shot stays at 2 or more cost without discounts.",
-        "vi": "Dùng khi Anchor Shot giữ Chi phí từ 2 trở lên và không được giảm Chi phí."
+        "vi": "Dùng khi Anchor Shot giữ Cost từ 2 trở lên và không được giảm Cost."
       }
     },
     {
@@ -521,7 +521,7 @@
       "score": "—",
       "note": {
         "en": "Use when discounted Anchor Shot and other 1-cost cards deal most damage.",
-        "vi": "Dùng khi Anchor Shot được giảm Chi phí cùng các lá Chi phí 1 gây phần lớn sát thương."
+        "vi": "Dùng khi Anchor Shot được giảm Cost cùng các lá Cost 1 gây phần lớn sát thương."
       }
     }
   ],
@@ -529,11 +529,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -543,37 +543,37 @@
       },
       "value": {
         "en": "Justice DMG% > ATK%",
-        "vi": "Sát thương Công lý% > Tấn công%"
+        "vi": "Sát thương Justice% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
-    "en": "Priority symbols are preserved from the source; they compare stats rather than prescribing a universal target value.",
-    "vi": "Giữ nguyên dấu so sánh ưu tiên từ nguồn; đây là thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
+    "en": "Priority symbols compare stats rather than prescribing a universal target value.",
+    "vi": "Các dấu so sánh thể hiện thứ tự ưu tiên chỉ số, không phải một ngưỡng cố định cho mọi bộ bài."
   },
   "potentialIntro": {
     "en": "Haru’s key Potential Nodes are extra damage multipliers, which increase her damage Potential overall.3-1: Gives her Anchor card the text: +10% (additive) Anchor Shot Damage, as well as increasing the Anchorand Power Anchor card damage by 20%.5-1: A 5% increase in damage of Haru’s Anchorand Power Anchor cards, increasing by another 5% if her Attack is above 500.7: A 10% increase to the Anchor Shot Card’s Damage, increasing by another 10% if her Attack is greater than 1000.",
-    "vi": "Các tiềm năng chính đều tăng hệ số sát thương: 3-1 giúp Anchor tăng sát thương Anchor Shot 10% theo phép cộng và tăng sát thương Anchor/Power Anchor 20%; 5-1 tăng hai bài này 5%, thêm 5% nếu tấn công >500. Tiềm năng 7 tăng Anchor Shot 10% sát thương, cộng thêm 10% nếu tấn công >1000."
+    "vi": "Các Potential chính đều tăng hệ số sát thương: 3-1 giúp Anchor tăng sát thương Anchor Shot 10% theo phép cộng và tăng sát thương Anchor/Power Anchor 20%; 5-1 tăng hai bài này 5%, thêm 5% nếu Attack >500. Potential 7 tăng Anchor Shot 10% sát thương, cộng thêm 10% nếu Attack >1000."
   },
   "potentialAdvice": [
     {
@@ -587,21 +587,21 @@
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Haru’s Anchor and Power Anchor; If Haru’s Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Anchor và Power Anchor của Haru; Nếu Tấn công của Haru đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Anchor và Power Anchor của Haru; Nếu Attack của Haru đạt ít nhất 500, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "+10% Damage Amount to Haru’s Anchor Shot; If Haru’s Attack is 600 or higher, add an additional +10% to the modifier",
-        "vi": "Tăng 10% lượng sát thương của Anchor Shot của Haru; Nếu Tấn công của Haru đạt ít nhất 600, tăng thêm 10% vào mức cộng thêm"
+        "vi": "Tăng 10% lượng sát thương của Anchor Shot của Haru; Nếu Attack của Haru đạt ít nhất 600, tăng thêm 10% vào mức cộng thêm"
       }
     }
   ],
@@ -609,7 +609,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -636,7 +636,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -662,7 +662,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -687,7 +687,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -710,7 +710,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -737,41 +737,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Attack Card đánh mục tiêu Vulnerable được thêm 15% Critical Chance. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -797,7 +797,7 @@
       "score": "—",
       "note": {
         "en": "Her next Ego node allows Anchor Shot to be cast even if she lacks the AP required to cast it, at the cost of dealing 40% less damage for each 1 AP spent less than the original cost. This is an okay point that mostly really helps with Chaos before getting up and running, as with ideal Save Data and team composition this will be less impactful and will often not be utilized.",
-        "vi": "Có thể dùng Anchor Shot khi thiếu điểm hành động, đổi lại giảm 40% sát thương cho mỗi điểm trả thiếu. Chủ yếu giúp trong Chaos; ít giá trị khi đội và bộ bài lưu đã tối ưu."
+        "vi": "Có thể dùng Anchor Shot khi thiếu AP, đổi lại giảm 40% sát thương cho mỗi điểm trả thiếu. Chủ yếu giúp trong Chaos; ít giá trị khi đội và bộ bài lưu đã tối ưu."
       }
     },
     {
@@ -805,7 +805,7 @@
       "score": "—",
       "note": {
         "en": "Her third Ego when unlocked boosts her Ego Skill. It increases the damage dealt by an additive +100% and increases the bonus damage portion by +20%, for a total of +70% per buff. This is a nice lump of extra damage provided by her Ego skill, but doesn’t necessarily change how she plays.",
-        "vi": "Kỹ năng Ego tăng 100% sát thương theo phép cộng và thêm 20% ở phần tăng theo hiệu ứng có lợi, đạt 70% mỗi hiệu ứng. Tăng sát thương tức thời nhưng không đổi lối chơi."
+        "vi": "Ego Skill tăng 100% sát thương theo phép cộng và thêm 20% ở phần tăng theo hiệu ứng có lợi, đạt 70% mỗi hiệu ứng. Tăng sát thương tức thời nhưng không đổi lối chơi."
       }
     },
     {
@@ -813,7 +813,7 @@
       "score": "—",
       "note": {
         "en": "Her fourth Ego grants Haru 1 stack of “Power Supply” whenever Anchor Shot is used, up to a maximum of 3. This is a persisting buff throughout fights that grants +20% Damage per stack to Haru’s Attack Cards. This isn’t a weak node by any means, but as Haru already has high base values, this node doesn’t necessarily provide too much of an increase in her damage output.",
-        "vi": "Mỗi lần dùng Anchor Shot nhận 1 Power Supply, tối đa 3, tồn tại suốt trận và tăng 20% sát thương bài tấn công mỗi cộng dồn. Hiệu quả vừa phải vì hệ số cơ bản của Haru vốn cao."
+        "vi": "Mỗi lần dùng Anchor Shot nhận 1 Power Supply, tối đa 3, tồn tại suốt trận và tăng 20% sát thương Attack Card mỗi cộng dồn. Hiệu quả vừa phải vì hệ số cơ bản của Haru vốn cao."
       }
     },
     {
@@ -821,7 +821,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. A decent damage increase for Haru across the board.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp bài cơ bản, đặc trưng và chung, cải thiện sát thương tổng thể."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential Basic Card Upgrade, đặc trưng và chung, cải thiện sát thương tổng thể."
       }
     },
     {
@@ -829,7 +829,7 @@
       "score": "—",
       "note": {
         "en": "Haru’s final Ego node interacts with her second Ego node. It reduces the damage penalty given by 20%. This again mostly assists with Haru in Chaos and is much less noticeable in Save Data content.",
-        "vi": "Giảm mức phạt sát thương của Ego 2 thêm 20%. Chủ yếu hỗ trợ khi thiếu điểm hành động trong Chaos, ít rõ rệt ở bộ bài lưu tối ưu."
+        "vi": "Giảm mức phạt sát thương của Ego 2 thêm 20%. Chủ yếu hỗ trợ khi thiếu AP trong Chaos, ít rõ rệt ở bộ bài lưu tối ưu."
       }
     }
   ],
@@ -837,7 +837,7 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Anchor Shot repeat-attack carry",
@@ -850,7 +850,7 @@
           "count": 1,
           "effects": {
             "en": "2 Vulnerable to the target",
-            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+            "vi": "Gây 2 Vulnerable lên mục tiêu"
           }
         },
         {
@@ -884,7 +884,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Anchor Shot IV creates two copies, while Anchor Pointer I gives the shots in hand Retrieve, enabling three attacks per Anchor Pointer. Apply Narja's discount before Retrieve or movement to preserve zero cost. Haru E2 or season 1's Forbidden: Gesture of Freedom can substitute, but Narja is more reliable. This version needs strong draw support to find its extra cards.",
-        "vi": "Anchor Shot IV tạo thêm hai bản sao, còn Anchor Pointer I gắn Thu hồi cho các Anchor Shot trên tay, cho phép đánh ba lần với mỗi Anchor Pointer. Dùng giảm chi phí của Narja trước khi Thu hồi hoặc chuyển bài để giữ chi phí 0 Điểm hành động lâu dài. E2 của Haru hoặc Forbidden: Gesture of Freedom mùa 1 có thể thay thế, nhưng Narja ổn định nhất. Bản này cần hỗ trợ rút bài mạnh vì phải tìm nhiều lá hơn."
+        "vi": "Anchor Shot IV tạo thêm hai bản sao, còn Anchor Pointer I gắn Retrieve cho các Anchor Shot trên tay, cho phép đánh ba lần với mỗi Anchor Pointer. Dùng giảm chi phí của Narja trước khi Retrieve hoặc chuyển bài để giữ chi phí 0 AP lâu dài. E2 của Haru hoặc Forbidden: Gesture of Freedom Season 1 có thể thay thế, nhưng Narja ổn định nhất. Bản này cần hỗ trợ Draw mạnh vì phải tìm nhiều lá hơn."
       }
     }
   ],
@@ -893,7 +893,7 @@
       "name": "Narja",
       "note": {
         "en": "Persistent discounts apply across repeated Anchor Shot uses, while Voracity and Predation remain easy to maintain.",
-        "vi": "Giảm Chi phí kéo dài áp dụng qua nhiều lần dùng Anchor Shot, còn Háu ăn và Săn mồi dễ duy trì."
+        "vi": "Giảm Cost kéo dài áp dụng qua nhiều lần dùng Anchor Shot, còn Voracity và Predation dễ duy trì."
       }
     },
     {
@@ -914,7 +914,7 @@
       "name": "Cassius",
       "note": {
         "en": "Efficient Morale buffs are valuable, but combining them with draw often needs discounted Devil Dice.",
-        "vi": "Tăng Sĩ khí tiết kiệm rất hữu ích, nhưng muốn kết hợp Rút bài thường cần Devil Dice giảm Chi phí."
+        "vi": "Tăng Morale tiết kiệm rất hữu ích, nhưng muốn kết hợp Draw thường cần Devil Dice giảm Cost."
       }
     }
   ],
@@ -931,8 +931,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -948,8 +948,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -965,8 +965,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

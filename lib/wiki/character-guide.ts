@@ -39,6 +39,28 @@ export type CharacterGuide = {
   teams: { name: GuideText; members: string[]; steps: GuideText[] }[];
 };
 
+type CardAdviceGuide = Pick<CharacterGuide, "cardAdvice" | "epiphanyReviews">;
+
+export function moveCardAdviceToReviews<T extends CardAdviceGuide>(guide: T, detailedReviews: Record<string, CardReview> = {}): T {
+  const migratedReviews: Record<string, CardReview> = {};
+  for (const advice of guide.cardAdvice) {
+    migratedReviews[advice.cardId] = {
+      review: {
+        en: `${advice.note.en} Neutral / Divine: ${advice.divine.en}`,
+        vi: `${advice.note.vi} Trung lập / Thần thánh: ${advice.divine.vi}`,
+      },
+    };
+    advice.ratings.forEach((rating, index) => {
+      migratedReviews[`${advice.cardId}_rsp${index + 1}`] = { rating };
+    });
+  }
+  return {
+    ...guide,
+    cardAdvice: [],
+    epiphanyReviews: { ...migratedReviews, ...guide.epiphanyReviews, ...detailedReviews },
+  };
+}
+
 export function indexCharacterCards(detail: CharacterDetail, extraCards: Card[] = []) {
   const cards = new Map<string, Card>();
   const visit = (card: Card) => { cards.set(card.id, card); card.variants.forEach(visit); };

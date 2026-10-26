@@ -8,7 +8,7 @@ import { translateCard, translateCharacterDetail } from "../../lib/wiki/translat
 import { Description } from "../cards/Description";
 import { GameCard } from "../cards/GameCard";
 import { Dialog } from "../ui/Dialog";
-import { CharacterBuild, CharacterCardAdvice, CharacterDecks, CharacterReview } from "./CharacterGuide";
+import { CharacterBuild, CharacterDecks, CharacterReview } from "./CharacterGuide";
 import styles from "./RenoaContent.module.css";
 
 import { CharacterGuideContext } from "./CharacterGuideContext";
@@ -80,8 +80,7 @@ export function CharacterContent({ detail: originalDetail, guide, translation }:
       {generatedCards.length > 0 && <><h2 className={styles.heading}>{vietnameseEnabled ? "Bài được tạo" : "Generated Cards"}</h2>{renderCards(generatedCards)}</>}
       {egoSkill && <><h2 className={styles.heading}>{t("Ego Skill")}</h2>{renderCards([egoSkill], true)}</>}
       <h2 className={styles.heading}>{t("Collapse Cards")}</h2>{renderCards(detail.collapseCards)}
-      {detail.collapseCards.length === 0 && <p>{vietnameseEnabled ? "Chưa được công bố trong tài liệu nguồn." : "Not published in the source material yet."}</p>}
-      {guide && <CharacterCardAdvice vietnamese={vietnameseEnabled} />}
+      {detail.collapseCards.length === 0 && <p>{vietnameseEnabled ? "Chưa có thông tin." : "Not available yet."}</p>}
     </div>
     <section className={styles.panel} data-mobile-active={section === "ego"} lang={vietnameseEnabled ? "vi" : "en"}><h2 className={styles.heading}>{t("Manifest Ego")}</h2>
       <div className={styles.egoGrid}>{detail.manifestEgo.map(level => <article data-testid="manifest-level" className={styles.egoLevel} key={level.id}>
@@ -89,7 +88,7 @@ export function CharacterContent({ detail: originalDetail, guide, translation }:
       </article>)}</div>
     </section>
     <section className={styles.panel} data-mobile-active={section === "potential"} lang={vietnameseEnabled ? "vi" : "en"}><h2 className={styles.heading}>{t("Potential")}</h2>
-      {detail.potentialNodes.length === 0 && <p>{vietnameseEnabled ? "Chưa được công bố trong tài liệu nguồn." : "Not published in the source material yet."}</p>}
+      {detail.potentialNodes.length === 0 && <p>{vietnameseEnabled ? "Chưa có thông tin." : "Not available yet."}</p>}
       <div className={styles.potentialGrid}>{detail.potentialNodes.map(node => {
         const type = node.potential_node_type_define;
         const levels = [node, ...node.upgrade_nodes].sort((a, b) => Number(a.node_level) - Number(b.node_level));

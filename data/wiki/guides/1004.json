@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Builds a stream of free Bullet attacks, with Chain Fire relying on sufficient Critical Rate.",
-    "vi": "Tạo chuỗi Đạn miễn phí, trong đó Chain Fire cần đủ Tỷ lệ chí mạng để vận hành."
+    "vi": "Tạo chuỗi Bullet miễn phí, trong đó Chain Fire cần đủ Critical Chance để vận hành."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1004.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -441,7 +441,7 @@
   "review": {
     "intro": {
       "en": "Builds a stream of free Bullet attacks, with Chain Fire relying on sufficient Critical Rate.",
-      "vi": "Tạo chuỗi Đạn miễn phí, trong đó Chain Fire cần đủ Tỷ lệ chí mạng để vận hành."
+      "vi": "Tạo chuỗi Bullet miễn phí, trong đó Chain Fire cần đủ Critical Chance để vận hành."
     },
     "profile": [],
     "pros": [
@@ -453,7 +453,7 @@
     "cons": [
       {
         "en": "Needs draw and buff support; has no AoE and can run short of hand space.",
-        "vi": "Cần hỗ trợ rút bài và tăng sát thương; không có sát thương diện rộng và dễ thiếu chỗ trên tay."
+        "vi": "Cần hỗ trợ Draw và tăng sát thương; không có sát thương diện rộng và dễ thiếu chỗ trên tay."
       }
     ],
     "mechanics": [
@@ -461,7 +461,7 @@
         "title": "Stealth Reload",
         "body": {
           "en": "Create 3 Handgun Bullets",
-          "vi": "Tạo 3 Đạn súng ngắn"
+          "vi": "Tạo 3 Handgun Bullet"
         },
         "cardId": "c_1004_uni1"
       },
@@ -469,7 +469,7 @@
         "title": "Seize the Opportunity",
         "body": {
           "en": "100% Shield; +120% Damage Amount to the next Bullet card activated",
-          "vi": "100% Lá chắn; Tăng 120% lượng sát thương của lá Đạn được Kích hoạt tiếp theo"
+          "vi": "100% Shield; Tăng 120% lượng sát thương của lá Bullet được Kích hoạt tiếp theo"
         },
         "cardId": "c_1004_uni2"
       },
@@ -477,7 +477,7 @@
         "title": "Dance of the Demon",
         "body": {
           "en": "50% Damage; Add 1 Hit for each Bullet card activated this turn",
-          "vi": "Gây 50% sát thương; Thêm 1 lần đánh với mỗi lá Đạn đã Kích hoạt trong lượt này"
+          "vi": "Gây 50% sát thương; Thêm 1 lần đánh với mỗi lá Bullet đã Kích hoạt trong lượt này"
         },
         "cardId": "c_1004_uni3"
       }
@@ -496,11 +496,11 @@
       "preferred": "II",
       "note": {
         "en": "II's three hits provide reliable bullet generation and damage. I uses Retrieve for stronger first-turn output but loses that advantage afterward.",
-        "vi": "Ba lần đánh của II tạo đạn và gây sát thương ổn định. I dùng Thu hồi để mạnh ở lượt đầu nhưng sau đó mất lợi thế."
+        "vi": "Ba lần đánh của II tạo Bullet và gây sát thương ổn định. I dùng Retrieve để mạnh ở lượt đầu nhưng sau đó mất lợi thế."
       },
       "divine": {
         "en": "Prioritize cost reduction; neutral utility sacrifices valuable bullet generation.",
-        "vi": "Ưu tiên giảm chi phí; tiện ích trung lập đánh đổi khả năng tạo đạn quan trọng."
+        "vi": "Ưu tiên giảm chi phí; tiện ích Neutral đánh đổi khả năng tạo Bullet quan trọng."
       }
     },
     {
@@ -519,7 +519,7 @@
       },
       "divine": {
         "en": "Cost reduction or Draw 1 keeps the bullet engine efficient.",
-        "vi": "Giảm chi phí hoặc Rút 1 giúp cơ chế tạo đạn hiệu quả."
+        "vi": "Giảm chi phí hoặc Rút 1 giúp cơ chế tạo Bullet hiệu quả."
       }
     },
     {
@@ -534,11 +534,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV complements Dance of the Demon. III is safer when enemy Elasticity limits long multihit attacks.",
-        "vi": "IV phối hợp với Dance of the Demon. III an toàn hơn khi Đàn hồi của địch hạn chế chuỗi nhiều lần đánh."
+        "vi": "IV phối hợp với Dance of the Demon. III an toàn hơn khi Elasticity của địch hạn chế chuỗi nhiều lần đánh."
       },
       "divine": {
         "en": "Neutral draw/AP is usable for support; consider cost reduction or Draw 1.",
-        "vi": "Rút bài/Điểm hành động trung lập có thể hỗ trợ; cân nhắc giảm chi phí hoặc Rút 1."
+        "vi": "Draw/AP Neutral có thể hỗ trợ; cân nhắc giảm chi phí hoặc Rút 1."
       }
     },
     {
@@ -557,7 +557,7 @@
       },
       "divine": {
         "en": "Prioritize cost reduction; neutral versions lose II's broader scaling.",
-        "vi": "Ưu tiên giảm chi phí; bản trung lập mất khả năng tích sát thương rộng của II."
+        "vi": "Ưu tiên giảm chi phí; bản Neutral mất khả năng tích sát thương rộng của II."
       }
     }
   ],
@@ -566,16 +566,16 @@
       "name": "Janet E4",
       "score": "140.87%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Janet E0",
       "score": "127.68%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -583,15 +583,15 @@
       "score": "124.66%",
       "note": {
         "en": "Strong passive critical chance and critical damage make Serithea a competitive generic Hunter option.",
-        "vi": "Nội tại Tỷ lệ chí mạng và Sát thương chí mạng cao giúp Serithea cạnh tranh tốt ở vai trò Đối tác Thợ săn đa dụng."
+        "vi": "Nội tại Critical Chance và Critical Damage cao giúp Serithea cạnh tranh tốt ở vai trò Partner Hunter đa dụng."
       }
     },
     {
       "name": "Akad E4",
       "score": "103.19%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -633,7 +633,7 @@
       "score": "—",
       "note": {
         "en": "Use when 1-cost cards such as Dance of the Demon provide most damage.",
-        "vi": "Dùng khi lá Chi phí 1 như Dance of the Demon gây phần lớn sát thương."
+        "vi": "Dùng khi lá Cost 1 như Dance of the Demon gây phần lớn sát thương."
       }
     }
   ],
@@ -641,11 +641,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -655,65 +655,65 @@
       },
       "value": {
         "en": "Order DMG% > ATK%",
-        "vi": "Sát thương Trật tự% > Tấn công%"
+        "vi": "Sát thương Order% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To play Luke Effectively you want at least 50% Crit Rate to ensure that the majority of Rapid Fire Epiphanies have a guaranteed chance at granting Handgun Bullets with each hit. Building this amount of Crit Rate will also automatically activate Luke's Potential 7 and grant extra scaling based on its extra effect.",
-    "vi": "Nên đạt ít nhất 50% tỷ lệ chí mạng để đa số thức tỉnh Rapid Fire bảo đảm tạo Đạn súng ngắn trên mỗi lần đánh. Mốc này cũng tự kích hoạt và tăng hiệu quả tiềm năng 7."
+    "vi": "Nên đạt ít nhất 50% Critical Chance để đa số Epiphany Rapid Fire bảo đảm tạo Handgun Bullet trên mỗi lần đánh. Mốc này cũng tự kích hoạt và tăng hiệu quả Potential 7."
   },
   "potentialIntro": {
     "en": "Luke’s Signature Potentials offer significant damage boosts as well as some additional functionality, making them a high priority to unlock.3-1: Adds the [Bullet] tag to his Basic Attacks, helping set up combos with his Unique cards.5-1: Adds an extra 5% damage to Luke’s Basic Attack Cards, with an additional 5% if his Crit Chance is above 20%. A moderate bonus, but welcome since Luke tends to want to keep his basics for consistency.7: Gives an extra 3% Generated Bullet Damage if Luke’s Crit Chance is above 40%, with an extra 2% for every 5% Crit Chance above that. Can be stacked up to a total of 12% extra damage if you can get your Crit Chance high enough.",
-    "vi": "Ưu tiên các tiềm năng đặc trưng: 3-1 thêm Đạn cho bài cơ bản để phối hợp với bài đặc trưng, còn 5-1 tăng 5% sát thương và thêm 5% khi tỷ lệ chí mạng >20%, có giá trị vì Luke thường giữ bài cơ bản để ổn định. Tiềm năng 7 tăng sát thương Đạn được tạo thêm 3% khi tỷ lệ chí mạng >40%, thêm 2% mỗi 5% chí mạng vượt mốc đó, với giới hạn tổng 12% theo nguồn."
+    "vi": "Ưu tiên các Potential đặc trưng: 3-1 thêm Bullet cho Basic Cards để phối hợp với Unique Cards, còn 5-1 tăng 5% sát thương và thêm 5% khi Critical Chance >20%, có giá trị vì Luke thường giữ Basic Cards để ổn định. Potential 7 tăng sát thương Bullet được tạo thêm 3% khi Critical Chance >40%, thêm 2% mỗi 5% chí mạng vượt mốc đó, với giới hạn tổng 12%."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Adds Bullet to Single Shot.",
-        "vi": "Thêm Đạn cho Single Shot."
+        "vi": "Thêm Bullet cho Single Shot."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Luke’s Single Shot; If Luke’s Critical Chance is 20% or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Single Shot của Luke; Nếu Tỷ lệ chí mạng của Luke đạt ít nhất 20%, tăng thêm 5% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Single Shot của Luke; Nếu Critical Chance của Luke đạt ít nhất 20%, tăng thêm 5% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Luke's Critical Chance is 40% or higher, +3% Damage Amount to Handgun Bullet; For every 5% Critical Chance exceeding 40%, add an additional +2% to the modifier; (additional +12% max)",
-        "vi": "Nếu Tỷ lệ chí mạng của Luke đạt ít nhất 40%, tăng 3% lượng sát thương của Đạn súng ngắn; Với mỗi 5% Tỷ lệ chí mạng vượt quá 40%, tăng thêm 2% vào mức cộng thêm; (tăng thêm tối đa 12%)"
+        "vi": "Nếu Critical Chance của Luke đạt ít nhất 40%, tăng 3% lượng sát thương của Handgun Bullet; Với mỗi 5% Critical Chance vượt quá 40%, tăng thêm 2% vào mức cộng thêm; (tăng thêm tối đa 12%)"
       }
     }
   ],
@@ -721,7 +721,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -741,13 +741,13 @@
       ],
       "note": {
         "en": "Fun Fact: Even though majority of Luke's damage is not Extra Attack, in optimized setups close to 1/3 of it can end up being Extra Attacks because of Tracer Shots applying Mark! This makes Extra Attack damage increases like Second Method comparable to other generic damage options (Obsidian, Sword Reflected in Lake, etc.).",
-        "vi": "Bộ Luke tối ưu có thể gây gần một phần ba sát thương bằng đòn đánh thêm nhờ Tracer Shots áp Dấu ấn, dù đó không phải nguồn sát thương chính thông thường. Vì vậy Second Method có thể ngang các lựa chọn sát thương phổ dụng như Obsidian hoặc Sword Reflected in Lake."
+        "vi": "Bộ Luke tối ưu có thể gây gần một phần ba sát thương bằng Extra Attack nhờ Tracer Shots áp Mark, dù đó không phải nguồn sát thương chính thông thường. Vì vậy Second Method có thể ngang các lựa chọn sát thương phổ dụng như Obsidian hoặc Sword Reflected in Lake."
       }
     },
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -769,7 +769,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -791,7 +791,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -810,7 +810,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -833,41 +833,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.'X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.+30% Damage Amount of 1-cost or lower Attack Cards.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công; tăng 30% sát thương bài tấn công có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 20% sát thương Attack Card; tăng 30% sát thương Attack Card có chi phí ≤1. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -885,7 +885,7 @@
       "score": "—",
       "note": {
         "en": "Luke first Ego buffs his Unique/Signature Skill - Finisher Round. It increases the damage dealt by an additional +50% and reduces the activation requirement of 5 Handgun Bullet cards down to 4. Not a terrible node, mostly assisting in Chaos content, as some fully refined Luke decks can find themselves removing this card. However, if you do have access to Luke’s Signature Partner, Janet, this card’s value does increase quite tremendously and becomes a solid node to have unlocked, as it contains the [Bullet] tag to further enhance Bullet generation.",
-        "vi": "Finisher Round tăng 50% sát thương và giảm điều kiện từ 5 Đạn súng ngắn xuống 4. Chủ yếu hữu ích trong Chaos nếu bộ bài tối ưu xóa lá này; có Janet thì giá trị tăng nhờ nhãn Đạn và khả năng tạo thêm bài."
+        "vi": "Finisher Round tăng 50% sát thương và giảm điều kiện từ 5 Handgun Bullet xuống 4. Chủ yếu hữu ích trong Chaos nếu bộ bài tối ưu xóa lá này; có Janet thì giá trị tăng nhờ nhãn Bullet và khả năng tạo thêm bài."
       }
     },
     {
@@ -893,7 +893,7 @@
       "score": "—",
       "note": {
         "en": "Luke’s next Ego node is absolutely game-changing for Luke. Whenever Luke uses 3 Bullet cards, he creates an additional 2 Handgun Bullet cards in his hand, but their damage is reduced by 50%. This can only trigger once per turn, but it really allows Luke to keep up their attacks continuously to feed his Dance of the Demon card. Again, in conjunction with owning Janet, when triggering this passive, it will provide enough Bullet cards to activate her passive, etc.",
-        "vi": "Một lần mỗi lượt, dùng 3 bài Đạn sẽ tạo 2 Đạn súng ngắn trên tay với sát thương giảm 50%. Thay đổi lớn khả năng duy trì chuỗi đánh cho Dance of the Demon và phối hợp rất tốt với Janet."
+        "vi": "Một lần mỗi lượt, dùng 3 bài Bullet sẽ tạo 2 Handgun Bullet trên tay với sát thương giảm 50%. Thay đổi lớn khả năng duy trì chuỗi đánh cho Dance of the Demon và phối hợp rất tốt với Janet."
       }
     },
     {
@@ -901,7 +901,7 @@
       "score": "—",
       "note": {
         "en": "His third Ego, when unlocked, amps his Ego Skill, increasing the damage dealt by an additional +50% and the damage per card in hand is increased to +25%. A nice increase to his damage output, but overall not important to their gameplay.",
-        "vi": "Kỹ năng Ego tăng 50% sát thương, mức tăng theo mỗi lá trên tay lên 25%. Tăng sát thương nhưng ít ảnh hưởng cách chơi."
+        "vi": "Ego Skill tăng 50% sát thương, mức tăng theo mỗi lá trên tay lên 25%. Tăng sát thương nhưng ít ảnh hưởng cách chơi."
       }
     },
     {
@@ -909,7 +909,7 @@
       "score": "—",
       "note": {
         "en": "His fourth Ego grants Luke 1 stack of “Target Analysis” whenever he uses a Bullet card. This buff stacks up to 4 times, lasts a single turn and grants an additional +10% damage to Luke’s Bullet cards. This is a fantastic self-contained buff that further increases his damage output. Combined with Luke’s second Ego, this is extremely easy to maintain at almost all stages of a fight to ensure his damage output is high at all times.",
-        "vi": "Dùng bài Đạn nhận Target Analysis trong 1 lượt, tối đa 4; mỗi cộng dồn tăng 10% sát thương bài Đạn. Kết hợp Ego 2 giúp duy trì dễ dàng."
+        "vi": "Dùng bài Bullet nhận Target Analysis trong 1 lượt, tối đa 4; mỗi cộng dồn tăng 10% sát thương bài Bullet. Kết hợp Ego 2 giúp duy trì dễ dàng."
       }
     },
     {
@@ -917,7 +917,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. As most of Luke’s base damage is quite low, these multiplicative multipliers don’t overall increase his damage too extensively, but it is nice to have regardless.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Cải thiện vừa phải vì sát thương cơ bản của Luke khá thấp."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Cải thiện vừa phải vì sát thương cơ bản của Luke khá thấp."
       }
     },
     {
@@ -925,7 +925,7 @@
       "score": "—",
       "note": {
         "en": "Luke’s final Ego increases the boost provided by his E4 to 15% per stack and additionally, whenever 12 Bullet cards are used, Luke creates 1 “HVAP Round” card. This is also a [Bullet] card that deals 200% damage and is a guaranteed Critical Strike. This is a pretty solid overall final node for Luke, which gives him access to a hard-hitting attack whilst also amping his regular Bullets further.",
-        "vi": "Mức tăng từ Ego 4 lên 15% mỗi cộng dồn; cứ dùng 12 bài Đạn tạo 1 HVAP Round. Lá Đạn này gây 200% sát thương và chắc chắn chí mạng, đồng thời Đạn thường cũng mạnh hơn."
+        "vi": "Mức tăng từ Ego 4 lên 15% mỗi cộng dồn; cứ dùng 12 bài Bullet tạo 1 HVAP Round. Lá Bullet này gây 200% sát thương và chắc chắn chí mạng, đồng thời Bullet thường cũng mạnh hơn."
       }
     }
   ],
@@ -933,7 +933,7 @@
     {
       "name": {
         "en": "Sustained DMG Luke (ELASTICITY)",
-        "vi": "Luke sát thương duy trì khi có Đàn hồi"
+        "vi": "Luke sát thương duy trì khi có Elasticity"
       },
       "role": {
         "en": "Consistent sustained attacker",
@@ -983,8 +983,8 @@
         0
       ],
       "note": {
-        "en": "Prioritize reliable damage and sustain against Elasticity, which the source treats as the normal boss environment. Its ceiling is below non-Elasticity setups, but it functions under that restriction. Hugo is strongly recommended to turn Luke's attacks into additional team damage.",
-        "vi": "Ưu tiên sát thương ổn định và khả năng duy trì khi gặp Đàn hồi, cơ chế được nguồn xem là phổ biến ở trùm. Trần sát thương thấp hơn các bản dành cho địch không có Đàn hồi, nhưng bộ bài hoạt động tốt trong điều kiện hạn chế này. Rất nên ghép Hugo để mỗi đòn của Luke tạo thêm sát thương cho đội."
+        "en": "Prioritize reliable damage and sustain against Elasticity, which is common in boss encounters. Its ceiling is below non-Elasticity setups, but it functions under that restriction. Hugo is strongly recommended to turn Luke's attacks into additional team damage.",
+        "vi": "Ưu tiên sát thương ổn định và khả năng duy trì khi gặp Elasticity, cơ chế phổ biến ở trùm. Trần sát thương thấp hơn các bản dành cho địch không có Elasticity, nhưng bộ bài hoạt động tốt trong điều kiện hạn chế này. Rất nên ghép Hugo để mỗi đòn của Luke tạo thêm sát thương cho đội."
       }
     },
     {
@@ -994,7 +994,7 @@
       },
       "role": {
         "en": "Non-Elasticity burst carry",
-        "vi": "Dồn sát thương khi không có Đàn hồi"
+        "vi": "Dồn sát thương khi không có Elasticity"
       },
       "partner": "Janet",
       "cards": [
@@ -1032,17 +1032,17 @@
       ],
       "note": {
         "en": "Reserve this for the uncommon enemy without Elasticity. Allies that attack frequently help scale Dance of the Demon's hit count before Luke delivers his burst.",
-        "vi": "Dành cho trường hợp khá hiếm khi kẻ địch không có Đàn hồi. Ghép đồng đội tấn công nhiều lần để tăng số nhịp đánh của Dance of the Demon trước khi Luke tung chuỗi dồn sát thương."
+        "vi": "Dành cho trường hợp khá hiếm khi kẻ địch không có Elasticity. Ghép đồng đội Attack nhiều lần để tăng số nhịp đánh của Dance of the Demon trước khi Luke tung chuỗi dồn sát thương."
       }
     },
     {
       "name": {
         "en": "Max Hugo [Bullet] Driver",
-        "vi": "Tối đa kích hoạt Hugo bằng Đạn"
+        "vi": "Tối đa kích hoạt Hugo bằng Bullet"
       },
       "role": {
         "en": "Bullet-based Hugo driver",
-        "vi": "Dùng Đạn kích hoạt đòn đánh thêm Hugo"
+        "vi": "Dùng Bullet kích hoạt Extra Attack Hugo"
       },
       "partner": "Janet",
       "cards": [
@@ -1101,7 +1101,7 @@
       ],
       "note": {
         "en": "After Luke's season 4 buffs, Stealth Reload supplies the required skills without the old Contaminated Spore/season 2 neutral setup. Farm season 3 Personas, preferably in Swamp. E2 Luke and Janet add Bullet generation and further improve Hugo activation; performance is competitive with Chain Fire variants with simpler preparation.",
-        "vi": "Sau thay đổi mùa 4, Stealth Reload cung cấp các kỹ năng cần thiết mà không phải dựng chuỗi phức tạp bằng Contaminated Spore và lá trung lập mùa 2. Nên thu thập Persona mùa 3, ưu tiên Đầm lầy. E2 của Luke hoặc Janet tạo thêm Đạn và tăng số lần kích hoạt Hugo. Sát thương cạnh tranh với bản Chain Fire nhưng khâu chuẩn bị đơn giản hơn."
+        "vi": "Sau thay đổi Season 4, Stealth Reload cung cấp các kỹ năng cần thiết mà không phải dựng chuỗi phức tạp bằng Contaminated Spore và lá Neutral Season 2. Nên thu thập Persona Season 3, ưu tiên Swamp. E2 của Luke hoặc Janet tạo thêm Bullet và tăng số lần kích hoạt Hugo. Sát thương cạnh tranh với bản Chain Fire nhưng khâu chuẩn bị đơn giản hơn."
       }
     }
   ],
@@ -1110,21 +1110,21 @@
       "name": "Cassius",
       "note": {
         "en": "Attack-based Morale buffs also build Dance of the Demon II, but efficient draw often needs cost-reduction Divines.",
-        "vi": "Tấn công tăng Sĩ khí đồng thời tích Dance of the Demon II, nhưng Rút hiệu quả thường cần Thức tỉnh thần thánh giảm Chi phí."
+        "vi": "Attack tăng Morale đồng thời tích Dance of the Demon II, nhưng Rút hiệu quả thường cần Divine Epiphany giảm Cost."
       }
     },
     {
       "name": "Hugo",
       "note": {
         "en": "Luke's attacks drive Hugo, but skill-generating Stealth Reload variants help maintain Commence the Hunt better than Rapid Fire.",
-        "vi": "Tấn công của Luke kích hoạt Hugo, nhưng biến thể Stealth Reload tạo bài bằng Kỹ năng duy trì Bắt đầu cuộc săn tốt hơn Rapid Fire."
+        "vi": "Attack của Luke kích hoạt Hugo, nhưng biến thể Stealth Reload tạo bài bằng Skill duy trì Commence the Hunt tốt hơn Rapid Fire."
       }
     },
     {
       "name": "Sereniel",
       "note": {
         "en": "Frequent attacks strengthen Dance of the Demon II, while optimized Sereniel decks demand little extra AP or draw.",
-        "vi": "Nhiều đòn đánh tăng Dance of the Demon II, còn bộ Sereniel tối ưu ít cần thêm Điểm hành động hay Rút bài."
+        "vi": "Nhiều đòn đánh tăng Dance of the Demon II, còn bộ Sereniel tối ưu ít cần thêm AP hay Draw."
       }
     }
   ],
@@ -1141,8 +1141,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

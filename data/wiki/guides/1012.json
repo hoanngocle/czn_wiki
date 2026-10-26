@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Lead and Efficiency reward discounted cards; Shockwave adds Tenacity damage alongside offensive buffs.",
-    "vi": "Dẫn đầu và hiệu ứng tăng hiệu suất giúp tận dụng bài được giảm chi phí; Sóng xung kích bổ sung sát thương Sức bền cùng các hiệu ứng tăng sức tấn công."
+    "vi": "Lead và hiệu ứng tăng hiệu suất giúp tận dụng bài được giảm chi phí; Shockwave bổ sung sát thương Tenacity cùng các hiệu ứng tăng sức tấn công."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1012.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -352,19 +352,19 @@
   "review": {
     "intro": {
       "en": "Lead and Efficiency reward discounted cards; Shockwave adds Tenacity damage alongside offensive buffs.",
-      "vi": "Dẫn đầu và hiệu ứng tăng hiệu suất giúp tận dụng bài được giảm chi phí; Sóng xung kích bổ sung sát thương Sức bền cùng các hiệu ứng tăng sức tấn công."
+      "vi": "Lead và hiệu ứng tăng hiệu suất giúp tận dụng bài được giảm chi phí; Shockwave bổ sung sát thương Tenacity cùng các hiệu ứng tăng sức tấn công."
     },
     "profile": [],
     "pros": [
       {
         "en": "Can support a carry or take a damage role with suitable Epiphanies.",
-        "vi": "Có thể hỗ trợ chủ lực hoặc gây sát thương với Thức tỉnh bài phù hợp."
+        "vi": "Có thể hỗ trợ chủ lực hoặc gây sát thương với Epiphanies phù hợp."
       }
     ],
     "cons": [
       {
         "en": "Limited card draw and no healing leave support duties for teammates.",
-        "vi": "Khả năng rút bài hạn chế và không hồi máu nên cần đồng đội bù đắp."
+        "vi": "Khả năng Draw hạn chế và không hồi máu nên cần đồng đội bù đắp."
       }
     ],
     "mechanics": [
@@ -372,7 +372,7 @@
         "title": "Shock Gun",
         "body": {
           "en": "150% Damage; 1 Shockwave; Efficiency: 1 Tenacity Damage",
-          "vi": "Gây 150% sát thương; 1 Sóng xung kích; Hiệu suất: 1 Sát thương sức bền"
+          "vi": "Gây 150% sát thương; 1 Shockwave; Efficiency: 1 Tenacity Damage"
         },
         "cardId": "c_1012_uni1"
       },
@@ -380,7 +380,7 @@
         "title": "Warming Up",
         "body": {
           "en": "For 1 turn, decrease Cost of the next card of this unit activated by 1; Efficiency: Draw 1 Lead Attack Card(s) of this unit",
-          "vi": "Trong 1 lượt, giảm Chi phí của lá tiếp theo được Nhân vật này Kích hoạt đi 1; Hiệu suất: Rút bài 1 lá Tấn công Dẫn đầu của Nhân vật này"
+          "vi": "Trong 1 lượt, giảm Cost của lá tiếp theo được Combatant này Kích hoạt đi 1; Efficiency: Draw 1 lá Attack Lead của Combatant này"
         },
         "cardId": "c_1012_uni3"
       },
@@ -388,7 +388,7 @@
         "title": "Reloading",
         "body": {
           "en": "At the start of the next turn, Draw 2 Lead card(s) of this unit",
-          "vi": "Đầu lượt tiếp theo, Rút bài 2 lá Dẫn đầu của Nhân vật này"
+          "vi": "Đầu lượt tiếp theo, Draw 2 lá Lead của Combatant này"
         },
         "cardId": "c_1012_uni2"
       }
@@ -407,11 +407,11 @@
       "preferred": "",
       "note": {
         "en": "Keep the base card for a Morale neutral build; V is a niche partner for allies repeatedly using Basic Attacks.",
-        "vi": "Giữ bản gốc trong bộ bài dùng Sĩ khí trung lập; V phù hợp khi đồng đội liên tục dùng Bài tấn công cơ bản."
+        "vi": "Giữ bản gốc trong bộ bài dùng Morale Neutral; V phù hợp khi đồng đội liên tục dùng Attack Card cơ bản."
       },
       "divine": {
         "en": "Target 3 Morale; usual AP, cost reduction, draw or Vulnerable divines remain options.",
-        "vi": "Nhắm đến 3 Sĩ khí; có thể bổ sung Điểm hành động, giảm chi phí, rút bài hoặc Dễ tổn thương."
+        "vi": "Nhắm đến 3 Morale; có thể bổ sung AP, giảm chi phí, Draw hoặc Vulnerable."
       }
     },
     {
@@ -426,11 +426,11 @@
       "preferred": "",
       "note": {
         "en": "The base Finale sets up next-turn Lead draws; I broadens the selection when teammates also supply Lead cards.",
-        "vi": "Kết màn của bản gốc chuẩn bị rút bài Dẫn đầu ở lượt sau; I mở rộng lựa chọn khi đồng đội cũng có bài Dẫn đầu."
+        "vi": "Kết màn của bản gốc chuẩn bị rút bài Lead ở lượt sau; I mở rộng lựa chọn khi đồng đội cũng có bài Lead."
       },
       "divine": {
         "en": "Use standard resource divines to fit the team; no unique divine is singled out.",
-        "vi": "Chọn hiệu ứng tài nguyên phù hợp đội; nguồn không đề xuất hiệu ứng thần thánh đặc biệt."
+        "vi": "Chọn hiệu ứng tài nguyên phù hợp đội; không đề xuất hiệu ứng Divine đặc biệt."
       }
     },
     {
@@ -445,11 +445,11 @@
       "preferred": "",
       "note": {
         "en": "The base version with neutral Morale is preferred; cost reduction enables its additional Tenacity pressure.",
-        "vi": "Ưu tiên bản gốc kèm Sĩ khí trung lập; giảm chi phí giúp kích hoạt thêm áp lực lên Sức bền."
+        "vi": "Ưu tiên bản gốc kèm Morale Neutral; giảm chi phí giúp kích hoạt thêm áp lực lên Tenacity."
       },
       "divine": {
         "en": "Target 2 Morale, then consider cost reduction, AP or draw.",
-        "vi": "Nhắm đến 2 Sĩ khí, sau đó cân nhắc giảm chi phí, Điểm hành động hoặc rút bài."
+        "vi": "Nhắm đến 2 Morale, sau đó cân nhắc giảm chi phí, AP hoặc Draw."
       }
     },
     {
@@ -464,11 +464,11 @@
       "preferred": "",
       "note": {
         "en": "Base supports cost reduction and Lead draw; II instead supports Anika carrying with an expensive attack.",
-        "vi": "Bản gốc hỗ trợ giảm chi phí và rút bài Dẫn đầu; II phù hợp khi Anika chủ lực dùng đòn đánh tốn nhiều chi phí."
+        "vi": "Bản gốc hỗ trợ giảm chi phí và Draw Lead; II phù hợp khi Anika chủ lực dùng đòn đánh tốn nhiều chi phí."
       },
       "divine": {
         "en": "Target 2 Morale and cost reduction for the support route.",
-        "vi": "Nhắm đến 2 Sĩ khí và giảm chi phí cho hướng hỗ trợ."
+        "vi": "Nhắm đến 2 Morale và giảm chi phí cho hướng hỗ trợ."
       }
     }
   ],
@@ -494,7 +494,7 @@
       "score": "—",
       "note": {
         "en": "Class bonuses improve Anika's damage, but the Ego buff loses value when her own Morale already reaches its cap.",
-        "vi": "Thưởng cùng lớp tăng sát thương Anika, nhưng kỹ năng Ego kém giá trị nếu Sĩ khí của cô đã chạm trần."
+        "vi": "Thưởng cùng lớp tăng sát thương Anika, nhưng kỹ năng Ego kém giá trị nếu Morale của cô đã chạm trần."
       }
     }
   ],
@@ -503,8 +503,8 @@
       "name": "Healer's Journey (2) + Flex",
       "score": "—",
       "note": {
-        "en": "Defensive stats are a flexible default; offensive choices are valid, but fragments do not affect Sortie in this source.",
-        "vi": "Chỉ số phòng ngự là lựa chọn linh hoạt; có thể chọn sát thương, nhưng theo nguồn này mảnh ký ức không tác động Xuất kích."
+        "en": "Defensive stats are a flexible default; offensive choices are valid, but fragments do not affect Sortie.",
+        "vi": "Chỉ số phòng ngự là lựa chọn linh hoạt; có thể chọn sát thương, nhưng Fragments không tác động Xuất kích."
       }
     }
   ],
@@ -512,11 +512,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "Crit Rate > Crit DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -526,65 +526,65 @@
       },
       "value": {
         "en": "ATK% >= Order DMG%",
-        "vi": "Tấn công% >= Sát thương Trật tự%"
+        "vi": "ATK% >= Sát thương Order%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT DMG% > CRIT Rate% => Extra DMG% > ATK > ATK%",
-        "vi": "Sát thương chí mạng% > Tỷ lệ chí mạng% => Sát thương bổ sung% > Tấn công > Tấn công%"
+        "vi": "CRIT DMG% > Critical Chance% => Extra Damage% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "Maxing out Anika's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 500ATK which Anika builds can accomplish with no memory fragments.",
-    "vi": "Ngưỡng chính là 500 tấn công để kích hoạt đủ tiềm năng 7; Anika thường đạt được ngay cả khi chưa dùng mảnh ký ức."
+    "vi": "Ngưỡng chính là 500 tấn công để kích hoạt đủ Potential 7; Anika thường đạt được ngay cả khi chưa dùng Memory Fragments."
   },
   "potentialIntro": {
     "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Anika’s 3-1 Potential adds the [Lead] tag to both of their basic starting cards, Blaster Swing and Position Hold cards. Mostly useful for early in Chaos/Sortie runs to slightly help alleviate AP requirements.5-1: Anika’s 5-1 Potential adds an additional +5% Damage to their Blaster Swing card, improving to 15% total if Anika’s attack is 250 or higher. Again, primarily serving useful early in Chaos/Sortie prior to removal.7: Anika’s 7 Potential grants Anika an additional +10% Attack to their attack stat if their attack is 500 or higher. Very strong, should be prioritized as this increases their damage across the board.",
-    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Dẫn đầu cho Blaster Swing và Position Hold, còn 5-1 tăng sát thương Blaster Swing thêm 5%, đạt tổng 15% khi tấn công ≥250, chủ yếu giúp đầu Chaos trước khi xóa bài. Ưu tiên tiềm năng 7 vì tăng 10% tấn công khi đạt ≥500 tấn công, có lợi cho toàn bộ nguồn sát thương."
+    "vi": "Ưu tiên Critical Chance = CRIT DMG ≥ sát thương Signature Cards > Common Cards = Basic Card; 3-1 thêm Lead cho Blaster Swing và Position Hold, còn 5-1 tăng sát thương Blaster Swing thêm 5%, đạt tổng 15% khi Attack ≥250, chủ yếu giúp đầu Chaos trước khi xóa bài. Ưu tiên Potential 7 vì tăng 10% Attack khi đạt ≥500 Attack, có lợi cho toàn bộ nguồn sát thương."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Adds Lead to the Blaster Swing card and the Position Hold card.",
-        "vi": "Thêm Dẫn đầu cho lá Blaster Swing và lá Position Hold."
+        "vi": "Thêm Lead cho lá Blaster Swing và lá Position Hold."
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Anika’s Blaster Swing; If Anika’s Attack is 250 or higher, add an additional +10% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Blaster Swing của Anika; Nếu Tấn công của Anika đạt ít nhất 250, tăng thêm 10% vào mức cộng thêm"
+        "vi": "Tăng 5% lượng sát thương của Blaster Swing của Anika; Nếu Attack của Anika đạt ít nhất 250, tăng thêm 10% vào mức cộng thêm"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Anika’s Attack is 500 or higher, +10% Attack",
-        "vi": "Nếu Tấn công của Anika đạt ít nhất 500, tăng 10% Tấn công"
+        "vi": "Nếu Attack của Anika đạt ít nhất 500, tăng 10% Attack"
       }
     }
   ],
@@ -592,7 +592,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -614,7 +614,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -633,7 +633,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -651,13 +651,13 @@
       ],
       "note": {
         "en": "Often need to keep basic shield in for shield related buffs.",
-        "vi": "Thường cần giữ bài lá chắn cơ bản để kích hoạt các hiệu ứng liên quan đến lá chắn."
+        "vi": "Thường cần giữ bài Shield cơ bản để kích hoạt các hiệu ứng liên quan đến Shield."
       }
     },
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Tentacles of Chaos",
@@ -682,41 +682,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds on supports; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn. Với nhân vật hỗ trợ, cách chia 1/1/1 thường linh hoạt cho nhiều đội."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take is Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is the stacking [When Action Count of enemies is increased by allies, +50% Damage Amount to Ally Attack Cards for 1 turn (1 time per turn)] and [When a card of this unit is activated, 30% to increase Action Count of all enemies by 1 (1 time per turn)], but it's possible to use a variety of other options for a specific set-up (like Discard [Quietus] Engravings when playing high [Quietus] builds or Umbra Engravings just to meet the threshold for certain Persona cards).",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Khắc ấn bài thường chọn Điều hòa giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp khắc ấn có thể cộng dồn: khi đồng đội tăng số hành động của địch, bài tấn công của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng khắc ấn bỏ bài/Tịch diệt cho đội chuyên Tịch diệt, hoặc Umbra để đủ ngưỡng bài Nhân cách."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Engraving bài thường chọn Attunement giảm 1 chi phí đến khi dùng. Trang bị thường ưu tiên cặp Engraving có thể cộng dồn: khi đồng đội tăng số hành động của địch, Attack Card của đồng đội tăng 50% sát thương trong 1 lượt (1 lần mỗi lượt); khi bài của người đeo kích hoạt, có 30% cơ hội tăng số hành động toàn bộ địch thêm 1 (1 lần mỗi lượt). Có thể thay bằng Engraving Discard/Quietus cho đội chuyên Quietus, hoặc Umbra để đủ ngưỡng Persona Cards."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.At the start of battle, Draw 1 Exhaust card(s) of this unit.At the start of the turn, if an Exhaust card is in Draw Pile, have a 30% chance to Draw 1 Exhaust card(s).If Damage is completely blocked, at the start of the next turn, increase Damage Amount of allies by 10% for 1 turn (1 time per turn).When Drawing an Exhaust card of this unit through an ally ability, activate immediately (1 time per turn).Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision. Supportive options are recommended for supportive units (like Tentacle or Harp effects).",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Các tinh luyện hữu ích: đầu trận rút 1 bài Kiệt sức của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Kiệt sức nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội rút bài Kiệt sức của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Các Refinements hữu ích: đầu trận rút 1 bài Exhaust của nhân vật; đầu lượt có 30% cơ hội rút 1 bài Exhaust nếu chồng rút còn loại này; nếu chặn hết sát thương, đầu lượt sau tăng sát thương đồng đội 10% trong 1 lượt (1 lần mỗi lượt); khi kỹ năng đồng đội Draw Exhaust của nhân vật, kích hoạt ngay lá đó (1 lần mỗi lượt). God’s Hammer cuối chuyến thám hiểm hoàn toàn ngẫu nhiên nên không có lựa chọn cố định; nhân vật hỗ trợ ưu tiên hiệu ứng hỗ trợ như Tentacle hoặc Harp."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to 1-card, can be manipulated.Forbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)Forbidden: Portrait of Fury. ++DrawForbidden: Guidance of Futility. +++Survivability",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh rút bài. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội. Forbidden: Portrait of Fury tăng mạnh Draw. Forbidden: Guidance of Futility tăng mạnh khả năng sống sót."
       }
     }
   ],
@@ -733,8 +733,8 @@
       "name": "Ego 1",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -749,24 +749,24 @@
       "name": "Ego 3",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Ego 4",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Ego 5",
       "score": "—",
       "note": {
-        "en": "No source commentary provided for this level.",
-        "vi": "Nguồn chưa có nhận xét cho mốc Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -774,7 +774,7 @@
       "score": "—",
       "note": {
         "en": "Useful but not needed in most Anika teams. Whether enemy has Tenacity or not is too situationally dependent to build around, or if played with Sereniel, the extra AP is mostly irrelevant.",
-        "vi": "Hữu ích nhưng không cần thiết trong đa số đội Anika; điều kiện sức bền của địch phụ thuộc tình huống, còn điểm hành động thêm thường không quan trọng khi đi cùng Sereniel."
+        "vi": "Hữu ích nhưng không cần thiết trong đa số đội Anika; điều kiện Tenacity của địch phụ thuộc tình huống, còn AP thêm thường không quan trọng khi đi cùng Sereniel."
       }
     }
   ],
@@ -786,7 +786,7 @@
       },
       "role": {
         "en": "Low-cost Morale buffer",
-        "vi": "Tăng Sĩ khí với chi phí thấp"
+        "vi": "Tăng Morale với chi phí thấp"
       },
       "partner": "Yuri",
       "cards": [
@@ -796,7 +796,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -805,7 +805,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -813,7 +813,7 @@
           "count": 1,
           "effects": {
             "en": "1 Morale next turn",
-            "vi": "Nhận 1 Sĩ khí ở lượt tiếp theo"
+            "vi": "Nhận 1 Morale ở lượt tiếp theo"
           }
         },
         {
@@ -822,7 +822,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -830,7 +830,7 @@
           "count": 1,
           "effects": {
             "en": "Morale 1",
-            "vi": "Nhận 1 Sĩ khí"
+            "vi": "Nhận 1 Morale"
           }
         }
       ],
@@ -851,7 +851,7 @@
       ],
       "note": {
         "en": "Exploit the cost-reduction interactions of the 2-cost starter Ignition Slash to apply Morale cheaply. Finish the turn with the Finale card to reduce the draw burden. This suits carries that already draw well but want an inexpensive buffer; the listed teams are examples rather than restrictions.",
-        "vi": "Tận dụng cơ chế kích hoạt khi được giảm chi phí của lá khởi đầu Ignition Slash có giá 2 Điểm hành động để tích Sĩ khí với chi phí thực tế rất thấp. Dùng lá có hiệu ứng Kết thúc vào cuối lượt để giảm số lượt rút bài mà Anika chiếm dụng. Hợp với chủ lực tự rút bài tốt nhưng cần hỗ trợ tăng sát thương ít tốn tài nguyên; các đội trong nguồn chỉ là ví dụ."
+        "vi": "Tận dụng cơ chế kích hoạt khi được giảm chi phí của lá khởi đầu Ignition Slash có giá 2 AP để tích Morale với chi phí thực tế rất thấp. Dùng lá có hiệu ứng Finale vào cuối lượt để giảm số lượt Draw mà Anika chiếm dụng. Hợp với chủ lực tự Draw tốt nhưng cần hỗ trợ tăng sát thương ít tốn tài nguyên."
       }
     },
     {
@@ -861,7 +861,7 @@
       },
       "role": {
         "en": "High-AP Morale support",
-        "vi": "Tăng Sĩ khí khi đội dư Điểm hành động"
+        "vi": "Tăng Morale khi đội dư AP"
       },
       "partner": "Yuri",
       "cards": [
@@ -870,7 +870,7 @@
           "count": 2,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -879,7 +879,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -887,7 +887,7 @@
           "count": 1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -895,7 +895,7 @@
           "count": 1,
           "effects": {
             "en": "1 Morale next turn",
-            "vi": "Nhận 1 Sĩ khí ở lượt tiếp theo"
+            "vi": "Nhận 1 Morale ở lượt tiếp theo"
           }
         },
         {
@@ -904,7 +904,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         },
         {
@@ -912,7 +912,7 @@
           "count": 1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         }
       ],
@@ -933,7 +933,7 @@
       ],
       "note": {
         "en": "Follow the generic Morale rotation but choose stronger, more expensive options. Sereniel produces enough AP and spends little enough herself that Anika can reach the 20-Morale cap without another buffer.",
-        "vi": "Vận hành như bản tăng Sĩ khí đa dụng nhưng chọn các lá mạnh hơn và tốn Điểm hành động hơn. Sereniel tạo nhiều Điểm hành động trong khi bản thân tiêu hao ít, nên Anika có thể tự đưa đội lên giới hạn 20 Sĩ khí. Ưu tiên hoàn tất các hiệu ứng tăng sức mạnh trước chuỗi tấn công của Sereniel."
+        "vi": "Vận hành như bản tăng Morale đa dụng nhưng chọn các lá mạnh hơn và tốn AP hơn. Sereniel tạo nhiều AP trong khi bản thân tiêu hao ít, nên Anika có thể tự đưa đội lên giới hạn 20 Morale. Ưu tiên hoàn tất các hiệu ứng tăng sức mạnh trước chuỗi tấn công của Sereniel."
       }
     },
     {
@@ -943,7 +943,7 @@
       },
       "role": {
         "en": "Team buffer and extra-attack support",
-        "vi": "Tăng sức mạnh đội và bổ sung đòn đánh thêm"
+        "vi": "Tăng sức mạnh đội và bổ sung Extra Attack"
       },
       "partner": "Westmaccot",
       "cards": [
@@ -953,7 +953,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 3 Morale",
-            "vi": "Nhận 3 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 3 Morale trong 1 lượt"
           }
         },
         {
@@ -965,7 +965,7 @@
           "count": 1,
           "effects": {
             "en": "1 Morale next turn",
-            "vi": "Nhận 1 Sĩ khí ở lượt tiếp theo"
+            "vi": "Nhận 1 Morale ở lượt tiếp theo"
           }
         },
         {
@@ -974,7 +974,7 @@
           "costDelta": -1,
           "effects": {
             "en": "For 1 turn, gain 2 Morale",
-            "vi": "Nhận 2 Sĩ khí trong 1 lượt"
+            "vi": "Nhận 2 Morale trong 1 lượt"
           }
         }
       ],
@@ -995,7 +995,7 @@
       ],
       "note": {
         "en": "Buff Anika, Hugo, and Chizuru while adding one extra attack to each Chizuru Moonslash. Together with Hugo's two extra attacks, each Chizuru basic attack produces five hits: two normal and three extra. The team's main weakness is limited sustain.",
-        "vi": "Tăng sức mạnh cho Anika, Hugo và Chizuru, đồng thời thêm một đòn đánh thêm vào mỗi Moonslash của Chizuru. Kết hợp hai đòn đánh thêm từ Hugo, mỗi đòn đánh cơ bản của Chizuru tạo tổng cộng năm nhịp: hai nhịp thường và ba đòn đánh thêm. Điểm yếu chính của đội là thiếu khả năng hồi phục và duy trì sinh tồn."
+        "vi": "Tăng sức mạnh cho Anika, Hugo và Chizuru, đồng thời thêm một Extra Attack vào mỗi Moonslash của Chizuru. Kết hợp hai Extra Attack từ Hugo, mỗi đòn đánh cơ bản của Chizuru tạo tổng cộng năm nhịp: hai nhịp thường và ba Extra Attack. Điểm yếu chính của đội là thiếu khả năng hồi phục và duy trì sinh tồn."
       }
     }
   ],
@@ -1004,28 +1004,28 @@
       "name": "Sereniel",
       "note": {
         "en": "Sereniel funds costly buffs, needs little draw, and benefits from Anika's Tenacity and Ravage support.",
-        "vi": "Sereniel cấp tài nguyên cho các hiệu ứng đắt, cần ít Rút bài và tận dụng hỗ trợ Sức bền, Suy yếu của Anika."
+        "vi": "Sereniel cấp tài nguyên cho các hiệu ứng đắt, cần ít Draw và tận dụng hỗ trợ Tenacity, Ravage của Anika."
       }
     },
     {
       "name": "Veronica",
       "note": {
         "en": "Veronica solves draw problems and can help cap Morale with Rosaria, but sustain requires a Shield build.",
-        "vi": "Veronica giải quyết thiếu Rút bài và có thể cùng Rosaria đẩy Sĩ khí lên trần, nhưng cần hướng Lá chắn để trụ trận."
+        "vi": "Veronica giải quyết thiếu Draw và có thể cùng Rosaria đẩy Morale lên trần, nhưng cần hướng Shield để trụ trận."
       }
     },
     {
       "name": "Chizuru",
       "note": {
         "en": "Basic Attack spam triggers Anika's Extra Attack build, but the recommended Hugo pairing leaves very little sustain.",
-        "vi": "Liên tục dùng Tấn công cơ bản kích hoạt hướng Đòn đánh thêm của Anika, nhưng ghép thêm Hugo khiến đội rất thiếu hồi phục."
+        "vi": "Liên tục dùng Attack cơ bản kích hoạt hướng Extra Attack của Anika, nhưng ghép thêm Hugo khiến đội rất thiếu hồi phục."
       }
     },
     {
       "name": "Mei Lin",
       "note": {
         "en": "Repeated Basic Attacks offer a high ceiling for Anika's Extra Attacks, with high costs and no sustain in the listed team.",
-        "vi": "Dùng nhiều Tấn công cơ bản nâng trần Đòn đánh thêm của Anika, đổi lại tốn tài nguyên và đội được nêu thiếu khả năng hồi phục."
+        "vi": "Dùng nhiều Attack cơ bản nâng trần Extra Attacks của Anika, đổi lại tốn tài nguyên và đội được nêu thiếu khả năng hồi phục."
       }
     }
   ],
@@ -1042,15 +1042,15 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
     {
       "name": {
         "en": "Ravager (Anika Variant)",
-        "vi": "Đội khai thác Suy yếu — biến thể Anika"
+        "vi": "Đội khai thác Ravage — biến thể Anika"
       },
       "members": [
         "Sereniel",
@@ -1059,8 +1059,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

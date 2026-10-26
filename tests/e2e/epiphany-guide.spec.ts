@@ -31,11 +31,11 @@ test("all five Epiphanies show their own source rating and language-specific rev
   ] as const) {
     await page.getByRole("button", { name: `${name} card`, exact: true }).click();
     const dialog = page.getByRole("dialog");
-    const reviews = dialog.getByRole("note");
+    const reviews = dialog.getByRole("note", { name: /^Epiphany / });
     await expect(reviews).toHaveCount(5);
     for (let index = 0; index < 5; index++) {
       await expect(reviews.nth(index)).toHaveAttribute("lang", "vi");
-      await expect(reviews.nth(index).getByRole("img", { name: `Prydwen: ${ratings[index]} / 5` })).toBeVisible();
+      await expect(reviews.nth(index).getByRole("img", { name: `Đánh giá: ${ratings[index]} / 5` })).toBeVisible();
       expect((await reviews.nth(index).locator("p").innerText()).length).toBeGreaterThan(60);
     }
     await expect(dialog.getByRole("link", { name: "Prydwen" })).toHaveCount(0);
@@ -43,7 +43,7 @@ test("all five Epiphanies show their own source rating and language-specific rev
   }
   await page.getByRole("checkbox", { name: "Tiếng Việt" }).uncheck();
   await page.getByRole("button", { name: "Echo of Sorrow card", exact: true }).click();
-  const reviews = page.getByRole("dialog").getByRole("note");
+  const reviews = page.getByRole("dialog").getByRole("note", { name: /^Epiphany / });
   await expect(reviews.first()).toHaveAttribute("lang", "en");
   await expect(reviews.nth(3)).toContainText("carry builds");
   await expect(reviews.nth(4)).toContainText("draw support");

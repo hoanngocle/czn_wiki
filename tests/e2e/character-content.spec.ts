@@ -20,7 +20,8 @@ for (const width of [1440, 390]) {
     const echo = page.getByRole("button", { name: "Echo of Sorrow card", exact: true });
     const artwork = await echo.locator("img").first().evaluate((img: HTMLImageElement) => new URL(img.src).pathname);
     await echo.click();
-    await expect(page.getByRole("dialog").getByRole("note")).toHaveCount(5);
+    await expect(page.getByRole("dialog").getByRole("note", { name: "Gợi ý lá bài", exact: true })).toHaveCount(1);
+    await expect(page.getByRole("dialog").getByRole("note", { name: /^Epiphany / })).toHaveCount(5);
     await expect(page.getByRole("button", { name: "Epiphany 5", exact: true })).toBeVisible();
     await page.getByRole("button", { name: "Đóng hộp thoại" }).click();
     await tabs.getByRole("tab", { name: "Đánh giá", exact: true }).click();
@@ -32,7 +33,7 @@ for (const width of [1440, 390]) {
     await expect(list.getByRole("listitem")).toHaveCount(7);
     expect(await list.getByRole("button", { name: "Echo of Sorrow V card", exact: true }).locator("img").first().evaluate((img: HTMLImageElement) => new URL(img.src).pathname)).toBe(artwork);
     await expect(list.getByRole("listitem").filter({ hasText: "Rút 1 lá" })).toHaveCount(3);
-    await page.getByRole("tab", { name: "Renoa hỗ trợ rút bài", exact: true }).click();
+    await page.getByRole("tab", { name: "Renoa hỗ trợ Draw", exact: true }).click();
     const flower = list.getByRole("button", { name: "Flower of Devoured Fate IV card", exact: true });
     await expect(flower).toHaveCount(4);
     await expect(flower.first().locator("strong").first()).toHaveText("0");

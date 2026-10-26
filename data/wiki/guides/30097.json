@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Converts Chronicle into Chronal Ascension, then spends it instead of AP on expensive attacks.",
-    "vi": "Chuyển Biên niên thành Thăng hoa thời gian để trả thay Điểm hành động cho những đòn đánh có chi phí cao."
+    "vi": "Chuyển Chronicle thành Chronal Ascension để trả thay AP cho những đòn đánh có chi phí cao."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_30097.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -396,19 +396,19 @@
   "review": {
     "intro": {
       "en": "Converts Chronicle into Chronal Ascension, then spends it instead of AP on expensive attacks.",
-      "vi": "Chuyển Biên niên thành Thăng hoa thời gian để trả thay Điểm hành động cho những đòn đánh có chi phí cao."
+      "vi": "Chuyển Chronicle thành Chronal Ascension để trả thay AP cho những đòn đánh có chi phí cao."
     },
     "profile": [],
     "pros": [
       {
         "en": "High base multipliers and Tenacity damage with substantial personal resources.",
-        "vi": "Hệ số cơ bản và sát thương Sức bền cao, có nguồn tài nguyên riêng đáng kể."
+        "vi": "Hệ số cơ bản và sát thương Tenacity cao, có nguồn tài nguyên riêng đáng kể."
       }
     ],
     "cons": [
       {
         "en": "No AoE; poor resource sequencing or insufficient AP sharply limits output.",
-        "vi": "Không có sát thương diện rộng; quản lý tài nguyên sai hoặc thiếu Điểm hành động làm giảm mạnh sát thương."
+        "vi": "Không có sát thương diện rộng; quản lý tài nguyên sai hoặc thiếu AP làm giảm mạnh sát thương."
       }
     ],
     "mechanics": [
@@ -424,7 +424,7 @@
         "title": "Future Decreed",
         "body": {
           "en": "Increase Cost of 1 2-Cost or lower card(s) in hand by 1 until activated, then proc 1 random 3-Cost card(s)",
-          "vi": "Tăng 1 chi phí của 1 lá có chi phí từ 2 trở xuống trên tay cho đến khi được kích hoạt, rồi kích hoạt qua hiệu ứng 1 lá ngẫu nhiên có chi phí 3"
+          "vi": "Tăng 1 chi phí của 1 lá có chi phí từ 2 trở xuống trên tay cho đến khi được kích hoạt, rồi Proc 1 lá ngẫu nhiên có chi phí 3"
         },
         "cardId": "c_30097_uni2"
       },
@@ -451,11 +451,11 @@
       "preferred": "I",
       "note": {
         "en": "I reliably restores Chronicle when Chronal Ascension ends. V can work with allied Retain triggers, but cannot generate Chronicle while Ascension remains active.",
-        "vi": "I khôi phục Biên niên ổn định khi Thăng hoa thời gian kết thúc. V có thể phối hợp kích hoạt Giữ lại của đồng đội nhưng không tạo Biên niên khi Thăng hoa còn hiệu lực."
+        "vi": "I khôi phục Chronicle ổn định khi Chronal Ascension kết thúc. V có thể phối hợp kích hoạt Retain của đồng đội nhưng không tạo Chronicle khi Thăng hoa còn hiệu lực."
       },
       "divine": {
         "en": "Prioritize the appropriate variant; neutral/divine effects add little.",
-        "vi": "Ưu tiên biến thể phù hợp; trung lập/thần thánh thêm ít giá trị."
+        "vi": "Ưu tiên biến thể phù hợp; Neutral/Divine thêm ít giá trị."
       }
     },
     {
@@ -470,11 +470,11 @@
       "preferred": "I",
       "note": {
         "en": "I is the direct-damage centerpiece. IV activates freely with Ascension and adds Vulnerable, but its three-cost identity misses Chrono Circle V's condition.",
-        "vi": "I là trung tâm hướng sát thương trực tiếp. IV kích hoạt miễn phí cùng Thăng hoa và thêm Dễ tổn thương, nhưng chi phí gốc ba không hợp điều kiện Chrono Circle V."
+        "vi": "I là trung tâm hướng sát thương trực tiếp. IV kích hoạt miễn phí cùng Thăng hoa và thêm Vulnerable, nhưng chi phí gốc ba không hợp điều kiện Chrono Circle V."
       },
       "divine": {
         "en": "Consider Vulnerable, Weakness Attack or cost reduction; III can take Draw 1.",
-        "vi": "Cân nhắc Dễ tổn thương, Tấn công điểm yếu hoặc giảm chi phí; III có thể lấy Rút 1."
+        "vi": "Cân nhắc Vulnerable, Weakness Attack hoặc giảm chi phí; III có thể lấy Rút 1."
       }
     },
     {
@@ -493,7 +493,7 @@
       },
       "divine": {
         "en": "Draw 1 is the main divine target; neutral options are lower priority.",
-        "vi": "Rút 1 là thần thánh ưu tiên; trung lập ít được ưu tiên hơn."
+        "vi": "Rút 1 là Divine ưu tiên; Neutral ít được ưu tiên hơn."
       }
     },
     {
@@ -508,11 +508,11 @@
       "preferred": "I",
       "note": {
         "en": "I maximizes immediate Fate Imprint creation. II scales with repeated allied Retain triggers; V instead specializes in two-cost cycling.",
-        "vi": "I tối đa lượng Fate Imprint tạo ngay. II tăng theo nhiều lần kích hoạt Giữ lại từ đồng đội; V chuyên luân chuyển bài chi phí hai."
+        "vi": "I tối đa lượng Fate Imprint tạo ngay. II tăng theo nhiều lần kích hoạt Retain từ đồng đội; V chuyên luân chuyển bài chi phí hai."
       },
       "divine": {
         "en": "Prefer Draw 1; neutral effects usually lose useful specialized mechanics.",
-        "vi": "Ưu tiên Rút 1; trung lập thường làm mất cơ chế chuyên dụng hữu ích."
+        "vi": "Ưu tiên Rút 1; Neutral thường làm mất cơ chế chuyên dụng hữu ích."
       }
     }
   ],
@@ -521,16 +521,16 @@
       "name": "Ivy E4",
       "score": "161.72%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Ivy E0",
       "score": "134.35%",
       "note": {
-        "en": "Listed by Prydwen without a written rationale.",
-        "vi": "Prydwen có liệt kê nhưng không nêu lý do cụ thể."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -538,7 +538,7 @@
       "score": "119.79%",
       "note": {
         "en": "An accessible Exhaust-compatible option with competitive multipliers; lower Ego levels lose considerable performance.",
-        "vi": "Lựa chọn dễ tiếp cận hợp bài Kiệt sức với hệ số hiệu ứng tăng cường cạnh tranh; cấp Ego thấp giảm hiệu quả đáng kể."
+        "vi": "Lựa chọn dễ tiếp cận hợp bài Exhaust với hệ số hiệu ứng tăng cường cạnh tranh; cấp Ego thấp giảm hiệu quả đáng kể."
       }
     },
     {
@@ -546,7 +546,7 @@
       "score": "100.00%",
       "note": {
         "en": "A free placeholder until a stronger listed Partner becomes available.",
-        "vi": "Phương án miễn phí tạm dùng cho đến khi có Đối tác mạnh hơn trong danh sách."
+        "vi": "Phương án miễn phí tạm dùng cho đến khi có Partner mạnh hơn trong danh sách."
       }
     }
   ],
@@ -572,11 +572,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -586,37 +586,37 @@
       },
       "value": {
         "en": "Justice DMG% > ATK%",
-        "vi": "Sát thương Công lý% > Tấn công%"
+        "vi": "Sát thương Justice% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% >= ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% >= Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% >= ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To access the free ATK from Rita's Potential 7 she needs above 800 ATK in the character screen. This bonus isn't a \"must have\" for Rita but it's definitely worth picking up if you can do so without compromising your core memory fragment stat choices. Consider prioritizing ATK on sub stats more than usual where you can to ensure you hit it.",
-    "vi": "Cần tấn công >800 trên màn hình nhân vật để nhận thêm tấn công từ tiềm năng 7. Không bắt buộc, nhưng đáng nhắm tới bằng chỉ số phụ nếu không ảnh hưởng lựa chọn chỉ số chính tốt nhất của mảnh ký ức."
+    "vi": "Cần ATK >800 trên màn hình nhân vật để nhận thêm ATK từ Potential 7. Không bắt buộc, nhưng đáng nhắm tới bằng chỉ số phụ nếu không ảnh hưởng lựa chọn chỉ số chính tốt nhất của Fragment."
   },
   "potentialIntro": {
     "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Rita’s 3-1 Potential grants an additional +50% damage to her Basic Attack card, Time Acceleration. Overall, providing a pretty substantial boost in damage to her basic cards, unless specifically building a Save File around her basic cards, this node is mostly beneficial in Chaos. Despite how niche it is, this node is cheap enough to unlock; it's not usually worth skipping.5-1: Rita's 5-1 potential further enhances her Time Acceleration card, increasing damage dealt by +5%, and if Rita’s attack is greater than 500, increases it further by an additional +5%. This node is much more costly to unlock than 3-1 and is also far less potent, while sharing the same issue of only being useful to certain save data Rita builds and her Chaos performance. If you don’t care for a boost to those elements, you can skip out on this unlock.7: Rita's 7 potential provides a +10% attack increase to herself if her attack is greater than 800. This sounds quite strong, but it only provides a 10% increase to her basestat. Once you reach the threshold, this bonus grants Rita around 44 Attack at level 60. Not an incredibly powerful or game-changing node, but it helps slightly with her damage output.Note: The increase to her base stat functions similarly to Flat ATK found in the sub stats of memory fragments and therefore isn’t multiplied by the ATK% increases also found on memory fragments.",
-    "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 tăng Time Acceleration 50%, rẻ và hữu ích trong Chaos, còn 5-1 tăng 5% và thêm 5% khi tấn công >500 nhưng tốn hơn, có thể bỏ qua nếu không dùng bài cơ bản. Tiềm năng 7 cho 10% tấn công cơ bản khi tấn công >800, chỉ khoảng 44 tấn công ở cấp 60; phần này giống tấn công cố định và không được nhân tiếp bởi % tấn công trên mảnh ký ức."
+    "vi": "Ưu tiên Critical Chance = CRIT DMG ≥ sát thương Signature Cards > Common Cards = Basic Cards; 3-1 tăng Time Acceleration 50%, rẻ và hữu ích trong Chaos, còn 5-1 tăng 5% và thêm 5% khi ATK >500 nhưng tốn hơn, có thể bỏ qua nếu không dùng Basic Cards. Potential 7 cho 10% ATK cơ bản khi ATK >800, chỉ khoảng 44 ATK ở cấp 60; phần này giống ATK cố định và không được nhân tiếp bởi % ATK trên Memory Fragments."
   },
   "potentialAdvice": [
     {
@@ -630,21 +630,21 @@
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Rita’s Time Acceleration; If Rita’s Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "+5% sát thương cho Time Acceleration của Rita; Nếu Tấn công của Rita từ 500 trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% sát thương cho Time Acceleration của Rita; Nếu Attack của Rita từ 500 trở lên, cộng thêm +5% vào hệ số"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Rita’s Attack is 800 or higher, +10% Attack to herself.",
-        "vi": "Nếu Tấn công của Rita từ 800 trở lên, bản thân nhận +10% Tấn công."
+        "vi": "Nếu Attack của Rita từ 800 trở lên, bản thân nhận +10% Attack."
       }
     }
   ],
@@ -652,7 +652,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -675,7 +675,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -697,7 +697,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -739,7 +739,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -761,41 +761,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3",
-        "vi": "Mùa 3"
+        "vi": "Season 3"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Increase Damage Amount of Attack Cards by 20%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. Tăng 20% sát thương bài tấn công. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Attack Card đánh mục tiêu Vulnerable được thêm 15% Critical Chance. Tăng 20% sát thương Attack Card. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +Damage",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương."
       }
     }
   ],
@@ -813,7 +813,7 @@
       "score": "—",
       "note": {
         "en": "Rita’s first Ego node to be unlocked adds an additional effect to Time Paradox, when used - if Rita removed 6 stacks of Chronical, Rita gains 8 Chronal Ascension (instead of 6), providing an extra 2 pseudo-AP to be used. This is an extremely solid first Ego node for Rita that raises her maximum free AP generation from 12 to 14 per turn, improving her ability to activate as many of her high-cost cards as possible.",
-        "vi": "Time Paradox tiêu hao 6 Chronical sẽ cho 8 Thăng hoa thời gian thay vì 6, thêm 2 điểm hành động tương đương. Nâng lượng điểm hành động miễn phí tối đa từ 12 lên 14 mỗi lượt, rất tốt cho bài chi phí cao."
+        "vi": "Time Paradox tiêu hao 6 Chronical sẽ cho 8 Chronal Ascension thay vì 6, thêm 2 AP tương đương. Nâng lượng AP miễn phí tối đa từ 12 lên 14 mỗi lượt, rất tốt cho bài chi phí cao."
       }
     },
     {
@@ -821,7 +821,7 @@
       "score": "—",
       "note": {
         "en": "Rita’s next Ego node creates a “Fate Distortion” card whenever Rita gains Chronal Ascension. Fate Distortion is a 0-Cost Skill card that has the tags [Ephemeral / Exhaust], increasing the damage dealt of the next Attack Card used by Rita by 30%, and by another 10% per AP cost of that card on top. A really solid second Ego that provides Rita some strong multiplicative damage buffs to further amp her damage output, which is more valuable than it might seem due to the relative scarcity of strong multiplicative damage boosts in the game.",
-        "vi": "Nhận Thăng hoa thời gian sẽ tạo Fate Distortion, kỹ năng 0 chi phí có Phù du/Kiệt sức. Lá này tăng sát thương bài tấn công kế tiếp của Rita 30%, thêm 10% mỗi điểm chi phí của bài đó; một nguồn tăng theo hệ số nhân mạnh và hiếm."
+        "vi": "Nhận Chronal Ascension sẽ tạo Fate Distortion, kỹ năng 0 chi phí có Ephemeral/Exhaust. Lá này tăng sát thương Attack Card kế tiếp của Rita 30%, thêm 10% mỗi điểm chi phí của bài đó; một nguồn tăng theo hệ số nhân mạnh và hiếm."
       }
     },
     {
@@ -829,7 +829,7 @@
       "score": "—",
       "note": {
         "en": "Rita’s third Ego node boosts the damage amplification her Ego skill provides, increasing the damage buff per AP spent during the battle to 20% and the maximum to 300%. Not a substantial boost to Rita’s performance.",
-        "vi": "Kỹ năng Ego tăng mức thưởng theo điểm hành động đã dùng trong trận lên 20%, tối đa 300%. Tác động tổng thể không quá lớn."
+        "vi": "Ego Skill tăng mức thưởng theo AP đã dùng trong trận lên 20%, tối đa 300%. Tác động tổng thể không quá lớn."
       }
     },
     {
@@ -845,7 +845,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade], and [Common Card Upgrade] potentials by 3. Extremely standard, provides some decent damage increases to Rita’s damage output thanks to her high base ratios.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Cải thiện khá tốt nhờ hệ số cơ bản cao của Rita."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Cải thiện khá tốt nhờ hệ số cơ bản cao của Rita."
       }
     },
     {
@@ -853,7 +853,7 @@
       "score": "—",
       "note": {
         "en": "Rita's final Ego to be unlocked grants Rita two different abilities. The first may only occur once per battle - When Chronal Ascension is gained, Rita gains 6 additional stacks of Chronal Ascension, elevating her free AP for that turn from 14 to 20, but only once. The second effect of this Ego point is that when Chronal Ascension is removed, Rita now inflicts 80% fixed damage for each Chronal Ascension used. The first effect of this Ego point is strongest either in short fights or for setting Rita up in battle, which is useful if you’re using any expensive upgrades. The second effect is a nice add-on, but not a game changer, as the fact its fixed damage limits its maximum potential significantly.",
-        "vi": "Một lần mỗi trận, khi nhận Thăng hoa thời gian được thêm 6 cộng dồn, nâng lượng điểm hành động tương đương ở lượt đó từ 14 lên 20. Khi Thăng hoa thời gian bị tiêu hao, gây 80% sát thương cố định cho mỗi cộng dồn; hiệu ứng đầu mạnh ở trận ngắn hoặc để triển khai bài cường hóa đắt, còn sát thương cố định là phần cộng thêm vừa phải."
+        "vi": "Một lần mỗi trận, khi nhận Chronal Ascension được thêm 6 cộng dồn, nâng lượng AP tương đương ở lượt đó từ 14 lên 20. Khi Chronal Ascension bị tiêu hao, gây 80% Fixed Damage cho mỗi cộng dồn; hiệu ứng đầu mạnh ở trận ngắn hoặc để triển khai bài cường hóa đắt, còn Fixed Damage là phần cộng thêm vừa phải."
       }
     }
   ],
@@ -865,7 +865,7 @@
       },
       "role": {
         "en": "High-AP Fate Imprint damage carry",
-        "vi": "Chủ lực Fate Imprint cần nhiều Điểm hành động"
+        "vi": "Chủ lực Fate Imprint cần nhiều AP"
       },
       "partner": "Ivy",
       "cards": [
@@ -903,7 +903,7 @@
       ],
       "note": {
         "en": "Two Chrono Circle I copies create six Fate Fate Imprint per turn. Adjust the number and Epiphanies of Time Axis Collapse to the team's needs. This is a common Rita damage setup, but its severe AP demand makes resource-generating teammates essential to completing the rotation.",
-        "vi": "Hai Chrono Circle I tạo sáu Fate Imprint mỗi lượt. Điều chỉnh số lượng và Thức tỉnh bài của Time Axis Collapse theo nhu cầu đội. Đây là hướng sát thương phổ biến của Rita, nhưng tiêu hao Điểm hành động rất lớn nên phải chọn đồng đội tạo đủ tài nguyên mới hoàn tất được vòng đánh."
+        "vi": "Hai Chrono Circle I tạo sáu Fate Imprint mỗi lượt. Điều chỉnh số lượng và Epiphanies của Time Axis Collapse theo nhu cầu đội. Đây là hướng sát thương phổ biến của Rita, nhưng tiêu hao AP rất lớn nên phải chọn đồng đội tạo đủ tài nguyên mới hoàn tất được vòng đánh."
       }
     },
     {
@@ -913,7 +913,7 @@
       },
       "role": {
         "en": "Self-buffed attack carry",
-        "vi": "Chủ lực tấn công tự tăng sức mạnh"
+        "vi": "Chủ lực Attack tự tăng sức mạnh"
       },
       "partner": "Ivy",
       "cards": [
@@ -926,7 +926,7 @@
           "count": 4,
           "effects": {
             "en": "2 Vulnerable to the target",
-            "vi": "Gây 2 Dễ tổn thương lên mục tiêu"
+            "vi": "Gây 2 Vulnerable lên mục tiêu"
           }
         },
         {
@@ -958,8 +958,8 @@
         0
       ],
       "note": {
-        "en": "Build around Time Axis Collapse I, the highest-ceiling version with its own damage buff. The source compares its maximum self-buff impact to roughly 1000% additive damage, similar in scale to strong Haru Anchor Shot setups. This is a comparison of effect, not an extra printed card modifier.",
-        "vi": "Tập trung vào Time Axis Collapse I, phiên bản có trần sát thương cao và tự tăng sát thương. Nguồn so sánh tác động tối đa của hiệu ứng tăng sức mạnh này với mức khoảng 1000% tăng sát thương cộng dồn, tương tự các bản Anchor Shot mạnh của Haru. Đây là cách so sánh hiệu quả, không phải một dòng cộng thêm 1000% riêng trên lá bài."
+        "en": "Build around Time Axis Collapse I, the highest-ceiling version with its own damage buff. Its maximum self-buff impact is comparable to roughly 1000% additive damage, similar in scale to strong Haru Anchor Shot setups. This is a comparison of effect, not an extra printed card modifier.",
+        "vi": "Tập trung vào Time Axis Collapse I, phiên bản có trần sát thương cao và tự tăng sát thương. Tác động tối đa của hiệu ứng tăng sức mạnh này tương đương mức khoảng 1000% tăng sát thương cộng dồn, tương tự các bản Anchor Shot mạnh của Haru. Đây là cách so sánh hiệu quả, không phải một dòng cộng thêm 1000% riêng trên lá bài."
       }
     },
     {
@@ -969,7 +969,7 @@
       },
       "role": {
         "en": "Free Hew activation and Vulnerable support",
-        "vi": "Kích hoạt Hew miễn phí và gây Dễ tổn thương"
+        "vi": "Kích hoạt Hew miễn phí và gây Vulnerable"
       },
       "partner": "",
       "cards": [
@@ -1007,7 +1007,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Future Decreed II plays a 3-cost Hew for zero AP and can draw one with a Divine, allowing Nine to remove Fighting Spirit and reinvest elsewhere. Time Axis Collapse IV also supplies Vulnerable, which Nine cannot reliably provide herself. The combination reduces both AP and draw pressure on Hew (Extreme) teams.",
-        "vi": "Future Decreed II kích hoạt Hew giá 3 Điểm hành động mà không tốn Điểm hành động, đồng thời có thể rút một lá bằng Thức tỉnh thần thánh. Nine nhờ đó bỏ Fighting Spirit và phân bổ tài nguyên sang chỗ khác. Time Axis Collapse IV còn cung cấp Dễ tổn thương mà Nine khó tự duy trì. Bộ bài giảm cả áp lực Điểm hành động lẫn rút bài cho đội Hew (Extreme)."
+        "vi": "Future Decreed II kích hoạt Hew giá 3 AP mà không tốn AP, đồng thời có thể rút một lá bằng Divine Epiphany. Nine nhờ đó bỏ Fighting Spirit và phân bổ tài nguyên sang chỗ khác. Time Axis Collapse IV còn cung cấp Vulnerable mà Nine khó tự duy trì. Deck giảm cả áp lực AP lẫn Draw cho đội Hew (Extreme)."
       }
     },
     {
@@ -1050,8 +1050,8 @@
       "fragments": [],
       "fragmentPieces": [],
       "note": {
-        "en": "Flame of Eternity raises attack cost to strengthen Fate Fate Imprint. Balance its copies and Chrono Circle against available AP; Great Rift builds often keep one Chrono Circle and retain Fate Imprint during setup. A 27-AP Fate Imprint burst can need about 19 allied AP at E0 after allowing four AP for other costs. Mika and Tiphera can help. Flame of Eternity is a very rare once-per-run event that may occur after the last copy opportunity; the source's E1 budget figures are inconsistent, so recalculate from your actual costs.",
-        "vi": "Flame of Eternity tăng chi phí tấn công để làm Fate Imprint mạnh hơn. Cân số bản Flame of Eternity và Chrono Circle theo lượng Điểm hành động thực tế; bản Great Rift thường giữ một Chrono Circle và giữ Fate Imprint trong các lượt chuẩn bị. Chuỗi Fate Imprint tổng 27 Điểm hành động có thể cần khoảng 19 Điểm hành động từ đồng đội ở E0 sau khi dành 4 Điểm hành động cho chi phí khác; Mika và Tiphera là lựa chọn hỗ trợ. Sự kiện Flame of Eternity rất hiếm, chỉ gặp một lần mỗi chuyến thám hiểm và có thể xuất hiện sau cơ hội nhân bản cuối. Các số dự toán E1 trong nguồn không nhất quán, nên cần tính lại theo chi phí thực tế."
+        "en": "Flame of Eternity raises attack cost to strengthen Fate Fate Imprint. Balance its copies and Chrono Circle against available AP; Great Rift builds often keep one Chrono Circle and retain Fate Imprint during setup. A 27-AP Fate Imprint burst can need about 19 allied AP at E0 after allowing four AP for other costs. Mika and Tiphera can help. Flame of Eternity is a very rare once-per-run event that may occur after the last copy opportunity; recalculate the E1 AP budget from your actual costs.",
+        "vi": "Flame of Eternity tăng chi phí Attack để làm Fate Imprint mạnh hơn. Cân số bản Flame of Eternity và Chrono Circle theo lượng AP thực tế; bản Great Rift thường giữ một Chrono Circle và giữ Fate Imprint trong các lượt chuẩn bị. Chuỗi Fate Imprint tổng 27 AP có thể cần khoảng 19 AP từ đồng đội ở E0 sau khi dành 4 AP cho chi phí khác; Mika và Tiphera là lựa chọn hỗ trợ. Sự kiện Flame of Eternity rất hiếm, chỉ gặp một lần mỗi chuyến thám hiểm và có thể xuất hiện sau cơ hội nhân bản cuối. Các số dự toán E1 không nhất quán, nên cần tính lại theo chi phí thực tế."
       }
     }
   ],
@@ -1060,42 +1060,42 @@
       "name": "Nine",
       "note": {
         "en": "Fate Decreed can replace Fighting Spirit for Hew activation; Time Axis IV supplies Vulnerable for key hits.",
-        "vi": "Fate Decreed có thể thay Fighting Spirit để kích hoạt Hew; Time Axis IV cung cấp Dễ tổn thương cho đòn quan trọng."
+        "vi": "Fate Decreed có thể thay Fighting Spirit để kích hoạt Hew; Time Axis IV cung cấp Vulnerable cho đòn quan trọng."
       }
     },
     {
       "name": "Tiphera",
       "note": {
         "en": "High AP output and attack multipliers support demanding carry builds; supplementary draw remains subject to randomness.",
-        "vi": "Tạo nhiều Điểm hành động và hiệu ứng tăng cường nhân sát thương hỗ trợ bộ chủ lực tốn tài nguyên; lượng rút bài bổ sung vẫn phụ thuộc ngẫu nhiên."
+        "vi": "Tạo nhiều AP và hiệu ứng tăng cường nhân sát thương hỗ trợ bộ chủ lực tốn tài nguyên; lượng Draw bổ sung vẫn phụ thuộc ngẫu nhiên."
       }
     },
     {
       "name": "Mika",
       "note": {
         "en": "Reliable, accessible AP generation and substantial healing help Rita run her chosen rotation consistently.",
-        "vi": "Tạo Điểm hành động ổn định, dễ tiếp cận cùng hồi máu lớn giúp Rita vận hành chuỗi hành động đều đặn."
+        "vi": "Tạo AP ổn định, dễ tiếp cận cùng hồi máu lớn giúp Rita vận hành chuỗi hành động đều đặn."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Basic Attack buffs suit Rita's high ratios; repeating the same buff extends duration rather than increasing its strength.",
-        "vi": "Hiệu ứng tăng cường Tấn công cơ bản hợp hệ số cao của Rita; lặp cùng hiệu ứng tăng cường kéo dài thời gian thay vì tăng độ mạnh."
+        "vi": "Hiệu ứng tăng cường Attack cơ bản hợp hệ số cao của Rita; lặp cùng hiệu ứng tăng cường kéo dài thời gian thay vì tăng độ mạnh."
       }
     },
     {
       "name": "Haru",
       "note": {
         "en": "Targeted 2-cost draw and automatic plays ease Anchor Shot IV's setup; Time Axis IV adds situational Vulnerable support.",
-        "vi": "Rút đích danh bài chi phí 2 và tự dùng bài giảm gánh thiết lập Anchor Shot IV; Time Axis IV bổ sung Dễ tổn thương khi cần."
+        "vi": "Rút đích danh bài chi phí 2 và tự dùng bài giảm gánh thiết lập Anchor Shot IV; Time Axis IV bổ sung Vulnerable khi cần."
       }
     },
     {
       "name": "Orlea",
       "note": {
         "en": "Softie amplifies Rita's large attack ratios, while additional Vulnerable helps carry builds with fewer Time Axis copies.",
-        "vi": "Softie khuếch đại hệ số tấn công cao của Rita; thêm Dễ tổn thương giúp bộ chủ lực có ít bản Time Axis hơn."
+        "vi": "Softie khuếch đại hệ số Attack cao của Rita; thêm Vulnerable giúp bộ chủ lực có ít bản Time Axis hơn."
       }
     }
   ],
@@ -1112,8 +1112,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1129,8 +1129,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

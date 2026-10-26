@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Exhausting Futility scales Black Hole; Oath of Vanity turns otherwise awkward generated cards into useful attacks.",
-    "vi": "Đưa Futility vào trạng thái Kiệt sức để tăng sức mạnh Black Hole; Oath of Vanity biến bài được tạo khó dùng thành đòn đánh hữu ích."
+    "vi": "Đưa Futility vào trạng thái Exhaust để tăng sức mạnh Black Hole; Oath of Vanity biến bài được tạo khó dùng thành đòn đánh hữu ích."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1064.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -411,7 +411,7 @@
   "review": {
     "intro": {
       "en": "Exhausting Futility scales Black Hole; Oath of Vanity turns otherwise awkward generated cards into useful attacks.",
-      "vi": "Đưa Futility vào trạng thái Kiệt sức để tăng sức mạnh Black Hole; Oath of Vanity biến bài được tạo khó dùng thành đòn đánh hữu ích."
+      "vi": "Đưa Futility vào trạng thái Exhaust để tăng sức mạnh Black Hole; Oath of Vanity biến bài được tạo khó dùng thành đòn đánh hữu ích."
     },
     "profile": [],
     "pros": [
@@ -423,7 +423,7 @@
     "cons": [
       {
         "en": "Very AP-hungry and setup-dependent; unused Futility can clog the hand and deck.",
-        "vi": "Rất cần Điểm hành động và khâu thiết lập; Futility chưa dùng có thể làm nghẽn tay bài và bộ bài."
+        "vi": "Rất cần AP và khâu thiết lập; Futility chưa dùng có thể làm nghẽn tay bài và bộ bài."
       }
     ],
     "mechanics": [
@@ -431,7 +431,7 @@
         "title": "Brand of Annihilation",
         "body": {
           "en": "400% Damage to all enemies; When a card is Exhausted, decrease Cost of this card by 1 for 1 turn until activated",
-          "vi": "Gây 400% sát thương lên toàn bộ kẻ địch; Khi một lá bị Kiệt sức, giảm 1 chi phí của lá này trong 1 lượt, cho đến khi được kích hoạt"
+          "vi": "Gây 400% sát thương lên toàn bộ kẻ địch; Khi một lá bị Exhausted, giảm 1 chi phí của lá này trong 1 lượt, cho đến khi được kích hoạt"
         },
         "cardId": "c_1064_uni1"
       },
@@ -439,7 +439,7 @@
         "title": "Black Hole",
         "body": {
           "en": "240% Damage; +40% base Damage Amount for each Futility Exhausted",
-          "vi": "Gây 240% sát thương; +40% sát thương cơ bản cho mỗi Futility bị Kiệt sức"
+          "vi": "Gây 240% sát thương; +40% sát thương cơ bản cho mỗi Futility bị Exhausted"
         },
         "cardId": "c_1064_uni2"
       },
@@ -447,7 +447,7 @@
         "title": "Oath of Vanity",
         "body": {
           "en": "When Futility is created, change those cards into 1-Cost Attack Cards with 100% Damage and Heal effects",
-          "vi": "Khi Futility được tạo, đổi các lá đó thành Bài tấn công có chi phí 1, gây 100% sát thương và có hiệu ứng Hồi máu"
+          "vi": "Khi Futility được tạo, đổi các lá đó thành Attack Card có chi phí 1, gây 100% sát thương và có hiệu ứng Healing"
         },
         "cardId": "c_1064_uni3"
       }
@@ -470,7 +470,7 @@
       },
       "divine": {
         "en": "Consider cost reduction or 2 Vulnerable; V can take 1 AP.",
-        "vi": "Cân nhắc giảm chi phí hoặc 2 Dễ tổn thương; V có thể lấy 1 Điểm hành động."
+        "vi": "Cân nhắc giảm chi phí hoặc 2 Vulnerable; V có thể lấy 1 AP."
       }
     },
     {
@@ -485,11 +485,11 @@
       "preferred": "I",
       "note": {
         "en": "I is the easier choice before Ego 1. III permanently lowers its high cost through exhausted Futility and improves with Ego 1.",
-        "vi": "I dễ dùng hơn trước Ego 1. III giảm lâu dài chi phí cao nhờ Futility bị Kiệt sức và mạnh hơn khi có Ego 1."
+        "vi": "I dễ dùng hơn trước Ego 1. III giảm lâu dài chi phí cao nhờ Futility bị Exhausted và mạnh hơn khi có Ego 1."
       },
       "divine": {
         "en": "Target Weakness Attack, 2 Vulnerable or a damage increase.",
-        "vi": "Nhắm đến Tấn công điểm yếu, 2 Dễ tổn thương hoặc tăng sát thương."
+        "vi": "Nhắm đến Weakness Attack, 2 Vulnerable hoặc tăng sát thương."
       }
     },
     {
@@ -504,11 +504,11 @@
       "preferred": "II",
       "note": {
         "en": "II preserves and strengthens scaling from exhausted Futility. V is mainly a way to clear the card in builds that cannot afford it.",
-        "vi": "II giữ và tăng khả năng tích sát thương từ Futility bị Kiệt sức. V chủ yếu giúp loại lá này khỏi vòng bài khi không đủ tài nguyên sử dụng."
+        "vi": "II giữ và tăng khả năng tích sát thương từ Futility bị Exhausted. V chủ yếu giúp loại lá này khỏi vòng bài khi không đủ tài nguyên sử dụng."
       },
       "divine": {
         "en": "Weakness Attack, 2 Vulnerable or a damage increase support the damage route.",
-        "vi": "Tấn công điểm yếu, 2 Dễ tổn thương hoặc tăng sát thương hỗ trợ hướng gây sát thương."
+        "vi": "Weakness Attack, 2 Vulnerable hoặc tăng sát thương hỗ trợ hướng gây sát thương."
       }
     },
     {
@@ -523,11 +523,11 @@
       "preferred": "IV",
       "note": {
         "en": "IV cheaply exhausts many unwanted cards and draws replacements. I supports reliable attack-Futility setup; II prioritizes healing.",
-        "vi": "IV giúp Kiệt sức nhiều lá không cần và rút bù với chi phí thấp. I thiết lập ổn định hướng tấn công bằng Futility; II ưu tiên hồi máu."
+        "vi": "IV giúp Exhausts nhiều lá không cần và rút bù với chi phí thấp. I thiết lập ổn định hướng Attack bằng Futility; II ưu tiên hồi máu."
       },
       "divine": {
         "en": "Choose the right variant first; divines add relatively little.",
-        "vi": "Chọn đúng biến thể trước; thần thánh bổ sung khá ít giá trị."
+        "vi": "Chọn đúng biến thể trước; Divine bổ sung khá ít giá trị."
       }
     }
   ],
@@ -553,15 +553,15 @@
       "score": "117.10%",
       "note": {
         "en": "Eloise is an accessible option for Exhaust builds, with a significant drop at lower Ego levels.",
-        "vi": "Eloise dễ tiếp cận cho hướng Kiệt sức, nhưng sức mạnh giảm đáng kể ở Ego thấp."
+        "vi": "Eloise dễ tiếp cận cho hướng Exhaust, nhưng sức mạnh giảm đáng kể ở Ego thấp."
       }
     },
     {
       "name": "Anteia E4",
       "score": "115.57%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -579,7 +579,7 @@
       "score": "—",
       "note": {
         "en": "Offering of the Void excels when teammates do not already provide large multiplicative card-damage bonuses.",
-        "vi": "Offering of the Hư vô mạnh khi đồng đội chưa cung cấp nhiều tăng sát thương lá bài theo phép nhân."
+        "vi": "Offering of the Void mạnh khi đồng đội chưa cung cấp nhiều tăng sát thương lá bài theo phép nhân."
       }
     },
     {
@@ -595,7 +595,7 @@
       "score": "—",
       "note": {
         "en": "A critical-focused specialist choice that requires another character or mechanic to discard Kayron's cards.",
-        "vi": "Lựa chọn chuyên Chí mạng cần nhân vật hoặc cơ chế khác Bỏ bài của Kayron."
+        "vi": "Lựa chọn chuyên Chí mạng cần nhân vật hoặc cơ chế khác Discard của Kayron."
       }
     },
     {
@@ -603,7 +603,7 @@
       "score": "—",
       "note": {
         "en": "Strongest in restrictive decks centered on undiscounted 2-plus-cost damage with enough external card-damage buffs.",
-        "vi": "Mạnh trong bộ bài có điều kiện chặt: sát thương chính từ lá Chi phí ít nhất 2 không giảm và đủ tăng sát thương lá bài từ ngoài."
+        "vi": "Mạnh trong bộ bài có điều kiện chặt: sát thương chính từ lá Cost ít nhất 2 không giảm và đủ tăng sát thương lá bài từ ngoài."
       }
     }
   ],
@@ -611,11 +611,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -625,37 +625,37 @@
       },
       "value": {
         "en": "Void DMG% > ATK%",
-        "vi": "Sát thương Hư vô% > Tấn công%"
+        "vi": "Void DMG% > ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "To activate Kayron's Potential 7, which grants Crit DMG, you need at least 601 ATK, which you definitely want to aim for at a minimum. After that, getting more ATK in breakpoints of 50 is recommended and beneficial, but not at the cost of sacrificing Kayron's optimal Main stats or too many of his best sub stats.",
-    "vi": "Nhắm tối thiểu 601 tấn công để kích hoạt tiềm năng 7 tăng sát thương chí mạng, rồi tăng thêm mà không hy sinh chỉ số chính hoặc quá nhiều chỉ số phụ tốt. Phần chỉ số của nguồn nói bước 50, nhưng phần tiềm năng mô tả tăng theo mỗi 40 tấn công."
+    "vi": "Nhắm tối thiểu 601 ATK để kích hoạt Potential 7 tăng CRIT DMG, rồi tăng thêm mà không hy sinh chỉ số chính hoặc quá nhiều chỉ số phụ tốt. Phần chỉ số nói bước 50, nhưng phần Potential mô tả tăng theo mỗi 40 ATK."
   },
   "potentialIntro": {
     "en": "Kayron’s Signature Potentials offer huge damage boosts as well as key additional functionality, making them a high priority to unlock.3-1: Increases the multiplier of Kayron’s Basic Cards by a whopping +50% and causes them to generate a Futilitywhen played. Absolutely key to helping get Kayron off the ground faster.5-1: Further increases the damage of Kayron’s Basic Attack by 5%, or 10% if his Attack stat is 500 or more.7: If Kayron’s ATK is 600 or higher, he gains +5% Crit DMG and for every 40 over 600, he gains a further 1% up to a cap of 10% for 15% total.",
-    "vi": "Các tiềm năng có ưu tiên cao: 3-1 tăng hệ số bài cơ bản 50% và giúp chúng tạo Futility, còn 5-1 tăng 5% sát thương bài tấn công cơ bản, thành 10% khi tấn công ≥500. Tiềm năng 7 cho 5% sát thương chí mạng khi tấn công ≥600, thêm 1% mỗi 40 tấn công vượt 600, tối đa thêm 10%, tổng 15%."
+    "vi": "Các Potential có ưu tiên cao: 3-1 tăng hệ số Basic Cards 50% và giúp chúng tạo Futility, còn 5-1 tăng 5% sát thương Attack Card cơ bản, thành 10% khi ATK ≥500. Potential 7 cho 5% CRIT DMG khi ATK ≥600, thêm 1% mỗi 40 ATK vượt 600, tối đa thêm 10%, tổng 15%."
   },
   "potentialAdvice": [
     {
@@ -669,21 +669,21 @@
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Kayron's Elimination; If Kayron's Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "+5% sát thương cho Elimination của Kayron; Nếu Tấn công của Kayron từ 500 trở lên, cộng thêm +5% vào hệ số"
+        "vi": "+5% sát thương cho Elimination của Kayron; Nếu Attack của Kayron từ 500 trở lên, cộng thêm +5% vào hệ số"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Kayron’s Attack is 600 or higher, +5% Critical Damage; For every 40 Attack exceeding 600, add an additional +1% to the modifier; (additional +10% max)",
-        "vi": "Nếu Tấn công của Kayron từ 600 trở lên, +5% Sát thương chí mạng; Với mỗi 40 Tấn công vượt quá 600, tăng thêm 1% vào hệ số.; (Tối đa thêm 10%)"
+        "vi": "Nếu Attack của Kayron từ 600 trở lên, +5% Critical Damage; Với mỗi 40 Attack vượt quá 600, tăng thêm 1% vào hệ số.; (Tối đa thêm 10%)"
       }
     }
   ],
@@ -691,7 +691,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -713,7 +713,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -735,7 +735,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -756,7 +756,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -774,7 +774,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -796,41 +796,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3",
-        "vi": "Mùa 3"
+        "vi": "Season 3"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Không có Engraving bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung Engraving trang bị. Engraving trang bị thường dùng: khi mộ có ít nhất 15 lá, Attack Card của nhân vật tăng 15% Critical Damage. Hiệu ứng không cộng dồn, nên các Engraving tăng sát thương khác cũng dùng được."
       }
     },
     {
       "name": {
         "en": "Season 2 — Recommended",
-        "vi": "Mùa 2 — Đề xuất"
+        "vi": "Season 2 — Đề xuất"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Attack Card đánh mục tiêu Vulnerable được thêm 15% Critical Chance. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +Damage",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương."
       }
     }
   ],
@@ -856,7 +856,7 @@
       "score": "—",
       "note": {
         "en": "His second Ego point grants Kayron a passive effect that deals 100% Damage to all enemies whenever 2 Futility cards are Exhausted. This is a solid second Ego to unlock to assist with some extra AoE damage. With a solid Kayron deck and supporting cast, you could potentially trigger this 3-4 each turn, which adds up over the course of a fight.",
-        "vi": "Mỗi khi 2 Futility bị kiệt sức, gây 100% sát thương lên tất cả địch. Với bộ bài và hỗ trợ tốt có thể kích hoạt 3–4 lần mỗi lượt, tăng sát thương diện rộng đáng kể."
+        "vi": "Mỗi khi 2 Futility bị Exhausted, gây 100% sát thương lên tất cả địch. Với bộ bài và hỗ trợ tốt có thể kích hoạt 3–4 lần mỗi lượt, tăng sát thương diện rộng đáng kể."
       }
     },
     {
@@ -864,7 +864,7 @@
       "score": "—",
       "note": {
         "en": "The third Ego point provides extra utility to his Ego Skill, allowing it to exhaust Futility that are in the Graveyard/Discard Pile when used, instead of only his hand. This is a really solid buff to his overall gameplay loop that helps with unclogging your deck whilst also boosting its potential damage output.",
-        "vi": "Kỹ năng Ego có thể làm kiệt sức Futility trong mộ/chồng bỏ thay vì chỉ trên tay. Giúp làm sạch vòng bài và tăng sát thương."
+        "vi": "Ego Skill có thể làm Exhaust Futility trong mộ/chồng bỏ thay vì chỉ trên tay. Giúp làm sạch vòng bài và tăng sát thương."
       }
     },
     {
@@ -872,7 +872,7 @@
       "score": "—",
       "note": {
         "en": "His E4 provides Kayron a buff whenever he activates one of his Futility cards, granting him 1 stack of “Paradox of Nothingness”. This buff lasts for 1 turn, stacking up to 3 times and increases the damage of Kayron's Attack Cards by 10% per stack. This is a great self-generated multiplicative buff that Kayron really wants due to his already higher-than-average base damage across his cards.",
-        "vi": "Kích hoạt Futility nhận Paradox of Nothingness trong 1 lượt, tối đa 3; mỗi cộng dồn tăng 10% sát thương bài tấn công theo hệ số nhân. Phù hợp với các lá có hệ số cơ bản cao của Kayron."
+        "vi": "Kích hoạt Futility nhận Paradox of Nothingness trong 1 lượt, tối đa 3; mỗi cộng dồn tăng 10% sát thương Attack Card theo hệ số nhân. Phù hợp với các lá có hệ số cơ bản cao của Kayron."
       }
     },
     {
@@ -880,7 +880,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. Nothing unique here, a decent increase to Kayron's potential damage whilst also providing some extra healing to his Futility cards if going for an “Oath of Vanity” variant that provides his Futility cards healing properties.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài; tăng sát thương và có thể tăng hồi máu của Futility nếu chọn biến thể Oath of Vanity cho khả năng hồi phục."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài; tăng sát thương và có thể tăng hồi máu của Futility nếu chọn biến thể Oath of Vanity cho khả năng hồi phục."
       }
     },
     {
@@ -888,7 +888,7 @@
       "score": "—",
       "note": {
         "en": "Kayron’s final Ego node is one of his best. Whenever he creates a Futility card, there’s a 50% chance of applying 1 stack of either “Vulnerable”, “Weaken” or “Injured” to a random enemy. With the amount of Futility Kayron can generate, he can consistently maintain each of these debuffs.",
-        "vi": "Mỗi lần tạo Futility có 50% cơ hội áp 1 Dễ tổn thương, Suy yếu hoặc Thương tích lên địch ngẫu nhiên. Với số Futility tạo ra, Kayron duy trì các hiệu ứng bất lợi khá ổn định."
+        "vi": "Mỗi lần tạo Futility có 50% cơ hội áp 1 Vulnerable, Ravage hoặc Thương tích lên địch ngẫu nhiên. Với số Futility tạo ra, Kayron duy trì các hiệu ứng bất lợi khá ổn định."
       }
     }
   ],
@@ -900,7 +900,7 @@
       },
       "role": {
         "en": "Scaling zero-cost carry",
-        "vi": "Chủ lực 0 Điểm hành động tích sát thương"
+        "vi": "Chủ lực 0 AP tích sát thương"
       },
       "partner": "Bria",
       "cards": [
@@ -913,7 +913,7 @@
           "count": 2,
           "effects": {
             "en": "1 AP",
-            "vi": "Nhận 1 Điểm hành động"
+            "vi": "Nhận 1 AP"
           }
         },
         {
@@ -921,7 +921,7 @@
           "count": 2,
           "effects": {
             "en": "Always Attack Weakness",
-            "vi": "Luôn tấn công điểm yếu"
+            "vi": "Luôn Weakness Attack"
           }
         },
         {
@@ -950,7 +950,7 @@
       ],
       "note": {
         "en": "Repeated Echo of Futility use increases its base damage ratio rather than merely adding a damage buff, while also scaling Black Hole. Exhaust the Futility it creates consistently to prevent deck congestion. The payoff is a growing zero-cost attack plus a stronger single-hit finisher.",
-        "vi": "Dùng Echo of Futility nhiều lần để tăng hệ số sát thương gốc thay vì chỉ cộng thêm hiệu ứng tăng sức mạnh, đồng thời tăng sức mạnh Black Hole. Cần liên tục gây Kiệt sức cho Futility được tạo ra để tránh nghẽn bộ bài. Thành quả là đòn 0 Điểm hành động ngày càng mạnh cùng một đòn kết liễu đơn nhịp mạnh hơn."
+        "vi": "Dùng Echo of Futility nhiều lần để tăng hệ số sát thương gốc thay vì chỉ cộng thêm hiệu ứng tăng sức mạnh, đồng thời tăng sức mạnh Black Hole. Cần liên tục gây Exhaust cho Futility được tạo ra để tránh nghẽn bộ bài. Thành quả là đòn 0 AP ngày càng mạnh cùng một đòn kết liễu đơn nhịp mạnh hơn."
       }
     },
     {
@@ -960,7 +960,7 @@
       },
       "role": {
         "en": "Exhaust-scaling burst carry",
-        "vi": "Dồn sát thương theo số lần Kiệt sức"
+        "vi": "Dồn sát thương theo số lần Exhaust"
       },
       "partner": "Bria",
       "cards": [
@@ -973,7 +973,7 @@
           "count": 4,
           "effects": {
             "en": "Always Attack Weakness",
-            "vi": "Luôn tấn công điểm yếu"
+            "vi": "Luôn Weakness Attack"
           }
         },
         {
@@ -1002,7 +1002,7 @@
       ],
       "note": {
         "en": "Brand of Annihilation IV gains base-ratio scaling for one turn whenever any ally exhausts a card. Stack as many Exhaust triggers and multiplicative buffs, such as Orlea's, as possible in the same turn before attacking. This specializes in a one-turn kill and is much weaker when the fight continues.",
-        "vi": "Brand of Annihilation IV tăng hệ số gốc trong một lượt mỗi khi bất kỳ đồng đội nào gây Kiệt sức cho một lá. Gom càng nhiều lần Kiệt sức và mức tăng sát thương theo phép nhân như của Orlea càng tốt trong cùng lượt trước khi ra đòn. Bộ bài chuyên kết liễu trong một lượt; hiệu quả giảm nhiều nếu phải kéo dài trận đấu."
+        "vi": "Brand of Annihilation IV tăng hệ số gốc trong một lượt mỗi khi bất kỳ đồng đội nào gây Exhaust cho một lá. Gom càng nhiều lần Exhaust và mức tăng sát thương theo phép nhân như của Orlea càng tốt trong cùng lượt trước khi ra đòn. Deck chuyên kết liễu trong một lượt; hiệu quả giảm nhiều nếu phải kéo dài trận đấu."
       }
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "role": {
         "en": "Overload-exhaust burst setup",
-        "vi": "Tạo Quá tải rồi gây Kiệt sức để dồn sát thương"
+        "vi": "Tạo Quá tải rồi gây Exhaust để dồn sát thương"
       },
       "partner": "Bria",
       "cards": [
@@ -1025,7 +1025,7 @@
           "count": 3,
           "effects": {
             "en": "Always Attack Weakness",
-            "vi": "Luôn tấn công điểm yếu"
+            "vi": "Luôn Weakness Attack"
           }
         },
         {
@@ -1062,7 +1062,7 @@
       ],
       "note": {
         "en": "Requires Narja and Kayron's five-star partner Bria. Use a Persona engraving that creates Overload in discard, discount it and other engravings with Narja, then retrieve it with Move Persona Card engravings to repeat creation. Bria's Ego exhausts the accumulated Overload, sharply scaling Brand of Annihilation IV for the burst turn.",
-        "vi": "Bắt buộc có Narja và Bria, Đối tác 5 sao đặc trưng của Kayron. Dùng khắc ấn Persona tạo Quá tải trong chồng bài bỏ, giảm chi phí khắc ấn đó và các khắc ấn liên quan bằng Narja, rồi dùng khắc ấn Chuyển lá Persona đưa nó lại lên tay để lặp quá trình. Kỹ năng Ego của Bria gây Kiệt sức cho các lá Quá tải tích được, tăng mạnh Brand of Annihilation IV cho lượt kết liễu."
+        "vi": "Bắt buộc có Narja và Bria, Partner 5 sao đặc trưng của Kayron. Dùng Engraving Persona tạo Quá tải trong chồng bài bỏ, giảm chi phí Engraving đó và các Engraving liên quan bằng Narja, rồi dùng Engraving Chuyển lá Persona đưa nó lại lên tay để lặp quá trình. Ego Skill của Bria gây Exhausts cho các lá Quá tải tích được, tăng mạnh Brand of Annihilation IV cho lượt kết liễu."
       }
     }
   ],
@@ -1071,42 +1071,42 @@
       "name": "Orlea",
       "note": {
         "en": "Vulnerable and multiplicative buffs amplify Kayron's heavy hits, but draw and AP need separate support without Divines.",
-        "vi": "Dễ tổn thương và tăng sát thương theo phép nhân khuếch đại đòn mạnh của Kayron, nhưng cần nguồn Rút và Điểm hành động khác nếu thiếu Thức tỉnh thần thánh."
+        "vi": "Vulnerable và tăng sát thương theo phép nhân khuếch đại đòn mạnh của Kayron, nhưng cần nguồn Rút và AP khác nếu thiếu Divine Epiphany."
       }
     },
     {
       "name": "Rei",
       "note": {
         "en": "Opening draw, Glory's Reign and Exhaust support suit short fights; her usual additive buffs matter little to Kayron.",
-        "vi": "Rút đầu trận, Glory's Reign và hỗ trợ Kiệt sức hợp trận ngắn; tăng sát thương cộng thêm thông thường của Rei ít giá trị với Kayron."
+        "vi": "Rút đầu trận, Glory's Reign và hỗ trợ Exhaust hợp trận ngắn; tăng sát thương cộng thêm thông thường của Rei ít giá trị với Kayron."
       }
     },
     {
       "name": "Mika",
       "note": {
         "en": "Mika generates AP up front, letting Kayron spend it flexibly instead of following a restrictive sequence.",
-        "vi": "Mika tạo Điểm hành động từ đầu, giúp Kayron chi tiêu linh hoạt thay vì phải theo thứ tự chặt chẽ."
+        "vi": "Mika tạo AP từ đầu, giúp Kayron chi tiêu linh hoạt thay vì phải theo thứ tự chặt chẽ."
       }
     },
     {
       "name": "Narja",
       "note": {
         "en": "Discounts enable low-cost equipment effects, but can be wasted on Brands that would become free anyway.",
-        "vi": "Giảm Chi phí mở hiệu ứng trang bị cho bài rẻ, nhưng có thể lãng phí vào Brand vốn sẽ miễn phí."
+        "vi": "Giảm Cost mở hiệu ứng trang bị cho bài rẻ, nhưng có thể lãng phí vào Brand vốn sẽ miễn phí."
       }
     },
     {
       "name": "Owen",
       "note": {
         "en": "Extra hits and Vulnerable strongly boost Kayron, but Owen demands substantial AP or draw as a support.",
-        "vi": "Thêm lần đánh và Dễ tổn thương tăng mạnh Kayron, nhưng Owen tốn nhiều Điểm hành động hoặc Rút bài ở vị trí hỗ trợ."
+        "vi": "Thêm lần đánh và Vulnerable tăng mạnh Kayron, nhưng Owen tốn nhiều AP hoặc Draw ở vị trí hỗ trợ."
       }
     },
     {
       "name": "Tiphera",
       "note": {
         "en": "High AP, targeted Futility Exhaust and strong single-hit buffs fit Kayron, though consistent rotations may need thin decks or careful manipulation.",
-        "vi": "Nhiều Điểm hành động, Kiệt sức Futility có chọn lọc và tăng mạnh một lần đánh hợp Kayron, nhưng vòng ổn định có thể cần bộ bài mỏng hoặc điều khiển cẩn thận."
+        "vi": "Nhiều AP, Exhaust Futility có chọn lọc và tăng mạnh một lần đánh hợp Kayron, nhưng vòng ổn định có thể cần bộ bài mỏng hoặc điều khiển cẩn thận."
       }
     }
   ],
@@ -1114,7 +1114,7 @@
     {
       "name": {
         "en": "Ex-Brand OTK - Persona Loop",
-        "vi": "Kayron dồn sát thương trong một lượt — vòng lặp bài Nhân cách"
+        "vi": "Kayron dồn sát thương trong một lượt — vòng lặp Persona Cards"
       },
       "members": [
         "Kayron",
@@ -1123,8 +1123,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

@@ -50,8 +50,6 @@ test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and sou
   const ego = page.getByRole("button", { name: "Flickering White Night card", exact: true });
   await expect(ego).toBeVisible();
   await expect(ego).toContainText(/EP\s+6/);
-  await expect(page.getByRole("link", { name: "Rossweisse mechanics (Vietnamese) →", exact: true })).toHaveAttribute("href", "/mechanics/rossweisse");
-  await expect(page.getByRole("link", { name: "Full patch note (Vietnamese) →", exact: true })).toHaveAttribute("href", "/patch-note/2026-10-21-update#rossweisse");
   await expect(page.getByTestId("manifest-level")).toHaveCount(6);
   await expect(page.getByTestId("manifest-level").first()).toContainText("Sleeping Memory");
   await expect(page.getByTestId("manifest-level").last()).toContainText("Liberated Memory");
@@ -63,7 +61,7 @@ test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and sou
     await expect(dialog.getByRole("button", { name: `Flicker Blade (${variant}) card`, exact: true })).toBeVisible();
   }
   await page.getByRole("button", { name: "Close dialog", exact: true }).click();
-  await page.getByRole("link", { name: "Full patch note (Vietnamese) →", exact: true }).click();
+  await page.goto("/patch-note/2026-10-21-update#rossweisse");
   await expect(page.getByRole("heading", { level: 1 })).toContainText("21/10");
   await expect(page.locator('article[lang="vi"]').filter({ visible: true }).locator("table")).toHaveCount(20);
   await expect(page.locator("#rossweisse")).toContainText("Rossweisse");
@@ -88,7 +86,7 @@ for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
     await first.click();
     await expect(page.getByRole("dialog")).toContainText(cardName);
     if (name === "Nia") {
-      await expect(page.getByRole("dialog")).toContainText("Nhận 2 Sĩ khí trong 1 lượt");
+      await expect(page.getByRole("dialog")).toContainText("Nhận 2 Morale trong 1 lượt");
       await expect(page.getByRole("dialog")).toContainText("Rút 1 lá");
     }
     await page.getByRole("button", { name: "Đóng hộp thoại" }).click();

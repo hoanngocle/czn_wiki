@@ -7,7 +7,7 @@
   ],
   "subtitle": {
     "en": "Skills build Commence the Hunt stacks, then targeted attacks spend them on follow-up damage.",
-    "vi": "Bài kỹ năng tích Bắt đầu cuộc săn, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt đòn đánh thêm."
+    "vi": "Bài kỹ năng tích Commence the Hunt, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt Extra Attack."
   },
   "portrait": "/assets/combatant/portrait_character_crop_half_1043.webp",
   "source": {
@@ -22,7 +22,7 @@
     ],
     "note": {
       "en": "Review, build options and all captured deck examples are summarized from the Prydwen page captured on 16 October 2026. Card effects use E7BOT consistently; older seasonal decks may require unavailable effects. Additional generated cards use the saved E7BOT card catalog.",
-      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ mùa cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
+      "vi": "Tóm tắt đánh giá, các phương án xây dựng và toàn bộ bộ bài đã lưu từ trang Prydwen lưu ngày 16/10/2026. Hiệu ứng lá bài thống nhất theo E7BOT; bộ bài từ Season cũ có thể cần hiệu ứng hiện không còn khả dụng. Bài được tạo bổ sung lấy từ danh mục lá bài E7BOT đã lưu."
     }
   },
   "images": {
@@ -336,13 +336,13 @@
   "review": {
     "intro": {
       "en": "Skills build Commence the Hunt stacks, then targeted attacks spend them on follow-up damage.",
-      "vi": "Bài kỹ năng tích Bắt đầu cuộc săn, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt đòn đánh thêm."
+      "vi": "Bài kỹ năng tích Commence the Hunt, rồi các đòn đánh chỉ định mục tiêu tiêu hao cộng dồn để kích hoạt Extra Attack."
     },
     "profile": [],
     "pros": [
       {
         "en": "Sustained single-target output and strong draw after Upgrade setup.",
-        "vi": "Sát thương đơn mục tiêu bền bỉ và rút bài tốt sau khi dùng các bài Cường hóa."
+        "vi": "Sát thương đơn mục tiêu bền bỉ và Draw tốt sau khi dùng các bài Upgrade."
       }
     ],
     "cons": [
@@ -356,7 +356,7 @@
         "title": "Fan of Daggers",
         "body": {
           "en": "60% × 3 Damage to random enemies; Commence the Hunt for each target hit",
-          "vi": "Gây 60% × 3 sát thương lên kẻ địch ngẫu nhiên; Bắt đầu cuộc săn với mỗi mục tiêu trúng đòn"
+          "vi": "Gây 60% × 3 sát thương lên kẻ địch ngẫu nhiên; Commence the Hunt với mỗi mục tiêu trúng đòn"
         },
         "cardId": "c_1043_uni1"
       },
@@ -364,7 +364,7 @@
         "title": "Quick Fix",
         "body": {
           "en": "80% Damage × 2; If in a Commence the Hunt state, Draw 1 Attack Card(s)",
-          "vi": "Gây 80% sát thương × 2; Nếu đang ở trạng thái Bắt đầu cuộc săn, Rút bài 1 bài Tấn công"
+          "vi": "Gây 80% sát thương × 2; Nếu đang ở trạng thái Commence the Hunt, Draw 1 bài Attack"
         },
         "cardId": "c_1043_uni2"
       },
@@ -372,7 +372,7 @@
         "title": "Dingo Howling",
         "body": {
           "en": "100% Shield; 2 Commence the Hunt",
-          "vi": "100% Lá chắn; 2 Bắt đầu cuộc săn"
+          "vi": "100% Shield; 2 Commence the Hunt"
         },
         "cardId": "c_1043_uni3"
       }
@@ -391,11 +391,11 @@
       "preferred": "III",
       "note": {
         "en": "III adds another Extra Attack to each hunt trigger; the additional hit does not receive the hunt's buff. II can supplement stack generation.",
-        "vi": "III thêm một Đòn đánh thêm mỗi lần kích hoạt cuộc săn; đòn bổ sung không nhận hiệu ứng tăng của cuộc săn. II có thể bổ sung khả năng tạo cộng dồn."
+        "vi": "III thêm một Extra Attack mỗi lần kích hoạt cuộc săn; đòn bổ sung không nhận hiệu ứng tăng của cuộc săn. II có thể bổ sung khả năng tạo cộng dồn."
       },
       "divine": {
         "en": "Prioritize cost reduction; neutral damage-over-time utility rarely beats III's extra attack.",
-        "vi": "Ưu tiên giảm chi phí; tiện ích sát thương theo thời gian trung lập hiếm khi hơn đòn bổ sung của III."
+        "vi": "Ưu tiên giảm chi phí; tiện ích sát thương theo thời gian Neutral hiếm khi hơn đòn bổ sung của III."
       }
     },
     {
@@ -410,11 +410,11 @@
       "preferred": "II",
       "note": {
         "en": "II targets an enemy, generates two hunt stacks and triggers the hunt itself. III is more specialized for another Extra Attack ally.",
-        "vi": "II chọn mục tiêu, tạo hai cộng dồn cuộc săn và tự kích hoạt cuộc săn. III chuyên phối hợp với đồng đội có Đòn đánh thêm."
+        "vi": "II chọn mục tiêu, tạo hai cộng dồn cuộc săn và tự kích hoạt cuộc săn. III chuyên phối hợp với đồng đội có Extra Attack."
       },
       "divine": {
         "en": "Neutral Draw 1 is efficient; specialized effects matter more than investing in divines.",
-        "vi": "Rút 1 trung lập hiệu quả; hiệu ứng chuyên dụng quan trọng hơn đầu tư thần thánh."
+        "vi": "Rút 1 Neutral hiệu quả; hiệu ứng chuyên dụng quan trọng hơn đầu tư Divine."
       }
     },
     {
@@ -429,11 +429,11 @@
       "preferred": "III",
       "note": {
         "en": "III supplies Draw 2 while attacking, letting Hugo fill a support role. V favors carry damage when draw is already sufficient.",
-        "vi": "III vừa tấn công vừa Rút 2, giúp Hugo hỗ trợ đội. V nghiêng về sát thương chủ lực khi đã đủ khả năng rút bài."
+        "vi": "III vừa tấn công vừa Rút 2, giúp Hugo hỗ trợ đội. V nghiêng về sát thương chủ lực khi đã đủ khả năng Draw."
       },
       "divine": {
         "en": "Neutral Draw 1 is competitive; cost reduction is the main divine target.",
-        "vi": "Rút 1 trung lập đáng cân nhắc; giảm chi phí là thần thánh ưu tiên."
+        "vi": "Rút 1 Neutral đáng cân nhắc; giảm chi phí là Divine ưu tiên."
       }
     },
     {
@@ -448,11 +448,11 @@
       "preferred": "III",
       "note": {
         "en": "III passively draws an Attack Card on the first hunt trigger each turn. V draws more immediately but requires repeated spending.",
-        "vi": "III thụ động rút Bài tấn công ở lần kích hoạt cuộc săn đầu mỗi lượt. V rút ngay nhiều hơn nhưng phải chi tài nguyên lặp lại."
+        "vi": "III thụ động rút Attack Card ở lần kích hoạt cuộc săn đầu mỗi lượt. V rút ngay nhiều hơn nhưng phải chi tài nguyên lặp lại."
       },
       "divine": {
         "en": "Use cost reduction or Draw 1; a draw neutral generally trails V.",
-        "vi": "Dùng giảm chi phí hoặc Rút 1; trung lập rút bài thường kém V."
+        "vi": "Dùng giảm chi phí hoặc Rút 1; Neutral Draw thường kém V."
       }
     }
   ],
@@ -470,47 +470,47 @@
       "score": "122.00%",
       "note": {
         "en": "Tina's well-matched bonuses lead options at comparable investment.",
-        "vi": "Các hiệu ứng rất phù hợp của Tina dẫn đầu những lựa chọn có mức đầu tư tương đương."
+        "vi": "Các hiệu ứng rất phù hợp của Tina Lead những lựa chọn có mức đầu tư tương đương."
       }
     },
     {
       "name": "Sylvia E0",
       "score": "119.58%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Solia E4",
       "score": "117.04%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Rosaria E4",
       "score": "108.60%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Solia E0",
       "score": "106.71%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
       "name": "Rosaria E0",
       "score": "100.01%",
       "note": {
-        "en": "The source gives no rationale for this Ego level.",
-        "vi": "Nguồn chưa giải thích lựa chọn ở cấp Ego này."
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -518,7 +518,7 @@
       "score": "100.00%",
       "note": {
         "en": "Nakia is a free stopgap when stronger listed partners are unavailable.",
-        "vi": "Nakia là phương án miễn phí tạm thời khi chưa có các Đối tác mạnh hơn trong danh sách."
+        "vi": "Nakia là phương án miễn phí tạm thời khi chưa có các Partner mạnh hơn trong danh sách."
       }
     }
   ],
@@ -544,11 +544,11 @@
     {
       "name": {
         "en": "Ideal",
-        "vi": "Lý tưởng"
+        "vi": "Ideal"
       },
       "value": {
         "en": "CRIT Rate > CRIT DMG",
-        "vi": "Tỷ lệ chí mạng > Sát thương chí mạng"
+        "vi": "Critical Chance > CRIT DMG"
       }
     },
     {
@@ -558,65 +558,65 @@
       },
       "value": {
         "en": "Order DMG% >= ATK%",
-        "vi": "Sát thương Trật tự% >= Tấn công%"
+        "vi": "Sát thương Order% >= ATK%"
       }
     },
     {
       "name": {
         "en": "Imagination",
-        "vi": "Tưởng tượng"
+        "vi": "Imagination"
       },
       "value": {
         "en": "ATK%",
-        "vi": "Tấn công%"
+        "vi": "ATK%"
       }
     },
     {
       "name": {
         "en": "Substats",
-        "vi": "Chỉ số phụ"
+        "vi": "Substats"
       },
       "value": {
         "en": "Extra ATK DMG% > CRIT Rate% = CRIT DMG% > ATK > ATK%",
-        "vi": "Sát thương đòn đánh thêm% > Tỷ lệ chí mạng% = Sát thương chí mạng% > Tấn công > Tấn công%"
+        "vi": "Extra ATK DMG% > Critical Chance% = CRIT DMG% > ATK > ATK%"
       }
     }
   ],
   "critNote": {
     "en": "Getting as close to maxing out Hugo's Potential 7 as possible is incredibly important for pushing his damage as high as you can. As a starting point, aim to hit at least 701 ATK to activate its initial effect, but after that, try to push it as high as you can without sacrificing optimal main stats or too many sub stats. It's very unlikely you'll be able to fully cap out this passive, as it requires 1100 ATK, but each breakpoint of 50 is a nice damage increase for Hugo.",
-    "vi": "Trước hết nhắm 701 tấn công để chắc chắn kích hoạt tiềm năng 7, rồi tăng theo từng mốc 50 mà không hy sinh chỉ số chính tốt nhất hoặc quá nhiều chỉ số phụ quan trọng. Mốc tối đa 1100 khó đạt, nhưng từng bước nhỏ đều có ích."
+    "vi": "Trước hết nhắm 701 ATK để chắc chắn kích hoạt Potential 7, rồi tăng theo từng mốc 50 mà không hy sinh chỉ số chính tốt nhất hoặc quá nhiều chỉ số phụ quan trọng. Mốc tối đa 1100 khó đạt, nhưng từng bước nhỏ đều có ích."
   },
   "potentialIntro": {
     "en": "Hugo’s Signature Potentials offer significant damage boosts as well as some additional functionality, making them a high priority to unlock.3-1: Adds a 50% chance to gain Commence the Hunt when using Hugo’s Basic Attack Throw Dagger, helping with stack generation in Zero System runs. Not too relevant in endgame builds though.5-1: Increases Throw Dagger’s base damage multiplier by +5% and if ATK is higher than 500, an additional +5% is added. Also not hugely impactful in endgame Hugo decks and is more for early Zero System power.7: Improves the Additional Damage multiplier by +4% while Hugo’s ATK is 700 or higher. Also grants an extra +1% for every 50 ATK over that, up to 8%. A nice damage boost overall and definitely worth picking up.",
-    "vi": "Ưu tiên mở các tiềm năng tăng sát thương: 3-1 cho Throw Dagger 50% cơ hội tạo Bắt đầu cuộc săn, còn 5-1 tăng hệ số bài này 5% và thêm 5% khi tấn công >500; cả hai chủ yếu giúp đầu chuyến thám hiểm hơn là bộ bài cuối game. Tiềm năng 7 tăng 4% hệ số sát thương bổ sung khi tấn công ≥700, thêm 1% mỗi 50 tấn công vượt 700, tối đa thêm 8% ở 1100, đáng đầu tư."
+    "vi": "Ưu tiên mở các Potential tăng sát thương: 3-1 cho Throw Dagger 50% cơ hội tạo Commence the Hunt, còn 5-1 tăng hệ số bài này 5% và thêm 5% khi ATK >500; cả hai chủ yếu giúp đầu chuyến thám hiểm hơn là bộ bài cuối game. Potential 7 tăng 4% hệ số Extra Damage khi ATK ≥700, thêm 1% mỗi 50 ATK vượt 700, tối đa thêm 8% ở 1100, đáng đầu tư."
   },
   "potentialAdvice": [
     {
       "name": "3-1",
       "note": {
         "en": "Add the following effect to the Knife Toss card: 50% chance for 1 Commence the Hunt",
-        "vi": "Thêm hiệu ứng sau cho lá Knife Toss: Có 50% xác suất nhận 1 Bắt đầu cuộc săn"
+        "vi": "Thêm hiệu ứng sau cho lá Knife Toss: Có 50% xác suất nhận 1 Commence the Hunt"
       }
     },
     {
       "name": "5-1",
       "note": {
         "en": "+5% Damage Amount to Hugo's Knife Toss; If Hugo's Attack is 500 or higher, add an additional +5% to the modifier",
-        "vi": "Tăng 5% lượng sát thương của Knife Toss của Hugo; Nếu Tấn công của Hugo từ 500 trở lên, tăng thêm 5% cho chỉ số này"
+        "vi": "Tăng 5% lượng sát thương của Knife Toss của Hugo; Nếu Attack của Hugo từ 500 trở lên, tăng thêm 5% cho chỉ số này"
       }
     },
     {
       "name": "5-2",
       "note": {
         "en": "Increases the chance for a Divine Epiphany to appear by 25%.",
-        "vi": "Tăng 25% xác suất xuất hiện Thức tỉnh thần thánh."
+        "vi": "Tăng 25% xác suất xuất hiện Divine Epiphany."
       }
     },
     {
       "name": "7-0",
       "note": {
         "en": "If Hugo’s Attack is 700 or higher, +4% Extra Damage Amount; For every 50 Attack exceeding 700, add an additional +1% to the modifier; (additional +8% max)",
-        "vi": "Nếu Tấn công của Hugo từ 700 trở lên, tăng 4% lượng sát thương Đòn đánh thêm; Với mỗi 50 Tấn công vượt quá 700, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 8%)"
+        "vi": "Nếu Attack của Hugo từ 700 trở lên, tăng 4% lượng sát thương Extra Attack; Với mỗi 50 Attack vượt quá 700, tăng thêm 1% vào mức cộng thêm; (tăng thêm tối đa 8%)"
       }
     }
   ],
@@ -624,7 +624,7 @@
     {
       "name": {
         "en": "Swamp",
-        "vi": "Đầm lầy"
+        "vi": "Swamp"
       },
       "weapons": [
         "Criticism of Discord",
@@ -645,7 +645,7 @@
     {
       "name": {
         "en": "Season 4: Kaleidoscope Hatchery (Current)",
-        "vi": "Mùa 4: Kaleidoscope Hatchery (hiện tại)"
+        "vi": "Season 4: Kaleidoscope Hatchery (hiện tại)"
       },
       "weapons": [
         "Criticism of Discord",
@@ -667,7 +667,7 @@
     {
       "name": {
         "en": "Season 1: Lab Zero",
-        "vi": "Mùa 1: Lab Zero"
+        "vi": "Season 1: Lab Zero"
       },
       "weapons": [
         "Criticism of Discord",
@@ -689,7 +689,7 @@
     {
       "name": {
         "en": "Season 2: Burning Life",
-        "vi": "Mùa 2: Burning Life"
+        "vi": "Season 2: Burning Life"
       },
       "weapons": [
         "Criticism of Discord",
@@ -708,7 +708,7 @@
     {
       "name": {
         "en": "Season 3: Theater of Illusions",
-        "vi": "Mùa 3: Theater of Illusions"
+        "vi": "Season 3: Theater of Illusions"
       },
       "weapons": [
         "Criticism of Discord",
@@ -731,41 +731,41 @@
     {
       "name": {
         "en": "Season 4",
-        "vi": "Mùa 4"
+        "vi": "Season 4"
       },
       "note": {
         "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-        "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Tìm tòi), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+        "vi": "Desire Cards chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở Season 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Desire của đồng đội và mục tiêu đội hình. Ký hiệu X chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
       }
     },
     {
       "name": {
         "en": "Season 3 — Recommended",
-        "vi": "Mùa 3 — Đề xuất"
+        "vi": "Season 3 — Đề xuất"
       },
       "note": {
         "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.The most common Card Engraving to take for Attack Persona Cards is [For each Lux Engraving, 1 Mark to random enemies] or [Attunement: Decrease Cost by 1 until used].The most common Equipment Engraving to optimize for is [When 5 or more cards have been created through abilities by allies, +30% Damage Amount to Extra Attacks of this unit (1 time per turn)]. This effect stacks. But, other damage increase effects are viable just significantly worse for Extra Attack units than the dedicated Engraving.",
-        "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Bài Nhân cách tấn công thường chọn mỗi Khắc ấn Lux áp 1 Dấu ấn lên địch ngẫu nhiên, hoặc Điều hòa giảm 1 chi phí đến khi dùng. Ưu tiên khắc ấn trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, đòn đánh thêm của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
+        "vi": "Season này có Persona Cards và Engraving, mở cách chơi hoặc tăng cường/làm suy yếu mới; Engraving gắn được lên Persona Cards và trang bị, gần giống Refinements Season 2 nhưng có hiệu ứng khác. Persona Cards Attack thường chọn mỗi Lux Engraving áp 1 Mark lên địch ngẫu nhiên, hoặc Attunement giảm 1 chi phí đến khi dùng. Ưu tiên Engraving trang bị: khi đồng đội tạo ít nhất 5 lá bằng kỹ năng, Extra Attack của nhân vật tăng 30% sát thương (1 lần mỗi lượt). Hiệu ứng cộng dồn được; các lựa chọn tăng sát thương khác vẫn dùng được nhưng thường kém hơn cho nhân vật chuyên đánh thêm."
       }
     },
     {
       "name": {
         "en": "Season 2",
-        "vi": "Mùa 2"
+        "vi": "Season 2"
       },
       "note": {
         "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-        "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+        "vi": "Refinements thêm hiệu ứng trang bị mà không tốn Faint Memory sau Season 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Faint Memory. Tăng 25% sát thương Extra Attacks. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo ATK thường ưu tiên % ATK, còn đánh theo DEF ưu tiên % DEF."
       }
     },
     {
       "name": {
         "en": "Season 1",
-        "vi": "Mùa 1"
+        "vi": "Season 1"
       },
       "note": {
         "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-        "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+        "vi": "Forbidden Cards tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh Draw và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng Draw và nhiều AP, phụ thuộc đồng đội."
       }
     }
   ],
@@ -791,7 +791,7 @@
       "score": "—",
       "note": {
         "en": "His second Ego point is a passive buff that activates once per turn. For every 2 times Commence the Hunt is activated, Hugo deals 40% Extra Attack Damage twice to random enemies. If hitting the same enemy twice, Hugo gains 1 stack of Commence the Hunt. A great second node for Hugo that allows him to maintain his Hunt stacks without generating them via Skill cards and also provides some extra damage for free.",
-        "vi": "Một lần mỗi lượt, sau 2 lần Bắt đầu cuộc săn kích hoạt, đánh thêm 40% hai lần vào địch ngẫu nhiên; nếu cả hai trúng cùng mục tiêu thì nhận lại 1 Bắt đầu cuộc săn. Giúp duy trì cộng dồn mà ít phụ thuộc bài kỹ năng hơn."
+        "vi": "Một lần mỗi lượt, sau 2 lần Commence the Hunt kích hoạt, đánh thêm 40% hai lần vào địch ngẫu nhiên; nếu cả hai trúng cùng mục tiêu thì nhận lại 1 Commence the Hunt. Giúp duy trì cộng dồn mà ít phụ thuộc Skill Card hơn."
       }
     },
     {
@@ -799,7 +799,7 @@
       "score": "—",
       "note": {
         "en": "His third Ego node provides an additional effect to his Ego Skill “Last Resort”. When used, it will also increase the maximum amount of Commence the Hunt stacks he can hold by 1. This is a great unlock for Hugo’s Ego Skill, increasing the value provided and further increasing his Potential damage output.",
-        "vi": "Last Resort còn tăng giới hạn Bắt đầu cuộc săn thêm 1, tăng giá trị kỹ năng Ego và tiềm năng sát thương."
+        "vi": "Last Resort còn tăng giới hạn Commence the Hunt thêm 1, tăng giá trị kỹ năng Ego và Potential sát thương."
       }
     },
     {
@@ -807,7 +807,7 @@
       "score": "—",
       "note": {
         "en": "The fourth unlock for Hugo’s Ego is a passive effect that grants Hugo a buff whenever Commence the Hunt is triggered. When triggered, Hugo gains 1 stack of Arbiter’s Wrath for the turn, up to a maximum of 4 stacks. Hugo’s damage is increased by +10% per stack. A very easy to maintain buff that again, further elevates Hugo’s damage output.",
-        "vi": "Mỗi lần Bắt đầu cuộc săn kích hoạt nhận Arbiter’s Wrath trong lượt, tối đa 4; mỗi cộng dồn tăng 10% sát thương. Dễ duy trì và tăng sát thương ổn định."
+        "vi": "Mỗi lần Commence the Hunt kích hoạt nhận Arbiter’s Wrath trong lượt, tối đa 4; mỗi cộng dồn tăng 10% sát thương. Dễ duy trì và tăng sát thương ổn định."
       }
     },
     {
@@ -815,7 +815,7 @@
       "score": "—",
       "note": {
         "en": "This node increases the base and maximum level of their [Basic Card Upgrade], [Unique Card Upgrade] and [Common Card Upgrade] Potentials by 3. This node is less impactful on Hugo compared to some other characters, as the majority of their damage source is coming from their Extra Attacks and not directly from their Attack Cards.",
-        "vi": "Tăng 3 cấp cơ bản và tối đa của các tiềm năng nâng cấp ba nhóm bài. Ít tác động hơn ở nhân vật khác vì Hugo chủ yếu gây sát thương bằng đòn đánh thêm."
+        "vi": "Tăng 3 cấp cơ bản và tối đa của các Potential nâng cấp ba nhóm bài. Ít tác động hơn ở nhân vật khác vì Hugo chủ yếu gây sát thương bằng Extra Attacks."
       }
     },
     {
@@ -823,7 +823,7 @@
       "score": "—",
       "note": {
         "en": "Hugo’s final unlock is another passive effect that kicks in at the start of each turn, applying “Hunting Mark 1” to a random enemy. When an enemy affected by this debuff is hit by the effect of Commence the Hunt, gain 1 Morale for 1 turn and the debuff will be removed. This is a decent final node for Hugo that provides his team with Morale, but as it only generates a single stack once per turn, it’s not a game-changer but simply a nice added effect.",
-        "vi": "Đầu lượt áp Hunting Dấu ấn 1 lên địch ngẫu nhiên; khi Bắt đầu cuộc săn đánh trúng mục tiêu đó, nhận 1 Sĩ khí trong 1 lượt rồi xóa dấu. Có ích cho đội nhưng chỉ một cộng dồn mỗi lượt nên không thay đổi lớn."
+        "vi": "Đầu lượt áp Hunting Mark 1 lên địch ngẫu nhiên; khi Commence the Hunt đánh trúng mục tiêu đó, nhận 1 Morale trong 1 lượt rồi xóa dấu. Có ích cho đội nhưng chỉ một cộng dồn mỗi lượt nên không thay đổi lớn."
       }
     }
   ],
@@ -831,7 +831,7 @@
     {
       "name": {
         "en": "Recommended deck",
-        "vi": "Bộ bài đề xuất"
+        "vi": "Deck đề xuất"
       },
       "role": {
         "en": "Skill-fed extra attacker",
@@ -884,7 +884,7 @@
       "fragmentPieces": [],
       "note": {
         "en": "Play two or three Hunting Instinct copies on turn 1. Allied skills then build Commence the Hunt stacks, allowing two extra attacks for each ally attack. Frequent attackers such as Luke, Sereniel, Tressa, Chizuru, or Heidemarie drive the engine; Cassius and Rei buff its extra attacks efficiently.",
-        "vi": "Dùng hai hoặc ba Hunting Bản năng ở lượt đầu. Sau đó, kỹ năng của đồng đội tạo cộng dồn Bắt đầu cuộc săn, cho phép Hugo đánh thêm hai lần mỗi khi đồng đội tấn công. Luke, Sereniel, Tressa, Chizuru hoặc Heidemarie có thể liên tục kích hoạt cơ chế này; Cassius và Rei tăng sát thương đánh thêm rất hiệu quả."
+        "vi": "Dùng hai hoặc ba Hunting Instinct ở lượt đầu. Sau đó, kỹ năng của đồng đội tạo cộng dồn Commence the Hunt, cho phép Hugo đánh thêm hai lần mỗi khi đồng đội Attack. Luke, Sereniel, Tressa, Chizuru hoặc Heidemarie có thể liên tục kích hoạt cơ chế này; Cassius và Rei tăng sát thương đánh thêm rất hiệu quả."
       }
     }
   ],
@@ -893,42 +893,42 @@
       "name": "Luke",
       "note": {
         "en": "Luke's many attack activations efficiently trigger Hugo's Extra Attacks.",
-        "vi": "Luke kích hoạt nhiều Tấn công, giúp kích hoạt hiệu quả Đòn đánh thêm của Hugo."
+        "vi": "Luke kích hoạt nhiều Attack, giúp kích hoạt hiệu quả Extra Attacks của Hugo."
       }
     },
     {
       "name": "Tressa",
       "note": {
         "en": "Unsheathe Dagger supplies skills for Commence the Hunt and attacks to consume its stacks.",
-        "vi": "Unsheathe Dagger cung cấp Kỹ năng cho Bắt đầu cuộc săn và các đòn Tấn công để dùng cộng dồn."
+        "vi": "Unsheathe Dagger cung cấp Skill cho Commence the Hunt và các đòn Attack để dùng cộng dồn."
       }
     },
     {
       "name": "Sereniel",
       "note": {
         "en": "Frequent attacks drive Hugo well, especially when Selena supplies additional skills for Commence the Hunt.",
-        "vi": "Nhiều đòn Tấn công phối hợp tốt với Hugo, nhất là khi Selena cung cấp thêm Kỹ năng cho Bắt đầu cuộc săn."
+        "vi": "Nhiều đòn Coordinated Attack tốt với Hugo, nhất là khi Selena cung cấp thêm Skill cho Commence the Hunt."
       }
     },
     {
       "name": "Cassius",
       "note": {
         "en": "Additive buffs strongly scale Extra Attacks, while quest-generated skills help sustain Commence the Hunt.",
-        "vi": "Tăng sát thương cộng thêm khuếch đại mạnh Đòn đánh thêm, còn Kỹ năng từ nhiệm vụ giúp duy trì Bắt đầu cuộc săn."
+        "vi": "Tăng sát thương cộng thêm khuếch đại mạnh Extra Attacks, còn Skill từ nhiệm vụ giúp duy trì Commence the Hunt."
       }
     },
     {
       "name": "Tiphera",
       "note": {
         "en": "Abundant skills and AP make Hugo easier to operate, though her buffs fit him less well than Cassius's.",
-        "vi": "Nhiều Kỹ năng và Điểm hành động giúp Hugo dễ vận hành, nhưng hiệu ứng tăng sức mạnh của cô kém phù hợp hơn Cassius."
+        "vi": "Nhiều Skill và AP giúp Hugo dễ vận hành, nhưng hiệu ứng tăng sức mạnh của cô kém phù hợp hơn Cassius."
       }
     },
     {
       "name": "Heidemarie",
       "note": {
         "en": "Sword Rain III triggers every hit at full Commence the Hunt value before its stacks decrease.",
-        "vi": "Mọi lần đánh của Sword Rain III tận dụng đầy đủ Bắt đầu cuộc săn trước khi cộng dồn bị giảm."
+        "vi": "Mọi lần đánh của Sword Rain III tận dụng đầy đủ Commence the Hunt trước khi cộng dồn bị giảm."
       }
     }
   ],
@@ -945,8 +945,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -962,8 +962,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -979,8 +979,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -996,8 +996,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1013,8 +1013,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1030,8 +1030,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1047,8 +1047,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1064,8 +1064,8 @@
       ],
       "steps": [
         {
-          "en": "Team composition recorded from the source. No fixed rotation was captured for this entry.",
-          "vi": "Thành phần đội hình được ghi từ nguồn. Mục này chưa lưu chuỗi hành động cố định."
+          "en": "",
+          "vi": ""
         }
       ]
     }

@@ -4928,12 +4928,12 @@
   },
   "Tenebria": {
     "stats": {
-      "en": "Maxing out Tenebria's potential 7 is the main stat breakpoint to watch out for. Fortunately, it's incredibly easy to do so, and all you need is 700 ATK, which almost all Tenebria builds can accomplish.",
-      "vi": "Đạt 700 tấn công để tối đa hóa tiềm năng 7; gần như mọi cách xây dựng đều dễ chạm mốc."
+      "en": "Target 700 ATK if Potential 7 grants +2% per 20 ATK; if your in-game tooltip says +1%, the corresponding cap is 800 ATK. Ego comparisons assume Photo Time is removed.",
+      "vi": "Nhắm mốc 700 ATK nếu Potential 7 tăng thêm 2% sát thương mỗi 20 ATK. Nếu mô tả trong game ghi 1%, mốc đạt hiệu ứng tối đa là 800 ATK. Bảng hiệu năng Ego được tính với bộ bài không dùng Photo Time."
     },
     "potential": {
-      "en": "CRIT RATE% = CRIT DMG% >= Unique Card DMG% > Common Card DMG% = Basic Card DMG%3-1: Adds an [Incinerate] effect to Tenebria’s Basic-Attack Cards, providing a 50% heal. This ultimately does absolutely nothing outside of providing a small heal at the start of combat. Can be skipped.5-1: Tenebria’s 5-1 Potential grants a 10% multiplicative damage buff to Tenebria’s Rhythm cards, additionally - if her attack is 500 or higher, will provide a 10% multiplicative damage buff to her allies Rhythm cards too. A substantial damage boost, as Tenebria’s damage scaling is Base ratio, making this quite a potent potential to unlock.7: Tenebria’s 7 Potential grants Tenebria +5% Passion Attribute damage, and for every 20 Attack exceeding 600, will grant an additional +2% up to a maximum of 15% Passion Attribute Damage at 700 Attack. Definitely worth picking up.",
-      "vi": "Ưu tiên tỷ lệ chí mạng = sát thương chí mạng ≥ sát thương bài đặc trưng > bài chung = bài cơ bản; 3-1 thêm Thiêu hủy hồi 50% vào bài cơ bản, lợi ích nhỏ nên có thể bỏ qua, còn 5-1 tăng sát thương bài Nhịp điệu của Tenebria 10% theo hệ số nhân và của đồng đội thêm 10% nếu tấn công ≥500, rất đáng mở. Tiềm năng 7 tăng 5% sát thương Đam mê, thêm 2% mỗi 20 tấn công vượt 600, đạt tối đa 15% ở 700 tấn công."
+      "en": "CRIT Rate = CRIT DMG ≥ Unique Card DMG > Common Card DMG = Basic Card DMG. Prioritize 5-1 for Rhythm damage and Potential 7 for Passion damage. Node 3-1 only adds a small opening heal.",
+      "vi": "Ưu tiên CRIT Rate = CRIT DMG ≥ sát thương Unique Card > sát thương Common Card = sát thương Basic Card. Mở nút 5-1 để tăng sát thương Rhythm và Potential 7 để tăng sát thương hệ Passion. Nút 3-1 chỉ hồi một lượng máu nhỏ đầu trận."
     },
     "equipment": [
       {
@@ -4974,47 +4974,57 @@
     ],
     "seasonal": [
       {
+        "name": {
+          "en": "Season 5",
+          "vi": "Season 5"
+        },
+        "note": {
+          "en": "Prioritize Memory: Lady; choose self ATK% or damage buffs for Tenebria. Memory cards are 0-cost Opener upgrades.",
+          "vi": "Ưu tiên Memory: Lady với hiệu ứng tăng ATK% hoặc sát thương cho chính Tenebria. Memory Card là bài Upgrade tốn 0 AP và có Opener, nên tự kích hoạt đầu trận."
+        }
+      },
+      {
         "sourceName": "Season 4",
         "name": {
           "en": "Season 4",
-          "vi": "Mùa 4"
+          "vi": "Season 4"
         },
         "note": {
           "en": "Introduces Desire Cards. Desire Cards are cards that primarily exist to give a strong passive buff from meeting certain Desire Thresholds (3/5/7) which can only be done by having multiple ally decks also made in Season-4.For Desire Threshold, it’s common to run 1 Claim / 1 Survival / 1 Inquiry for use in a variety of builds; however, it's also common to just do 3 ‘X’ to meet effect easier or do 2 'X' / 1 Inquiry (to keep Sample Collection as Card Effect). This is extremely dependent on ally desire cards and individual team building goal.’X’ refers to a ‘Placeholder for Specific Desire Threshold Goal’, i.e. if you are building your team for 7 Claim then you might do 2 Claim / 1 Inquiry.",
-          "vi": "Bài Khát vọng chủ yếu cung cấp tăng cường nội tại khi toàn đội đạt ngưỡng 3/5/7; cần phối hợp nhiều bộ bài đồng đội cùng tạo ở mùa 4. Cách chia linh hoạt thường là 1 Chiếm hữu (Claim) / 1 Sinh tồn (Survival) / 1 Truy vấn (Inquiry), hoặc 3 cùng loại để dễ đạt ngưỡng, hoặc 2 cùng loại +1 Truy vấn để giữ hiệu ứng Sample Collection; chọn theo Khát vọng của đồng đội và mục tiêu đội hình. Ký hiệu X trong nguồn chỉ loại muốn tích, ví dụ hướng tới 7 Chiếm hữu có thể dùng 2 Chiếm hữu +1 Truy vấn."
+          "vi": "Desire Card cho hiệu ứng nội tại khi cả đội đạt ngưỡng 3/5/7; cần phối hợp các bộ bài được tạo trong Season 4. Có thể chọn 1 Claim / 1 Survival / 1 Inquiry để dùng linh hoạt, 3 lá cùng loại để dễ đạt ngưỡng, hoặc 2 lá cùng loại + 1 Inquiry để giữ Sample Collection. Chọn theo Desire của đồng đội và ngưỡng muốn đạt. Ví dụ, khi nhắm 7 Claim cho cả đội, Tenebria có thể dùng 2 Claim + 1 Inquiry."
         }
       },
       {
         "sourceName": "Season 3",
         "name": {
           "en": "Season 3",
-          "vi": "Mùa 3"
+          "vi": "Season 3"
         },
         "note": {
           "en": "Introduces Persona Cards and Engravings. Persona Cards are powerful cards that introduce new playstyles or ways of buffing/debuffing. Engravings are effects that can be applied to both the Persona Cards and Equipment, functioning near identically to Refinements of Season-2 but with new effects.There is no recommended Card Engraving, often times it will be specific to the team or skipped entirely (focusing just on Equipment Engravings).The most common Equipment Engraving to optimize for is [When 15 or more cards are in Graveyard, +15% Critical Damage to Attack Cards of this unit], but this effect does not stack, so other equipment Engravings that increase damage can also be used.",
-          "vi": "Mùa này có bài Nhân cách và Khắc ấn, mở cách chơi hoặc tăng cường/làm suy yếu mới; khắc ấn gắn được lên bài Nhân cách và trang bị, gần giống tinh luyện mùa 2 nhưng có hiệu ứng khác. Không có khắc ấn bài cố định nên chọn; có thể tùy theo đội hoặc bỏ qua để tập trung khắc ấn trang bị. Khắc ấn trang bị thường dùng: khi mộ có ít nhất 15 lá, bài tấn công của nhân vật tăng 15% sát thương chí mạng. Hiệu ứng không cộng dồn, nên các khắc ấn tăng sát thương khác cũng dùng được."
+          "vi": "Persona Card mở thêm cách chơi và các hiệu ứng hỗ trợ. Engraving gắn lên Persona Card hoặc trang bị, tương tự Refinement của Season 2 nhưng có hiệu ứng khác. Chọn Engraving cho bài theo nhu cầu đội hình; cũng có thể tập trung vào trang bị. Một lựa chọn phổ biến là tăng 15% sát thương chí mạng cho bài tấn công khi có ít nhất 15 lá trong Graveyard. Hiệu ứng này không cộng dồn với chính nó."
         }
       },
       {
         "sourceName": "BESTSeason 2",
         "name": {
           "en": "Season 2 — Recommended",
-          "vi": "Mùa 2 — Đề xuất"
+          "vi": "Season 2 — Đề xuất"
         },
         "note": {
           "en": "Introduces Refinements, effects on Equipment that allow one to get additional Equipment effects for no Faint-Cost (post-S2), and God’s Hammer, a powerful effect that gives a random copy of any other Equipment effect on-top of current Equipment but costs 10 Faint Memory and is only gained from the Boss.Increase Damage Amount of Attack Cards by 20%.When an Attack Card is activated on a target in a Vulnerable state, +15% Critical Chance.Increase Damage Amount of Extra Attacks by 25%.Because God’s Hammer is completely RNG at the end of the run, we do not have a specific recommendation since the player has very little control over the decision but for ATK-based Attackers usually ATK% gear is considered best and DEF-based Attackers DEF% gear is considered best.",
-          "vi": "Tinh luyện thêm hiệu ứng trang bị mà không tốn Ký ức phai nhạt sau mùa 2; God’s Hammer từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác lên trang bị hiện tại, tốn 10 Ký ức phai nhạt. Tăng 20% sát thương bài tấn công. Bài tấn công đánh mục tiêu Dễ tổn thương được thêm 15% tỷ lệ chí mạng. Tăng 25% sát thương đòn đánh thêm. God’s Hammer xuất hiện ngẫu nhiên ở cuối chuyến thám hiểm nên không có lựa chọn cố định để nhắm; nhân vật đánh theo tấn công thường ưu tiên % tấn công, còn đánh theo phòng thủ ưu tiên % phòng thủ."
+          "vi": "Refinement bổ sung hiệu ứng trang bị mà không tốn Faint Memory sau Season 2. Các hiệu ứng đáng cân nhắc: tăng 20% sát thương bài tấn công; tăng 15% tỉ lệ chí mạng khi dùng bài tấn công đánh mục tiêu có Vulnerable; tăng 25% sát thương đòn đánh thêm. God’s Hammer nhận từ trùm sao chép ngẫu nhiên hiệu ứng của trang bị khác và tốn 10 Faint Memory. Vì không thể chọn chính xác hiệu ứng, thường ưu tiên ATK% cho nhân vật gây sát thương theo ATK và DEF% cho nhân vật gây sát thương theo DEF."
         }
       },
       {
         "sourceName": "Season 1",
         "name": {
           "en": "Season 1",
-          "vi": "Mùa 1"
+          "vi": "Season 1"
         },
         "note": {
           "en": "Introduces Forbidden Cards, powerful cards that create new synergies and can only be acquired once per run (can be duped at one event or via save data editing).Forbidden: Gesture of Freedom. Permanent Cost-Reduction to one card, can be manipulated.Forbidden: Portrait of Fury. ++Draw, +DamageForbidden: Ecstasy of Violence. +DamageForbidden: Eternal Hunger.+Draw, ++AP (Ally Reliant)",
-          "vi": "Bài Cấm kỵ tạo các phối hợp mạnh, chỉ kiếm được một lần mỗi chuyến thám hiểm; nguồn ghi có thể nhân bản qua một sự kiện hoặc chỉnh dữ liệu lưu. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của 1 lá, có thể sắp xếp để trúng lá mong muốn. Forbidden: Portrait of Fury tăng mạnh rút bài và thêm sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger tăng rút bài và nhiều điểm hành động, phụ thuộc đồng đội. "
+          "vi": "Forbidden Card chỉ nhận được một lần mỗi lượt khám phá; có thể nhân bản qua một sự kiện hoặc chỉnh Save Data. Forbidden: Gesture of Freedom giảm vĩnh viễn chi phí của một lá; cần sắp xếp để chọn đúng lá muốn giảm. Forbidden: Portrait of Fury hỗ trợ Draw và tăng sát thương. Forbidden: Ecstasy of Violence tăng sát thương. Forbidden: Eternal Hunger hỗ trợ Draw và tạo nhiều AP, nhưng phụ thuộc đồng đội."
         }
       }
     ],
@@ -5029,50 +5039,50 @@
       },
       {
         "name": "Ego 1",
-        "score": "—",
+        "score": "100.00%",
         "note": {
           "en": "Tenebria’s first Ego to be unlocked increases the damage dealt by her “Performance Buzz” at the end of the turn to 150%. A fairly minor upgrade that doesn’t provide any extra utility, just some extra damage output. As the majority of Tenebria’s damage comes from her Rhythm cards themselves, this doesn’t do much for her. Note: In our calculations, we aren’t using Photo Time in order to boost deck consistency. Because of this, the listed gain for this Ego Point is 0%; however, if you are using it, it will be a very small increase.",
-          "vi": "Sức nóng sân khấu tăng sát thương cuối lượt lên 150%, không thêm tiện ích. Nguồn không dùng Photo Time để ổn định vòng bài nên tính tăng 0%; nếu giữ lá đó thì có tăng nhẹ, vì sát thương chính vẫn từ bài Nhịp điệu."
+          "vi": "Tăng hệ số sát thương của Performance Buzz lên 150%. Đây là nâng cấp nhỏ vì sát thương chính đến từ Rhythm. Nếu bộ bài không dùng Photo Time thì Ego này không tăng sát thương; giữ Photo Time sẽ có thêm một ít sát thương."
         }
       },
       {
         "name": "Ego 2",
-        "score": "—",
+        "score": "100.97%",
         "note": {
           "en": "Tenebria’s next Ego creates a “Photo Card” card at the start of battle. “Photo Card” is a 0-Cost Skill Card that has the [Exhaust] and [Retain] tags and grants 2 Ego Points when used. Additionally, whenever an Ego Skill is used by any combatant, Tenebria will deal 200% damage to random enemies for each Ego Point that the Ego Skill required to be used. (Eg, Tenebria’s “Everyone’s Idol” costs 7 EP to use; Tenebria will deal 200% Damage to random enemies 7 times.) The main benefit of this Ego is the EP it gains, as the total damage contribution the hits deal aren’t too impactful in optimized Tenebra decks.",
-          "vi": "Đầu trận tạo Photo Card, kỹ năng 0 chi phí có Kiệt sức/Giữ lại, cho 2 điểm Ego. Khi bất kỳ nhân vật dùng kỹ năng Ego, Tenebria đánh 200% vào địch ngẫu nhiên số lần bằng chi phí Ego của kỹ năng, ví dụ 7 lần với Everyone’s Idol; giá trị chính là điểm Ego hơn là sát thương trong bộ tối ưu."
+          "vi": "Đầu trận tạo Photo Card: bài kỹ năng tốn 0 AP, có Exhaust và Retain, cho 2 Ego Points. Khi một nhân vật dùng kỹ năng Ego, Tenebria gây 200% sát thương lên địch ngẫu nhiên; số lần đánh bằng chi phí Ego gốc của kỹ năng. Ví dụ, Everyone’s Idol tạo 7 lần đánh. Với bộ bài tối ưu, lợi ích chính là 2 Ego Points từ Photo Card."
         }
       },
       {
         "name": "Ego 3",
-        "score": "—",
+        "score": "104.20%",
         "note": {
           "en": "Tenebria’s third Ego increases the damage buff granted from her Ego Skill “Everyone’s Idol” from 7% per Rhythm card used to 11% per Rhythm card used. A solid overall increase to her potential damage output, as this will now provide a permanent 77% multiplicative damage buff to Rhythm cards played",
-          "vi": "Everyone’s Idol tăng mức thưởng mỗi bài Nhịp điệu đã dùng từ 7% lên 11%, đạt 77% tăng sát thương theo hệ số nhân vĩnh viễn. Là nâng cấp tổng thể tốt."
+          "vi": "Everyone’s Idol tăng mức cộng sát thương cho mỗi lần kích hoạt Rhythm từ 7% lên 11%, đạt tổng cộng 77%. Đây là một nâng cấp sát thương đáng kể."
         }
       },
       {
         "name": "Ego 4",
-        "score": "—",
+        "score": "108.55%",
         "note": {
           "en": "Tenebria’s fourth Ego grants the buff “Everyone’s Cheer” whenever a Rhythm card is activated or moved to the hand. For each stack held, up to a maximum of 20 - increases Tenebria’s damage by 1%. When 20 Stacks of “Everyone’s Cheer” are obtained, it increases the damage dealt by “Rhythm” cards by 10%. Enhances Tenebria’s damage output slightly but nothing ultimately game-changing or worth investing for.",
-          "vi": "Bài Nhịp điệu được kích hoạt hoặc đưa lên tay cho Everyone’s Cheer, tối đa 20; mỗi cộng dồn tăng 1% sát thương. Đủ 20 cộng dồn tăng sát thương bài Nhịp điệu 10%; có ích nhưng không phải mốc đáng chủ động đầu tư."
+          "vi": "Mỗi lần kích hoạt hoặc đưa một lá Rhythm lên tay, nhận Everyone’s Cheer, tối đa 20 cộng dồn. Mỗi cộng dồn tăng 1% sát thương của Tenebria; đủ 20 cộng dồn tăng thêm 10% sát thương Rhythm. Có ích nhưng chưa phải mốc cần ưu tiên đầu tư."
         }
       },
       {
         "name": "Ego 5",
-        "score": "—",
+        "score": "113.75%",
         "note": {
           "en": "The fifth Ego is the standard Potential node increase, increasing the Basic/Common/Unique card potential nodes limit by 3. Very standard, provides some increase to Tenebria’s damage output",
-          "vi": "Giới hạn tiềm năng bài cơ bản, chung và đặc trưng tăng 3 cấp, cải thiện sát thương theo cơ chế thông thường."
+          "vi": "Tăng 3 cấp cho các nút Potential nâng cấp Basic Card, Common Card và Unique Card, giúp cải thiện sát thương."
         }
       },
       {
         "name": "Ego 6",
-        "score": "—",
+        "score": "157.04%",
         "note": {
           "en": "Tenebria’s final Ego to be unlocked grants an additional effect when “Photo Card” is played. When “Photo Card” is played, it decreases the cost of Tenebria’s next Ego Skill by 3 EP. When a Rhythm card is activated, Tenebria inflicts the {All Eyes on You} debuff to the target. {All Eyes on You} increases the damage taken by “Rhythm” cards on that target by 40% FINAL Damage (Same mult type as Vulnerable & Spore). If a Rhythm card is activated outside of manual use, an enemy that is inflicted with {All Eyes on You} will become the target of that card. Only 1 enemy can hold the {All Eyes on You} debuff at any given time.",
-          "vi": "Photo Card giảm 3 điểm Ego cho kỹ năng Ego kế tiếp của Tenebria. Bài Nhịp điệu áp All Eyes on You, khiến mục tiêu nhận thêm 40% sát thương cuối cùng từ Nhịp điệu, cùng nhóm hệ số với Dễ tổn thương/Bào tử; bài Nhịp điệu tự kích hoạt ưu tiên mục tiêu này và chỉ một địch được mang dấu cùng lúc."
+          "vi": "Photo Card giảm 3 Ego Points cho kỹ năng Ego tiếp theo của Tenebria. Khi Rhythm được kích hoạt, áp dụng All Eyes on You lên mục tiêu: mục tiêu nhận thêm 40% sát thương cuối cùng từ Rhythm, cùng nhóm hệ số với Vulnerable và Spore. Các lá Rhythm tự kích hoạt sẽ ưu tiên đánh mục tiêu này. Chỉ một kẻ địch có thể mang hiệu ứng tại một thời điểm."
         }
       }
     ]
