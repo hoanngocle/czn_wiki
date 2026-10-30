@@ -9,7 +9,7 @@ test("partner navigation hydrates without runtime or instant-navigation diagnost
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
   page.on("console", message => { if (message.type() === "error") errors.push(message.text()); });
-  await page.goto("/partner/licinia");
+  await page.goto("/czn/partner/licinia");
   await page.getByRole("tab", { name: "Skills", exact: true }).click();
   await page.getByRole("button", { name: /View support card/ }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
@@ -19,7 +19,7 @@ test("partner navigation hydrates without runtime or instant-navigation diagnost
 
 test("tablet partner detail keeps long names and controls inside the viewport", async ({ page }) => {
   await page.setViewportSize({ width: 768, height: 900 });
-  await page.goto("/partner/westmacott");
+  await page.goto("/czn/partner/westmacott");
   const heading = page.getByRole("heading", { name: "Westmacott", exact: true });
   await expect(heading).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(768);
@@ -30,7 +30,7 @@ test("tablet partner detail keeps long names and controls inside the viewport", 
 });
 
 test("partner roster filters by name, rarity, and class", async ({ page }) => {
-  await page.goto("/partner");
+  await page.goto("/czn/partner");
   await expect(page.getByRole("heading", { name: "Select Partner" })).toBeVisible();
   await expect(page.getByTestId("partner-portrait")).toHaveCount(49);
   await page.getByRole("button", { name: "3 stars", exact: true }).click();
@@ -46,7 +46,7 @@ test("partner roster filters by name, rarity, and class", async ({ page }) => {
 });
 
 test("Licinia passive and breakthrough controls show exact source values", async ({ page }) => {
-  await page.goto("/partner/licinia");
+  await page.goto("/czn/partner/licinia");
   await expect(page.getByRole("heading", { name: "Licinia", exact: true })).toBeVisible();
   await page.getByRole("tab", { name: "Skills", exact: true }).click();
   const passive = page.getByRole("region", { name: "Passive" });
@@ -77,17 +77,17 @@ test("Licinia passive and breakthrough controls show exact source values", async
 });
 
 test("partner ids redirect and unknown or combatant ids return 404", async ({ page }) => {
-  await page.goto("/partner/30116");
+  await page.goto("/czn/partner/30116");
   await expect(page).toHaveURL(/\/partner\/licinia$/);
   for (const slug of ["unknown-partner", "1016"]) {
-    const response = await page.goto(`/partner/${slug}`);
+    const response = await page.goto(`/czn/partner/${slug}`);
     expect(response?.status()).toBe(404);
   }
 });
 
 test("mobile partner picker closes after selection and Escape without overflow", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/partner/licinia");
+  await page.goto("/czn/partner/licinia");
   const opener = page.getByRole("button", { name: "Choose partner", exact: true });
   const picker = page.getByRole("dialog", { name: "Partner picker" });
   await opener.click();
@@ -119,7 +119,7 @@ test("mobile partner picker closes after selection and Escape without overflow",
 });
 
 test("Vietnamese is the default and keyboard tabs preserve progression across language changes", async ({ page }) => {
-  await page.goto("/partner/licinia");
+  await page.goto("/czn/partner/licinia");
   const vietnamese = page.getByRole("checkbox", { name: "Tiếng Việt", exact: true });
   await expect(vietnamese).toBeChecked();
   const profile = page.getByRole("tab", { name: "Hồ sơ", exact: true });
@@ -190,7 +190,7 @@ test("Vietnamese is the default and keyboard tabs preserve progression across la
 });
 
 test("available full partner artwork loads from a local image", async ({ page, request }) => {
-  await page.goto("/partner/arwen");
+  await page.goto("/czn/partner/arwen");
   await page.getByRole("tab", { name: "Hình ảnh", exact: true }).click();
   const artwork = page.getByRole("img", { name: "Hình ảnh toàn thân của Arwen", exact: true });
   await expect(artwork).toBeVisible();

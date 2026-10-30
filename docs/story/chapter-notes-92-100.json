@@ -1,0 +1,228 @@
+{
+  "source": {
+    "file": "Chu Gioi Tan The Online - Yen Hoa Thanh Thanh.epub",
+    "entries": "OEBPS/html/chuong-0092.html–OEBPS/html/chuong-0100.html",
+    "method": "Đọc toàn văn từng chương bằng zipfile và HTMLParser; đối chiếu số chương theo entry và tiêu đề chính. Đã đọc lại toàn bộ chương 96 khi một lần xuất batch bị cắt.",
+    "existingDataReviewed": ["lib/story/characters.json", "lib/story/chapter-notes.json"],
+    "fullTextRead": [92, 93, 94, 95, 96, 97, 98, 99, 100]
+  },
+  "scope": {
+    "from": 92,
+    "to": 100,
+    "language": "vi",
+    "note": "Tóm tắt nguyên bản, chỉ xác nhận phạm vi 92–100. firstChapterWithinRange không phải khẳng định lần đầu toàn truyện; các nhân vật chưa có trong catalog 1–71 phải đối chiếu 72–91. Cảnh hư không giữ trên nhánh tu hành, không tạo nhánh thứ ba."
+  },
+  "chapters": [
+    {
+      "chapter": 92,
+      "title": "Đột ngột",
+      "realms": ["reality"],
+      "summary": "Thanh Sơn giao Anh Hào kinh doanh sòng bạc và cho Nữ Thần Công Chính thu thập chứng cứ về Chu Khai Vũ. Khi nhận phần thưởng dưới nhà tù, hắn lấy được mảnh tim quái vật vũ trụ, rồi phát hiện một nhân viên đã biến thành quái vật vẫn sống dù mất nội tạng.",
+      "actions": ["Thỏa thuận chia lợi nhuận sòng bạc: Anh Hào ba, Thanh Sơn bảy; chỉ kinh doanh hợp pháp.", "Dùng Địa kiếm lấy mảnh tim đang đông lạnh.", "Dừng lại xem người bị giam vì linh cảm bất an."],
+      "outcomes": ["Có mảnh tim cần cho nhiệm vụ thần thông.", "Trực tiếp nhận ra dấu hiệu tai họa xuất hiện sớm; người bị giam khát khao cắn ăn người sống."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Trương Anh Hào", "type": "directAppearance"},
+        {"name": "Độc Cô Quỳnh", "type": "directAppearance", "note": "Rời sòng bạc sau khi trêu Thanh Sơn làm hỏng vụ làm ăn."},
+        {"name": "Nữ Thần Công Chính", "existingId": "impartial-goddess-character", "type": "directAppearance", "note": "Lên tiếng từ xa."},
+        {"name": "Chu Khai Vũ", "type": "mention"},
+        {"name": "Tần Tiểu Lâu", "type": "mention"},
+        {"name": "Địa kiếm", "existingId": "dia-kiem", "type": "directAppearance", "note": "Xuất hiện như vũ khí; kiếm linh không nói."},
+        {"name": "Người hầu dẫn xuống nhà tù", "type": "directAppearance", "note": "Vô danh; có thể đã xuất hiện trước phạm vi."},
+        {"name": "Nhân viên già biến thành Quỷ ăn thịt người", "type": "directAppearance", "note": "Vô danh, không có màn tiết lộ tên."}
+      ]
+    },
+    {
+      "chapter": 93,
+      "title": "Tận thế đến gần",
+      "realms": ["reality"],
+      "summary": "Thanh Sơn giết kẻ nhiễm bệnh, cảnh báo Anh Hào tránh vết cắn và thúc giục cứu người thân. Anh Hào triệu hồi mèo mun cùng tuần lộc để tìm em gái. Thanh Sơn trao quyền sử dụng nghiên cứu cho Tổng thống, rồi báo về Quỷ ăn thịt người và Quỷ giết người có thể tiến hóa.",
+      "actions": ["Dùng Địa kiếm đâm chết người bị giam.", "Anh Hào dùng mèo mun dẫn đường và tuần lộc bay đi cứu em gái.", "Kết nối Nữ Thần Công Chính và Tổng thống; trao quyền dùng mọi thành quả nghiên cứu.", "Phân biệt hai bệnh: loại ăn thịt lây qua vết thương, loại giết người lây qua không khí và tiến hóa."],
+      "outcomes": ["Đồng minh nhận cảnh báo trực tiếp về tận thế.", "Lãnh đạo Liên Bang được cung cấp tình báo để phản ứng sớm."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Trương Anh Hào", "type": "directAppearance"},
+        {"name": "Nhân viên già biến thành Quỷ ăn thịt người", "type": "directAppearance", "note": "Bị giết đầu chương."},
+        {"name": "Mèo mun", "type": "directAppearance"},
+        {"name": "Tuần lộc đồng hoang", "type": "directAppearance"},
+        {"name": "Em gái Trương Anh Hào", "type": "mention", "note": "Chưa tên, chưa xuất hiện trong chương."},
+        {"name": "Nữ Thần Công Chính", "existingId": "impartial-goddess-character", "type": "directAppearance"},
+        {"name": "Tổng thống Liên Bang", "existingId": "tong-thong-lien-bang", "type": "directAppearance", "note": "Qua quang não."},
+        {"name": "Tô Tuyết Nhi", "existingId": "to-tuyet-nhi", "type": "mention", "note": "Đang bế quan; Thanh Sơn đánh giá nơi ở an toàn."},
+        {"name": "Anna", "existingId": "anna-character", "type": "mention"},
+        {"name": "Chu Khai Vũ", "type": "mention"},
+        {"name": "Địa kiếm", "existingId": "dia-kiem", "type": "directAppearance"}
+      ]
+    },
+    {
+      "chapter": 94,
+      "title": "Chờ tôi",
+      "realms": ["reality", "cultivation"],
+      "summary": "Nữ Thần Công Chính xác nhận dịch bệnh và nhận quyền điều hành Liên Bang trong tình trạng khẩn cấp. Lo bi kịch cũ của Anna đến sớm, Thanh Sơn dặn cô ở lại Liên Bang và trả tín vật Tử Thần để bảo vệ cô. Cảnh báo thời gian buộc hắn lập tức trở về thế giới tu hành.",
+      "actions": ["Tổng thống và Thanh Sơn cùng trao toàn quyền xử lý sự vụ Liên Bang cho Nữ Thần Công Chính.", "Thanh Sơn dặn Anna chờ mình và đeo lại khế ước thế mệnh cho cô.", "Chấp nhận yêu cầu chuyển giới trước khi thông đạo đóng trong 15 giây."],
+      "outcomes": ["Liên Bang nâng báo động đỏ lên cấp chiến tranh; chưa chọn được sách lược khả thi trong 1.958 phương án.", "Tín vật khiến Thanh Sơn phải hao tổn sinh mệnh gấp đôi để cứu Anna khi cô gặp nguy hiểm chết người.", "Thanh Sơn rời hiện thực; Anna hiểu ý nghĩa của việc được bảo vệ."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Nữ Thần Công Chính", "existingId": "impartial-goddess-character", "type": "directAppearance"},
+        {"name": "Tổng thống Liên Bang", "existingId": "tong-thong-lien-bang", "type": "directAppearance"},
+        {"name": "Anna", "existingId": "anna-character", "type": "directAppearance"},
+        {"name": "Tử Thần", "existingId": "tu-than", "type": "mention", "note": "Chỉ tượng trên tín vật và khế ước, không hiện thân."}
+      ]
+    },
+    {
+      "chapter": 95,
+      "title": "Chuẩn bị đột phá",
+      "realms": ["reality", "cultivation"],
+      "summary": "Anna quyết chờ Thanh Sơn bất chấp quân lệnh triệu hồi và hỗn loạn dịch bệnh. Ở Điện Phong Lan, Thanh Sơn hồi phục rồi dùng mảnh tim lấp ô cuối, hoàn thành nhiệm vụ Thần thông Chiến Thần. Ngỗng Trắng hẹn cùng Tiểu Lâu giúp hắn đột phá, trong khi Bách Hoa tiên tử đang ở tiền tuyến.",
+      "actions": ["Anna từ chối cùng Hoắc Đức trở về theo lệnh Hoàng đế.", "Thanh Sơn dùng linh đan hồi phục, khảm mảnh tim quái vật vào giao diện.", "Chờ người trong tông hướng dẫn thay vì tự đột phá ngay.", "Cùng Ngỗng Trắng, Tiểu Lâu, Tú Tú ăn hoa Tuyết Linh."],
+      "outcomes": ["Vòng quay thần thông sẵn sàng, nhưng chỉ nhận thần thông khi đột phá đại cảnh giới.", "Cả tông bắt đầu chuẩn bị cho lần lên Trúc Cơ."],
+      "characterReferences": [
+        {"name": "Anna", "existingId": "anna-character", "type": "directAppearance"},
+        {"name": "Phùng Hoắc Đức", "existingId": "phung-hoac-duc", "type": "directAppearance"},
+        {"name": "Hoàng đế Sanorlanka", "existingId": "hoang-de-sanorlanka", "type": "mention", "note": "Quân lệnh được Hoắc Đức thuật lại."},
+        {"name": "Mẹ Anna", "type": "mention", "note": "Đã mất khi cô còn nhỏ; không tên."},
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Ngỗng Trắng", "existingId": "white-goose", "type": "directAppearance", "note": "Được Thanh Sơn gọi là đại sư huynh; không nêu tên người."},
+        {"name": "Tần Tiểu Lâu", "type": "directAppearance"},
+        {"name": "Tú Tú", "type": "directAppearance"},
+        {"name": "Bách Hoa Tiên Tử", "existingId": "bach-hoa-master", "type": "mention"},
+        {"name": "Huyền Nguyên Thiên Tôn", "existingId": "huyen-nguyen-thien-ton", "type": "mention", "note": "Gọi tắt Thiên Tôn."},
+        {"name": "Bi Ngưỡng đại sư", "existingId": "bi-nguong-dai-su", "type": "mention", "note": "Gọi đại sư trong ngữ cảnh Tam Thánh đi tiền tuyến."}
+      ]
+    },
+    {
+      "chapter": 96,
+      "title": "Chiếu kiến",
+      "realms": ["cultivation"],
+      "summary": "Tiểu Lâu dựng 71 pháp trận, Ngỗng Trắng và Tú Tú lo vật liệu để Thanh Sơn đột phá trong lò đan. Hắn học pháp môn Bách Hoa tiên tử soạn riêng, tạo linh quang Chiếu Kiến, nhưng thần hồn bị kéo đến trụ đồng bí ẩn. Ở tiền tuyến, các đại năng vẫn chờ tiên tử dự họp.",
+      "actions": ["Tiểu Lâu nấu bữa sáng, tính giờ và bố trí trận pháp; Tú Tú hái Long Tiền Lệ.", "Thanh Sơn dùng 10 hồn lực học phần đầu Bách Luân Phong Thánh Thành Thần pháp.", "Vận công trong lò đan 300 năm, phá linh quang để vượt cảnh giới.", "Ngỗng Trắng bảo vệ nhưng không ngăn được thần hồn bị dẫn vào hư không."],
+      "outcomes": ["Thanh Sơn gặp lại thi thể trên trụ đồng; chưa xác nhận hoàn tất Trúc Cơ cho đến chương 97.", "Cảnh tiền tuyến cho thấy hai Thánh nhân còn lại trực tiếp bàn việc chờ Bách Hoa."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Ngỗng Trắng", "existingId": "white-goose", "type": "directAppearance"},
+        {"name": "Tần Tiểu Lâu", "type": "directAppearance"},
+        {"name": "Tú Tú", "type": "directAppearance"},
+        {"name": "Bách Hoa Tiên Tử", "existingId": "bach-hoa-master", "type": "mention", "note": "Người soạn pháp môn; chân thân vắng họp, không nên tạo nhân vật mới từ hóa thân."},
+        {"name": "Huyền Nguyên Thiên Tôn", "existingId": "huyen-nguyen-thien-ton", "type": "directAppearance", "note": "Đạo sĩ mặt đỏ ở một ghế chủ tọa; nhận diện từ ngữ cảnh Tam Thánh, không nêu tên trong cảnh."},
+        {"name": "Bi Ngưỡng đại sư", "existingId": "bi-nguong-dai-su", "type": "directAppearance", "note": "Lão tăng ở ghế chủ tọa; nhận diện từ ngữ cảnh Tam Thánh, không nêu tên trong cảnh."},
+        {"name": "Thi thể trên trụ đồng", "existingId": "thi-the-tren-tru-dong", "type": "directAppearance"},
+        {"name": "Công Tôn Trí", "existingId": "cong-ton-tri", "type": "mention"},
+        {"name": "Ninh Nguyệt Thiền", "existingId": "ninh-nguyet-thien", "type": "mention"},
+        {"name": "Đao Hoàng", "existingId": "dao-hoang", "type": "mention"}
+      ]
+    },
+    {
+      "chapter": 97,
+      "title": "Lại đến chỗ ấy",
+      "realms": ["cultivation"],
+      "summary": "Thi thể trên trụ đồng đề nghị Thanh Sơn cứu mình khi đủ mạnh và gợi ý yêu ma dồn tai họa sang thế giới yếu hơn. Thanh Sơn suy ra việc cứu tu hành giới có thể đã khiến hiện thực thành mục tiêu chính. Lời chỉ cách ngăn yêu ma bị sét cắt ngang; trở về cơ thể, hắn đạt Trúc Cơ và được chọn một trong bốn thần thông.",
+      "actions": ["Hỏi thân phận, điều kiện giao dịch và nguyên nhân nhiều tận thế cùng bùng phát.", "Liên hệ sự can thiệp của mình với việc Bách Hoa cứu người, đánh bại Yêu Thánh và bóc nội gián.", "Trở về lò đan sau khi lực kéo của thi thể mất đi.", "Nhận bốn lượt rút để chọn một phần thưởng nhờ nhiệm vụ cấp S."],
+      "outcomes": ["Trúc Cơ được hệ thống xác nhận tại chương này.", "Manh mối về ngũ hành chính của hai thế giới còn dang dở; chưa có cách cứu thế hoàn chỉnh.", "Danh tính thi thể vẫn bị giấu; chưa chốt cam kết cứu hay điều kiện giao dịch."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Thi thể trên trụ đồng", "existingId": "thi-the-tren-tru-dong", "type": "directAppearance", "note": "Tự nói bị giam hai tỷ năm; từ chối nói danh hào, không phải nameReveal."},
+        {"name": "Ngỗng Trắng", "existingId": "white-goose", "type": "directAppearance"},
+        {"name": "Tần Tiểu Lâu", "type": "directAppearance"},
+        {"name": "Tú Tú", "type": "directAppearance"},
+        {"name": "Công Tôn Trí", "existingId": "cong-ton-tri", "type": "mention"},
+        {"name": "Ninh Nguyệt Thiền", "existingId": "ninh-nguyet-thien", "type": "mention"},
+        {"name": "Bách Hoa Tiên Tử", "existingId": "bach-hoa-master", "type": "mention"}
+      ]
+    },
+    {
+      "chapter": 98,
+      "title": "Bốn chọn một",
+      "realms": ["cultivation"],
+      "summary": "Sau khi cân nhắc bốn phần thưởng, Thanh Sơn chọn Tru Tà để thức tỉnh linh lực Lôi điện. Trong thử thách lựa chọn sinh hay sát, hắn chọn sinh pháp vì đã có kiếm thuật đảm nhiệm công kích. Điện quang nhập thể, mở hướng thần thông bổ trợ cho kiếm đạo.",
+      "actions": ["Bỏ Tuyên Ngôn Thời Gian, Không Quyền và Biến Thân Thành Nữ.", "Chọn Tru Tà, rồi chọn Điện chủ sinh thay vì Lôi chủ sát."],
+      "outcomes": ["Thức tỉnh Ngũ hành đặc dị Lôi điện theo sinh pháp; hiệu quả cụ thể được công bố chương 99."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Đầu bếp có linh căn Lôi ở kiếp trước", "type": "mention", "note": "Hồi tưởng: chạy ra vũ trụ với bạn gái và chó, chết năm thứ tám; vô danh."},
+        {"name": "Bạn gái tóc vàng của đầu bếp", "type": "mention", "note": "Chỉ trong hồi tưởng, không tên."},
+        {"name": "Chó của đầu bếp", "type": "mention", "note": "Chỉ trong hồi tưởng, không tên."}
+      ]
+    },
+    {
+      "chapter": 99,
+      "title": "Lựa chọn",
+      "realms": ["cultivation"],
+      "summary": "Lôi điện đem lại Tru Tà và Mất Khống Chế, làm mục tiêu trúng đòn mất điều khiển cơ thể một giây. Thanh Sơn củng cố Trúc Cơ, nhận ra đồng hồ thời gian trôi rất chậm, rồi nhờ linh thực của Tiểu Lâu tiếp tục khôi phục 20 kiếm quyết cùng bí kiếm Nguyệt Trảm.",
+      "actions": ["Thử linh lực Lôi điện trên lò đan và Địa kiếm.", "Suy xét bí mật thi thể, ngũ hành hai thế giới và dòng thời gian nhưng chưa có lời giải.", "Luyện kiếm một ngày một đêm và dùng linh thực điều tiết cơ thể.", "Thức tỉnh 20 kiếm quyết giá 5 hồn lực mỗi loại và một bí kiếm giá 10."],
+      "outcomes": ["Mất Khống Chế tầng 1 kéo dài 1 giây; Tru Tà tăng sát thương với yêu ma ba phần.", "Giới hạn hồn lực tăng lên 20; trước khi mua kỹ năng đang có 640/20.", "Thanh Sơn dự kiến phải lưu lại tu hành giới lâu hơn; không xác nhận tốc độ thời gian cụ thể."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Ngỗng Trắng", "existingId": "white-goose", "type": "directAppearance"},
+        {"name": "Tần Tiểu Lâu", "type": "directAppearance"},
+        {"name": "Tú Tú", "type": "directAppearance"},
+        {"name": "Địa kiếm", "existingId": "dia-kiem", "type": "directAppearance"},
+        {"name": "Bách Hoa Tiên Tử", "existingId": "bach-hoa-master", "type": "directAppearance", "note": "Cười và bình luận về sinh pháp ở tiền tuyến."},
+        {"name": "Huyền Nguyên Thiên Tôn", "existingId": "huyen-nguyen-thien-ton", "type": "directAppearance", "note": "Vẫn được mô tả là đạo sĩ mặt đỏ."},
+        {"name": "Bi Ngưỡng đại sư", "existingId": "bi-nguong-dai-su", "type": "directAppearance", "note": "Vẫn được mô tả là lão hòa thượng."},
+        {"name": "Thi thể trên trụ đồng", "existingId": "thi-the-tren-tru-dong", "type": "mention"}
+      ]
+    },
+    {
+      "chapter": 100,
+      "title": "So chiêu",
+      "realms": ["cultivation"],
+      "summary": "Thanh Sơn vô tình đánh văng Tiểu Lâu khi Địa kiếm mở thêm sức mạnh sau đột phá. Hắn luyện cách điều khiển sức nặng sáu nghìn cân và nhanh chóng lấy lại cảm ngộ kiếm đạo. Thua lần nữa, Tiểu Lâu xin lại đao phổ, quyết tu hành để không làm mất mặt sư phụ.",
+      "actions": ["Hoàn tất thức tỉnh kiếm quyết, còn 530/20 hồn lực.", "So chiêu với Tiểu Lâu rồi luyện phối hợp linh lực và Địa kiếm.", "Hồi tưởng lần quan sát Bi Ngưỡng chiến đấu giúp ngộ kiếm ý kiếp trước.", "Tiểu Lâu xin Ngỗng Trắng thêm một bản đao phổ để luyện."],
+      "outcomes": ["Địa kiếm đạt lực nặng 6.000 cân ở cảnh giới hiện tại.", "Tiểu Lâu ở Trúc Cơ trung kỳ nhưng thực chiến kém, nhận động lực tu hành từ Thanh Sơn."],
+      "characterReferences": [
+        {"name": "Cố Thanh Sơn", "type": "directAppearance"},
+        {"name": "Ngỗng Trắng", "existingId": "white-goose", "type": "directAppearance"},
+        {"name": "Tần Tiểu Lâu", "type": "directAppearance"},
+        {"name": "Tú Tú", "type": "directAppearance"},
+        {"name": "Địa kiếm", "existingId": "dia-kiem", "type": "directAppearance"},
+        {"name": "Ninh Nguyệt Thiền", "existingId": "ninh-nguyet-thien", "type": "mention", "note": "Chuyện Tuế thí: từng đánh Tiểu Lâu vì bị tán tỉnh; Nguyên Anh đại viên mãn."},
+        {"name": "Công Tôn Trí", "existingId": "cong-ton-tri", "type": "mention", "note": "Lời cũ được nhớ lại."},
+        {"name": "Bách Hoa Tiên Tử", "existingId": "bach-hoa-master", "type": "mention"},
+        {"name": "Bi Ngưỡng đại sư", "existingId": "bi-nguong-dai-su", "type": "mention", "note": "Hồi tưởng trận chiến kiếp trước; không phải xuất hiện trực tiếp ở hiện tại."}
+      ]
+    }
+  ],
+  "registry": [
+    {"name": "Trương Anh Hào", "firstChapterWithinRange": 92, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Đồng hành từ trước phạm vi, không gán lần đầu là 92. Nhận quản lý sòng bạc rồi đi cứu em gái ở 93."},
+    {"name": "Độc Cô Quỳnh", "firstChapterWithinRange": 92, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Đã quen hai nhân vật từ trước phạm vi; rời sòng bạc ở 92."},
+    {"name": "Chu Khai Vũ", "firstChapterWithinRange": 92, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Võ Tôn/chủ cũ sòng bạc được nhắc; không trực tiếp hiện diện trong 92–100."},
+    {"name": "Tần Tiểu Lâu", "firstChapterWithinRange": 92, "firstDirectAppearanceWithinRange": 95, "firstReferenceType": "mention", "realm": "cultivation", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Nhị sư huynh, giỏi lục nghệ và linh thực; dựng 71 trận hộ pháp ở 96; Trúc Cơ trung kỳ, quyết chuyên tâm tu hành ở 100."},
+    {"name": "Tú Tú", "firstChapterWithinRange": 95, "firstReferenceType": "directAppearance", "realm": "cultivation", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Tiểu sư muội, thần hồn còn thương tổn; giúp chuẩn bị đột phá. Không suy ra tên khác hoặc gán đồng nhất con gái Khổng Tước chỉ từ đoạn này."},
+    {"name": "Người hầu dẫn xuống nhà tù", "firstChapterWithinRange": 92, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "unnamedSupportingRole", "notes": "Không cần thẻ nhân vật riêng; đối chiếu đoạn sòng bạc trước đó nếu muốn xác định lần đầu."},
+    {"name": "Nhân viên già biến thành Quỷ ăn thịt người", "firstChapterWithinRange": 92, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "unnamedSupportingRole", "notes": "Bị Chu Khai Vũ giam sau khi cắn chủ, mất nội tạng vẫn sống; Thanh Sơn giết ở 93. Nên gắn vào mốc dịch bệnh, không thẻ có tên giả."},
+    {"name": "Mèo mun", "firstChapterWithinRange": 93, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Sinh vật được Anh Hào triệu hồi để tìm em gái; không có tên riêng khác trong phạm vi."},
+    {"name": "Tuần lộc đồng hoang", "firstChapterWithinRange": 93, "firstReferenceType": "directAppearance", "realm": "reality", "catalogStatus": "absentFrom1To71Needs72To91Check", "notes": "Thú triệu hồi màu nâu, cổ đeo lục lạc, chạy trên không; chở Anh Hào đi cứu em gái."},
+    {"name": "Em gái Trương Anh Hào", "firstChapterWithinRange": 93, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "mentionOnlyNeedsEarlierCheck", "notes": "Không tên, không xuất hiện trực tiếp, kết quả cứu chưa được kể trong 92–100."},
+    {"name": "Mẹ Anna", "firstChapterWithinRange": 95, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "mentionOnlyNeedsEarlierCheck", "notes": "Đã qua đời từ khi Anna nhỏ; không tên, không nên làm thẻ nổi bật."},
+    {"name": "Đầu bếp có linh căn Lôi ở kiếp trước", "firstChapterWithinRange": 98, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "unnamedRecollection", "notes": "Ví dụ minh họa công dụng Lôi điện; chạy khỏi địa cầu, bị quái vật vũ trụ giết năm thứ tám. Không tên, không nên làm thẻ nổi bật."},
+    {"name": "Bạn gái tóc vàng của đầu bếp", "firstChapterWithinRange": 98, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "unnamedRecollection", "notes": "Chỉ được kể trong hồi tưởng cùng đầu bếp; không tên."},
+    {"name": "Chó của đầu bếp", "firstChapterWithinRange": 98, "firstReferenceType": "mention", "realm": "reality", "catalogStatus": "unnamedRecollection", "notes": "Chỉ được kể trong hồi tưởng; không tên."}
+  ],
+  "existingCharacterUpdates": [
+    {"id": "anna-character", "chapters": [94, 95], "note": "Được Thanh Sơn trao lại tín vật thế mệnh, ở lại Liên Bang chờ hắn bất chấp quân lệnh; giữ slot ảnh hiện có."},
+    {"id": "impartial-goddess-character", "chapters": [93, 94], "note": "Xác nhận hai dịch bệnh và nhận toàn quyền điều hành khẩn cấp; giữ slot ảnh hiện có."},
+    {"id": "white-goose", "chapters": [95, 96, 97, 99, 100], "note": "Được gọi đại sư huynh, chăm lo đột phá; đoạn này không tiết lộ tên người, không tạo thêm cá thể từ danh xưng. Cần kết hợp 72–91 trước khi sửa mô tả cũ về hóa thân."},
+    {"id": "thi-the-tren-tru-dong", "chapters": [96, 97], "note": "Xuất hiện lại, đề nghị cứu khỏi lao tù và nói manh mối ngũ hành; vẫn vô danh."},
+    {"id": "dia-kiem", "chapters": [92, 93, 99, 100], "note": "Trở thành vật dẫn Lôi điện, mở thêm phong ấn sau Trúc Cơ, lực nặng 6.000 cân ở 100; không tạo thẻ kiếm mới."},
+    {"id": "bi-nguong-dai-su", "chapters": [96, 99, 100], "note": "Trực tiếp hiện diện dưới mô tả lão tăng trong cảnh Tam Thánh ở 96, 99; được nêu tên trong hồi tưởng ở 100. Chưa thể xác định lần đầu trực tiếp toàn truyện nếu chưa kiểm tra 72–91."},
+    {"id": "huyen-nguyen-thien-ton", "chapters": [96, 99], "note": "Trực tiếp qua mô tả đạo sĩ mặt đỏ tại hội nghị Tam Thánh; không phải nhân vật mới."},
+    {"id": "bach-hoa-master", "chapters": [96, 99], "note": "Soạn pháp môn riêng và vui mừng khi Thanh Sơn chọn sinh pháp; giữ cùng nhân vật và ảnh."}
+  ],
+  "groupedMilestoneSuggestions": [
+    {"realm": "reality", "from": 92, "to": 93, "title": "Mảnh tim và dấu hiệu tận thế", "summary": "Nhận tim quái vật từ sòng bạc, phát hiện Quỷ ăn thịt người; Anh Hào cứu người thân, Thanh Sơn báo hai loại dịch bệnh.", "characterNames": ["Trương Anh Hào", "Độc Cô Quỳnh", "Nữ Thần Công Chính", "Tổng thống Liên Bang"]},
+    {"realm": "reality", "from": 94, "to": 95, "title": "Báo động đỏ — lời hẹn với Anna", "summary": "Nữ Thần nắm toàn quyền ứng phó dịch; Thanh Sơn trả tín vật trước khi bị buộc chuyển giới, Anna quyết ở lại chờ.", "characterNames": ["Anna", "Phùng Hoắc Đức", "Nữ Thần Công Chính", "Tổng thống Liên Bang"]},
+    {"realm": "cultivation", "from": 95, "to": 97, "title": "Trúc Cơ và bí mật hai thế giới", "summary": "Hoàn thành vòng quay thần thông, được cả tông hộ pháp; gặp lại thi thể trụ đồng và nhận manh mối về tận thế trước khi đạt Trúc Cơ.", "characterNames": ["Ngỗng Trắng", "Tần Tiểu Lâu", "Tú Tú", "Bách Hoa Tiên Tử", "Thi thể trên trụ đồng"]},
+    {"realm": "cultivation", "from": 98, "to": 100, "title": "Lôi điện sinh pháp — kiếm đạo trở lại", "summary": "Chọn Tru Tà và sinh pháp, có khống chế một giây, khôi phục kiếm quyết; sức mạnh mới thúc đẩy Tiểu Lâu chuyên tâm tu hành.", "characterNames": ["Tần Tiểu Lâu", "Ngỗng Trắng", "Tú Tú", "Địa kiếm"]}
+  ],
+  "uncertainties": [
+    "Không xác nhận lần đầu toàn truyện của nhân vật vắng catalog 1–71 nếu chưa đối chiếu 72–91; không dùng firstChapterWithinRange làm chapter hiển thị tự động.",
+    "Không có tiết lộ tên riêng mới rõ ràng trong 92–100. Thi thể từ chối nói tên; ngỗng chỉ có danh xưng đại sư huynh.",
+    "Nguyên nhân yêu ma chuyển mục tiêu sang hiện thực là suy luận của Thanh Sơn từ lời gợi ý ở 97, chưa phải lời xác nhận toàn tri; cách dùng ngũ hành bị ngắt.",
+    "Đạo sĩ mặt đỏ và lão tăng được ánh xạ sang Huyền Nguyên/Bi Ngưỡng theo bố cục Tam Thánh; bản chương 96, 99 không gọi đầy đủ tên họ.",
+    "Chương 96 dùng tu hành/hư không trong cùng nhánh; hồi tưởng địa cầu ở 98 không phải một lần chuyển giới hiện tại.",
+    "Mất Khống Chế là 1 giây, Tru Tà tăng sát thương ba phần; không nhầm thành hồi sinh hoặc điều khiển tâm trí vì chữ sinh pháp.",
+    "Chương 94 cảnh báo 15 giây để vào tu hành giới; đến 99 cát rơi chậm nhưng chưa có tỉ lệ quy đổi thời gian hai thế giới.",
+    "Các quái vật quần thể, Thiên Ma thoáng qua và tướng quân vô danh ở hội nghị không cần thẻ riêng để giữ sơ đồ gọn.",
+    "Bản EPUB có lỗi gõ rải rác (ví dụ m6ọt), nhưng tiêu đề entry 92–100 thống nhất; không sao chép lỗi vào tóm tắt."
+  ]
+}

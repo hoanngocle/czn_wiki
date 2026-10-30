@@ -20,10 +20,10 @@ function Block({ block }: { block: ArticleBlock }) {
 export function ArticleView({ article }: { article: WikiArticle }) {
   return <article className={styles.page} lang="vi">
     <header className={styles.header}>
-      <Link className={styles.back} href="/patch-note">← Patch note</Link>
+      <Link className={styles.back} href="/czn/patch-note">← Patch note</Link>
       <div className={styles.eyebrow}>{article.kind === "mechanics" ? "Cơ chế nhân vật" : "Thông báo cập nhật"} · <time dateTime={article.date}>{article.date.split("-").reverse().join("/")}</time></div>
       <h1>{t(article.title)}</h1><p>{t(article.description)}</p>
-      <div className={styles.related}><Link href="/combatant/rossweisse">Rossweisse · Nhân vật →</Link>{article.kind === "mechanics" ? <Link href="/patch-note/2026-10-21-update#rossweisse">Dữ liệu trong patch note →</Link> : <Link href="/mechanics/rossweisse">Cơ chế Rossweisse →</Link>}</div>
+      <div className={styles.related}><Link href="/czn/combatant/rossweisse">Rossweisse · Nhân vật →</Link>{article.kind === "mechanics" ? <Link href="/czn/patch-note/2026-10-21-update#rossweisse">Dữ liệu trong patch note →</Link> : <Link href="/czn/mechanics/rossweisse">Cơ chế Rossweisse →</Link>}</div>
     </header>
     <div className={styles.layout}>
       <nav className={styles.contents} aria-label="Mục lục"><strong>Mục lục</strong>{article.sections.map(section => <a key={section.id} href={`#${section.id}`}>{t(section.title)}</a>)}</nav>

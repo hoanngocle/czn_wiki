@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("card hover shows rarity and keyword explanations independently of animation", async ({ page }, testInfo) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   const card = page.getByRole("button", { name: "Black Veil card", exact: true });
   await card.hover();
@@ -24,7 +24,7 @@ test("card hover shows rarity and keyword explanations independently of animatio
 });
 
 test("card tooltip supports keyboard focus and Escape without blocking the detail dialog", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const card = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
   await card.focus();
   await page.keyboard.press("Tab");
@@ -43,7 +43,7 @@ test("card tooltip supports keyboard focus and Escape without blocking the detai
 });
 
 test("moving between adjacent cards replaces the tooltip without trapping the pointer", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   const first = page.getByRole("button", { name: "Black Veil card", exact: true });
   const second = page.getByRole("button", { name: "Echo of Sorrow card", exact: true });

@@ -25,7 +25,7 @@ for (const theme of themes) {
       await page.addInitScript((saved) => localStorage.setItem("themeMode", saved), theme.saved);
     }
 
-    await page.goto("/combatant", { waitUntil: "networkidle" });
+    await page.goto("/czn/combatant", { waitUntil: "networkidle" });
     await expect(page.locator("html")).toHaveAttribute("data-theme", theme.expected);
     const toggle = page.getByRole("button", { name: "Toggle theme" });
     await expect(toggle).toHaveAttribute("title", `Theme: ${theme.saved ?? "system"}`);

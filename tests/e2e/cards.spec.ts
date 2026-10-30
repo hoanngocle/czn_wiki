@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("Renoa cards, potential target, Ego levels and variant dialog use source data", async ({ page }) => {
-  await page.goto("/combatant/1041");
+  await page.goto("/czn/combatant/1041");
   await page.getByRole("checkbox", { name: "Tiếng Việt" }).uncheck();
   await expect(page.getByRole("heading", { name: /^(Start Cards|Bài khởi đầu)$/ })).toBeVisible();
   const dirge = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
@@ -35,7 +35,7 @@ test("Renoa cards, potential target, Ego levels and variant dialog use source da
 
 test("animation preference and reduced motion stop card video", async ({ page }) => {
   await page.setViewportSize({ width: 1700, height: 1100 });
-  await page.goto("/combatant/1041");
+  await page.goto("/czn/combatant/1041");
   const animation = page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ });
   await animation.check();
   await page.getByRole("button", { name: /Echo of Sorrow/ }).first().click();
@@ -52,7 +52,7 @@ test("animation preference and reduced motion stop card video", async ({ page })
 test("failed card video falls back to local artwork", async ({ page }) => {
   let failedVideos = 0;
   await page.route("**/*.webm", async (route) => { failedVideos++; await route.abort(); });
-  await page.goto("/combatant/1041");
+  await page.goto("/czn/combatant/1041");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   await page.getByRole("button", { name: /Echo of Sorrow/ }).first().click();
   const dialog = page.getByRole("dialog", { name: /Echo of Sorrow/ });

@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 for (const width of [390, 1440]) {
   test(`patch note keeps English game names and Vietnamese explanations at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto("/patch-note/2026-10-21-update");
+    await page.goto("/czn/patch-note/2026-10-21-update");
     const article = page.locator("article").first();
     for (const name of ["Galactic Disaster", "Sword Tassel", "Manifest Ego", "Divine Epiphany", "Nightmare Carnival"]) await expect(article).toContainText(name);
     await expect(article).not.toContainText(/Hiển Ngộ|Quân Bình Quang Ám|Tua Kiếm|Thảm Họa Thiên Hà/);
@@ -15,7 +15,7 @@ for (const width of [390, 1440]) {
 
   test(`build guide and card advice keep mechanic names English at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto("/combatant/rin");
+    await page.goto("/czn/combatant/rin");
     await page.getByRole("tab", { name: "Build", exact: true }).click();
     const build = page.getByRole("tabpanel").first();
     await expect(build).toContainText("Dark Mist Stance");
@@ -32,7 +32,7 @@ for (const width of [390, 1440]) {
 
 test("Vietnamese deck builder retains English equipment, item and Epiphany names", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto("/deck-builder");
+  await page.goto("/czn/deck-builder");
   await page.getByRole("region", { name: "Thiết lập bộ bài" }).getByRole("button", { name: "Chọn Combatant", exact: true }).click();
   await page.getByRole("searchbox").fill("Mei Lin");
   await page.getByRole("button", { name: "Chọn Mei Lin", exact: true }).click();

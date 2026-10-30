@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 import characters from "../../data/wiki/characters.json";
 
 test("each filter row replaces its selection and clicking it again restores all combatants", async ({ page }) => {
-  await page.goto("/combatant");
+  await page.goto("/czn/combatant");
   const portraits = page.getByTestId("combatant-portrait");
   const combatants = characters.filter((character) => character.kind === "combatant");
 
@@ -31,7 +31,7 @@ test("each filter row replaces its selection and clicking it again restores all 
 });
 
 test("switching a job preserves the selected ego and rarity", async ({ page }) => {
-  await page.goto("/combatant");
+  await page.goto("/czn/combatant");
   const ego = page.getByRole("button", { name: "Ego love", exact: true });
   const rarity = page.getByRole("button", { name: "5 stars", exact: true });
   await ego.click();

@@ -24,7 +24,7 @@ export function PartnerWorkspace({ partners, children }: { partners: (PartnerSum
   const vietnamese = useStoredValue("czn_combatant_vietnamese", "true") === "true";
   const t = (en: string, vi: string) => vietnamese ? vi : en;
   const pathname = usePathname();
-  const indexRoute = pathname === "/partner";
+  const indexRoute = pathname === "/czn/partner";
   const [filters, setFilters] = useState(initialFilters);
   const [pickerOpen, setPickerOpen] = useState(false);
   const workspace = useRef<HTMLDivElement>(null);

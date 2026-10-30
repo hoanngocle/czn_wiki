@@ -25,8 +25,8 @@ export function CombatantWorkspace({ characters, newIds, unavailableJobIcons, ch
   const vietnamese = useStoredValue("czn_combatant_vietnamese", "true") === "true";
   const t = (en: string, vi: string) => vietnamese ? vi : en;
   const pathname = usePathname();
-  const selected = pathname.match(/^\/combatant\/([^/]+)$/)?.[1];
-  const indexRoute = pathname === "/combatant";
+  const selected = pathname.match(/^\/czn\/combatant\/([^/]+)$/)?.[1];
+  const indexRoute = pathname === "/czn/combatant";
   const [filters, setFilters] = useState<CombatantFilters>(empty);
   const [pickerOpen, setPickerOpen] = useState(false);
   const opener = useRef<HTMLButtonElement>(null);

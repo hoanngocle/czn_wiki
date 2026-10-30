@@ -9,7 +9,7 @@ test("production page uses local assets, has no hydration errors or mobile overf
   });
   page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); });
   page.on("pageerror", (error) => errors.push(error.message));
-  await page.goto("/combatant/1041", { waitUntil: "networkidle" });
+  await page.goto("/czn/combatant/1041", { waitUntil: "networkidle" });
   expect(external).toEqual([]);
   expect(errors).toEqual([]);
   expect(await page.locator("img").evaluateAll((images) => images.filter((image) => (image as HTMLImageElement).complete && (image as HTMLImageElement).naturalWidth === 0).map((image) => (image as HTMLImageElement).src))).toEqual([]);
@@ -21,14 +21,14 @@ test("theme and page survive blocked localStorage", async ({ page }) => {
   await page.addInitScript(() => { Object.defineProperty(window, "localStorage", { configurable: true, get() { throw new Error("storage blocked"); } }); });
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  await page.goto("/combatant/1041");
+  await page.goto("/czn/combatant/1041");
   await expect(page.getByRole("heading", { level: 1, name: /Renoa/ })).toBeVisible();
   await page.getByRole("button", { name: "Đổi giao diện" }).click();
   expect(errors).toEqual([]);
 });
 
 test("picker retains scroll position and selected URL through navigation", async ({ page }) => {
-  await page.goto("/combatant");
+  await page.goto("/czn/combatant");
   const picker = page.getByRole("complementary", { name: /^(Combatant picker|Danh sách nhân vật)$/ });
   await picker.evaluate((element) => { element.scrollTop = 330; });
   await page.getByRole("link", { name: "Veronica" }).scrollIntoViewIfNeeded();

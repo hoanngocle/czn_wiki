@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("Vietnamese navigation is the default and the language setting follows page navigation", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await expect(page.locator("html")).toHaveAttribute("lang", "vi");
   const nav = page.getByRole("navigation", { name: "Điều hướng CZN" });
   await expect(nav.getByRole("link", { name: "Combatant", exact: true })).toBeVisible();
@@ -27,7 +27,7 @@ test("Vietnamese navigation is the default and the language setting follows page
 });
 
 test("every font weight renders Vietnamese glyphs from the local Be Vietnam Pro font", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.evaluate(async () => {
     const sample = "ĂăÂâĐđÊêÔôƠơƯư " + Array.from({ length: 90 }, (_, index) => String.fromCharCode(0x1ea0 + index)).join("");
     for (const weight of [300, 400, 500, 600, 700]) {
@@ -56,7 +56,7 @@ test("every font weight renders Vietnamese glyphs from the local Be Vietnam Pro 
 });
 
 test("headings and controls share the global font on every workspace", async ({ page }) => {
-  for (const route of ["/combatant/renoa", "/partner", "/deck-builder", "/equipment", "/terminology"]) {
+  for (const route of ["/czn/combatant/renoa", "/czn/partner", "/czn/deck-builder", "/czn/equipment", "/czn/terminology"]) {
     await page.goto(route);
     const fonts = await page.evaluate(async () => {
       await document.fonts.ready;

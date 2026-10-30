@@ -19,7 +19,7 @@ const icons = {
   "Patch note": "patch-note",
 };
 const nav = ["Combatant", "Partner", "Cards", "Deck Builder", "Equipment", "Items", "Terminology", "Patch note"] as const;
-const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/combatant", Partner: "/partner", "Deck Builder": "/deck-builder", Equipment: "/equipment", Terminology: "/terminology", "Patch note": "/patch-note" };
+const routes: Partial<Record<typeof nav[number], string>> = { Combatant: "/czn/combatant", Partner: "/czn/partner", "Deck Builder": "/czn/deck-builder", Equipment: "/czn/equipment", Terminology: "/czn/terminology", "Patch note": "/czn/patch-note" };
 const logo = "/assets/common/c1016_sd01_s-BmcFnoIZ.png";
 
 function NavIcon({ item }: { item: keyof typeof icons }) {
@@ -67,15 +67,15 @@ export function WikiShell({ children }: { children: React.ReactNode }) {
   return <div className={styles.shell}>
     <header className={styles.mobileHeader}>
       <button ref={opener} aria-label={t("Open navigation")} aria-expanded={menuOpen} onClick={() => setMenuOpen(true)}>☰</button>
-      <Link href="/combatant" className={styles.mobileBrand}><Image src={logo} alt="" width={30} height={30} unoptimized /> CZN</Link>
+      <Link href="/czn/combatant" className={styles.mobileBrand}><Image src={logo} alt="" width={30} height={30} unoptimized /> CZN</Link>
       <span aria-hidden="true" style={{ width: 22 }} />
     </header>
     {menuOpen && <button className={styles.scrim} aria-label={t("Close navigation")} onClick={() => { setMenuOpen(false); opener.current?.focus(); }} />}
     <nav ref={navRef} aria-label={t("CZN navigation")} className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
-      <Link className={styles.brand} href="/combatant" onClick={() => setMenuOpen(false)}><Image src={logo} alt="" width={42} height={42} unoptimized /><small>CZN</small></Link>
+      <Link className={styles.brand} href="/czn/combatant" onClick={() => setMenuOpen(false)}><Image src={logo} alt="" width={42} height={42} unoptimized /><small>CZN</small></Link>
       <div className={styles.navItems}>{nav.map((item) => {
         const href = routes[item];
-        const active = href && (pathname === href || pathname.startsWith(`${href}/`) || item === "Patch note" && pathname.startsWith("/mechanics/"));
+        const active = href && (pathname === href || pathname.startsWith(`${href}/`) || item === "Patch note" && pathname.startsWith("/czn/mechanics/"));
         return href ? <Link key={item} href={href} aria-current={active ? "page" : undefined} className={`${styles.navItem} ${active ? styles.active : ""}`} onClick={() => setMenuOpen(false)}><NavIcon item={item} /><span>{t(item)}</span></Link> : <span key={item} className={`${styles.navItem} ${styles.disabled}`} aria-disabled="true" title={t("Coming soon")}><NavIcon item={item} /><span>{t(item)}</span></span>;
       })}</div>
       <div className={styles.bottom}><ThemeToggle /><button type="button" className={styles.utility} aria-label={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} title={vietnamese ? "Switch to English" : "Chuyển sang tiếng Việt"} onClick={() => storeValue(languageKey, String(!vietnamese))}>{vietnamese ? "VI" : "EN"}</button></div>

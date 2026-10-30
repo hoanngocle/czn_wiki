@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test("Renoa language checkbox switches cards and variants and remembers the choice", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const card = page.getByRole("button", { name: "Echo of Sorrow card", exact: true });
   await expect(card).toContainText("Gây 140% sát thương");
   await expect(card).toContainText("Dirge Bullet");
@@ -34,7 +34,7 @@ test("Renoa language checkbox switches cards and variants and remembers the choi
 });
 
 test("terminology has its own navigation tab and direct route on desktop and mobile", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("link", { name: "Thuật ngữ", exact: true }).click();
   await expect(page).toHaveURL(/\/terminology$/);
   await expect(page.getByRole("link", { name: "Thuật ngữ", exact: true })).toHaveAttribute("aria-current", "page");
@@ -62,7 +62,7 @@ test("terminology has its own navigation tab and direct route on desktop and mob
 });
 
 test("language preference covers Manifest Ego, Potential, and all upgrade levels", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const vietnamese = page.getByRole("checkbox", { name: "Tiếng Việt" });
   const ego = page.getByTestId("manifest-level");
   const potential = page.getByTestId("potential-node").filter({ hasText: /Basic Card Upgrade|Nâng cấp bài cơ bản/ });

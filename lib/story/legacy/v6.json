@@ -1,0 +1,2063 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "hero",
+      "title": "Cố Thanh Sơn",
+      "kind": "character",
+      "eyebrow": "Nhân vật chính · Chương 1",
+      "x": 0,
+      "y": 520,
+      "chapters": [
+        1
+      ],
+      "summary": "Trở lại trước tận thế, Cố Thanh Sơn qua lại giữa thế giới Tu Hành và thế giới thực. Từ quân doanh đến Bách Hoa, từ nghiên cứu chiến giáp đến âm mưu Cửu phủ: hành trình trong chương 1–100."
+    },
+    {
+      "id": "awakening",
+      "title": "Tỉnh lại và thức tỉnh Chiến Thần",
+      "summary": "Thanh Sơn tỉnh trong hố xác, gặp Triệu Lục và nhận ra mình trở về trước tận thế. Giao diện Chiến Thần mở ra; hắn dùng hồn lực học cung thuật và lên Luyện Khí tầng hai.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "eyebrow": "Tu Hành · Chương 1–4",
+      "x": 460,
+      "y": 260
+    },
+    {
+      "id": "truong-da-trap",
+      "title": "Phá bẫy, hóa giải hiểu lầm",
+      "summary": "Thanh Sơn vạch trần tình dược của Trương Dã, hóa giải hiểu lầm với Tô Tuyết Nhi. Bị Nhiếp Vân truy sát, hắn giết Hung Hổ rồi trú tại trung tâm nghiên cứu chiến giáp; Anna bắt đầu chú ý đến hắn.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "eyebrow": "Thế giới thực · Chương 4–11",
+      "x": 460,
+      "y": 760
+    },
+    {
+      "id": "training",
+      "title": "Hồn lực, công pháp và Loạn Vũ",
+      "summary": "Thanh Sơn giết ma điểu truyền tin, tìm được linh thạch và Quân Thể Luyện Khí pháp. Hắn bỏ thăng cấp bằng kinh nghiệm, lên Luyện Khí tầng năm và sáng tạo cung kỹ Loạn Vũ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "eyebrow": "Tu Hành · Chương 12–16",
+      "x": 1180,
+      "y": 260
+    },
+    {
+      "id": "anna",
+      "title": "Thiên Thần Rực Lửa và gặp Anna",
+      "summary": "Nhờ Nữ Thần Công Chính, Thanh Sơn chế tạo Thiên Thần Rực Lửa làm quà cho Tuyết Nhi, khiến Liên Bang kích hoạt bảo vệ cấp SSS. Sau khi bị Tô phu nhân sa thải, hắn trực tiếp gặp lại Anna ở quán rượu.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "eyebrow": "Thế giới thực · Chương 17–20",
+      "x": 1180,
+      "y": 760
+    },
+    {
+      "id": "impartial-goddess",
+      "title": "Thoát vòng vây, được Liên Bang bảo hộ",
+      "summary": "Thanh Sơn thắng đội tông sư, giết Nhiếp Vân rồi được Võ thánh cứu viện. Nữ Thần Công Chính nâng quyền hắn lên Lãnh tụ tối cao ở chương 24; Tổng thống bảo trợ và hắn được bổ nhiệm giáo sư đặc cấp.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "eyebrow": "Thế giới thực · Chương 21–27",
+      "x": 1900,
+      "y": 760
+    },
+    {
+      "id": "rescue",
+      "title": "Gặp Công Tôn Trí và Ninh Nguyệt Thiền",
+      "summary": "Rời quân doanh, Thanh Sơn vô tình giải vây Công Tôn Trí rồi gặp Ninh Nguyệt Thiền. Mật Mãng Xà yêu giúp nàng giải độc; bí mật nội gián lộ ra, trong khi Triệu Lục chết tại doanh trại.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "eyebrow": "Tu Hành · Chương 28–32",
+      "x": 1900,
+      "y": 260
+    },
+    {
+      "id": "than-vo",
+      "title": "Dạ Vũ và chuyến đi Thần Võ",
+      "summary": "Bùa cầu viện bị chặn; Thanh Sơn nhận cung Dạ Vũ và nhiệm vụ cứu hai người. Công Tôn Trí đang hấp hối trao quả cầu sắt cùng đĩa bát quái, đưa hắn đến Thần Võ để giữ lại bí mật.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "eyebrow": "Tu Hành · Chương 33–37",
+      "x": 2620,
+      "y": 260
+    },
+    {
+      "id": "archery",
+      "title": "Tranh cung và tín vật Tử Thần",
+      "summary": "Bị trả về hiện thực, Thanh Sơn lên Luyện Khí tầng sáu rồi đụng độ Huy thiếu tại câu lạc bộ bắn cung. Anna giải vây, trao dây chuyền khế ước sinh mệnh trước khi hắn trở lại Thần Võ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "eyebrow": "Thế giới thực · Chương 38–44",
+      "x": 2620,
+      "y": 760
+    },
+    {
+      "id": "sword",
+      "title": "Cùng Lãnh Thiên Tinh phá vòng vây",
+      "summary": "Thanh Sơn dùng trận pháp hỗ trợ nhóm tu sĩ, lên Luyện Khí tầng bảy và thức tỉnh kiếm thuật. Đồng đội lần lượt tử nạn; hắn cùng Lãnh Thiên Tinh thoát vào hang, nhưng trận truyền tống còn thiếu bí ấn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "eyebrow": "Tu Hành · Chương 44–53",
+      "x": 3340,
+      "y": 260
+    },
+    {
+      "id": "bach-hoa",
+      "title": "Cầu Bách Hoa, vượt bảng Kiếm",
+      "summary": "Quả cầu sắt hoàn thiện trận thoát thân. Thanh Sơn cùng Lãnh Thiên Tinh đến Bách Hoa Tiên Quốc, gặp Ngỗng Trắng; hắn chọn bảng Kiếm, luận kiếm tâm và vạch trần kiếm trận giả.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "eyebrow": "Tu Hành · Chương 54–61",
+      "x": 4060,
+      "y": 260
+    },
+    {
+      "id": "apprenticeship",
+      "title": "Nhận Địa kiếm và bái sư",
+      "summary": "Chính thức yết kiến Bách Hoa, Thanh Sơn báo tin nội gián và xin cứu viện. Sau khi thử kiếm, hắn nhận Địa kiếm, biết bí mật các hóa thân và đồng ý gia nhập Bách Hoa tông ở chương 65.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "eyebrow": "Tu Hành · Chương 62–65",
+      "x": 4780,
+      "y": 260
+    },
+    {
+      "id": "saints",
+      "title": "Bách Hoa cứu viện, thi triển Vong Xuyên",
+      "summary": "Tạ Đạo Linh xác nhận Thanh Sơn là đệ tử thứ tư và đưa Công Tôn Trí, Ninh Nguyệt Thiền ra khỏi vòng vây. Đao Hoàng lộ là nội gián; Vong Xuyên trừng phạt nhóm phục kích, riêng Khổng Tước được tha.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "eyebrow": "Tu Hành · Chương 66–69",
+      "x": 5500,
+      "y": 260
+    },
+    {
+      "id": "sea",
+      "title": "Cứu Tuyết Nhi, tai họa ngoài biển",
+      "summary": "Thanh Sơn trở về khi nhiệm vụ Định Mệnh vẫn đang tiến hành. Anna cùng Hoắc Đức đi cứu Tuyết Nhi; quần đảo Tây Phong biến mất, quái vật biển xuất hiện và Liên Bang bước vào trạng thái chiến tranh.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        69,
+        70
+      ],
+      "eyebrow": "Thế giới thực · Chương 69–70",
+      "x": 3340,
+      "y": 760
+    },
+    {
+      "id": "upgrade",
+      "title": "Nâng cấp Nữ Thần, đối đầu Cửu phủ",
+      "summary": "Thanh Sơn nâng cấp Nữ Thần Công Chính, gặp Trương Anh Hào và giết Sài Lang. Anna cứu Tuyết Nhi; hắn trao Thiên Thần Rực Lửa làm quà sinh nhật rồi trở lại Tu Hành giữa tai họa đến sớm. Bạch phủ mất dấu và hủy vụ thuê sát thủ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "eyebrow": "Thế giới thực · Chương 71–80",
+      "x": 4060,
+      "y": 760
+    },
+    {
+      "id": "sect-family",
+      "title": "Nhận sư môn, chuẩn bị thần thông",
+      "summary": "Cuộc giải cứu thành công; Thanh Sơn chính thức gặp Bạch Ánh Thiên, Tần Tiểu Lâu và Tú Tú. Hắn nhận điện Phong Lan, thu bốn chủng vật liệu, học thuật ôn dưỡng và cùng sư môn dùng bữa trước khi trở về hiện thực.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "eyebrow": "Tu Hành · Chương 80–85",
+      "x": 6220,
+      "y": 260
+    },
+    {
+      "id": "cosmic-search",
+      "title": "Kết minh Anh Hào, tìm Vũ Trụ chủng",
+      "summary": "Thanh Sơn kết minh với Trương Anh Hào, nhờ mèo mun tìm vật liệu cuối. Tại sòng bạc, hắn gặp Độc Cô Quỳnh, cứu người bị đem làm con mồi rồi tự xuống hồ đối đầu ba cá sấu để đòi phần thưởng.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "eyebrow": "Thế giới thực · Chương 85–89",
+      "x": 4780,
+      "y": 760
+    },
+    {
+      "id": "outbreak",
+      "title": "Xử sòng bạc, dịch quỷ bùng phát",
+      "summary": "Nữ Thần Công Chính xử nợ, bắt Chu Khai Vũ; Thanh Sơn nhận cao ốc và mảnh tim quái vật vũ trụ. Phát hiện dịch quỷ, hắn báo động Liên Bang, trả tín vật Tử Thần cho Anna rồi chuyển giới; Anna quyết ở lại chờ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "eyebrow": "Thế giới thực · Chương 90–95",
+      "x": 5500,
+      "y": 760
+    },
+    {
+      "id": "foundation",
+      "title": "Trúc Cơ, thức tỉnh Lôi điện",
+      "summary": "Hoàn thành nhiệm vụ thần thông, Thanh Sơn được sư môn hộ pháp, gặp lại thi thể trên trụ đồng và đạt Trúc Cơ. Hắn chọn Tru Tà theo sinh pháp, có khả năng làm mục tiêu mất khống chế một giây, khôi phục kiếm quyết và luyện Địa kiếm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "eyebrow": "Tu Hành · Chương 95–100",
+      "x": 6940,
+      "y": 260
+    },
+    {
+      "id": "trieu-luc",
+      "title": "Triệu Lục",
+      "summary": "Xuất hiện từ chương 1; tên/danh xưng nêu ở chương 2. Lính bếp Hỏa Sự Doanh, cùng Cố Thanh Sơn sống sót ở quân doanh. Không chịu rời đi và bị Vô Diện Cự Nhân giết ở chương 32.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        1
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 1",
+      "x": 460,
+      "y": -140
+    },
+    {
+      "id": "bac-bi-huyet-ma",
+      "title": "Bác Bì Huyết Ma",
+      "summary": "Yêu ma ẩn trong xác kẻ giả làm Ngũ trưởng, bị Thanh Sơn giết ở chương 1.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        1
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 1",
+      "x": 800,
+      "y": -140
+    },
+    {
+      "id": "ma-chu",
+      "title": "Ma Chủ",
+      "summary": "Được nhắc trong ký ức tận thế ở chương 1, hồi tưởng trận chiến rõ hơn ở chương 3. Dù giết được Ma Chủ, Thanh Sơn không cứu được thế giới kiếp trước.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        1
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 1",
+      "x": 460,
+      "y": -460
+    },
+    {
+      "id": "vuong-tien",
+      "title": "Vương Tiến",
+      "summary": "Được nhắc ở chương 3. Tên người dùng đao trước đó, chỉ hiện trong giao diện.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        3
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 3",
+      "x": 800,
+      "y": -460
+    },
+    {
+      "id": "truong-khoat",
+      "title": "Trương Khoát",
+      "summary": "Được nhắc ở chương 3. Tên người dùng đao trước đó, chỉ hiện trong giao diện.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        3
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 3",
+      "x": 460,
+      "y": -780
+    },
+    {
+      "id": "truong-vu",
+      "title": "Trương Vũ",
+      "summary": "Được nhắc ở chương 4. Tướng quân đã chết; chỉ được nhắc và ghi là người dùng kỹ nghệ cung.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        4
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 4",
+      "x": 800,
+      "y": -780
+    },
+    {
+      "id": "truong-da",
+      "title": "Trương Dã",
+      "summary": "Xuất hiện từ chương 4. Bạn học nhận tiền nhà Bạch để hãm hại Thanh Sơn và Tô Tuyết Nhi bằng tình dược; bị vạch trần ở chương 5–7.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        4
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 4",
+      "x": 460,
+      "y": 1120
+    },
+    {
+      "id": "to-tuyet-nhi",
+      "title": "Tô Tuyết Nhi",
+      "summary": "Xuất hiện từ chương 4. Bạn học thân thiết của Thanh Sơn. Hiểu lầm được hóa giải ở chương 5–6; được tuyển thẳng Đại học Thủ Đô và là người hắn muốn tặng Thiên Thần Rực Lửa. Đột phá Phong lực giai đoạn bốn ở chương 73; nhận và điều khiển Thiên Thần Rực Lửa ở chương 76–77.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        4
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 4",
+      "x": 800,
+      "y": 1120
+    },
+    {
+      "id": "ta-suong-nhan",
+      "title": "Tạ Sương Nhan",
+      "summary": "Xuất hiện từ chương 17; tên/danh xưng nêu ở chương 5. Nhắc như thần tượng ở chương 5; có mặt trên sân khấu buổi hòa nhạc ở chương 17.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        5
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 5",
+      "x": 460,
+      "y": 1440
+    },
+    {
+      "id": "to-di",
+      "title": "Tô Di",
+      "summary": "Xuất hiện từ chương 5. Người đi cùng Tô Tuyết Nhi; kiểm tra kim tẩm tình dược và giải độc cho Thanh Sơn ở chương 6.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        5
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 5",
+      "x": 800,
+      "y": 1440
+    },
+    {
+      "id": "ly-gia-gia",
+      "title": "Lý gia gia",
+      "summary": "Xuất hiện từ chương 5; tên/danh xưng nêu ở chương 6. Danh xưng, chưa có họ tên đầy đủ; vệ sĩ tóc bạc hiện ở cuối chương 5.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        5
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 5",
+      "x": 460,
+      "y": 1760
+    },
+    {
+      "id": "nhiep-van",
+      "title": "Nhiếp Vân",
+      "summary": "Xuất hiện từ chương 7. Công tử nhà Nhiếp, ép Thanh Sơn rời xa Tuyết Nhi rồi liên tiếp sai sát thủ truy sát; bị giết ở chương 23.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        7
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 7",
+      "x": 800,
+      "y": 1760
+    },
+    {
+      "id": "hung-ho",
+      "title": "Hung Hổ",
+      "summary": "Xuất hiện từ chương 7; tên/danh xưng nêu ở chương 8. Quản gia áo sơ mi trắng, nơ đen ở chương 7; tên Hung Hổ được nêu chương 8, thân phận Võ Đạo Tông Sư rõ ở chương 9.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        7
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 7",
+      "x": 460,
+      "y": 2080
+    },
+    {
+      "id": "vuong-minh",
+      "title": "Vương Minh",
+      "summary": "Xuất hiện từ chương 7; tên/danh xưng nêu ở chương 10. Thuộc nhóm sát thủ xuất hiện cuối chương 7; được nhận diện cá thể là kẻ sống sót chương 8; gọi tên chương 10.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        7
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 7",
+      "x": 800,
+      "y": 2080
+    },
+    {
+      "id": "phung-hoac-duc",
+      "title": "Phùng Hoắc Đức",
+      "summary": "Người đi cùng Anna, xuất hiện dưới cách gọi Mặc Kính Nam ở chương 8; tự giới thiệu Phùng Hoắc Đức ở chương 20. Hoắc Đức và Mặc Kính Nam là cùng một người.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        8
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 8",
+      "x": 460,
+      "y": 2400
+    },
+    {
+      "id": "anna-character",
+      "title": "Anna",
+      "summary": "Công chúa Anna Medici. Hiện diện chưa tên ở sòng bạc chương 8, được gọi tên Anna ở chương 17, trực tiếp gặp Thanh Sơn chương 20. Trao tín vật Tử Thần ở 44; cứu Tuyết Nhi ở 73 và đối đầu Hải Đức ở 74. Nhận lại tín vật ở 94 rồi quyết ở Liên Bang chờ Thanh Sơn ở 95.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        8
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 8",
+      "x": 800,
+      "y": 2400
+    },
+    {
+      "id": "vo-dien-cu-nhan",
+      "title": "Vô Diện Cự Nhân",
+      "summary": "Xuất hiện từ chương 12. Yêu ma loại cực hiếm, không có tên cá nhân.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        12
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 12",
+      "x": 1180,
+      "y": -140
+    },
+    {
+      "id": "tien-vuong",
+      "title": "Tiên Vương",
+      "summary": "Được nhắc ở chương 12. Danh hiệu nhân vật trong hồi tưởng chiến dịch kiếp trước.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        12
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 12",
+      "x": 1520,
+      "y": -140
+    },
+    {
+      "id": "impartial-goddess-character",
+      "title": "Nữ Thần Công Chính",
+      "summary": "Xuất hiện từ chương 17. Trí tuệ quản lý Liên Bang; trực tiếp hỗ trợ chế tạo Thiên Thần Rực Lửa từ chương 17. Nâng quyền Thanh Sơn lên Lãnh tụ tối cao ở chương 24; nhận công thức cuối để nâng cấp ở chương 71. Chủ động xử vụ sòng bạc, bắt Chu Khai Vũ ở chương 90–91; nhận quyền điều hành khẩn cấp khi dịch quỷ bùng phát ở 94.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1180,
+      "y": 1120
+    },
+    {
+      "id": "truong-tong-duong",
+      "title": "Trương Tông Dương",
+      "summary": "Xuất hiện từ chương 17. Võ thánh, Đại tướng Lục quân. Tham gia xử lý bảo mật cấp SSS từ chương 17, đến giải vây và đưa Thanh Sơn gặp Tổng thống ở chương 24.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1520,
+      "y": 1120
+    },
+    {
+      "id": "ly-dong-nguyen",
+      "title": "Lý Đông Nguyên",
+      "summary": "Xuất hiện từ chương 17. Hải hoàng, Tư lệnh Hải quân Liên Bang. Được Nữ Thần Công Chính liên lạc về bảo vệ cấp SSS ở chương 17; gọi điện cho Trương Tông Dương ở chương 25.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1180,
+      "y": 1440
+    },
+    {
+      "id": "tong-thien-vu",
+      "title": "Tống Thiên Vũ",
+      "summary": "Xuất hiện từ chương 17. Tổng chỉ huy Tinh Không, một trong những người nhận liên lạc cấp bảo mật cao nhất của Nữ Thần Công Chính ở chương 17.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1520,
+      "y": 1440
+    },
+    {
+      "id": "tong-thong-lien-bang",
+      "title": "Tổng thống Liên Bang",
+      "summary": "Xuất hiện từ chương 17. Xuất hiện trong cuộc điều động bảo vệ nghiên cứu ở chương 17. Gặp Thanh Sơn chương 24, công khai bảo trợ hắn qua truyền hình ở chương 25; chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1180,
+      "y": 1760
+    },
+    {
+      "id": "hoang-de-sanorlanka",
+      "title": "Hoàng đế Sanorlanka",
+      "summary": "Xuất hiện từ chương 17. Cha Anna; nói chuyện với con qua máy truyền tin ở chương 17, giao quyền tìm hiểu việc Liên Bang điều quân. Chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1520,
+      "y": 1760
+    },
+    {
+      "id": "to-phu-nhan",
+      "title": "Tô phu nhân",
+      "summary": "Xuất hiện từ chương 18. Mẹ Tô Tuyết Nhi, được gọi Tiểu Linh ở chương 26. Sa thải Thanh Sơn và ngăn cản quan hệ với con gái ở chương 19; bị gia chủ khiển trách ở chương 26.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        18
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 18",
+      "x": 1180,
+      "y": 2080
+    },
+    {
+      "id": "bach-hong-vu",
+      "title": "Bạch Hồng Vũ",
+      "summary": "Xuất hiện từ chương 18. Công tử nhà Bạch, chặn và miệt thị Thanh Sơn trước khi bị đẩy xuống hồ ở chương 18–19. Chương 71 dùng biến thể tên Bạch Hoành Vũ.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        18
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 18",
+      "x": 1520,
+      "y": 2080
+    },
+    {
+      "id": "bac-ma",
+      "title": "Bác Mã",
+      "summary": "Xuất hiện từ chương 22. Đại tông sư được Nhiếp Vân gọi là bác Mã, có sức mạnh Quy Tàng; bị Thanh Sơn dùng Loạn Vũ đánh bại ở chương 22–23.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        22
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 22",
+      "x": 1900,
+      "y": 1120
+    },
+    {
+      "id": "chuot-dong",
+      "title": "Chuột Đồng",
+      "summary": "Xuất hiện từ chương 23. Mật danh người báo tin từ xa trong cuộc vây bắt Thanh Sơn ở chương 23; chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        23
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 23",
+      "x": 2240,
+      "y": 1120
+    },
+    {
+      "id": "phi-dieu",
+      "title": "Phi Điểu",
+      "summary": "Xuất hiện từ chương 23. Mật danh người báo tin từ xa trong cuộc vây bắt Thanh Sơn ở chương 23; chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        23
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 23",
+      "x": 1900,
+      "y": 1440
+    },
+    {
+      "id": "to-hung-trieu",
+      "title": "Tô Hưng Triêu",
+      "summary": "Hiện diện từ chương 25. Ông nội/gia chủ xuất hiện 25, tên riêng xác nhận 26.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        25
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 25",
+      "x": 2240,
+      "y": 1440
+    },
+    {
+      "id": "cha-to-tuyet-nhi",
+      "title": "Cha Tô Tuyết Nhi",
+      "summary": "Hiện diện từ chương 25. Không có tên riêng; nhận trách nhiệm mưu sát cùng vợ.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        25
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 25",
+      "x": 1900,
+      "y": 1760
+    },
+    {
+      "id": "gia-chu-ho-bach",
+      "title": "Gia chủ họ Bạch",
+      "summary": "Hiện diện từ chương 26. Không có tên riêng; muốn cướp thành quả nghiên cứu.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        26
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 26",
+      "x": 2240,
+      "y": 1760
+    },
+    {
+      "id": "gia-chu-ho-nhiep",
+      "title": "Gia chủ họ Nhiếp",
+      "summary": "Hiện diện từ chương 26. Không có tên riêng; muốn trả thù cháu trai.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        26
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 26",
+      "x": 1900,
+      "y": 2080
+    },
+    {
+      "id": "cong-ton-tri",
+      "title": "Công Tôn Trí",
+      "summary": "Hiện diện từ chương 28. Định Viễn tướng quân, Thái Thượng trưởng lão Thánh Đạo môn, đại tông sư trận pháp. Chương 80 xác nhận được cứu; chương 81 trao bùa liên lạc rồi trở lại tiền tuyến.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        28
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 28",
+      "x": 1900,
+      "y": -140
+    },
+    {
+      "id": "ninh-nguyet-thien",
+      "title": "Ninh Nguyệt Thiền",
+      "summary": "Được nhắc ở chương 28, xuất hiện ở chương 29. Nhắc trong lịch sử ở 28, trực tiếp ở 29; Thiên Cực thánh nữ. Được chữa cả thương tích cũ ở chương 80, mời Thanh Sơn tới Thiên Cực tông rồi về tiền tuyến ở 81.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        28
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 28",
+      "x": 2240,
+      "y": -140
+    },
+    {
+      "id": "cuu-u-ma-quan",
+      "title": "Cửu U Ma Quân",
+      "summary": "Được nhắc từ chương 28. Được nhắc trong lịch sử, lời kể truy sát và vết thương; chưa xuất hiện trực tiếp trong đoạn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        28
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 28",
+      "x": 1900,
+      "y": -460
+    },
+    {
+      "id": "su-huynh-cu-cua-ninh-nguyet-thien",
+      "title": "Sư huynh cũ của Ninh Nguyệt Thiền",
+      "summary": "Được nhắc từ chương 31. Vô danh, chỉ xuất hiện trong hồi ức; phản bội để đoạt thuốc giải.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        31
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 31",
+      "x": 2240,
+      "y": -460
+    },
+    {
+      "id": "ninh-an-nam",
+      "title": "Ninh An Nam",
+      "summary": "Được nhắc từ chương 35. Cha Ninh Nguyệt Thiền, được nêu tên trong dữ liệu kỹ năng Dạ Vũ; không trực tiếp.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        35
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 35",
+      "x": 2620,
+      "y": -140
+    },
+    {
+      "id": "thi-the-tren-tru-dong",
+      "title": "Thi thể trên trụ đồng",
+      "summary": "Hiện diện từ chương 37. Vô danh; trực tiếp nói trong ý thức Cố giữa dòng thời không. Gặp lại thần hồn Thanh Sơn ở chương 96–97, đề nghị được giải cứu và gợi ý về việc yêu ma đổi mục tiêu. Vẫn từ chối tiết lộ tên.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        37
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 37",
+      "x": 2960,
+      "y": -140
+    },
+    {
+      "id": "huy-thieu",
+      "title": "Huy thiếu",
+      "summary": "Được nhắc ở chương 40, xuất hiện ở chương 41. Được nhắc ở 40, trực tiếp 41; cậu hai nhà họ Hoàng xác nhận 43.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        40
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 40",
+      "x": 2620,
+      "y": 1120
+    },
+    {
+      "id": "ngo-thang",
+      "title": "Ngô Thắng",
+      "summary": "Hiện diện từ chương 41. Quán quân bắn cung ba lần liên tiếp, đấu thay Huy thiếu.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        41
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 41",
+      "x": 2960,
+      "y": 1120
+    },
+    {
+      "id": "doi-truong-truong",
+      "title": "Đội trưởng Trương",
+      "summary": "Hiện diện từ chương 42. Cảnh sát kiểm tra hồ sơ; không phải Trương Tông Dương.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        42
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 42",
+      "x": 2620,
+      "y": 1440
+    },
+    {
+      "id": "pho-cuc-truong-canh-sat-thu-do",
+      "title": "Phó cục trưởng Cảnh sát Thủ đô",
+      "summary": "Hiện diện từ chương 42. Vô danh; con cục trưởng, cùng nhóm Huy thiếu.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        42
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 42",
+      "x": 2960,
+      "y": 1440
+    },
+    {
+      "id": "ong-khang",
+      "title": "Ông Khang",
+      "summary": "Hiện diện từ chương 43. Ông lão đi cùng đoàn ngoại giao của Anna; chỉ nêu họ/danh xưng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        43
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 43",
+      "x": 2620,
+      "y": 1760
+    },
+    {
+      "id": "tu-than",
+      "title": "Tử Thần",
+      "summary": "Được nhắc từ chương 44. Được nhắc qua khế ước và tượng trên mặt dây chuyền, không trực tiếp hiện thân.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 2960,
+      "y": 1760
+    },
+    {
+      "id": "lanh-thien-tinh",
+      "title": "Lãnh Thiên Tinh",
+      "summary": "Hiện diện từ chương 44. Người chỉ huy nhóm tu sĩ xuất hiện chưa tên ở cuối 44; hành động rõ 45, tự giới thiệu tên 46. Chương 80 được giải nhện ma và phục hồi Kim Đan trung kỳ, sau đó trở về tiền tuyến.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 3340,
+      "y": -140
+    },
+    {
+      "id": "ngu-tien",
+      "title": "Ngũ Tiến",
+      "summary": "Hiện diện từ chương 44. Thành viên nhóm vô danh cuối 44, võ tu được mô tả 45, tên 47; chết 48.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 3680,
+      "y": -140
+    },
+    {
+      "id": "ma-luc",
+      "title": "Mã Lục",
+      "summary": "Hiện diện từ chương 44. Thành viên nhóm vô danh cuối 44, võ tu được mô tả 45, tên 47; khí đen ở 48.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 3340,
+      "y": -460
+    },
+    {
+      "id": "vuong-thanh",
+      "title": "Vương Thành",
+      "summary": "Hiện diện từ chương 44. Nhóm cuối 44; kiếm tu phân biệt rõ ở 45, tên 47; chết 48.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 3680,
+      "y": -460
+    },
+    {
+      "id": "la-tieu",
+      "title": "La Tiếu",
+      "summary": "Hiện diện từ chương 44. Nhóm cuối 44; đao khách phân biệt rõ ở 45, tên 47; chết 48.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 3340,
+      "y": -780
+    },
+    {
+      "id": "bach-hoa-master",
+      "title": "Bách Hoa Tiên Tử (Tạ Đạo Linh)",
+      "summary": "Một trong Tam Thánh, được nhắc ở chương 54; gặp qua hóa thân từ chương 56, chính thức yết kiến ở chương 62. Thanh Sơn nhận lời bái sư ở chương 65, trở thành đệ tử thứ tư ở chương 66; tên Tạ Đạo Linh được nêu tại đây. Chương 81 chính thức xếp Thanh Sơn là tam sư đệ, Tú Tú nhỏ nhất; khác với cách gọi đệ tử thứ tư ở chương 66. Soạn pháp môn riêng giúp hắn đột phá Trúc Cơ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 4060,
+      "y": -140
+    },
+    {
+      "id": "huyen-nguyen-thien-ton",
+      "title": "Huyền Nguyên Thiên Tôn",
+      "summary": "Một trong Tam Thánh, được nhắc ở chương 54; trao đổi với Bách Hoa qua bùa truyền tin ở chương 62 và nhận lời bồi thường vụ kiếm trận giả.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 4400,
+      "y": -140
+    },
+    {
+      "id": "bi-nguong-dai-su",
+      "title": "Bi Ngưỡng đại sư",
+      "summary": "Một trong Tam Thánh được cân nhắc cầu viện ở chương 54. Chưa có cuộc gặp trực tiếp với Thanh Sơn đến chương 100.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 4060,
+      "y": -460
+    },
+    {
+      "id": "dao-lu-cua-lanh-thien-tinh",
+      "title": "Đạo lữ của Lãnh Thiên Tinh",
+      "summary": "Được kể đến ở chương 55; dùng Cổ Độc Toàn Tâm Phệ Hồn Ma Chu khống chế Lãnh Thiên Tinh để kiếm tiền. Chưa nêu tên riêng.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        55
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 55",
+      "x": 4400,
+      "y": -460
+    },
+    {
+      "id": "white-goose",
+      "title": "Ngỗng Trắng (Bạch Ánh Thiên)",
+      "summary": "Xuất hiện dẫn đường từ chương 56; được xác nhận là hóa thân Bách Hoa ở chương 64–65. Đến chương 81 mới được giới thiệu tên Bạch Ánh Thiên và vai đại sư huynh. Chăm lo sư môn, giúp Thanh Sơn chuẩn bị Trúc Cơ và luyện Địa kiếm ở chương 95–100.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        56
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 56",
+      "x": 4060,
+      "y": -780
+    },
+    {
+      "id": "dai-hac-ngu",
+      "title": "Đại Hắc Ngư",
+      "summary": "Con cá bị Bách Hoa phạt vì sát hại sinh linh. Thanh Sơn và Lãnh Thiên Tinh phối hợp bắt cá trong thử thách qua sông ở chương 57.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        57
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 57",
+      "x": 4400,
+      "y": -780
+    },
+    {
+      "id": "dia-kiem",
+      "title": "Địa kiếm",
+      "summary": "Thanh Sơn chọn kiếm ở chương 63; tên Địa kiếm và kiếm linh lên tiếng ở 64. Kiếm tự phong ấn theo tu vi chủ nhân. Được dùng ở sòng bạc và dẫn Lôi điện; sau Trúc Cơ, Thanh Sơn luyện lực nặng sáu nghìn cân ở chương 100.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        63
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 63",
+      "x": 4780,
+      "y": -140
+    },
+    {
+      "id": "ta-giao",
+      "title": "Tà Giao",
+      "summary": "Yêu Thánh chặn hóa thân cứu viện của Bách Hoa ở chương 66. Bắt con gái Khổng Tước ép nàng tham chiến; bị trừng phạt qua thần kỹ Vong Xuyên.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        66
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 66",
+      "x": 5500,
+      "y": -140
+    },
+    {
+      "id": "dao-hoang",
+      "title": "Đao Hoàng",
+      "summary": "Phó soái tiền tuyến, lộ diện là nội gián ở chương 67; cùng Yêu Thánh phục kích Tạ Đạo Linh và bị thần kỹ Vong Xuyên đưa đi.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        67
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 67",
+      "x": 5840,
+      "y": -140
+    },
+    {
+      "id": "tam-muc-quy-mau",
+      "title": "Tam Mục Quỷ Mẫu",
+      "summary": "Yêu Thánh tham gia phục kích Bách Hoa, xuất hiện với tên riêng ở chương 67; thuộc nhóm chịu thần kỹ Vong Xuyên.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        67
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 67",
+      "x": 5500,
+      "y": -460
+    },
+    {
+      "id": "yeu-thanh-man-hoang",
+      "title": "Yêu Thánh Man Hoang",
+      "summary": "Yêu Thánh trong nhóm phục kích Tạ Đạo Linh ở chương 67; thuộc nhóm bị đưa xuống địa ngục ở chương 68–69.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        67
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 67",
+      "x": 5840,
+      "y": -460
+    },
+    {
+      "id": "khong-tuoc",
+      "title": "Khổng Tước",
+      "summary": "Yêu Thánh xin tha ở chương 68 vì bị Tà Giao bắt con gái ép tham chiến. Tạ Đạo Linh miễn tội cho nàng.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        68
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 68",
+      "x": 5500,
+      "y": -780
+    },
+    {
+      "id": "con-gai-khong-tuoc",
+      "title": "Con gái Khổng Tước",
+      "summary": "Được nhắc ở chương 68 như con tin của Tà Giao. Đến chương 100 chưa có tên được xác nhận; không đồng nhất với Tú Tú.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        68
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 68",
+      "x": 5840,
+      "y": -780
+    },
+    {
+      "id": "gia-chu-hoang-phu",
+      "title": "Gia chủ Hoàng phủ",
+      "summary": "Tham gia bàn bạc về công nghệ và việc sát hại Thanh Sơn cùng Cửu phủ ở chương 71; chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        71
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 71",
+      "x": 4060,
+      "y": 1120
+    },
+    {
+      "id": "chu-he-sat-thu-huyet-tinh",
+      "title": "Chú hề sát thủ Huyết Tinh",
+      "summary": "Xuất hiện từ chương 72. Sát thủ Huyết Tinh dùng đàn và Âm Chi Tỏa để khóa Tô Tuyết Nhi ở chương 72–73; chưa nêu tên riêng.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        72
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 72",
+      "x": 4400,
+      "y": 1120
+    },
+    {
+      "id": "sat-thu-bong-xam-huyet-tinh",
+      "title": "Sát thủ bóng xám Huyết Tinh",
+      "summary": "Xuất hiện từ chương 73. Sát thủ dùng dao găm, phối hợp với chú hề để đánh lén Tô Tuyết Nhi; bị Anna và Phùng Hoắc Đức ngăn chặn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        73
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 73",
+      "x": 4060,
+      "y": 1440
+    },
+    {
+      "id": "hai-duc",
+      "title": "Hải Đức",
+      "summary": "Xuất hiện cuối chương 73 dưới hình dáng lão đầu trọc; nêu tên ở chương 74. Trưởng lão Huyết Tinh, đồng thời là trưởng lão vinh dự Thánh giáo; dùng thân phận để uy hiếp Anna. Đoạn này không mô tả rõ kết cục riêng của hắn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        73
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 73",
+      "x": 4400,
+      "y": 1440
+    },
+    {
+      "id": "ta-viet",
+      "title": "Tả Việt",
+      "summary": "Xuất hiện từ chương 74. Đại tông sư Võ đạo, Xung Quyền; xuất hiện và chết trên hình ảnh chiến trường, giúp xác nhận Quy Tàng hữu hiệu.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        74
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 74",
+      "x": 4060,
+      "y": 1760
+    },
+    {
+      "id": "truong-anh-hao",
+      "title": "Trương Anh Hào",
+      "summary": "Xuất hiện và xưng tên ở chương 74. Người Trương phủ, cháu gọi Trương Tông Dương bằng bác hai, lãnh đạo Hiệp hội Thợ Săn. Kết minh với Thanh Sơn ở 85, giúp tìm vật liệu bằng thú triệu hồi, nhận quản lý sòng bạc ở 92 rồi đi cứu em gái ở 93.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        74
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 74",
+      "x": 4400,
+      "y": 1760
+    },
+    {
+      "id": "sai-lang",
+      "title": "Sài Lang",
+      "summary": "Xuất hiện và được gọi tên ở chương 75. Sát thủ chủ chốt của Huyết Tinh, bị Thanh Sơn dùng Địa kiếm giết ở chương 76.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        75
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 75",
+      "x": 4060,
+      "y": 2080
+    },
+    {
+      "id": "truong-hanh-chi",
+      "title": "Trương Hành Chỉ",
+      "summary": "Xuất hiện từ chương 77. Gia chủ Trương phủ, tên hiện trên quang não và đối thoại trực tiếp từ xa với Tô Hưng Triều.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        77
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 77",
+      "x": 4400,
+      "y": 2080
+    },
+    {
+      "id": "ly-dong",
+      "title": "Lý Đồng",
+      "summary": "Xuất hiện từ chương 78. Bạn học Tuyết Nhi, phản đối Minh Nguyệt cố làm khó Thanh Sơn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        78
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 78",
+      "x": 4060,
+      "y": 2400
+    },
+    {
+      "id": "ton-minh-nguyet",
+      "title": "Tôn Minh Nguyệt",
+      "summary": "Xuất hiện từ chương 78. Bạn học Tuyết Nhi, thử gây khó cho Thanh Sơn ở chương 79 rồi xin lỗi.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        78
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 78",
+      "x": 4400,
+      "y": 2400
+    },
+    {
+      "id": "tan-tieu-lau",
+      "title": "Tần Tiểu Lâu",
+      "summary": "Xuất hiện và xưng tên ở chương 81. Nhị sư huynh Bách Hoa, Trọc Lãng công tử, tinh thông lục nghệ và linh thực. Dẫn Thanh Sơn tìm vật liệu, tặng thuật ôn dưỡng; dựng 71 trận hộ pháp ở 96. Sau khi thua so chiêu ở 100, quyết chuyên tâm tu hành.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        81
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 81",
+      "x": 6220,
+      "y": -140
+    },
+    {
+      "id": "tu-tu",
+      "title": "Tú Tú",
+      "summary": "Xuất hiện ở chương 81, cùng Thanh Sơn chính thức nhập môn và được xếp là tiểu sư muội. Chương 83 kể cô từng chịu giam cầm, tổn thương giác quan để giữ bí mật cho Bách Hoa; các sư huynh chăm sóc cô. Giúp chuẩn bị vật liệu đột phá ở 96; chưa nêu họ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        81
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 81",
+      "x": 6560,
+      "y": -140
+    },
+    {
+      "id": "hu-anh-trong-kiem-sut",
+      "title": "Hư ảnh trong kiếm sứt",
+      "summary": "Hư ảnh thuộc Hoàng Tuyền chủng trong kho Bách Hoa, giả xưng tiền bối để đoạt xác ở chương 82. Chưa có tên riêng được xác nhận; không đồng nhất với Tiên Vương từng được nhắc ở chương 12.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        82
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 82",
+      "x": 6220,
+      "y": -460
+    },
+    {
+      "id": "cha-tu-tu",
+      "title": "Cha Tú Tú",
+      "summary": "Chưởng môn cũ, chỉ được nhắc trong chuyện Ngỗng Trắng kể về quá khứ Tú Tú ở chương 83. Chưa nêu tên riêng.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        83
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 83",
+      "x": 6560,
+      "y": -460
+    },
+    {
+      "id": "meo-mun",
+      "title": "Mèo mun",
+      "summary": "Thú được Trương Anh Hào triệu hồi bằng Thiên Tuyển kỹ ở chương 85. Ăn lòng đỏ trứng rồi dẫn đường tìm vật phẩm; được gọi tiếp để tìm em gái Anh Hào ở chương 93.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        85
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 85",
+      "x": 4780,
+      "y": 1120
+    },
+    {
+      "id": "doc-co-quynh",
+      "title": "Độc Cô Quỳnh",
+      "summary": "Xuất hiện và nêu tên qua danh thiếp ở chương 86. Đại sư binh khí thuộc tập đoàn Sạn Đạo của Phục Hy; quan sát Thanh Sơn ở sòng bạc, trao đổi liên lạc với hắn ở 89.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        86
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 86",
+      "x": 5120,
+      "y": 1120
+    },
+    {
+      "id": "chu-khai-vu",
+      "title": "Chu Khai Vũ",
+      "summary": "Xuất hiện chưa tên như Võ tôn đưa con mồi ra hồ ở chương 86; được xác nhận là chủ sòng bạc ở 89, nêu tên trong phán quyết ở 90. Quỵt giải thưởng và đe dọa khách, bị Nữ Thần Công Chính điều quân bắt ở 91.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        86
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 86",
+      "x": 4780,
+      "y": 1440
+    },
+    {
+      "id": "lao-ton",
+      "title": "Lão Tôn",
+      "summary": "Đội trưởng robot cảnh giới xuất hiện ở chương 91, quen Chu Khai Vũ nhưng đến thi hành lệnh. Chỉ biết danh xưng; không phải Đội trưởng Trương ở chương 42.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        91
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 91",
+      "x": 5500,
+      "y": 1120
+    },
+    {
+      "id": "tuan-loc-dong-hoang",
+      "title": "Tuần lộc đồng hoang",
+      "summary": "Thú triệu hồi màu nâu, cổ đeo lục lạc, chạy trên không. Xuất hiện ở chương 93 và chở Trương Anh Hào đi cứu em gái.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        93
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 93",
+      "x": 5840,
+      "y": 1120
+    },
+    {
+      "id": "em-gai-truong-anh-hao",
+      "title": "Em gái Trương Anh Hào",
+      "summary": "Được nhắc ở chương 93 khi Anh Hào nhận cảnh báo dịch bệnh và lập tức đi tìm. Chưa nêu tên, chưa xuất hiện trực tiếp hoặc xác nhận kết quả cứu trong phạm vi đến chương 100.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        93
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 93",
+      "x": 5500,
+      "y": 1440
+    },
+    {
+      "id": "me-anna",
+      "title": "Mẹ Anna",
+      "summary": "Được nhắc trong suy nghĩ của Anna ở chương 95; đã qua đời khi cô còn nhỏ. Chưa nêu tên riêng, không xuất hiện trực tiếp trong đoạn này.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        95
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 95",
+      "x": 5840,
+      "y": 1440
+    }
+  ],
+  "links": [
+    {
+      "source": "hero",
+      "target": "awakening",
+      "label": "Tu Hành",
+      "timeline": true,
+      "fork": true
+    },
+    {
+      "source": "awakening",
+      "target": "training",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "training",
+      "target": "rescue",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "rescue",
+      "target": "than-vo",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "than-vo",
+      "target": "sword",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "sword",
+      "target": "bach-hoa",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "bach-hoa",
+      "target": "apprenticeship",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "apprenticeship",
+      "target": "saints",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "saints",
+      "target": "sect-family",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "sect-family",
+      "target": "foundation",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "hero",
+      "target": "truong-da-trap",
+      "label": "Thế giới thực",
+      "timeline": true,
+      "fork": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "anna",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "anna",
+      "target": "impartial-goddess",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "archery",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "archery",
+      "target": "sea",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "sea",
+      "target": "upgrade",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "upgrade",
+      "target": "cosmic-search",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "cosmic-search",
+      "target": "outbreak",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "awakening",
+      "target": "trieu-luc",
+      "label": "Giới thiệu · Chương 1",
+      "introduction": true
+    },
+    {
+      "source": "awakening",
+      "target": "bac-bi-huyet-ma",
+      "label": "Giới thiệu · Chương 1",
+      "introduction": true
+    },
+    {
+      "source": "awakening",
+      "target": "ma-chu",
+      "label": "Giới thiệu · Chương 1",
+      "introduction": true
+    },
+    {
+      "source": "awakening",
+      "target": "vuong-tien",
+      "label": "Giới thiệu · Chương 3",
+      "introduction": true
+    },
+    {
+      "source": "awakening",
+      "target": "truong-khoat",
+      "label": "Giới thiệu · Chương 3",
+      "introduction": true
+    },
+    {
+      "source": "awakening",
+      "target": "truong-vu",
+      "label": "Giới thiệu · Chương 4",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "truong-da",
+      "label": "Giới thiệu · Chương 4",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "to-tuyet-nhi",
+      "label": "Giới thiệu · Chương 4",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "ta-suong-nhan",
+      "label": "Giới thiệu · Chương 5",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "to-di",
+      "label": "Giới thiệu · Chương 5",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "ly-gia-gia",
+      "label": "Giới thiệu · Chương 5",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "nhiep-van",
+      "label": "Giới thiệu · Chương 7",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "hung-ho",
+      "label": "Giới thiệu · Chương 7",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "vuong-minh",
+      "label": "Giới thiệu · Chương 7",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "phung-hoac-duc",
+      "label": "Giới thiệu · Chương 8",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "anna-character",
+      "label": "Giới thiệu · Chương 8",
+      "introduction": true
+    },
+    {
+      "source": "training",
+      "target": "vo-dien-cu-nhan",
+      "label": "Giới thiệu · Chương 12",
+      "introduction": true
+    },
+    {
+      "source": "training",
+      "target": "tien-vuong",
+      "label": "Giới thiệu · Chương 12",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "impartial-goddess-character",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "truong-tong-duong",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "ly-dong-nguyen",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "tong-thien-vu",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "tong-thong-lien-bang",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "hoang-de-sanorlanka",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "to-phu-nhan",
+      "label": "Giới thiệu · Chương 18",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "bach-hong-vu",
+      "label": "Giới thiệu · Chương 18",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "bac-ma",
+      "label": "Giới thiệu · Chương 22",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "chuot-dong",
+      "label": "Giới thiệu · Chương 23",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "phi-dieu",
+      "label": "Giới thiệu · Chương 23",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "to-hung-trieu",
+      "label": "Giới thiệu · Chương 25",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "cha-to-tuyet-nhi",
+      "label": "Giới thiệu · Chương 25",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "gia-chu-ho-bach",
+      "label": "Giới thiệu · Chương 26",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "gia-chu-ho-nhiep",
+      "label": "Giới thiệu · Chương 26",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "cong-ton-tri",
+      "label": "Giới thiệu · Chương 28",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "ninh-nguyet-thien",
+      "label": "Giới thiệu · Chương 28",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "cuu-u-ma-quan",
+      "label": "Giới thiệu · Chương 28",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "su-huynh-cu-cua-ninh-nguyet-thien",
+      "label": "Giới thiệu · Chương 31",
+      "introduction": true
+    },
+    {
+      "source": "than-vo",
+      "target": "ninh-an-nam",
+      "label": "Giới thiệu · Chương 35",
+      "introduction": true
+    },
+    {
+      "source": "than-vo",
+      "target": "thi-the-tren-tru-dong",
+      "label": "Giới thiệu · Chương 37",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "huy-thieu",
+      "label": "Giới thiệu · Chương 40",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "ngo-thang",
+      "label": "Giới thiệu · Chương 41",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "doi-truong-truong",
+      "label": "Giới thiệu · Chương 42",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "pho-cuc-truong-canh-sat-thu-do",
+      "label": "Giới thiệu · Chương 42",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "ong-khang",
+      "label": "Giới thiệu · Chương 43",
+      "introduction": true
+    },
+    {
+      "source": "archery",
+      "target": "tu-than",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "lanh-thien-tinh",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "ngu-tien",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "ma-luc",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "vuong-thanh",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "la-tieu",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "bach-hoa-master",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "huyen-nguyen-thien-ton",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "bi-nguong-dai-su",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "dao-lu-cua-lanh-thien-tinh",
+      "label": "Giới thiệu · Chương 55",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "white-goose",
+      "label": "Giới thiệu · Chương 56",
+      "introduction": true
+    },
+    {
+      "source": "bach-hoa",
+      "target": "dai-hac-ngu",
+      "label": "Giới thiệu · Chương 57",
+      "introduction": true
+    },
+    {
+      "source": "apprenticeship",
+      "target": "dia-kiem",
+      "label": "Giới thiệu · Chương 63",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "ta-giao",
+      "label": "Giới thiệu · Chương 66",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "dao-hoang",
+      "label": "Giới thiệu · Chương 67",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "tam-muc-quy-mau",
+      "label": "Giới thiệu · Chương 67",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "yeu-thanh-man-hoang",
+      "label": "Giới thiệu · Chương 67",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "khong-tuoc",
+      "label": "Giới thiệu · Chương 68",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "con-gai-khong-tuoc",
+      "label": "Giới thiệu · Chương 68",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "gia-chu-hoang-phu",
+      "label": "Giới thiệu · Chương 71",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "chu-he-sat-thu-huyet-tinh",
+      "label": "Giới thiệu · Chương 72",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "sat-thu-bong-xam-huyet-tinh",
+      "label": "Giới thiệu · Chương 73",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "hai-duc",
+      "label": "Giới thiệu · Chương 73",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "ta-viet",
+      "label": "Giới thiệu · Chương 74",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "truong-anh-hao",
+      "label": "Giới thiệu · Chương 74",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "sai-lang",
+      "label": "Giới thiệu · Chương 75",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "truong-hanh-chi",
+      "label": "Giới thiệu · Chương 77",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "ly-dong",
+      "label": "Giới thiệu · Chương 78",
+      "introduction": true
+    },
+    {
+      "source": "upgrade",
+      "target": "ton-minh-nguyet",
+      "label": "Giới thiệu · Chương 78",
+      "introduction": true
+    },
+    {
+      "source": "sect-family",
+      "target": "tan-tieu-lau",
+      "label": "Giới thiệu · Chương 81",
+      "introduction": true
+    },
+    {
+      "source": "sect-family",
+      "target": "tu-tu",
+      "label": "Giới thiệu · Chương 81",
+      "introduction": true
+    },
+    {
+      "source": "sect-family",
+      "target": "hu-anh-trong-kiem-sut",
+      "label": "Giới thiệu · Chương 82",
+      "introduction": true
+    },
+    {
+      "source": "sect-family",
+      "target": "cha-tu-tu",
+      "label": "Giới thiệu · Chương 83",
+      "introduction": true
+    },
+    {
+      "source": "cosmic-search",
+      "target": "meo-mun",
+      "label": "Giới thiệu · Chương 85",
+      "introduction": true
+    },
+    {
+      "source": "cosmic-search",
+      "target": "doc-co-quynh",
+      "label": "Giới thiệu · Chương 86",
+      "introduction": true
+    },
+    {
+      "source": "cosmic-search",
+      "target": "chu-khai-vu",
+      "label": "Giới thiệu · Chương 86",
+      "introduction": true
+    },
+    {
+      "source": "outbreak",
+      "target": "lao-ton",
+      "label": "Giới thiệu · Chương 91",
+      "introduction": true
+    },
+    {
+      "source": "outbreak",
+      "target": "tuan-loc-dong-hoang",
+      "label": "Giới thiệu · Chương 93",
+      "introduction": true
+    },
+    {
+      "source": "outbreak",
+      "target": "em-gai-truong-anh-hao",
+      "label": "Giới thiệu · Chương 93",
+      "introduction": true
+    },
+    {
+      "source": "outbreak",
+      "target": "me-anna",
+      "label": "Giới thiệu · Chương 95",
+      "introduction": true
+    }
+  ]
+}

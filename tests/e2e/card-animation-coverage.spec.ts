@@ -7,7 +7,7 @@ import { indexCharacterCards } from "../../lib/wiki/character-guide";
 
 test("every synchronized animation decodes a real frame in the browser", async ({ page }) => {
   test.setTimeout(120_000);
-  await page.goto("/combatant/nia");
+  await page.goto("/czn/combatant/nia");
   const paths = Object.values(manifest.cards).filter(item => item.status === "available").map(item => item.localUrl);
   expect(paths).toHaveLength(168);
   const failures = await page.evaluate(async paths => {
@@ -41,7 +41,7 @@ for (const id of ["1041", "1027", "1062"]) {
   const detail = characterDetails[id];
   const guide = characterGuides[id];
   test(`${detail.name} plays animation in Card and Deck tabs`, async ({ page }) => {
-    await page.goto(`/combatant/${combatantSlug(detail)}`);
+    await page.goto(`/czn/combatant/${combatantSlug(detail)}`);
     await page.getByRole("checkbox", { name: "Ảnh động" }).check();
     const cards = indexCharacterCards(detail, guide.extraCards);
     const animated = [...cards.values()].find(card => card.video && detail.sparkCards.some(base => base.id === card.id))!;

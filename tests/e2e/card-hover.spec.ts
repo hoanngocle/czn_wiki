@@ -8,7 +8,7 @@ async function hoverAt(page: Page, card: Locator, x: number, y: number) {
 }
 
 test("stationary pointer keeps the same tilt after the card rotates", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   const card = page.getByRole("button", { name: "Black Veil card", exact: true });
   await card.scrollIntoViewIfNeeded();
@@ -28,7 +28,7 @@ test("stationary pointer keeps the same tilt after the card rotates", async ({ p
 });
 
 test("card hover stays enabled when artwork animation is off", async ({ page }, testInfo) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const card = page.getByRole("button", { name: "Dirge Bullet card", exact: true });
   const animation = page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ });
   await animation.check();
@@ -77,7 +77,7 @@ test("card hover stays enabled when artwork animation is off", async ({ page }, 
 });
 
 test("enlarged detail cards retain pointer tilt instead of a CSS lift", async ({ page }, testInfo) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).uncheck();
   await page.getByRole("button", { name: "Dirge Bullet card", exact: true }).click();
   const card = page.getByRole("dialog").locator('button[data-animation="false"]').first();

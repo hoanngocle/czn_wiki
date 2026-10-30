@@ -1,0 +1,774 @@
+{
+  "source": "Chu Gioi Tan The Online - Yen Hoa Thanh Thanh.epub",
+  "scope": {
+    "from": 82,
+    "to": 91,
+    "full_chapters_read": 10,
+    "read_beyond_scope": false
+  },
+  "method": "Đọc toàn văn bằng Python UTF-8, zipfile và HTMLParser theo năm lô hai chương; không lượt nào bị cắt. Kiểm tra số chương qua đường dẫn và tiêu đề chính. Không ghi bản chép toàn văn vào kho mã.",
+  "character_presence_convention": "direct = hiện diện trực tiếp, gồm giao tiếp từ xa đang diễn ra; mention = chỉ nhắc/hồi kể; direct_and_name_reveal = trực tiếp và tên được xác nhận trong chương. first_chapter_within_range không tự khẳng định lần đầu toàn truyện.",
+  "chapters": [
+    {
+      "chapter": 82,
+      "title": "Tuyển chọn",
+      "realms": [
+        "cultivation"
+      ],
+      "summary": "Tần Tiểu Lâu dẫn Thanh Sơn đến kho thi thể yêu ma của tông môn. Hắn thu đủ bốn chủng vật liệu cho nhiệm vụ thần thông, chỉ thiếu Vũ Trụ chủng, rồi chứng kiến sư huynh thay Ngỗng Trắng chọn người vào Bách Hoa bảng bằng đề làm mình vui.",
+      "actions": [
+        "Nhận lời cùng Tú Tú dự Tuế thí.",
+        "Thu kiếm chứa hồn đoạt xác, móng giao long hai sừng, đầu quái mười mắt và mảnh xác phủ mây."
+      ],
+      "outcomes": [
+        "Có Hoàng Tuyền, Hỗn Loạn, Thâm Uyên và Hỗn Độn Vị Tri chủng; Vũ Trụ chủng phải tìm ở hiện thực."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Tần Tiểu Lâu",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Tú Tú",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Bạch Ánh Thiên",
+          "presence": "mention",
+          "notes": "Tên Ngỗng Trắng được Tần Tiểu Lâu nói ở cuối chương; không thêm nhân vật riêng.",
+          "existing_id": "white-goose"
+        },
+        {
+          "name": "Bách Hoa Tiên Tử",
+          "presence": "mention",
+          "existing_id": "bach-hoa-master"
+        },
+        {
+          "name": "Hư ảnh trong kiếm sứt",
+          "presence": "direct",
+          "notes": "Tự xưng Tiên Vương ba nghìn năm trước nhưng đang dùng pháp ấn đoạt xác; không đồng nhất với Tiên Vương đã nhắc ở chương 12."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0082.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7693
+    },
+    {
+      "chapter": 83,
+      "title": "Điện phong lan",
+      "realms": [
+        "cultivation"
+      ],
+      "summary": "Ngỗng Trắng kể việc Tú Tú chịu giam cầm và mất giác quan nhiều năm để giữ bí mật cho Bách Hoa, khiến Thanh Sơn quyết tâm chăm sóc sư muội. Hắn nhận điện Phong Lan cùng vật tư tu hành rồi dự bữa cơm chào mừng tại cung Dao Hoa.",
+      "actions": [
+        "Ngỗng Trắng dẫn Thanh Sơn đến chỗ ở và giải thích mong muốn các đệ tử đùm bọc nhau.",
+        "Các sư huynh muội tụ họp ăn mừng nhập tông."
+      ],
+      "outcomes": [
+        "Thanh Sơn hiểu tổn thương chưa lành của Tú Tú và cảm nhận tông môn như một mái nhà."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Ngỗng Trắng / Bạch Ánh Thiên",
+          "presence": "direct",
+          "existing_id": "white-goose"
+        },
+        {
+          "name": "Tần Tiểu Lâu",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Tú Tú",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Bách Hoa Tiên Tử",
+          "presence": "mention",
+          "notes": "Được kể trong quá khứ; Thanh Sơn nhận biết Ngỗng Trắng hiện tại là hóa thân của sư tôn.",
+          "existing_id": "bach-hoa-master"
+        },
+        {
+          "name": "Cha Tú Tú / chưởng môn cũ",
+          "presence": "mention",
+          "notes": "Chỉ kể là cha Tú Tú và chưởng môn lúc sơn môn bị diệt; không có tên."
+        },
+        {
+          "name": "Kẻ thù cũ của Bách Hoa",
+          "presence": "mention",
+          "notes": "Kẻ truy sát, bắt giữ Tú Tú rồi bị Bách Hoa giết trong lời kể; chưa nêu tên."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0083.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7830
+    },
+    {
+      "chapter": 84,
+      "title": "Tiến vào",
+      "realms": [
+        "cultivation"
+      ],
+      "summary": "Trong bữa cơm tông môn, Thanh Sơn pha rượu và học Linh Lực Cách Không Ôn Dưỡng pháp từ thẻ ngọc Tần Tiểu Lâu trước khi Ngỗng Trắng thu lại. Vì Tú Tú chưa thể uống rượu, hắn dạy ép linh quả lấy nước để cô bé cùng nâng ly với mọi người.",
+      "actions": [
+        "Tiêu một điểm hồn lực học thuật pháp ôn dưỡng.",
+        "Pha nước trái cây cho Tú Tú và dạy cô bé tự làm."
+      ],
+      "outcomes": [
+        "Quan hệ giữa các đồng môn trở nên gần gũi; Tú Tú vui vẻ mời Thanh Sơn tới điện Quỳnh Hoa."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Tần Tiểu Lâu",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Tú Tú",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Ngỗng Trắng / Bạch Ánh Thiên",
+          "presence": "direct",
+          "existing_id": "white-goose"
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0084.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7865
+    },
+    {
+      "chapter": 85,
+      "title": "Mèo mun",
+      "realms": [
+        "cultivation",
+        "reality"
+      ],
+      "summary": "Sau bữa tiệc, Thanh Sơn trở về hiện thực và nộp bốn vật liệu vào vòng quay thần thông. Hắn nhờ Trương Anh Hào tìm thi thể quái vật vũ trụ, đổi lại quan hệ đồng minh; Anh Hào dùng Thiên Tuyển kỹ gọi được mèo mun sau vài lần tìm nhầm.",
+      "actions": [
+        "Trở lại con hẻm sau một giờ hiện thực.",
+        "Đề xuất hai cách trả ơn và bắt tay hợp tác lâu dài với Anh Hào.",
+        "Anh Hào mở lỗ dưới đất, lần lượt gặp gà đen, con mắt lớn rồi gọi mèo mun."
+      ],
+      "outcomes": [
+        "Bốn ô thần thông được lấp; ô Vũ Trụ chủng còn trống.",
+        "Quan hệ cộng sự được xác lập."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Tần Tiểu Lâu",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Tú Tú",
+          "presence": "direct",
+          "notes": "Không có trong danh mục 1–71; cần đối chiếu chương 72–81 trước khi xác định lần đầu toàn truyện."
+        },
+        {
+          "name": "Ngỗng Trắng / Bạch Ánh Thiên",
+          "presence": "direct",
+          "existing_id": "white-goose"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Tô Hưng Triêu",
+          "presence": "mention",
+          "notes": "Ông Tô đang tức giận; thông tin về biến động Cửu phủ.",
+          "existing_id": "to-hung-trieu"
+        },
+        {
+          "name": "Bác cả Trương Anh Hào",
+          "presence": "mention",
+          "notes": "Ủng hộ phía nhà Tô; không xác nhận tên ở chương này."
+        },
+        {
+          "name": "Sài Lang",
+          "presence": "mention",
+          "notes": "Nhắc việc bị Thanh Sơn giết trước đây; đối chiếu 72–81."
+        },
+        {
+          "name": "Mèo mun",
+          "presence": "direct"
+        },
+        {
+          "name": "Gà trống đen",
+          "presence": "direct"
+        },
+        {
+          "name": "Sinh vật có con mắt dựng thẳng",
+          "presence": "direct",
+          "notes": "Chỉ lộ con mắt lớn hơn lỗ triệu gọi; Anh Hào gọi là lão đại."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0085.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7790
+    },
+    {
+      "chapter": 86,
+      "title": "Sòng bạc",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Sau khi được cho ăn lòng đỏ trứng, mèo mun dẫn hai người đến nơi cất xác quái vật vũ trụ. Họ bỏ qua Bộ Khoa học Kỹ thuật, vào sòng bạc có trò cược mạng người; Thanh Sơn gặp Độc Cô Quỳnh và đặt toàn bộ thẻ vào khả năng con mồi sống qua ba phút.",
+      "actions": [
+        "Đổi điểm công huân thành thẻ và xuống khu hồ tầng âm 70.",
+        "Biết giải lớn cho lựa chọn xác quái vật vũ trụ hoặc một người kỳ quái.",
+        "Vô ý khiến Độc Cô Quỳnh sợ rồi dùng thuật ôn dưỡng để trấn an."
+      ],
+      "outcomes": [
+        "Tìm được địa điểm có Vũ Trụ chủng nhưng phải vượt trò cá cược.",
+        "Nhận danh thiếp Độc Cô Quỳnh, tập đoàn binh khí Sạn Đạo thuộc Phục Hy."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Mèo mun",
+          "presence": "direct"
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct_and_name_reveal",
+          "notes": "Xuất hiện là nữ khách trước khi danh thiếp xác nhận tên."
+        },
+        {
+          "name": "Võ tôn đưa con mồi ra hồ",
+          "presence": "direct",
+          "notes": "Được chương 89 xác nhận chính là chủ sòng bạc; tên Chu Khai Vũ lộ ở 90."
+        },
+        {
+          "name": "Người đàn ông làm con mồi",
+          "presence": "direct",
+          "notes": "Bị đặt trên bè, bị khách ném dao vào chân; chưa có tên."
+        },
+        {
+          "name": "Người đàn ông trung niên đi cùng Độc Cô Quỳnh",
+          "presence": "direct",
+          "notes": "Ném máu xuống hồ; chương 88 xác nhận là thuộc hạ của cô."
+        },
+        {
+          "name": "Bồi bàn dẫn hai người",
+          "presence": "direct",
+          "notes": "Nhân viên giải thích luật cược; không có tên."
+        },
+        {
+          "name": "Nữ Thần Công Chính",
+          "presence": "mention",
+          "notes": "Được nhắc trong hệ thống bảo vệ Bộ Khoa học Kỹ thuật.",
+          "existing_id": "impartial-goddess-character"
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0086.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 15665
+    },
+    {
+      "chapter": 87,
+      "title": "Bắn lệch",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Thanh Sơn bắn chết cá sấu trước khi nó ăn người trên bè. Sòng bạc bác khoản thắng và buộc hắn tự xuống hồ nếu muốn nhận giải; hắn đồng ý giao toàn bộ thẻ để đổi phần thưởng, rồi bước vào lượt đấu với ba cá sấu.",
+      "actions": [
+        "Dùng một mũi tên giết cá sấu, viện quy tắc chỉ cấm giết con mồi.",
+        "Thỏa thuận tự lên sân và bỏ tiền thắng để tránh đối phương hủy vật liệu cần tìm."
+      ],
+      "outcomes": [
+        "Người trên bè được cứu khỏi đòn cắn.",
+        "Thanh Sơn xuống hồ; lượt thử mới chưa diễn ra trong chương này."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct"
+        },
+        {
+          "name": "Người đàn ông làm con mồi",
+          "presence": "direct"
+        },
+        {
+          "name": "Bồi bàn dẫn hai người",
+          "presence": "direct"
+        },
+        {
+          "name": "Chủ sòng bạc",
+          "presence": "mention",
+          "notes": "Chỉ truyền quyết định qua bồi bàn."
+        },
+        {
+          "name": "Khách vạm vỡ ném dao",
+          "presence": "direct",
+          "notes": "Khách vô danh đã ném dao ghim chân con mồi."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0087.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7870
+    },
+    {
+      "chapter": 88,
+      "title": "Tự mình",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Anh Hào cược lớn vào việc Thanh Sơn sống sót, còn Độc Cô Quỳnh sang ngồi cùng và tìm hiểu hắn. Lời kể giải thích thuật ôn dưỡng đã vô tình tạo ấn tượng mạnh với cô; lúc ba cự thú được thả ra, Nữ Thần Công Chính tự kết nối để quan sát.",
+      "actions": [
+        "Anh Hào giới thiệu tên mình và Thanh Sơn cho Độc Cô Quỳnh.",
+        "Nữ Thần Công Chính mở kết nối quang não ngay trước lúc tính giờ."
+      ],
+      "outcomes": [
+        "Độc Cô Quỳnh biết hai người là cộng sự và càng quan tâm Thanh Sơn.",
+        "Nữ Thần Công Chính theo dõi trực tiếp lượt cược."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct"
+        },
+        {
+          "name": "Nữ Thần Công Chính",
+          "presence": "direct",
+          "notes": "Giao tiếp trực tiếp qua quang não.",
+          "existing_id": "impartial-goddess-character"
+        },
+        {
+          "name": "Tần Tiểu Lâu",
+          "presence": "mention",
+          "notes": "Lời kể giải thích cách hắn dùng thuật ôn dưỡng để gây thiện cảm."
+        },
+        {
+          "name": "Ngỗng Trắng",
+          "presence": "mention",
+          "notes": "Giải thích vì sao thu lại thẻ ngọc ở chương 84.",
+          "existing_id": "white-goose"
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0088.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7703
+    },
+    {
+      "chapter": 89,
+      "title": "Hòa khí sinh tài",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Thanh Sơn dùng mặt Địa kiếm đánh bay hai cá sấu, khiến con còn lại bỏ chạy mà không giết chúng. Trở lên bờ, hắn trao đổi liên lạc với đại sư binh khí Độc Cô Quỳnh rồi chờ chủ sòng bạc; Võ tôn từng đưa con mồi ra hồ được xác nhận là người chủ đó.",
+      "actions": [
+        "Dùng Địa kiếm ba mươi nghìn cân khống chế cự thú để giữ hòa khí.",
+        "Trao đổi cách liên lạc với Độc Cô Quỳnh.",
+        "Chủ sòng bạc mời Quỳnh xem năng lực để đặt chế tạo một bộ binh khí."
+      ],
+      "outcomes": [
+        "Thanh Sơn vượt lượt thử với ba cự thú.",
+        "Hai người vẫn phải chờ giao phần thưởng; chủ sòng bạc đợi khách về hết."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct"
+        },
+        {
+          "name": "Địa kiếm",
+          "presence": "direct",
+          "notes": "Xuất hiện dưới dạng vũ khí; kiếm linh không nói.",
+          "existing_id": "dia-kiem"
+        },
+        {
+          "name": "Chủ sòng bạc / Võ tôn",
+          "presence": "direct",
+          "notes": "Xác nhận cùng người Võ tôn đã xuất hiện tại hồ ở chương 86; chưa lộ tên."
+        },
+        {
+          "name": "Bồi bàn trung niên",
+          "presence": "direct",
+          "notes": "Văn bản nói rõ khác bồi bàn trước đó."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0089.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7731
+    },
+    {
+      "chapter": 90,
+      "title": "Mở phiên toà",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Chủ sòng bạc quỵt giải thưởng và đe dọa hai người, nhưng Thanh Sơn rời đi khi nhận tin từ Nữ Thần Công Chính. Nàng mở phiên xử khoản nợ cá cược, nêu tên chủ sòng bạc là Chu Khai Vũ và cho Thanh Sơn chọn tài sản bồi thường; hắn nhận tầng trên cùng rồi yêu cầu phá bỏ.",
+      "actions": [
+        "Nhận thẻ VIP nhưng tiếp tục yêu cầu giao phần thưởng đã thắng.",
+        "Theo đề nghị Nữ Thần Công Chính rời sòng bạc thay vì đánh nhau.",
+        "Chọn tầng trên cùng trong danh sách tài sản bị cưỡng chế."
+      ],
+      "outcomes": [
+        "Nữ Thần Công Chính xác định khoản nợ 200 tỷ điểm tín dụng.",
+        "Tầng cao nhất chuyển quyền sở hữu và bắt đầu bị phá dỡ; Chu Khai Vũ nhận phán quyết."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct"
+        },
+        {
+          "name": "Nữ Thần Công Chính",
+          "presence": "direct",
+          "notes": "Giao tiếp trực tiếp qua quang não.",
+          "existing_id": "impartial-goddess-character"
+        },
+        {
+          "name": "Chu Khai Vũ",
+          "presence": "direct_and_name_reveal",
+          "notes": "Tên được Nữ Thần Công Chính công bố trong phán quyết; đã trực tiếp xuất hiện từ 86."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0090.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7862
+    },
+    {
+      "chapter": 91,
+      "title": "Luật pháp",
+      "realms": [
+        "reality"
+      ],
+      "summary": "Tầng cao nhất bị phá khiến Chu Khai Vũ nổi giận tấn công và bị Anh Hào bắn chặn. Nữ Thần Công Chính tước quyền bảo lãnh, công bố các vi phạm sòng bạc rồi điều năm Võ tôn quân đội bắt hắn; nàng đề nghị Thanh Sơn nhận cả cao ốc để trừ nợ.",
+      "actions": [
+        "Anh Hào dùng pháo đặc chiến thực nghiệm ngăn Chu Khai Vũ.",
+        "Cảnh sát tới; Nữ Thần Công Chính điều quân sau khi xác định hành vi tấn công quý tộc và Lãnh tụ tối cao.",
+        "Năm quân nhân khống chế Chu Khai Vũ và đưa lên chiến hạm."
+      ],
+      "outcomes": [
+        "Chu Khai Vũ bị bắt; sòng bạc ngừng hoạt động.",
+        "Cao ốc được định giá 63 tỷ; chương kết thúc ở câu hỏi nhận tài sản, chưa có câu trả lời."
+      ],
+      "characterReferences": [
+        {
+          "name": "Cố Thanh Sơn",
+          "presence": "direct"
+        },
+        {
+          "name": "Trương Anh Hào",
+          "presence": "direct",
+          "notes": "Đã quen Thanh Sơn trước chương 85; đối chiếu chương 72–81."
+        },
+        {
+          "name": "Độc Cô Quỳnh",
+          "presence": "direct"
+        },
+        {
+          "name": "Chu Khai Vũ",
+          "presence": "direct"
+        },
+        {
+          "name": "Nữ Thần Công Chính",
+          "presence": "direct",
+          "notes": "Giao tiếp trực tiếp qua quang não.",
+          "existing_id": "impartial-goddess-character"
+        },
+        {
+          "name": "Lão Tôn",
+          "presence": "direct_and_name_reveal",
+          "notes": "Đội trưởng robot cảnh giới, quen đánh bài với Chu Khai Vũ; không nêu tên đầy đủ."
+        },
+        {
+          "name": "Tổ thứ ba đại đội cảnh vệ đặc chiến",
+          "presence": "direct",
+          "notes": "Năm quân nhân đều là Võ tôn; chỉ huy không nêu tên."
+        }
+      ],
+      "source_entry": "OEBPS/html/chuong-0091.html",
+      "full_text_read": true,
+      "source_text_characters_including_navigation": 7952
+    }
+  ],
+  "new_entity_registry": [
+    {
+      "name": "Hư ảnh trong kiếm sứt",
+      "first_chapter_within_range": 82,
+      "first_direct_appearance_within_range": 82,
+      "realm": "cultivation",
+      "status": "new_unnamed_entity",
+      "catalog_recommendation": "optional",
+      "notes": "Hoàng Tuyền chủng, giả làm tiền bối để đoạt xác. Không ghép với Tiên Vương chương 12; chưa có tên riêng."
+    },
+    {
+      "name": "Cha Tú Tú / chưởng môn cũ",
+      "first_chapter_within_range": 83,
+      "realm": "cultivation",
+      "status": "mention_only",
+      "catalog_recommendation": "optional",
+      "notes": "Chỉ trong chuyện Ngỗng Trắng kể; không khẳng định mới toàn truyện trước khi đối chiếu 72–81."
+    },
+    {
+      "name": "Kẻ thù cũ của Bách Hoa",
+      "first_chapter_within_range": 83,
+      "realm": "cultivation",
+      "status": "mention_only",
+      "catalog_recommendation": "omit_incidental",
+      "notes": "Kẻ giam Tú Tú được kể đã bị Bách Hoa giết; không tên."
+    },
+    {
+      "name": "Mèo mun",
+      "suggested_id": "meo-mun",
+      "first_chapter_within_range": 85,
+      "first_direct_appearance_within_range": 85,
+      "realm": "reality",
+      "status": "new_entity",
+      "catalog_recommendation": "add",
+      "notes": "Sinh vật được Trương Anh Hào gọi qua Thiên Tuyển kỹ. Ăn lòng đỏ trứng rồi tìm vật phẩm; không có tên riêng."
+    },
+    {
+      "name": "Gà trống đen",
+      "first_chapter_within_range": 85,
+      "realm": "reality",
+      "status": "new_unnamed_entity",
+      "catalog_recommendation": "omit_incidental",
+      "notes": "Được triệu gọi nhầm rồi trả lại; không đồng nhất với sinh vật khác."
+    },
+    {
+      "name": "Sinh vật có con mắt dựng thẳng",
+      "first_chapter_within_range": 85,
+      "realm": "reality",
+      "status": "new_unnamed_entity",
+      "catalog_recommendation": "optional",
+      "notes": "Chỉ thấy mắt qua lỗ Thiên Tuyển kỹ; Anh Hào gọi lão đại, không nêu tên hoặc loài."
+    },
+    {
+      "name": "Độc Cô Quỳnh",
+      "suggested_id": "doc-co-quynh",
+      "first_chapter_within_range": 86,
+      "first_direct_appearance_within_range": 86,
+      "name_reveal_chapter": 86,
+      "realm": "reality",
+      "status": "new_entity",
+      "catalog_recommendation": "add",
+      "notes": "Nữ khách có danh thiếp tập đoàn binh khí Sạn Đạo của Phục Hy. Đại sư binh khí; trao đổi liên lạc với Thanh Sơn ở 89."
+    },
+    {
+      "name": "Chu Khai Vũ",
+      "suggested_id": "chu-khai-vu",
+      "first_chapter_within_range": 86,
+      "first_direct_appearance_within_range": 86,
+      "role_reveal_chapter": 89,
+      "name_reveal_chapter": 90,
+      "realm": "reality",
+      "status": "new_entity",
+      "catalog_recommendation": "add",
+      "notes": "Võ tôn đưa con mồi ra hồ ở 86 chính là ông chủ sòng bạc được xác nhận ở 89; lộ tên trong phán quyết ở 90; bị bắt ở 91."
+    },
+    {
+      "name": "Thuộc hạ Độc Cô Quỳnh",
+      "first_chapter_within_range": 86,
+      "realm": "reality",
+      "status": "new_unnamed_entity",
+      "catalog_recommendation": "omit_incidental",
+      "notes": "Người đàn ông trung niên ném máu xuống hồ; quan hệ thuộc hạ xác nhận ở 88, không phải chồng/người yêu."
+    },
+    {
+      "name": "Người đàn ông làm con mồi",
+      "first_chapter_within_range": 86,
+      "realm": "reality",
+      "status": "new_unnamed_entity",
+      "catalog_recommendation": "omit_incidental",
+      "notes": "Được Thanh Sơn cứu bằng cách giết cá sấu ở 87; không có tên và chưa kể số phận sau đó."
+    },
+    {
+      "name": "Lão Tôn",
+      "suggested_id": "lao-ton",
+      "first_chapter_within_range": 91,
+      "first_direct_appearance_within_range": 91,
+      "name_reveal_chapter": 91,
+      "realm": "reality",
+      "status": "new_entity",
+      "catalog_recommendation": "add_if_named_minor_characters_in_scope",
+      "notes": "Đội trưởng robot cảnh giới quen Chu Khai Vũ; tới thi hành lệnh. Chỉ biết họ/danh xưng, không phải Trương đội trưởng chương 42."
+    },
+    {
+      "name": "Tổ thứ ba đại đội cảnh vệ đặc chiến",
+      "first_chapter_within_range": 91,
+      "realm": "reality",
+      "status": "new_collective",
+      "catalog_recommendation": "omit_incidental",
+      "notes": "Năm Võ tôn quân đội bắt Chu Khai Vũ; không có tên cá nhân."
+    }
+  ],
+  "existing_character_updates": [
+    {
+      "existing_id": "white-goose",
+      "first_chapter_within_range": 82,
+      "notes": "Giữ một nhân vật Ngỗng Trắng và bí danh Bạch Ánh Thiên; người đọc nhóm 72–81 xác nhận tên đã nêu ở 81. Trực tiếp dẫn đường ở 83, giữ danh xưng đại sư huynh. Thanh Sơn vẫn nhận biết là hóa thân Bách Hoa; không thêm nhân vật mới."
+    },
+    {
+      "existing_id": "bach-hoa-master",
+      "first_chapter_within_range": 82,
+      "notes": "Thêm quá khứ được Tú Tú cứu, rồi cứu và chữa trị cho cô bé; quan hệ chăm lo đệ tử được thể hiện qua Ngỗng Trắng."
+    },
+    {
+      "existing_id": "impartial-goddess-character",
+      "first_chapter_within_range": 86,
+      "notes": "Nhắc ở 86; trực tiếp tự kết nối ở 88, chủ động xử nợ và điều quân bắt Chu Khai Vũ ở 90–91."
+    },
+    {
+      "existing_id": "dia-kiem",
+      "first_chapter_within_range": 89,
+      "notes": "Được sử dụng ở hiện thực, trọng lượng ba mươi nghìn cân; không có lời thoại kiếm linh trong đoạn."
+    },
+    {
+      "name": "Tần Tiểu Lâu",
+      "first_chapter_within_range": 82,
+      "requires_merge_with_chapters_72_81": true,
+      "notes": "Hỗ trợ tài nguyên, chủ trì thử bảng, nấu ăn và tặng thuật pháp; không thêm trùng nếu nhóm 72–81 đã tạo."
+    },
+    {
+      "name": "Tú Tú",
+      "first_chapter_within_range": 82,
+      "requires_merge_with_chapters_72_81": true,
+      "notes": "Chương 83 kể chấn thương quá khứ, 84 thân thiết với Thanh Sơn; không đổi mốc xuất hiện đầu dựa trên hồi kể."
+    },
+    {
+      "name": "Trương Anh Hào",
+      "first_chapter_within_range": 85,
+      "requires_merge_with_chapters_72_81": true,
+      "notes": "Quan hệ quen biết đã tồn tại; trở thành cộng sự lâu dài ở 85, giúp tìm vật liệu và chống Chu Khai Vũ."
+    },
+    {
+      "name": "Sài Lang",
+      "first_chapter_within_range": 85,
+      "requires_merge_with_chapters_72_81": true,
+      "notes": "Chỉ được nhắc đã bị Thanh Sơn giết, không xuất hiện trực tiếp ở 85."
+    }
+  ],
+  "grouped_milestone_suggestions": [
+    {
+      "chapters": [
+        82,
+        83,
+        84
+      ],
+      "realm": "cultivation",
+      "title": "Mái nhà Bách Hoa",
+      "summary": "Thu bốn chủng vật liệu, nhận điện Phong Lan và hiểu quá khứ Tú Tú; bữa cơm đồng môn giúp Thanh Sơn thật sự gắn bó với tông môn.",
+      "character_links": [
+        "white-goose",
+        "bach-hoa-master",
+        "Tần Tiểu Lâu",
+        "Tú Tú"
+      ],
+      "notes": "Có thể nối với mốc nhập tông của nhóm 72–81 để giảm số thẻ; giữ chi tiết 82–84 trong phần mở rộng."
+    },
+    {
+      "chapters": [
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "realm": "reality",
+      "title": "Đồng minh và cuộc cược dưới lòng đất",
+      "summary": "Kết minh với Anh Hào, theo mèo mun tìm Vũ Trụ chủng và vượt trò cược sinh tử; gặp đại sư binh khí Độc Cô Quỳnh.",
+      "character_links": [
+        "Trương Anh Hào",
+        "meo-mun",
+        "doc-co-quynh",
+        "chu-khai-vu"
+      ],
+      "notes": "85 mở bằng tu luyện rồi chuyển hiện thực; đặt mốc chính trên nhánh hiện thực, ghi chuyển giới trong chi tiết."
+    },
+    {
+      "chapters": [
+        90,
+        91
+      ],
+      "realm": "reality",
+      "title": "Nữ thần thi hành luật pháp",
+      "summary": "Nữ Thần Công Chính xử khoản nợ cá cược, cưỡng chế tài sản và điều quân bắt Chu Khai Vũ sau khi hắn tấn công.",
+      "character_links": [
+        "impartial-goddess-character",
+        "chu-khai-vu",
+        "Trương Anh Hào"
+      ],
+      "notes": "Kết thúc mở: mới đề nghị Thanh Sơn nhận cao ốc, chưa trao vật liệu thần thông."
+    }
+  ],
+  "uncertainties": [
+    "Danh mục gốc chỉ đến 71; các nhân vật Tần Tiểu Lâu, Tú Tú, Trương Anh Hào, Sài Lang và bác cả Anh Hào phải đối chiếu nhóm 72–81 trước khi chốt mốc đầu toàn truyện.",
+    "Đối chiếu người đọc nhóm 72–81: tên Bạch Ánh Thiên đã được nêu ở 81; 82 chỉ là mốc đầu của lô này. Tần Tiểu Lâu và Tú Tú cũng đã xuất hiện ở 81.",
+    "Chương 83 gọi tuổi Tú Tú không nhất quán: một đoạn nghĩ cô bé tám tuổi, lời kể sau nói mang dáng đứa trẻ bảy tuổi. Không chốt tuổi số trong thẻ.",
+    "Số dư tiền ở chương 90 có cách ghi khó hiểu; chỉ sử dụng khoản phán quyết 200 tỷ và định giá cao ốc 63 tỷ, không suy diễn số dư.",
+    "Không lấy lời tự xưng Tiên Vương của hư ảnh làm thân phận thật hoặc ghép với nhân vật Tiên Vương cũ.",
+    "Chương 91 chưa hoàn tất thu Vũ Trụ chủng, chưa quay thưởng thần thông, chưa chấp nhận đề nghị nhận cao ốc.",
+    "Người kỳ quái được đề cập như phần thưởng ở 86 chỉ được nhắc, chưa xuất hiện và chưa tên trong 82–91; không suy đoán nhân vật."
+  ],
+  "image_slot_guidance": "Các nhân vật mới dùng cấu trúc chỗ ảnh hiện có; chưa tìm hoặc gán ảnh. Giữ ID đã có cho Ngỗng Trắng, Bách Hoa, Nữ Thần Công Chính và Địa kiếm để tránh mất liên kết ảnh."
+}

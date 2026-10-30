@@ -15,6 +15,9 @@
 /playwright-report/
 /test-results/
 /.codex-staged-check/
+__pycache__/
+*.pyc
+/.story-*-playwright.config.ts
 
 # next.js
 /.next/
@@ -26,6 +29,7 @@
 # misc
 .DS_Store
 *.pem
+/*.epub
 
 # debug
 debug.log

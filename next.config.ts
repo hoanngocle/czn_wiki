@@ -9,7 +9,11 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   async redirects() {
-    return [{ source: "/czn/:path*", destination: "/:path*", permanent: true }];
+    const cznSections = ["combatant", "partner", "deck-builder", "equipment", "terminology", "patch-note", "mechanics"];
+    return [
+      ...cznSections.map((section) => ({ source: `/${section}/:path*`, destination: `/czn/${section}/:path*`, permanent: true })),
+      { source: "/truyen/:path*", destination: "/ebooks/:path*", permanent: true },
+    ];
   },
 };
 

@@ -5,5 +5,5 @@ export function combatantSlug(character: Pick<CharacterSummary, "name">): string
 }
 
 export function combatantUrl(character: Pick<CharacterSummary, "name">): string {
-  return `/combatant/${combatantSlug(character)}`;
+  return `/czn/combatant/${combatantSlug(character)}`;
 }

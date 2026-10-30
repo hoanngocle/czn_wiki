@@ -6,7 +6,7 @@ import { partnerTranslations } from "./partner-translations";
 import { combatantSlug } from "./urls";
 
 export const partnerSlug = combatantSlug;
-export function partnerUrl(partner: { name: string }): string { return `/partner/${partnerSlug(partner)}`; }
+export function partnerUrl(partner: { name: string }): string { return `/czn/partner/${partnerSlug(partner)}`; }
 
 export function getPartners(): PartnerSummary[] {
   return catalog.characters as PartnerSummary[];

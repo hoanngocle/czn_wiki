@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("upgrade cards show their category icon", async ({ page }) => {
-  await page.goto("/combatant/selena");
+  await page.goto("/czn/combatant/selena");
   const card = page.getByRole("button", { name: "Sniper's Domain card", exact: true });
   const icon = card.locator('img[src="/assets/card/icon_category_card_power.webp"]');
   await expect(icon).toBeVisible();
@@ -13,7 +13,7 @@ for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
-    await page.goto("/combatant/renoa");
+    await page.goto("/czn/combatant/renoa");
     const tabs = page.getByRole("tablist", { name: "Renoa hướng dẫn" });
     await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
     await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
@@ -54,7 +54,7 @@ for (const width of [1440, 390]) {
 }
 
 test("all guide images load and failed card artwork has a readable fallback", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   for (const name of ["Đánh giá", "Build", "Deck"]) {
     await page.getByRole("tablist", { name: "Renoa hướng dẫn" }).getByRole("tab", { name, exact: true }).click();
     const images = page.getByRole("tabpanel").locator("img").filter({ visible: true });

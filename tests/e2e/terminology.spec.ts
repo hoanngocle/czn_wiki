@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 for (const width of [390, 1440]) {
   test(`glossary keeps English names and Vietnamese definitions at ${width}px`, async ({ page }, testInfo) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto("/terminology");
+    await page.goto("/czn/terminology");
     const glossary = page.getByRole("region", { name: "Danh sách thuật ngữ" });
     const search = page.getByRole("searchbox", { name: "Tìm thuật ngữ" });
     await search.fill("Performance Buzz");

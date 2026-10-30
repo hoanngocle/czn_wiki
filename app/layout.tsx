@@ -15,8 +15,8 @@ const beVietnamPro = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "CZN Wiki | Nhân vật",
-  description: "Tra cứu nhân vật và hướng dẫn Chaos Zero Nightmare bằng tiếng Việt",
+  title: "CZN Wiki & Ebooks",
+  description: "Khám phá dữ liệu Chaos Zero Nightmare và thư viện truyện tiếng Việt.",
 };
 
 const themeBoot = `try{const saved=localStorage.getItem('themeMode');const theme=saved==='dark'||saved==='light'?saved:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=theme}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}`;

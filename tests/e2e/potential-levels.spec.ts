@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("inline Potential sliders update each node independently and retain levels across language changes", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const titles: Record<string, string> = { "Critical Chance Proficiency": "Tinh thông tỷ lệ chí mạng", "Critical Damage Proficiency": "Tinh thông sát thương chí mạng", "Basic Card Upgrade": "Nâng cấp bài cơ bản", "Epiphany Bonus": "Thưởng thức tỉnh bài" };
   const node = (name: string) => page.getByTestId("potential-node").filter({ hasText: new RegExp(`${name}|${titles[name]}`) });
   const chance = node("Critical Chance Proficiency");

@@ -6,7 +6,7 @@ for (const entry of [
   { term: "Attunement", character: "Selena", card: "Target Spotted", explanation: "đầu lượt", englishExplanation: "start-of-turn" },
 ]) {
   test(`${entry.term} can be searched and is explained on card hover`, async ({ page }) => {
-    await page.goto("/terminology");
+    await page.goto("/czn/terminology");
     await page.getByRole("searchbox", { name: "Tìm thuật ngữ" }).fill(entry.term);
     const glossary = page.getByRole("region", { name: "Danh sách thuật ngữ" });
     await expect(glossary.locator("dt")).toHaveCount(1);
@@ -14,7 +14,7 @@ for (const entry of [
     await expect(glossary.locator("dd")).toContainText(entry.explanation);
 
     await page.getByRole("button", { name: "Switch to English" }).click();
-    await page.goto("/deck-builder");
+    await page.goto("/czn/deck-builder");
     await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
     await page.getByRole("searchbox").fill(entry.character);
     await page.getByRole("button", { name: `Select ${entry.character}`, exact: true }).click();

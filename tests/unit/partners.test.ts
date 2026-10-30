@@ -24,7 +24,7 @@ it("publishes complete local partner cards, passive ranks, and stats in both bre
 it("resolves partner bookmarks without exposing combatants or invalid IDs", () => {
   expect(getPartner("30116")?.name).toBe("Licinia");
   expect(getPartner("licinia")?.id).toBe("30116");
-  expect(partnerUrl({ name: "Licinia" })).toBe("/partner/licinia");
+  expect(partnerUrl({ name: "Licinia" })).toBe("/czn/partner/licinia");
   expect(getPartner("1041")).toBeUndefined();
   expect(getPartner("renoa")).toBeUndefined();
   expect(getPartner("missing")).toBeUndefined();

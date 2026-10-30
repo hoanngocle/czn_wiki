@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test("every modal card supports the same animation and hover interaction", async ({ page }) => {
   await page.setViewportSize({ width: 1700, height: 1100 });
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   await page.getByRole("button", { name: "Echo of Sorrow card", exact: true }).click();
   const dialog = page.getByRole("dialog");
@@ -22,7 +22,7 @@ test("every modal card supports the same animation and hover interaction", async
 });
 
 test("all five Epiphanies show their own source rating and language-specific review", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   for (const [name, ratings] of [
     ["Echo of Sorrow", [2, 3, 1, 5, 3]],
     ["Instant Judgment", [2, 1, 2, 3, 5]],
@@ -53,7 +53,7 @@ test("all five Epiphanies show their own source rating and language-specific rev
 });
 
 test("cards without video keep static artwork and pointer tilt", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   await page.getByRole("button", { name: "Black Veil card", exact: true }).click();
   const card = page.getByRole("dialog").getByRole("button", { name: "Black Veil card", exact: true });
@@ -68,7 +68,7 @@ test("cards without video keep static artwork and pointer tilt", async ({ page }
 test("every modal variant retains artwork and hover when video fails", async ({ page }) => {
   await page.setViewportSize({ width: 1700, height: 1100 });
   await page.route("**/*.webm", route => route.abort());
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("checkbox", { name: /^(Animation|Ảnh động)$/ }).check();
   await page.getByRole("button", { name: "Echo of Sorrow card", exact: true }).click();
   const cards = page.getByRole("dialog").getByRole("button", { name: "Echo of Sorrow card", exact: true });

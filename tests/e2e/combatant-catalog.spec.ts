@@ -9,7 +9,7 @@ for (const character of roster.filter(item => item.kind === "combatant" && item.
   test(`${character.name} has four localized tabs, its own deck and working guide images`, async ({ page }) => {
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
-    await page.goto(`/combatant/${combatantSlug(character)}`);
+    await page.goto(`/czn/combatant/${combatantSlug(character)}`);
     const tabs = page.getByRole("tablist", { name: `${character.name} hướng dẫn` });
     await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
     await expect(page.getByRole("heading", { name: "Start Cards", exact: true })).toBeVisible();
@@ -42,7 +42,7 @@ for (const character of roster.filter(item => item.kind === "combatant" && item.
 
 test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and source articles", async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem("czn_combatant_vietnamese", "false"));
-  await page.goto("/combatant/rossweisse");
+  await page.goto("/czn/combatant/rossweisse");
   await expect(page.getByRole("heading", { level: 1, name: "Rossweisse", exact: true })).toBeVisible();
   const tabs = page.getByRole("tablist", { name: "Rossweisse guide", exact: true });
   await expect(tabs.getByRole("tab")).toHaveText(["Card", "Review", "Build", "Deck"]);
@@ -61,7 +61,7 @@ test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and sou
     await expect(dialog.getByRole("button", { name: `Flicker Blade (${variant}) card`, exact: true })).toBeVisible();
   }
   await page.getByRole("button", { name: "Close dialog", exact: true }).click();
-  await page.goto("/patch-note/2026-10-21-update#rossweisse");
+  await page.goto("/czn/patch-note/2026-10-21-update#rossweisse");
   await expect(page.getByRole("heading", { level: 1 })).toContainText("21/10");
   await expect(page.locator('article[lang="vi"]').filter({ visible: true }).locator("table")).toHaveCount(20);
   await expect(page.locator("#rossweisse")).toContainText("Rossweisse");
@@ -75,7 +75,7 @@ test("Rossweisse exposes her official kit, five Flicker Blade epiphanies and sou
 for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
   test(`${name} guide fits mobile and keeps deck effects in the card dialog`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
-    await page.goto(`/combatant/${combatantSlug({ name })}`);
+    await page.goto(`/czn/combatant/${combatantSlug({ name })}`);
     const tabs = page.getByRole("tablist", { name: `${name} hướng dẫn` });
     for (const tab of ["Đánh giá", "Build", "Deck"]) {
       await tabs.getByRole("tab", { name: tab, exact: true }).click();
@@ -95,7 +95,7 @@ for (const name of ["Nia", "Luke", "Nine", "Tressa", "Adelheid", "Cassius"]) {
 }
 
 test("Vanguard filter exposes all six combatants with working class icons", async ({ page }) => {
-  await page.goto("/combatant");
+  await page.goto("/czn/combatant");
   await page.getByRole("button", { name: "Vai trò vanguard", exact: true }).click();
   await expect(page.getByTestId("combatant-portrait")).toHaveCount(6);
   await page.getByRole("link", { name: "Nine", exact: true }).click();

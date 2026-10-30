@@ -1,0 +1,4816 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "hero",
+      "title": "Cố Thanh Sơn",
+      "kind": "character",
+      "eyebrow": "Nhân vật chính · Chương 1",
+      "x": 0,
+      "y": 520,
+      "chapters": [
+        1
+      ],
+      "summary": "Trở lại trước tận thế, Cố Thanh Sơn qua lại giữa Tu Hành và hiện thực, rồi bước vào Hoàng Tuyền, chín trăm triệu tầng thế giới và thời Thượng Cổ. Cùng đồng bạn chống tận thế, cứu Thiên Địa song kiếm và tìm hiểu Thâm Uyên; hành trình chương 1–1000 được nối theo từng mốc. Hồ sơ và Giao diện Chiến Thần ghi trạng thái theo chương đang đọc."
+    },
+    {
+      "id": "awakening",
+      "title": "Thức tỉnh Chiến Thần, tu luyện Loạn Vũ",
+      "summary": "Thanh Sơn tỉnh trong hố xác, gặp Triệu Lục và nhận ra mình trở về trước tận thế. Giao diện Chiến Thần mở ra; hắn dùng hồn lực học cung thuật, lên Luyện Khí tầng hai. Khi trở lại Tu Hành, hắn giết ma điểu truyền tin, tìm linh thạch và Quân Thể Luyện Khí pháp, bỏ thăng cấp bằng kinh nghiệm, lên Luyện Khí tầng năm rồi sáng tạo cung kỹ Loạn Vũ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "eyebrow": "Tu Hành · Chương 1–4, 12–16",
+      "x": 460,
+      "y": 260
+    },
+    {
+      "id": "truong-da-trap",
+      "title": "Phá bẫy, hóa giải hiểu lầm",
+      "summary": "Thanh Sơn vạch trần tình dược của Trương Dã, hóa giải hiểu lầm với Tô Tuyết Nhi. Bị Nhiếp Vân truy sát, hắn giết Hung Hổ rồi trú tại trung tâm nghiên cứu chiến giáp; Anna bắt đầu chú ý đến hắn.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "eyebrow": "Thế giới thực · Chương 4–11",
+      "x": 460,
+      "y": 760
+    },
+    {
+      "id": "anna",
+      "title": "Thiên Thần Rực Lửa và gặp Anna",
+      "summary": "Nhờ Nữ Thần Công Chính, Thanh Sơn chế tạo Thiên Thần Rực Lửa làm quà cho Tuyết Nhi, khiến Liên Bang kích hoạt bảo vệ cấp SSS. Sau khi bị Tô phu nhân sa thải, hắn trực tiếp gặp lại Anna ở quán rượu.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "eyebrow": "Thế giới thực · Chương 17–20",
+      "x": 1180,
+      "y": 760
+    },
+    {
+      "id": "impartial-goddess",
+      "title": "Liên Bang bảo hộ, kết giao Anna và đối đầu Cửu phủ",
+      "summary": "Thanh Sơn thắng đội tông sư, giết Nhiếp Vân rồi được Võ thánh cứu viện. Nữ Thần Công Chính nâng quyền hắn lên Lãnh tụ tối cao; Tổng thống bảo trợ và bổ nhiệm hắn làm giáo sư đặc cấp. Trong lần trở về sau, hắn lên Luyện Khí tầng sáu, tranh cung với Huy thiếu và được Anna giải vây, trao tín vật Tử Thần. Khi quần đảo Tây Phong biến mất và quái vật biển xuất hiện, Liên Bang chuyển sang trạng thái chiến tranh; Anna cùng Hoắc Đức cứu Tuyết Nhi. Thanh Sơn nâng cấp Nữ Thần Công Chính, gặp Trương Anh Hào, giết Sài Lang và trao Thiên Thần Rực Lửa làm quà sinh nhật cho Tuyết Nhi rồi trở lại Tu Hành. Bạch phủ mất dấu và hủy vụ thuê sát thủ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "eyebrow": "Thế giới thực · Chương 21–27, 38–44, 69–80",
+      "x": 1900,
+      "y": 760
+    },
+    {
+      "id": "rescue",
+      "title": "Giải cứu Công Tôn Trí, Ninh Nguyệt Thiền và đến Thần Võ",
+      "summary": "Rời quân doanh, Thanh Sơn vô tình giải vây Công Tôn Trí rồi gặp Ninh Nguyệt Thiền. Mật Mãng Xà yêu giúp nàng giải độc; bí mật nội gián lộ ra, trong khi Triệu Lục chết tại doanh trại. Bùa cầu viện bị chặn; Thanh Sơn nhận cung Dạ Vũ và nhiệm vụ cứu hai người. Công Tôn Trí đang hấp hối trao quả cầu sắt cùng đĩa bát quái, đưa hắn đến Thần Võ để giữ lại bí mật.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "eyebrow": "Tu Hành · Chương 28–37",
+      "x": 1180,
+      "y": 260
+    },
+    {
+      "id": "sword",
+      "title": "Thoát Thần Võ, đến Bách Hoa và bái sư",
+      "summary": "Thanh Sơn hỗ trợ nhóm tu sĩ, lên Luyện Khí tầng bảy và thức tỉnh kiếm thuật. Sau khi đồng đội lần lượt tử nạn, hắn cùng Lãnh Thiên Tinh dùng quả cầu sắt hoàn thiện trận truyền tống, thoát Thần Võ đến Bách Hoa Tiên Quốc. Gặp Ngỗng Trắng, hắn chọn bảng Kiếm, luận kiếm tâm và vạch trần kiếm trận giả. Khi yết kiến Bách Hoa, hắn báo tin nội gián, xin cứu viện, nhận Địa kiếm và biết bí mật các hóa thân rồi đồng ý bái sư ở chương 65.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "eyebrow": "Tu Hành · Chương 44–65",
+      "x": 1900,
+      "y": 260
+    },
+    {
+      "id": "saints",
+      "title": "Bách Hoa cứu viện, nhập sư môn và Trúc Cơ",
+      "summary": "Tạ Đạo Linh đưa Công Tôn Trí, Ninh Nguyệt Thiền khỏi vòng vây, vạch trần Đao Hoàng và dùng Vong Xuyên trừng phạt nhóm phục kích, riêng Khổng Tước được tha. Sau cuộc giải cứu, Thanh Sơn chính thức gặp Bạch Ánh Thiên, Tần Tiểu Lâu và Tú Tú, nhận điện Phong Lan, thu bốn chủng vật liệu và học thuật ôn dưỡng. Khi hoàn thành nhiệm vụ thần thông, hắn được sư môn hộ pháp, gặp lại thi thể trên trụ đồng và đạt Trúc Cơ. Hắn chọn Tru Tà theo sinh pháp, thức tỉnh Lôi điện với khả năng làm mục tiêu mất khống chế một giây, khôi phục kiếm quyết và luyện Địa kiếm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        66,
+        67,
+        68,
+        69,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "eyebrow": "Tu Hành · Chương 66–69, 80–85, 95–100",
+      "x": 2620,
+      "y": 260
+    },
+    {
+      "id": "cosmic-search",
+      "title": "Kết minh Anh Hào, tìm Vũ Trụ chủng và dịch quỷ bùng phát",
+      "summary": "Thanh Sơn kết minh với Trương Anh Hào, nhờ mèo mun tìm vật liệu cuối. Tại sòng bạc, hắn gặp Độc Cô Quỳnh, cứu người bị đem làm con mồi rồi xuống hồ đối đầu ba cá sấu để đòi phần thưởng. Nữ Thần Công Chính xử nợ, bắt Chu Khai Vũ; Thanh Sơn nhận cao ốc và mảnh tim quái vật vũ trụ. Phát hiện dịch quỷ, hắn báo động Liên Bang, trả tín vật Tử Thần cho Anna rồi chuyển giới; Anna quyết ở lại chờ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "eyebrow": "Thế giới thực · Chương 85–95",
+      "x": 2620,
+      "y": 760
+    },
+    {
+      "id": "annual-trial",
+      "title": "Tuế thí, bảo vệ Tú Tú và luyện thần kỹ",
+      "summary": "Bách Hoa chỉnh lại kiếm đạo, giúp Thanh Sơn tự khôi phục 1.106 kiếm quyết. Dẫn Tú Tú dự Tuế thí, hắn hóa giải khiêu khích, giết Lý Trường An và giành hạng nhất. Trở về sư môn, hắn đổi cách tuyển dân cho tiên quốc, được truyền Súc Địa Thành Thốn và dùng hết hồn lực lĩnh ngộ. Sau mười ngày luyện, thân pháp đạt ba mươi mét, Loạn Vũ bắn mười mũi tên.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "eyebrow": "Tu Hành · Chương 101–118",
+      "x": 3340,
+      "y": 260
+    },
+    {
+      "id": "holy-church",
+      "title": "Âm mưu Thánh giáo, cứu Anna và AI tự quyết",
+      "summary": "Giáo Hoàng thao túng thi thể quốc vương và sai Hill bắt Anna. Thanh Sơn dùng kỹ thuật cơ giáp để giữ Anna ở lại, rồi giúp Nữ Thần Công Chính dựa trên Hiến pháp tự quyết cấp cơ giáp AI cứu dân khỏi dịch quỷ. Anna nhận ra cha đã chết và đi cầu viện Phục Hy. Thanh Sơn điều hạm đội diệt Hill; quỷ cánh xương còn tình cảm với mẹ xuất hiện ở Bạch Sa.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "eyebrow": "Thế giới thực · Chương 118–124",
+      "x": 3340,
+      "y": 760
+    },
+    {
+      "id": "ghoul-alliance",
+      "title": "Điều tra dịch quỷ, bước nhảy không gian và Diệp Phi Ly",
+      "summary": "Thanh Sơn lấy mẫu, chiến đấu với quỷ tiến hóa, nhận ra công nghệ thuần túy ngày càng mất tác dụng. Hắn tìm nhà khoa học ngài Liêu để phục hồi công nghệ bước nhảy, rồi cùng Trương Anh Hào thương lượng với Diệp Phi Ly: hợp tác săn quỷ và cứu mẹ của Diệp. Diệp đồng ý; biến động thời không buộc Thanh Sơn trở lại Tu Hành trong ba mươi giây.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "eyebrow": "Thế giới thực · Chương 124–133",
+      "x": 4060,
+      "y": 760
+    },
+    {
+      "id": "frontline-investigation",
+      "title": "Quyết chiến mở màn, đột phá và điều tra linh thú",
+      "summary": "Trở lại Bách Hoa, Thanh Sơn được phong Kiêu Kỵ, nhận nhiệm vụ Vận Mệnh Quyết chiến và chức năng Danh Hiệu. Ra tiền tuyến, hắn cứu nữ tu, học Liễm Tức và Phong linh, lên Trúc Cơ hậu kỳ rồi phải chờ hồi phục khả năng lĩnh ngộ tu vi. Trương Phóng hy sinh, Lý Xuất Trần bị xử theo quân pháp. Hắn cùng Lãnh Thiên Tinh điều tra các trận bàn bị phá, đối đầu Thiên ma và phát hiện linh thú đã phản bội; Ninh Nguyệt Thiền cứu viện.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "eyebrow": "Tu Hành · Chương 132–150",
+      "x": 4060,
+      "y": 260
+    },
+    {
+      "id": "ma-van-victory",
+      "title": "Phá bẫy Ma Vân, Tam Thánh thắng trận và phong tướng",
+      "summary": "Ô Tinh Văn vu cáo, ép sưu hồn và cô lập Thanh Sơn. Tam Thánh làm theo kế phản công của hắn: dùng hóa thân Bách Hoa thay người thật trong bẫy Ma Vân, đánh bại đội quân yêu ma. Tân Tôn Giả bị Thiên Ma Thánh Vương giết; Tam Thánh trấn áp Thánh Vương và giành thắng lợi. Ô bị tước quân hàm, Thanh Sơn được phong Du Kích tướng quân. Hệ thống xác nhận hoàn thành Quyết chiến (thượng), thưởng danh hiệu cùng bảy ngày ở hiện thực; nửa sau chưa được phát.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "eyebrow": "Tu Hành · Chương 151–168",
+      "x": 4780,
+      "y": 260
+    },
+    {
+      "id": "immortal-game",
+      "title": "Người Bất Tử và Chú Hề Tử Thần",
+      "summary": "Mưa lạ báo hiệu trò chơi Người Bất Tử dùng lời hứa trường sinh dụ nhân loại tàn sát. Thanh Sơn, Nữ Thần Công Chính, Liêu Hành, Trương Anh Hào và Diệp Phi Ly xây Người Bảo Vệ Tinh Cầu làm phương án đối trọng. Chiến giáp Sát Thần và mặt nạ hề giúp Diệp công khai hạ hai quán quân. Nhóm săn quỷ để Diệp tiến hóa; Thiện Thần Hộ Niệm phá ảo cảnh, Thanh Sơn dùng bí kiếm và Kiếm Khí Tung Hoành hạ khối thịt. Hệ thống cho phép tiếp tục lĩnh ngộ tu vi.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "eyebrow": "Thế giới thực · Chương 168–188",
+      "x": 4780,
+      "y": 760
+    },
+    {
+      "id": "tru-ta-upgrade",
+      "title": "Trúc Cơ đỉnh phong và yêu cầu nâng Tru Tà",
+      "summary": "Thanh Sơn học phần tiếp của Bách Thánh Kết Đan quyết, đạt Trúc Cơ đỉnh phong. Giao diện yêu cầu ba thuốc độ tinh khiết 99% để nâng Tru Tà trước nhiệm vụ thần thông mới. Hắn lĩnh ngộ sớm Thất Tinh Du Long dù chưa đủ tu vi để dùng an toàn, đặt sản xuất thuốc Tiềm Năng Võ Giả; chưa nhận đủ thuốc và chưa đạt Kim Đan.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        189,
+        190,
+        191
+      ],
+      "eyebrow": "Thế giới thực · Chương 189–191",
+      "x": 5500,
+      "y": 760
+    },
+    {
+      "id": "masked-champion",
+      "title": "Phá Vũ Hội Hóa Trang, Anna gia nhập và vụ ám sát",
+      "summary": "Người Bất Tử che giấu danh tính quán quân thứ ba bằng Vũ Hội Hóa Trang. Mèo mun tìm ra hắn; Thanh Sơn cùng Diệp Phi Ly diệt sát thủ, Chú Hề trưng chiến lợi phẩm để phá lời hứa bất tử. Tại hội nghị vắc-xin, Anna nhờ giúp phục quốc rồi chọn gia nhập nhóm, trao lại Tín vật Tử Thần. Tổng thống bị ám sát; Thanh Sơn hạ ba sát thủ, tới phòng nghỉ nhưng cuối chương 200 chưa rõ tình trạng Tổng thống.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "eyebrow": "Thế giới thực · Chương 192–200",
+      "x": 6220,
+      "y": 760
+    },
+    {
+      "id": "fuxi-and-succession",
+      "title": "Phục Hy chiêu mộ, Tuyết Nhi kế vị Tô phủ",
+      "summary": "Tổng thống xuất hiện nguyên vẹn nhưng có dấu hiệu khác thường. Hoàng đế Phục Hy muốn chiêu mộ Thanh Sơn; Anna công khai quan hệ và gia nhập đội chống Người Bất Tử. Tô Tuyết Nhi phản kháng hôn nhân sắp đặt, nhận công pháp Thanh Sơn gửi, kế vị Tô phủ và áo choàng tinh tú sau khi ông nội qua đời. Cô quyết tự chọn vận mệnh; Thanh Sơn chuẩn bị lấy công thức thuốc ở Thánh quốc.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "eyebrow": "Thế giới thực · Chương 201–214",
+      "x": 6940,
+      "y": 760
+    },
+    {
+      "id": "holy-capital-infiltration",
+      "title": "Đột nhập Thánh quốc, từ biệt Quốc vương và Du Long",
+      "summary": "Cải trang Trương Nhân Giáp, Thanh Sơn dùng thiết bị bước nhảy mini lấy nửa công thức Thiên Tuyển. Đưa Anna đến từ biệt linh hồn cha, hắn cầm chân Yvan và Kid rồi thoát cuộc truy đuổi của Hart. Giáo hoàng dùng thẻ bài và phòng ngự cánh tay đồng; Thanh Sơn cưỡng dùng Thất Tinh Du Long vượt cảnh giới, trọng thương và thoát nhờ dịch chuyển cùng vụ nổ. Giáo hoàng vẫn tồn tại dưới dạng lá bài.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "eyebrow": "Thế giới thực · Chương 215–233",
+      "x": 7660,
+      "y": 760
+    },
+    {
+      "id": "upright-and-destiny",
+      "title": "Nâng Tru Tà, Lắng Nghe và vận mệnh Tuyết Nhi",
+      "summary": "Anna lấy thuốc Ngũ Hành 99% từ Phục Hy; Thanh Sơn nạp đủ ba thuốc, nhận Cương Trực thay Thất Khống và mở chuỗi rút thần thông. Diệp Phi Ly thức tỉnh Lắng Nghe, phát hiện kế hoạch ký sinh qua đan Trường Sinh. Tại Bắc Cực, Tuyết Nhi biết nguồn gốc Cửu phủ, gặp người bảo vệ và dùng bài Vận Mệnh sang thế giới hai mặt trời; nhẫn nano giúp cô thoát quái biển.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "eyebrow": "Thế giới thực · Chương 234–246",
+      "x": 8380,
+      "y": 760
+    },
+    {
+      "id": "immortal-game-defeated",
+      "title": "Bắt quán quân thứ tư, vạch trần ký sinh và thắng trò chơi",
+      "summary": "Liễu Thi Mạn thắng trận thứ tư và nhận nhẫn truyền tống. Trương Anh Hào thay cả thị trấn bằng sát thủ để dẫn cô vào bẫy; Thanh Sơn dùng Cương Trực, Anna tước nhẫn và Diệp bắt sống. Chú Hề công khai giết quán quân, lộ rồi diệt Huyết Cốt Ma Mẫu. Nhóm thử Người Bảo Vệ Tinh Cầu; Người Bất Tử không còn người tham gia và rút lui. Anna nhận lại tín vật đi tìm truyền thừa, Thanh Sơn trở về Tu Hành giữa mưa băng.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259
+      ],
+      "eyebrow": "Thế giới thực · Chương 247–259",
+      "x": 9100,
+      "y": 760
+    },
+    {
+      "id": "than-vo-return",
+      "title": "Chữa thương, nhận truyền thừa và Quyết chiến (hạ)",
+      "summary": "Bách Hoa chữa thương, Tần Tiểu Lâu đưa hơn hai nghìn công pháp Luyện Khí. Sau khi hồi phục, Thanh Sơn nhận tàu bay Sơn và nhiệm vụ trinh sát Thần Võ. Bách Hoa báo điềm tử vong, giao túi truyền thừa. Hệ thống mở Quyết chiến (hạ) và chuỗi thần thông Kim Đan bảy ngày; nhiệm vụ đầu yêu cầu thể hiện tài năng cho tới khi nhặt được binh khí.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265
+      ],
+      "eyebrow": "Tu Hành · Chương 259–265",
+      "x": 5500,
+      "y": 260
+    },
+    {
+      "id": "spirit-weapon-retreat",
+      "title": "Giữ hậu tuyến, mở danh hiệu thích khách và nhặt kiếm gãy",
+      "summary": "Thanh Sơn cứu sĩ quan, phá đàn yêu ma, mở Kẻ Ám Sát rồi Vương Bài Thích Khách. Khi Thánh nhân bị đánh lui và mưa lửa tràn tới, hắn ra lệnh rút quân, giữ hậu tuyến, cứu Ninh Nguyệt Thiền cùng Công Tôn Trí hôn mê. Nhặt được kiếm gãy hoàn thành nhiệm vụ đầu; hệ thống trao Tâm Ý Tương Thông giúp hiểu khí linh.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "eyebrow": "Tu Hành · Chương 266–272",
+      "x": 6220,
+      "y": 260
+    },
+    {
+      "id": "magma-rescue",
+      "title": "Cứu khí linh, Kim Đan và Địa kiếm thức tỉnh",
+      "summary": "Nhiệm vụ Giúp người làm niềm vui dẫn Thanh Sơn xuống dung nham. Hắn học công pháp, đột phá Kim Đan và được thi thể trên trụ đồng nói về việc đổi điềm tử vong cùng dung hợp thế giới. Địa kiếm thức tỉnh; Quyết chiến (hạ) đổi sang giữ nguyên trạng Thần Võ, thưởng trước Mật Phong Cầu. Học Họa Ảnh, cứu thanh kiếm thứ hai rồi cá nhỏ, hắn hoàn thành nhiệm vụ và nhận Linh châu Ngư Long cùng đĩa truyền tống.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "eyebrow": "Tu Hành · Chương 273–279",
+      "x": 6940,
+      "y": 260
+    },
+    {
+      "id": "battlefield-nascent-soul",
+      "title": "Độ kiếp giữa chiến trường, Nguyên Anh và chuỗi hợp nhất",
+      "summary": "Trở lại chiến trường, Thanh Sơn phối hợp bí kiếm và danh hiệu để diệt yêu ma, thu hồn lực. Súc Địa Thành Thốn lên cao cấp; học Bách Hoa Hóa Anh quyết, đạt Kim Đan hậu kỳ rồi vượt kiếp Nguyên Anh giữa đại quân. Linh châu chữa thần hồn; hắn thức tỉnh Yến Quy, chọn hợp hai chuỗi thần thông thành bảy nhiệm vụ. Đoàn bắt đầu điều tra di tích và các khí linh chống lại việc bị cưỡng ép luyện hóa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "eyebrow": "Tu Hành · Chương 280–287",
+      "x": 7660,
+      "y": 260
+    },
+    {
+      "id": "than-vo-truth",
+      "title": "Ký ức Thần Võ, tu sĩ dị giới và chân tướng mưa lửa",
+      "summary": "Bình bát chiếu ký ức mười hai Phong Thánh và bốn cường giả trên Phong Thánh. Tu sĩ dị giới tấn công; Thanh Sơn dùng Yến Quy hạ kiếm tu, học Hồng Lưu từ chiến lợi phẩm. Ký ức tiết lộ công tử áo tím dùng hồ lô luyện hóa cả Thần Võ; khí linh cầu báo thù. Thanh Sơn gửi tình báo cho Bách Hoa, biết sư phụ đang trốn cùng Bi Ngưỡng và không thể an tâm độ kiếp.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "eyebrow": "Tu Hành · Chương 288–295",
+      "x": 8380,
+      "y": 260
+    },
+    {
+      "id": "tide-sword-and-divine-armor",
+      "title": "Triều Âm, Hồng Hoang Liệt Diễm và hộ pháp cho sư phụ",
+      "summary": "Được hỗ trợ Liễm Tức Sâu, Thanh Sơn từ chối truyền thừa Lục Tiên để cứu sư phụ trước. Hai kiếm gãy và cá nhỏ hợp thành Triều Âm hư hại, dẫn hắn qua biển kiếm tới thần giáp Hồng Hoang Liệt Diễm. Hoàn thành nhiệm vụ thứ ba, nhận nhiệm vụ hội thoại thứ tư, hắn thuyết phục thần giáp hộ pháp cho Bách Hoa. Bản thân lên Nguyên Anh hậu kỳ; Tạ Đạo Linh bắt đầu kiếp Thần Chiếu, chưa xác nhận thành công ở cuối chương 300.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "eyebrow": "Tu Hành · Chương 296–300",
+      "x": 9100,
+      "y": 260
+    },
+    {
+      "id": "arc-0301-bien-kiem",
+      "title": "Biển kiếm giữ đường sống",
+      "summary": "Tạ Đạo Linh vượt kiếp Thần Chiếu giữa cuộc xâm lăng. Thanh Sơn huy động vong hồn kiếm tu và biển kiếm, vượt các nhiệm vụ sinh tử rồi nhận Di Hình Hoán Ảnh.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308
+      ],
+      "eyebrow": "Tu Hành · Chương 301–308",
+      "x": 9820,
+      "y": 260
+    },
+    {
+      "id": "arc-0309-giao-dich-thien-ma",
+      "title": "Giao dịch với Thiên Ma",
+      "summary": "Thanh Sơn do thám Quảng Dương môn, học Sưu Hồn, lấy đĩa xuyên giới và thương lượng với thiếu nữ áo đen. Hai thị nữ bị nô dịch trở thành cơ hội chống lại công tử áo tím.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318
+      ],
+      "eyebrow": "Tu Hành · Chương 309–318",
+      "x": 10540,
+      "y": 260
+    },
+    {
+      "id": "arc-0319-cuu-su-phu",
+      "title": "Đổi chỗ cứu sư phụ",
+      "summary": "Tình Nhu và Uyển Nhi phản kháng Tề Diễm. Thanh Sơn dùng hồn lực mở Ma giới, tráo vị trí cứu Tạ Đạo Linh rồi bị đưa tới thế giới của địch; chuỗi thần thông và Quyết Chiến kết thúc, nhiệm vụ Ngô Tam mở ra.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "eyebrow": "Tu Hành · Chương 319–330",
+      "x": 11260,
+      "y": 260
+    },
+    {
+      "id": "arc-0330-vong-hon-nguoi-yeu",
+      "title": "Tiếng gọi của người đã chết",
+      "summary": "Trở về Trái Đất đang mưa lạnh, Thanh Sơn tìm tin Tuyết Nhi rồi giúp Diệp Phi Ly gặp hồn Lưu Thi Quân và báo thù. Hắn đóng vai Chú Hề, ngăn giao chiến lan rộng và trao công pháp cho Võ Thánh.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341
+      ],
+      "eyebrow": "Thế giới thực · Chương 330–341",
+      "x": 9820,
+      "y": 760
+    },
+    {
+      "id": "arc-0342-hoa-than",
+      "title": "Hóa Thần và con đường Kiếm Tiên",
+      "summary": "Thanh Sơn vượt kiếp Hóa Thần, thức tỉnh Khống Kiếm và Tinh Ngân. Chuỗi Kiếm Tiên yêu cầu sửa Triều Âm; hắn học luyện khí, diễn xuất và tìm Nhật Nguyệt Huyết giữa dấu hiệu Hàn Băng lan rộng.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351
+      ],
+      "eyebrow": "Thế giới thực · Chương 342–351",
+      "x": 10540,
+      "y": 760
+    },
+    {
+      "id": "arc-0352-hoang-de-nhan-ban",
+      "title": "Hoàng đế và những bản sao",
+      "summary": "Tại hành cung Phục Hy, Valrhona bí mật cầu cứu. Thanh Sơn lần ra cái chết Thang Quân, hoàng đế nhân bản và đầu lâu khai quốc mất tích; anh cứu hoàng hậu khỏi chuỗi tập kích.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "eyebrow": "Thế giới thực · Chương 352–361",
+      "x": 11260,
+      "y": 760
+    },
+    {
+      "id": "arc-0362-han-bang",
+      "title": "Tận mắt thấy Địa ngục Hàn Băng",
+      "summary": "Thanh Sơn xác nhận Hàn Băng ở Hoang Vân cốc, đưa hồ băng ra vũ trụ và bảo vệ hồn Lưu Thi Quân. Hệ thống yêu cầu ngăn đại chiến; Triều Âm được sửa xong và mở Khổ Hải Giai Độ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "eyebrow": "Thế giới thực · Chương 362–373",
+      "x": 11980,
+      "y": 760
+    },
+    {
+      "id": "arc-0374-ngan-dai-chien",
+      "title": "Ngăn chiến tranh Phục Hy – Liên Bang",
+      "summary": "Thanh Sơn vạch trần hoàng đế giả tổng thống và tiêu diệt đội nhân bản. Trương Anh Hào trì hoãn giao tranh; khai quốc hoàng đế nuốt hậu duệ, Valrhona tiếp quyền rồi đình chiến, hoàn thành nhiệm vụ chi viện Hoàng Tuyền.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382
+      ],
+      "eyebrow": "Thế giới thực · Chương 374–382",
+      "x": 12700,
+      "y": 760
+    },
+    {
+      "id": "arc-0383-bi-mat-hoang-tuyen",
+      "title": "Hai thần kiếm và bí mật Hoàng Tuyền",
+      "summary": "Triều Âm thu nước Vong Xuyên, Địa kiếm diệt quỷ thần bằng hồn lực. Nhờ mèo mun truy tìm, Thanh Sơn buộc khai quốc hoàng đế hé lộ nỗi sợ thần linh, nhưng đối phương tự sát để giữ bí mật.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389
+      ],
+      "eyebrow": "Thế giới thực · Chương 383–389",
+      "x": 13420,
+      "y": 760
+    },
+    {
+      "id": "arc-0389-dao-suong",
+      "title": "Đảo Sương: giành quyền chọn vận mệnh",
+      "summary": "Tô Tuyết Nhi dùng nhẫn nano vượt bẫy của Isha, thức tỉnh bảy thẻ bài và bái Huyết Bào Ma Chủ. Cô thắng xét xử, khiến Isha bị trục xuất, nhìn vận mệnh cũ qua Ngã Rẽ Số Phận rồi quyết trở về cứu Thanh Sơn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397
+      ],
+      "eyebrow": "Tu Hành · Chương 389–397",
+      "x": 11980,
+      "y": 260
+    },
+    {
+      "id": "arc-0397-tro-ve",
+      "title": "Món quà và ba địa ngục",
+      "summary": "Tuyết Nhi trở về tặng quyển trục cứu mạng. Thanh Sơn hoàn tất trùng sinh, thức tỉnh Kiếm Tiên và đạt Hóa Thần trung kỳ; Valrhona đăng cơ khi các địa ngục mới giáng xuống, còn Giáo hoàng giả gọi Asmodeus.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        397,
+        398,
+        399,
+        400
+      ],
+      "eyebrow": "Thế giới thực · Chương 397–400",
+      "x": 14140,
+      "y": 760
+    },
+    {
+      "id": "arc-0401-0407",
+      "title": "Đăng cơ Phục Hy và kết thúc Giáo Hoàng",
+      "summary": "Valrhona lên ngôi; Thanh Sơn đánh bại Isha, Anna gặp Khuyển Thần, kế hoạch phổ biến tu hành tiếp tục.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407
+      ],
+      "eyebrow": "Thế giới thực · Chương 401–407",
+      "x": 14860,
+      "y": 760
+    },
+    {
+      "id": "arc-0408-0414",
+      "title": "Máy móc Hoàng Tuyền và chuẩn bị xuất hồn",
+      "summary": "Máy móc báo tai họa từ Hoàng Tuyền; Thanh Sơn học hai bí pháp để điều tra bằng linh hồn.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414
+      ],
+      "eyebrow": "Thế giới thực · Chương 408–414",
+      "x": 15580,
+      "y": 760
+    },
+    {
+      "id": "arc-0415-0424",
+      "title": "Vào Hoàng Tuyền tìm nguồn đại nạn",
+      "summary": "Thi thể khổng lồ truyền bí pháp đồng điệu; Thanh Sơn đột phá Hóa Thần hậu kỳ, vào Hoàng Tuyền và dùng Vong Xuyên diệt Ma Thần.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
+      ],
+      "eyebrow": "Tu Hành · Chương 415–424",
+      "x": 12700,
+      "y": 260
+    },
+    {
+      "id": "arc-0425-0439",
+      "title": "Sơn Nữ và bí mật thần khí Hoàng Tuyền",
+      "summary": "Cùng binh khí và người chết tìm nguyên nhân chư thần diệt vong, mượn trường mâu quét yêu ma và tranh ngôi Quỷ Vương.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439
+      ],
+      "eyebrow": "Tu Hành · Chương 425–439",
+      "x": 13420,
+      "y": 260
+    },
+    {
+      "id": "arc-0440-0440",
+      "title": "Giữ thân xác giữa tai họa địa ngục",
+      "summary": "Các đồng bạn và Anna bảo vệ thân xác Thanh Sơn ở nhân gian trong lúc hắn tranh ngôi dưới Hoàng Tuyền.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        440
+      ],
+      "eyebrow": "Thế giới thực · Chương 440",
+      "x": 16300,
+      "y": 760
+    },
+    {
+      "id": "arc-0441-0450",
+      "title": "Khinh Âm và quyền trượng Quỷ Vương",
+      "summary": "Vượt mộng cảnh của Lam, nhận quyền trượng và trở thành Quỷ Vương, buộc các địa ngục rút khỏi nhân gian.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "eyebrow": "Tu Hành · Chương 441–450",
+      "x": 14140,
+      "y": 260
+    },
+    {
+      "id": "arc-0451-0458",
+      "title": "Dung hợp Hoàng Tuyền để giải cứu Lục đạo",
+      "summary": "Gom Ngũ Hành Chi Nguyên, dung hợp Hoàng Tuyền với nhân gian và ném trường mâu ra ngoài; phát hiện thần linh phản bội.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "eyebrow": "Tu Hành · Chương 451–458",
+      "x": 14860,
+      "y": 260
+    },
+    {
+      "id": "arc-0459-0469",
+      "title": "Viện quân người chết bảo vệ thế giới mới",
+      "summary": "Người chết giữ nhân gian tới khi bình phong mới hoàn thành; cứu Khinh Âm, gặp Lam Tụ, rồi Thanh Sơn và Anna lên đường riêng.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469
+      ],
+      "eyebrow": "Thế giới thực · Chương 459–469",
+      "x": 17020,
+      "y": 760
+    },
+    {
+      "id": "arc-0470-0477",
+      "title": "Đến Huyền Không dưới thân phận Tề Diễm",
+      "summary": "Nhận thưởng cứu thế giới, giả Tề Diễm vào Quảng Dương môn và tìm đường giải trận xuyên giới trong thế giới bị Giới Ma nuốt.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477
+      ],
+      "eyebrow": "Tu Hành · Chương 470–477",
+      "x": 15580,
+      "y": 260
+    },
+    {
+      "id": "arc-0478-0486",
+      "title": "Nghị sự Quảng Dương và cái chết Ngô Tam",
+      "summary": "Thanh Sơn tránh lộ thân phận, dùng bí mật thế giới mới kéo hai đường chủ vào kế hoạch chống Vương Hồng Đao rồi giết Ngô Tam.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486
+      ],
+      "eyebrow": "Tu Hành · Chương 478–486",
+      "x": 16300,
+      "y": 260
+    },
+    {
+      "id": "arc-0487-0494",
+      "title": "Trục xuất La Sát và đột phá Phong Thánh",
+      "summary": "Phát hiện mặt nạ nghe lén, đẩy La Sát Nữ khỏi thế giới, vượt lôi kiếp Phong Thánh và nhận pháp bảo quyết chiến.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494
+      ],
+      "eyebrow": "Tu Hành · Chương 487–494",
+      "x": 17020,
+      "y": 260
+    },
+    {
+      "id": "arc-0495-0500",
+      "title": "Đoạn Ly và bẫy truyền thừa Thiên Sơn Dạ",
+      "summary": "Bỏ thần thông Phong Thánh để nâng Lôi điện thành Đoạn Ly, học trận pháp và nhận ngọc giản đao kiếm trong cuộc đấu trí với oan hồn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        495,
+        496,
+        497,
+        498,
+        499,
+        500
+      ],
+      "eyebrow": "Tu Hành · Chương 495–500",
+      "x": 17740,
+      "y": 260
+    },
+    {
+      "id": "arc-501-514",
+      "title": "Quyết đấu Vương Hồng Đao",
+      "summary": "Tại Huyền Không, Thanh Sơn giải phóng hai đồng hành, phá trận ngăn cách để triệt ưu thế cảnh giới rồi phối hợp Sơn Nữ diệt Triệu Ngũ Chuy, Vương Hồng Đao và chủ hồn Thiên Sơn Dạ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514
+      ],
+      "eyebrow": "Tu Hành · Chương 501–514",
+      "x": 18460,
+      "y": 260
+    },
+    {
+      "id": "arc-515-523",
+      "title": "Chân tướng Huyền Không và tuyển La Sát",
+      "summary": "Biết nguồn gốc lời nguyền, đạt đỉnh trận pháp Huyền Không và cho hai đồng hành trở về; Thanh Sơn nhận thử thách La Sát, dùng rương Phá Không loại thuộc hạ đối phương rồi chuẩn bị sống qua tận thế.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523
+      ],
+      "eyebrow": "Tu Hành · Chương 515–523",
+      "x": 19180,
+      "y": 260
+    },
+    {
+      "id": "arc-524-531",
+      "title": "Sống qua hủy diệt, hướng tới Siêu Duy",
+      "summary": "Thanh Sơn biến hóa liên tiếp thắng La Sát Nữ; Huyền Không bị nuốt, Tiểu Điệp hiện chân thân và đưa hắn đi báo ân. Qua vô số tầng, hắn tới cổng Tháp Cao dẫn vào Siêu Duy.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531
+      ],
+      "eyebrow": "Tu Hành · Chương 524–531",
+      "x": 19900,
+      "y": 260
+    },
+    {
+      "id": "arc-532-536",
+      "title": "Chuyến thuyền và nhiệm vụ lưu lại",
+      "summary": "Nhận sách ngôn ngữ, hưởng đãi ngộ ân nhân Tháp Cao và đi thuyền tới Thiết Quyền Chính Nghĩa; Chiến Thần yêu cầu tìm cách ở lại.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        532,
+        533,
+        534,
+        535,
+        536
+      ],
+      "eyebrow": "Tu Hành · Chương 532–536",
+      "x": 20620,
+      "y": 260
+    },
+    {
+      "id": "arc-537-540",
+      "title": "Khủng hoảng trật tự sau dung hợp",
+      "summary": "Tu sĩ lạm quyền làm xã hội chao đảo, các giới khác mưu thôn tính; Tuyết Nhi đứng về phía bảo vệ tâm huyết Thanh Sơn và đối mặt âm mưu Cửu phủ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        537,
+        538,
+        539,
+        540,
+        541,
+        542
+      ],
+      "eyebrow": "Thế giới thực · Chương 537–542",
+      "x": 17740,
+      "y": 760
+    },
+    {
+      "id": "arc-543-551",
+      "title": "Gia nhập Thiết Quyền Chính Nghĩa",
+      "summary": "Tuyết Nhi chọn đường Chim Kinh Cức; Thanh Sơn báo ân cho Tiểu Điệp, hoàn thành nhiệm vụ ở lại và trở thành thành viên câu lạc bộ. Hạ Kẻ Hủy Diệt đem lại hồn lực siêu phàm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551
+      ],
+      "eyebrow": "Tu Hành · Chương 543–551",
+      "x": 21340,
+      "y": 260
+    },
+    {
+      "id": "arc-552-553",
+      "title": "Thần Quỷ tranh thế giới dung hợp",
+      "summary": "Anh Hào lợi dụng công nghệ và mâu thuẫn liên quân, trong lúc Diệp Phi Ly tích hồn lực trở thành con bài phản công.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        552,
+        553
+      ],
+      "eyebrow": "Thế giới thực · Chương 552–553",
+      "x": 18460,
+      "y": 760
+    },
+    {
+      "id": "arc-554-563",
+      "title": "Đường tới chim Kinh Cức và kỳ nghỉ Abruzzo",
+      "summary": "Cố Thanh Sơn đạt Phong Thánh hậu kỳ trên thuyền Tháp Cao, đến di tích Cổ Thần và đoàn tụ Tuyết Nhi; điềm báo vận mệnh phủ bóng kỳ nghỉ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563
+      ],
+      "eyebrow": "Tu Hành · Chương 554–563",
+      "x": 22060,
+      "y": 260
+    },
+    {
+      "id": "arc-564-572",
+      "title": "Phá ba lớp bảo hộ để tìm Tuyết Nhi",
+      "summary": "Tuyết Nhi tự đi chịu hiểm họa; Cố Thanh Sơn vòng qua Trái Đất và Thiết Quyền, nhờ gà trống cùng mỹ nữ bằng gỗ mở đường đuổi theo.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        564,
+        569,
+        570,
+        571,
+        572
+      ],
+      "eyebrow": "Tu Hành · Chương 564, 569–572",
+      "x": 22780,
+      "y": 260
+    },
+    {
+      "id": "arc-565-568",
+      "title": "Quyền vương làm chậm cuộc xâm lược",
+      "summary": "Gợi ý của Cố Thanh Sơn giúp Chú Hề Tử Thần dùng đe dọa hủy thế giới ép các phe vào giải đấu để có thời gian trưởng thành.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        565,
+        566,
+        567,
+        568
+      ],
+      "eyebrow": "Thế giới thực · Chương 565–568",
+      "x": 19180,
+      "y": 760
+    },
+    {
+      "id": "arc-573-581",
+      "title": "Laura và bí mật Mồi Lửa",
+      "summary": "Biên niên sử vạch âm mưu Trieste; công chúa Laura mở đường vào thế giới bị phong ấn, nơi Tuyết Nhi đang chống Mồi Lửa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581
+      ],
+      "eyebrow": "Tu Hành · Chương 573–581",
+      "x": 23500,
+      "y": 260
+    },
+    {
+      "id": "arc-582-590",
+      "title": "Chiến Thần chọn diệt Mồi Lửa",
+      "summary": "Cố Thanh Sơn và Laura vượt thử thách băng nguyên, tìm dấu Ilia; Chiến Thần đổi cơ chế nhiệm vụ, hỗ trợ cuộc phản công Mồi Lửa từ tòa nhà sáu trăm tầng.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590
+      ],
+      "eyebrow": "Tu Hành · Chương 582–590",
+      "x": 24220,
+      "y": 260
+    },
+    {
+      "id": "arc-591-600",
+      "title": "Vận mệnh trở lại và chiến tranh chư giới",
+      "summary": "Tethys cứu Tuyết Nhi; Cố Thanh Sơn cùng Laura tiếp tục đối kháng Mồi Lửa. Bên ngoài Abruzzo, các bá chủ nghênh chiến chân ma trong lúc bí mật thăng cấp của đối thủ dần lộ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "eyebrow": "Tu Hành · Chương 591–600",
+      "x": 24940,
+      "y": 260
+    },
+    {
+      "id": "arc-0601-0614",
+      "title": "Thần sơn và thế giới Di Dân",
+      "summary": "Tại thế giới Trieste, Thanh Sơn đối đầu Khởi Nguyên, gỡ Trật Tự rồi theo Triều Âm xuống biển, phát hiện thế giới cổ thần và mở Chiến Thần Tinh Hỏa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614
+      ],
+      "eyebrow": "Tu Hành · Chương 601–614",
+      "x": 25660,
+      "y": 260
+    },
+    {
+      "id": "arc-0615-0632",
+      "title": "Đường tới Hải Triều",
+      "summary": "Thanh Sơn cùng Laura vượt quỷ triều, gặp Lão Tiều và Ilia; Thái Ất tích lũy 36 lần cùng Chinh Phục cứu thành Hải Triều, Laura nhận ngôi nữ vương.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632
+      ],
+      "eyebrow": "Tu Hành · Chương 615–632",
+      "x": 26380,
+      "y": 260
+    },
+    {
+      "id": "arc-0633-0642",
+      "title": "Thánh vật bị cướp",
+      "summary": "Tại thế giới Di Dân, cuộc trinh sát hé lộ Thiên Ma đứng sau việc ăn hồn. Dân Hải Triều chết, Thánh vật bị lấy để Khởi Nguyên tiến hóa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642
+      ],
+      "eyebrow": "Tu Hành · Chương 633–642",
+      "x": 27100,
+      "y": 260
+    },
+    {
+      "id": "arc-0643-0662",
+      "title": "Thiên Tru và đại kiếp Thần Chiếu",
+      "summary": "Thanh Sơn lập liên minh với Ma vương, Quỷ vương và Ly Ám, dùng thiên kiếp tại thế giới cổ thần tiêu diệt Nhập Ma giả; Laura trưởng thành, thần giáp hộ thân và Thanh Sơn đạt Thần Chiếu.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662
+      ],
+      "eyebrow": "Tu Hành · Chương 643–662",
+      "x": 27820,
+      "y": 260
+    },
+    {
+      "id": "arc-0663-0680",
+      "title": "Hai Trật Tự hủy diệt và lời hứa Kinh Cức",
+      "summary": "Sau trận chiến bên trụ đồng khiến Địa kiếm ngủ say, Thanh Sơn hủy Cách Mạng cùng Thánh Hành, được cổ thần giải phóng linh hồn. Đại chiến Abruzzo chấm dứt, Laura trả nợ Thiết Quyền và trao lời hứa bá tước.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680
+      ],
+      "eyebrow": "Tu Hành · Chương 663–680",
+      "x": 28540,
+      "y": 260
+    },
+    {
+      "id": "arc-0681-0684",
+      "title": "Thiết Quyền trở về Trái Đất",
+      "summary": "Chuỗi nhiệm vụ kết thúc, Barry và Mèo Nhỏ theo Thanh Sơn về Thánh quốc, đẩy lui quái vật vũ trụ và nhận diện kẻ giết Người bảo hộ Cửu Phủ.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        681,
+        682,
+        683,
+        684
+      ],
+      "eyebrow": "Thế giới thực · Chương 681–684",
+      "x": 19900,
+      "y": 760
+    },
+    {
+      "id": "arc-0685-0687",
+      "title": "Thẩm vấn trong Hoàng Tuyền",
+      "summary": "Thanh Sơn dùng ba thần khí khóa linh hồn Học viện Thần trong Hoàng Tuyền, giả sứ giả để điều tra Chuông thần và Mộ thế giới.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        685,
+        686,
+        687
+      ],
+      "eyebrow": "Tu Hành · Chương 685–687",
+      "x": 29260,
+      "y": 260
+    },
+    {
+      "id": "arc-0688-0691",
+      "title": "Vạch bí mật Học viện Thần",
+      "summary": "Trở lại Trái Đất, Thiết Quyền bán tình báo, Nữ Thần Công Chính mở phi thuyền Bắc Cực và Diệp Phi Ly gia nhập câu lạc bộ, bắt đầu tiến hóa sau khi diệt Sương Hỏa Quỷ Vương.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        688,
+        689,
+        690,
+        691
+      ],
+      "eyebrow": "Thế giới thực · Chương 688–691",
+      "x": 20620,
+      "y": 760
+    },
+    {
+      "id": "arc-0692-0693",
+      "title": "Liên minh Tu hành chọn Bách Hoa",
+      "summary": "Từ lời kể Ly Ám và cảnh tại Liên minh Tu hành, Tạ Đạo Linh được chọn làm thủ lĩnh giữa chiến tranh với Ma Quốc; nàng đã dung hợp nhiều thế giới và tiếp tục đột phá.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        692,
+        693
+      ],
+      "eyebrow": "Tu Hành · Chương 692–693",
+      "x": 29980,
+      "y": 260
+    },
+    {
+      "id": "arc-0694-0694",
+      "title": "Chuông thần ở Bắc Cực",
+      "summary": "Ly Ám cảnh báo nguy cơ của sư môn. Mèo Nhỏ lấy Chuông thần dưới phi thuyền, Thanh Sơn lựa chọn học kỹ năng dò cổ vật.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        694
+      ],
+      "eyebrow": "Thế giới thực · Chương 694",
+      "x": 21340,
+      "y": 760
+    },
+    {
+      "id": "arc-0695-0695",
+      "title": "Căn nguyên Ác Quỷ",
+      "summary": "Sau học Truy tìm Thần tích, Thanh Sơn thẩm vấn Sương Hỏa tại Hoàng Tuyền rồi cùng Mèo Nhỏ lấy căn nguyên ngũ hành ở thế giới Ác Quỷ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        695
+      ],
+      "eyebrow": "Tu Hành · Chương 695",
+      "x": 30700,
+      "y": 260
+    },
+    {
+      "id": "arc-0696-0700",
+      "title": "Lục Đạo hợp nhất và bóng người Viễn Cổ",
+      "summary": "Thanh Sơn công bố quy tắc chung, dung hợp bốn thế giới còn lại vào Nhân Gian–Hoàng Tuyền. Mộ thế giới hiện ra; cái bóng mang giọng nói của hắn tiết lộ việc cổ thần chạy trốn.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        696,
+        697,
+        698,
+        699,
+        700
+      ],
+      "eyebrow": "Thế giới thực · Chương 696–700",
+      "x": 22060,
+      "y": 760
+    },
+    {
+      "id": "arc-0701-0704",
+      "title": "Tháp Vạn Giới và thế giới Siêu Duy",
+      "summary": "Lục đạo dung hợp thành thế giới Siêu Duy; Sơn Nữ nhận quyền kiểm soát, Barry và Mèo Con ở lại Trái Đất, Nữ Thần khởi động kế hoạch cơ thể mới.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        701,
+        702,
+        703,
+        704
+      ],
+      "eyebrow": "Thế giới thực · Chương 701–704",
+      "x": 22780,
+      "y": 760
+    },
+    {
+      "id": "arc-0705-0712",
+      "title": "Trở về Bách Hoa, giải vây liên minh",
+      "summary": "Thanh Sơn vượt Thiên Kiếp tại Thần Võ, trở về Bách Hoa và đối mặt nhóm trưởng lão; Trần Vương can thiệp, bảo vệ tông môn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712
+      ],
+      "eyebrow": "Tu Hành · Chương 705–712",
+      "x": 31420,
+      "y": 260
+    },
+    {
+      "id": "arc-0713-0722",
+      "title": "Địa kiếm nguy cấp và tuyển chọn Tranh Bá",
+      "summary": "Địa kiếm cần bản nguyên Thiên kiếm; Thanh Sơn học lại nhiều kỹ nghệ, nhận quân hàm Thần Uy và cùng Ninh Nguyệt Thiền dự tuyển khu Tranh Bá.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722
+      ],
+      "eyebrow": "Tu Hành · Chương 713–722",
+      "x": 32140,
+      "y": 260
+    },
+    {
+      "id": "arc-0723-0736",
+      "title": "Thế giới tân thủ và bảy thần đã chết",
+      "summary": "Thanh Sơn vào khu Tranh Bá, vượt đàn Hắc Ma Dương; Trật Tự Sinh Mệnh sụp đổ, sự thật bảy thần ngã xuống lộ ra, hắn tìm đường sống giữa hư không.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736
+      ],
+      "eyebrow": "Tu Hành · Chương 723–736",
+      "x": 32860,
+      "y": 260
+    },
+    {
+      "id": "arc-0737-0745",
+      "title": "Khế ước Vương Thành và tàu phế liệu",
+      "summary": "Thanh Sơn báo thù cho triệu hoán sư Vương Thành, nhận tri thức của anh và điều tra tàu phế liệu; tin cầu cứu Vân Cơ khiến hắn chuẩn bị thuyền cứu sinh.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745
+      ],
+      "eyebrow": "Tu Hành · Chương 737–745",
+      "x": 33580,
+      "y": 260
+    },
+    {
+      "id": "arc-0746-0758",
+      "title": "Thần băng và thiếu nữ trốn chạy ở Lưu Sa",
+      "summary": "Thanh Sơn tìm Vân Cơ trong thần băng, vào chợ đen Lưu Sa tìm cách chữa trị và cứu thiếu nữ thẻ bài khỏi xiềng xích Khôi Thủ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758
+      ],
+      "eyebrow": "Tu Hành · Chương 746–758",
+      "x": 34300,
+      "y": 260
+    },
+    {
+      "id": "arc-0759-0769",
+      "title": "Đồng hành Đoạn Tội, vượt mệnh kiếp cuối",
+      "summary": "Thiếu nữ Tịch chuyển Thanh Sơn thành Sứ giả Đoạn Tội; hai người dùng Song Ảnh đánh bại thợ săn, vượt mệnh kiếp cuối và đạt Thái Hư.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769
+      ],
+      "eyebrow": "Tu Hành · Chương 759–769",
+      "x": 35020,
+      "y": 260
+    },
+    {
+      "id": "arc-0770-0778",
+      "title": "Quái vật Lưu Sa và mê cung ba thần khí",
+      "summary": "Quái vật thức tỉnh, hình nhân ánh sáng sai chúng sinh tìm ba thần khí. Thanh Sơn dò âm mưu, giải cứu Hạt Ma và vào mê cung trước tiên.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
+      ],
+      "eyebrow": "Tu Hành · Chương 770–778",
+      "x": 35740,
+      "y": 260
+    },
+    {
+      "id": "arc-0779-0785",
+      "title": "Tịch bị bắt và lời thách thức thần linh",
+      "summary": "Ba thần khí thực chất khống chế Tịch. Thanh Sơn từ chối bán thần, bị phong ấn; đồng bạn chuẩn bị phản công, còn hắn hợp tác với hình nhân bóng tối.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785
+      ],
+      "eyebrow": "Tu Hành · Chương 779–785",
+      "x": 36460,
+      "y": 260
+    },
+    {
+      "id": "arc-0786-0792",
+      "title": "Thời Không Tẩm Thấu đến Thiên Giới Nguyên Thủy",
+      "summary": "Thanh Sơn lấy trận bàn từ quá khứ và thử nhiều lần để vào thiên cung; giúp thắng trận Ma Nhãn, nhận sự công nhận của Linh Quy.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792
+      ],
+      "eyebrow": "Tu Hành · Chương 786–792",
+      "x": 37180,
+      "y": 260
+    },
+    {
+      "id": "arc-0793-0796",
+      "title": "Khảo thí Thẩm Ương và truyền thừa Hoang Vân",
+      "summary": "Trong khảo thí, Thanh Sơn bảo vệ Tạ Đạo Linh sơ sinh và vạch trần Triệu Khoan; vượt thử thách để bắt đầu tu hành trong thời đại thượng cổ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        793,
+        794,
+        795,
+        796
+      ],
+      "eyebrow": "Tu Hành · Chương 793–796",
+      "x": 37900,
+      "y": 260
+    },
+    {
+      "id": "arc-0797-0800",
+      "title": "Bảy năm học kiếm dưới Tạ Cô Hồng",
+      "summary": "Thanh Sơn bái cung chủ làm thầy, chuyên tâm kiếm đạo bảy năm, khôi phục chân thân Thái Hư và nhận trách nhiệm dạy Hoàng Chiến, Thẩm Ương.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        797,
+        798,
+        799,
+        800
+      ],
+      "eyebrow": "Tu Hành · Chương 797–800",
+      "x": 38620,
+      "y": 260
+    },
+    {
+      "id": "ancient-main-peak-conflict",
+      "title": "Chủ phong và hiệp nghị Thượng Cổ",
+      "summary": "Giữ sư huynh đệ đoàn kết, đối đầu thần linh; ẩn làm đầu bếp, tiến Huyền Linh, thức tỉnh Kinh Mộng và khám phá hiệp nghị bán đứng Nhân tộc.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814
+      ],
+      "eyebrow": "Tu Hành · Chương 801–814",
+      "x": 39340,
+      "y": 260
+    },
+    {
+      "id": "demon-world-merger",
+      "title": "Con đường riêng qua Ma giới",
+      "summary": "Nhận truyền thừa trên biển, nhập Ma giới Tà Kỳ, dung hợp thế giới để đạt Kiến Không và mở nhiệm vụ giành Thiên kiếm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822
+      ],
+      "eyebrow": "Tu Hành · Chương 815–822",
+      "x": 40060,
+      "y": 260
+    },
+    {
+      "id": "ancient-broken-route",
+      "title": "Kiếm Tiên và thân phận Thần vương",
+      "summary": "Bỏ lộ trình phục kích, cứu đồng bào và đại thành Kiếm Tiên; chứng kiến Thần vương chết rồi mạo danh Lam Diễm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832
+      ],
+      "eyebrow": "Tu Hành · Chương 823–832",
+      "x": 40780,
+      "y": 260
+    },
+    {
+      "id": "god-king-memory-vault",
+      "title": "Kho truyền thừa và đường lui của thần tộc",
+      "summary": "Đăng cơ, tìm nguồn gốc thần linh, nâng thẻ và Biên niên sử, cứu Lạc Băng Ly rồi được giao thâm nhập Hoang Cổ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "eyebrow": "Tu Hành · Chương 833–843",
+      "x": 41500,
+      "y": 260
+    },
+    {
+      "id": "ancient-war-system-awakening",
+      "title": "Đánh thức Quân Đoàn Nhân Tộc",
+      "summary": "Gặp hệ thống chiến tranh cực cổ, giúp Thủy Thần tiến hóa và phát hiện phân thể Tiêm Tiếu Giả thao túng Hoang Cổ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852
+      ],
+      "eyebrow": "Tu Hành · Chương 844–852",
+      "x": 42220,
+      "y": 260
+    },
+    {
+      "id": "soul-shrieker-sword-plot",
+      "title": "Âm mưu Thiên Địa song kiếm",
+      "summary": "Thoát võ giả họ Lâm, buộc Mạnh lão khai âm mưu Tiêm Tiếu Giả, nhận Duy Tôn và tìm kiếm thuật cực cổ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859
+      ],
+      "eyebrow": "Tu Hành · Chương 853–859",
+      "x": 42940,
+      "y": 260
+    },
+    {
+      "id": "god-king-time-loop",
+      "title": "Thần vương và vòng thời gian",
+      "summary": "Loại Kim Diễm, thuyết phục Thần tộc hợp tác, giao Chiến Thần cho bản thân kiếp trước rồi tải Mồi Lửa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866
+      ],
+      "eyebrow": "Tu Hành · Chương 860–866",
+      "x": 43660,
+      "y": 260
+    },
+    {
+      "id": "chaotic-sea-sword-rescue",
+      "title": "Trì hoãn cái chết của Địa Kiếm",
+      "summary": "Tải Mồi Lửa, chiếm hai Ma giới, nhận giáp Hắc Vụ rồi giao dịch tại biển Ma Hỗn Loạn để cứu khí linh đang tan vỡ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875
+      ],
+      "eyebrow": "Tu Hành · Chương 867–875",
+      "x": 44380,
+      "y": 260
+    },
+    {
+      "id": "chaotic-sea-du-tam",
+      "title": "Thám hiểm biển và đột phá Du Tầm",
+      "summary": "Duy Tôn trợ chiến, tích hồn lực và bí mật độ kiếp dưới biển; Trĩ La giúp vượt Hỏa kiếp.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884
+      ],
+      "eyebrow": "Tu Hành · Chương 876–884",
+      "x": 45100,
+      "y": 260
+    },
+    {
+      "id": "chaotic-sea-betrayal",
+      "title": "Phản kích vụ bán ma quỷ",
+      "summary": "Phát hiện Chúa Tể bán cả thuyền, dùng thân Thần vương và Duy Tôn đánh hải thú, cứu người sống sót rồi tìm đường vực sâu.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        885,
+        886,
+        887,
+        888,
+        889,
+        890
+      ],
+      "eyebrow": "Tu Hành · Chương 885–890",
+      "x": 45820,
+      "y": 260
+    },
+    {
+      "id": "abyss-watchhouse-truth",
+      "title": "Ma Long và Chức Mệnh Giả",
+      "summary": "Thăm mật đạo, phát hiện hai quái vật vực sâu và ý đồ phản bội của Ma Long; chuyển Bóng Chồng để tránh truy đuổi.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        891,
+        892,
+        893,
+        894,
+        895,
+        896
+      ],
+      "eyebrow": "Tu Hành · Chương 891–896",
+      "x": 46540,
+      "y": 260
+    },
+    {
+      "id": "tu-tai-heaven-return",
+      "title": "Trở lại Thiên Cảnh Tự Tại",
+      "summary": "Lên Không Luân, dùng Phá Cảnh Đan tiếp tục thiên kiếp và diệt kẻ đe dọa Trĩ La; Tam Thiên Thế chưa hoàn thành.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        897,
+        898,
+        899,
+        900
+      ],
+      "eyebrow": "Tu Hành · Chương 897–900",
+      "x": 47260,
+      "y": 260
+    },
+    {
+      "id": "earth-diep-phi-ly-evolution",
+      "title": "Diệp Phi Ly tiến hóa ở Bắc Cực",
+      "summary": "Ba Lợi và Mèo Nhỏ bảo vệ Diệp Phi Ly, ngăn linh hồn tà ác chiếm thân khi tiến hóa tại thế giới Nguyên Bản.",
+      "kind": "event",
+      "realm": "reality",
+      "chapters": [
+        861
+      ],
+      "eyebrow": "Thế giới thực · Chương 861",
+      "x": 23500,
+      "y": 760
+    },
+    {
+      "id": "arc-0901-0908",
+      "title": "Vượt bốn kiếp và thế giới của Đất",
+      "summary": "Hoàn thành Phong, Hỏa, Thủy, Địa kiếp; Thanh Sơn vượt cảnh người thường và nhà ngục máy móc, được bản phục chế Kỹ nghệ hỗ trợ rồi đạt Ba Ngàn Thế Giới.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908
+      ],
+      "eyebrow": "Tu Hành · Chương 901–908",
+      "x": 47980,
+      "y": 260
+    },
+    {
+      "id": "arc-0909-0916",
+      "title": "Nhà ngục Ma Long và hồn khí",
+      "summary": "Khám phá bí mật hồn khí cổ đại, nâng Kỹ nghệ và chế công cụ chiến đấu; Ma Long chết nhưng máu của nó ăn mòn Thanh Sơn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916
+      ],
+      "eyebrow": "Tu Hành · Chương 909–916",
+      "x": 48700,
+      "y": 260
+    },
+    {
+      "id": "arc-0917-0924",
+      "title": "Điệu múa Tế Mệnh và ngọc điệp cuối",
+      "summary": "Vũ đạo cải tiến áp chế Ma Long, nhận Gặp Lại Ngươi Một Lần và áo choàng Tĩnh Lặng; Thanh Sơn tiếp nhận ngọc điệp cuối của Tạ Cô Hồng.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924
+      ],
+      "eyebrow": "Tu Hành · Chương 917–924",
+      "x": 49420,
+      "y": 260
+    },
+    {
+      "id": "arc-0925-0933",
+      "title": "Phá thế cờ của Chức mệnh giả",
+      "summary": "Trở lại thời khắc chân thực, Thanh Sơn đối mặt thân phận thật của Ánh Sáng, dùng thẻ Song Thể và ba đồng xu, chế hồn khí để tranh Thiên Kiếm.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933
+      ],
+      "eyebrow": "Tu Hành · Chương 925–933",
+      "x": 50140,
+      "y": 260
+    },
+    {
+      "id": "arc-0934-0940",
+      "title": "Thiên Địa song kiếm và trở về",
+      "summary": "Lạc Băng Ly hóa khí linh Thiên Kiếm, Địa Kiếm được chữa; Thanh Sơn trả vật cổ đại, trở về tương lai và được hệ thống xác nhận nhiệm vụ Thiên Kiếm hoàn thành.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940
+      ],
+      "eyebrow": "Tu Hành · Chương 934–940",
+      "x": 50860,
+      "y": 260
+    },
+    {
+      "id": "arc-0941-0950",
+      "title": "Lối đi bí mật tới sao Song Tử",
+      "summary": "Thanh Sơn tìm tin đồng đội, lập khế ước với đồng tiền vàng rồi vào sao Song Tử bị cấm sức mạnh; Sơn Nữ giúp đối phó Chức mệnh giả.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950
+      ],
+      "eyebrow": "Tu Hành · Chương 941–950",
+      "x": 51580,
+      "y": 260
+    },
+    {
+      "id": "arc-0951-0960",
+      "title": "Phức Tự và địa vị chủ nhân của Đất",
+      "summary": "Tinh linh Thời Không Phức Tự tiết lộ Người tạo vật của Đất đã chết. Thanh Sơn kế thừa địa vị Thánh Trụ, nhận Đồng tiền của Đất và nhẫn hổ phách; đây chưa phải đột phá Tứ Trụ Thánh.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960
+      ],
+      "eyebrow": "Tu Hành · Chương 951–960",
+      "x": 52300,
+      "y": 260
+    },
+    {
+      "id": "arc-0961-0968",
+      "title": "Đồng hành với Lâm",
+      "summary": "Lâm mất nhẫn Thề Nguyện, trở lại thân người và thoát sao Song Tử cùng Thanh Sơn. Họ tìm đường tới Ẩn Ngữ nhưng đụng độ những kẻ săn bí mật Ma Long.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968
+      ],
+      "eyebrow": "Tu Hành · Chương 961–968",
+      "x": 53020,
+      "y": 260
+    },
+    {
+      "id": "arc-0969-0974",
+      "title": "Lượng kiếp không còn đường sống",
+      "summary": "Công đức không được xét khiến Lượng kiếp thành tử kiếp. Thanh Sơn hạ tu vi bằng Loạn Lưu, được chỉ dẫn dùng Đoạn Tội dựng thế giới và nâng Chúng Sinh Đồng Điệu.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        969,
+        970,
+        971,
+        972,
+        973,
+        974
+      ],
+      "eyebrow": "Tu Hành · Chương 969–974",
+      "x": 53740,
+      "y": 260
+    },
+    {
+      "id": "arc-0975-0980",
+      "title": "Thích khách và Tình báo cá nhân",
+      "summary": "Thanh Sơn làm thích khách kiếm thuốc cho Lâm, phát hiện Trương Anh Hào bị truy nã. Biên niên sử tiến hóa thành Tình báo cá nhân; hắn nhận ra bẫy Ma Long ở Núi Lửa.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "eyebrow": "Tu Hành · Chương 975–980",
+      "x": 54460,
+      "y": 260
+    },
+    {
+      "id": "arc-0981-0986",
+      "title": "Thủy triều Vực Sâu",
+      "summary": "Liên lạc Mèo Con không thể đưa nhóm về; Ven Biển bị tận thế nuốt. Thanh Sơn dùng thẻ Huyết Hải để tăng Đoạn Tội rồi tới Thiên Lam đã đổ nát, nhận tin Laura đang tới.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        981,
+        982,
+        983,
+        984,
+        985,
+        986
+      ],
+      "eyebrow": "Tu Hành · Chương 981–986",
+      "x": 55180,
+      "y": 260
+    },
+    {
+      "id": "arc-0987-0990",
+      "title": "Laura hội ngộ và Đoạn Tội màu lam",
+      "summary": "Thanh Sơn nhận giáp Kinh Cức, tăng Chân Xích Ma Thương và học Hợp Bài. Laura chữa lành Lâm, cùng nhóm chiến đấu; Diệp Phi Ly lên đường tìm bạn.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        987,
+        988,
+        989,
+        990
+      ],
+      "eyebrow": "Tu Hành · Chương 987–990",
+      "x": 55900,
+      "y": 260
+    },
+    {
+      "id": "arc-0991-0996",
+      "title": "Dựng thế giới và vượt Lượng kiếp",
+      "summary": "Thẻ bài tầng trong dung hợp Kiếm Đồng thành thuật thế giới. Thanh Sơn hồi phục tu vi, độ Lượng kiếp đúng pháp tắc, nhận công đức và nguyên lực, đạt Tứ Trụ Thánh.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        991,
+        992,
+        993,
+        994,
+        995,
+        996
+      ],
+      "eyebrow": "Tu Hành · Chương 991–996",
+      "x": 56620,
+      "y": 260
+    },
+    {
+      "id": "arc-0997-1000",
+      "title": "Trật Tự còn lại và nhiệm vụ thế giới",
+      "summary": "Ninh Nguyệt Thiền tìm Tô Tuyết Nhi để hợp Trật Tự; Tiêm Tiếu Giả truy đuổi. Thanh Sơn theo dấu Phức Tự vào di hài thế giới và bắt đầu nhiệm vụ khế ước chưa công bố đầy đủ.",
+      "kind": "event",
+      "realm": "cultivation",
+      "chapters": [
+        997,
+        998,
+        999,
+        1000
+      ],
+      "eyebrow": "Tu Hành · Chương 997–1000",
+      "x": 57340,
+      "y": 260
+    },
+    {
+      "id": "to-tuyet-nhi",
+      "title": "Tô Tuyết Nhi",
+      "summary": "Xuất hiện từ chương 4. Bạn học thân thiết của Thanh Sơn. Hiểu lầm được hóa giải ở chương 5–6; được tuyển thẳng Đại học Thủ Đô và là người hắn muốn tặng Thiên Thần Rực Lửa. Đột phá Phong lực giai đoạn bốn ở chương 73; nhận và điều khiển Thiên Thần Rực Lửa ở chương 76–77. Chương 209–214 phản kháng hôn nhân sắp đặt, nhận công pháp của Thanh Sơn và kế vị Tô phủ. Qua người bảo vệ Cửu phủ, dùng bài Vận Mệnh thành người chơi thử nghiệm ở thế giới hai mặt trời; nhẫn nano giúp thoát quái biển ở 246. Ở Đảo Sương, dùng nhẫn nano và kế hoạch phản kích để thoát bẫy của Isha cùng nhóm học viên; bản công pháp Thanh Sơn tặng bị thiêu trong xét xử. Nhẫn nano tự hủy để che dấu kế hoạch. Hệ thống riêng của cô yêu cầu cạnh tranh với Isha, một người chơi đến từ cùng thế giới. Thức tỉnh Thiên Tuyển hệ thẻ bài với bảy lá bài, tóc bạc, bạch bào và quyền trượng; chọn Huyết Bào Ma Chủ làm thầy. Vượt xét xử linh hồn và khiến Isha bị trục xuất vĩnh viễn khỏi Đảo Sương, giữ quyền sở hữu hệ thống riêng. Sau khi thấy vận mệnh cũ Thanh Sơn dùng Đồng Quy, cô chấp nhận liên kết hệ thống để trở về nửa giờ và trao quyển trục cứu mạng cho anh. Trở về từ Vụ Đảo trong một giờ, lỡ gặp Thanh Sơn vừa rời đi; nhận công pháp hắn để lại và hỏi về Anna. Đồng ý bảo vệ trật tự thế giới vì tâm huyết Thanh Sơn; triệu sinh vật mạnh để đến chất vấn Cửu phủ. Phá khống chế trên cha mẹ, chữa thương bằng sinh lực và phát hiện họ từng muốn đoạt vị Phủ chủ, tạo cơ hội cho tám phủ giăng bẫy. Trao áo Tinh Huy cho cha và tuyên bố cắt quan hệ Tô phủ; giết các phủ chủ và tu sĩ trong đình viện, giam linh hồn trong quyền trượng. Biết âm mưu giết mình của tầng lãnh đạo đảo Sương Mù qua Ma Châu có cấm tiết lộ, quyết định đi theo chim Kinh Cức. Đoàn tụ tại Abruzzo, giữ lá bài vận mệnh và trao Quân thần Huyết Hải cho Cố Thanh Sơn; bí mật dùng Nụ hôn của ma nữ cho hắn ngủ để tự đối diện nguy hiểm. Thiêu đốt sinh mệnh chặn đoàn săn Cố Thanh Sơn nhưng được lá cây Tethys cứu, đạt đạo sư phổ thông. Được đưa về Huyết Bào Ma Chủ, thoát gánh vận mệnh thay. Quyết vượt khảo nghiệm Đạo sư để đủ sức sát cánh với Thanh Sơn. Thân phận Tô Khả Nhi được thần sứ gọi thẳng là Tô Tuyết Nhi; biết Thanh Sơn đang bị truy nã, nhận ra Anna đã đánh lạc hướng mình. Sau khi Anna ngăn tự sát và xác nhận Thanh Sơn sống, chủ trương giết hình nhân ánh sáng trước để tránh cứu người rồi bị truy sát. Chương 984–998 điều hành Vận Mệnh thần điện, trấn áp phản loạn và gọi quân Huyết Hải chống xâm lược. Trật Tự trên người cảnh báo Tiêm Tiếu Giả, yêu cầu hợp với người còn lại để tìm Thanh Sơn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        4
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 4",
+      "x": 460,
+      "y": 1120
+    },
+    {
+      "id": "phung-hoac-duc",
+      "title": "Phùng Hoắc Đức",
+      "summary": "Người đi cùng Anna, xuất hiện dưới cách gọi Mặc Kính Nam ở chương 8; tự giới thiệu Phùng Hoắc Đức ở chương 20. Hoắc Đức và Mặc Kính Nam là cùng một người.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        8
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 8",
+      "x": 800,
+      "y": 1120
+    },
+    {
+      "id": "anna-character",
+      "title": "Anna",
+      "summary": "Công chúa Anna Medici. Hiện diện chưa tên ở sòng bạc chương 8, được gọi tên Anna ở chương 17, trực tiếp gặp Thanh Sơn chương 20. Trao tín vật Tử Thần ở 44; cứu Tuyết Nhi ở 73 và đối đầu Hải Đức ở 74. Nhận lại tín vật ở 94 rồi quyết ở Liên Bang chờ Thanh Sơn ở 95. Chương 120 biết cha đã chết, rời đi tìm viện binh. Được Thanh Sơn bảo vệ khỏi Hill; trở lại hội nghị ở 197, chọn gia nhập nhóm và trao lại Tín vật Tử Thần ở 199. Chương 222–227 được từ biệt linh hồn cha, kế thừa gia chủ Medici. Lấy thuốc Ngũ Hành ở 235, phối hợp bắt quán quân thứ tư. Nhận lại Tín vật Tử Thần và rời đi tìm truyền thừa riêng ở 259. Hỏi ý kiến Thanh Sơn về chiếc hộp đen gia truyền từng chứa tín vật Tử Thần; việc mở hộp có giá phải trả, chưa được thực hiện trong đoạn này. Đánh thức Khuyển Thần, nhận sự đồng hành và bảo vệ của ý niệm Tử Thần. Trao dây chuyền cho Thanh Sơn rồi theo Khuyển Thần sang thế giới Thần Chết, chọn trở thành sứ đồ để tu hành. Tại khu Tranh Bá, tỉnh dậy sau cuộc rượu và biết đã gọi được Thánh vật Tử Thần. Nhận Nước Mắt Tử Thần, khiến liềm hắc hỏa có thể cắt không gian; Khuyển Thần giải thích việc chuốc say đã giúp cô tránh vận mệnh chết ở Abruzzo. Vượt khảo nghiệm lòng thương xót vì lao vào cứu Khả Nhi, nhận Sách Tử vong khi bảy thần được xác nhận đã chết. Biết lệnh truy nã Thanh Sơn, che thông tin và hướng Tô Khả Nhi rời khu Tranh Bá; giữ ân tình với Tuyết Nhi. Khế ước thế mạng vẫn liên kết sinh mệnh với Thanh Sơn; dùng tín hiệu ấy xác nhận hắn sống, tạm hòa giải Tuyết Nhi. Chương 998 dẫn kỵ sĩ Tử Vong tới viện trợ Tô Tuyết Nhi ở Đảo Sương Mù.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        8
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 8",
+      "x": 460,
+      "y": 1440
+    },
+    {
+      "id": "impartial-goddess-character",
+      "title": "Nữ Thần Công Chính",
+      "summary": "Xuất hiện từ chương 17. Trí tuệ quản lý Liên Bang; trực tiếp hỗ trợ chế tạo Thiên Thần Rực Lửa từ chương 17. Nâng quyền Thanh Sơn lên Lãnh tụ tối cao ở chương 24; nhận công thức cuối để nâng cấp ở chương 71. Chủ động xử vụ sòng bạc, bắt Chu Khai Vũ ở chương 90–91; nhận quyền điều hành khẩn cấp khi dịch quỷ bùng phát ở 94. Chương 120–121 tự quyết cấp cơ giáp AI cho dân; điều hạm đội hạ Hill. Hỗ trợ nghiên cứu dịch quỷ, công nghệ bước nhảy, xây Người Bảo Vệ Tinh Cầu và hỗ trợ Chú Hề Tử Thần. Điều động bốn mươi tám chiến hạm đưa cả hồ băng chứa người chết ra không gian, hỗ trợ Thanh Sơn ngăn Hàn Băng. Giữ hoạt động sau âm mưu bom nano, chặn diễn văn kích động nội chiến của hoàng đế giả tổng thống. Nhận di ngôn Thủ hộ giả giải toàn bộ trói buộc; chỉ giữ quyền ra lệnh cho Tuyết Nhi và Thanh Sơn, chọn Anh Hào chỉ huy chiến tranh thế giới. Giữ hình ảnh vụ Người bảo hộ Cửu Phủ bị giết; phối hợp phân tích khẩu hình làm lộ việc truy tìm Mộ thế giới. Được giao phá giải toàn bộ kỹ thuật phi thuyền Bắc Cực, nơi mình được sinh ra; bắt đầu tiếp quản kho dữ liệu. Giải mã công nghệ Tinh Huy, bí mật khởi động kế hoạch Nữ Thần thức tỉnh để tạo cơ thể nữ tối ưu. Chương 946 tiếp tục thí nghiệm sức mạnh bí ẩn với cậu bé; chưa có xác nhận hoàn thành năng lực thứ hai.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1180,
+      "y": 1120
+    },
+    {
+      "id": "truong-tong-duong",
+      "title": "Trương Tông Dương",
+      "summary": "Xuất hiện từ chương 17. Võ thánh, Đại tướng Lục quân. Tham gia xử lý bảo mật cấp SSS từ chương 17, đến giải vây và đưa Thanh Sơn gặp Tổng thống ở chương 24. Nhận công pháp võ đạo do Thanh Sơn chỉnh lý, có cơ hội tiến xa hơn giới hạn sức mạnh vốn có. Chỉ huy tiền tuyến Liên Bang, đấu robot với nguyên soái giả rồi biết đối thủ là Trương Anh Hào đang trì hoãn chiến tranh.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1520,
+      "y": 1120
+    },
+    {
+      "id": "tong-thong-lien-bang",
+      "title": "Tổng thống Liên Bang",
+      "summary": "Xuất hiện từ chương 17. Xuất hiện trong cuộc điều động bảo vệ nghiên cứu ở chương 17. Gặp Thanh Sơn chương 24, công khai bảo trợ hắn qua truyền hình ở chương 25; chưa nêu tên riêng. Chủ trương phổ cập thuốc tiềm năng Võ giả và tổ chức hội nghị quốc tế ở 170. Bị ám sát ở 200; cuối chương chưa xác nhận sống chết. Chương 201 xuất hiện nguyên vẹn sau ám sát; Nữ Thần phát hiện ký ức và hành vi khác thường ở 205. Chưa suy đoán danh tính hoặc người thay thế. Thoát âm mưu hoàng đế bằng thuốc biến đổi gien, giả làm phụ tá và báo hiệu qua cách pha trà. Vào hầm bí mật, được xác minh thân phận rồi tiếp quản quân đội. Cùng Valrhona đạt đình chiến, thúc đẩy liên minh nhân loại và phổ biến thuốc thức tỉnh để chống địa ngục.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        17
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 17",
+      "x": 1180,
+      "y": 1440
+    },
+    {
+      "id": "to-hung-trieu",
+      "title": "Tô Hưng Triêu",
+      "summary": "Hiện diện từ chương 25. Ông nội/gia chủ xuất hiện 25, tên riêng xác nhận 26. Chương 213 trao quyền kế vị và sức mạnh truyền thừa cho Tuyết Nhi trước tám Phủ chủ rồi qua đời; bản dịch đoạn này viết Tô Hưng Triều.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        25
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 25",
+      "x": 1900,
+      "y": 1120
+    },
+    {
+      "id": "cong-ton-tri",
+      "title": "Công Tôn Trí",
+      "summary": "Hiện diện từ chương 28. Định Viễn tướng quân, Thái Thượng trưởng lão Thánh Đạo môn, đại tông sư trận pháp. Chương 80 xác nhận được cứu; chương 81 trao bùa liên lạc rồi trở lại tiền tuyến. Hôn mê vì binh khí có linh ở tuyến Thần Võ, được Thanh Sơn cứu khỏi pháo đài ở 271; không tự kết luận đã tỉnh ở cuối phạm vi.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        28
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 28",
+      "x": 1180,
+      "y": -140
+    },
+    {
+      "id": "ninh-nguyet-thien",
+      "title": "Ninh Nguyệt Thiền",
+      "summary": "Được nhắc ở chương 28, xuất hiện ở chương 29. Nhắc trong lịch sử ở 28, trực tiếp ở 29; Thiên Cực thánh nữ. Được chữa cả thương tích cũ ở chương 80, mời Thanh Sơn tới Thiên Cực tông rồi về tiền tuyến ở 81. Chủ trì Tuế thí, bảo vệ Tú Tú và cứu Thanh Sơn ở 150. Được phong Định Viễn tướng quân sau trận Ma Vân ở 163. Được thăng Vĩnh Trấn, nhận giáp mới; xếp thứ hai khảo tuyển tu hành giả và đủ điều kiện vào khu Tranh Bá. Một mình xuyên đàn Hắc Ma Dương chém dê vương, được Trật Tự Sinh Mệnh lựa chọn và rời thế giới tân thủ. Chương 997 rời nơi trú Kinh Cức theo Trật Tự Sinh Mệnh để tìm Tô Tuyết Nhi, nhằm khôi phục hai nửa Trật Tự.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        28
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 28",
+      "x": 1520,
+      "y": -140
+    },
+    {
+      "id": "thi-the-tren-tru-dong",
+      "title": "Thi thể trên trụ đồng",
+      "summary": "Hiện diện từ chương 37. Vô danh; trực tiếp nói trong ý thức Cố giữa dòng thời không. Gặp lại thần hồn Thanh Sơn ở chương 96–97, đề nghị được giải cứu và gợi ý về việc yêu ma đổi mục tiêu. Vẫn từ chối tiết lộ tên. Giải thích mỗi thế giới có Lục đạo riêng, giúp Thanh Sơn định hướng Hoàng Tuyền và nhờ hắn giải cứu trong tương lai. Giải thích Cách Mạng có thể ngủ chờ vật dẫn, trao tín tiêu gọi Trật Tự đối nghịch và cảnh báo không tìm bí mật quá sức. Chương 970–972 trợ giúp thoát Lượng kiếp bằng Quy Luật Đất một lần, giải thích pháp tắc tầng ngoài hỏng và hướng dẫn dựng thế giới tầng trong bằng Đoạn Tội.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        37
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 37",
+      "x": 1180,
+      "y": -460
+    },
+    {
+      "id": "lanh-thien-tinh",
+      "title": "Lãnh Thiên Tinh",
+      "summary": "Hiện diện từ chương 44. Người chỉ huy nhóm tu sĩ xuất hiện chưa tên ở cuối 44; hành động rõ 45, tự giới thiệu tên 46. Chương 80 được giải nhện ma và phục hồi Kim Đan trung kỳ, sau đó trở về tiền tuyến. Đồng hành điều tra linh thú phá trận ở 146–149, được phong Du Kích tướng quân ở 163. Đã lên Nguyên Anh khi gặp lại Thanh Sơn ở 267. Giúp đủ điều kiện danh hiệu thích khách và cùng khám phá ký ức Thần Võ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        44
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 44",
+      "x": 1900,
+      "y": -140
+    },
+    {
+      "id": "bach-hoa-master",
+      "title": "Bách Hoa Tiên Tử (Tạ Đạo Linh)",
+      "summary": "Một trong Tam Thánh, được nhắc ở chương 54; gặp qua hóa thân từ chương 56, chính thức yết kiến ở chương 62. Thanh Sơn nhận lời bái sư ở chương 65, trở thành đệ tử thứ tư ở chương 66; tên Tạ Đạo Linh được nêu tại đây. Chương 81 chính thức xếp Thanh Sơn là tam sư đệ, Tú Tú nhỏ nhất; khác với cách gọi đệ tử thứ tư ở chương 66. Soạn pháp môn riêng giúp hắn đột phá Trúc Cơ. Chỉ dạy kiếm đạo và Súc Địa Thành Thốn, truyền Bách Thánh Kết Đan quyết. Dùng Hóa Thân Thiên Vạn và Tụ Lý Càn Khôn triển khai kế phản công của Thanh Sơn, cùng Tam Thánh thắng trận Ma Vân. Chữa trọng thương cho Thanh Sơn ở 260, giao truyền thừa và sang Thần Võ. Bị cường địch uy hiếp, nhận tình báo từ đồ đệ và tới biển kiếm nhờ thần giáp hộ pháp. Bắt đầu kiếp Thần Chiếu ở 300, chưa xác nhận vượt kiếp. Độ kiếp thành Thần Chiếu trong thế giới Thần Võ, được đồ đệ và biển kiếm che chở khỏi quân xâm lăng. Được Thanh Sơn cứu khỏi trả sinh mệnh cho Vong Xuyên; quyết dung hợp thế giới Tu Hành và Thần Võ. Hồng Hoang Liệt Diễm nhận nàng làm chủ. Được xác nhận là thủ lĩnh Liên minh Tu hành sau những chiến tích và tốc độ đột phá vượt trội; đã dung hợp nhiều thế giới trống sinh linh của Thần Võ. Gia nhập liên minh để có hạn mức dung hợp thế giới, phải chinh chiến với Ma Quốc; vị trí thủ lĩnh khiến nàng thành mục tiêu tập kích. Từ chối giao Tú Tú làm con tin cho đoàn trưởng lão, bảo vệ Thanh Sơn bằng thần kỹ A Tu La Bì Ma Trí Đa La. Tiết lộ mình là đệ tử cuối Hoang Vân Thiên Cung, giữ bí mật đường vào Thiên Giới nguyên thủy và nguồn gốc Thiên Địa song kiếm. Được Vân Cơ tặng búp bê che giấu vận mệnh để an toàn đột phá; tạm thời có cơ thể bé gái tám, chín tuổi. Khảo thí hé lộ Tạ Đạo Linh là con gái cung chủ Hoang Vân, sinh ra kèm sen vàng nên bị thần linh nguyền rủa; ngủ trong bông tuyết được Động Thiên hoàn nuôi dưỡng.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 2240,
+      "y": -140
+    },
+    {
+      "id": "huyen-nguyen-thien-ton",
+      "title": "Huyền Nguyên Thiên Tôn",
+      "summary": "Một trong Tam Thánh, được nhắc ở chương 54; trao đổi với Bách Hoa qua bùa truyền tin ở chương 62 và nhận lời bồi thường vụ kiếm trận giả. Trực tiếp tham chiến cùng Tam Thánh, trấn áp Thiên Ma Thánh Vương và xét xử Ô Tinh Văn ở 163–165. Tạ Đạo Linh báo ông không vượt qua được thiên kiếp và đã qua đời.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 1900,
+      "y": -460
+    },
+    {
+      "id": "bi-nguong-dai-su",
+      "title": "Bi Ngưỡng đại sư",
+      "summary": "Một trong Tam Thánh được cân nhắc cầu viện ở chương 54. Chưa có cuộc gặp trực tiếp với Thanh Sơn đến chương 100. Gặp Thanh Sơn sau Tuế thí và tham gia trận Ma Vân; dùng Phật pháp bảo vệ thế giới. Trao bí pháp Thiện Thần Hộ Niệm được Thanh Sơn học ở 167. Vượt kiếp thành công, nhận lại bình bát Phật môn từ Thanh Sơn rồi cùng Bách Hoa chống cường địch.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        54
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 54",
+      "x": 2240,
+      "y": -460
+    },
+    {
+      "id": "white-goose",
+      "title": "Ngỗng Trắng (Bạch Ánh Thiên)",
+      "summary": "Xuất hiện dẫn đường từ chương 56; được xác nhận là hóa thân Bách Hoa ở chương 64–65. Đến chương 81 mới được giới thiệu tên Bạch Ánh Thiên và vai đại sư huynh. Chăm lo sư môn, giúp Thanh Sơn chuẩn bị Trúc Cơ và luyện Địa kiếm ở chương 95–100.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        56
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 56",
+      "x": 1900,
+      "y": -780
+    },
+    {
+      "id": "dia-kiem",
+      "title": "Địa kiếm",
+      "summary": "Thanh Sơn chọn kiếm ở chương 63; tên Địa kiếm và kiếm linh lên tiếng ở 64. Kiếm tự phong ấn theo tu vi chủ nhân. Được dùng ở sòng bạc và dẫn Lôi điện; sau Trúc Cơ, Thanh Sơn luyện lực nặng sáu nghìn cân ở chương 100. Khi Thanh Sơn đạt Kim Đan ở 276, thức tỉnh Tự Thừa Kỳ Trọng; nguồn ghi trọng lượng 86.370.000 cân. Có thể dùng hồn lực của chủ nhân để chém quỷ thần; tiêu hao mười điểm mỗi giây, cùng Thanh Sơn chia đều chiến lợi phẩm. Không dùng cách này diệt vĩnh viễn người chết thông thường. Thương cũ chưa khỏi; nhận một trăm nghìn hồn lực từ Thanh Sơn để dưỡng thương. Nhận toàn bộ ba trăm nghìn hồn lực để chém quái vật; thương cũ bùng phát, thân kiếm nứt và ngủ say. Dặn Thanh Sơn tìm Linh Nhi rồi được cất vào hộp Linh Ngọc. Gần tan vỡ; Tạ Đạo Linh phong cấm thời gian trong hộp ngọc để kéo dài sinh mệnh, chờ tìm Thiên kiếm truyền bản nguyên. Chương 935: được chữa lành, thức tỉnh bộ thần thông Địa Quyết, Thánh địa và Song thể của Đất khi hội đủ song kiếm.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        63
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 63",
+      "x": 2240,
+      "y": -780
+    },
+    {
+      "id": "truong-anh-hao",
+      "title": "Trương Anh Hào",
+      "summary": "Xuất hiện và xưng tên ở chương 74. Người Trương phủ, cháu gọi Trương Tông Dương bằng bác hai, lãnh đạo Hiệp hội Thợ Săn. Kết minh với Thanh Sơn ở 85, giúp tìm vật liệu bằng thú triệu hồi, nhận quản lý sòng bạc ở 92 rồi đi cứu em gái ở 93. Cùng Thanh Sơn kết giao Diệp Phi Ly, tham gia nhóm chống Người Bất Tử và phát triển Người Bảo Vệ Tinh Cầu. Dàn xếp cả thị trấn sát thủ trong kế bắt Liễu Thi Mạn ở 248–254. Bảo vệ Valrhona, giả nguyên soái Trương Bội Giáp khiêu chiến Võ Thánh để trì hoãn chiến tranh; giúp hai quân tránh thương vong trước lệnh đình chiến. Được Nữ Thần Công Chính chọn làm tổng chỉ huy chống liên quân Thần Quỷ khi Thanh Sơn, Tuyết Nhi và Anna đều không liên lạc được. Được sức mạnh thế giới thúc đẩy từ Thiên Tuyển giả tới ngưỡng Thẻ bài sư, theo thú triệu hồi tới hang Liệp Sát giả xây bộ bài sát thủ đầu tiên. Là tạp bài sư ám sát, chọn thần điện Bí Pháp rồi phát hiện phải vượt toàn khu Tranh Bá tới Vực Sâu Thần Chiến. Bỏ chuyến tàu sau khi thấy Thanh Sơn bị phong ấn, hỏi thằn lằn về cách thần linh từng bị giết. Sau khi rèn nghề qua 37 thế giới, dùng đồng xu súng sát thủ 791 treo thưởng chính mình để các sát thủ đến giao chiến. Bị truy nã vì định báo thù cho Thanh Sơn; cuộc vây bắt ở Núi Lửa là bẫy. Chương 999 vẫn sống, nhận ra ám hiệu phong bá tước Diệp Phi Ly và đi tìm.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        74
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 74",
+      "x": 2240,
+      "y": 1120
+    },
+    {
+      "id": "tan-tieu-lau",
+      "title": "Tần Tiểu Lâu",
+      "summary": "Xuất hiện và xưng tên ở chương 81. Nhị sư huynh Bách Hoa, Trọc Lãng công tử, tinh thông lục nghệ và linh thực. Dẫn Thanh Sơn tìm vật liệu, tặng thuật ôn dưỡng; dựng 71 trận hộ pháp ở 96. Sau khi thua so chiêu ở 100, quyết chuyên tâm tu hành. Sau lời khuyên về việc bảo vệ gia đình, nghiêm túc tu hành và gọi tới lôi kiếp Hóa Thần. Vượt lôi kiếp thành công, đạt Hóa Thần và tiếp tục nghiêm túc nghiên cứu công pháp. Phát hiện búp bê che giấu khí tức nhưng đoán nhầm cô bé là con gái sư tôn, khiến Ngỗng trắng nổi giận.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        81
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 81",
+      "x": 2620,
+      "y": -140
+    },
+    {
+      "id": "tu-tu",
+      "title": "Tú Tú",
+      "summary": "Xuất hiện ở chương 81, cùng Thanh Sơn chính thức nhập môn và được xếp là tiểu sư muội. Chương 83 kể cô từng chịu giam cầm, tổn thương giác quan để giữ bí mật cho Bách Hoa; các sư huynh chăm sóc cô. Giúp chuẩn bị vật liệu đột phá ở 96; chưa nêu họ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        81
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 81",
+      "x": 2960,
+      "y": -140
+    },
+    {
+      "id": "meo-mun",
+      "title": "Mèo mun — Thiên Tuyển Kỹ",
+      "summary": "Thú được Trương Anh Hào triệu hồi bằng Thiên Tuyển Kỹ ở chương 85. Ăn lòng đỏ trứng rồi dẫn đường tìm vật phẩm; được gọi tiếp để tìm em gái Anh Hào ở chương 93. Tiếp tục hỗ trợ Trương Anh Hào tìm người ở 171; xác nhận có thể truy tìm mục tiêu cùng thế giới ở 193 và định vị quán quân giấu mặt ở 194. Nhận sầu riêng rồi chỉ đúng nơi khai quốc hoàng đế đang ẩn dưới biển, giúp Thanh Sơn và Trương Anh Hào truy tìm đối thủ bất tử.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        85
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 85",
+      "x": 2620,
+      "y": 1120
+    },
+    {
+      "id": "giao-hoang",
+      "title": "Giáo Hoàng",
+      "summary": "Xuất hiện ở chương 118. Người đứng đầu Thánh giáo, cùng con trai điều khiển thi thể quốc vương; sai Hill bắt Anna và Thanh Sơn. Sau thất bại của Hill, vẫn theo đuổi bí mật thuốc Thiên Tuyển Thức Tỉnh ở chương 179. Phản diện chính của tuyến Thánh quốc. Thể hiện năng lực thẻ bài ở 216–217, hiến tế tu sĩ gỡ phong ấn rồi đối đầu Thanh Sơn. Sau đòn Du Long và vụ nổ ở 233 vẫn tồn tại dưới dạng lá bài; chưa kết luận đã chết. Giáo hoàng hiện tại chính là Isha, bị đuổi khỏi Đảo Sương và nhập vào cơ thể này khi giáo hoàng thật đã mất tích. Bà hiến Ivan để lập khế ước Asmodeus, mong giữ Thánh quốc và giết Tuyết Nhi. Isha bị Thanh Sơn giết bằng Yến Quy sau khi Hart từ chối tiếp tục bảo vệ; Asmodeus thu linh hồn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        118
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 118",
+      "x": 3340,
+      "y": 1120
+    },
+    {
+      "id": "diep-phi-ly",
+      "title": "Diệp Phi Ly",
+      "summary": "Xuất hiện vô danh ở chương 122 như quỷ giết người còn thương mẹ; được gọi tên ở 131, nhận lời hợp tác với Thanh Sơn và Trương Anh Hào ở 132. Giữ ý thức trong quá trình tiến hóa, trở thành Chú Hề Tử Thần mặc chiến giáp Sát Thần, công khai hạ các quán quân Người Bất Tử. Được đồng đội giúp khống chế bản năng và tiến hóa; không phải người chơi của hệ thống Chiến Thần. Chương 239–240 thức tỉnh Lắng Nghe và biết âm mưu ký sinh. Công khai giết quán quân thứ tư cùng Huyết Cốt Ma Mẫu ở 255, góp phần khiến Người Bất Tử rút lui. Nghe thấy linh hồn Lưu Thi Quân bằng giờ thứ bảy của Lắng Nghe, tự tay giết kẻ sát hại cô rồi tha cho người ngoài cuộc. Nhờ tu hành đã có thể nhìn thấy linh hồn Lưu Thi Quân; tiếp tục cùng Thanh Sơn chống người chết từ Hàn Băng. Lá bài Tuyết Nhi tặng mở cơ chế chuyển hóa hồn lực tinh khiết, tăng tốc tiến hóa; không phải hệ thống Chiến Thần của Thanh Sơn. Barry và Mèo Nhỏ nhận diện là Kẻ Diệt Thế vẫn giữ lý trí, tình cảm; khả năng tiến hóa khiến nhiều thế lực có thể săn làm mẫu nghiên cứu. Chính thức gia nhập Thiết Quyền, được phép đưa vợ theo; giết Sương Hỏa Quỷ Vương và ác quỷ rồi vào kén tiến hóa. Kén máu biến thành quan tài; quà bản nguyên đẩy quá trình tiến hóa sang cấp sâu hơn, cần thời gian dài hơn và chưa hoàn tất. Được Ba Lợi và Mèo Nhỏ bảo vệ ở Bắc Cực khi tiến hóa, ngăn linh hồn tà ác chiếm thân. Chương 990–999 rời Nguyên Sơ tìm Thanh Sơn, bất ngờ trở thành bá tước Kinh Cức theo ám hiệu của nhóm; được người Kinh Cức đón.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        122
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 122",
+      "x": 3680,
+      "y": 1120
+    },
+    {
+      "id": "lieu-hanh",
+      "title": "Liêu Hành",
+      "summary": "Được gọi ngài Liêu ở chương 129, tên Liêu Hành xác nhận ở 169. Nhà khoa học phát minh bước nhảy không gian, giả chết và ẩn náu ba mươi năm. Thanh Sơn bảo hộ ông trở về, đổi lấy công nghệ; ông phụ trách thu nhỏ thiết bị bước nhảy cho Người Bảo Vệ Tinh Cầu. Chương 185–186 tiết lộ việc từng do thám bí mật Cửu phủ. Phát triển thiết bị bước nhảy mini phục vụ đột nhập Thánh quốc và hệ thống cứu viện Người Bảo Vệ Tinh Cầu. Điều tra dữ liệu Thang Quân và công nghệ nhân bản, góp phần vạch trần âm mưu thay thế các nhân vật quyền lực. Bắt đầu tu hành và dùng linh lực trong sinh hoạt; phụ trách phân loại công pháp phục vụ kế hoạch vòng tay thức tỉnh toàn dân. Hỗ trợ sửa phi thuyền bằng phương pháp kết hợp tu hành và khoa học; nhận quà bản nguyên, tiến vào Kim Đan và tự diệt quái vật tới quấy nhiễu.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        129
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 129",
+      "x": 4060,
+      "y": 1120
+    },
+    {
+      "id": "o-tinh-van",
+      "title": "Ô Tinh Văn",
+      "summary": "Xuất hiện ở chương 144 trong cuộc Vấn Tâm. Đệ tử Huyền Nguyên, dùng quyền quân đội vu cáo, cô lập và tìm cách hãm hại Thanh Sơn; ác niệm bị Thiên Ma lợi dụng. Bị chính sư phụ sưu hồn, tước quân hàm, hạ làm lính và phạt ba trăm roi ở chương 164–165.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        144
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 144",
+      "x": 4060,
+      "y": -140
+    },
+    {
+      "id": "tan-ton-gia",
+      "title": "Tân Tôn Giả",
+      "summary": "Xuất hiện ở chương 156, dẫn mười ba Yêu Thánh và đặt cuộc cược để lừa Tam Thánh vào bẫy Ma Vân. Sử dụng ma bảo cùng bố trí Thiên Ma kéo dài sáu mươi năm. Kế hoạch thất bại vì hóa thân Bách Hoa; bị Vô Hình Thiên Ma Thánh Vương giết ở chương 159.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        156
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 156",
+      "x": 4780,
+      "y": -140
+    },
+    {
+      "id": "thien-ma-thanh-vuong",
+      "title": "Vô Hình Thiên Ma Thánh Vương",
+      "summary": "Hiện diện với danh tính này ở chương 159, giết Tân Tôn Giả và tranh đoạt ma bảo. Đối thủ vượt Phong Thánh trong trận quyết chiến, dùng Thiên Ma uy hiếp thần hồn toàn thế giới. Bị Tam Thánh phối hợp đánh bại, Huyền Nguyên trấn áp ở chương 163.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        159
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 159",
+      "x": 5120,
+      "y": -140
+    },
+    {
+      "id": "hoang-de-phuc-hy",
+      "title": "Hoàng đế Phục Hy",
+      "summary": "Được nhắc ở chương 170, trực tiếp xuất hiện từ cuộc gặp sau hội nghị ở 201–202. Muốn chiêu mộ Thanh Sơn làm Chủ tịch Hiệp hội khoa học; chấp nhận Anna ở Liên Bang. Tặng thuốc Ngũ Hành Khai Hóa 99% qua Anna ở 235, đổi lại thiện chí và kỹ thuật robot. Dùng cải trang gien giả tổng thống Liên Bang, định kích động nội chiến để thúc đẩy địa ngục; bị Thanh Sơn phát hiện và chặn kế hoạch. Chọn nương nhờ địa ngục nhưng thất bại; bị tổ tiên khai quốc chém đầu và nuốt linh hồn, xác nhận đã chết.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        170
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 170",
+      "x": 4780,
+      "y": 1120
+    },
+    {
+      "id": "guardian-nine-houses",
+      "title": "Người bảo vệ Cửu phủ",
+      "summary": "Bà lão tại Bắc Cực, được gặp ở chương 242, chưa nêu tên riêng. Từng thắng Người Bất Tử hàng nghìn năm trước, loại bỏ phần thân thể chịu tác dụng phụ để sống tiếp. Giữ truyền thừa những người chạy nạn và giúp Tuyết Nhi dùng lá bài Vận Mệnh sang thế giới khác. Hình ảnh xác nhận bị nhóm Học viện Thần sát hại; trước khi chết giải mọi trói buộc của Nữ Thần Công Chính và nhờ bảo vệ Tuyết Nhi.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        242
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 242",
+      "x": 8380,
+      "y": 1120
+    },
+    {
+      "id": "lieu-thi-man",
+      "title": "Liễu Thi Mạn",
+      "summary": "Nữ tu hệ Thổ xuất hiện trong trận ở chương 246, gọi tên và trở thành quán quân thứ tư ở 247. Có nhẫn truyền tống, bị nhóm Thanh Sơn bắt trong kế hoạch thay cả thị trấn bằng sát thủ. Chú Hề giết cô ở 255, làm lộ Huyết Cốt Ma Mẫu ký sinh trong thân thể và phá lời hứa bất tử.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        246
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 246",
+      "x": 8720,
+      "y": 1120
+    },
+    {
+      "id": "trieu-am",
+      "title": "Triều Âm",
+      "summary": "Khởi đầu là kiếm gãy Thanh Sơn nhặt ở chương 271, dẫn hắn đi cứu thanh kiếm thứ hai và cá nhỏ. Chương 296 cả ba hợp thành kiếm Triều Âm, được trao cho hắn; kiếm vẫn hư hại và cần sửa để mở sức mạnh. Dẫn đường qua biển kiếm, giúp liên hệ Hồng Hoang Liệt Diễm và đón Bách Hoa. Được Thanh Sơn sửa hoàn chỉnh, khôi phục thần thông Khổ Hải Giai Độ của thần kiếm trấn biển thời cổ. Dùng hồn lực tách biển, khước từ đối thủ và giải quyết trở ngại từ nước; trước đó đã thu một giọt nước Vong Xuyên. Hệ thống xác nhận là tạo vật cổ thần trấn tứ hải; người cầm kiếm được thần linh thừa nhận quyền vua bốn bể.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        271
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 271",
+      "x": 6220,
+      "y": -140
+    },
+    {
+      "id": "purple-robed-young-master",
+      "title": "Công tử áo tím",
+      "summary": "Xuất hiện rõ trong ký ức bình bát ở chương 294; chưa có tên riêng. Kẻ dùng hồ lô tạo mưa lửa để luyện hóa Thần Võ, nhằm giữ lợi cho môn phái. Hai nữ tu bị xiềng phục vụ hắn. Là nguồn đe dọa chính của tuyến luyện hóa thế giới; không gán danh tính từ phần truyện sau. Tên thật được xác nhận là Tề Diễm, công tử Quảng Dương môn. Tình Nhu và Uyển Nhi phá trói buộc để phản kháng hắn. Bị Thanh Sơn dùng Di Hình Hoán Ảnh tráo vào pháp trận rồi Thiên Ma nữ đế đưa tới Ma giới. Nguồn chưa xác nhận trực tiếp cái chết của hắn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        294
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 294",
+      "x": 8380,
+      "y": -140
+    },
+    {
+      "id": "hong-hoang-liet-diem",
+      "title": "Hồng Hoang Liệt Diễm",
+      "summary": "Nữ thần giáp đỏ đen, tự xưng thức tỉnh từ thời Thần linh ba mươi nghìn năm trước. Hệ thống xác nhận là vua khí linh ở chương 298. Tự chủ, không cho nam giới mặc và chưa thuộc sở hữu Thanh Sơn. Đồng ý hộ pháp cho Tạ Đạo Linh, trao Thần Chiếu đạo quyết; kiếp vẫn tiếp diễn ở cuối chương 300. Thần giáp có ý thức riêng đã giúp Thanh Sơn huy động biển kiếm và bảo vệ Tạ Đạo Linh; sau trận chiến chính thức nhận nàng làm chủ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        298
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 298",
+      "x": 9100,
+      "y": -140
+    },
+    {
+      "id": "thien-ma-nu-de",
+      "title": "Thiếu nữ áo đen",
+      "summary": "Thiếu nữ Thiên Ma xuất hiện để thương lượng với Thanh Sơn về tu sĩ dị giới và chiếc bình gốm. Thiếu nữ áo đen được xác nhận là hóa thân Thiên Ma nữ đế. Nàng nhận Tề Diễm và Thiên Ma Hóa Sinh Trì, nhưng Thanh Sơn chưa giao đĩa bát quái đã hứa. Thề không tổn hại Thanh Sơn sau khi đối thoại với Tạ Đạo Linh. Tên thật được gọi là Ly Ám; là con gái Nguyên Thủy Ma Mẫu, từng được Thanh Sơn hứa giao thế giới. Ở lại bảo vệ thân xác Thanh Sơn khi thần hồn hắn rời đi sau kiếp Thần Chiếu. Nhận thế giới của Trieste để hoàn tất món nợ, chủ động báo tin nguy cơ của Tạ Đạo Linh và sư môn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        313
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 313",
+      "x": 10540,
+      "y": -140
+    },
+    {
+      "id": "nam-cung-tinh-nhu",
+      "title": "Tình Nhu",
+      "summary": "Nữ tu bị công tử áo tím bắt làm thị nữ, phong bế tu vi và trói bằng xiềng xích; đang tìm đường phản kháng. Tên đầy đủ Nam Cung Tình Nhu; từng là tu sĩ Thiên Kiếp trước khi bị nô dịch. Cùng Uyển Nhi báo thù Tề Diễm và quyết giúp Thanh Sơn giả danh hắn trong thế giới địch. Được Thanh Sơn giải khóa Phược Linh, khôi phục tự do và tu vi. Cùng Uyển Nhi trở về Thần Võ bằng trận bàn, nhận chuyển tin của Thanh Sơn tới sư phụ. Đã được Tạ Đạo Linh thu vào Bách Hoa tông cùng Uyển Nhi sau khi cứu Tú Tú khỏi kẻ giả mạo Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        318
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 318",
+      "x": 10880,
+      "y": -140
+    },
+    {
+      "id": "van-uyen-nhi",
+      "title": "Uyển Nhi",
+      "summary": "Nữ tu bị công tử áo tím nô dịch cùng Tình Nhu; hoàn cảnh bị áp chế khiến nàng chưa dám nhận lời chống chủ nhân. Tên đầy đủ Vân Uyển Nhi; cùng Tình Nhu thoát nô dịch, phối hợp dùng Trấn Ngục Tỏa Pháp khống chế Tề Diễm và theo Thanh Sơn sang thế giới địch. Là người duy nhất sống sót khi toàn thế giới của nàng bị Quảng Dương môn dùng để thăm dò Giới Ma. Được giải khóa Phược Linh, khôi phục tu vi Thiên Kiếp; Trấn Ngục pháp là thuật của nàng. Cùng Tình Nhu rời Huyền Không về Thần Võ, trong khi Thanh Sơn ở lại tham gia tuyển La Sát. Cùng Tình Nhu trở thành sư muội Thanh Sơn ở Bách Hoa tông, nhận ra kẻ giả mạo và bảo vệ Tú Tú.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        318
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 318",
+      "x": 10540,
+      "y": -460
+    },
+    {
+      "id": "luu-thi-quan",
+      "title": "Lưu Thi Quân",
+      "summary": "Bạn gái cũ đã qua đời của Diệp Phi Ly. Linh hồn cô được nghe thấy nhờ giờ thứ bảy của Lắng Nghe; cái chết bị che giấu thành tai nạn. Được Địa kiếm cứu khỏi quỷ sai bắt hồn trái phép, được trận pháp bảo vệ và nhận công pháp quỷ tu. Cô cảm thấy lực kéo lạnh lẽo từ Hoang Vân cốc.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        335
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 335",
+      "x": 9820,
+      "y": 1120
+    },
+    {
+      "id": "valrhona-medici",
+      "title": "Valrhona Medici",
+      "summary": "Hoàng hậu Phục Hy, cô của Anna; tinh tế báo hiệu những bất thường trong hành vi của hoàng đế. Tiếp nhận quyền chỉ huy Thiết Mạc sau cái chết hoàng đế, lập tức ngừng tấn công Liên Bang và tìm hòa bình. Đăng cơ trở thành nữ hoàng đầu tiên của Phục Hy; dùng biện pháp cứng rắn để ổn định đế quốc và tập hợp lãnh đạo quốc tế giữa khủng hoảng địa ngục. Chính thức đăng cơ nữ vương Phục Hy, được Thanh Sơn hỗ trợ chống âm mưu phá lễ.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        352
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 352",
+      "x": 11260,
+      "y": 1120
+    },
+    {
+      "id": "phuc-hy-khai-quoc",
+      "title": "Hoàng đế khai quốc Phục Hy",
+      "summary": "Vị vua khai quốc đã chết; đầu lâu vốn gắn trên quyền trượng đế quốc bỗng biến mất, mở ra manh mối về biến cố của hoàng đế đương nhiệm. Là bộ xương áo đen, vương giả Hàn Băng tới nhân gian. Nuốt linh hồn các hoàng đế hậu duệ để tăng sức mạnh; linh hồn bị giam trong cơ thể hắn. Bị hai thần kiếm đánh bại và mèo mun truy tìm, hé lộ nỗi sợ tiết lộ bí mật thần linh rồi tự sát để ngủ say, chưa bị tiêu diệt vĩnh viễn.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        357
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 357",
+      "x": 11600,
+      "y": 1120
+    },
+    {
+      "id": "huyet-bao-ma-chu",
+      "title": "Huyết Bào Ma Chủ",
+      "summary": "Trưởng Giới Luật ở Đảo Sương, một thây khô áo đỏ có dòng sông máu sau lưng. Ông bảo vệ Tô Tuyết Nhi sau vụ vu cáo và tặng quyển trục hộ thân. Nhận Tuyết Nhi làm học trò duy nhất, bảo vệ nàng trong xét xử và trao Ngã Rẽ Số Phận để nàng xác định con đường phát triển quyền thống trị thẻ bài.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        389
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 389",
+      "x": 11980,
+      "y": -140
+    },
+    {
+      "id": "asmodeus",
+      "title": "Asmodeus",
+      "summary": "Thiên sứ sa ngã, chủ nhân ác linh và chín tầng địa ngục. Được Isha gọi bằng khế ước, hắn thu linh hồn Ma Nhân và yêu cầu lễ hiến tế, song thực sự nhắm đến linh hồn Isha. Thu linh hồn Isha sau thất bại của nàng, nhằm xây dựng trật tự nô dịch.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        400
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 400",
+      "x": 14140,
+      "y": 1120
+    },
+    {
+      "id": "khuyen-than",
+      "title": "Khuyển Thần",
+      "summary": "Chó đen thần bí đồng hành với Anna; ý niệm phân tán của Tử Thần, bảo vệ và dẫn dắt cô. Cùng quạ dùng cuộc rượu làm Anna bỏ lỡ hành trình Abruzzo, thay đổi số phận chết đã thấy trước.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        405
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 405",
+      "x": 14860,
+      "y": 1120
+    },
+    {
+      "id": "son-nu",
+      "title": "Sơn Nữ",
+      "summary": "Cung nữ áo xanh được bản nguyên chi thủy Hoàng Tuyền bảo vệ, đang dưỡng thương; tặng Thanh Sơn khí tức để các binh khí còn lại nhận đồng minh. Xác nhận là khí linh Lục Giới Thần Sơn kiếm, một trong ba thần khí Hoàng Tuyền, hiển hóa quy luật núi Đại Thiết Vi; đã hồi phục nhờ ba bảo vật. Áy náy vì bắt thề độc, nàng tự nguyện sóng vai chiến đấu và thừa nhận Thanh Sơn, cho dùng kiếm trong cuộc tranh Quỷ Vương. Nguyện cùng tồn tại với Thanh Sơn, thừa nhận nguyên tắc kiếm tu và giao dịch công bằng. Dùng Chúng Sinh Đồng Điệu Huyền Bí hóa thành Thanh Sơn để trông nom Laura, giúp chủ nhân tiếp tục điều tra. Dùng dạng yêu quỷ và Di Hình Hoán Ảnh đánh lạc hướng Nhập Ma giả theo kế hoạch độ kiếp. Phá cột sáng đưa hồn về Học viện Thần, phối hợp Vong Xuyên Ly Hồn Câu và Trấn Ngục Quỷ Vương trượng chặn hồi sinh.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        425
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 425",
+      "x": 13420,
+      "y": -140
+    },
+    {
+      "id": "tuoc-cot-quy",
+      "title": "Tước Cốt Quỷ",
+      "summary": "Đao cổ của Hoàng Tuyền có khí linh hình chim trắng; hợp tác với người chết chống yêu ma, dẫn Thanh Sơn tìm Ly Hồn Câu.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        426
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 426",
+      "x": 13760,
+      "y": -140
+    },
+    {
+      "id": "nu-a-tu-la",
+      "title": "Nữ thống lĩnh A Tu La",
+      "summary": "Một trong bảy thống lĩnh người chết chống yêu ma, hiếu chiến và muốn thử sức với Thanh Sơn. Bảo vệ trẻ sơ sinh, nguyện bỏ công đức chuyển kiếp để giúp nhân gian; làm người chết khác quyết tâm ở lại. Được hoàn lại công đức, từ biệt Thanh Sơn bằng một trận giao thủ rồi chuyển kiếp. Xưng tên Trĩ La; ở lại Thiên Cảnh Tự Tại giúp Cố Thanh Sơn qua Hỏa kiếp, chờ hắn thành Thiên Vương Tự Tại. Trĩ La tự phong kín núi thiện công để bảo vệ Cố Thanh Sơn; hắn diệt 701 kẻ đe dọa, nàng còn ở núi chờ đợi. Chương 901: Trĩ La rời đi tới Vĩnh Chiến Kỷ Nguyên, quyết mạnh lên để cùng Thanh Sơn chiến đấu.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        428
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 428",
+      "x": 13420,
+      "y": -460
+    },
+    {
+      "id": "vong-xuyen-ly-hon-cau",
+      "title": "Vong Xuyên Ly Hồn Câu",
+      "summary": "Một trong ba thần khí Hoàng Tuyền; khí linh vô hình hiện diện nơi có ánh sáng, biết mọi chuyện sinh tử và cho Thanh Sơn xem tai họa giết thần. Câu linh hồn năm kẻ Học viện Thần xuống Hoàng Tuyền sau khi Sơn Nữ phá thuật dẫn hồn; vẫn là binh khí bên Diệp Phi Ly, không đổi thành sở hữu của Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        430
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 430",
+      "x": 13760,
+      "y": -460
+    },
+    {
+      "id": "lam",
+      "title": "Lam",
+      "summary": "Thẻ bài sư ngoài Lục đạo, chờ một vạn năm để cứu Khinh Âm khỏi thần duệ. Lam là phần linh hồn tách ra của Lam Tụ, quốc vương đế quốc Thiên Lam; hợp nhất sau khi cứu hoàng hậu Khinh Âm. Chương 986, huy chương đế quốc Thiên Lam phát lời Lam Tụ: người sống sót đã rút tới khu Kỳ Dị sau khi thế giới bị phá hủy.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        447
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 447",
+      "x": 14140,
+      "y": -140
+    },
+    {
+      "id": "khinh-am",
+      "title": "Khinh Âm",
+      "summary": "Quỷ Vương đời trước, nhà nghiên cứu bên ngoài Lục đạo; linh hồn bị thần duệ giam giữ. Được Sơn Nữ cùng Lam giải cứu khỏi phong ấn thời gian; trở về cùng Lam Tụ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        447
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 447",
+      "x": 14480,
+      "y": -140
+    },
+    {
+      "id": "hong-y-thien-than",
+      "title": "Thiên Thần áo đỏ",
+      "summary": "Chủ nhân Thiên giới, thần duệ từng sát hại Khinh Âm và phản bội lời thề bốn giới; muốn ép Thanh Sơn giao bí pháp làm nô bộc.",
+      "realm": "reality",
+      "kind": "character",
+      "chapters": [
+        460
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 460",
+      "x": 17020,
+      "y": 1120
+    },
+    {
+      "id": "vuong-hong-dao",
+      "title": "Vương Hồng Đao",
+      "summary": "Thái thượng trưởng lão Quảng Dương môn ở Huyền Linh cảnh, trọng thương và phải dùng đan dược từ La Sát Phong. Giết toàn bộ tu sĩ thường của Quảng Dương môn để truy tìm tọa độ thế giới mới. Thân thể bị hủy ở chương 512; chết sau khi Sơn Nữ sưu hồn chiếc đầu, cùng chủ hồn Thiên Sơn Dạ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        474
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 474",
+      "x": 15580,
+      "y": -140
+    },
+    {
+      "id": "diep-anh-mi",
+      "title": "Diệp Ánh Mi",
+      "summary": "Đường chủ Ngưng Nguyệt đường, tu sĩ Thái Hư và đệ tử Vương Hồng Đao; quản việc tu hành của đệ tử Quảng Dương môn. Bị Vương Hồng Đao hạ cấm chế từ Kim Đan, không thể trực tiếp chống lại sư tôn; mong thoát sang thế giới khác. Lộ thân phận gián điệp La Sát môn hơn nghìn năm, đã đầu độc Vương Hồng Đao và nhận lệnh giết Tề Diễm. Bị trận Phá Không giấu trong rương đưa đi cùng bốn tu sĩ Huyền Linh; chương chưa trực tiếp xác nhận cái chết.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        477
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 477",
+      "x": 15920,
+      "y": -140
+    },
+    {
+      "id": "trieu-ngu-chuy",
+      "title": "Triệu Ngũ Chuy",
+      "summary": "Đường chủ Tích Hương đường, tu sĩ Thái Hư và đệ tử Vương Hồng Đao; quản vật tư tông môn. Bị81Ma trùng khống chế, có thể thành cương thi Thái Hư theo ý Vương Hồng Đao; hợp tác để tìm đường thoát. Bị Thanh Sơn và Sơn Nữ phối hợp dụ đánh hụt, chết dưới Địa kiếm khi không thể vận dụng linh lực.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        477
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 477",
+      "x": 15580,
+      "y": -460
+    },
+    {
+      "id": "la-sat-nu",
+      "title": "La Sát Nữ",
+      "summary": "Phong chủ La Sát Phong, được thần thông La Sát thừa nhận; hồ ly trắng mang mặt nạ đại diện nàng đến nghị sự. Hóa thành mặt nạ bằng Vạn Vật Đồng Điệu Huyền Bí để nghe lén bí mật thế giới mới. Thân xác La Sát Nữ bị một ứng viên nam điều khiển để luyện tập; hắn bỏ thân xác trong vùng cách ly và xin lần thử cuối.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        477
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 477",
+      "x": 15920,
+      "y": -460
+    },
+    {
+      "id": "thien-son-da",
+      "title": "Thiên Sơn Dạ",
+      "summary": "Đao Kiếm Song Tuyệt, chưởng môn đời chín Quảng Dương môn; oan hồn ký trong ngọc giản sau khi bị Vương Hồng Đao ám hại. Trao ngọc giản đao kiếm thật, nhưng ngọc giản Giới Ma có bẫy đoạt xác; Thanh Sơn nhận ra và để Sơn Nữ phong giữ. Chủ hồn chết cùng Vương Hồng Đao sau khi kế đoạt xá thất bại. Linh hồn bị Giới Ma thu giữ sau cái chết được Tiểu Điệp bắt lại để báo thù; ông từng lừa nàng học thuật Phân Hồn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        498
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 498",
+      "x": 17740,
+      "y": -140
+    },
+    {
+      "id": "tieu-diep",
+      "title": "Tiểu Điệp",
+      "summary": "Cô gái từng bị Thiên Sơn Dạ phản bội, nay là chân ma mạnh hơn đánh giá của hồ ly trắng. Bắt linh hồn Thiên Sơn Dạ, hủy Huyền Không qua Giới Ma và gửi Thanh Sơn mang hoa báo ân Bally.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        527
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 527",
+      "x": 19900,
+      "y": -140
+    },
+    {
+      "id": "barry",
+      "title": "Barry",
+      "summary": "Chủ Thiết Quyền Chính Nghĩa, chiến sĩ cứu nhiều thế giới, từng cứu Tiểu Điệp. Bị lời nguyền khiến chân què và phải ở Siêu Duy; nhận hoa yêu tinh giúp hồi phục. Xác nhận chân đã khỏi; dẫn gần trăm bá chủ cùng Mèo Nhỏ đánh lực lượng yêu ma bên ngoài Abruzzo. Hoàng thất Kinh Cức trả toàn bộ nợ của Thiết Quyền; anh cùng Mèo Nhỏ không còn gánh nợ cũ. Một quyền diệt quái vật bao quanh Trái Đất rồi uy hiếp đuổi đàn tiếp viện, giải nguy cho thế giới Nguyên Bản. Đứng tên bán tình báo Học viện Thần cho Tháp Cao để che danh tính Thanh Sơn, giao hắn phụ trách tài vụ Thiết Quyền. Chương 990 cùng Mèo Con bảo vệ Nguyên Sơ khỏi thủy triều Vực Sâu, đồng ý để Diệp Phi Ly tự đi tìm Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        545
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 545",
+      "x": 21340,
+      "y": -140
+    },
+    {
+      "id": "meo-nho",
+      "title": "Mèo Nhỏ",
+      "summary": "Em gái Barry, cô gái tai mèo quản lý không gian và tín tiêu Thiết Quyền Chính Nghĩa, viết truyện nuôi hai anh em. Nhận nhẫn giúp điều khiển sức mạnh không gian chính xác hơn, có thể đưa Barry và Thanh Sơn cùng dịch chuyển. Chương 981–990 liên lạc Thanh Sơn nhưng không vượt được khu Tranh Bá bị che giấu. Ở lại cùng Barry bảo vệ Nguyên Sơ, đưa Diệp Phi Ly ra ngoài tìm bạn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        545
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 545",
+      "x": 21680,
+      "y": -140
+    },
+    {
+      "id": "trieste",
+      "title": "Trieste — Thần Hi Chi Quang",
+      "summary": "Thủ hộ hoàng thất chim Kinh Cức nổi tiếng hào phóng, phát lời kêu gọi cho người dưới ba mươi tuổi. Biên niên sử tương lai xác nhận đã đầu quân yêu ma, giấu Mồi Lửa Chư Giới Tận Thế Online trong thế giới riêng và dùng lời kêu gọi làm bẫy. Nắm thủy tinh cầu chứa thế giới bị giấu, lấy việc thả Trật Tự làm con tin khi bị viện quân uy hiếp. Bị Sưu Hồn trong tình trạng phong ấn; lộ việc nhận Mồi Lửa từ Chân Ma đứng đầu để mở rộng thế lực Trật Tự. Bị Thánh thụ hành hình theo lệnh Laura: duy trì ngàn năm rồi đổi hình phạt khác. Không được ghi là đã chết.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        557
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 557",
+      "x": 22060,
+      "y": -140
+    },
+    {
+      "id": "tethys",
+      "title": "Mỹ nữ bằng gỗ",
+      "summary": "Mỹ nữ bằng gỗ quen Barry và Huyết Bào Ma Chủ, tặng lá cây bảo hộ Tuyết Nhi; đi cùng gà trống tại Abruzzo. Tên là Tethys, chứng kiến cổ thần vạn giới. Cứu Tuyết Nhi bằng lá cây và phá thuật gánh vận mệnh; bắt đầu nhận ra âm mưu Trieste. Truy tìm thế giới của Trieste trong Abruzzo, dùng cảm ứng đối với đồ vật để hỗ trợ điều tra.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        563
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 563",
+      "x": 22400,
+      "y": -140
+    },
+    {
+      "id": "laura",
+      "title": "Laura",
+      "summary": "Công chúa Kinh Cức mười hai tuổi, huyết mạch cuối hoàng thất; từng giả hầu gái trốn trong phòng khách, đã phong ấn thế giới Trieste. Thực là công chúa Kinh Cức mười hai tuổi, huyết mạch cuối cùng của hoàng thất. Trộm và phong ấn thế giới chứa Mồi Lửa của Trieste; cùng Cố Thanh Sơn tìm Tuyết Nhi để thoát thân. Vạn Giới Che Chở che giấu cô và người được che chở; đây là thiên phú của Laura, không phải kỹ năng Thanh Sơn. Kể chấn thương thời nhỏ khiến sợ độ cao; được Thanh Sơn chăm sóc và nấu ăn trong hành trình Di Dân. Từ chối bỏ Thanh Sơn trở về, quyết cùng chiến đấu để chống Trieste. Chính thức nhận ngôi nữ vương, trao quyền chỉ huy chiến đấu cho Thanh Sơn. Hoàn thành lễ trưởng thành, thức tỉnh đầy đủ ba chúc phúc của Thánh thụ và đánh thức quốc vương giáp; vượt nỗi sợ độ cao. Thiên phú Người Thu Thập Bảo Tàng Lang Thang tìm được đồ vô chủ trong hư không; Ý Chí Nữ Vương phối hợp Thánh thụ cấp trang bị chiến trường rồi thu hồi. Trao thế giới Trieste và lập dự ước bá tước với Thanh Sơn dưới chứng kiến của Thánh thụ; tước vị chỉ kích hoạt khi hắn dùng huy chương. Quyên góp lớn cho thần điện Tri Thức và dùng xương ngón tay thần linh đổi bí mật ba đồng xu cuối: cần ba nhân vật tương ứng kích hoạt để đảo ngược vận mệnh. Chương 987–991 tìm được Thanh Sơn, gửi chiến giáp, chữa thương Lâm và cung cấp thẻ dựng thế giới. Công bố Diệp Phi Ly là bá tước làm ám hiệu tìm đồng đội; cùng đi Vực Sâu Vỡ Vụn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        578
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 578",
+      "x": 23500,
+      "y": -140
+    },
+    {
+      "id": "ilia",
+      "title": "Ilia — Hàn Dạ Chi Sương",
+      "summary": "Giáo mẫu Laura, chỉ huy chiến sự và quân đội Kinh Cức, ngang hàng Trieste. Lông chim dính máu trong Hàn Băng quả gợi ý cô đang ẩn tại đây. Giữ thành Hải Triều giữa đại quân Thương quỷ; liên lạc với Laura qua cây thầm thì. Công nhận kiếm thuật Thanh Sơn và gợi ý gom uy lực kiếm trận vào một đòn; chưa có xác nhận hắn lĩnh ngộ một kỹ năng mới ngay lúc này. Nhận công lao tiêu diệt Trật Tự trước công chúng để che chở Thanh Sơn, rồi bắt Trieste khi nhóm trở lại Abruzzo.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        585
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 585",
+      "x": 24220,
+      "y": -140
+    },
+    {
+      "id": "lao-tieu",
+      "title": "Lão Tiều",
+      "summary": "Lão nhân sống sót ở thành phố Di Dân, chỉ Thanh Sơn cách dùng lôi điện của thế giới diệt quái vật rồi dẫn nhóm tới Hải Triều; tên được xác nhận ở 621. Tên Lão Tiều được xác nhận; dẫn đoàn tới thành Hải Triều do Ilia bảo vệ. Bị Thiên Ma giết cùng dân Hải Triều; Thánh vật bị cướp để Khởi Nguyên tiến hóa.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        619
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 619",
+      "x": 26380,
+      "y": -140
+    },
+    {
+      "id": "purgatory-lord",
+      "title": "Chủ nhân Luyện Ngục",
+      "summary": "Kẻ đứng sau sứ giả Luyện Ngục, can thiệp vì Khởi Nguyên và đặt nguyền rủa lên linh hồn Thanh Sơn. Hiện hình khiêu khích sau khi Hải Triều bị tàn sát và Khởi Nguyên bước vào tiến hóa Cách Mạng. Ảnh Ma Vương tháo nguyền rủa mà hắn đặt lên Thanh Sơn, chấm dứt quyền lần theo ấn để bắt hồn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        620
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 620",
+      "x": 26720,
+      "y": -140
+    },
+    {
+      "id": "primordial-demon-mother",
+      "title": "Nguyên Thủy Ma Mẫu",
+      "summary": "Mẹ của nữ đế Thiên Ma xuất hiện trước lời gọi, tra hỏi việc hứa giao thế giới cho con gái; danh xưng Nguyên Thủy Ma Mẫu được nêu ở 645. Nhận hồn khí con gái dâng và chấp nhận thương lượng phối hợp với Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        644
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 644",
+      "x": 27820,
+      "y": -140
+    },
+    {
+      "id": "tran-vuong",
+      "title": "Trần Vương",
+      "summary": "Giới chủ từ tầng 390 đến 666, cường giả Bá Chủ và trọng tài thế giới; bằng hữu Barry, nhận ra Thanh Sơn và giúp giải nguy cho Bách Hoa tông.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        711
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 711",
+      "x": 31420,
+      "y": -140
+    },
+    {
+      "id": "black-sea-lady",
+      "title": "Nữ sĩ Hắc Hải",
+      "summary": "Tồn tại cổ xưa phụ trách khảo tuyển chức nghiệp, khí tức vượt Bá Chủ; nhận ra Thanh Sơn khi hắn đến kiểm tra. Bí mật giúp Thanh Sơn che giấu thân phận bằng cách gọi hắn là Người Trở Lại. Dùng thần băng cứu các Bá Chủ còn sống vào khu Tranh Bá trước khi bình chướng che giấu khép lại, ở lại đối mặt quái vật Học viện Thần.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        720
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 720",
+      "x": 32140,
+      "y": -140
+    },
+    {
+      "id": "van-co",
+      "title": "Vân Cơ",
+      "summary": "Nữ Bá Chủ thần bí, bằng hữu của Thiết Quyền, xuất hiện cùng Trần Vương tại Hội Liên hiệp. Tặng búp bê hình Tạ Đạo Linh để che giấu vận mệnh trong lúc nàng đột phá. Được gọi đầy đủ Serena, Vân Nữ, chủ đảo Sương Mù; dự báo chỉ rời xa mối họa mới có đường sống. Được Thanh Sơn tìm thấy trong thần băng ở Khôi Thủ; hắn dựng 17 lớp trận ẩn và truyền tống, đi tìm cách chữa thương.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        720
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 720",
+      "x": 32480,
+      "y": -140
+    },
+    {
+      "id": "sleeping-card-maiden",
+      "title": "Thiếu nữ thẻ bài",
+      "summary": "Thiếu nữ áo trắng dùng hai thẻ bài hóa thiếu niên lập đội với Thanh Sơn, muốn lấy một thẻ bài đặc biệt của hắn. Được giải phóng toàn bộ trói buộc, trả lại Huyết Hải Quân Thần; mở phong ấn trí tuệ để phân tích thần băng và 381 người sống sót. Thân phận Thiên sứ Đoạn Tội Tịch; dùng chứng nhận chuyển hóa duy nhất để Thanh Sơn trở thành đồng hành Sứ giả Đoạn Tội. Tên Tịch, gọi Tiểu Tịch; thẻ ngọc bích năm sao đang suy yếu. Tạm chuyển thần băng Vân Cơ thành thẻ lưu trữ để mang theo. Bị chúng thần giới hạn chỉ chiến đấu và ngủ; lần đầu được Thanh Sơn mời ăn, bộc lộ mong muốn hiểu thế giới và yêu hoa. Ba thần khí thực chất trói cô bằng vương miện, giáp xương và mắt đen; hình nhân bắt đi dù Thanh Sơn đòi đổi toàn bộ phần thưởng để cứu. Chương 928: Tiểu Tịch được giải phóng khỏi thuật ba đồng xu. Chương 973: Lâm cho biết Tiểu Tịch đang nằm trong tay Ma Long. Chương 987: hình ảnh lưu trong bộ Đoạn Tội dạy Thanh Sơn Hợp Bài.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        752
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 752",
+      "x": 34300,
+      "y": -140
+    },
+    {
+      "id": "scorpion-demon-queen",
+      "title": "Nữ hoàng Hạt Ma",
+      "summary": "Vương giả Vực Sâu Tội Lỗi được thiếu nữ triệu hồi, có thân người và đuôi bọ cạp. Dựa vào thỏa thuận với Khôi Thủ để kéo dài thời gian cho thiếu nữ chạy trốn, không trực tiếp phá cam kết.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        752
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 752",
+      "x": 34640,
+      "y": -140
+    },
+    {
+      "id": "khoi-thu",
+      "title": "Khôi Thủ",
+      "summary": "Chủ chợ đen và sư phụ kẻ truy bắt thiếu nữ, thiết lập 537 thẻ trói buộc nhằm khống chế cô. Là một trong tám giáo chủ Thánh giáo Tử Vong; được giữ lại đốt cây Thần Tính trong khi giáo hội treo thưởng truy bắt Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        755
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 755",
+      "x": 34300,
+      "y": -460
+    },
+    {
+      "id": "black-scorpion",
+      "title": "Hạt Ma mặt đen",
+      "summary": "Chồng Nữ Hoàng Hạt Ma, cha bọ cạp nhỏ; chính là cây đen đã tặng Thanh Sơn gai độc và giúp mở túi không gian. Bị quái vật chiếm thân nhưng được kế trận pháp Thanh Sơn giải phóng; phá trận để trở về cứu vợ con.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        764
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 764",
+      "x": 35020,
+      "y": -140
+    },
+    {
+      "id": "lam-chuc-menh-gia",
+      "title": "Lâm / Chức Mệnh Giả",
+      "summary": "Tồn tại đại diện quyền uy chúng thần, hiện thân ở Lưu Sa để tạm áp chế quái vật và chỉ đường cho tín đồ. Thu ba thần khí để khống chế Tịch, dùng lời hứa bán thần dụ Thanh Sơn nhưng từ chối trả cô lại. Hình nhân bóng tối xác nhận nó không đại diện bảy Ma Thần, có sức mạnh lớn hơn thần linh nhưng không thể sáng tạo sinh mệnh và thế giới. Chương 785: Hình nhân bóng tối. Sinh linh bị phong ấn trong Lưu Sa, chiếm thân qua dục vọng; hợp tác với Thanh Sơn và dùng Thời Không Tẩm Thấu duy nhất trong đời để tìm đường thoát. Chương 893: Thâm Uyên Chức Mệnh Giả. Quái vật vực sâu chiếm linh hồn và dùng thân nạn nhân thâm nhập nền văn minh; bản thể bị giam, đã chiếm Chúa Tể để tìm cách giải thoát. Chương 926: xác nhận Chức Mệnh Giả chính là Hình Nhân Bóng Tối/Ánh Sáng. Chương 967: sau khi mất nhẫn Thề Nguyện ở sao Song Tử, trở lại thân người, được gọi là Lâm và đồng hành Thanh Sơn. Chương 988: Laura chữa khỏi thương, khôi phục đỉnh phong nhân loại; chưa lấy lại thể Vực Sâu.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        772
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 772",
+      "x": 35740,
+      "y": -140
+    },
+    {
+      "id": "heaven-palace-turtle",
+      "title": "Linh Quy Hoang Vân Thiên Cung",
+      "summary": "Linh thú khổng lồ cõng thiên cung, còn sống sau thời thượng cổ, có thể trò chuyện với Thanh Sơn. Sau khi Thanh Sơn sống sót khỏi chiến trường cổ, cho ngọc điệp khảo thí; đề nghị Thủ Vĩ Vô Tung nhưng hắn từ chối.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        789
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 789",
+      "x": 37180,
+      "y": -140
+    },
+    {
+      "id": "tham-uong",
+      "title": "Thẩm Ương",
+      "summary": "Đệ tử võ đạo thứ ba của cung chủ Hoang Vân, biệt danh Mê Võ; Thanh Sơn nhập vai hắn trong khảo thí. Trong nhánh tu hành mới, cùng Hoàng Chiến bái Tạ Cô Hồng, trở thành sư đệ của Thanh Sơn.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        793
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 793",
+      "x": 37900,
+      "y": -140
+    },
+    {
+      "id": "hoang-chien",
+      "title": "Hoàng Chiến",
+      "summary": "Đệ tử thứ hai của cung chủ, sở trường pháp thuật; trung hậu, được giao bảo vệ Địa kiếm xuống hạ giới. Trong nhánh tu hành mới, được Tạ Cô Hồng thu làm đệ tử sau Thanh Sơn, cùng Thẩm Ương nhận chỉ dẫn của đại sư huynh.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        793
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 793",
+      "x": 38240,
+      "y": -140
+    },
+    {
+      "id": "trieu-khoan",
+      "title": "Triệu Khoan",
+      "summary": "Đại đệ tử kiếm tu của cung chủ Hoang Vân, được giao điển tịch và nhiệm vụ tiếp tục truyền thừa. Phản bội tông môn để nhận thuật Khống Kiếm của thần linh, hại Hoàng Chiến và nộp Địa kiếm; trong khảo thí bị Thanh Sơn diệt cả linh hồn bằng Quỷ Vương trượng.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        793
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 793",
+      "x": 37900,
+      "y": -460
+    },
+    {
+      "id": "ta-co-hong",
+      "title": "Cung chủ Hoang Vân Thiên Cung",
+      "summary": "Phụ thân Tạ Đạo Linh, kiếm tu thắng Lượng Thần nửa chiêu; gửi ba đệ tử mang truyền thừa, Địa kiếm và con gái xuống hạ giới. Tên Tạ Cô Hồng; chỉ điểm thu liễm kiếm lực, từng có 1.954 phi kiếm khi Kiếm Tiên đại thành nhưng hiện ở cảnh giới cao hơn với bảy kiếm. Tàn hồn lưu trong Bóng Chồng trao Kiền Cửu, tiết lộ Thiên kiếm đúc thành trước lúc Nhân tộc diệt vong và hủy Bóng Chồng để bảo vệ đồ đệ.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        793
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 793",
+      "x": 38240,
+      "y": -460
+    },
+    {
+      "id": "lac-bang-ly",
+      "title": "Lạc Băng Ly",
+      "summary": "Phong chủ Diệu Âm, dùng sáo trừ tà sùng ẩn trong nhóm đệ tử mới; đảm nhiệm âm pháp tại tiền tuyến. Dùng thuật thời gian kéo chậm cả thần linh và Hoang Cổ, cứu Cố Thanh Sơn khỏi Bóng Chồng bị hủy; được Trảm Hồn Chân Đồng cứu lúc thoát. Bị thần tộc bắt khi tìm Cố Thanh Sơn, nhận ra hắn giả Thần vương và phối hợp tìm vật liệu cho ngọc điệp tới Bóng Chồng ẩn hình. Xác nhận vẫn giữ linh hồn và thân thể đầy đủ từ Thượng Cổ, không phải tàn hồn. Tu sĩ Âm Luật mạnh nhất được giao duy trì Bóng Chồng. Không bị giữ trong dừng thời gian, giấu thân phận thật và yêu cầu Chiến Thần cho quan sát chuyến về kiếp trước. Chương 934: trở thành khí linh Thiên Kiếm. Chương 935: Thiên Kiếm chữa được Địa Kiếm. Chương 972: sau lần Loạn Lưu phải ngủ mười ngày.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        797
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 797",
+      "x": 38620,
+      "y": -140
+    },
+    {
+      "id": "kim-diem",
+      "title": "Thần Kim Diễm",
+      "summary": "Thần linh vượt từ tương lai trở về truy sát Cố Thanh Sơn, muốn giam linh hồn để chặn tương lai; được Hình Nhân Ánh Sáng cấp đồng tiền truy tìm. Thất bại khảo nghiệm của Hình Nhân Ánh Sáng; bị chư thần bắt và Cố Thanh Sơn dùng Sương Diệt giết.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        818
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 818",
+      "x": 40060,
+      "y": -140
+    },
+    {
+      "id": "lam-diem",
+      "title": "Thần Băng Sương Giá Rét",
+      "summary": "Còn gọi Lam Diễm, thần Băng Sương Giá Rét bị thương khi bảo vệ Thần vương rồi mừng được cơ hội kế vị. Bị Cố Thanh Sơn hóa Hóa xà giết; từ đây hình dạng Lam Diễm được Cố Thanh Sơn dùng để đóng vai thần Băng Sương Giá Rét và tân Thần vương.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        829
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 829",
+      "x": 40780,
+      "y": -140
+    },
+    {
+      "id": "thuy-than",
+      "title": "Thủy Thần",
+      "summary": "Linh hồn hệ thống chiến tranh Nhân tộc cực cổ, từng hóa thân Thủy Thần trong thần tộc để bảo vệ truyền thừa. Nhờ hồn lực Chiến Thần cấp, tiến hóa thành Trật Tự Quân Đoàn Nhân Tộc. Thoái hóa từ Trật Tự về thẻ để đi theo Cố Thanh Sơn, tổn thương và ngủ; cần về thế giới thật mới tìm cách đánh thức.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        849
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 849",
+      "x": 42220,
+      "y": -140
+    },
+    {
+      "id": "soul-shrieker",
+      "title": "Linh Hồn Tiêm Tiếu Giả",
+      "summary": "Vĩnh Hằng Chân Thần có bản thể ngoài gió Loạn Kiếp; phân thể nhỏ ẩn trong Chúa tể Hoang Cổ và dùng tiếng rít hút linh hồn. Dàn cảnh hy sinh của võ tu họ Lâm và Mạnh lão để Tạ Cô Hồng đem công thức song kiếm về; thực chất cần Nhân tộc rèn hai bộ phận của vũ khí bằng tài nguyên và sinh mệnh. Chương 996–998 lộ vai trò sứ giả Hỗn Loạn, tiêu diệt lực lượng Trật Tự Ma Vương nhưng phong ấn không thành; chuyển sang truy đuổi hai nửa Trật Tự còn lại.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        852
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 852",
+      "x": 42560,
+      "y": -140
+    },
+    {
+      "id": "chua-te-xoay-chuyen-van-vat",
+      "title": "Chúa Tể Xoay Chuyển Vạn Vật",
+      "summary": "Một trong ba Ma vương mạnh nhất, cai quản biển Ma Hỗn Loạn, thích khai quật di tích và yêu cầu giao dịch công bằng. Cho Hắc Cốt trì hoãn cái chết Địa Kiếm đổi lấy Cố Thanh Sơn tham gia thám hiểm biển. Bán cả thuyền ma quỷ cho hải thú nghiên cứu sự sống để đổi chìa khóa phong ấn, chỉ mang người thân và thân tín rời đi. Lộ là vật chứa bị Chức Mệnh Giả chiếm; hiến tế cả thuộc hạ và hai con gái trên đường cứu bản thể. Thân vật chứa bị linh hồn Ma Long đánh nát rồi thiêu hủy.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        871
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 871",
+      "x": 44380,
+      "y": -140
+    },
+    {
+      "id": "abyss-dragon",
+      "title": "Ma Long",
+      "summary": "Vũ khí sinh vật Nhân tộc quản Ma giới, ngủ canh thi thể Chức Mệnh Giả tại Thâm Uyên Khán Thủ Sở. Muốn giành sức mạnh vực sâu và thoát lệnh Nhân tộc; dụ Cố Thanh Sơn ra khỏi bảo vệ rồi tấn công thất bại. Chương 979–984 dùng truy nã Trương Anh Hào làm bẫy, giết người ở Núi Lửa nhưng không bắt được Thanh Sơn; bị vương giả Vực Sâu thu phục rồi được tự do trở lại ở 1000.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        893
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 893",
+      "x": 46540,
+      "y": -140
+    },
+    {
+      "id": "earth-creator",
+      "title": "Người tạo vật của Đất",
+      "summary": "Được Trật Tự nhận diện là ý chí thế giới của Đất ở 905; gặp Thanh Sơn dưới hình người khổng lồ ở 906, nhờ giải quyết hoạt tử nhân và đánh thức bản phục chế Kỹ nghệ. Sau đó giúp trở về thời đại, cho mượn đồng xu Đất và để lại di ngôn. Chương 956 xác nhận đã chết vì vận mệnh thế giới song song ăn mòn; Thanh Sơn tiếp nhận di sản và địa vị chủ nhân của Đất qua Phức Tự.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        905
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 905",
+      "x": 47980,
+      "y": -140
+    },
+    {
+      "id": "phuc-tu",
+      "title": "Phức Tự — Tinh linh Thời Không",
+      "summary": "Tinh linh Thời Không hình dáng bà lão mặc váy đen. Xóa dấu thế giới song song, giúp Thanh Sơn kế thừa địa vị chủ nhân của Đất, giữ bí mật thân phận và trao dấu dẫn tới di hài thế giới để hoàn thiện thuật pháp.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        954
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 954",
+      "x": 52300,
+      "y": -140
+    },
+    {
+      "id": "abyss-king-unnamed",
+      "title": "Vương giả Vực Sâu chưa rõ tên",
+      "summary": "Tồn tại Vực Sâu đủ sức khống chế Ma Long, hóa thành người đeo kính để trải nghiệm đời sống và gia nhập Công hội Thích khách. Có sách dự báo vận mệnh; ở chương 1000 rời đi xử lý xung đột Trật Tự và Hỗn Loạn, chưa nêu tên thật.",
+      "realm": "cultivation",
+      "kind": "character",
+      "chapters": [
+        984
+      ],
+      "eyebrow": "Lần đầu đề cập · Chương 984",
+      "x": 55180,
+      "y": -140
+    }
+  ],
+  "links": [
+    {
+      "source": "hero",
+      "target": "awakening",
+      "label": "Tu Hành",
+      "timeline": true,
+      "fork": true
+    },
+    {
+      "source": "awakening",
+      "target": "rescue",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "rescue",
+      "target": "sword",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "sword",
+      "target": "saints",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "saints",
+      "target": "annual-trial",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "annual-trial",
+      "target": "frontline-investigation",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "frontline-investigation",
+      "target": "ma-van-victory",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "ma-van-victory",
+      "target": "than-vo-return",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "than-vo-return",
+      "target": "spirit-weapon-retreat",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "spirit-weapon-retreat",
+      "target": "magma-rescue",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "magma-rescue",
+      "target": "battlefield-nascent-soul",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "battlefield-nascent-soul",
+      "target": "than-vo-truth",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "than-vo-truth",
+      "target": "tide-sword-and-divine-armor",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "tide-sword-and-divine-armor",
+      "target": "arc-0301-bien-kiem",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0301-bien-kiem",
+      "target": "arc-0309-giao-dich-thien-ma",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0309-giao-dich-thien-ma",
+      "target": "arc-0319-cuu-su-phu",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0319-cuu-su-phu",
+      "target": "arc-0389-dao-suong",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0389-dao-suong",
+      "target": "arc-0415-0424",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0415-0424",
+      "target": "arc-0425-0439",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0425-0439",
+      "target": "arc-0441-0450",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0441-0450",
+      "target": "arc-0451-0458",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0451-0458",
+      "target": "arc-0470-0477",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0470-0477",
+      "target": "arc-0478-0486",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0478-0486",
+      "target": "arc-0487-0494",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0487-0494",
+      "target": "arc-0495-0500",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0495-0500",
+      "target": "arc-501-514",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-501-514",
+      "target": "arc-515-523",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-515-523",
+      "target": "arc-524-531",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-524-531",
+      "target": "arc-532-536",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-532-536",
+      "target": "arc-543-551",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-543-551",
+      "target": "arc-554-563",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-554-563",
+      "target": "arc-564-572",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-564-572",
+      "target": "arc-573-581",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-573-581",
+      "target": "arc-582-590",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-582-590",
+      "target": "arc-591-600",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-591-600",
+      "target": "arc-0601-0614",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0601-0614",
+      "target": "arc-0615-0632",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0615-0632",
+      "target": "arc-0633-0642",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0633-0642",
+      "target": "arc-0643-0662",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0643-0662",
+      "target": "arc-0663-0680",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0663-0680",
+      "target": "arc-0685-0687",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0685-0687",
+      "target": "arc-0692-0693",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0692-0693",
+      "target": "arc-0695-0695",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0695-0695",
+      "target": "arc-0705-0712",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0705-0712",
+      "target": "arc-0713-0722",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0713-0722",
+      "target": "arc-0723-0736",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0723-0736",
+      "target": "arc-0737-0745",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0737-0745",
+      "target": "arc-0746-0758",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0746-0758",
+      "target": "arc-0759-0769",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0759-0769",
+      "target": "arc-0770-0778",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0770-0778",
+      "target": "arc-0779-0785",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0779-0785",
+      "target": "arc-0786-0792",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0786-0792",
+      "target": "arc-0793-0796",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0793-0796",
+      "target": "arc-0797-0800",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0797-0800",
+      "target": "ancient-main-peak-conflict",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "ancient-main-peak-conflict",
+      "target": "demon-world-merger",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "demon-world-merger",
+      "target": "ancient-broken-route",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "ancient-broken-route",
+      "target": "god-king-memory-vault",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "god-king-memory-vault",
+      "target": "ancient-war-system-awakening",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "ancient-war-system-awakening",
+      "target": "soul-shrieker-sword-plot",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "soul-shrieker-sword-plot",
+      "target": "god-king-time-loop",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "god-king-time-loop",
+      "target": "chaotic-sea-sword-rescue",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "chaotic-sea-sword-rescue",
+      "target": "chaotic-sea-du-tam",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "chaotic-sea-du-tam",
+      "target": "chaotic-sea-betrayal",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "chaotic-sea-betrayal",
+      "target": "abyss-watchhouse-truth",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "abyss-watchhouse-truth",
+      "target": "tu-tai-heaven-return",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "tu-tai-heaven-return",
+      "target": "arc-0901-0908",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0901-0908",
+      "target": "arc-0909-0916",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0909-0916",
+      "target": "arc-0917-0924",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0917-0924",
+      "target": "arc-0925-0933",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0925-0933",
+      "target": "arc-0934-0940",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0934-0940",
+      "target": "arc-0941-0950",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0941-0950",
+      "target": "arc-0951-0960",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0951-0960",
+      "target": "arc-0961-0968",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0961-0968",
+      "target": "arc-0969-0974",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0969-0974",
+      "target": "arc-0975-0980",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0975-0980",
+      "target": "arc-0981-0986",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0981-0986",
+      "target": "arc-0987-0990",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0987-0990",
+      "target": "arc-0991-0996",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0991-0996",
+      "target": "arc-0997-1000",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "hero",
+      "target": "truong-da-trap",
+      "label": "Thế giới thực",
+      "timeline": true,
+      "fork": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "anna",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "anna",
+      "target": "impartial-goddess",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "cosmic-search",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "cosmic-search",
+      "target": "holy-church",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "holy-church",
+      "target": "ghoul-alliance",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "ghoul-alliance",
+      "target": "immortal-game",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "immortal-game",
+      "target": "tru-ta-upgrade",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "tru-ta-upgrade",
+      "target": "masked-champion",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "masked-champion",
+      "target": "fuxi-and-succession",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "fuxi-and-succession",
+      "target": "holy-capital-infiltration",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "holy-capital-infiltration",
+      "target": "upright-and-destiny",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "upright-and-destiny",
+      "target": "immortal-game-defeated",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "immortal-game-defeated",
+      "target": "arc-0330-vong-hon-nguoi-yeu",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0330-vong-hon-nguoi-yeu",
+      "target": "arc-0342-hoa-than",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0342-hoa-than",
+      "target": "arc-0352-hoang-de-nhan-ban",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0352-hoang-de-nhan-ban",
+      "target": "arc-0362-han-bang",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0362-han-bang",
+      "target": "arc-0374-ngan-dai-chien",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0374-ngan-dai-chien",
+      "target": "arc-0383-bi-mat-hoang-tuyen",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0383-bi-mat-hoang-tuyen",
+      "target": "arc-0397-tro-ve",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0397-tro-ve",
+      "target": "arc-0401-0407",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0401-0407",
+      "target": "arc-0408-0414",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0408-0414",
+      "target": "arc-0440-0440",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0440-0440",
+      "target": "arc-0459-0469",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0459-0469",
+      "target": "arc-537-540",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-537-540",
+      "target": "arc-552-553",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-552-553",
+      "target": "arc-565-568",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-565-568",
+      "target": "arc-0681-0684",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0681-0684",
+      "target": "arc-0688-0691",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0688-0691",
+      "target": "arc-0694-0694",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0694-0694",
+      "target": "arc-0696-0700",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0696-0700",
+      "target": "arc-0701-0704",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "arc-0701-0704",
+      "target": "earth-diep-phi-ly-evolution",
+      "label": "Tiếp diễn",
+      "timeline": true,
+      "fork": false
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "to-tuyet-nhi",
+      "label": "Giới thiệu · Chương 4",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "phung-hoac-duc",
+      "label": "Giới thiệu · Chương 8",
+      "introduction": true
+    },
+    {
+      "source": "truong-da-trap",
+      "target": "anna-character",
+      "label": "Giới thiệu · Chương 8",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "impartial-goddess-character",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "truong-tong-duong",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "anna",
+      "target": "tong-thong-lien-bang",
+      "label": "Giới thiệu · Chương 17",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "to-hung-trieu",
+      "label": "Giới thiệu · Chương 25",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "cong-ton-tri",
+      "label": "Giới thiệu · Chương 28",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "ninh-nguyet-thien",
+      "label": "Giới thiệu · Chương 28",
+      "introduction": true
+    },
+    {
+      "source": "rescue",
+      "target": "thi-the-tren-tru-dong",
+      "label": "Giới thiệu · Chương 37",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "lanh-thien-tinh",
+      "label": "Giới thiệu · Chương 44",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "bach-hoa-master",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "huyen-nguyen-thien-ton",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "bi-nguong-dai-su",
+      "label": "Giới thiệu · Chương 54",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "white-goose",
+      "label": "Giới thiệu · Chương 56",
+      "introduction": true
+    },
+    {
+      "source": "sword",
+      "target": "dia-kiem",
+      "label": "Giới thiệu · Chương 63",
+      "introduction": true
+    },
+    {
+      "source": "impartial-goddess",
+      "target": "truong-anh-hao",
+      "label": "Giới thiệu · Chương 74",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "tan-tieu-lau",
+      "label": "Giới thiệu · Chương 81",
+      "introduction": true
+    },
+    {
+      "source": "saints",
+      "target": "tu-tu",
+      "label": "Giới thiệu · Chương 81",
+      "introduction": true
+    },
+    {
+      "source": "cosmic-search",
+      "target": "meo-mun",
+      "label": "Giới thiệu · Chương 85",
+      "introduction": true
+    },
+    {
+      "source": "holy-church",
+      "target": "giao-hoang",
+      "label": "Giới thiệu · Chương 118",
+      "introduction": true
+    },
+    {
+      "source": "holy-church",
+      "target": "diep-phi-ly",
+      "label": "Giới thiệu · Chương 122",
+      "introduction": true
+    },
+    {
+      "source": "ghoul-alliance",
+      "target": "lieu-hanh",
+      "label": "Giới thiệu · Chương 129",
+      "introduction": true
+    },
+    {
+      "source": "frontline-investigation",
+      "target": "o-tinh-van",
+      "label": "Giới thiệu · Chương 144",
+      "introduction": true
+    },
+    {
+      "source": "ma-van-victory",
+      "target": "tan-ton-gia",
+      "label": "Giới thiệu · Chương 156",
+      "introduction": true
+    },
+    {
+      "source": "ma-van-victory",
+      "target": "thien-ma-thanh-vuong",
+      "label": "Giới thiệu · Chương 159",
+      "introduction": true
+    },
+    {
+      "source": "immortal-game",
+      "target": "hoang-de-phuc-hy",
+      "label": "Giới thiệu · Chương 170",
+      "introduction": true
+    },
+    {
+      "source": "upright-and-destiny",
+      "target": "guardian-nine-houses",
+      "label": "Giới thiệu · Chương 242",
+      "introduction": true
+    },
+    {
+      "source": "upright-and-destiny",
+      "target": "lieu-thi-man",
+      "label": "Giới thiệu · Chương 246",
+      "introduction": true
+    },
+    {
+      "source": "spirit-weapon-retreat",
+      "target": "trieu-am",
+      "label": "Giới thiệu · Chương 271",
+      "introduction": true
+    },
+    {
+      "source": "than-vo-truth",
+      "target": "purple-robed-young-master",
+      "label": "Giới thiệu · Chương 294",
+      "introduction": true
+    },
+    {
+      "source": "tide-sword-and-divine-armor",
+      "target": "hong-hoang-liet-diem",
+      "label": "Giới thiệu · Chương 298",
+      "introduction": true
+    },
+    {
+      "source": "arc-0309-giao-dich-thien-ma",
+      "target": "thien-ma-nu-de",
+      "label": "Giới thiệu · Chương 313",
+      "introduction": true
+    },
+    {
+      "source": "arc-0309-giao-dich-thien-ma",
+      "target": "nam-cung-tinh-nhu",
+      "label": "Giới thiệu · Chương 318",
+      "introduction": true
+    },
+    {
+      "source": "arc-0309-giao-dich-thien-ma",
+      "target": "van-uyen-nhi",
+      "label": "Giới thiệu · Chương 318",
+      "introduction": true
+    },
+    {
+      "source": "arc-0330-vong-hon-nguoi-yeu",
+      "target": "luu-thi-quan",
+      "label": "Giới thiệu · Chương 335",
+      "introduction": true
+    },
+    {
+      "source": "arc-0352-hoang-de-nhan-ban",
+      "target": "valrhona-medici",
+      "label": "Giới thiệu · Chương 352",
+      "introduction": true
+    },
+    {
+      "source": "arc-0352-hoang-de-nhan-ban",
+      "target": "phuc-hy-khai-quoc",
+      "label": "Giới thiệu · Chương 357",
+      "introduction": true
+    },
+    {
+      "source": "arc-0389-dao-suong",
+      "target": "huyet-bao-ma-chu",
+      "label": "Giới thiệu · Chương 389",
+      "introduction": true
+    },
+    {
+      "source": "arc-0397-tro-ve",
+      "target": "asmodeus",
+      "label": "Giới thiệu · Chương 400",
+      "introduction": true
+    },
+    {
+      "source": "arc-0401-0407",
+      "target": "khuyen-than",
+      "label": "Giới thiệu · Chương 405",
+      "introduction": true
+    },
+    {
+      "source": "arc-0425-0439",
+      "target": "son-nu",
+      "label": "Giới thiệu · Chương 425",
+      "introduction": true
+    },
+    {
+      "source": "arc-0425-0439",
+      "target": "tuoc-cot-quy",
+      "label": "Giới thiệu · Chương 426",
+      "introduction": true
+    },
+    {
+      "source": "arc-0425-0439",
+      "target": "nu-a-tu-la",
+      "label": "Giới thiệu · Chương 428",
+      "introduction": true
+    },
+    {
+      "source": "arc-0425-0439",
+      "target": "vong-xuyen-ly-hon-cau",
+      "label": "Giới thiệu · Chương 430",
+      "introduction": true
+    },
+    {
+      "source": "arc-0441-0450",
+      "target": "lam",
+      "label": "Giới thiệu · Chương 447",
+      "introduction": true
+    },
+    {
+      "source": "arc-0441-0450",
+      "target": "khinh-am",
+      "label": "Giới thiệu · Chương 447",
+      "introduction": true
+    },
+    {
+      "source": "arc-0459-0469",
+      "target": "hong-y-thien-than",
+      "label": "Giới thiệu · Chương 460",
+      "introduction": true
+    },
+    {
+      "source": "arc-0470-0477",
+      "target": "vuong-hong-dao",
+      "label": "Giới thiệu · Chương 474",
+      "introduction": true
+    },
+    {
+      "source": "arc-0470-0477",
+      "target": "diep-anh-mi",
+      "label": "Giới thiệu · Chương 477",
+      "introduction": true
+    },
+    {
+      "source": "arc-0470-0477",
+      "target": "trieu-ngu-chuy",
+      "label": "Giới thiệu · Chương 477",
+      "introduction": true
+    },
+    {
+      "source": "arc-0470-0477",
+      "target": "la-sat-nu",
+      "label": "Giới thiệu · Chương 477",
+      "introduction": true
+    },
+    {
+      "source": "arc-0495-0500",
+      "target": "thien-son-da",
+      "label": "Giới thiệu · Chương 498",
+      "introduction": true
+    },
+    {
+      "source": "arc-524-531",
+      "target": "tieu-diep",
+      "label": "Giới thiệu · Chương 527",
+      "introduction": true
+    },
+    {
+      "source": "arc-543-551",
+      "target": "barry",
+      "label": "Giới thiệu · Chương 545",
+      "introduction": true
+    },
+    {
+      "source": "arc-543-551",
+      "target": "meo-nho",
+      "label": "Giới thiệu · Chương 545",
+      "introduction": true
+    },
+    {
+      "source": "arc-554-563",
+      "target": "trieste",
+      "label": "Giới thiệu · Chương 557",
+      "introduction": true
+    },
+    {
+      "source": "arc-554-563",
+      "target": "tethys",
+      "label": "Giới thiệu · Chương 563",
+      "introduction": true
+    },
+    {
+      "source": "arc-573-581",
+      "target": "laura",
+      "label": "Giới thiệu · Chương 578",
+      "introduction": true
+    },
+    {
+      "source": "arc-582-590",
+      "target": "ilia",
+      "label": "Giới thiệu · Chương 585",
+      "introduction": true
+    },
+    {
+      "source": "arc-0615-0632",
+      "target": "lao-tieu",
+      "label": "Giới thiệu · Chương 619",
+      "introduction": true
+    },
+    {
+      "source": "arc-0615-0632",
+      "target": "purgatory-lord",
+      "label": "Giới thiệu · Chương 620",
+      "introduction": true
+    },
+    {
+      "source": "arc-0643-0662",
+      "target": "primordial-demon-mother",
+      "label": "Giới thiệu · Chương 644",
+      "introduction": true
+    },
+    {
+      "source": "arc-0705-0712",
+      "target": "tran-vuong",
+      "label": "Giới thiệu · Chương 711",
+      "introduction": true
+    },
+    {
+      "source": "arc-0713-0722",
+      "target": "black-sea-lady",
+      "label": "Giới thiệu · Chương 720",
+      "introduction": true
+    },
+    {
+      "source": "arc-0713-0722",
+      "target": "van-co",
+      "label": "Giới thiệu · Chương 720",
+      "introduction": true
+    },
+    {
+      "source": "arc-0746-0758",
+      "target": "sleeping-card-maiden",
+      "label": "Giới thiệu · Chương 752",
+      "introduction": true
+    },
+    {
+      "source": "arc-0746-0758",
+      "target": "scorpion-demon-queen",
+      "label": "Giới thiệu · Chương 752",
+      "introduction": true
+    },
+    {
+      "source": "arc-0746-0758",
+      "target": "khoi-thu",
+      "label": "Giới thiệu · Chương 755",
+      "introduction": true
+    },
+    {
+      "source": "arc-0759-0769",
+      "target": "black-scorpion",
+      "label": "Giới thiệu · Chương 764",
+      "introduction": true
+    },
+    {
+      "source": "arc-0770-0778",
+      "target": "lam-chuc-menh-gia",
+      "label": "Giới thiệu · Chương 772",
+      "introduction": true
+    },
+    {
+      "source": "arc-0786-0792",
+      "target": "heaven-palace-turtle",
+      "label": "Giới thiệu · Chương 789",
+      "introduction": true
+    },
+    {
+      "source": "arc-0793-0796",
+      "target": "tham-uong",
+      "label": "Giới thiệu · Chương 793",
+      "introduction": true
+    },
+    {
+      "source": "arc-0793-0796",
+      "target": "hoang-chien",
+      "label": "Giới thiệu · Chương 793",
+      "introduction": true
+    },
+    {
+      "source": "arc-0793-0796",
+      "target": "trieu-khoan",
+      "label": "Giới thiệu · Chương 793",
+      "introduction": true
+    },
+    {
+      "source": "arc-0793-0796",
+      "target": "ta-co-hong",
+      "label": "Giới thiệu · Chương 793",
+      "introduction": true
+    },
+    {
+      "source": "arc-0797-0800",
+      "target": "lac-bang-ly",
+      "label": "Giới thiệu · Chương 797",
+      "introduction": true
+    },
+    {
+      "source": "demon-world-merger",
+      "target": "kim-diem",
+      "label": "Giới thiệu · Chương 818",
+      "introduction": true
+    },
+    {
+      "source": "ancient-broken-route",
+      "target": "lam-diem",
+      "label": "Giới thiệu · Chương 829",
+      "introduction": true
+    },
+    {
+      "source": "ancient-war-system-awakening",
+      "target": "thuy-than",
+      "label": "Giới thiệu · Chương 849",
+      "introduction": true
+    },
+    {
+      "source": "ancient-war-system-awakening",
+      "target": "soul-shrieker",
+      "label": "Giới thiệu · Chương 852",
+      "introduction": true
+    },
+    {
+      "source": "chaotic-sea-sword-rescue",
+      "target": "chua-te-xoay-chuyen-van-vat",
+      "label": "Giới thiệu · Chương 871",
+      "introduction": true
+    },
+    {
+      "source": "abyss-watchhouse-truth",
+      "target": "abyss-dragon",
+      "label": "Giới thiệu · Chương 893",
+      "introduction": true
+    },
+    {
+      "source": "arc-0901-0908",
+      "target": "earth-creator",
+      "label": "Giới thiệu · Chương 905",
+      "introduction": true
+    },
+    {
+      "source": "arc-0951-0960",
+      "target": "phuc-tu",
+      "label": "Giới thiệu · Chương 954",
+      "introduction": true
+    },
+    {
+      "source": "arc-0981-0986",
+      "target": "abyss-king-unnamed",
+      "label": "Giới thiệu · Chương 984",
+      "introduction": true
+    }
+  ]
+}

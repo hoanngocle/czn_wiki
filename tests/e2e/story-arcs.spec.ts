@@ -1,0 +1,51 @@
+import { expect, test } from "@playwright/test";
+import { storyArcs, arcUrl } from "../../lib/story/arcs";
+import { arcStorageKey } from "../../lib/story/arc-graph";
+
+test("Arc navigation opens independent diagrams and keeps edits after switching and reload", async ({ page }) => {
+  const first = storyArcs[0], second = storyArcs[1], last = storyArcs.at(-1)!;
+  await page.goto(arcUrl(first));
+  await expect(page.getByTestId("story-viewport")).toHaveAttribute("data-ready", "true");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(first.title);
+  const menu = page.getByRole("navigation", { name: "Các Arc cốt truyện", exact: true });
+  await expect(menu.getByRole("link")).toHaveCount(storyArcs.length);
+  await expect(page.locator('[data-story-node][data-testid^="story-node-"]')).toHaveCount(9);
+  await page.getByTestId("story-node-awakening").click();
+  await page.getByRole("button", { name: "Sửa node", exact: true }).click();
+  await page.getByRole("textbox", { name: "Nội dung", exact: true }).fill("Ghi chú chỉ thuộc Arc đầu");
+  await page.getByRole("button", { name: "Lưu thay đổi", exact: true }).click();
+  await page.getByRole("button", { name: "Đóng chi tiết", exact: true }).click();
+  await page.getByRole("link", { name: `Arc sau: ${second.title}`, exact: true }).click();
+  await expect(page.getByTestId("story-viewport")).toHaveAttribute("data-arc", second.id);
+  await expect(page.getByTestId("story-node-awakening")).toHaveCount(0);
+  await page.goBack();
+  await expect(page.getByTestId("story-viewport")).toHaveAttribute("data-ready", "true");
+  await page.reload();
+  await page.getByTestId("story-node-awakening").click();
+  await expect(page.getByRole("complementary", { name: "Chi tiết wiki" })).toContainText("Ghi chú chỉ thuộc Arc đầu");
+  expect(await page.evaluate((key) => JSON.parse(localStorage.getItem(key)!).graph.nodes.find((node: { id: string }) => node.id === "awakening").summary, arcStorageKey(first))).toBe("Ghi chú chỉ thuộc Arc đầu");
+  await page.getByRole("button", { name: "Đóng chi tiết", exact: true }).click();
+  await page.getByLabel("Chọn Arc", { exact: true }).selectOption(last.id);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(last.title);
+  await expect(page.getByTestId("story-viewport")).toHaveAttribute("data-arc", last.id);
+  await page.screenshot({ path: "test-results/story-arcs-desktop.png" });
+});
+
+test("mobile Cốt Truyện submenu navigates to another Arc without horizontal overflow", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(arcUrl(storyArcs[0]));
+  const navigation = page.getByRole("navigation", { name: "Chuyển trang truyện", exact: true });
+  await navigation.getByRole("button", { name: "Cốt Truyện", exact: true }).click();
+  const menu = page.getByRole("navigation", { name: "Chọn Arc trên điện thoại", exact: true });
+  await expect(menu).toBeVisible();
+  const target = storyArcs[6];
+  await menu.getByRole("link").filter({ hasText: target.title }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(target.title);
+  await expect(page.getByTestId("story-viewport")).toHaveAttribute("data-ready", "true");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.getByRole("button", { name: "Mở công cụ sơ đồ" }).click();
+  await page.getByRole("searchbox", { name: "Tìm trong Arc" }).fill("Hoàng Tuyền");
+  await expect(page.getByRole("button", { name: /^Tìm đến/ }).first()).toBeVisible();
+  await page.getByRole("button", { name: "Thu gọn công cụ sơ đồ" }).click();
+  await page.screenshot({ path: "test-results/story-arcs-mobile.png" });
+});

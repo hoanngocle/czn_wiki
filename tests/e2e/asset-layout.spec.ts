@@ -19,7 +19,7 @@ test("every local asset is served with its original bytes", async ({ request }) 
 });
 
 test("combatant pages load imported and announcement images from local asset URLs", async ({ page }) => {
-  for (const route of ["/combatant", "/combatant/renoa", "/combatant/nia"]) {
+  for (const route of ["/czn/combatant", "/czn/combatant/renoa", "/czn/combatant/nia"]) {
     const failures: string[] = [];
     const onResponse = (response: import("@playwright/test").Response) => {
       if (response.url().includes("/assets/") && response.status() >= 400) failures.push(response.url());

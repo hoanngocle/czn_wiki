@@ -4,7 +4,7 @@ import renoa from "../../data/wiki/guides/renoa.json";
 for (const width of [1440, 390]) {
   test(`Renoa guide tabs switch content and preserve card preferences at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
-    await page.goto("/combatant/renoa");
+    await page.goto("/czn/combatant/renoa");
     const tabs = page.getByRole("tablist", { name: /^(Renoa guide|Renoa hướng dẫn)$/ });
     await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
     await expect(page.getByRole("heading", { name: /^(Start Cards|Bài khởi đầu)$/, exact: true })).toBeVisible();
@@ -31,7 +31,7 @@ for (const width of [1440, 390]) {
 }
 
 test("Renoa tabs support arrow keys and Home/End with a single active panel", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   const tabs = page.getByRole("tablist", { name: /^(Renoa guide|Renoa hướng dẫn)$/ });
   await tabs.getByRole("tab", { name: /^(Card|Thẻ bài)$/, exact: true }).focus();
   await page.keyboard.press("ArrowRight");
@@ -49,7 +49,7 @@ test("Renoa tabs support arrow keys and Home/End with a single active panel", as
 });
 
 test("deck copies preserve their individual effects when switching languages", async ({ page }) => {
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("tab", { name: /^(Deck|Bộ bài)$/, exact: true }).click();
   const language = page.getByRole("checkbox", { name: "Tiếng Việt" });
   const cards = page.getByRole("list", { name: "Các lá trong bộ bài" }).getByRole("listitem");
@@ -71,7 +71,7 @@ test("deck copies preserve their individual effects when switching languages", a
 test("missing guide images keep their reserved slots and readable card content", async ({ page }) => {
   await page.route(`**${renoa.images.Janet.src}`, route => route.abort());
   await page.route("**/assets/card/unique_1041_02.webp", route => route.abort());
-  await page.goto("/combatant/renoa");
+  await page.goto("/czn/combatant/renoa");
   await page.getByRole("tab", { name: /^(Deck|Bộ bài)$/, exact: true }).click();
   const panel = page.getByRole("tabpanel", { name: renoa.decks[0].name.vi, exact: true });
   const partnerSlot = panel.locator('[data-image-placeholder="Janet"]');

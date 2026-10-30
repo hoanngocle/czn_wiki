@@ -1,0 +1,27 @@
+.menu { min-width: 0; }
+.menuTrigger { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; border: 0; border-radius: 7px; background: var(--paper, #f4f4ec); color: var(--ink, #304538); font: inherit; text-align: left; cursor: pointer; }
+.menuTrigger:focus-visible, .arcList a:focus-visible { outline: 2px solid var(--green, #52775e); outline-offset: -2px; }
+.chevron { margin-left: auto; font-size: 18px; color: var(--muted, #75816d); }
+.arcList { display: grid; gap: 3px; margin: 7px 0 12px 8px; padding-left: 8px; max-height: min(48vh, 480px); overflow-y: auto; overscroll-behavior: contain; border-left: 1px solid var(--line, #dce2d5); }
+.arcList[hidden] { display: none; }
+.arcList a { display: flex; align-items: baseline; gap: 10px; padding: 10px 8px; border-radius: 5px; color: var(--muted, #68765f); font-size: 12px; line-height: 1.55; text-decoration: none; }
+.arcList a:hover, .arcList a[aria-current="page"] { color: var(--ink, #2f513b); background: var(--line, #e3e9dc); }
+.arcNumber { font-size: 10px; font-variant-numeric: tabular-nums; color: var(--green, #52775e); }
+.arcList small { display: block; font-size: 10px; opacity: .8; margin-top: 3px; }
+.heading { display: flex; align-items: center; gap: 20px; padding: 19px 26px; border-bottom: 1px solid var(--line, #dce2d5); background: var(--surface, #fffefa); }
+.heading > div:first-child { min-width: 0; flex: 1; }
+.eyebrow { color: var(--muted, #72836a); font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+.heading h1 { margin: 5px 0 6px; font-size: 21px; font-weight: 500; line-height: 1.35; color: var(--ink, #304538); }
+.heading p { margin: 0; color: var(--muted, #72836a); font-size: 12px; line-height: 1.6; }
+.controls { display: flex; align-items: center; gap: 8px; }
+.controls select { width: min(240px, 22vw); min-height: 38px; padding: 8px; border: 1px solid var(--line, #dce2d5); border-radius: 5px; background: var(--panel, #fffefa); color: var(--ink, #304538); font: inherit; font-size: 12px; }
+.controls a { display: grid; place-items: center; flex-shrink: 0; width: 36px; height: 36px; border: 1px solid var(--line, #dce2d5); border-radius: 5px; color: var(--green, #52775e); text-decoration: none; }
+.crossLinks { padding: 8px 26px; color: var(--muted, #72836a); font-size: 12px; border-bottom: 1px solid var(--line, #dce2d5); }
+.crossLinks a { display: block; margin: 8px 0; color: var(--green, #52775e); }
+.mobileMenu { position: relative; flex: 1; }
+.mobileMenu .menuTrigger { height: 100%; padding: 0 6px; justify-content: center; background: transparent; border-radius: 0; font-size: 13px; gap: 6px; }
+.mobileMenu .chevron { margin-left: 0; font-size: 14px; }
+.mobileMenu .arcList { position: absolute; z-index: 80; top: 100%; left: 0; width: min(310px, calc(100vw - 34px)); max-height: 65vh; margin: 0; padding: 8px; border: 1px solid var(--line, #dce2d5); border-radius: 0 0 8px 8px; background: var(--surface, #fffefa); box-shadow: 0 12px 30px #172f2220; }
+.mobileMenu .arcList a { justify-content: flex-start; align-items: baseline; text-align: left; border: 0; padding: 10px; font-size: 12px; }
+@media (max-width: 1100px) { .heading { align-items: flex-start; flex-direction: column; gap: 12px; }.controls { width: 100%; }.controls select { width: 100%; min-width: 0; flex: 1; } }
+@media (max-width: 600px) { .heading { padding: 14px 17px; gap: 10px; }.heading h1 { font-size: 17px; }.heading p { font-size: 11px; }.crossLinks { padding-inline: 17px; } }

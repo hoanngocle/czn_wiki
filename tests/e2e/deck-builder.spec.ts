@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 test("build, modify, save, reload and share a deck", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
-  await page.goto("/deck-builder");
+  await page.goto("/czn/deck-builder");
   await expect(page.getByRole("heading", { name: "Deck Builder", exact: true })).toBeVisible();
   await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
   await page.getByRole("searchbox").fill("Mei Lin");
@@ -39,7 +39,7 @@ test("build, modify, save, reload and share a deck", async ({ page }) => {
 
 test("mobile picker supports keyboard dismissal and fits the viewport", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/deck-builder");
+  await page.goto("/czn/deck-builder");
   await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
   await page.keyboard.press("Escape");
@@ -60,7 +60,7 @@ test("mobile picker supports keyboard dismissal and fits the viewport", async ({
 test("unreadable saved data is preserved when saving a new deck", async ({ page }) => {
   const raw = '[{"id":"legacy","name":"Keep me","cardIds":["unknown"]}]';
   await page.addInitScript(value => localStorage.setItem("czn_saved_decks", value), raw);
-  await page.goto("/deck-builder");
+  await page.goto("/czn/deck-builder");
   await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
   await page.getByRole("searchbox").fill("Mei Lin");
   await page.getByRole("button", { name: "Select Mei Lin", exact: true }).click();
@@ -71,7 +71,7 @@ test("unreadable saved data is preserved when saving a new deck", async ({ page 
 });
 
 test("equipment, fragments, card variants and JSON backups survive loading", async ({ page }) => {
-  await page.goto("/deck-builder");
+  await page.goto("/czn/deck-builder");
   await page.getByRole("button", { name: "Choose combatant", exact: true }).click();
   await page.getByRole("searchbox").fill("Mei Lin");
   await page.getByRole("button", { name: "Select Mei Lin", exact: true }).click();

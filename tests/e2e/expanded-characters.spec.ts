@@ -6,7 +6,7 @@ for (const [slug, name, starter] of [["narja", "Narja", "NA: Attack Response"], 
       await page.setViewportSize({ width, height: 1000 });
       const errors: string[] = [];
       page.on("pageerror", error => errors.push(error.message));
-      await page.goto(`/combatant/${slug}`);
+      await page.goto(`/czn/combatant/${slug}`);
       const tabs = page.getByRole("tablist", { name: `${name} hướng dẫn` });
       await expect(tabs.getByRole("tab")).toHaveText(["Card", "Đánh giá", "Build", "Deck"]);
       await expect(page.getByRole("heading", { name: "Start Cards" })).toBeVisible();
@@ -33,7 +33,7 @@ for (const [slug, name, starter] of [["narja", "Narja", "NA: Attack Response"], 
 }
 
 test("Sereniel X-cost variant displays X and its translated effect", async ({ page }) => {
-  await page.goto("/combatant/sereniel");
+  await page.goto("/czn/combatant/sereniel");
   await page.getByRole("button", { name: "Shining Core card", exact: true }).click();
   const variants = page.getByRole("dialog").getByRole("button", { name: "Shining Core card", exact: true });
   await expect(variants.nth(4).locator("strong").first()).toHaveText("X");
@@ -41,7 +41,7 @@ test("Sereniel X-cost variant displays X and its translated effect", async ({ pa
 });
 
 test("Sereniel saved decks preserve copies and additional effects in the modal", async ({ page }) => {
-  await page.goto("/combatant/sereniel");
+  await page.goto("/czn/combatant/sereniel");
   await page.getByRole("tab", { name: "Deck", exact: true }).click();
   const deckTabs = page.getByRole("tablist", { name: "Bộ bài đề xuất" }).getByRole("tab");
   for (const [index, count] of [8, 9, 8].entries()) {
