@@ -70,7 +70,7 @@ describe("Chiến Thần system chapter evidence", () => {
     expect(JSON.stringify(getWarGodSystem(98))).toContain("Tru Tà");
     expect(JSON.stringify(getWarGodSystem(98))).not.toContain("một giây");
     expect(JSON.stringify(getWarGodSystem(99))).toContain("một giây");
-    expect(getWarGodSystem(1501)).toEqual(getWarGodSystem(1500));
+    expect(getWarGodSystem(2489)).toEqual(getWarGodSystem(2488));
     expect(getWarGodSystem(NaN)).toEqual(getWarGodSystem(1));
   });
 });

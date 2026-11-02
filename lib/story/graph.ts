@@ -14,6 +14,8 @@ import previousSeedV13 from "./legacy/v13.json";
 import previousSeed200 from "./legacy/chapters-200.json";
 import previousSeed300 from "./legacy/chapters-300.json";
 import previousSeed1000 from "./legacy/chapters-1000.json";
+import previousSeed1500 from "./legacy/chapters-1500.json";
+import { MAX_PROFILE_CHAPTER } from "./war-god";
 import { mergeSeedUpdate } from "./merge-seed";
 import { mergeCharacterAliases } from "./merge-character-aliases";
 
@@ -141,6 +143,14 @@ export function readStoredGraph(storage: Pick<Storage, "getItem" | "setItem" | "
     storage.setItem(STORY_STORAGE_KEY, raw);
     storage.setItem(extension1500Key, "1");
   }
+  const extension2488Key = `${STORY_STORAGE_KEY}:chapters-2488`;
+  if (saved && storage.getItem(extension2488Key) === null) {
+    const backupKey = `${STORY_STORAGE_KEY}:before-chapters-2488`;
+    if (storage.getItem(backupKey) === null) storage.setItem(backupKey, raw);
+    raw = JSON.stringify(mergeCharacterAliases(parseGraph(raw)!, previousSeed1500 as StoryGraph, createInitialGraph()));
+    storage.setItem(STORY_STORAGE_KEY, raw);
+    storage.setItem(extension2488Key, "1");
+  }
   // The author explicitly replaced the previous diagram, including saved copies.
   storage.removeItem("story-wiki:chu-gioi-tan-the-online:v1");
   storage.removeItem("story-wiki:chu-gioi-tan-the-online:v2");
@@ -164,7 +174,7 @@ export function parseGraph(raw: string): StoryGraph | null {
         (node.realm !== undefined && !["cultivation", "reality"].includes(node.realm))) return null;
       if (node.source !== undefined && (!node.source || typeof node.source.title !== "string" || typeof node.source.url !== "string" || !isSourceUrl(node.source.url))) return null;
       if (node.portrait !== undefined && !isPortraitData(node.portrait)) return null;
-      if (node.chapters !== undefined && (!Array.isArray(node.chapters) || !node.chapters.length || node.chapters.some((chapter: unknown) => typeof chapter !== "number" || !Number.isInteger(chapter) || chapter < 1 || chapter > 1500))) return null;
+      if (node.chapters !== undefined && (!Array.isArray(node.chapters) || !node.chapters.length || node.chapters.some((chapter: unknown) => typeof chapter !== "number" || !Number.isInteger(chapter) || chapter < 1 || chapter > MAX_PROFILE_CHAPTER))) return null;
       ids.add(node.id);
     }
     for (const link of value.links) {

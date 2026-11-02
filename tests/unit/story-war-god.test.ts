@@ -2,10 +2,10 @@ import { describe, expect, it } from "vitest";
 import { getWarGodProfile, parseCurrentChap } from "../../lib/story/war-god";
 
 describe("reading chapter validation", () => {
-  it.each([null, "", "oops", "2.5", -1, 0, 1501, Infinity, {}, true])("rejects invalid progress %s", (value) => {
+  it.each([null, "", "oops", "2.5", -1, 0, 2489, Infinity, {}, true])("rejects invalid progress %s", (value) => {
     expect(parseCurrentChap(value)).toBe(1);
   });
-  it.each([1, "47", 100, 101, 200, 201, 300, 301, 999, 1000, 1001, 1500])("accepts supported progress %s", (value) => {
+  it.each([1, "47", 100, 101, 200, 201, 300, 301, 999, 1000, 1001, 1500, 1501, 2488])("accepts supported progress %s", (value) => {
     expect(parseCurrentChap(value)).toBe(Number(value));
   });
 });

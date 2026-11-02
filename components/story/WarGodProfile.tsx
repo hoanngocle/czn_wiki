@@ -34,6 +34,7 @@ function CharacterSeal() {
 }
 
 function EntryCard({ entry, selected, onSelect, onClose }: { entry: ProfileEntry; selected: boolean; onSelect: () => void; onClose: () => void }) {
+  const tag = entry.availability?.available === false ? `Chưa dùng được · ${entry.tag}` : entry.tag;
   const tooltipId = useId();
   const wrapperRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -93,12 +94,13 @@ function EntryCard({ entry, selected, onSelect, onClose }: { entry: ProfileEntry
     onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) onClose(); }}>
     <button ref={buttonRef} type="button" className={`${styles.entry} ${selected ? styles.selected : ""}`} onClick={onSelect} onFocus={onSelect} aria-describedby={selected ? tooltipId : undefined}>
       <span className={`${styles.itemIcon} ${entry.kind === "weapon" ? styles.gold : ""}`}><EntryIcon kind={entry.kind} /></span>
-      <span><strong>{entry.name}</strong><small>{entry.tag}</small></span><ArrowUpRightIcon className={styles.entryArrow} strokeWidth={1.5} aria-hidden="true" />
+      <span><strong>{entry.name}</strong><small>{tag}</small></span><ArrowUpRightIcon className={styles.entryArrow} strokeWidth={1.5} aria-hidden="true" />
     </button>
     <div ref={tooltipRef} id={tooltipId} role="tooltip" popover="manual" className={styles.entryTooltip}>
-      <span className={styles.eyebrow}>{entry.tag}</span>
+      <span className={styles.eyebrow}>{tag}</span>
       <h3>{entry.name}</h3><p>{entry.description}</p>
       <a href={chapterUrl(entry.chapter)}>Đối chiếu chương {entry.chapter} ↗</a>
+      {entry.availability && <><p>{entry.availability.description}</p><a href={chapterUrl(entry.availability.chapter)}>Trạng thái ở chương {entry.availability.chapter} ↗</a></>}
     </div>
   </div>;
 }
@@ -174,7 +176,7 @@ export function WarGodProfile() {
           </div>
           <div className={styles.cultivationStats}>
             <section className={`${styles.soulCard} ${soulOverflow > 0 ? styles.soulOverflow : ""}`} aria-label="Hồn lực">
-              <div className={styles.soulHeading}><span><BoltIcon aria-hidden="true" />Hồn lực</span><strong>{profile.soul?.value ?? "— / —"}</strong></div>
+              <div className={styles.soulHeading}><span><BoltIcon aria-hidden="true" />{profile.soul && profile.soul.chapter >= 1767 ? "Năng lượng" : "Hồn lực"}</span><strong>{profile.soul?.value ?? "— / —"}</strong></div>
               {soulPercent !== null && <div className={styles.soulMeter} role="progressbar" aria-label="Hồn lực được ghi nhận" aria-valuemin={0} aria-valuemax={soulLimit!} aria-valuenow={Math.min(soulCurrent!, soulLimit!)} aria-valuetext={`${profile.soul!.value}${soulOverflow ? `, vượt ngưỡng ${soulOverflow}` : ""}, ghi nhận ở chương ${profile.soul!.chapter}`}><span style={{ width: `${soulPercent}%` }} /></div>}
               {soulOverflow > 0 && <span className={styles.overflowBadge}>+{soulOverflow} vượt ngưỡng</span>}
               {profile.soul && <p className={styles.soulSource}><a href={chapterUrl(profile.soul.chapter)}>Ghi nhận ở chương {profile.soul.chapter} ↗</a><span>{profile.soul.note ?? "Số liệu tại mốc này, không phải hồn lực trực tiếp."}</span></p>}

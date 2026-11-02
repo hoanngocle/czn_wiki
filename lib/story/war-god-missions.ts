@@ -16,7 +16,7 @@ export type Mission = {
   facts?: MissionFact[];
 };
 export type MissionProjection = Mission & { status: MissionStatus };
-export const MAX_MISSION_CHAPTER = 1500;
+export const MAX_MISSION_CHAPTER = 2488;
 // Only missions explicitly issued by the War God system belong in this catalogue.
 // Later discoveries, rewards and outcomes are dated to avoid chapter spoilers.
 // Paragraphs refer to nonempty, HTML-stripped chapter-text paragraphs in the local novel.

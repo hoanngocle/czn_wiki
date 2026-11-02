@@ -2,6 +2,7 @@ import { extendedMilestones } from "./milestones-101-200";
 import { milestones300 } from "./milestones-201-300";
 import milestones1000 from "./milestones-301-1000.json";
 import milestones1500 from "./milestones-1001-1500.json";
+import milestones2488 from "./milestones-1501-2488.json";
 export type Milestone = { id: string; title: string; realm: "cultivation" | "reality"; from: number; to: number; chapters?: number[]; summary: string };
 
 export const milestones: Milestone[] = [
@@ -17,4 +18,5 @@ export const milestones: Milestone[] = [
   ...milestones300,
   ...(milestones1000 as Milestone[]),
   ...(milestones1500 as Milestone[]),
+  ...(milestones2488 as Milestone[]),
 ];

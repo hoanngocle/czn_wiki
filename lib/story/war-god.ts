@@ -4,11 +4,12 @@ import { extendedEquipment, extendedInventory, extendedJournal, extendedRealms, 
 import { equipment300, inventory300, journal300, realms300, skills300, soul300, updateEntry300 } from "./war-god-201-300";
 import { applyProfileEvents, storyExtension } from "./war-god-extension";
 export const CURRENT_CHAP_KEY = "story-wiki:chu-gioi-tan-the-online:currentChap";
-export const MAX_PROFILE_CHAPTER = 1500;
+export const MAX_PROFILE_CHAPTER = 2488;
 export type ProfileFact = { value: string; chapter: number; note?: string };
 export type ProfileEntry = {
   id: string; name: string; kind: "weapon" | "material" | "manual" | "skill";
   chapter: number; until?: number; description: string; tag: string;
+  availability?: { available: boolean; chapter: number; description: string };
 };
 export type JournalEntry = { chapter: number; title: string; description: string };
 

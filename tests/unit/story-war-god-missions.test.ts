@@ -54,6 +54,6 @@ describe("mission evidence at the end of each chapter", () => {
 
   it("uses the same invalid-input and coverage boundary as the system panel", () => {
     for (const value of [NaN, Infinity, -1, 0, 1.5]) expect(getWarGodMissions(value)).toEqual([]);
-    expect(getWarGodMissions(1501)).toEqual(getWarGodMissions(1500));
+    expect(getWarGodMissions(2489)).toEqual(getWarGodMissions(2488));
   });
 });

@@ -1,8 +1,8 @@
-# Nguồn cho timeline chương 1–1500
+# Nguồn cho timeline chương 1–2488
 
 Giao diện **Cốt Truyện** hiện tách mỗi Arc thành một sơ đồ riêng, có submenu và nút chuyển Arc. Xem [cách tổ chức và lưu dữ liệu theo Arc](cot-truyen-theo-arc.md).
 
-**Cập nhật hiện tại:** đã đọc đủ chương 1–1500; 1.500 tóm tắt, 170 mốc cốt truyện và 138 hồ sơ nhân vật kể cả Cố Thanh Sơn. Phần mới bổ sung 500 chương và 57 mốc; xem [Tổng hợp chương 1001–1500](tong-hop-1001-1500.md) và [301–1000](tong-hop-301-1000.md). Hồ sơ Chiến Thần lọc theo chương; bản đồ tổng quan giữ các chỉnh sửa cá nhân khi nâng dữ liệu.
+**Cập nhật hiện tại:** dữ liệu phủ chương 1–2488, hết bản EPUB hiện có. Phần mới bổ sung 988 tóm tắt chương, mốc truyện, nhân vật và lịch sử Chiến Thần; xem [Tổng hợp chương 1501–2488](tong-hop-1501-2488.md), [1001–1500](tong-hop-1001-1500.md) và [301–1000](tong-hop-301-1000.md). Chính truyện kết thúc ở 2469; 2470–2488 là ngoại truyện. Hồ sơ Chiến Thần lọc theo chương; bản đồ tổng quan giữ các chỉnh sửa cá nhân khi nâng dữ liệu.
 
 Chuẩn bị hình ảnh: [Danh sách ảnh vật dụng và hệ thống Chiến Thần](danh-sach-anh-vat-dung.md), gồm mô tả, chương tham chiếu, gợi ý tạo hình, tên file và bảng theo dõi.
 

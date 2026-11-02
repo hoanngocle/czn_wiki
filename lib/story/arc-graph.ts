@@ -1,7 +1,7 @@
 import chapterNotes from "./chapter-notes.json";
 import { storyNodes, storyLinks, chapterLabel, type StoryNode } from "./timeline";
 import { parseGraph, readStoredGraph, STORY_STORAGE_KEY, type StoryGraph } from "./graph";
-import { mergeSeedUpdate } from "./merge-seed";
+import { mergeCharacterAliases } from "./merge-character-aliases";
 import { arcForChapter, storyArcs, type StoryArc } from "./arcs";
 
 const original = new Map(storyNodes.map((node) => [node.id, node]));
@@ -9,9 +9,12 @@ const within = (node: StoryNode, arc: StoryArc) => node.chapters?.some((chapter)
 const words = (text: string) => ` ${text.normalize("NFC").toLocaleLowerCase("vi").replace(/[^\p{L}\p{N}]+/gu, " ").trim()} `;
 const aliases: Record<string, string[]> = {
   "bach-hoa-master": ["Tạ Đạo Linh", "Bách Hoa"], "anna-character": ["Anna"], "to-tuyet-nhi": ["Tuyết Nhi", "Tô Khả Nhi"],
-  "impartial-goddess-character": ["Nữ Thần Công Chính"], "ninh-nguyet-thien": ["Nguyệt Thiền"],
+  "ninh-nguyet-thien": ["Nguyệt Thiền"],
   "sleeping-card-maiden": ["Tiểu Tịch", "Thiên sứ Đoạn Tội"], "lam-chuc-menh-gia": ["Chức Mệnh Giả", "Hình nhân bóng tối"],
   "lam": ["Lam Tụ"], "thi-the-tren-tru-dong": ["Thi thể trên trụ đồng"],
+  "black-sea-lady": ["Hắc Hải", "Thủy Thần"],
+  "nu-phu-ta-thanh-hu-khong": ["Phi Nguyệt", "Phi Ảnh"],
+  "impartial-goddess-character": ["Nữ Thần Công Chính", "Cố Tô An"],
 };
 
 /** Project a short diagram without mutating the original full-map save. */
@@ -132,7 +135,7 @@ export function readArcGraph(storage: StoragePort, arc: StoryArc) {
   const saved = parseGraph(JSON.stringify(snapshot?.graph));
   const previous = parseGraph(JSON.stringify(snapshot?.seed));
   if (snapshot?.version !== 1 || !saved || !previous) throw new Error("Không đọc được sơ đồ Arc đã lưu; bản lưu vẫn được giữ nguyên.");
-  return { graph: mergeSeedUpdate(saved, previous, seed), seed, crossLinks: getCrossArcLinks(source, arc) };
+  return { graph: mergeCharacterAliases(saved, previous, seed), seed, crossLinks: getCrossArcLinks(source, arc) };
 }
 export function saveArcGraph(storage: Pick<Storage, "setItem">, arc: StoryArc, graph: StoryGraph, seed: StoryGraph) {
   storage.setItem(arcStorageKey(arc), JSON.stringify({ version: 1, seed, graph }));

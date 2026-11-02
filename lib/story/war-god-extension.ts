@@ -1,5 +1,6 @@
 import extensionData from "./war-god-301-1000.json";
 import extension1500Data from "./war-god-1001-1500.json";
+import extension2488Data from "./war-god-1501-2488.json";
 import type { ProfileEntry, ProfileFact, JournalEntry } from "./war-god";
 import type { Mission, MissionEvent, MissionFact } from "./war-god-missions";
 import type { WarGodTitle } from "./war-god-titles";
@@ -8,6 +9,7 @@ export type ProfileSection = "skills" | "equipment" | "inventory";
 type ProfileChange = { chapter: number; section: ProfileSection; paragraphs: string } & (
   | { operation: "upsert"; id: string; name: string; kind: ProfileEntry["kind"]; tag: string; description: string }
   | { operation: "remove"; id: string }
+  | { operation: "availability"; available: boolean; ids?: string[]; exceptIds?: string[]; description: string }
 );
 type MissionChange = { id: string; title?: string; kind?: Mission["kind"]; firstChapter?: number; objective?: string; events: MissionEvent[]; facts: MissionFact[] };
 type TitleChange = { chapter: number; paragraphs: string } & (
@@ -22,15 +24,16 @@ export type StoryExtension = {
 };
 const earlier = extensionData as StoryExtension;
 const later = extension1500Data as StoryExtension;
+const final = extension2488Data as StoryExtension;
 export const storyExtension: StoryExtension = {
-  realms: [...earlier.realms, ...later.realms],
-  soul: [...earlier.soul, ...later.soul],
-  journal: [...earlier.journal, ...later.journal],
-  profileEvents: [...earlier.profileEvents, ...later.profileEvents],
-  missionUpdates: [...earlier.missionUpdates, ...later.missionUpdates],
-  titleEvents: [...earlier.titleEvents, ...later.titleEvents],
-  systemEvents: [...earlier.systemEvents, ...later.systemEvents],
-  controlEvents: [...earlier.controlEvents, ...later.controlEvents],
+  realms: [...earlier.realms, ...later.realms, ...final.realms],
+  soul: [...earlier.soul, ...later.soul, ...final.soul],
+  journal: [...earlier.journal, ...later.journal, ...final.journal],
+  profileEvents: [...earlier.profileEvents, ...later.profileEvents, ...final.profileEvents],
+  missionUpdates: [...earlier.missionUpdates, ...later.missionUpdates, ...final.missionUpdates],
+  titleEvents: [...earlier.titleEvents, ...later.titleEvents, ...final.titleEvents],
+  systemEvents: [...earlier.systemEvents, ...later.systemEvents, ...final.systemEvents],
+  controlEvents: [...earlier.controlEvents, ...later.controlEvents, ...final.controlEvents],
 };
 
 /** Replay only evidence known by the selected chapter; never change the base arrays. */
@@ -38,8 +41,16 @@ export function applyProfileEvents(entries: ProfileEntry[], section: ProfileSect
   const current = new Map(entries.map((entry) => [entry.id, { ...entry }]));
   for (const event of storyExtension.profileEvents) {
     if (event.chapter > chapter || event.section !== section) continue;
-    if (event.operation === "remove") current.delete(event.id);
-    else current.set(event.id, { id: event.id, name: event.name, kind: event.kind, chapter: event.chapter, tag: event.tag, description: event.description });
+    if (event.operation === "availability") {
+      for (const [id, entry] of current) {
+        if (entry.chapter > event.chapter || (event.ids && !event.ids.includes(id)) || event.exceptIds?.includes(id)) continue;
+        current.set(id, { ...entry, availability: { available: event.available, chapter: event.chapter, description: event.description } });
+      }
+    } else if (event.operation === "remove") current.delete(event.id);
+    else {
+      const availability = current.get(event.id)?.availability;
+      current.set(event.id, { id: event.id, name: event.name, kind: event.kind, chapter: event.chapter, tag: event.tag, description: event.description, ...(availability ? { availability } : {}) });
+    }
   }
   return [...current.values()];
 }

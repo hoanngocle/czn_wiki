@@ -7,7 +7,7 @@ import { getWarGodSystem } from "../../lib/story/war-god-system";
 
 describe("chapters 1001–1500", () => {
   it("covers all 1500 chapters with valid summaries and timeline nodes", () => {
-    expect(notes.map((note) => note.chapter)).toEqual(Array.from({ length: 1500 }, (_, i) => i + 1));
+    expect(notes.filter((note) => note.chapter <= 1500).map((note) => note.chapter)).toEqual(Array.from({ length: 1500 }, (_, i) => i + 1));
     const graph = createInitialGraph();
     expect(parseGraph(JSON.stringify(graph))).not.toBeNull();
     const chapters = [...new Set(graph.nodes.filter((node) => node.kind === "event").flatMap((node) => node.chapters ?? []))].sort((a, b) => a - b);
@@ -16,8 +16,8 @@ describe("chapters 1001–1500", () => {
   });
 
   it("projects every selected chapter without leaking future facts or duplicating identities", () => {
-    expect(MAX_PROFILE_CHAPTER).toBe(1500);
-    expect(MAX_MISSION_CHAPTER).toBe(1500);
+    expect(MAX_PROFILE_CHAPTER).toBeGreaterThanOrEqual(1500);
+    expect(MAX_MISSION_CHAPTER).toBeGreaterThanOrEqual(1500);
     for (let chapter = 1001; chapter <= 1500; chapter++) {
       const profile = getWarGodProfile(chapter);
       expect(profile.currentChap).toBe(chapter);

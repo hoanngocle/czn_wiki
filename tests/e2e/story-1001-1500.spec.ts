@@ -27,10 +27,12 @@ test("chapter 1500 updates a saved diagram and rewinds the world-will mission", 
   await expect(page.getByLabel("Chương hiện tại")).toHaveValue("1013");
   await modal.getByLabel("Tìm nhiệm vụ").fill("khế ước");
   await modal.getByTestId("mission-list").getByRole("button").click();
-  await expect(modal.getByTestId("mission-detail")).toContainText("Đang tiến hành");
+  await expect(modal.getByTestId("mission-detail").locator('[data-status="active"]')).toHaveText("Đang tiến hành");
   await reader.goto("/chu-gioi-tan-the-online/html/chuong-1014.html");
   await expect(page.getByLabel("Chương hiện tại")).toHaveValue("1014");
-  await expect(modal.getByTestId("mission-detail")).toContainText("Hoàn thành");
+  await modal.getByLabel("Tìm nhiệm vụ").fill("khế ước");
+  await modal.getByTestId("mission-list").getByRole("button").click();
+  await expect(modal.getByTestId("mission-detail").locator('[data-status="completed"]')).toHaveText("Đã hoàn thành");
   await page.screenshot({ path: "test-results/story-1500-mission-desktop.png" });
 });
 

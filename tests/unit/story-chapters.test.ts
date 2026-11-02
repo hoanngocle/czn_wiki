@@ -2,12 +2,12 @@ import { describe, expect, it } from "vitest";
 import { storyNodes, storyLinks } from "../../lib/story/timeline";
 import chapters from "../../lib/story/chapter-notes.json";
 
-describe("EPUB chapters 1–1500", () => {
+describe("EPUB chapters 1–2488", () => {
   it("covers every chapter with a moderate number of chronological milestones on two horizontal branches", () => {
-    expect(chapters.map((chapter) => chapter.chapter)).toEqual(Array.from({ length: 1500 }, (_, i) => i + 1));
+    expect(chapters.map((chapter) => chapter.chapter)).toEqual(Array.from({ length: 2488 }, (_, i) => i + 1));
     const events = storyNodes.filter((node) => node.kind === "event");
     expect(events.length).toBeGreaterThan(6);
-    expect(events.length).toBeLessThanOrEqual(225);
+    expect(events.length).toBeLessThanOrEqual(500);
     expect([...new Set(events.flatMap((node) => node.chapters ?? []))].sort((a, b) => a - b)).toEqual(chapters.map((chapter) => chapter.chapter));
     for (const realm of ["cultivation", "reality"]) {
       const branch = events.filter((node) => node.realm === realm);

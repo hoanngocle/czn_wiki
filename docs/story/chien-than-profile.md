@@ -24,7 +24,7 @@ Header dùng chung cho cả ba tab. Bản đồ gom tìm kiếm, bộ lọc, th�
 
 Các sự kiện focus/pageshow/storage chỉ áp dụng lại trạng thái khi chương nguồn thực sự đổi. Lỗi ghi storage không khiến bản lưu cũ ghi đè tiến độ đọc còn trong bộ nhớ của phiên đang mở.
 
-Đồng bộ dùng localStorage trong cùng trình duyệt và cùng origin. Lỗi storage không chặn thao tác trong phiên. Đọc quá chương 300 vẫn giữ đúng `currentChap`, nhưng dữ liệu hồ sơ lấy đến chương 300 và hiển thị thông báo phạm vi.
+Đồng bộ dùng localStorage trong cùng trình duyệt và cùng origin. Lỗi storage không chặn thao tác trong phiên. Dữ liệu hồ sơ phủ đến chương cuối của bản EPUB, 2488.
 
 Hồ sơ dùng trạng thái cuối chương. `lib/story/war-god.ts` chứa các ghi nhận có chương nguồn, không phải danh sách đầy đủ mọi vật phẩm hay số dư liên tục. Hồn lực có dữ liệu hiển thị chương xác nhận; công pháp ghi rõ khi chưa biết còn giữ bản vật lý hay không. Kỹ năng thay thế và vật liệu đã tiêu hao có mốc loại bỏ.
 
@@ -62,5 +62,11 @@ Modal có mục Chức năng đã mở để tra diễn tiến Biên niên sử/
 Xem [tổng hợp 1001–1500](tong-hop-1001-1500.md) và năm gói chứng cứ đọc toàn văn cùng khoảng chương. Hồ sơ cập nhật trạng thái cuối chương, gồm nhiệm vụ tiếp nối từ chương 1000, vòng nhẫn An Hồn Hương, các cấp tu vi, Kiếm đồng, phù thuật và truyền thừa Bất Chu.
 
 Tinh Hà kiếp hoàn tất ở chương 1478. Chương 1477 mới đạt điều kiện tối thiểu rồi tiếp tục leo Thần thụ. Ngọc Thánh Tuyển nhận ở 1478 được dung nhập mắt trái ở 1489; cùng lúc Hoàng Tuyền Lộ Dẫn thức tỉnh, Đoạn Thủy Lưu chuyển thành Vong Xuyên Giang Trảm. Quyến Luyến do Phi Nguyệt trao ở 1495 còn quyền trả lại. Cuối chương 1500 mới có mảnh Định Giới đầu tiên và ba thuật sao trời; pháp trượng dùng để học đã trả ngay trong chương.
+
+## Mở rộng chương 1501–2488
+
+Xem [tổng hợp phần còn lại của EPUB](tong-hop-1501-2488.md). Mười gói chứng cứ cập nhật kỹ năng, vật dụng, danh hiệu, nhiệm vụ và hệ thống đến hết chương 2488. Những thay đổi thân phận hoặc tu hành lại được phân biệt theo thân tương ứng, không tự hạ toàn bộ cảnh giới vì một thân đang tu lại.
+
+Trạng thái “Chưa dùng được” đi kèm lý do và chương nguồn: phong ấn, tạm xa chủ, cho mượn hoặc hỏng. Lịch sử sở hữu vẫn được giữ; vật bị tiêu hao hoặc dung hợp được loại ở đúng mốc. Từ các ghi nhận năng lượng về sau, nhãn chung “Năng lượng” cho phép giữ nguyên đơn vị hồn lực, giới lực hoặc công đức được nguồn xác nhận.
 
 Chỉ mệnh lệnh do Giao diện Chiến Thần ban bố được đưa vào danh sách nhiệm vụ. Lệnh chịu phạt của thân phận ác quỷ, yêu cầu công hội, chỉ dẫn Thánh Tuyển và lời tiên đoán không tạo nhiệm vụ hệ thống giả. Chi phí duy trì, số liệu làm tròn và đoạn nguồn mâu thuẫn có ghi chú; không tự dựng số dư hồn lực.

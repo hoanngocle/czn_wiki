@@ -225,3 +225,13 @@ Các bảng theo từng khoảng tách đặc điểm nguyên tác khỏi gợi 
 - [1201–1300](items-1201-1300.md): đồng xu thời gian thật, cung và thẻ bài.
 - [1301–1400](items-1301-1400.md): truyền thừa xương Sơn Hải, Liệt Diễm, huy hiệu và đạo cụ thành Hư Không.
 - [1401–1500](items-1401-1500.md): trang bị Đoạn Tội, Ngọc Thánh Tuyển, vòng sáng thiên sứ và mảnh Định Giới đầu tiên.
+
+## Bổ sung chương 1501–2488
+
+Các bảng tiếp tục phân biệt mô tả nguồn với gợi ý mỹ thuật, vật sở hữu với vật mượn hoặc đã tiêu hao. Không có ảnh mới được tạo tự động.
+
+- [1501–1600](items-1501-1600.md) và [1601–1700](items-1601-1700.md): truyền thừa, Diện Chú và các bộ giáp.
+- [1701–1800](items-1701-1800.md) và [1801–1900](items-1801-1900.md): hài cốt, Tứ Thánh Trụ và vật dụng trong Lục Đạo khởi động lại.
+- [1901–2000](items-1901-2000.md) và [2001–2100](items-2001-2100.md): Định Giới, thẻ bài, vật mượn và trang bị được thu hồi.
+- [2101–2200](items-2101-2200.md) và [2201–2300](items-2201-2300.md): quyền năng Hỗn Độn, thân tu lại và những kiếm tạm xa chủ.
+- [2301–2400](items-2301-2400.md) và [2401–2488](items-2401-2488.md): kỳ vật, kiếm hợp nhất và vật dụng phần kết.

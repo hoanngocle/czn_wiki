@@ -36,7 +36,14 @@ function normalize(graph: StoryGraph, original?: StoryGraph): StoryGraph {
   const links = new Map<string, StoryGraph["links"][number]>();
   for (const originalLink of graph.links) {
     const link = { ...originalLink, source: remap(originalLink.source), target: remap(originalLink.target) };
-    if (link.source === link.target) continue;
+    if (link.source === link.target) {
+      const baseline = original?.links.find((item) => item.source === originalLink.source && item.target === originalLink.target);
+      const target = nodes.find((node) => node.id === link.target);
+      if (original && target && originalLink.source !== originalLink.target && link.label && link.label !== baseline?.label) {
+        target.summary += `\n\nGhi chú đường nối: ${link.label}`;
+      }
+      continue;
+    }
     const key = JSON.stringify([link.source, link.target]);
     const before = links.get(key);
     links.set(key, before ? { ...before, label: [...new Set([before.label, link.label])].join(" / ") } : link);

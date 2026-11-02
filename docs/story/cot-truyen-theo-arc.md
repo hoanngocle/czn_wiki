@@ -7,3 +7,5 @@ Các Arc đầu được nhóm theo diễn biến từ Bách Hoa, Hoàng Tuyền
 Mỗi Arc lưu riêng ghi chú, vị trí node, ảnh và đường nối trong trình duyệt. Thay đổi một Arc không ghi đè các Arc khác. Khi mở lần đầu, dữ liệu được lấy từ bản đồ cũ cùng các chỉnh sửa cá nhân; bản đồ gốc vẫn được giữ nguyên. Node riêng được đưa vào Arc của mốc liên quan; node không có chương hoặc liên kết được giữ ở Arc đầu. Nhãn đường nối riêng sang Arc khác hiện trong mục Liên hệ với Arc khác.
 
 Dữ liệu nguồn mới được cập nhật bằng đối chiếu ba phiên bản để giữ chỉnh sửa và xóa có chủ ý. Bản lưu rỗng vẫn rỗng; bản lưu lỗi không bị tự thay thế. Công cụ tìm kiếm trên sơ đồ tìm trong Arc đang mở.
+
+Nguồn hiện phủ toàn bộ 2488 chương của EPUB. Tên quen dùng như Thủy Thần/Hắc Hải, Phi Nguyệt/Phi Ảnh và Cố Tô An/Nữ Thần Công Chính cùng dẫn về hồ sơ tương ứng trong các Arc. Khi hợp nhất tên trong bản lưu cũ, ghi chú và đường nối cá nhân vẫn được giữ; nhãn giữa hai tên của cùng nhân vật được chuyển thành ghi chú trên hồ sơ.
