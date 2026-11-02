@@ -14,7 +14,7 @@ import shell from "./story-shell.module.css";
 import { StoryArcMenu } from "./StoryArcMenu";
 
 type Props = {
-  activeView: "timeline" | "reader" | "profile";
+  activeView: "timeline" | "reader" | "profile" | "cosmos";
   activeArcId?: string;
   children: ReactNode;
   headerControls?: ReactNode;
@@ -42,7 +42,7 @@ export function StoryShell({ activeView, activeArcId, children, headerControls, 
         else router.push(`${storyReaderUrl}?chuong=${event.target.value}`);
       }}>{Array.from({ length: MAX_READING_CHAPTER }, (_, index) => <option key={index + 1} value={index + 1}>Chương {index + 1}</option>)}</select></label>
     </header>
-    <nav className={shell.mobileNav} aria-label="Chuyển trang truyện"><StoryArcMenu activeArcId={activeArcId} mobile /><Link href={storyReaderUrl} aria-current={activeView === "reader" ? "page" : undefined}>Đọc truyện</Link><Link href={`${storyUrl}/chien-than`} aria-current={activeView === "profile" ? "page" : undefined}>Chiến Thần<Icon name="external" size={13} /></Link></nav>
+    <nav className={shell.mobileNav} aria-label="Chuyển trang truyện"><StoryArcMenu activeArcId={activeArcId} mobile /><Link href={`${storyUrl}/ban-do-vu-tru`} aria-current={activeView === "cosmos" ? "page" : undefined}>Vũ trụ</Link><Link href={storyReaderUrl} aria-current={activeView === "reader" ? "page" : undefined}>Đọc truyện</Link><Link href={`${storyUrl}/chien-than`} aria-current={activeView === "profile" ? "page" : undefined}>Chiến Thần<Icon name="external" size={13} /></Link></nav>
     <div className={styles.workspace}>
       <StorySidebar activeView={activeView} activeArcId={activeArcId} />
       {children}

@@ -17,12 +17,13 @@ const sections = [
   { id: "skills", label: "Kỹ năng", icon: BoltIcon },
 ];
 
-export function StorySidebar({ activeView, activeArcId }: { activeView: "timeline" | "reader" | "profile"; activeArcId?: string }) {
+export function StorySidebar({ activeView, activeArcId }: { activeView: "timeline" | "reader" | "profile" | "cosmos"; activeArcId?: string }) {
   return <aside className={styles.sidebar} aria-label="Mục lục wiki">
     <div className={styles.collection}><div className={`${styles.bookCover} ${shell.cover}`}><span className={styles.coverOrbit} /><HeroIcon name="event" size={39} /><span>CHƯ GIỚI<br />TẬN THẾ ONLINE</span><small>MỘT HÀNH TRÌNH · VẠN THẾ GIỚI</small></div></div>
     <div className={styles.sidebarRule} />
     <nav className={shell.sideNav} aria-label="Trang trong wiki truyện">
       <StoryArcMenu activeArcId={activeArcId} />
+      <Link className={`${styles.currentView} ${shell.sideLink}`} href={`${storyUrl}/ban-do-vu-tru`} aria-current={activeView === "cosmos" ? "page" : undefined}><HeroIcon name="world" size={18} />Bản đồ vũ trụ</Link>
       <Link className={`${styles.currentView} ${shell.sideLink}`} href={storyReaderUrl} aria-current={activeView === "reader" ? "page" : undefined}><HeroIcon name="book" size={18} />Đọc truyện</Link>
       <Link className={`${styles.currentView} ${shell.sideLink}`} href={`${storyUrl}/chien-than`} aria-current={activeView === "profile" ? "page" : undefined}><HeroIcon name="person" size={18} />Hồ sơ Chiến Thần</Link>
     </nav>

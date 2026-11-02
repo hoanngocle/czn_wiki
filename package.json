@@ -22,9 +22,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
     "next": "16.4.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.0",
@@ -32,6 +35,7 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.187.0",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "tailwindcss": "^4",
