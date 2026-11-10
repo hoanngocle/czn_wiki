@@ -127,9 +127,7 @@ def export_book(source, output):
             navigation = '<nav class="chapter-nav" aria-label="Điều hướng chương">' + "".join(links) + "</nav>"
             body = f'''<header class="reading-header"><a class="brand" href="{prefix}index.html">CHƯ GIỚI <span>/ TỦ SÁCH</span></a><button type="button" class="settings-trigger" data-settings aria-label="Cài đặt đọc truyện" aria-haspopup="dialog" aria-expanded="false">⚙</button></header>
 {controls()}<main class="reading-shell">
-<div class="chapter-controls">{navigation}</div>{ET.tostring(article, encoding="unicode", method="html")}{navigation}
-<footer class="reading-footer">{html.escape(author)} <a href="#main">Về đầu chương ↑</a></footer></main>
-<div class="scroll-progress" aria-hidden="true"></div>'''
+<div class="chapter-controls">{navigation}</div>{ET.tostring(article, encoding="unicode", method="html")}</main>'''
             write(chapter["href"], document(chapter["title"] + " · " + title, body, prefix, f'data-chapter="{index + 1}" data-href="{html.escape(chapter["href"], quote=True)}"'))
 
         # Preserve the book's information/cover pages, with browser-friendly links.

@@ -146,8 +146,6 @@
     else window.addEventListener('load', restore, { once: true });
     let timer;
     window.addEventListener('scroll', () => {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      document.querySelector('.scroll-progress').style.width = `${max > 0 ? window.scrollY / max * 100 : 100}%`;
       clearTimeout(timer); timer = setTimeout(persist, 200);
     }, { passive: true });
     window.addEventListener('pagehide', persist);

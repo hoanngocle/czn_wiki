@@ -35,6 +35,11 @@ class ExportEpubTests(unittest.TestCase):
             last = (output / "html/a.html").read_text(encoding="utf-8")
             self.assertIn('href="b.html" rel="prev"', last)
             self.assertNotIn('rel="next"', last)
+            for chapter in (first, last):
+                self.assertEqual(chapter.count('class="chapter-nav"'), 1)
+                self.assertIn('<div class="chapter-controls"><nav class="chapter-nav"', chapter)
+                self.assertNotIn('class="reading-footer"', chapter)
+                self.assertNotIn('class="scroll-progress"', chapter)
             self.assertTrue((output / "assets/reader.js").is_file())
             self.assertTrue((output / "index.html").is_file())
 
