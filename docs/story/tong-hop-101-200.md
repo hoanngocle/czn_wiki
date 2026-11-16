@@ -12,7 +12,7 @@
 | 118–124 | Hiện thực | Giáo Hoàng thao túng thi thể quốc vương, phái Hill bắt Anna. Nữ Thần Công Chính tự quyết cấp cơ giáp cứu dân. Anna biết cha đã chết, tìm viện binh; Thanh Sơn điều hạm đội diệt Hill. |
 | 124–133 | Hiện thực | Điều tra dịch quỷ, nhận ra giới hạn công nghệ quân sự. Liên hệ nhà khoa học ngài Liêu để phục hồi bước nhảy không gian. Cùng Anh Hào kết minh Diệp Phi Ly, đổi hợp tác săn quỷ lấy cứu mẹ và kiểm soát bản năng. |
 | 132–150 | Tu Hành | Cảnh báo thời không đưa Thanh Sơn về Bách Hoa. Được phong Kiêu Kỵ, nhận Quyết chiến và Danh Hiệu. Ra tiền tuyến, cứu nữ tu, học pháp quyết, lên Trúc Cơ hậu kỳ. Trương Phóng hy sinh; điều tra các trận bàn bị phá và phát hiện linh thú phản bội. |
-| 151–168 | Tu Hành | Ô Tinh Văn vu cáo và cô lập Thanh Sơn. Tam Thánh dùng hóa thân Bách Hoa phản phục kích tại Ma Vân. Tân Tôn Giả chết, Thiên Ma Thánh Vương bị trấn áp. Ô bị tước quân hàm; Thanh Sơn lên Du Kích tướng quân, hoàn thành Quyết chiến (thượng), nhận danh hiệu và bảy ngày ở hiện thực. |
+| 151–168 | Tu Hành | Ô Tinh Văn vu cáo và cô lập Thanh Sơn. Tam Thánh dùng hóa thân Bách Hoa phản phục kích tại Ma Vân. Tân Tôn Giả chết, Thiên Ma Thánh Vương bị trấn áp. Ô bị tước quân hàm; Thanh Sơn lên Du Kích Tướng Quân, hoàn thành Quyết chiến (thượng), nhận danh hiệu và bảy ngày ở hiện thực. |
 | 168–188 | Hiện thực | Mưa lạ mở trò chơi Người Bất Tử. Nhóm xây Người Bảo Vệ Tinh Cầu, chế tạo Sát Thần cho Diệp Phi Ly thành Chú Hề Tử Thần, hạ hai quán quân. Săn quỷ để Diệp tiến hóa; phá khống chế thần hồn và giết khối thịt. |
 | 189–191 | Hiện thực | Lên Trúc Cơ đỉnh phong; hệ thống yêu cầu nâng Tru Tà bằng ba thuốc 99%. Lĩnh ngộ sớm Thất Tinh Du Long; mới đặt sản xuất một loại thuốc, chưa hoàn thành nâng cấp. |
 | 192–200 | Hiện thực | Phá thủ đoạn giấu mặt của Vũ Hội Hóa Trang, diệt quán quân thứ ba. Tại hội nghị vắc-xin, Anna chọn gia nhập nhóm và trao lại Tín vật Tử Thần. Tổng thống bị ám sát, chưa xác nhận kết cục ở cuối chương 200. |
@@ -62,8 +62,8 @@ Danh hiệu mở từ 134, chỉ trang bị một cùng lúc:
 | Danh hiệu | Hiệu quả | Mốc |
 |---|---|---:|
 | Kiếm Thập Ngũ | Âm Chấn: công kích gây thêm tổn thương thần hồn nhẹ, dùng được cả với cung | 134 |
-| Giáo úy Kiêu Kỵ | Khoái Công: tốc độ công kích +10% | 134 |
-| Du Kích tướng quân | Khoái Kích trung cấp: +15%, thay danh hiệu Kiêu Kỵ | 167 |
+| Giáo Úy Kiêu Kỵ | Khoái Công: tốc độ công kích +10% | 134 |
+| Du Kích Tướng Quân | Khoái Kích trung cấp: +15%, thay danh hiệu Kiêu Kỵ | 167 |
 | Tướng Soái Chi Tài | Kiếm Khí Tung Hoành: thêm một công kích khi phát kiếm khí | 167 |
 
 Kỹ năng của Tú Tú, Bách Hoa, Tam Thánh, Lãnh Thiên Tinh và Thiên Ma chỉ ghi trong tình tiết/ghi chú, không đưa vào kỹ năng Thanh Sơn. Ngạnh Thích phong trảo được hệ thống giám định nhưng không học được. Trang bị Sát Thần thuộc Diệp Phi Ly.

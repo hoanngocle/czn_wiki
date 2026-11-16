@@ -99,7 +99,7 @@ describe("chapters 301–1000", () => {
     expect(getWarGodProfile(852).skills.some((item) => item.id === "shadow-origin-concealment")).toBe(true);
     expect(getWarGodProfile(853).skills.some((item) => item.id === "shadow-origin-concealment")).toBe(false);
     const end = getWarGodProfile(1000);
-    expect(end.skills.filter((item) => item.name === "Sứ giả Đoạn Tội")).toHaveLength(1);
+    expect(end.skills.filter((item) => item.name === "Sứ Giả Đoạn Tội")).toHaveLength(1);
     expect([...end.equipment, ...end.inventory].filter((item) => item.id === "true-red-demon-spear")).toHaveLength(1);
     expect(end.skills.some((item) => item.id === "bleeding-card")).toBe(false);
     expect(end.equipment.some((item) => item.id === "ancient-flying-swords")).toBe(false);

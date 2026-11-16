@@ -193,8 +193,8 @@ Tạo ảnh vật thể riêng, không chữ, nền trong suốt; ảnh nguồn 
 | [ ] | Dạ Vũ sau biến đổi · `night-bow-awakened.webp` | Dùng ảnh cung đã có làm nền; đối chiếu hình dạng tại mốc mới, không thay bằng một loại vũ khí khác chỉ vì kỹ năng thay đổi. | 670 |
 | [ ] | Huy chương bá tước Kinh Cức · `thorn-count-badge.webp` | Huy chương thân phận; chưa xác nhận đầy đủ chất liệu/họa tiết. Mô-típ gai là gợi ý mỹ thuật. | 679–680 |
 | [ ] | Người tìm kiếm kho báu của chúng Thần · `god-treasure-seeker.webp` | Vật liên quan mở Tìm Kiếm Thần Tích; vật và kỹ năng là hai mục khác nhau. | 694–695 |
-| [ ] | Giáp Tướng quân Thần Uy · `divine-might-armor.webp` | Giáp quân hàm mới; bị mất/hủy về sau, không dùng làm giáp hiện tại ở chương 1000. | 721, 766 |
-| [ ] | Thẻ Sứ giả Đoạn Tội · `condemnation-envoy.webp` | Bản thân Thanh Sơn được biểu đạt thành thẻ; chuẩn bị khung xám, phỉ, lam theo cấp đã xác nhận, không gắn cấp tu hành lên khung. | 759, 769, 837, 987 |
+| [ ] | Giáp Tướng Quân Thần Uy · `divine-might-armor.webp` | Giáp quân hàm mới; bị mất/hủy về sau, không dùng làm giáp hiện tại ở chương 1000. | 721, 766 |
+| [ ] | Thẻ Sứ Giả Đoạn Tội · `condemnation-envoy.webp` | Bản thân Thanh Sơn được biểu đạt thành thẻ; chuẩn bị khung xám, phỉ, lam theo cấp đã xác nhận, không gắn cấp tu hành lên khung. | 759, 769, 837, 987 |
 | [ ] | Thẻ Xuất Huyết · `bleeding-card.webp` | Icon vết cắt và dòng mất năng lượng; hiệu quả không chỉ lên máu thịt. Được dung hợp, không còn độc lập ở 987. | 769, 834, 987 |
 | [ ] | Sáo ngọc tím · `purple-jade-flute.webp` | Sáo của Lạc Băng Ly, màu tím và chất ngọc là dữ kiện; trả về thời đại ở 937. | 802, 937 |
 | [ ] | Băng Thiền Ngân Diện · `ice-cicada-silver-mask.webp` | Mặt nạ; dùng riêng vật thể, không gắn gương mặt người. Tên gợi chất bạc/băng nhưng hình chạm khắc cần kiểm tra nguyên văn. | 806, 937 |

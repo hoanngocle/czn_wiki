@@ -26,7 +26,7 @@ Các điểm đã đối chiếu:
 
 - Nữ Thần Công Chính được gọi trực tiếp ở chương 17; quyền Lãnh tụ tối cao ở chương 24.
 - Anna hiện diện chưa tên ở chương 8, được gọi Anna ở chương 17, gặp Thanh Sơn ở chương 20.
-- Mặc Kính Nam, Phùng Hoắc Đức và Hoắc Đức là một người. Hải hoàng là Lý Đông Nguyên (chương 17), không tạo hồ sơ trùng.
+- Mặc Kính Nam, Phùng Hoắc Đức và Hoắc Đức là một người. Hải Hoàng là Lý Đông Nguyên (chương 17), không tạo hồ sơ trùng.
 - Công Tôn Trí xuất hiện ở chương 28; Ninh Nguyệt Thiền được nhắc ở chương 28 và xuất hiện ở chương 29.
 - Nhóm Lãnh Thiên Tinh hiện diện từ cuối chương 44; tên người chỉ huy được nêu ở chương 46, bốn đồng đội được gọi tên ở chương 47.
 - Bách Hoa được nhắc ở chương 54; Ngỗng Trắng xuất hiện ở chương 56; chính thức yết kiến ở chương 62; chọn kiếm ở chương 63, tên Địa kiếm ở chương 64, nhận lời bái sư ở chương 65, xác nhận đệ tử thứ tư và tên Tạ Đạo Linh ở chương 66.

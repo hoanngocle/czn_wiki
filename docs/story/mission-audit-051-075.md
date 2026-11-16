@@ -22,7 +22,7 @@ This is an externally issued challenge sequence, not a second Chiến Thần/Đ�
 
 ### Parent: đoạt bảng Kiếm / bảng Bách Hoa
 
-- 55 ¶11–15 defines the general offer: she posts varied difficult tasks; whoever solves one meets her and can request one favor. Quote 55 ¶14: “Nếu như có người phá giải được đề khó trên bảng Bách Hoa, sẽ được tiếp kiến Bách Hoa tiên tử, gặp mặt cầu xin nàng ta một việc.” Joining her sect is only a possible additional opportunity (¶15–16), not guaranteed payment.
+- 55 ¶11–15 defines the general offer: she posts varied difficult tasks; whoever solves one meets her and can request one favor. Quote 55 ¶14: “Nếu như có người phá giải được đề khó trên bảng Bách Hoa, sẽ được tiếp kiến Bách Hoa Tiên Tử, gặp mặt cầu xin nàng ta một việc.” Joining her sect is only a possible additional opportunity (¶15–16), not guaranteed payment.
 - 55 ¶32: Cố Thanh Sơn commits to taking a Bách Hoa board; 58 ¶3 explicitly selects the sword board: “Tại hạ đến đoạt bảng Kiếm.”
 - The board’s actual objective is issued by the palace maid at **60 ¶26**: “Nhiệm vụ của ngươi chính là tiến vào kiếm trận, tìm được kiếm linh.” It concerns a supposedly ancient sword array inside the Lục Ngọc screen. 60 ¶42–44 instructs him to avoid disrespecting its eleven apparent divine figures; no system penalty is stated, but the maid warns she cannot save him if he offends them.
 - 61 ¶12–75: he interrogates the statues, detects incompatible sword names/elements and exposes the fraud. 62 ¶1–6: the maid removes the fake beings and says “Chúc mừng ngươi, ngươi đã giải được cửa ải khó nhất trên bảng Kiếm.” 62 ¶22 declares that someone has obtained the sword board; ¶25–26 admits him to the saint.
@@ -59,11 +59,11 @@ This is an externally issued challenge sequence, not a second Chiến Thần/Đ�
 
 ### Đánh bại hai kiếm thị [editorial]
 
-- Issuer: Bách Hoa tiên tử. Start **63 ¶22–29** as a supplementary board requirement.
+- Issuer: Bách Hoa Tiên Tử. Start **63 ¶22–29** as a supplementary board requirement.
 - Exact conditions **63 ¶25**: both opponents suppress cultivation to Luyện Khí tầng bảy; “Trong vòng một khắc đồng hồ, nếu ngươi không thắng nổi bọn họ, bổn thánh sẽ nhận định ngươi đoạt bảng thất bại.” On failure she would notify the front and let them handle the rescue, rather than intervene herself. This is the explicit consequence, not death or a Chiến Thần penalty.
 - Completion **63 ¶54–60**: both swords knocked out of their hands; Bách Hoa confirms “Các ngươi thua cũng không oan”.
 
-### Thể hiện thực lực trước Bách Hoa tiên tử [editorial]
+### Thể hiện thực lực trước Bách Hoa Tiên Tử [editorial]
 
 - Issuer: Bách Hoa. Start **63 ¶61–65** after the attendants lose and she notices he has not used full strength. Objective: “Đấu một trận với ta bằng chính thực lực của ngươi, ta tự biết đánh giá thế nào.”
 - Demonstration **63 ¶66–76**: Cố Thanh Sơn tries Đoạn Thủy Lưu; sword shatters and she evaluates the move favorably. **Not an objective to defeat the saint**, and not an explicit standalone system quest. No deadline/penalty.

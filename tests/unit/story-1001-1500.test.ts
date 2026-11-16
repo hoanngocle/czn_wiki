@@ -76,7 +76,7 @@ describe("chapters 1001–1500", () => {
     expect(getWarGodProfile(1478).realm.value).toBe("Tinh Hà Thánh Nhân");
     const mission = (chapter: number) => getWarGodMissions(chapter).find((item) => item.id === "mission-1327-chien-than-hu-khong");
     expect(mission(1326)).toBeUndefined();
-    expect(mission(1363)?.objective).toContain("Kẻ phán xử");
+    expect(mission(1363)?.objective).toContain("Kẻ Phán Xử Vận Mệnh Chúng Sinh");
     expect(mission(1364)?.objective).toContain("Vạn Địa Chi Mẫu");
     expect(mission(1364)?.status).toBe("active");
   });

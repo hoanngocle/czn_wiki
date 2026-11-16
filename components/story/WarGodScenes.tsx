@@ -31,5 +31,5 @@ export function DivinityScene({ system, onReplay }: { system: WarGodSystemState;
 }
 
 export function TitlesScene({ system }: { system: WarGodSystemState }) {
-  return <section className={styles.messages} aria-label="Danh Hiệu Chiến Thần"><h3>Danh hiệu Chiến Thần</h3><p>Chỉ có thể trang bị một danh hiệu cùng lúc.</p><div className={styles.techniques}>{system.titles.map((title) => <article key={title.id}><h4>{title.name}</h4><p>{title.skill}</p><p>{title.description}</p><a href={`/chu-gioi-tan-the-online/html/chuong-${String(title.chapter).padStart(4, "0")}.html`}>Chương {title.chapter} ↗</a></article>)}</div></section>;
+  return <section className={styles.messages} aria-label="Danh Hiệu Chiến Thần"><h3>Danh Hiệu Chiến Thần</h3><p>Chỉ có thể trang bị một danh hiệu cùng lúc.</p><div className={styles.techniques}>{system.titles.map((title) => <article key={title.id}><h4>{title.name}</h4><p>{title.skill}</p><p>{title.description}</p><a href={`/chu-gioi-tan-the-online/html/chuong-${String(title.chapter).padStart(4, "0")}.html`}>Chương {title.chapter} ↗</a></article>)}</div></section>;
 }

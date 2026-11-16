@@ -10,7 +10,7 @@ const words = (text: string) => ` ${text.normalize("NFC").toLocaleLowerCase("vi"
 const aliases: Record<string, string[]> = {
   "bach-hoa-master": ["Tạ Đạo Linh", "Bách Hoa"], "anna-character": ["Anna"], "to-tuyet-nhi": ["Tuyết Nhi", "Tô Khả Nhi"],
   "ninh-nguyet-thien": ["Nguyệt Thiền"],
-  "sleeping-card-maiden": ["Tiểu Tịch", "Thiên sứ Đoạn Tội"], "lam-chuc-menh-gia": ["Chức Mệnh Giả", "Hình nhân bóng tối"],
+  "sleeping-card-maiden": ["Tiểu Tịch", "Thiên Sứ Đoạn Tội"], "lam-chuc-menh-gia": ["Chức Mệnh Giả", "Hình Nhân Bóng Tối"],
   "lam": ["Lam Tụ"], "thi-the-tren-tru-dong": ["Thi thể trên trụ đồng"],
   "black-sea-lady": ["Hắc Hải", "Thủy Thần"],
   "nu-phu-ta-thanh-hu-khong": ["Phi Nguyệt", "Phi Ảnh"],

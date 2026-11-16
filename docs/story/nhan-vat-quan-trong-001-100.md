@@ -24,7 +24,7 @@ Phạm vi đánh giá là phần truyện đã có dữ liệu chương 1–100.
 | Lãnh Thiên Tinh | 44 |
 | Bách Hoa Tiên Tử (Tạ Đạo Linh) | 54 |
 | Huyền Nguyên Thiên Tôn | 54 |
-| Bi Ngưỡng đại sư | 54 |
+| Bi Ngưỡng Đại Sư | 54 |
 | Ngỗng Trắng (Bạch Ánh Thiên) | 56 |
 | Địa kiếm | 63 |
 | Trương Anh Hào | 74 |

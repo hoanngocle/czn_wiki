@@ -28,23 +28,23 @@ export const extendedSkills: ProfileEntry[] = [
   { id: "bombardment", name: "Oanh Kích", chapter: 127, kind: "skill", tag: "Cung thuật", description: "Cung kỹ được xác nhận khi chiến đấu với quỷ giết người; không có số hồn lực lĩnh ngộ được nêu." },
   { id: "concealment", name: "Liễm Tức quyết", chapter: 141, kind: "skill", tag: "Bản siêu cải tiến", description: "Nhận thẻ ngọc Liễm Tức quyết do Tần Tiểu Lâu trao ở chương 135, đến chương 141 mới dùng 10 hồn lực lĩnh ngộ. Che giấu tu vi, hữu ích khi điều tra tiền tuyến." },
   { id: "spirit-seal", name: "Trận Phong linh", chapter: 142, kind: "skill", tag: "Trận pháp", description: "Dùng 12 hồn lực lĩnh ngộ từ trận bàn; bố trí hai tầng cảnh giới, quan sát nhiều hướng và báo động khi có người tới." },
-  { id: "benevolent-protection", name: "Thiện Thần Hộ Niệm", chapter: 167, kind: "skill", tag: "Bí pháp Phật môn", description: "Dùng 30 hồn lực lĩnh ngộ bí pháp được Bi Ngưỡng đại sư trao. Tự kích hoạt khi bị công kích thần hồn hoặc Thiên Ma tiếp cận, bảo hộ khỏi mê hoặc và thao túng." },
+  { id: "benevolent-protection", name: "Thiện Thần Hộ Niệm", chapter: 167, kind: "skill", tag: "Bí pháp Phật môn", description: "Dùng 30 hồn lực lĩnh ngộ bí pháp được Bi Ngưỡng Đại Sư trao. Tự kích hoạt khi bị công kích thần hồn hoặc Thiên Ma tiếp cận, bảo hộ khỏi mê hoặc và thao túng." },
   { id: "mountain-sword", name: "Khai Sơn", chapter: 168, kind: "skill", tag: "Kiếm quyết", description: "Dùng thử với danh hiệu Tướng Soái Chi Tài để kiểm chứng Kiếm Khí Tung Hoành. Đây là mốc sử dụng được xác nhận, không phải một lần trả hồn lực học mới." },
-  { id: "wind-slash", name: "Phong Trảm", chapter: 168, kind: "skill", tag: "Kiếm quyết", description: "Sử dụng khi thử tốc độ của danh hiệu Du Kích tướng quân; không nêu chi phí lĩnh ngộ mới." },
+  { id: "wind-slash", name: "Phong Trảm", chapter: 168, kind: "skill", tag: "Kiếm quyết", description: "Sử dụng khi thử tốc độ của danh hiệu Du Kích Tướng Quân; không nêu chi phí lĩnh ngộ mới." },
   { id: "flowing-cloud", name: "Lưu Vân kiếm quyết", chapter: 189, kind: "skill", tag: "Kiếm thuật · Ngự phong", description: "Trúc Cơ đỉnh phong đủ linh lực để dùng kiếm quyết chiến đấu trên không và ngự phong trong thời gian ngắn. Chương 189 xác nhận sử dụng." },
   { id: "seven-star-dragon", name: "Thất Tinh Du Long", chapter: 191, kind: "skill", tag: "Bí kiếm · Vượt cảnh giới", description: "Hệ thống ghi tiêu hết 270 hồn lực để lĩnh ngộ. Cần Kim Đan sơ cảnh để sử dụng an toàn; ở Trúc Cơ, thi triển có nguy cơ tổn thương kinh mạch. Việc học bí kiếm không đồng nghĩa đã lên Kim Đan." },
 ];
 export const extendedInventory: ProfileEntry[] = [
   { id: "trial-seal", name: "Con dấu Đệ Nhất Danh", chapter: 114, until: 116, kind: "material", tag: "Tuế thí", description: "Nhận con dấu linh ngọc dành cho người đứng đầu Tuế thí." },
   { id: "demon-arrows", name: "Phá Ma tiễn", chapter: 137, until: 148, kind: "material", tag: "Tên phá ma", description: "Đổi quyền nhận hai binh khí lấy năm mũi tên làm từ thiên thạch. Số lượng giảm theo các lần chiến đấu, không coi năm là số dư liên tục." },
-  { id: "demon-arrows-refill", name: "Hai hộp Phá Ma tiễn", chapter: 167, kind: "material", tag: "Tiếp tế quân đội", description: "Nhận thêm hai hộp Phá Ma tiễn cùng trang bị Du Kích tướng quân. Không có số mũi tên còn lại được xác nhận liên tục." },
+  { id: "demon-arrows-refill", name: "Hai hộp Phá Ma tiễn", chapter: 167, kind: "material", tag: "Tiếp tế quân đội", description: "Nhận thêm hai hộp Phá Ma tiễn cùng trang bị Du Kích Tướng Quân. Không có số mũi tên còn lại được xác nhận liên tục." },
   { id: "hundred-saints", name: "Bách Thánh Kết Đan quyết", chapter: 135, kind: "manual", tag: "Công pháp Bách Hoa", description: "Sư phụ truyền pháp quyết giúp linh lực vượt công pháp thông thường hơn hai mươi phần trăm. Nhận thẻ ngọc ở chương 135, lúc đó chưa đủ hồn lực để học." },
   { id: "concealment-manual", name: "Thẻ ngọc Liễm Tức quyết", chapter: 135, kind: "manual", tag: "Bản siêu cải tiến", description: "Nhận từ Tần Tiểu Lâu. Hệ thống báo giá 10 hồn lực; lúc nhận chưa lĩnh ngộ." },
   { id: "death-token", name: "Tín vật Tử Thần", chapter: 199, kind: "material", tag: "Anna trao lại", description: "Anna chọn gia nhập nhóm và trao lại tín vật cho Thanh Sơn. Ghi nhận lần nhận lại ở chương 199." },
 ];
 export const extendedEquipment: ProfileEntry[] = [
   { id: "cavalry-armor", name: "Chiến giáp Kiêu Kỵ", chapter: 136, until: 166, kind: "weapon", tag: "Linh Khí · Chiến giáp", description: "Bộ giáp đen chữ đỏ được cấp khi báo danh tiền tuyến. Hồ sơ ghi nhận trang bị, không suy đoán độ bền còn lại." },
-  { id: "guerrilla-armor", name: "Kim giáp Du Kích tướng quân", chapter: 166, kind: "weapon", tag: "Quân hàm Du Kích", description: "Được thưởng khi thăng Du Kích tướng quân, thay trang bị Kiêu Kỵ." },
+  { id: "guerrilla-armor", name: "Kim giáp Du Kích Tướng Quân", chapter: 166, kind: "weapon", tag: "Quân hàm Du Kích", description: "Được thưởng khi thăng Du Kích Tướng Quân, thay trang bị Kiêu Kỵ." },
 ];
 export const extendedJournal: JournalEntry[] = [
   { chapter: 103, title: "Kiếm đạo tiến bộ", description: "Tự khôi phục 1.106 môn kiếm thuật dưới sự chỉ dẫn của Bách Hoa." },
@@ -53,7 +53,7 @@ export const extendedJournal: JournalEntry[] = [
   { chapter: 134, title: "Quyết chiến và Danh Hiệu", description: "Nhận nửa đầu nhiệm vụ Vận Mệnh; được mở trước chức năng Danh Hiệu Chiến Thần." },
   { chapter: 141, title: "Học pháp quyết tại tiền tuyến", description: "Lĩnh ngộ Liễm Tức quyết và phần Trúc Cơ trung kỳ của Bách Thánh Kết Đan quyết." },
   { chapter: 142, title: "Trúc Cơ hậu kỳ", description: "Đột phá liên tục, học trận Phong linh; Kỹ nghệ Chiến Thần bước vào thời kỳ đông lạnh." },
-  { chapter: 166, title: "Du Kích tướng quân", description: "Được thăng quân hàm, vượt yêu cầu Giáo úy của nhiệm vụ." },
+  { chapter: 166, title: "Du Kích Tướng Quân", description: "Được thăng quân hàm, vượt yêu cầu Giáo úy của nhiệm vụ." },
   { chapter: 167, title: "Quyết chiến (thượng) hoàn thành", description: "Hệ thống xác nhận hoàn thành vượt mức, ban danh hiệu mới và bảy ngày ở thế giới thực; học Thiện Thần Hộ Niệm." },
   { chapter: 189, title: "Trúc Cơ đỉnh phong", description: "Dùng 50 hồn lực lĩnh ngộ công pháp; hệ thống mở yêu cầu nâng cấp thần thông." },
   { chapter: 190, title: "Ba thuốc thức tỉnh", description: "Cần ba thuốc độ tinh khiết 99% để nâng Tru Tà; giới hạn hồn lực được nói là tăng thêm 40, chưa nêu tổng mới." },
@@ -68,7 +68,7 @@ export const extendedMissions: Mission[] = [
     objective: "Trong giai đoạn đầu cuộc quyết chiến, thăng quân hàm lên Giáo úy Chiêu Vũ.",
     events: [
       { chapter: 134, paragraphs: "40–55", text: "Hệ thống mở nhiệm vụ Vận Mệnh Quyết chiến, công bố yêu cầu nửa đầu và trao trước Danh Hiệu Chiến Thần.", status: "active" },
-      { chapter: 166, paragraphs: "25–35", text: "Được thăng Du Kích tướng quân, vượt yêu cầu quân hàm; tại chương này chưa có thông báo hệ thống hoàn thành." },
+      { chapter: 166, paragraphs: "25–35", text: "Được thăng Du Kích Tướng Quân, vượt yêu cầu quân hàm; tại chương này chưa có thông báo hệ thống hoàn thành." },
       { chapter: 167, paragraphs: "36–44", text: "Hệ thống xác nhận Quyết chiến (thượng) hoàn thành vượt mức; ban thêm danh hiệu và bảy ngày ở thế giới thực.", status: "completed" },
       { chapter: 168, paragraphs: "22–26", text: "Nửa sau chưa được phát; không tạo nhiệm vụ mới khi hệ thống chưa công bố mục tiêu." },
     ],
